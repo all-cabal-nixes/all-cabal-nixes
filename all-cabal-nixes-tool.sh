@@ -10,7 +10,21 @@ process_version() {
     local version
     version="$(basename "$version_dir")"
 
-    echo "    - about to generate version $version, $package_name, $version_dir ..."
+    local cabal_file="${version_dir}/${package_name}.cabal"
+    local json_file="${version_dir}/${package_name}.json"
+    local nix_file_dir="./${package_name}/${version}"
+    local nix_file="${nix_file_dir}/default.nix"
+
+    echo -n "    - about to generate version $version, $package_name, $version_dir ... "
+
+    mkdir -p "$nix_file_dir"
+
+    local sha256
+    sha256="$(sed -e 's/.*"SHA256":"//' -e 's/".*$//' "${json_file}")"
+
+    cabal2nix --sha256="${sha256}" "${cabal_file}" > "${nix_file_dir}/default.nix"
+
+    echo "generated version ${nix_file}"
 }
 
 process_package() {
@@ -18,12 +32,14 @@ process_package() {
     local package_name
     package_name="$(basename "$package_dir")"
 
-    echo "processing package: $package_name"
+    echo "processing package: $package_name, $package_dir"
 
-    local version_dir
-    find "$package_dir" -type d -maxdepth 1 -print0 |
-    while IFS= read -r -d '' version_dir; do process_version "$package_name" "$version_dir" ; done
+    local verdir
+    find "$package_dir" -maxdepth 1 -mindepth 1 -type d -print0 |
+        sort -z -n |
+        while IFS= read -r -d '' verdir; do process_version "$package_name" "$verdir" ; done
 }
 
-find "$path_to_all_cabal_hashes" -type d -maxdepth 1 -print0 |
-while IFS= read -r -d '' pkgdir; do process_package "$pkgdir" ; done
+find "$path_to_all_cabal_hashes" -maxdepth 1 -mindepth 1 -name .git -prune -o -type d -print0 |
+    sort -z |
+    while IFS= read -r -d '' pkgdir; do process_package "$pkgdir" ; done
