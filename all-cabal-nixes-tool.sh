@@ -7,6 +7,14 @@ path_to_all_cabal_hashes="../all-cabal-hashes/"
 cabal2nix_tmp_output_stdout="$(mktemp)"
 cabal2nix_tmp_output_stderr="$(mktemp)"
 
+sed_tmp_output_stdout="$(mktemp)"
+sed_tmp_output_stderr="$(mktemp)"
+
+error_log_file="./error-log.txt"
+
+# clear out error log before running
+: > "$error_log_file"
+
 process_version() {
     local package_name="$1"
     local version_dir="$2"
@@ -18,25 +26,32 @@ process_version() {
     local nix_file_dir="./${package_name}/${version}"
     local nix_file="${nix_file_dir}/default.nix"
 
-    echo -n "    - about to generate version $version, $package_name, $version_dir ... "
+    echo -n "    - will generate ${package_name}-${version} from $version_dir ... "
 
     mkdir -p "$nix_file_dir"
 
-    local sha256
-    sha256="$(sed -e 's/.*"SHA256":"//' -e 's/".*$//' "${json_file}")"
+    if sed -e 's/.*"SHA256":"//' -e 's/".*$//' "${json_file}" > "${sed_tmp_output_stdout}" 2>"${sed_tmp_output_stderr}"; then
+        # If getting the sha256 succeeds, then continue on with actually calling cabal2nix
+        if cabal2nix --sha256="$(< "$sed_tmp_output_stdout")" "${cabal_file}" > "${cabal2nix_tmp_output_stdout}" 2>"${cabal2nix_tmp_output_stderr}" ; then
+            # We succeeded in generating the .nix file from the .cabal file.
+            # Just copy over the output .nix to where it is expected to be.
+            cp "$cabal2nix_tmp_output_stdout" "${nix_file_dir}/default.nix"
+            echo "generated ${nix_file}"
+        else
+            # cabal2nix failed for some reason.  Log the error and continue
+            echo "failed when running cabal2nix on ${cabal_file}.  Error output from cabal2nix: " >> "$error_log_file"
+            cat "$cabal2nix_tmp_output_stderr" >> "$error_log_file"
+            echo >> "$error_log_file"
+            echo >> "$error_log_file"
 
-    # if cabal2nix --sha256="${sha256}" "${cabal_file}" > "${nix_file_dir}/default.nix"
-    if cabal2nix --sha256="${sha256}" "${cabal_file}" > "${cabal2nix_tmp_output_stdout}" 2>"${cabal2nix_tmp_output_stderr}" ; then
-        # We succeeded in generating the .nix file from the .cabal file.
-        # Just copy over the output .nix to where it is expected to be.
-        cp "$cabal2nix_tmp_output_stdout" "${nix_file_dir}/default.nix"
-        echo "generated version ${nix_file}"
+            echo "FAILED to generate"
+        fi
     else
-        # cabal2nix failed for some reason.  Log the error.
-        echo "failed when running cabal2nix on ${cabal_file}.  Error output from cabal2nix: " >> error-log
-        cat "$cabal2nix_tmp_output_stderr" >> error-log
-        echo >> error-log
-        echo >> error-log
+        # If getting the sha256 doesn't succeed for some reason, then log the error and continue
+        echo "failed when running sed to get sha256 on ${json_file}.  Error output from sed: " >> "$error_log_file"
+        cat "$sed_tmp_output_stderr" >> "$error_log_file"
+        echo >> "$error_log_file"
+        echo >> "$error_log_file"
 
         echo "FAILED to generate"
     fi
