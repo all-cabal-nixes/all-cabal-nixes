@@ -1,0 +1,20 @@
+{ mkDerivation, aeson, base, bytestring, directory, hspec, lib
+, primitive, QuickCheck, quickcheck-unicode, scientific, text
+, unordered-containers, vector
+}:
+mkDerivation {
+  pname = "json-stream";
+  version = "0.4.4.2";
+  sha256 = "54cdeb969e428d06dedcfded2cae134ea17812849d335b603829cfdbd084ac8b";
+  libraryHaskellDepends = [
+    aeson base bytestring primitive scientific text
+    unordered-containers vector
+  ];
+  testHaskellDepends = [
+    aeson base bytestring directory hspec primitive QuickCheck
+    quickcheck-unicode scientific text unordered-containers vector
+  ];
+  homepage = "https://github.com/ondrap/json-stream";
+  description = "Incremental applicative JSON parser";
+  license = lib.licenses.bsd3;
+}

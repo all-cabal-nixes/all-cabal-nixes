@@ -1,0 +1,24 @@
+{ mkDerivation, array, base, binary, containers, data-default
+, filepath, hashable, hspec, lib, microlens-platform, pointedlist
+, QuickCheck, regex-base, regex-tdfa, template-haskell, text
+, transformers-base, unordered-containers, yi-core, yi-language
+, yi-rope
+}:
+mkDerivation {
+  pname = "yi-mode-haskell";
+  version = "0.13.1";
+  sha256 = "55e78a4323eec19aab49d473fa9b5a874cb56e8bbb137756b8048696b75bab9e";
+  libraryHaskellDepends = [
+    array base binary data-default microlens-platform text yi-core
+    yi-language yi-rope
+  ];
+  testHaskellDepends = [
+    array base binary containers data-default filepath hashable hspec
+    microlens-platform pointedlist QuickCheck regex-base regex-tdfa
+    template-haskell text transformers-base unordered-containers
+    yi-core yi-language yi-rope
+  ];
+  homepage = "https://github.com/yi-editor/yi#readme";
+  description = "Yi editor haskell mode";
+  license = lib.licenses.gpl2Only;
+}

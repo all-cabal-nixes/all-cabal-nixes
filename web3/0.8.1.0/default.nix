@@ -1,0 +1,32 @@
+{ mkDerivation, aeson, async, base, basement, bytestring, cereal
+, cryptonite, data-default, exceptions, generics-sop, hspec
+, hspec-contrib, hspec-discover, hspec-expectations, http-client
+, http-client-tls, lib, machines, memory, microlens
+, microlens-aeson, microlens-mtl, microlens-th, mtl, OneTuple
+, parsec, random, relapse, secp256k1-haskell, split, stm, tagged
+, template-haskell, text, time, transformers, vinyl
+}:
+mkDerivation {
+  pname = "web3";
+  version = "0.8.1.0";
+  sha256 = "46647145b9b7dae9d95a825d8cb0d4026d243e5af97eae153f9f5abae2c0912a";
+  libraryHaskellDepends = [
+    aeson async base basement bytestring cereal cryptonite data-default
+    exceptions generics-sop http-client http-client-tls machines memory
+    microlens microlens-aeson microlens-mtl microlens-th mtl OneTuple
+    parsec relapse secp256k1-haskell tagged template-haskell text
+    transformers vinyl
+  ];
+  testHaskellDepends = [
+    aeson async base basement bytestring cereal cryptonite data-default
+    exceptions generics-sop hspec hspec-contrib hspec-discover
+    hspec-expectations http-client http-client-tls machines memory
+    microlens microlens-aeson microlens-mtl microlens-th mtl OneTuple
+    parsec random relapse secp256k1-haskell split stm tagged
+    template-haskell text time transformers vinyl
+  ];
+  testToolDepends = [ hspec-discover ];
+  homepage = "https://github.com/airalab/hs-web3#readme";
+  description = "Ethereum API for Haskell";
+  license = lib.licenses.bsd3;
+}

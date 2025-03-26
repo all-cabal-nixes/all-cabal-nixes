@@ -1,0 +1,17 @@
+{ mkDerivation, base, data-default-class
+, data-default-instances-base, data-default-instances-containers
+, data-default-instances-dlist, data-default-instances-old-locale
+, lib
+}:
+mkDerivation {
+  pname = "data-default";
+  version = "0.7.0";
+  sha256 = "933b52b2477edbaaf2569a2bc76d4df8cf6fb52dc5e345ce18a76630423cb077";
+  libraryHaskellDepends = [
+    base data-default-class data-default-instances-base
+    data-default-instances-containers data-default-instances-dlist
+    data-default-instances-old-locale
+  ];
+  description = "A class for types with a default value";
+  license = lib.licenses.bsd3;
+}

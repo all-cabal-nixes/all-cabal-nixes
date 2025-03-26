@@ -1,0 +1,22 @@
+{ mkDerivation, aeson, aeson-gadt-th, base, bytestring
+, constraints-extras, containers, data-default, dependent-sum
+, jsaddle, lib, reflex, reflex-dom-core, some, text, time
+}:
+mkDerivation {
+  pname = "reflex-gadt-api";
+  version = "0.2.2.2";
+  sha256 = "652094d05fed02350b7d32eed39ff5477c99a87f2810507e51d177137461cabf";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    aeson aeson-gadt-th base bytestring constraints-extras containers
+    data-default jsaddle reflex reflex-dom-core some text time
+  ];
+  executableHaskellDepends = [
+    aeson aeson-gadt-th base constraints-extras dependent-sum
+    reflex-dom-core text time
+  ];
+  description = "Interact with a GADT API in your reflex-dom application";
+  license = lib.licenses.bsd3;
+  mainProgram = "readme";
+}

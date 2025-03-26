@@ -1,0 +1,28 @@
+{ mkDerivation, array, async, base, base16-bytestring, bytestring
+, containers, crypto-token, crypton, crypton-x509
+, crypton-x509-system, data-default-class, fast-logger, filepath
+, hspec, hspec-discover, iproute, lib, memory, network
+, network-byte-order, network-control, network-udp, QuickCheck
+, random, stm, tls, unix-time, unliftio, unliftio-core
+}:
+mkDerivation {
+  pname = "quic";
+  version = "0.1.11";
+  sha256 = "e79d53bf11c6b2c5b02da1ff19f15e95e5c637a8fa9865dba365029629aa0812";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    array base base16-bytestring bytestring containers crypto-token
+    crypton crypton-x509 crypton-x509-system data-default-class
+    fast-logger filepath iproute memory network network-byte-order
+    network-control network-udp random stm tls unix-time unliftio
+    unliftio-core
+  ];
+  testHaskellDepends = [
+    async base base16-bytestring bytestring containers crypton hspec
+    network network-udp QuickCheck tls unix-time unliftio
+  ];
+  testToolDepends = [ hspec-discover ];
+  description = "QUIC";
+  license = lib.licenses.bsd3;
+}

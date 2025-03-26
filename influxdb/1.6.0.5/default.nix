@@ -1,0 +1,27 @@
+{ mkDerivation, aeson, attoparsec, base, bytestring, Cabal
+, cabal-doctest, clock, containers, doctest, foldl, http-client
+, http-types, HUnit, lens, lib, mtl, network, optional-args
+, QuickCheck, scientific, tagged, tasty, tasty-hunit
+, tasty-quickcheck, tasty-th, template-haskell, text, time
+, unordered-containers, vector
+}:
+mkDerivation {
+  pname = "influxdb";
+  version = "1.6.0.5";
+  sha256 = "b4002f00e76a9210dbc9e530e8a55b052f17ecec70320bb45e796fd3d82e8ce2";
+  isLibrary = true;
+  isExecutable = true;
+  setupHaskellDepends = [ base Cabal cabal-doctest ];
+  libraryHaskellDepends = [
+    aeson attoparsec base bytestring clock containers foldl http-client
+    http-types lens network optional-args scientific tagged text time
+    unordered-containers vector
+  ];
+  testHaskellDepends = [
+    base doctest http-client HUnit mtl QuickCheck tasty tasty-hunit
+    tasty-quickcheck tasty-th template-haskell text vector
+  ];
+  homepage = "https://github.com/maoe/influxdb-haskell";
+  description = "Haskell client library for InfluxDB";
+  license = lib.licenses.bsd3;
+}

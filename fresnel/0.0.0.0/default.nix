@@ -1,0 +1,20 @@
+{ mkDerivation, ansi-terminal, base, containers, fused-effects
+, hashable, lib, profunctors, QuickCheck, template-haskell
+, transformers, unordered-containers
+}:
+mkDerivation {
+  pname = "fresnel";
+  version = "0.0.0.0";
+  sha256 = "404edfcba3fa6c0c170c602c68a5990f6ba6c436923426a078977e1414e6656d";
+  libraryHaskellDepends = [
+    base containers hashable profunctors transformers
+    unordered-containers
+  ];
+  testHaskellDepends = [
+    ansi-terminal base containers fused-effects QuickCheck
+    template-haskell
+  ];
+  homepage = "https://github.com/fresnel/fresnel";
+  description = "high-powered optics in a small package";
+  license = lib.licenses.bsd3;
+}

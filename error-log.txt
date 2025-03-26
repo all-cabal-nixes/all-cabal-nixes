@@ -1,0 +1,958 @@
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/0.1.6.13/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.1/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.10/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.11/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.12/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.13/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.14/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.15/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.16/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.18/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.19/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.2/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.20/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.21/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.22/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.23/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.24/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.25/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.26/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.28/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.29/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.3/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.30/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.4/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.5/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.6/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.7/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.8/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gst/1.0.9/gi-gst.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gstreamer") (Path [Identifier "null"]) by Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gstreamer"]) because it's not found in set fromList [Bind (Identifier "gstreamer") (Path [Identifier "pkgs",Identifier "gstreamer"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/0.1.6.13/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.1/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.10/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.11/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.12/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.13/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.14/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.15/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.17/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.18/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.19/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.2/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.20/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.21/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.22/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.23/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.24/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.25/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.27/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.28/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.3/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.4/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.5/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.6/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.7/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.8/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstaudio/1.0.9/gi-gstaudio.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/0.1.6.13/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.1/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.10/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.11/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.12/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.13/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.14/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.15/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.16/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.18/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.19/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.2/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.20/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.21/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.22/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.23/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.24/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.25/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.26/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.28/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.29/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.3/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.4/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.5/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.6/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.7/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.8/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstbase/1.0.9/gi-gstbase.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/0.1.6.13/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.1/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.10/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.11/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.12/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.13/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.14/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.15/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.16/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.18/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.19/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.2/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.20/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.21/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.22/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.23/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.24/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.25/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.26/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.28/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.29/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.3/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.4/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.5/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.6/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.7/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.8/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/gi-gstvideo/1.0.9/gi-gstvideo.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "gst-plugins-base") (Path [Identifier "null"]) by Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst_all_1",Identifier "gst-plugins-base"]) because it's not found in set fromList [Bind (Identifier "gst-plugins-base") (Path [Identifier "pkgs",Identifier "gst-plugins-base"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running sed to get sha256 on ../all-cabal-hashes/hermes/1.3.4.3/hermes.json.  Error output from sed: 
+sed: can't read ../all-cabal-hashes/hermes/1.3.4.3/hermes.json: No such file or directory
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.1/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.2/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.10/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.11/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.12/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.13/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.2/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.3/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.4/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.5/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.6/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.6.1/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.7/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.8/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/hslua/0.3.9/hslua.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "lua") (Path [Identifier "pkgs",Identifier "lua"]) by Bind (Identifier "lua5_1") (Path [Identifier "pkgs",Identifier "lua5_1"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/libconfig/0.1.0.0/libconfig.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "config") (Path [Identifier "null"]) by Bind (Identifier "libconfig") (Path [Identifier "pkgs",Identifier "libconfig"]) because it's not found in set fromList [Bind (Identifier "config") (Path [Identifier "pkgs",Identifier "config"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/libconfig/0.2.0.0/libconfig.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "config") (Path [Identifier "null"]) by Bind (Identifier "libconfig") (Path [Identifier "pkgs",Identifier "libconfig"]) because it's not found in set fromList [Bind (Identifier "config") (Path [Identifier "pkgs",Identifier "config"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/libconfig/0.3.0.0/libconfig.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "config") (Path [Identifier "null"]) by Bind (Identifier "libconfig") (Path [Identifier "pkgs",Identifier "libconfig"]) because it's not found in set fromList [Bind (Identifier "config") (Path [Identifier "pkgs",Identifier "config"])]
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1.1/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1.2/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1.3/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1.4/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1.5/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1.6/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1.7/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.1.8/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.2.1/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.3/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.3.1/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.3.2/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.3.3/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.3.4/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.1.4/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.1/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.2/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.2.1/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.3/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.3.1/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.3.2/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.3.3/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.3.4/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.3.5/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+
+failed when running cabal2nix on ../all-cabal-hashes/zip-archive/0.2.3.6/zip-archive.cabal.  Error output from cabal2nix: 
+cabal2nix: post-process: cannot replace name binding Bind (Identifier "zip") (Path [Identifier "self",Identifier "zip"]) by Bind (Identifier "zip") (Path [Identifier "pkgs",Identifier "zip"]) because it's not found in set fromList []
+CallStack (from HasCallStack):
+  error, called at src/Distribution/Nixpkgs/Haskell/FromCabal/PostProcess.hs:211:27 in cabal2nix-2.19.1-2Xhk8y7AoxGDHZPBS0CWBa:Distribution.Nixpkgs.Haskell.FromCabal.PostProcess
+
+

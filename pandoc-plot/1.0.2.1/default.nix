@@ -1,0 +1,34 @@
+{ mkDerivation, base, bytestring, containers, criterion
+, data-default, directory, filepath, githash, hashable, hspec
+, hspec-expectations, lib, lifted-async, lifted-base, mtl
+, optparse-applicative, pandoc, pandoc-types, shakespeare, tagsoup
+, tasty, tasty-hspec, tasty-hunit, template-haskell, text
+, typed-process, yaml
+}:
+mkDerivation {
+  pname = "pandoc-plot";
+  version = "1.0.2.1";
+  sha256 = "51aef746ac084600b729fb5f556bf7120791f661608b01ebcdbfffd00c6c217a";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    base bytestring containers data-default directory filepath hashable
+    lifted-async lifted-base mtl pandoc pandoc-types shakespeare
+    tagsoup template-haskell text typed-process yaml
+  ];
+  executableHaskellDepends = [
+    base containers directory filepath githash optparse-applicative
+    pandoc pandoc-types template-haskell text typed-process
+  ];
+  testHaskellDepends = [
+    base containers directory filepath hspec hspec-expectations
+    pandoc-types tasty tasty-hspec tasty-hunit text
+  ];
+  benchmarkHaskellDepends = [
+    base criterion pandoc-types template-haskell text
+  ];
+  homepage = "https://github.com/LaurentRDC/pandoc-plot#readme";
+  description = "A Pandoc filter to include figures generated from code blocks using your plotting toolkit of choice";
+  license = lib.licenses.gpl2Plus;
+  mainProgram = "pandoc-plot";
+}

@@ -1,0 +1,25 @@
+{ mkDerivation, ansi-terminal, async, base, bytestring, containers
+, directory, filepath, hslogger, IfElse, lib, MissingH
+, MonadCatchIO-transformers, mtl, network, process, QuickCheck
+, time, unix, unix-compat
+}:
+mkDerivation {
+  pname = "propellor";
+  version = "0.5.0";
+  sha256 = "3037583e64795c14b4bacc70dc388b13615f79bd951d6d57778dd2a0bf4eb5fd";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    ansi-terminal async base bytestring containers directory filepath
+    hslogger IfElse MissingH MonadCatchIO-transformers mtl network
+    process QuickCheck time unix unix-compat
+  ];
+  executableHaskellDepends = [
+    ansi-terminal async base bytestring containers directory filepath
+    hslogger IfElse MissingH MonadCatchIO-transformers mtl network
+    process QuickCheck time unix unix-compat
+  ];
+  homepage = "https://propellor.branchable.com/";
+  description = "property-based host configuration management in haskell";
+  license = "GPL";
+}

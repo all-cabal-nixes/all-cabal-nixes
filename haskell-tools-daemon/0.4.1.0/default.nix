@@ -1,0 +1,26 @@
+{ mkDerivation, aeson, base, bytestring, containers, directory
+, filepath, ghc, ghc-paths, haskell-tools-ast
+, haskell-tools-prettyprint, haskell-tools-refactor, HUnit, lib
+, mtl, network, references, split, tasty, tasty-hunit
+}:
+mkDerivation {
+  pname = "haskell-tools-daemon";
+  version = "0.4.1.0";
+  sha256 = "b028a4c3e9a0701e563d1c12b45fe7bfdad1705232f4170cc23632967437de2c";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    aeson base bytestring containers directory filepath ghc ghc-paths
+    haskell-tools-ast haskell-tools-prettyprint haskell-tools-refactor
+    mtl network references split
+  ];
+  executableHaskellDepends = [ base ];
+  testHaskellDepends = [
+    aeson base bytestring directory filepath HUnit network tasty
+    tasty-hunit
+  ];
+  homepage = "https://github.com/haskell-tools/haskell-tools";
+  description = "Background process for Haskell-tools refactor that editors can connect to";
+  license = lib.licenses.bsd3;
+  mainProgram = "ht-daemon";
+}

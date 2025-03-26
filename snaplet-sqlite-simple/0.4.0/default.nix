@@ -1,0 +1,27 @@
+{ mkDerivation, base, bytestring, clientsession, configurator
+, containers, direct-sqlite, directory, errors, HUnit, lens, lib
+, MonadCatchIO-transformers, mtl, resource-pool-catchio, snap
+, snap-core, sqlite-simple, stm, test-framework
+, test-framework-hunit, text, time, transformers
+, unordered-containers
+}:
+mkDerivation {
+  pname = "snaplet-sqlite-simple";
+  version = "0.4.0";
+  sha256 = "a066a8f2240ce093a7bd91e8d2565bcb4f47025644c82911048ae007543e40f1";
+  enableSeparateDataOutput = true;
+  libraryHaskellDepends = [
+    base bytestring clientsession configurator direct-sqlite
+    MonadCatchIO-transformers mtl resource-pool-catchio snap
+    sqlite-simple text transformers unordered-containers
+  ];
+  testHaskellDepends = [
+    base bytestring clientsession configurator containers directory
+    errors HUnit lens MonadCatchIO-transformers mtl snap snap-core
+    sqlite-simple stm test-framework test-framework-hunit text time
+    transformers
+  ];
+  homepage = "https://github.com/nurpax/snaplet-sqlite-simple";
+  description = "sqlite-simple snaplet for the Snap Framework";
+  license = lib.licenses.bsd3;
+}

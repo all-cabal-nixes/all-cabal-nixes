@@ -1,0 +1,29 @@
+{ mkDerivation, aeson, base, bytestring, citeproc, containers
+, data-default, directory, doclayout, doctemplates, exceptions
+, filepath, hslua, hslua-module-doclayout, hslua-module-path
+, hslua-module-system, hslua-module-text, hslua-module-version
+, hslua-module-zip, hslua-repl, lib, lpeg, mtl, pandoc
+, pandoc-lua-marshal, pandoc-types, parsec, SHA, tasty
+, tasty-golden, tasty-hunit, tasty-lua, text
+}:
+mkDerivation {
+  pname = "pandoc-lua-engine";
+  version = "0.2.1.2";
+  sha256 = "fb7d5a75c78345a373bde00730607759e3aef8fa98800773e64be4608421a51a";
+  revision = "1";
+  editedCabalFile = "1n4pzfaiqyfxsnv5svh756ras9c86xn1p82z8qf94n80sgla3bb2";
+  libraryHaskellDepends = [
+    aeson base bytestring citeproc containers data-default doclayout
+    doctemplates exceptions hslua hslua-module-doclayout
+    hslua-module-path hslua-module-system hslua-module-text
+    hslua-module-version hslua-module-zip hslua-repl lpeg mtl pandoc
+    pandoc-lua-marshal pandoc-types parsec SHA text
+  ];
+  testHaskellDepends = [
+    base bytestring data-default directory exceptions filepath hslua
+    pandoc pandoc-types tasty tasty-golden tasty-hunit tasty-lua text
+  ];
+  homepage = "https://pandoc.org";
+  description = "Lua engine to power custom pandoc conversions";
+  license = lib.licenses.gpl2Plus;
+}

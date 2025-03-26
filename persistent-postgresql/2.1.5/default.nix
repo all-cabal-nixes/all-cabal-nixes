@@ -1,0 +1,18 @@
+{ mkDerivation, aeson, base, blaze-builder, bytestring, conduit
+, containers, lib, monad-control, monad-logger, persistent
+, postgresql-libpq, postgresql-simple, resourcet, text, time
+, transformers
+}:
+mkDerivation {
+  pname = "persistent-postgresql";
+  version = "2.1.5";
+  sha256 = "518bcaee89ae5b5d375bbbf37eea58b9a672d76a020c588a87ea75ea059f22d0";
+  libraryHaskellDepends = [
+    aeson base blaze-builder bytestring conduit containers
+    monad-control monad-logger persistent postgresql-libpq
+    postgresql-simple resourcet text time transformers
+  ];
+  homepage = "http://www.yesodweb.com/book/persistent";
+  description = "Backend for the persistent library using postgresql";
+  license = lib.licenses.mit;
+}

@@ -1,0 +1,32 @@
+{ mkDerivation, ansi-terminal, array, base, binary, bytestring
+, Cabal-syntax, containers, deepseq, Diff, directory, file-embed
+, filepath, ghc-lib-parser, hspec, hspec-discover, hspec-megaparsec
+, lib, megaparsec, MemoTrie, mtl, optparse-applicative, path
+, path-io, QuickCheck, syb, temporary, text, th-env
+}:
+mkDerivation {
+  pname = "ormolu";
+  version = "0.7.1.0";
+  sha256 = "3b1aa5d822eab18faa4845ee8479a70cba0277f5fcaf547f26891aed5797b79c";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    ansi-terminal array base binary bytestring Cabal-syntax containers
+    deepseq Diff directory file-embed filepath ghc-lib-parser
+    megaparsec MemoTrie mtl syb text
+  ];
+  executableHaskellDepends = [
+    base Cabal-syntax containers directory filepath ghc-lib-parser
+    optparse-applicative text th-env
+  ];
+  testHaskellDepends = [
+    base Cabal-syntax containers directory filepath ghc-lib-parser
+    hspec hspec-megaparsec megaparsec path path-io QuickCheck temporary
+    text
+  ];
+  testToolDepends = [ hspec-discover ];
+  homepage = "https://github.com/tweag/ormolu";
+  description = "A formatter for Haskell source code";
+  license = lib.licenses.bsd3;
+  mainProgram = "ormolu";
+}

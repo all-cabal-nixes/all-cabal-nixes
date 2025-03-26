@@ -1,0 +1,29 @@
+{ mkDerivation, aeson, attoparsec, attoparsec-conduit, base
+, blaze-builder, bytestring, conduit, containers, data-default
+, http-conduit, http-types, HUnit, lib, lifted-base, monad-control
+, QuickCheck, syb, test-framework, test-framework-hunit
+, test-framework-quickcheck2, text, transformers, transformers-base
+, unordered-containers, utf8-string
+}:
+mkDerivation {
+  pname = "couchdb-conduit";
+  version = "0.1.2.0";
+  sha256 = "e8b435a2cb4a049efcd9972c5bfbf9174066ef798a129d86574a4f60bb9fbe2c";
+  enableSeparateDataOutput = true;
+  libraryHaskellDepends = [
+    aeson attoparsec attoparsec-conduit base blaze-builder bytestring
+    conduit containers data-default http-conduit http-types lifted-base
+    monad-control syb text transformers transformers-base
+    unordered-containers utf8-string
+  ];
+  testHaskellDepends = [
+    aeson attoparsec attoparsec-conduit base blaze-builder bytestring
+    conduit containers http-conduit http-types HUnit lifted-base
+    monad-control QuickCheck syb test-framework test-framework-hunit
+    test-framework-quickcheck2 text transformers transformers-base
+    unordered-containers utf8-string
+  ];
+  homepage = "https://github.com/akaspin/couchdb-conduit";
+  description = "Couch DB client library using http-conduit and aeson";
+  license = lib.licenses.bsd3;
+}

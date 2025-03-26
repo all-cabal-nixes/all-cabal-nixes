@@ -1,0 +1,30 @@
+{ mkDerivation, attoparsec, base, blaze-builder, bytestring
+, case-insensitive, either, http-date, http-media, http-types, lib
+, lifted-base, monad-control, mtl, network, old-locale, random
+, tasty, tasty-hunit, tasty-quickcheck, text, time, transformers
+, transformers-base, unordered-containers, wai, warp
+}:
+mkDerivation {
+  pname = "airship";
+  version = "0.1.0.0";
+  sha256 = "264cdf3b3b17d318c071c844da28c930726c1a937788c8194c48430b3daf2975";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    attoparsec base blaze-builder bytestring case-insensitive either
+    http-date http-media http-types lifted-base monad-control mtl
+    network old-locale random text time transformers transformers-base
+    unordered-containers wai
+  ];
+  executableHaskellDepends = [
+    base blaze-builder bytestring http-types mtl text time
+    unordered-containers wai warp
+  ];
+  testHaskellDepends = [
+    base bytestring tasty tasty-hunit tasty-quickcheck text
+    transformers wai
+  ];
+  description = "A Webmachine-inspired HTTP library";
+  license = lib.licenses.mit;
+  mainProgram = "airship-example";
+}

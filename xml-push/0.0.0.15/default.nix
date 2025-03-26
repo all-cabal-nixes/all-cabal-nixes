@@ -1,0 +1,19 @@
+{ mkDerivation, base, bytestring, crypto-random, handle-like, lib
+, monad-control, monads-tf, peyotls, random, sasl, simple-pipe, stm
+, tighttp, transformers-base, uuid, x509, x509-store
+, x509-validation, xml-pipe, xmpipe
+}:
+mkDerivation {
+  pname = "xml-push";
+  version = "0.0.0.15";
+  sha256 = "8e2c0b105fc2e837e8cebb43c3cfe1359289ced7114ae8629d8f77e29fd9ced5";
+  enableSeparateDataOutput = true;
+  libraryHaskellDepends = [
+    base bytestring crypto-random handle-like monad-control monads-tf
+    peyotls random sasl simple-pipe stm tighttp transformers-base uuid
+    x509 x509-store x509-validation xml-pipe xmpipe
+  ];
+  homepage = "https://github.com/YoshikuniJujo/xml-push/wiki";
+  description = "Push XML from/to client to/from server over XMPP or HTTP";
+  license = lib.licenses.bsd3;
+}

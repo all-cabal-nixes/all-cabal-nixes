@@ -1,0 +1,24 @@
+{ mkDerivation, aeson, base, bytestring, containers, data-default
+, data-default-class, deriving-aeson, hspec, lens, lib
+, raw-strings-qq, safe-money, servant, servant-docs
+, servant-multipart-api, tasty, tasty-discover, tasty-hspec
+, tasty-hunit, template-haskell, text, time, vector
+}:
+mkDerivation {
+  pname = "blockfrost-api";
+  version = "0.10.0.0";
+  sha256 = "dc7054d041e40f5b3be316c78ebce8b03983b3a11c24907edd7e21475691fad0";
+  libraryHaskellDepends = [
+    aeson base bytestring containers data-default-class deriving-aeson
+    lens safe-money servant servant-docs servant-multipart-api
+    template-haskell text time vector
+  ];
+  testHaskellDepends = [
+    aeson base bytestring containers data-default hspec raw-strings-qq
+    safe-money tasty tasty-hspec tasty-hunit text vector
+  ];
+  testToolDepends = [ tasty-discover ];
+  homepage = "https://github.com/blockfrost/blockfrost-haskell";
+  description = "API definitions for blockfrost.io";
+  license = lib.licenses.asl20;
+}

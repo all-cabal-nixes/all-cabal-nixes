@@ -1,0 +1,26 @@
+{ mkDerivation, aeson, base, blaze-builder, bytestring, containers
+, directory, filepath, filestore, http-types, lib, monads-tf
+, pandoc, template-haskell, text, time, yesod
+}:
+mkDerivation {
+  pname = "corebot-bliki";
+  version = "0.2";
+  sha256 = "cecf6ab5ada9c67d001bf2ec5a65347abbac758ea1fd47f8f7133bf2bed7441c";
+  isLibrary = true;
+  isExecutable = true;
+  enableSeparateDataOutput = true;
+  libraryHaskellDepends = [
+    aeson base blaze-builder bytestring containers directory filepath
+    filestore http-types monads-tf pandoc template-haskell text time
+    yesod
+  ];
+  executableHaskellDepends = [
+    aeson base blaze-builder bytestring containers directory filepath
+    filestore http-types monads-tf pandoc template-haskell text time
+    yesod
+  ];
+  homepage = "http://github.com/coreyoconnor/corebot-bliki";
+  description = "A bliki written using yesod. Uses pandoc to process files stored in git.";
+  license = lib.licenses.bsd3;
+  mainProgram = "corebot-bliki";
+}

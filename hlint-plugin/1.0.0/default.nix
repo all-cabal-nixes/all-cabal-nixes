@@ -1,0 +1,9 @@
+{ mkDerivation, base, containers, ghc, hlint, lib }:
+mkDerivation {
+  pname = "hlint-plugin";
+  version = "1.0.0";
+  sha256 = "48aaf279bf530da8ffc40f63f1d83e34197b63c69a58bee9505df124ec54631c";
+  libraryHaskellDepends = [ base containers ghc hlint ];
+  description = "GHC plugin for hlint";
+  license = lib.licenses.bsd3;
+}

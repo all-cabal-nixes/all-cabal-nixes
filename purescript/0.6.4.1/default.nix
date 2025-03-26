@@ -1,0 +1,28 @@
+{ mkDerivation, base, containers, directory, file-embed, filepath
+, haskeline, lib, monad-unify, mtl, optparse-applicative, parsec
+, pattern-arrows, process, time, transformers, unordered-containers
+, utf8-string
+}:
+mkDerivation {
+  pname = "purescript";
+  version = "0.6.4.1";
+  sha256 = "77a043db6c841d077a813b8132c68c72b192ee701269966fd512af0b72cefc0a";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    base containers directory file-embed filepath monad-unify mtl
+    parsec pattern-arrows time transformers unordered-containers
+    utf8-string
+  ];
+  executableHaskellDepends = [
+    base containers directory filepath haskeline mtl
+    optparse-applicative parsec process transformers
+  ];
+  testHaskellDepends = [
+    base containers directory filepath mtl parsec process transformers
+  ];
+  doCheck = false;
+  homepage = "http://www.purescript.org/";
+  description = "PureScript Programming Language Compiler";
+  license = lib.licenses.mit;
+}

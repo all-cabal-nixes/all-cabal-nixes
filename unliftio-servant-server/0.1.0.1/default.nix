@@ -1,0 +1,14 @@
+{ mkDerivation, base, lib, mtl, servant, servant-server
+, unliftio-core
+}:
+mkDerivation {
+  pname = "unliftio-servant-server";
+  version = "0.1.0.1";
+  sha256 = "c1f0a869807112c53414cc9ba6fa00dcad055beba1a3197c518a86c614abad99";
+  libraryHaskellDepends = [
+    base mtl servant servant-server unliftio-core
+  ];
+  homepage = "https://github.com/bellroy/unliftio-servant-server";
+  description = "Use MonadUnliftIO on servant APIs";
+  license = lib.licenses.bsd3;
+}

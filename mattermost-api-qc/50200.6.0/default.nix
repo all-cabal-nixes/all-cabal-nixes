@@ -1,0 +1,14 @@
+{ mkDerivation, base, containers, lib, mattermost-api, QuickCheck
+, text, time
+}:
+mkDerivation {
+  pname = "mattermost-api-qc";
+  version = "50200.6.0";
+  sha256 = "c264238a84bdbe00c0508aaf276398f28c56545033594c8a4cc58e52225d4186";
+  libraryHaskellDepends = [
+    base containers mattermost-api QuickCheck text time
+  ];
+  homepage = "https://github.com/matterhorn-chat/mattermost-api-qc";
+  description = "QuickCheck instances for the Mattermost client API library";
+  license = lib.licenses.isc;
+}

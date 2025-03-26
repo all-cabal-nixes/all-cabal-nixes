@@ -1,0 +1,22 @@
+{ mkDerivation, attoparsec-text, attoparsec-text-enumerator, base
+, blaze-builder, blaze-builder-enumerator, bytestring, containers
+, data-default, enumerator, failure, hspec, HUnit, lib, text
+, transformers, xml-types
+}:
+mkDerivation {
+  pname = "xml-enumerator";
+  version = "0.4.0";
+  sha256 = "b627019cdcaaa57c5c44aadc875690ce555e6f4c6a50d40249c585bf3aa8fad1";
+  libraryHaskellDepends = [
+    attoparsec-text attoparsec-text-enumerator base blaze-builder
+    blaze-builder-enumerator bytestring containers data-default
+    enumerator failure text transformers xml-types
+  ];
+  testHaskellDepends = [
+    base bytestring containers enumerator hspec HUnit text transformers
+    xml-types
+  ];
+  homepage = "http://github.com/snoyberg/xml";
+  description = "Pure-Haskell utilities for dealing with XML with the enumerator package";
+  license = lib.licenses.bsd3;
+}

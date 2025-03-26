@@ -1,0 +1,34 @@
+{ mkDerivation, attoparsec, base, base-prelude, base16-bytestring
+, bytestring, criterion-plus, Decimal, hashable, hashtables, hasql
+, hasql-backend, HTF, HUnit, lib, list-t, loch-th, mmorph
+, mtl-prelude, old-locale, placeholders, postgresql-libpq
+, postgresql-simple, QuickCheck, quickcheck-instances
+, SafeSemaphore, scientific, slave-thread, template-haskell, text
+, time, utf8-string, vector
+}:
+mkDerivation {
+  pname = "hasql-postgres";
+  version = "0.1.2";
+  sha256 = "d2ec37bbfbda1f2c5d08decde7eb72627329e4786517216e904b1ebba8425566";
+  libraryHaskellDepends = [
+    attoparsec base base-prelude base16-bytestring bytestring hashable
+    hashtables hasql-backend list-t loch-th mmorph mtl-prelude
+    old-locale placeholders postgresql-libpq scientific
+    template-haskell text time vector
+  ];
+  testHaskellDepends = [
+    attoparsec base base-prelude base16-bytestring bytestring Decimal
+    hashable hashtables hasql hasql-backend HTF HUnit list-t loch-th
+    mmorph mtl-prelude old-locale placeholders postgresql-libpq
+    QuickCheck quickcheck-instances SafeSemaphore scientific
+    slave-thread template-haskell text time utf8-string vector
+  ];
+  benchmarkHaskellDepends = [
+    base base-prelude criterion-plus hasql hasql-backend list-t
+    mtl-prelude postgresql-simple QuickCheck quickcheck-instances
+    scientific text time vector
+  ];
+  homepage = "https://github.com/nikita-volkov/hasql-postgres";
+  description = "A \"PostgreSQL\" backend for the \"hasql\" library";
+  license = lib.licenses.mit;
+}
