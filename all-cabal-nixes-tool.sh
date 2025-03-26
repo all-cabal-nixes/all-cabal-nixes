@@ -4,6 +4,9 @@ set -eumo pipefail
 
 path_to_all_cabal_hashes="../all-cabal-hashes/"
 
+cabal2nix_tmp_output_stdout="$(mktemp)"
+cabal2nix_tmp_output_stderr="$(mktemp)"
+
 process_version() {
     local package_name="$1"
     local version_dir="$2"
@@ -22,9 +25,21 @@ process_version() {
     local sha256
     sha256="$(sed -e 's/.*"SHA256":"//' -e 's/".*$//' "${json_file}")"
 
-    cabal2nix --sha256="${sha256}" "${cabal_file}" > "${nix_file_dir}/default.nix"
+    # if cabal2nix --sha256="${sha256}" "${cabal_file}" > "${nix_file_dir}/default.nix"
+    if cabal2nix --sha256="${sha256}" "${cabal_file}" > "${cabal2nix_tmp_output_stdout}" 2>"${cabal2nix_tmp_output_stderr}" ; then
+        # We succeeded in generating the .nix file from the .cabal file.
+        # Just copy over the output .nix to where it is expected to be.
+        cp "$cabal2nix_tmp_output_stdout" "${nix_file_dir}/default.nix"
+        echo "generated version ${nix_file}"
+    else
+        # cabal2nix failed for some reason.  Log the error.
+        echo "failed when running cabal2nix on ${cabal_file}.  Error output from cabal2nix: " >> error-log
+        cat "$cabal2nix_tmp_output_stderr" >> error-log
+        echo >> error-log
+        echo >> error-log
 
-    echo "generated version ${nix_file}"
+        echo "FAILED to generate"
+    fi
 }
 
 process_package() {
