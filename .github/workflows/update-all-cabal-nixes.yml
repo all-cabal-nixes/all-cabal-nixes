@@ -25,16 +25,9 @@ jobs:
 
       - name: Run ./all-cabal-nixes-tool.sh
         run: |
-          # Install the tools needed by ./all-cabal-nixes-tool.sh
-          set -x
-          nix-channel --list
-          nix-channel --update
-          nix-channel --list
-          nix-env -iA nixpkgs.cabal2nix
-
           # Generate all the .nix files
           #./all-cabal-nixes-tool.sh
-          echo "HELLOHELLOHELLOHELLO" >> README.md
+          nix-shell -p cabal2nix --command 'echo "HELLOHELLOHELLOHELLO" >> README.md'
 
       - name: Check in new files to master
         run: |
