@@ -1,0 +1,51 @@
+
+name: "Update all-cabal-nixes"
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string.
+    # Run once daily at 2:17 AM.
+    - cron: '17 2 * * *'
+
+  # Allow manually starting the GitHub Action from the browser.  This is nice for
+  # testing.  You can manually start the workflow by clicking the "Run workflow" button on
+  # https://github.com/all-cabal-nixes/all-cabal-nixes/actions/workflows/update-all-cabal-nixes.yml
+  workflow_dispatch:
+    inputs: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: cachix/install-nix-action@v26
+
+      - name: Run ./update.sh
+        run: |
+          ./all-cabal-nixes-tool.sh
+
+      - name: Update README.md on main branch
+        run: |
+
+          # Set GitHub Actions Bot email address and user name.
+          git config --global user.name 'github-actions'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          # Get the current commit that we are running this workflow from.
+          #commit=$(git rev-parse --short HEAD)
+
+          set -x
+
+          git status
+          git remote -v
+          git branch --all --verbose
+
+          # Checkout the remote master branch.
+          # git fetch
+          # git reset --hard origin/master
+
+          # Check in our new README.md file and push it to the remote master branch.
+          git add .
+          git commit -m "update"
+          git push origin HEAD:master
