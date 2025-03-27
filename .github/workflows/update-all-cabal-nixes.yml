@@ -16,6 +16,11 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
+    permissions:
+      # Allow the workflow to commit and push to the repo.
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -40,6 +45,9 @@ jobs:
           #commit=$(git rev-parse --short HEAD)
 
           set -x
+
+          pwd
+          ls -lah ../
 
           git status
           git remote -v
