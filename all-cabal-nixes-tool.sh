@@ -119,3 +119,7 @@ fi
 find "$path_to_all_cabal_hashes" -maxdepth 1 -mindepth 1 -name .git -prune -o -type d -print0 |
     sort -z |
     while IFS= read -r -d '' pkgdir; do process_package "$pkgdir" ; done
+
+# TODO: It would be nice to output some file like `info.json` with information
+# about this run, for instance what hash of `all-cabal-hashes` was used to
+# create this.
