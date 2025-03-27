@@ -29,12 +29,14 @@ jobs:
           set -x
           nix-channel --list
           nix-channel --update
+          nix-channel --list
           nix-env -iA nixpkgs.cabal2nix
 
           # Generate all the .nix files
-          ./all-cabal-nixes-tool.sh
+          #./all-cabal-nixes-tool.sh
+          echo "HELLOHELLOHELLOHELLO" >> README.md
 
-      - name: Update README.md on main branch
+      - name: Check in new files to master
         run: |
 
           # Set GitHub Actions Bot email address and user name.
@@ -56,5 +58,5 @@ jobs:
 
           # Check in our new README.md file and push it to the remote master branch.
           git add .
-          git commit -m "update"
+          git commit -m "update using all-cabal-hashes $(cd ../all-cabal-hashes && git rev-parse HEAD)"
           git push origin HEAD:master
