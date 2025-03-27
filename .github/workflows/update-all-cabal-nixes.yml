@@ -31,31 +31,13 @@ jobs:
       - name: Run ./all-cabal-nixes-tool.sh
         run: |
           # Generate all the .nix files
-          #./all-cabal-nixes-tool.sh
-          nix-shell -p cabal2nix --command 'echo "HELLOHELLOHELLOHELLO" >> README.md'
+          nix-shell -p cabal2nix --command "./all-cabal-nixes-tool.sh"
 
       - name: Check in new files to master
         run: |
-
           # Set GitHub Actions Bot email address and user name.
           git config --global user.name 'github-actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-
-          # Get the current commit that we are running this workflow from.
-          #commit=$(git rev-parse --short HEAD)
-
-          set -x
-
-          pwd
-          ls -lah ../
-
-          git status
-          git remote -v
-          git branch --all --verbose
-
-          # Checkout the remote master branch.
-          # git fetch
-          # git reset --hard origin/master
 
           # Check in our new README.md file and push it to the remote master branch.
           git add .
