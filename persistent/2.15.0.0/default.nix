@@ -11,6 +11,8 @@ mkDerivation {
   pname = "persistent";
   version = "2.15.0.0";
   sha256 = "453f3163c1ebd3f59b2d705468f5557e2afe3c8d7a84dcbd5e20c0e24c3356bb";
+  revision = "1";
+  editedCabalFile = "066jf5lx1ffr6ar6p5an140vm97yiyy1qy5iknh0fwq5lmk4zni5";
   libraryHaskellDepends = [
     aeson attoparsec attoparsec-aeson base base64-bytestring blaze-html
     bytestring conduit containers deepseq fast-logger http-api-data

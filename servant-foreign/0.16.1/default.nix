@@ -5,6 +5,8 @@ mkDerivation {
   pname = "servant-foreign";
   version = "0.16.1";
   sha256 = "f7eeb82e55882b4d87bb5080694901381153cc70e53a6bb03f5b5518a3634595";
+  revision = "1";
+  editedCabalFile = "1qgzy6giw14gss9qny4c2p2lqid0x0al03m9i9gqlaac8zfvr7ka";
   libraryHaskellDepends = [
     base base-compat http-types lens servant text
   ];

@@ -7,8 +7,8 @@ mkDerivation {
   pname = "falsify";
   version = "0.2.0";
   sha256 = "cd89ffd91fed93c8a2baea67f200cabe778e581ddef5271242a9b969303812ba";
-  revision = "4";
-  editedCabalFile = "125c2jsl085kd0i4pdxkawpx43jlgn18xqf86r97f1ax15142p5g";
+  revision = "5";
+  editedCabalFile = "08559x5pnw0g756jx30myxl974rhjxwv7v0yywnwkcqlbq0ir64r";
   libraryHaskellDepends = [
     base base16-bytestring binary bytestring containers data-default
     mtl optics-core optparse-applicative selective sop-core splitmix

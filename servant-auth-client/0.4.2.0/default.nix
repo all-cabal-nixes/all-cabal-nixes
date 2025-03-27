@@ -8,6 +8,8 @@ mkDerivation {
   pname = "servant-auth-client";
   version = "0.4.2.0";
   sha256 = "09132aa8e5d85cc12acef6dc7fab64058c4be5b57880588937725a6e9f8f78df";
+  revision = "1";
+  editedCabalFile = "0knqj557cxmjih4dxcyqgyraabsbgihlmf3p06x5rqav6ks2zr8n";
   libraryHaskellDepends = [
     base bytestring containers servant servant-auth servant-client-core
   ];

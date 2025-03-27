@@ -7,6 +7,8 @@ mkDerivation {
   pname = "servant-client-core";
   version = "0.20.2";
   sha256 = "6ce77c444ca6b412b278d5f8709527f52578e25be94d27546a61236d4140db82";
+  revision = "1";
+  editedCabalFile = "13200adlbl8mydi35x1r8w4q9ra8y079figgjxl5jsrhvps54608";
   libraryHaskellDepends = [
     aeson base base-compat base64-bytestring bytestring constraints
     containers deepseq exceptions free http-media http-types

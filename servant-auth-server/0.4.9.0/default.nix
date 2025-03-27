@@ -9,6 +9,8 @@ mkDerivation {
   pname = "servant-auth-server";
   version = "0.4.9.0";
   sha256 = "29f9a2d00b523f620694d3200abfda3cc9c70f6aec351de379a4ab64d317133a";
+  revision = "1";
+  editedCabalFile = "0skvvqkyqzgjdg5b2l9fd1ri144s649g5yddpclwciraimip7gw1";
   libraryHaskellDepends = [
     aeson base base64-bytestring blaze-builder bytestring
     case-insensitive cookie data-default-class entropy http-types jose
