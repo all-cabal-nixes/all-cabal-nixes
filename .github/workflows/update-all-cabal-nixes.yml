@@ -26,6 +26,9 @@ jobs:
       - name: Run ./all-cabal-nixes-tool.sh
         run: |
           # Install the tools needed by ./all-cabal-nixes-tool.sh
+          set -x
+          nix-channel --list
+          nix-channel --update
           nix-env -iA nixpkgs.cabal2nix
 
           # Generate all the .nix files
