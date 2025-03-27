@@ -107,7 +107,7 @@ process_package() {
 
 # Clone all-cabal-hashes if it doesn't already exist on disk.
 if [ ! -d "$path_to_all_cabal_hashes" ] ; then
-    git clone git@github.com:commercialhaskell/all-cabal-hashes.git ../all-cabal-hashes
+    git clone "https://github.com/commercialhaskell/all-cabal-hashes.git" ../all-cabal-hashes
 fi
 
 # Check out the `hackage` branch of `all-cabal-hashes` and make sure it is up-to-date.
