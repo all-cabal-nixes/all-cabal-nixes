@@ -6,6 +6,8 @@ mkDerivation {
   pname = "lock-file";
   version = "0.7.0.0";
   sha256 = "6c9bdbda2134301e5f57c8c274fdab51428b9a6720c9b5d30540ab00e1e0eaee";
+  revision = "1";
+  editedCabalFile = "12hyv3djqasc765ihmw8r2p9n1c1r9yyh9fh9mffw7ng1nrqfph9";
   libraryHaskellDepends = [
     base data-default-class directory exceptions
   ];
