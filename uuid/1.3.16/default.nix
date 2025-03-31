@@ -6,8 +6,8 @@ mkDerivation {
   pname = "uuid";
   version = "1.3.16";
   sha256 = "1a4679cfb4ec5fcc8dd584bd4fc66f744bfd0433c775e400235058c13f720df6";
-  revision = "2";
-  editedCabalFile = "1ka9hr7naddpdrnr6nfr81ansfqhgf02f0yvsddzwv3k7crc1qjl";
+  revision = "3";
+  editedCabalFile = "153pkkljg08pdv6hjdzzq67dzwy0k4c4k68ha110ak4d96iibc6r";
   libraryHaskellDepends = [
     base binary bytestring cryptohash-md5 cryptohash-sha1 entropy
     network-info random text time uuid-types

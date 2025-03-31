@@ -6,8 +6,8 @@ mkDerivation {
   pname = "uuid-types";
   version = "1.0.6";
   sha256 = "7e0dd953483d6fd3ca49bcaed6b11f9e3c2787213479b2581e07747836b8357e";
-  revision = "2";
-  editedCabalFile = "0gg1mr480k5y5q92a1p9ii8vs8i4m3719yaaa8lvi7391c88rrw8";
+  revision = "3";
+  editedCabalFile = "183dz7p96r7da14064xkvdzxs66gzlxi26xca5m6yrypm20vdhjs";
   libraryHaskellDepends = [
     base binary bytestring deepseq hashable random template-haskell
     text
