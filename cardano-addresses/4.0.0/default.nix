@@ -11,6 +11,8 @@ mkDerivation {
   pname = "cardano-addresses";
   version = "4.0.0";
   sha256 = "8487dca5bca38c261c13c42928557cd5c0ea48bb289e370a4b7278a8eb579b8d";
+  revision = "1";
+  editedCabalFile = "1alyswv1d4q616vikwyv35ycxlz73qa7w602y43iba2g953823xv";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
