@@ -3,6 +3,8 @@ mkDerivation {
   pname = "greencard";
   version = "3.0.4.1";
   sha256 = "a3e71f4c350a3fa3e7726225cf3e6302107c1dd3b2c2c91c199fb5ed17de23cf";
+  revision = "1";
+  editedCabalFile = "1bkgj92k0h6lhxxh7vbqmgkgmi98sdzrlbj8vc5sc548n0kllizb";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base ];
