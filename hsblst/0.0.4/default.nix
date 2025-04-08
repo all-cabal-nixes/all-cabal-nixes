@@ -5,6 +5,8 @@ mkDerivation {
   pname = "hsblst";
   version = "0.0.4";
   sha256 = "4fa365a0f4dcd4cdf91f8ffee6c0ca819baabc49e587815718d7025115fab48d";
+  revision = "1";
+  editedCabalFile = "1cwplg9k8pr6iy27gkc32ayxnwf63sbzdd660p1lm8dihvj9q1jy";
   libraryHaskellDepends = [ base deepseq memory ];
   libraryToolDepends = [ c2hs ];
   testHaskellDepends = [
