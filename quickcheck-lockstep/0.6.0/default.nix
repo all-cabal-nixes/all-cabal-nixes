@@ -6,6 +6,8 @@ mkDerivation {
   pname = "quickcheck-lockstep";
   version = "0.6.0";
   sha256 = "bdbc0c035d2e05b33a8bbd04881aa5ab02bd6f4b3c615e19856503400d093fe8";
+  revision = "1";
+  editedCabalFile = "00mlph661br03khrpzl9f1wvwmr2mrv6y3hqp7i371rm1dl83xd5";
   libraryHaskellDepends = [
     base constraints containers mtl QuickCheck quickcheck-dynamic
   ];
