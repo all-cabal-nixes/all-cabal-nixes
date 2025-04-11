@@ -5,8 +5,8 @@ mkDerivation {
   pname = "weeder";
   version = "0.1.4";
   sha256 = "9f398cd40d2a5c88f284d2d40b452a5e9e8014a8627d362280316a79afe7ff58";
-  revision = "1";
-  editedCabalFile = "0rhjwrqq0q21m6mj6l8zgsvjb0lw0kgmbrk066wxn9wp2qbqi3v7";
+  revision = "2";
+  editedCabalFile = "1ika6yrzb5gsx6qb01a2z7wbah7lgai5yysxh889sh383cl6ica0";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [
