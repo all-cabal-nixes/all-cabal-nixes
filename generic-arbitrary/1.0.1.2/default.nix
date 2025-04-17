@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "generic-arbitrary";
-  version = "1.0.1.1";
-  sha256 = "6c335849f2d56585e5804ffc7246dd009dbaaf4f28a3119e49866b96f838dcd0";
-  revision = "1";
-  editedCabalFile = "17nqyabjzwdw344vyph9s763ksp9s9wq3gla93qakibn7rjmbchw";
+  version = "1.0.1.2";
+  sha256 = "3d4138b74c7cd22697f8ffd02b197153dc31117ed7590014d3e933cf9ae5979d";
   libraryHaskellDepends = [ base QuickCheck ];
   testHaskellDepends = [
     base deepseq QuickCheck tasty tasty-discover tasty-hunit
