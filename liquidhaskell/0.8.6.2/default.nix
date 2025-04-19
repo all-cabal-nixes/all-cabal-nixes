@@ -11,8 +11,8 @@ mkDerivation {
   pname = "liquidhaskell";
   version = "0.8.6.2";
   sha256 = "62b9192af995ea7ca1d813cc1d9d8abb513dc3387248ce72ced791cfdc0f1ac3";
-  revision = "1";
-  editedCabalFile = "14mvnjgd65n6j2zlzw0c679zvlik02cn6x8rhxm3rb1155zybjil";
+  revision = "2";
+  editedCabalFile = "0mi8rv4vj0vd7l0chwfch3740i8as9i3ab1bw8vq2i2wdhb22lhy";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
