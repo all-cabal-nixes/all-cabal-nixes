@@ -39,7 +39,9 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
 
-          # Check in our new README.md file and push it to the remote master branch.
-          git add .
-          git commit -m "update using all-cabal-hashes $(cd ../all-cabal-hashes && git rev-parse HEAD)"
-          git push origin HEAD:master
+          # If there are any new or changed files, check them in and push them to master.
+          if [ -n "$(git status --porcelain --untracked-files=normal)" ]; then
+            git add .
+            git commit -m "update using all-cabal-hashes $(cd ../all-cabal-hashes && git rev-parse HEAD)"
+            git push origin HEAD:master
+          fi
