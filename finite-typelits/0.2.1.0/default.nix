@@ -5,6 +5,8 @@ mkDerivation {
   pname = "finite-typelits";
   version = "0.2.1.0";
   sha256 = "73dbbceb341f54665f8267768ffcc96a4ee32b8a3a1befefec2ecd414536e844";
+  revision = "1";
+  editedCabalFile = "1967xzvdhlk92ifn980pm05jxjnmra32wlfzx7l2p2gn1cydzlhv";
   libraryHaskellDepends = [ base deepseq tagged template-haskell ];
   testHaskellDepends = [ base deepseq QuickCheck ];
   homepage = "https://github.com/mniip/finite-typelits";

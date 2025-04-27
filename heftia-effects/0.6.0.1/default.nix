@@ -8,6 +8,8 @@ mkDerivation {
   pname = "heftia-effects";
   version = "0.6.0.1";
   sha256 = "d8ab559b96b6792d4fe60e33a55ead7892a21782fb6ba3747aa78b2f71bebd49";
+  revision = "1";
+  editedCabalFile = "18ycczl858a12mgj3p5lxizpl4h86rqaycq56n1lxbbcl80pp3bg";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
