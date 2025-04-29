@@ -790,15 +790,15 @@ CallStack (from HasCallStack):
 
 failed when running cabal2nix on ../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal.  Error output from cabal2nix: 
 error: failed to open archive: Unrecognized archive format
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 333 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 660 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1140 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2554 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 276 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 554 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1107 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2247 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 281 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 578 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1278 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2034 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 289 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 503 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1227 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2480 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
@@ -809,15 +809,15 @@ cabal2nix: user error (Failed to fetch source. Does this source exist? Source {s
 
 failed when running cabal2nix on ../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal.  Error output from cabal2nix: 
 error: failed to open archive: Unrecognized archive format
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 267 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 591 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1399 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2455 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 325 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 596 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1019 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2154 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 319 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 576 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1371 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2410 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 327 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 631 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1265 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2759 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
@@ -828,15 +828,15 @@ cabal2nix: user error (Failed to fetch source. Does this source exist? Source {s
 
 failed when running cabal2nix on ../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal.  Error output from cabal2nix: 
 error: failed to open archive: Unrecognized archive format
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 266 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 607 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1408 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2337 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 315 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 609 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1235 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2130 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 294 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 640 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1071 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2729 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 321 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 583 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1376 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2746 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
