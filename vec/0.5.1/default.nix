@@ -7,8 +7,8 @@ mkDerivation {
   pname = "vec";
   version = "0.5.1";
   sha256 = "60d18755b70b370642766413b0a06c196c24c18740a48510fe1f6be9c2c05c67";
-  revision = "1";
-  editedCabalFile = "0znfs73x9amng298hzi98cy15fbgx5hdkcfslwmdqsyarr9v0ffx";
+  revision = "2";
+  editedCabalFile = "0cc6hby6dq0474fk1qn8iiychw2hjk7x70mcmndxxjq14pslrps5";
   libraryHaskellDepends = [
     adjunctions base boring deepseq distributive fin hashable
     indexed-traversable QuickCheck semigroupoids transformers

@@ -6,8 +6,8 @@ mkDerivation {
   pname = "ral";
   version = "0.2.2";
   sha256 = "46c70ee0cae8625edf2aaf47ddcad9d582f5b3841b75b2dee4066156130d60b0";
-  revision = "1";
-  editedCabalFile = "1j3fqas4xxjs59x8flgm7y7hd21cxs3ahx2zgx5294f844bgkjxb";
+  revision = "2";
+  editedCabalFile = "1a1c3y5b9kp96wkm39f1ahnij0vpr6y9fb25l03ykhhc03y6fadm";
   libraryHaskellDepends = [
     adjunctions base bin boring deepseq distributive fin hashable
     indexed-traversable QuickCheck semigroupoids

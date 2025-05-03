@@ -5,6 +5,8 @@ mkDerivation {
   pname = "mappings";
   version = "0.2.0.0";
   sha256 = "ae40c9c0934e3b9bcf6e052a37f423bbe8e23bb58d3af4f7a0b68da3abf96120";
+  revision = "1";
+  editedCabalFile = "09f6w5pwv9f9734nlfw3nmy5insyy0s18gkvjrxicv0hy0mx7b9m";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
