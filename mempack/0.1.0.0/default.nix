@@ -5,6 +5,8 @@ mkDerivation {
   pname = "mempack";
   version = "0.1.0.0";
   sha256 = "1e9e5e13a2079d972e0805d6005e02ab616aa62303bf0ba480583ff11468c2ab";
+  revision = "1";
+  editedCabalFile = "0wridj59ac76kya9vsb3fdwy4qh77293jjsmacf01s8lfncmgddp";
   libraryHaskellDepends = [ base bytestring FailT mtl text ];
   testHaskellDepends = [
     base bytestring FailT hspec mtl QuickCheck random
