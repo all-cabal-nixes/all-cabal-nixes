@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "rest-rewrite";
-  version = "0.4.4";
-  sha256 = "21cd969f2d6cf5fa76bcc4a08cc31b6440fdb62c7afd6d836c6e4a4a192f560e";
-  revision = "2";
-  editedCabalFile = "12yjqaq3mg8sqf5g6byask5pa51gzzsvz6qlnwv7nhcmmdyxnsj7";
+  version = "0.4.5";
+  sha256 = "c4db03c300fdce217c1094ffd4b738a430b703308ee1cecc002fb3ce1d1faf7b";
   libraryHaskellDepends = [
     base containers hashable monad-loops mtl parsec process QuickCheck
     text time unordered-containers
