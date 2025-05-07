@@ -4,8 +4,8 @@ mkDerivation {
   version = "1.1.1";
   sha256 = "71445a02bee4ae1d381163c66f4175d18863f667c65c132d4dac1767a743dfe4";
   configureFlags = [
-    "--extra-include-dirs=${pkgs.freenect}/include/libfreenect"
-    "--extra-lib-dirs=${pkgs.freenect}/lib"
+    "--extra-include-dirs=${lib.getDev pkgs.freenect}/include/libfreenect"
+    "--extra-lib-dirs=${lib.getLib pkgs.freenect}/lib"
   ];
   libraryHaskellDepends = [ base vector ];
   librarySystemDepends = [ freenect freenect_sync ];

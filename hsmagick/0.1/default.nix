@@ -1,6 +1,6 @@
 { mkDerivation, base, bzip2, directory, filepath, freetype
-, GraphicsMagick, ice, jasper, lcms, lib, libjpeg, libpng, libxml2
-, pretty, process, sm, tiff, wmflite, xlibsWrapper, zlib
+, GraphicsMagick, ice, jasper, lcms, lib, libjpeg, libpng, libX11
+, libxml2, pretty, process, sm, tiff, wmflite, zlib
 }:
 mkDerivation {
   pname = "hsmagick";
@@ -12,7 +12,7 @@ mkDerivation {
     bzip2 jasper libjpeg libpng tiff wmflite zlib
   ];
   libraryPkgconfigDepends = [
-    freetype GraphicsMagick ice lcms libxml2 sm xlibsWrapper
+    freetype GraphicsMagick ice lcms libX11 libxml2 sm
   ];
   homepage = "http://community.haskell.org/~tim";
   description = "FFI bindings for the GraphicsMagick library";

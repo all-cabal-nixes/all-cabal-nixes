@@ -20,8 +20,6 @@ mkDerivation {
     array base bytestring Cabal containers deepseq directory filepath
     ghc hspec process QuickCheck
   ];
-  doCheck = false;
-  preCheck = "unset GHC_PACKAGE_PATH";
   homepage = "http://www.haskell.org/haddock/";
   description = "A documentation-generation tool for Haskell libraries";
   license = lib.licenses.bsd3;

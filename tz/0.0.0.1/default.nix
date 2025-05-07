@@ -19,7 +19,6 @@ mkDerivation {
     base bindings-posix criterion lens thyme time timezone-olson
     timezone-series unix
   ];
-  preConfigure = "export TZDIR=${pkgs.tzdata}/share/zoneinfo";
   homepage = "https://github.com/nilcons/haskell-tz";
   description = "Time zones database and library";
   license = lib.licenses.asl20;

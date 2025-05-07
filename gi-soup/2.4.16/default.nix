@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, containers, gi-gio
 , gi-glib, gi-gobject, haskell-gi, haskell-gi-base
-, haskell-gi-overloading, lib, libsoup, text, transformers
+, haskell-gi-overloading, lib, libsoup_2_4, text, transformers
 }:
 mkDerivation {
   pname = "gi-soup";
@@ -11,7 +11,7 @@ mkDerivation {
     base bytestring containers gi-gio gi-glib gi-gobject haskell-gi
     haskell-gi-base haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ libsoup ];
+  libraryPkgconfigDepends = [ libsoup_2_4 ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Libsoup bindings";

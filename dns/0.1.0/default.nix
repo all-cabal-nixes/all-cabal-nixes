@@ -11,7 +11,7 @@ mkDerivation {
     base binary bytestring containers haskell98 iproute mtl network
     network-bytestring
   ];
-  testTarget = "spec";
+  testTargets = [ "spec" ];
   description = "DNS libary in Haskell";
   license = lib.licenses.bsd3;
 }

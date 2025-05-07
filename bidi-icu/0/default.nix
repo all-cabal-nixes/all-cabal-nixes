@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, data-default, ghc-prim, hspec
-, icu-uc, inline-c, lib, primitive, tasty, tasty-hspec
+, icu, inline-c, lib, primitive, tasty, tasty-hspec
 , template-haskell, text, transformers, vector
 }:
 mkDerivation {
@@ -10,7 +10,7 @@ mkDerivation {
     base containers data-default ghc-prim inline-c primitive
     template-haskell text transformers vector
   ];
-  libraryPkgconfigDepends = [ icu-uc ];
+  libraryPkgconfigDepends = [ icu ];
   testHaskellDepends = [
     base data-default ghc-prim hspec primitive tasty tasty-hspec text
     vector

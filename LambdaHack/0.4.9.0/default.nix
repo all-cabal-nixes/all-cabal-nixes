@@ -1,9 +1,9 @@
 { mkDerivation, array, assert-failure, async, base, binary
 , bytestring, containers, deepseq, directory, enummapset-th
-, filepath, ghc-prim, gtk, gtk2, hashable, hsini, keys, lib
+, filepath, ghc-prim, gtk, gtk2, hashable, hsini, keys, lib, libX11
 , miniutter, mtl, old-time, pretty-show, random, stm
 , template-haskell, text, transformers, unordered-containers
-, vector, vector-binary-instances, xlibsWrapper, zlib
+, vector, vector-binary-instances, zlib
 }:
 mkDerivation {
   pname = "LambdaHack";
@@ -19,7 +19,7 @@ mkDerivation {
     transformers unordered-containers vector vector-binary-instances
     zlib
   ];
-  libraryPkgconfigDepends = [ gtk2 xlibsWrapper ];
+  libraryPkgconfigDepends = [ gtk2 libX11 ];
   executableHaskellDepends = [
     array assert-failure async base binary bytestring containers
     deepseq directory enummapset-th filepath ghc-prim hashable hsini

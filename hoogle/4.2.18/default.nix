@@ -27,7 +27,7 @@ mkDerivation {
     base conduit hspec hspec-expectations HUnit system-fileio
     transformers
   ];
-  testTarget = "--test-option=--no-net";
+  testFlags = [ "--no-net" ];
   homepage = "http://www.haskell.org/hoogle/";
   description = "Haskell API Search";
   license = lib.licenses.bsd3;

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, containers, gi-glib
-, gi-gobject, graphene-gobject, haskell-gi, haskell-gi-base
+, gi-gobject, graphene, haskell-gi, haskell-gi-base
 , haskell-gi-overloading, lib, text, transformers
 }:
 mkDerivation {
@@ -11,7 +11,7 @@ mkDerivation {
     base bytestring containers gi-glib gi-gobject haskell-gi
     haskell-gi-base haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ graphene-gobject ];
+  libraryPkgconfigDepends = [ graphene ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Graphene bindings";
   license = lib.licenses.lgpl21Only;

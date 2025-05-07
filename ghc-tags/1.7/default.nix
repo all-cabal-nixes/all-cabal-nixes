@@ -1,7 +1,7 @@
 { mkDerivation, aeson, async, attoparsec, base, bytestring
-, containers, deepseq, directory, filepath, ghc, ghc-boot
-, ghc-paths, lib, optparse-applicative, process, stm, temporary
-, text, time, vector, yaml
+, containers, deepseq, directory, filepath, ghc-lib, ghc-paths, lib
+, optparse-applicative, process, stm, temporary, text, time, vector
+, yaml
 }:
 mkDerivation {
   pname = "ghc-tags";
@@ -13,7 +13,7 @@ mkDerivation {
   isExecutable = true;
   executableHaskellDepends = [
     aeson async attoparsec base bytestring containers deepseq directory
-    filepath ghc ghc-boot ghc-paths optparse-applicative process stm
+    filepath ghc-lib ghc-paths optparse-applicative process stm
     temporary text time vector yaml
   ];
   homepage = "https://github.com/arybczak/ghc-tags";

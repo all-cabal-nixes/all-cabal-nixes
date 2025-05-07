@@ -1,6 +1,7 @@
-{ mkDerivation, ayatana-appindicator3, base, bytestring, Cabal
-, containers, gi-gdk, gi-gobject, gi-gtk, haskell-gi
-, haskell-gi-base, haskell-gi-overloading, lib, text, transformers
+{ mkDerivation, base, bytestring, Cabal, containers, gi-gdk
+, gi-gobject, gi-gtk, haskell-gi, haskell-gi-base
+, haskell-gi-overloading, lib, libayatana-appindicator, text
+, transformers
 }:
 mkDerivation {
   pname = "gi-ayatana-appindicator3";
@@ -13,7 +14,7 @@ mkDerivation {
     base bytestring containers gi-gdk gi-gobject gi-gtk haskell-gi
     haskell-gi-base haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ ayatana-appindicator3 ];
+  libraryPkgconfigDepends = [ libayatana-appindicator ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "libayatana-appindicator3 bindings";
   license = lib.licenses.lgpl21Only;

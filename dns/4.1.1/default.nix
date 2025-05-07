@@ -19,7 +19,7 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   doHaddock = false;
-  testTarget = "spec";
+  testTargets = [ "spec" ];
   description = "DNS library in Haskell";
   license = lib.licenses.bsd3;
 }

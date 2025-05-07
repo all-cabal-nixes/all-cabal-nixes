@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, containers, haskell-gi
-, haskell-gi-base, lib, text, transformers, webkitgtk
+, haskell-gi-base, lib, text, transformers, webkitgtk_4_0
 }:
 mkDerivation {
   pname = "gi-javascriptcore";
@@ -9,7 +9,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring containers haskell-gi-base text transformers
   ];
-  libraryPkgconfigDepends = [ webkitgtk ];
+  libraryPkgconfigDepends = [ webkitgtk_4_0 ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "JavaScriptCore bindings";

@@ -13,7 +13,7 @@ mkDerivation {
     bytestring containers enumerator iproute mtl network
     network-enumerator random
   ];
-  testTarget = "spec";
+  testTargets = [ "spec" ];
   description = "DNS library in Haskell";
   license = lib.licenses.bsd3;
 }

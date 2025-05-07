@@ -1,5 +1,5 @@
-{ mkDerivation, base, containers, data-default, lib, libpipewire
-, mtl, stm, systemd, tasty, tasty-hunit, text, transformers
+{ mkDerivation, base, containers, data-default, lib, mtl, pipewire
+, stm, systemd, tasty, tasty-hunit, text, transformers
 }:
 mkDerivation {
   pname = "libremidi";
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base containers data-default mtl stm text transformers
   ];
-  libraryPkgconfigDepends = [ libpipewire systemd ];
+  libraryPkgconfigDepends = [ pipewire systemd ];
   executableHaskellDepends = [
     base containers data-default mtl stm text transformers
   ];

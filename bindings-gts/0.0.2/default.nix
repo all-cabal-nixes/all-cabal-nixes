@@ -1,5 +1,5 @@
 { mkDerivation, base, bindings-DSL, bindings-glib, bindings-gobject
-, glib, gmodule, gts, lib
+, glib, gts, lib
 }:
 mkDerivation {
   pname = "bindings-gts";
@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bindings-DSL bindings-glib bindings-gobject
   ];
-  libraryPkgconfigDepends = [ glib gmodule gts ];
+  libraryPkgconfigDepends = [ glib gts ];
   homepage = "http://gts.sourceforge.net/";
   description = "Low level bindings supporting GTS, the GNU Triangulated Surface Library";
   license = lib.licenses.lgpl3Only;

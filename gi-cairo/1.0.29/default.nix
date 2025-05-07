@@ -13,7 +13,7 @@ mkDerivation {
   ];
   libraryPkgconfigDepends = [ cairo ];
   preCompileBuildDriver = ''
-    PKG_CONFIG_PATH+=":${cairo}/lib/pkgconfig"
+    PKG_CONFIG_PATH+=":${lib.getDev cairo}/lib/pkgconfig"
     setupCompileFlags+=" $(pkg-config --libs cairo-gobject)"
   '';
   homepage = "https://github.com/haskell-gi/haskell-gi";

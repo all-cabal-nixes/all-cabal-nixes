@@ -19,7 +19,6 @@ mkDerivation {
   benchmarkHaskellDepends = [
     base criterion lens thyme time timezone-olson timezone-series
   ];
-  preConfigure = "export TZDIR=${pkgs.tzdata}/share/zoneinfo";
   homepage = "https://github.com/nilcons/haskell-tz";
   description = "Efficient time zone handling";
   license = lib.licenses.asl20;

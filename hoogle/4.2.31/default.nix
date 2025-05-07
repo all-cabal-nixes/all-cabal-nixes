@@ -26,7 +26,7 @@ mkDerivation {
     transformers uniplate unix vector vector-algorithms wai warp
   ];
   testHaskellDepends = [ base directory filepath process ];
-  testTarget = "--test-option=--no-net";
+  testFlags = [ "--no-net" ];
   homepage = "http://www.haskell.org/hoogle/";
   description = "Haskell API Search";
   license = lib.licenses.bsd3;

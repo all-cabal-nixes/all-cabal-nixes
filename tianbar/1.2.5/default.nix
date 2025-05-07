@@ -3,7 +3,7 @@
 , gi-gtk, gi-webkit2, gtk3, haskell-gi-base, http-types, lens, lib
 , mime-types, mtl, network, process, random, scientific, split
 , tasty, tasty-quickcheck, text, transformers, unordered-containers
-, utf8-string, vector, webkitgtk, xdg-basedir, xmonad
+, utf8-string, vector, webkitgtk_4_0, xdg-basedir, xmonad
 , xmonad-contrib
 }:
 mkDerivation {
@@ -22,7 +22,7 @@ mkDerivation {
     mime-types mtl network process random scientific split text
     transformers unordered-containers utf8-string vector xdg-basedir
   ];
-  executablePkgconfigDepends = [ gtk3 webkitgtk ];
+  executablePkgconfigDepends = [ gtk3 webkitgtk_4_0 ];
   testHaskellDepends = [
     aeson base bytestring containers dbus directory filepath gi-gdk
     gi-gio gi-glib gi-gtk gi-webkit2 haskell-gi-base http-types lens

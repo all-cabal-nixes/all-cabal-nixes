@@ -7,7 +7,7 @@ mkDerivation {
   isExecutable = true;
   enableSeparateDataOutput = true;
   executableHaskellDepends = [ base containers directory ];
-  testTarget = "--test-option=--no-net";
+  testFlags = [ "--no-net" ];
   homepage = "http://www.haskell.org/hoogle/";
   description = "Haskell API Search";
   license = "GPL";

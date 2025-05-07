@@ -1,7 +1,7 @@
 { mkDerivation, async, base, bytestring, c2hs, containers
 , data-default-class, dbus, desktop-portal, directory, file-io
-, filepath, lib, libpipewire, libspa, modern-uri, monomer
-, monomer-hagrid, random, text
+, filepath, lib, modern-uri, monomer, monomer-hagrid, pipewire
+, random, text
 }:
 mkDerivation {
   pname = "monomer-flatpak-example";
@@ -15,7 +15,7 @@ mkDerivation {
     desktop-portal directory file-io filepath modern-uri monomer
     monomer-hagrid random text
   ];
-  executablePkgconfigDepends = [ libpipewire libspa ];
+  executablePkgconfigDepends = [ pipewire ];
   executableToolDepends = [ c2hs ];
   homepage = "https://github.com/Dretch/monomer-flatpak-example#readme";
   description = "Monomer Flatpak Example Application";

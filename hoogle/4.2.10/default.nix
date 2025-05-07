@@ -20,7 +20,7 @@ mkDerivation {
     blaze-builder Cabal case-insensitive cmdargs conduit http-types
     old-locale old-time tagsoup time wai warp
   ];
-  testTarget = "--test-option=--no-net";
+  testFlags = [ "--no-net" ];
   homepage = "http://www.haskell.org/hoogle/";
   description = "Haskell API Search";
   license = "GPL";

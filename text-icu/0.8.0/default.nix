@@ -1,7 +1,6 @@
 { mkDerivation, array, base, bytestring, deepseq, directory
-, ghc-prim, HUnit, icu, icu-i18n, icu-uc, lib, QuickCheck, random
-, test-framework, test-framework-hunit, test-framework-quickcheck2
-, text, time
+, ghc-prim, HUnit, icu, lib, QuickCheck, random, test-framework
+, test-framework-hunit, test-framework-quickcheck2, text, time
 }:
 mkDerivation {
   pname = "text-icu";
@@ -11,7 +10,7 @@ mkDerivation {
   editedCabalFile = "0mz894ykvyb9ziprnwx3s9lcda6lsy60s0dgrh5silgsym99r3s9";
   libraryHaskellDepends = [ base bytestring deepseq text time ];
   librarySystemDepends = [ icu ];
-  libraryPkgconfigDepends = [ icu-i18n icu-uc ];
+  libraryPkgconfigDepends = [ icu ];
   testHaskellDepends = [
     array base bytestring deepseq directory ghc-prim HUnit QuickCheck
     random test-framework test-framework-hunit

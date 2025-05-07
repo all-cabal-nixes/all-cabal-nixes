@@ -1,6 +1,5 @@
-{ mkDerivation, array, base, Cabal, deepseq, doctest, fp-ieee
-, hspec, lib, primitive, QuickCheck, random, tagged, tasty-bench
-, vector
+{ mkDerivation, array, base, Cabal, deepseq, fp-ieee, hspec, lib
+, primitive, QuickCheck, random, tagged, tasty-bench, vector
 }:
 mkDerivation {
   pname = "rounded-hw";
@@ -13,8 +12,7 @@ mkDerivation {
     array base deepseq fp-ieee primitive tagged vector
   ];
   testHaskellDepends = [
-    array base deepseq doctest fp-ieee hspec primitive QuickCheck
-    random vector
+    array base deepseq fp-ieee hspec primitive QuickCheck random vector
   ];
   benchmarkHaskellDepends = [
     array base deepseq fp-ieee primitive tasty-bench vector

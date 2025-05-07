@@ -3,11 +3,11 @@
 , directory, dlist, exceptions, filepath, generic-deriving
 , generically, ghc-prim, hashable, indexed-traversable
 , integer-conversion, integer-logarithms, lib, network-uri
-, nothunks, OneTuple, primitive, QuickCheck, quickcheck-instances
-, scientific, semialign, strict, tagged, tasty, tasty-golden
-, tasty-hunit, tasty-quickcheck, template-haskell, text
-, text-iso8601, text-short, th-abstraction, these, time
-, time-compat, unordered-containers, uuid-types, vector, witherable
+, OneTuple, primitive, QuickCheck, quickcheck-instances, scientific
+, semialign, strict, tagged, tasty, tasty-golden, tasty-hunit
+, tasty-quickcheck, template-haskell, text, text-iso8601
+, text-short, th-abstraction, these, time, time-compat
+, unordered-containers, uuid-types, vector, witherable
 }:
 mkDerivation {
   pname = "aeson";
@@ -27,11 +27,10 @@ mkDerivation {
     base base-compat base-orphans base16-bytestring bytestring
     containers data-fix deepseq Diff directory dlist filepath
     generic-deriving generically ghc-prim hashable indexed-traversable
-    integer-logarithms network-uri nothunks OneTuple primitive
-    QuickCheck quickcheck-instances scientific strict tagged tasty
-    tasty-golden tasty-hunit tasty-quickcheck template-haskell text
-    text-short these time time-compat unordered-containers uuid-types
-    vector
+    integer-logarithms network-uri OneTuple primitive QuickCheck
+    quickcheck-instances scientific strict tagged tasty tasty-golden
+    tasty-hunit tasty-quickcheck template-haskell text text-short these
+    time time-compat unordered-containers uuid-types vector
   ];
   homepage = "https://github.com/haskell/aeson";
   description = "Fast JSON parsing and encoding";

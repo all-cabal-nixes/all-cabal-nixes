@@ -18,7 +18,7 @@ mkDerivation {
   testHaskellDepends = [
     base bytestring doctest hspec iproute network QuickCheck word8
   ];
-  testTarget = "spec";
+  testTargets = [ "spec" ];
   description = "DNS library in Haskell";
   license = lib.licenses.bsd3;
 }

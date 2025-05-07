@@ -1,19 +1,17 @@
-{ mkDerivation, base, bloomfilter, bup, bytestring, containers
-, curl, dataenc, directory, edit-distance, extensible-exceptions
-, filepath, git, gnupg, hinotify, hS3, hslogger, HTTP, HUnit
-, IfElse, json, lib, lifted-base, lsof, MissingH, monad-control
-, mtl, network, old-locale, openssh, pcre-light, perl, process
-, QuickCheck, rsync, SHA, stm, testpack, text, time
-, transformers-base, unix, utf8-string, wget, which
+{ mkDerivation, base, bloomfilter, bytestring, containers, dataenc
+, directory, edit-distance, extensible-exceptions, filepath
+, hinotify, hS3, hslogger, HTTP, HUnit, IfElse, json, lib
+, lifted-base, MissingH, monad-control, mtl, network, old-locale
+, pcre-light, process, QuickCheck, SHA, stm, testpack, text, time
+, transformers-base, unix, utf8-string
 }:
 mkDerivation {
   pname = "git-annex";
   version = "3.20120825";
   sha256 = "ba72d80f0a4a3976e67eb0b835cbef10c4e11c3dbf519a67fed1c7e8c1baacfa";
   configureFlags = [
-    "-fassistant" "-f-benchmark" "-fdbus" "-f-debuglocks" "-fmagicmime"
-    "-fnetworkbsd" "-fpairing" "-fproduction" "-fs3" "-ftorrentparser"
-    "-fwebapp" "-fwebdav"
+    "-fassistant" "-f-benchmark" "-fcrypton" "-fdbus" "-f-debuglocks"
+    "-fmagicmime" "-fpairing" "-fproduction" "-ftorrentparser"
   ];
   isLibrary = false;
   isExecutable = true;
@@ -24,9 +22,6 @@ mkDerivation {
     old-locale pcre-light process QuickCheck SHA stm text time
     transformers-base unix utf8-string
   ];
-  executableSystemDepends = [
-    bup curl git gnupg lsof openssh perl rsync wget which
-  ];
   testHaskellDepends = [
     base bloomfilter bytestring containers dataenc directory
     edit-distance extensible-exceptions filepath hslogger HTTP HUnit
@@ -34,14 +29,6 @@ mkDerivation {
     old-locale pcre-light process QuickCheck SHA testpack text time
     transformers-base unix utf8-string
   ];
-  preConfigure = "export HOME=$TEMPDIR; patchShebangs .";
-  postBuild = ''
-    ln -sf dist/build/git-annex/git-annex git-annex
-    ln -sf git-annex git-annex-shell
-  '';
-  installPhase = "make PREFIX=$out BUILDER=: install install-completions";
-  checkPhase = ''PATH+=":$PWD" git-annex test'';
-  enableSharedExecutables = false;
   homepage = "http://git-annex.branchable.com/";
   description = "manage files with git, without checking their contents into git";
   license = "GPL";

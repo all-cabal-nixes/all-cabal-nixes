@@ -16,7 +16,7 @@ mkDerivation {
     attoparsec attoparsec-conduit base binary blaze-builder bytestring
     conduit containers hspec iproute mtl network network-conduit random
   ];
-  testTarget = "spec";
+  testTargets = [ "spec" ];
   description = "DNS library in Haskell";
   license = lib.licenses.bsd3;
 }

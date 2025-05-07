@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, HUnit, lib, liblzma, QuickCheck
-, tasty, tasty-hunit, tasty-quickcheck
+{ mkDerivation, base, bytestring, HUnit, lib, QuickCheck, tasty
+, tasty-hunit, tasty-quickcheck, xz
 }:
 mkDerivation {
   pname = "xz";
@@ -8,7 +8,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "0a71h34i6bqywmsnhxqp8sya2q61lm6wdrfrjhg9hgnjkc09pkz2";
   libraryHaskellDepends = [ base bytestring ];
-  libraryPkgconfigDepends = [ liblzma ];
+  libraryPkgconfigDepends = [ xz ];
   testHaskellDepends = [
     base bytestring HUnit QuickCheck tasty tasty-hunit tasty-quickcheck
   ];

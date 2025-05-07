@@ -7,8 +7,8 @@
 , hls-change-type-signature-plugin, hls-class-plugin
 , hls-code-range-plugin, hls-eval-plugin
 , hls-explicit-fixity-plugin, hls-explicit-imports-plugin
-, hls-explicit-record-fields-plugin, hls-floskell-plugin
-, hls-fourmolu-plugin, hls-gadt-plugin, hls-graph, hls-hlint-plugin
+, hls-explicit-record-fields-plugin, hls-fourmolu-plugin
+, hls-gadt-plugin, hls-graph, hls-hlint-plugin
 , hls-module-name-plugin, hls-ormolu-plugin
 , hls-overloaded-record-dot-plugin, hls-plugin-api
 , hls-pragmas-plugin, hls-qualify-imported-names-plugin
@@ -34,8 +34,8 @@ mkDerivation {
     hls-change-type-signature-plugin hls-class-plugin
     hls-code-range-plugin hls-eval-plugin hls-explicit-fixity-plugin
     hls-explicit-imports-plugin hls-explicit-record-fields-plugin
-    hls-floskell-plugin hls-fourmolu-plugin hls-gadt-plugin hls-graph
-    hls-hlint-plugin hls-module-name-plugin hls-ormolu-plugin
+    hls-fourmolu-plugin hls-gadt-plugin hls-graph hls-hlint-plugin
+    hls-module-name-plugin hls-ormolu-plugin
     hls-overloaded-record-dot-plugin hls-plugin-api hls-pragmas-plugin
     hls-qualify-imported-names-plugin hls-refactor-plugin
     hls-rename-plugin hls-retrie-plugin hls-semantic-tokens-plugin

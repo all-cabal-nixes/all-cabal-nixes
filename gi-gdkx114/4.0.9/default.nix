@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, containers, gi-cairo
-, gi-gdk4, gi-gio, gi-gobject, gi-xlib, gtk4-x11, haskell-gi
+, gi-gdk4, gi-gio, gi-gobject, gi-xlib, gtk4, haskell-gi
 , haskell-gi-base, haskell-gi-overloading, lib, text, transformers
 }:
 mkDerivation {
@@ -14,7 +14,7 @@ mkDerivation {
     gi-xlib haskell-gi haskell-gi-base haskell-gi-overloading text
     transformers
   ];
-  libraryPkgconfigDepends = [ gtk4-x11 ];
+  libraryPkgconfigDepends = [ gtk4 ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "GdkX11 4.x bindings";
   license = lib.licenses.lgpl21Only;

@@ -9,13 +9,13 @@
 , hls-explicit-fixity-plugin, hls-explicit-imports-plugin
 , hls-explicit-record-fields-plugin, hls-fourmolu-plugin
 , hls-gadt-plugin, hls-graph, hls-hlint-plugin
-, hls-module-name-plugin, hls-ormolu-plugin
-, hls-overloaded-record-dot-plugin, hls-plugin-api
-, hls-pragmas-plugin, hls-qualify-imported-names-plugin
-, hls-refactor-plugin, hls-rename-plugin, hls-retrie-plugin
-, hls-splice-plugin, hls-stan-plugin, hls-stylish-haskell-plugin
-, hls-test-utils, hspec-expectations, lens, lens-aeson, lib, lsp
-, lsp-test, lsp-types, mtl, optparse-applicative, optparse-simple
+, hls-module-name-plugin, hls-overloaded-record-dot-plugin
+, hls-plugin-api, hls-pragmas-plugin
+, hls-qualify-imported-names-plugin, hls-refactor-plugin
+, hls-rename-plugin, hls-retrie-plugin, hls-splice-plugin
+, hls-stan-plugin, hls-stylish-haskell-plugin, hls-test-utils
+, hspec-expectations, lens, lens-aeson, lib, lsp, lsp-test
+, lsp-types, mtl, optparse-applicative, optparse-simple
 , prettyprinter, process, regex-tdfa, row-types, safe-exceptions
 , sqlite-simple, stm, temporary, text, transformers, unix
 , unliftio-core, unordered-containers
@@ -35,13 +35,12 @@ mkDerivation {
     hls-code-range-plugin hls-eval-plugin hls-explicit-fixity-plugin
     hls-explicit-imports-plugin hls-explicit-record-fields-plugin
     hls-fourmolu-plugin hls-gadt-plugin hls-graph hls-hlint-plugin
-    hls-module-name-plugin hls-ormolu-plugin
-    hls-overloaded-record-dot-plugin hls-plugin-api hls-pragmas-plugin
-    hls-qualify-imported-names-plugin hls-refactor-plugin
-    hls-rename-plugin hls-retrie-plugin hls-splice-plugin
-    hls-stan-plugin hls-stylish-haskell-plugin lsp optparse-applicative
-    optparse-simple prettyprinter process safe-exceptions sqlite-simple
-    text unordered-containers
+    hls-module-name-plugin hls-overloaded-record-dot-plugin
+    hls-plugin-api hls-pragmas-plugin hls-qualify-imported-names-plugin
+    hls-refactor-plugin hls-rename-plugin hls-retrie-plugin
+    hls-splice-plugin hls-stan-plugin hls-stylish-haskell-plugin lsp
+    optparse-applicative optparse-simple prettyprinter process
+    safe-exceptions sqlite-simple text unordered-containers
   ];
   executableHaskellDepends = [
     aeson async base base16-bytestring binary bytestring containers

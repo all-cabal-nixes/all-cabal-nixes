@@ -1,4 +1,4 @@
-{ mkDerivation, base, doctest, ghc-bignum, hspec, hspec-core
+{ mkDerivation, base, ghc-bignum, hspec, hspec-core
 , integer-logarithms, lib, QuickCheck, random, tasty-bench
 }:
 mkDerivation {
@@ -9,7 +9,7 @@ mkDerivation {
   editedCabalFile = "0bryqkf0h9a102bk7albf4pd1mjgs2l2wa6jc96sqly75ddr4d06";
   libraryHaskellDepends = [ base ghc-bignum integer-logarithms ];
   testHaskellDepends = [
-    base doctest hspec hspec-core integer-logarithms QuickCheck random
+    base hspec hspec-core integer-logarithms QuickCheck random
   ];
   benchmarkHaskellDepends = [ base tasty-bench ];
   homepage = "https://github.com/minoki/haskell-floating-point#readme";

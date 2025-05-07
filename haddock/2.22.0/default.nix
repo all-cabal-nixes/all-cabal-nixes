@@ -1,4 +1,4 @@
-{ mkDerivation, base, filepath, haddock-api, lib }:
+{ mkDerivation, base, filepath, haddock-api, haddock-test, lib }:
 mkDerivation {
   pname = "haddock";
   version = "2.22.0";
@@ -6,9 +6,7 @@ mkDerivation {
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [ base haddock-api ];
-  testHaskellDepends = [ base filepath ];
-  doCheck = false;
-  preCheck = "unset GHC_PACKAGE_PATH";
+  testHaskellDepends = [ base filepath haddock-test ];
   homepage = "http://www.haskell.org/haddock/";
   description = "A documentation-generation tool for Haskell libraries";
   license = lib.licenses.bsd3;

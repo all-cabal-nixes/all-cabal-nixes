@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, containers, gi-atk
 , gi-cairo, gi-gdk, gi-gdkpixbuf, gi-gio, gi-glib, gi-gobject
-, gi-gtk, gi-pango, gtksourceview, haskell-gi, haskell-gi-base
+, gi-gtk, gi-pango, gtksourceview5, haskell-gi, haskell-gi-base
 , haskell-gi-overloading, lib, text, transformers
 }:
 mkDerivation {
@@ -16,7 +16,7 @@ mkDerivation {
     gi-gio gi-glib gi-gobject gi-gtk gi-pango haskell-gi
     haskell-gi-base haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ gtksourceview ];
+  libraryPkgconfigDepends = [ gtksourceview5 ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "GtkSource bindings";
   license = lib.licenses.lgpl21Only;

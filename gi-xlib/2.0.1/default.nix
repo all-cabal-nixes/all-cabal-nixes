@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, containers, haskell-gi
-, haskell-gi-base, haskell-gi-overloading, lib, text, transformers
-, xlibsWrapper
+, haskell-gi-base, haskell-gi-overloading, lib, libX11, text
+, transformers
 }:
 mkDerivation {
   pname = "gi-xlib";
@@ -11,7 +11,7 @@ mkDerivation {
     base bytestring containers haskell-gi haskell-gi-base
     haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ xlibsWrapper ];
+  libraryPkgconfigDepends = [ libX11 ];
   doHaddock = false;
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "xlib bindings";

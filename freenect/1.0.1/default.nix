@@ -4,8 +4,8 @@ mkDerivation {
   version = "1.0.1";
   sha256 = "86ae3792367242beb5b1116cdb7a32220d06d3861b2bfe1bdd308b397df17567";
   configureFlags = [
-    "--extra-include-dirs=${pkgs.freenect}/include/libfreenect"
-    "--extra-lib-dirs=${pkgs.freenect}/lib"
+    "--extra-include-dirs=${lib.getDev pkgs.freenect}/include/libfreenect"
+    "--extra-lib-dirs=${lib.getLib pkgs.freenect}/lib"
   ];
   isLibrary = true;
   isExecutable = true;

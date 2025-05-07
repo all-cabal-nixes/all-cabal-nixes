@@ -19,7 +19,7 @@ mkDerivation {
     blaze-builder Cabal cmdargs enumerator old-locale tagsoup time wai
     warp
   ];
-  testTarget = "--test-option=--no-net";
+  testFlags = [ "--no-net" ];
   homepage = "http://www.haskell.org/hoogle/";
   description = "Haskell API Search";
   license = "GPL";

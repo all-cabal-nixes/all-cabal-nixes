@@ -1,13 +1,13 @@
 { mkDerivation, base, bytestring, containers, inline-c, lib, tasty
 , tasty-discover, tasty-hunit, template-haskell, transformers
-, vector, vulkan
+, vector, vulkan-loader
 }:
 mkDerivation {
   pname = "vulkan";
   version = "3.23.1";
   sha256 = "2cc61fbbc2e86b88759e8cade50a32c749187ee3d9713cfc4763585a7e41e369";
   libraryHaskellDepends = [ base bytestring transformers vector ];
-  libraryPkgconfigDepends = [ vulkan ];
+  libraryPkgconfigDepends = [ vulkan-loader ];
   testHaskellDepends = [
     base containers inline-c tasty tasty-hunit template-haskell
   ];

@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, containers, gi-glib
 , gi-gobject, haskell-gi, haskell-gi-base, haskell-gi-overloading
-, lib, text, transformers, webkitgtk
+, lib, text, transformers, webkitgtk_4_0
 }:
 mkDerivation {
   pname = "gi-javascriptcore4";
@@ -11,7 +11,7 @@ mkDerivation {
     base bytestring containers gi-glib gi-gobject haskell-gi
     haskell-gi-base haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ webkitgtk ];
+  libraryPkgconfigDepends = [ webkitgtk_4_0 ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "JavaScriptCore 4.x bindings";
   license = lib.licenses.lgpl21Only;

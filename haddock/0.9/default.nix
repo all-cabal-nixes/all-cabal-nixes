@@ -13,8 +13,6 @@ mkDerivation {
   executableHaskellDepends = [
     array base containers directory haskell98 pretty process
   ];
-  doCheck = false;
-  preCheck = "unset GHC_PACKAGE_PATH";
   homepage = "http://www.haskell.org/haddock/";
   description = "Haddock is a documentation-generation tool for Haskell libraries";
   license = lib.licenses.bsd3;

@@ -1,5 +1,6 @@
-{ mkDerivation, base, containers, hashable, lib, monad-loops, mtl
-, parsec, process, QuickCheck, text, time, unordered-containers
+{ mkDerivation, base, containers, graphviz, hashable, lib
+, monad-loops, mtl, parsec, process, QuickCheck, text, time
+, unordered-containers, z3
 }:
 mkDerivation {
   pname = "rest-rewrite";
@@ -15,6 +16,7 @@ mkDerivation {
     base containers hashable mtl QuickCheck text time
     unordered-containers
   ];
+  testSystemDepends = [ graphviz z3 ];
   doHaddock = false;
   description = "Rewriting library with online termination checking";
   license = lib.licenses.bsd3;

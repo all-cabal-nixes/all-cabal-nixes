@@ -16,8 +16,6 @@ mkDerivation {
     array base Cabal containers directory filepath ghc ghc-paths pretty
     xhtml
   ];
-  doCheck = false;
-  preCheck = "unset GHC_PACKAGE_PATH";
   homepage = "http://www.haskell.org/haddock/";
   description = "A documentation-generation tool for Haskell libraries";
   license = lib.licenses.bsd3;

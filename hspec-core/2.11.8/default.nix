@@ -20,7 +20,10 @@ mkDerivation {
     time transformers
   ];
   testToolDepends = [ hspec-meta ];
-  testTarget = "--test-option=--skip --test-option='Test.Hspec.Core.Runner.hspecResult runs specs in parallel'";
+  testFlags = [
+    "--skip"
+    "'Test.Hspec.Core.Runner.hspecResult runs specs in parallel'"
+  ];
   homepage = "https://hspec.github.io/";
   description = "A Testing Framework for Haskell";
   license = lib.licenses.mit;

@@ -1,18 +1,16 @@
-{ mkDerivation, base, bup, bytestring, containers, curl, dataenc
-, directory, extensible-exceptions, filepath, git, gnupg, hS3
-, hslogger, HTTP, IfElse, json, lib, lifted-base, lsof, MissingH
-, monad-control, mtl, network, old-locale, openssh, pcre-light
-, perl, process, QuickCheck, rsync, SHA, text, time
-, transformers-base, unix, utf8-string, wget, which
+{ mkDerivation, base, bytestring, containers, dataenc, directory
+, extensible-exceptions, filepath, hS3, hslogger, HTTP, IfElse
+, json, lib, lifted-base, MissingH, monad-control, mtl, network
+, old-locale, pcre-light, process, QuickCheck, SHA, text, time
+, transformers-base, unix, utf8-string
 }:
 mkDerivation {
   pname = "git-annex";
   version = "3.20120230";
   sha256 = "28d0fa3a6f9c1073b61fc874ac62028c4fca2aef00f80a0df2d1cc98ca4f16e1";
   configureFlags = [
-    "-fassistant" "-f-benchmark" "-fdbus" "-f-debuglocks" "-fmagicmime"
-    "-fnetworkbsd" "-fpairing" "-fproduction" "-fs3" "-ftorrentparser"
-    "-fwebapp" "-fwebdav"
+    "-fassistant" "-f-benchmark" "-fcrypton" "-fdbus" "-f-debuglocks"
+    "-fmagicmime" "-fpairing" "-fproduction" "-ftorrentparser"
   ];
   isLibrary = false;
   isExecutable = true;
@@ -22,17 +20,6 @@ mkDerivation {
     monad-control mtl network old-locale pcre-light process QuickCheck
     SHA text time transformers-base unix utf8-string
   ];
-  executableSystemDepends = [
-    bup curl git gnupg lsof openssh perl rsync wget which
-  ];
-  preConfigure = "export HOME=$TEMPDIR; patchShebangs .";
-  postBuild = ''
-    ln -sf dist/build/git-annex/git-annex git-annex
-    ln -sf git-annex git-annex-shell
-  '';
-  installPhase = "make PREFIX=$out BUILDER=: install install-completions";
-  checkPhase = ''PATH+=":$PWD" git-annex test'';
-  enableSharedExecutables = false;
   homepage = "http://git-annex.branchable.com/";
   description = "manage files with git, without checking their contents into git";
   license = "GPL";

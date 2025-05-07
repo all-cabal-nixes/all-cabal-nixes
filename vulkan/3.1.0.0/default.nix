@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, lib, transformers, vector
-, vector-sized, vulkan
+, vector-sized, vulkan-loader
 }:
 mkDerivation {
   pname = "vulkan";
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring transformers vector vector-sized
   ];
-  librarySystemDepends = [ vulkan ];
+  librarySystemDepends = [ vulkan-loader ];
   homepage = "https://github.com/expipiplus1/vulkan#readme";
   description = "Bindings to the Vulkan graphics API";
   license = lib.licenses.bsd3;

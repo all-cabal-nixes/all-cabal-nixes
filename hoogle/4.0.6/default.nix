@@ -12,7 +12,7 @@ mkDerivation {
     array base bytestring containers directory filepath mtl parsec
     process safe time uniplate
   ];
-  testTarget = "--test-option=--no-net";
+  testFlags = [ "--no-net" ];
   homepage = "http://www.haskell.org/hoogle/";
   description = "Haskell API Search";
   license = "GPL";

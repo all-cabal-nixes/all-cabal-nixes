@@ -1,15 +1,14 @@
-{ mkDerivation, aeson, async, base, blaze-builder, bloomfilter, bup
+{ mkDerivation, aeson, async, base, blaze-builder, bloomfilter
 , bytestring, case-insensitive, clientsession, containers
-, crypto-api, curl, data-default, dataenc, DAV, dbus, directory
-, dns, edit-distance, extensible-exceptions, filepath, git, gnupg
-, gnutls, hamlet, hinotify, hS3, hslogger, HTTP, http-conduit
-, http-types, HUnit, IfElse, json, lib, lifted-base, lsof, MissingH
-, monad-control, mtl, network, network-info, network-multicast
-, network-protocol-xmpp, old-locale, openssh, pcre-light, perl
-, process, QuickCheck, rsync, SafeSemaphore, SHA, stm
-, template-haskell, testpack, text, time, transformers
-, transformers-base, unix, utf8-string, wai, wai-logger, warp, wget
-, which, xml-conduit, xml-types, yesod, yesod-default, yesod-form
+, crypto-api, data-default, dataenc, DAV, dbus, directory, dns
+, edit-distance, extensible-exceptions, filepath, gnutls, hamlet
+, hinotify, hS3, hslogger, HTTP, http-conduit, http-types, HUnit
+, IfElse, json, lib, lifted-base, MissingH, monad-control, mtl
+, network, network-info, network-multicast, network-protocol-xmpp
+, old-locale, pcre-light, process, QuickCheck, SafeSemaphore, SHA
+, stm, template-haskell, testpack, text, time, transformers
+, transformers-base, unix, utf8-string, wai, wai-logger, warp
+, xml-conduit, xml-types, yesod, yesod-default, yesod-form
 , yesod-static
 }:
 mkDerivation {
@@ -17,9 +16,8 @@ mkDerivation {
   version = "3.20130207";
   sha256 = "b1aa07241e72761e55bf15a5d5e382575d5e26ddd98d1bbdc05bfad7f0b51bbf";
   configureFlags = [
-    "-fassistant" "-f-benchmark" "-fdbus" "-f-debuglocks" "-fmagicmime"
-    "-fnetworkbsd" "-fpairing" "-fproduction" "-fs3" "-ftorrentparser"
-    "-fwebapp" "-fwebdav"
+    "-fassistant" "-f-benchmark" "-fcrypton" "-fdbus" "-f-debuglocks"
+    "-fmagicmime" "-fpairing" "-fproduction" "-ftorrentparser"
   ];
   isLibrary = false;
   isExecutable = true;
@@ -35,9 +33,6 @@ mkDerivation {
     utf8-string wai wai-logger warp xml-conduit xml-types yesod
     yesod-default yesod-form yesod-static
   ];
-  executableSystemDepends = [
-    bup curl git gnupg lsof openssh perl rsync wget which
-  ];
   testHaskellDepends = [
     base bloomfilter bytestring containers dataenc directory
     edit-distance extensible-exceptions filepath hslogger HTTP HUnit
@@ -45,14 +40,6 @@ mkDerivation {
     old-locale pcre-light process QuickCheck SafeSemaphore SHA testpack
     text time transformers-base unix utf8-string
   ];
-  preConfigure = "export HOME=$TEMPDIR; patchShebangs .";
-  postBuild = ''
-    ln -sf dist/build/git-annex/git-annex git-annex
-    ln -sf git-annex git-annex-shell
-  '';
-  installPhase = "make PREFIX=$out BUILDER=: install install-completions";
-  checkPhase = ''PATH+=":$PWD" git-annex test'';
-  enableSharedExecutables = false;
   homepage = "http://git-annex.branchable.com/";
   description = "manage files with git, without checking their contents into git";
   license = "GPL";

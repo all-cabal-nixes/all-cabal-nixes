@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, Cabal, containers, gi-glib
 , gi-gobject, haskell-gi, haskell-gi-base, haskell-gi-overloading
-, javascriptcoregtk, lib, text, transformers
+, lib, text, transformers, webkitgtk_6_0
 }:
 mkDerivation {
   pname = "gi-javascriptcore6";
@@ -11,7 +11,7 @@ mkDerivation {
     base bytestring containers gi-glib gi-gobject haskell-gi
     haskell-gi-base haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ javascriptcoregtk ];
+  libraryPkgconfigDepends = [ webkitgtk_6_0 ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "JavaScriptCore 6.x bindings";
   license = lib.licenses.lgpl21Only;

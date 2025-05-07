@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, Cabal, containers, gi-gdk3
 , gi-gio, gi-gobject, gi-gtk3, gi-javascriptcore4, gi-soup2
 , haskell-gi, haskell-gi-base, haskell-gi-overloading, lib, text
-, transformers, webkitgtk
+, transformers, webkitgtk_4_0
 }:
 mkDerivation {
   pname = "gi-webkit2webextension";
@@ -16,7 +16,7 @@ mkDerivation {
     gi-javascriptcore4 gi-soup2 haskell-gi haskell-gi-base
     haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ webkitgtk ];
+  libraryPkgconfigDepends = [ webkitgtk_4_0 ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "WebKit2-WebExtension 4.x bindings";
   license = lib.licenses.lgpl21Only;

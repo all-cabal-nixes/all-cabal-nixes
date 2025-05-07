@@ -6,7 +6,7 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring unix ];
   librarySystemDepends = [ fuse ];
   preConfigure = ''
-    sed -i -e "s@  Extra-Lib-Dirs:         /usr/local/lib@  Extra-Lib-Dirs:         ${fuse}/lib@" HFuse.cabal
+    sed -i -e "s@  Extra-Lib-Dirs:         /usr/local/lib@  Extra-Lib-Dirs:         ${lib.getLib fuse}/lib@" HFuse.cabal
   '';
   homepage = "http://code.haskell.org/hfuse";
   description = "HFuse is a binding for the Linux FUSE library";

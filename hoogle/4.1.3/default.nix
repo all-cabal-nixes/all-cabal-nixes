@@ -17,7 +17,7 @@ mkDerivation {
   executableHaskellDepends = [
     Cabal cmdargs HTTP network tagsoup time
   ];
-  testTarget = "--test-option=--no-net";
+  testFlags = [ "--no-net" ];
   homepage = "http://www.haskell.org/hoogle/";
   description = "Haskell API Search";
   license = "GPL";

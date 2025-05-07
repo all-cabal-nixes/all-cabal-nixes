@@ -1,6 +1,6 @@
-{ mkDerivation, base, bytestring, Cabal, containers, gi-glib
-, gmodule, haskell-gi, haskell-gi-base, haskell-gi-overloading, lib
-, text, transformers
+{ mkDerivation, base, bytestring, Cabal, containers, gi-glib, glib
+, haskell-gi, haskell-gi-base, haskell-gi-overloading, lib, text
+, transformers
 }:
 mkDerivation {
   pname = "gi-gmodule";
@@ -11,7 +11,7 @@ mkDerivation {
     base bytestring containers gi-glib haskell-gi haskell-gi-base
     haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ gmodule ];
+  libraryPkgconfigDepends = [ glib ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "GModule bindings";
   license = lib.licenses.lgpl21Only;

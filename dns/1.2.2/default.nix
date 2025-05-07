@@ -18,7 +18,7 @@ mkDerivation {
     conduit conduit-extra containers doctest hspec iproute mtl network
     random resourcet
   ];
-  testTarget = "spec";
+  testTargets = [ "spec" ];
   description = "DNS library in Haskell";
   license = lib.licenses.bsd3;
 }

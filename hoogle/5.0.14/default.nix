@@ -25,7 +25,7 @@ mkDerivation {
     warp-tls zlib
   ];
   executableHaskellDepends = [ base ];
-  testTarget = "--test-option=--no-net";
+  testFlags = [ "--no-net" ];
   homepage = "http://hoogle.haskell.org/";
   description = "Haskell API Search";
   license = lib.licenses.bsd3;

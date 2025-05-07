@@ -1,8 +1,8 @@
 { mkDerivation, base, bytestring, Cabal-syntax, directory
 , exceptions, extra, filepath, hspec, http-client, http-conduit
 , lib, MissingH, monad-logger, mtl, network-uri
-, optparse-applicative, parsec, process, regex-tdfa, tasty
-, tasty-golden, tasty-hspec, temporary, text, time
+, optparse-applicative, process, regex-tdfa, tasty, tasty-golden
+, tasty-hspec, temporary, text, time
 }:
 mkDerivation {
   pname = "templatise";
@@ -14,7 +14,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring Cabal-syntax exceptions extra filepath http-client
     http-conduit monad-logger mtl network-uri optparse-applicative
-    parsec process regex-tdfa text time
+    process regex-tdfa text time
   ];
   executableHaskellDepends = [ base optparse-applicative ];
   testHaskellDepends = [
