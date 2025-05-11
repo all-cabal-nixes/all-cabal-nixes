@@ -7,10 +7,8 @@
 }:
 mkDerivation {
   pname = "cabal2nix";
-  version = "2.20.0";
-  sha256 = "31b5bbd3a9292763935170ffc12455ca0ef09c18b9001d3b95cdcad08953c9d5";
-  revision = "1";
-  editedCabalFile = "196bs86dfcaffhbxv4d7ajwfdg5qabwb6ksv90plql86ns46176i";
+  version = "2.20.1";
+  sha256 = "7231de9ed1c4674ba3daf519629de891dbd36181412ef5ea09c85def6a86387a";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
