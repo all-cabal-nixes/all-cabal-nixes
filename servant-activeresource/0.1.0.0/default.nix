@@ -5,6 +5,8 @@ mkDerivation {
   pname = "servant-activeresource";
   version = "0.1.0.0";
   sha256 = "57af5c6e8f9bfcc3e46d72e839ccf23b9c97726fb4a88ff62564f8bc36b89135";
+  revision = "1";
+  editedCabalFile = "006mbw5mvj5kzz8bigws55xallwrsvdsi5b5y9wc4d7l8a63z0gd";
   libraryHaskellDepends = [
     aeson base bytestring containers servant servant-server
     template-haskell text
