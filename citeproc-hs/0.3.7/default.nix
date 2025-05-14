@@ -6,6 +6,8 @@ mkDerivation {
   pname = "citeproc-hs";
   version = "0.3.7";
   sha256 = "6bb498a3e1c4132565e729807119dfdce70704dacf990441a0a4a38afef1a947";
+  revision = "1";
+  editedCabalFile = "0qnsg06mqbz2wsw1kwnwb14apnnyc5igsib05bd911iv9cx63l02";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base bytestring containers directory filepath hexpat hs-bibutils
