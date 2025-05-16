@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "repline";
-  version = "0.4.2.0";
-  sha256 = "6181b3f106b4059eb1c86c4a442083c29335a1d9a3e7cfffecb962ec05b08d5a";
-  revision = "1";
-  editedCabalFile = "138kdjsw115jvvwplkgw441jzm4pp4x0hyp0kfban31r8j8zxrra";
+  version = "0.4.3.0";
+  sha256 = "9465ae3451cd0deba096b5936b8010b632c9c476583609928392cfcac63f3e12";
   libraryHaskellDepends = [
     base containers exceptions haskeline mtl process
   ];

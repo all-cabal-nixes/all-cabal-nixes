@@ -4,10 +4,8 @@
 }:
 mkDerivation {
   pname = "ghc-lib-parser";
-  version = "9.10.2.20250503";
-  sha256 = "b359895a7b00c8fb3bee34a3561bfd7364ae3a8da30f3fe2b2c26cd003f9da12";
-  revision = "1";
-  editedCabalFile = "0r3fzgd2mrffnjvsk98nmp6fyd0cbnp2bmh5vrayjk2plm4aspcn";
+  version = "9.10.2.20250515";
+  sha256 = "6b37c534f2f25685def8f45db5eb1b2bcfd012f70b10090cd3b699544c7d9cf2";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     array base binary bytestring containers deepseq directory
