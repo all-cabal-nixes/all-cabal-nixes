@@ -5,6 +5,8 @@ mkDerivation {
   pname = "servant-swagger-ui-redoc";
   version = "0.3.5";
   sha256 = "dc0eeb5d831e7ce0747e5f1eb088a3e7d4a0eb24612d7cefebcc4b6e6b287b73";
+  revision = "1";
+  editedCabalFile = "1k485dxxjvvx69xzcqs4v7j8rrsqgk5gykpz37sv7h3pln3ds2jm";
   libraryHaskellDepends = [
     aeson base bytestring file-embed-lzma servant servant-server
     servant-swagger-ui-core text

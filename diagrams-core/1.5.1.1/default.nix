@@ -6,8 +6,8 @@ mkDerivation {
   pname = "diagrams-core";
   version = "1.5.1.1";
   sha256 = "2c1fcbd4a139fd5e5efb755ebf20fde9255473ed950eef9ebc41f4c167941399";
-  revision = "3";
-  editedCabalFile = "0wgb7rgj6mmmqnakp9qn6519c3jk3m0plkv6gmwrbddy92rs8b2i";
+  revision = "4";
+  editedCabalFile = "0lq4hs7h7ja9x8wz05z21fi9b507r8capxwknmadrxznrh892kky";
   libraryHaskellDepends = [
     adjunctions base containers distributive dual-tree lens linear
     monoid-extras mtl profunctors semigroups unordered-containers
