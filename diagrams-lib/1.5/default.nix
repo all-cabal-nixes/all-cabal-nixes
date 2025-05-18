@@ -11,6 +11,8 @@ mkDerivation {
   pname = "diagrams-lib";
   version = "1.5";
   sha256 = "21441140c468ca9f01d17ab3b5412bc0415da47931fee868365218e69899e93e";
+  revision = "1";
+  editedCabalFile = "092pidlcpqxrjqjmpwgiznqkjzz1qwbkxb8526k2gi7n1zy2bw3v";
   libraryHaskellDepends = [
     active adjunctions array base bytestring cereal colour containers
     data-default diagrams-core diagrams-solve directory distributive

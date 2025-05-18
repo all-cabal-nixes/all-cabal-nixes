@@ -10,8 +10,8 @@ mkDerivation {
   pname = "openapi3";
   version = "3.2.4";
   sha256 = "dbcb90464b4712a03c37fa3fcaca3a6784ace2794d85730a8a8c5d9b3ea14ba0";
-  revision = "2";
-  editedCabalFile = "1y7is2q6jfq1k35swnw9yv2h122pd5f6zchxl8zah0laafkm03vq";
+  revision = "3";
+  editedCabalFile = "0ajcly73d6q8vvc5syds7qwqvgr6zd278izg455nbd2rk958c2bk";
   isLibrary = true;
   isExecutable = true;
   setupHaskellDepends = [ base Cabal cabal-doctest ];
