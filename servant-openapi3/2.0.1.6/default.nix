@@ -9,8 +9,8 @@ mkDerivation {
   pname = "servant-openapi3";
   version = "2.0.1.6";
   sha256 = "322a2181fb2becb20b80ad8319dd3ce1874d89cd344a8d8a4e17d1428d1dbfc3";
-  revision = "7";
-  editedCabalFile = "148mx2hi46l5mdlgikfgilwl3lrvbhqd651qxiky58nr32m07gk0";
+  revision = "8";
+  editedCabalFile = "0ghm39rrn27ss2dfff4ic48kwss71barrrx7qjss80inz8bpz2r2";
   setupHaskellDepends = [ base Cabal cabal-doctest ];
   libraryHaskellDepends = [
     aeson aeson-pretty base base-compat bytestring hspec http-media

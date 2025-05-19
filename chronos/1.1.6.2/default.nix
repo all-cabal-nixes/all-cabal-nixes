@@ -8,6 +8,8 @@ mkDerivation {
   pname = "chronos";
   version = "1.1.6.2";
   sha256 = "e3f4b78cd37b602626ca8ac422a495c66bb5e935cf420fa28e3399c56bd2c823";
+  revision = "1";
+  editedCabalFile = "04991mhi13b95iy665s59r4z9qsh68wykkgch5dqlnlm1dd6fzdw";
   libraryHaskellDepends = [
     aeson attoparsec base bytebuild byteslice bytesmith bytestring
     deepseq hashable natural-arithmetic primitive text text-short

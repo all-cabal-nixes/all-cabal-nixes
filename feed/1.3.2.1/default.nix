@@ -7,8 +7,8 @@ mkDerivation {
   pname = "feed";
   version = "1.3.2.1";
   sha256 = "a8f54072edaaf7e978062b9de94733e8cc43e31b2dda3446f901bf57f1815955";
-  revision = "4";
-  editedCabalFile = "1ihkckkn5xpk4mmgbxp0c3ik2rgzx3r60vzxmzgmw83a77ghjgmy";
+  revision = "5";
+  editedCabalFile = "0y9f6dcgmmfzgxq9dbgs6lypd6pmcb0x1qvvkj20l74ba9k30v96";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base base-compat bytestring old-locale old-time safe text time
