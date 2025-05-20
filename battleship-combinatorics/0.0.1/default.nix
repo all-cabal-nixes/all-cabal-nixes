@@ -7,8 +7,8 @@ mkDerivation {
   pname = "battleship-combinatorics";
   version = "0.0.1";
   sha256 = "04de1ee724fd4a8bb3ee56e1a88e456c4b641f687d9a268ba5b3d96430db215f";
-  revision = "2";
-  editedCabalFile = "0z2zqmdv5icamkfhpjnjnf88r21151k3pcqij6x0885m8s1y840p";
+  revision = "3";
+  editedCabalFile = "1q84kx54d3qq00fckwypzqdxgqi0am4kh88qh21pb4kh4hbalxmz";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

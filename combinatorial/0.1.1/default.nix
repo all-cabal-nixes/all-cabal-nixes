@@ -5,8 +5,8 @@ mkDerivation {
   pname = "combinatorial";
   version = "0.1.1";
   sha256 = "afec81a00558a2a79f7a1e2f33758e93ba1b6014a858cdab19273b73cee8e56b";
-  revision = "1";
-  editedCabalFile = "1g68vf9yj87qbmbazlasq11wcb1dd9rx83p95f4lqaji1ipzvq1y";
+  revision = "2";
+  editedCabalFile = "0kkzsa6rf7g65zdyyqwfcdzx7sqjfp2rhjc4ck5cw2kyp9dkvcdy";
   libraryHaskellDepends = [
     array base containers transformers utility-ht
   ];

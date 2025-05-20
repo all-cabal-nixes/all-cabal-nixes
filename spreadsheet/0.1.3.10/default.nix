@@ -5,6 +5,8 @@ mkDerivation {
   pname = "spreadsheet";
   version = "0.1.3.10";
   sha256 = "20971f2cdaca02cdb2b686e606f0c09f54b306d848d5c7ed421a5039ac325808";
+  revision = "1";
+  editedCabalFile = "1dd37qgmy7nzxkbarflh5fm33gy7yqy91pa4pa3x4yggp9v52f61";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

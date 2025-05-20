@@ -6,8 +6,8 @@ mkDerivation {
   pname = "wraxml";
   version = "0.5";
   sha256 = "10bc0f1722e5932a3f2d4c8545026708386c1b771ea87a0715ef43f299a7faff";
-  revision = "1";
-  editedCabalFile = "0y0j420isc9cm1f2hl87fy33181w12cx0mn4m40ik8dld0npgbha";
+  revision = "2";
+  editedCabalFile = "183ih3x2jairigzasv6rz798czwndcbas26k4gb8vg5l4zw3fig3";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

@@ -7,8 +7,8 @@ mkDerivation {
   pname = "sound-collage";
   version = "0.2.1";
   sha256 = "516744edcac1945deadd02f200eac91662fcdefde0b3dae9f8605030c71ae625";
-  revision = "3";
-  editedCabalFile = "09slv6fqrkbhr1jn7h8xs0cxhdaq3r6cy1xar3vp8dil4hc6v3j8";
+  revision = "4";
+  editedCabalFile = "07innczhsry9nar0ry5h9fia7r6aiidqxdh8mppvk6d3bpvh04y6";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

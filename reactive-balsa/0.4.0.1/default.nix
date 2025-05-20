@@ -8,8 +8,8 @@ mkDerivation {
   pname = "reactive-balsa";
   version = "0.4.0.1";
   sha256 = "8151d6f1393a81f701c9325faf28fb8d15aec816de4d26562f4af1ecfa3a16ba";
-  revision = "2";
-  editedCabalFile = "1l5mvm1b4y8r1r6lg7h2imrfzl4y1jcc23cjm5bpcrci46n0z006";
+  revision = "3";
+  editedCabalFile = "0bpy0z1gcj52jqirbhl909vnvjarj4x2lyvxx3c4f2v8h67a069d";
   libraryHaskellDepends = [
     alsa-core alsa-seq base containers data-accessor
     data-accessor-transformers event-list extensible-exceptions midi

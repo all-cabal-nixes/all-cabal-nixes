@@ -4,8 +4,8 @@ mkDerivation {
   pname = "calendar-recycling";
   version = "0.0.0.1";
   sha256 = "8cd39ccf4fbe538f8e5d434d0efd0c559074420b9283d2c7c4b7ab6262b4d529";
-  revision = "1";
-  editedCabalFile = "0dp0gylbwsrrszg5nw7x38xhilmn0vgn79zl9bam024nb528x7m1";
+  revision = "2";
+  editedCabalFile = "0marcj19hh3fap328dmyqmhpcj3f9jx696whhrd4spqr17fpm57a";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

@@ -6,8 +6,8 @@ mkDerivation {
   pname = "set-cover";
   version = "0.1.1.1";
   sha256 = "d55e26e2e566527b3940994923f38c11e53f67d30f8fd6e23166d2370fad4492";
-  revision = "1";
-  editedCabalFile = "0iiy3p2pkxjpl7vhylgmh76afxxwkix9h9w3vj62carz6vgymkid";
+  revision = "2";
+  editedCabalFile = "14mvjd4k8zlxh7g16n2bzkb84lx125ajdlmk05w4i7xijvvcw2c3";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

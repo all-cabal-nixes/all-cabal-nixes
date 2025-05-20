@@ -8,8 +8,8 @@ mkDerivation {
   pname = "synthesizer-midi";
   version = "0.6.1.2";
   sha256 = "cc1ad9449c799786c70a644f969e83f81a747929f4b57f425f14795bc1dcd7f6";
-  revision = "1";
-  editedCabalFile = "061dgdfrv1zrjpih29x50kpl57ghb3ys6wpra5ai9k0wxdpr9zqk";
+  revision = "2";
+  editedCabalFile = "1d2kivwhrvdqrjk7rhvd9csl0isdbybmf81r3bxzbf40fqlqfq8d";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

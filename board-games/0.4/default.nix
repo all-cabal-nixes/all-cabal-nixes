@@ -8,8 +8,8 @@ mkDerivation {
   pname = "board-games";
   version = "0.4";
   sha256 = "ecbab8dedae6019fb2d63672834029cce5185baa09169fcf8c66a0d7fa939916";
-  revision = "2";
-  editedCabalFile = "1dqrlqkl3zzccbq62i35acqbrgw9572il35cz3vyipjc98fqhq8c";
+  revision = "3";
+  editedCabalFile = "1wawaq86bfn45hnfb6qv3ng4i8vvps914qhvbgmmx2p5lwmml21g";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

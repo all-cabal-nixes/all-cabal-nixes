@@ -5,8 +5,8 @@ mkDerivation {
   pname = "midi-music-box";
   version = "0.0.1.2";
   sha256 = "8986462f9075f97dd2da2a885d3063d4a303f51f1377dba5f396026f74e4d266";
-  revision = "5";
-  editedCabalFile = "0j0dcd8x75dgx0rgj70hxl5p4wnmhg2zdw1wm0lvg43mazclkw0z";
+  revision = "6";
+  editedCabalFile = "0b8039mw0wacjxxwx1ws2wczwdgxm4iiymdkykk7lp5ii75vvfww";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

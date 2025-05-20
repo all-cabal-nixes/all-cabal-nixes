@@ -6,8 +6,8 @@ mkDerivation {
   pname = "align-audio";
   version = "0.0.0.1";
   sha256 = "cb424d699f9cddc5b225796d304b9b529eaf39901b0cce18fc7519f9223026e4";
-  revision = "1";
-  editedCabalFile = "1cqxzanhz71lgivffxddq95ay0vaxfpjl3b0zpzbcw3filfkqihy";
+  revision = "2";
+  editedCabalFile = "15hqn6q6991qp60pvykw3ryrcyqz94vhwcj1y28sxdpn5ga8mrl9";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

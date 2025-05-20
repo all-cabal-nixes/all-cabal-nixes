@@ -8,8 +8,8 @@ mkDerivation {
   pname = "hmm-lapack";
   version = "0.5.0.1";
   sha256 = "b35f667369e9e8bceaddf2db893060c9bc10899c7d25c7ad46227efc1c29a746";
-  revision = "2";
-  editedCabalFile = "1jg5qpdwi186vm87b0dm5gzqivlpc1q2lwi9vangxah1lfhd898r";
+  revision = "3";
+  editedCabalFile = "0gqmrl8raa38rnrdbh4nyfrl5csb9l5rgk0w1i1laazxqd8wl49y";
   libraryHaskellDepends = [
     base comfort-array comfort-array-shape containers deepseq
     explicit-exception fixed-length lapack lazy-csv netlib-ffi

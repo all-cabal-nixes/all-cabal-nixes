@@ -8,6 +8,8 @@ mkDerivation {
   pname = "comfort-array";
   version = "0.5.5";
   sha256 = "b1ccc8e1484fef041bba16c6b02097fd38c36b70c17128a2402636626aa7d04b";
+  revision = "1";
+  editedCabalFile = "123q7i0zv3cl2218dkb9xcccf7j5kpw0awhgrj05gjhancfcdzcr";
   libraryHaskellDepends = [
     base bifunctors containers deepseq guarded-allocation non-empty
     prelude-compat primitive QuickCheck semigroups storable-record

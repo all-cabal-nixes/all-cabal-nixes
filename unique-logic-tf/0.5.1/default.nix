@@ -5,8 +5,8 @@ mkDerivation {
   pname = "unique-logic-tf";
   version = "0.5.1";
   sha256 = "8b818cb19dea8ed6fbdd21795b76f3fa0dcc4416bcf5ceb4c7d6f179ea945028";
-  revision = "3";
-  editedCabalFile = "18ksx28w58g0mdnsk0sr57n76r48dbig4dk4cks3kjzhgbix4wd2";
+  revision = "4";
+  editedCabalFile = "05dl9xbbd1zlynqzz0vmi41q2vhjj7jrgpdzb4jxdxkcg5xrxccr";
   libraryHaskellDepends = [
     base containers data-ref semigroups transformers utility-ht
   ];

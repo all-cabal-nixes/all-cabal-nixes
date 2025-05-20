@@ -10,6 +10,8 @@ mkDerivation {
   pname = "lapack";
   version = "0.5.2";
   sha256 = "aa599e51ecbae1e86a59d002154b9224c01360f527b8acabe84c46f05687540b";
+  revision = "1";
+  editedCabalFile = "1xqylv8569f320dm67lab4idrjdl18ymxfs1sci19bi44k2hnm8d";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
