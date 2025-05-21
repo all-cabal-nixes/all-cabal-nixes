@@ -8,6 +8,8 @@ mkDerivation {
   pname = "bytebuild";
   version = "0.3.16.3";
   sha256 = "0831d676eaa4fb7266c1a6b182cb02e9ddcbaafbeadafd0f7a049c1858610851";
+  revision = "1";
+  editedCabalFile = "0jcqp55d8a2fpimc937a1phd6s20ypk12r2ybm3c0d3120sr9bnd";
   libraryHaskellDepends = [
     base byteslice bytestring haskell-src-meta integer-logarithms
     natural-arithmetic primitive primitive-offset run-st

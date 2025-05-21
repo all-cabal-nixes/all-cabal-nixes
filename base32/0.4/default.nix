@@ -6,8 +6,8 @@ mkDerivation {
   pname = "base32";
   version = "0.4";
   sha256 = "9ae7861d509528d3e8f4ecd946051b05f7141e907216e672d18e26d242a908d4";
-  revision = "1";
-  editedCabalFile = "080i61y2mzahrkvj27llybgc4g0kwf53j552y8g5pcpl45dshgvh";
+  revision = "2";
+  editedCabalFile = "0a12j7rgk8niaqn7s40rlxl5ipsp1cpqpq4nkgraws7wdm77pfyd";
   libraryHaskellDepends = [
     base bytestring deepseq text text-short
   ];
