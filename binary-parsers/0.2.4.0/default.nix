@@ -9,6 +9,8 @@ mkDerivation {
   pname = "binary-parsers";
   version = "0.2.4.0";
   sha256 = "d193d3d3dca259e7299fb2c44cdd95b0a3e1bf54363ce4a9f6cda63b654bb9ca";
+  revision = "1";
+  editedCabalFile = "02qc6vlm50l3k5zpz0893kwywr36n3vnjrabgica1iwqrqdvya1x";
   libraryHaskellDepends = [
     base binary bytestring bytestring-lexing scientific
   ];
