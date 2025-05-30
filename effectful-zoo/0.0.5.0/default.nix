@@ -12,6 +12,8 @@ mkDerivation {
   pname = "effectful-zoo";
   version = "0.0.5.0";
   sha256 = "9a99c8affb04ee585356dd992ef22dd80c86a162dad9e3807c6e87bdac631a27";
+  revision = "1";
+  editedCabalFile = "0lqw0yazj8iz6d3y48v6i1yfmy3l0w4mp5y0rxr9i15slvn8n7ax";
   isLibrary = false;
   isExecutable = false;
   libraryHaskellDepends = [

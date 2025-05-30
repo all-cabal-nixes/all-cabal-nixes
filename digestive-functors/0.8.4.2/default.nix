@@ -6,8 +6,8 @@ mkDerivation {
   pname = "digestive-functors";
   version = "0.8.4.2";
   sha256 = "36d3810a2ae38c60ad41a05007194626735e78410ddf9534dee7449a07811574";
-  revision = "2";
-  editedCabalFile = "1qi4ck718ly1gahlbw28fnc9znrmdxb4415kv6wjwnhlf9sp0np9";
+  revision = "3";
+  editedCabalFile = "0r5vaj2yn96nla750r7hh8ppgbkfhj4r4qb9c9s23dbg62mp8bls";
   libraryHaskellDepends = [
     base bytestring containers mtl old-locale semigroups text time
   ];
