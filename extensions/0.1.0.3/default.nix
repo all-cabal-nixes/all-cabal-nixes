@@ -6,8 +6,8 @@ mkDerivation {
   pname = "extensions";
   version = "0.1.0.3";
   sha256 = "95fef562d93a63146bd1a99b653023462610a9c97648c67660f283d99c0f7aba";
-  revision = "1";
-  editedCabalFile = "1nd8zmxqlwnc3ksm13ld5d1rr6vhdi9dykp42mfk5lim7iyw3lj6";
+  revision = "2";
+  editedCabalFile = "0ph3qpvqdva8wjpxla4i188ib2pgx79hd3rrgrjzpp1ch5a1disv";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
