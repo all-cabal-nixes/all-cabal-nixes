@@ -5,8 +5,8 @@ mkDerivation {
   pname = "gemini-router";
   version = "0.1.2.0";
   sha256 = "529ffb3c0e3d30b238f8cd0e642fa8c70a8fabd0ab11e0e5210c5f1bf4fe6589";
-  revision = "1";
-  editedCabalFile = "0wlzl52x65mg3an0phmp6a9d0dbcyv6vvvc941xfrmx2jydq8v78";
+  revision = "2";
+  editedCabalFile = "1s3mgi37ds7xhlnkmw356zzbp6hikckp0ccn79l5cqhnjaj2213s";
   libraryHaskellDepends = [
     base gemini-server HsOpenSSL network-uri transformers
   ];

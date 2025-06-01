@@ -5,8 +5,8 @@ mkDerivation {
   pname = "gemini-server";
   version = "0.3.0.0";
   sha256 = "630e1c81926b612167c44a716052382108b55aea35f19fd1dfd297df3f053069";
-  revision = "3";
-  editedCabalFile = "1lg561xjfsa5q5gayipzr4ggragv2nv80i3bg1psg5n8ryijdpdm";
+  revision = "4";
+  editedCabalFile = "1qna0rqyv89l6vl9w4qfz8kx8kd6759ywycw17ssqa5aavdbnwpq";
   libraryHaskellDepends = [
     base bytestring hslogger HsOpenSSL network network-run network-uri
     text utf8-string
