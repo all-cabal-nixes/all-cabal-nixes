@@ -8,8 +8,8 @@ mkDerivation {
   pname = "discrimination";
   version = "0.5";
   sha256 = "ec82479237139ded1252c6c0f617079d713d2ec37abe6412710f3bdd827607e3";
-  revision = "4";
-  editedCabalFile = "1m4sv7mdqdm5xx5khbyq0il3dn5isg575vgn1akb283l2jkz4v1g";
+  revision = "5";
+  editedCabalFile = "1pbnj7jzxxrd7s7nqmwmmxhw4pyrwxnsdx7xpw63240jb9f1cg8f";
   libraryHaskellDepends = [
     array base containers contravariant deepseq ghc-bignum ghc-prim
     hashable primitive promises transformers
