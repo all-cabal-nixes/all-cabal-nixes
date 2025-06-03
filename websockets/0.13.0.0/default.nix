@@ -8,8 +8,8 @@ mkDerivation {
   pname = "websockets";
   version = "0.13.0.0";
   sha256 = "9af814f76451b0adbcceb2c46cae463f63c5de50b2b6be66f4ef4d15ce2a49b5";
-  revision = "4";
-  editedCabalFile = "1g6f94cn20a4073cbinv2sfwglbqlpjxgzgj7svi6ff4vkfn0ins";
+  revision = "5";
+  editedCabalFile = "0nm0lj8cv5z5y2d0bz0rfl3bz100swhind4wn95b7q2ma2x80dlv";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
