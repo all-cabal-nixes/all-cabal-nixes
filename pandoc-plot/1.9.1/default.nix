@@ -8,6 +8,8 @@ mkDerivation {
   pname = "pandoc-plot";
   version = "1.9.1";
   sha256 = "a34a08faf483ed7c9c5e7c439ac275077b9262bb3384d1f551e47d6aa59dd434";
+  revision = "1";
+  editedCabalFile = "0ykgv0cxiwvcx0pkkmx841cdwv2sas033mq928mg6dlcbvw32nx1";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

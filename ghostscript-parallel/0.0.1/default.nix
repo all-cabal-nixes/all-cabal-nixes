@@ -6,6 +6,8 @@ mkDerivation {
   pname = "ghostscript-parallel";
   version = "0.0.1";
   sha256 = "def64baf6acda8ffb25aba2e1fc2baffa7d250eb1c97ecc117305d74a1354aea";
+  revision = "1";
+  editedCabalFile = "1sd1rh0fm29c3h4vm42fv6vbqplcm32ilqzimdp7vxfp3mhbblpr";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

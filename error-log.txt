@@ -2,20 +2,218 @@ failed when running sed to get sha256 on ../all-cabal-hashes/hermes/1.3.4.3/herm
 sed: can't read ../all-cabal-hashes/hermes/1.3.4.3/hermes.json: No such file or directory
 
 
+failed when running cabal2nix on ../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 292 ms
+warning: error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 608 ms
+warning: error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1366 ms
+warning: error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2517 ms
+error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 264 ms
+warning: error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 530 ms
+warning: error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1015 ms
+warning: error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2460 ms
+error: unable to download '../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pms-application-service/0.0.1.0/pms-application-service.cabal", sourceRevision = "", sourceHash = Guess "4a548fd1094a46aa45751b8075e9aafb2f733fbf0a77ec563da5802190b3de66", sourceCabalDir = ""})
+
+
+failed when running cabal2nix on ../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 279 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 643 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1187 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2078 ms
+error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 252 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 598 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1303 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2439 ms
+error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pms-domain-model/0.0.1.0/pms-domain-model.cabal", sourceRevision = "", sourceHash = Guess "eab06c217fc4887b72455d8280c22696d08086b46d890f1e83dfcaad1a2669ca", sourceCabalDir = ""})
+
+
+failed when running cabal2nix on ../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 258 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 501 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1412 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2262 ms
+error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 273 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 503 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1222 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2552 ms
+error: unable to download '../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pms-domain-model/0.0.1.1/pms-domain-model.cabal", sourceRevision = "", sourceHash = Guess "e95dea05747e94ff99b4ff75942c6c7b7d6bce3e0ed00fe3e4475660a760a717", sourceCabalDir = ""})
+
+
+failed when running cabal2nix on ../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 280 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 698 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1312 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2384 ms
+error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 326 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 696 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1293 ms
+warning: error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2592 ms
+error: unable to download '../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pms-domain-service/0.0.1.0/pms-domain-service.cabal", sourceRevision = "", sourceHash = Guess "703f209917ff462d48aa6b4a96b20bb31f4493d281476bc59118bc862b9bc751", sourceCabalDir = ""})
+
+
+failed when running cabal2nix on ../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 331 ms
+warning: error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 616 ms
+warning: error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1369 ms
+warning: error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2731 ms
+error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 345 ms
+warning: error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 546 ms
+warning: error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1254 ms
+warning: error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2604 ms
+error: unable to download '../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pms-infrastructure/0.0.1.0/pms-infrastructure.cabal", sourceRevision = "", sourceHash = Guess "bb196b9c6298526af8de4fba7df5c3f8bfa926da581272225eaf3c2e94b4c550", sourceCabalDir = ""})
+
+
+failed when running cabal2nix on ../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 322 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 609 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1048 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2798 ms
+error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 351 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 694 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1307 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2529 ms
+error: unable to download '../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pms-ui-request/0.0.1.0/pms-ui-request.cabal", sourceRevision = "", sourceHash = Guess "7618cdbe7dd7e15073cea657a4c692d579b7d4f2beccc8cf68c5a84887c49ec0", sourceCabalDir = ""})
+
+
+failed when running cabal2nix on ../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 333 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 592 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1043 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2404 ms
+error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal
+warning: error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 347 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 672 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1099 ms
+warning: error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2455 ms
+error: unable to download '../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pms-ui-response/0.0.1.0/pms-ui-response.cabal", sourceRevision = "", sourceHash = Guess "89403539635c869a3ea62bbbbd436f42121ccd2668095fbbdb5ae1e39f166325", sourceCabalDir = ""})
+
+
+failed when running cabal2nix on ../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 281 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 650 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1013 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2666 ms
+error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 267 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 679 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1131 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2667 ms
+error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pty-mcp-server/0.0.1.0/pty-mcp-server.cabal", sourceRevision = "", sourceHash = Guess "635ff0eea33b2cda1cfab8095c6beebdb1ecdb2f06b04053ce72a345281b9df4", sourceCabalDir = ""})
+
+
+failed when running cabal2nix on ../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal.  Error output from cabal2nix: 
+$ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal
+error: failed to open archive: Unrecognized archive format
+$ nix-prefetch-url ../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 250 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 581 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1264 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2671 ms
+error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..
+$ nix-prefetch-url --unpack ../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 264 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 528 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1070 ms
+warning: error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2076 ms
+error: unable to download '../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal': Could not resolve hostname (6) Could not resolve host: ..
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+** need a revision for VCS when the hash is given. skipping.
+cabal2nix: user error (Failed to fetch source. Does this source exist? Source {sourceUrl = "../all-cabal-hashes/pty-mcp-server/0.0.1.1/pty-mcp-server.cabal", sourceRevision = "", sourceHash = Guess "a4f18c7c4fb666fd4c70619d5b2fda87936e0e59811f36b1e592b21b34935756", sourceCabalDir = ""})
+
+
 failed when running cabal2nix on ../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal.  Error output from cabal2nix: 
 $ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal
 error: failed to open archive: Unrecognized archive format
 $ nix-prefetch-url ../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 295 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 700 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1165 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2438 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 338 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 593 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1072 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2337 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 $ nix-prefetch-url --unpack ../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 255 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 655 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1060 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2309 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 345 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 612 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1328 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2223 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.2/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
@@ -28,16 +226,16 @@ failed when running cabal2nix on ../all-cabal-hashes/webdriver-precore/0.0.0.3/w
 $ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal
 error: failed to open archive: Unrecognized archive format
 $ nix-prefetch-url ../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 258 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 706 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1201 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2145 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 301 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 669 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1251 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2352 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 $ nix-prefetch-url --unpack ../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 275 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 639 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1154 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2043 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 271 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 669 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1280 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2477 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.3/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
@@ -50,16 +248,16 @@ failed when running cabal2nix on ../all-cabal-hashes/webdriver-precore/0.0.0.4/w
 $ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal
 error: failed to open archive: Unrecognized archive format
 $ nix-prefetch-url ../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 253 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 688 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1402 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2385 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 298 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 596 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1413 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2366 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 $ nix-prefetch-url --unpack ../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 348 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 509 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1036 ms
-warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2530 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 277 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 669 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 1406 ms
+warning: error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..; retrying in 2646 ms
 error: unable to download '../all-cabal-hashes/webdriver-precore/0.0.0.4/webdriver-precore.cabal': Could not resolve hostname (6) Could not resolve host: ..
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.

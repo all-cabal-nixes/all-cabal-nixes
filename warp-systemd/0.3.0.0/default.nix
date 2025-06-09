@@ -5,8 +5,8 @@ mkDerivation {
   pname = "warp-systemd";
   version = "0.3.0.0";
   sha256 = "6cc45e78fd43e5a14cc4b103358d591ed27e413bacc0b6d1ecea28ca137973fb";
-  revision = "2";
-  editedCabalFile = "09pkrig9xq95k3n1yrhfcfa8i3dkdim4nd03mgm22523jk9b3hbw";
+  revision = "3";
+  editedCabalFile = "1rb5qgfvyblpj15ikrlngyc87wdbp6xp90r7v7gyczshgdhnsg8d";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base network systemd unix wai warp ];

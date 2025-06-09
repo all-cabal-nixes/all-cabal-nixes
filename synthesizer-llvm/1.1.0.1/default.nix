@@ -9,6 +9,8 @@ mkDerivation {
   pname = "synthesizer-llvm";
   version = "1.1.0.1";
   sha256 = "d99383567f06d6341a94d9c82bd1261121f25e669cb15e8143a492075428c598";
+  revision = "1";
+  editedCabalFile = "1kjiqwmfp2g7mqg6818qdhjjc5lw8hxf895763npjv5dx62b6dc3";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

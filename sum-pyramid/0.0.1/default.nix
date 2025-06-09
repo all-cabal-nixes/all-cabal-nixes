@@ -7,6 +7,8 @@ mkDerivation {
   pname = "sum-pyramid";
   version = "0.0.1";
   sha256 = "de547858ed3e318f99cddc0930e371bd679f1dd7fcc8e71c47af90d14c7807fe";
+  revision = "1";
+  editedCabalFile = "0pq6b89ygb0c2sd7b73zic7f8g589jz08ff0a1fpwr4xj5mawkmd";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

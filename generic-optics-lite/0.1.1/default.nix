@@ -3,6 +3,8 @@ mkDerivation {
   pname = "generic-optics-lite";
   version = "0.1.1";
   sha256 = "148f2da73f65c083a46f08cc7da3b414c045cf3c852f84bdadd17b270e6fa2b5";
+  revision = "1";
+  editedCabalFile = "1z3bf20fj03bfp4zigdxzw4v30hmxgwkdzdmgbn4hibpcz2j24p0";
   libraryHaskellDepends = [ base generic-lens-lite optics-core ];
   testHaskellDepends = [ base optics-core ];
   homepage = "https://github.com/phadej/generic-lens-lite";

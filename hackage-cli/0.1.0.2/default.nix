@@ -9,6 +9,8 @@ mkDerivation {
   pname = "hackage-cli";
   version = "0.1.0.2";
   sha256 = "739c79786cda98050d300d793ebfbe1a5aa12ab818d545308167e16abc43f3e0";
+  revision = "1";
+  editedCabalFile = "14s7p0sy2gvhjvgk2739j4xc7phqv4b7z103br0dl7723izcj3r5";
   isLibrary = false;
   isExecutable = true;
   libraryHaskellDepends = [

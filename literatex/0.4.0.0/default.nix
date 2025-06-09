@@ -6,6 +6,8 @@ mkDerivation {
   pname = "literatex";
   version = "0.4.0.0";
   sha256 = "7d0d6039787d3b6dbaa4647025b5f04f65770f021f1d43e8bfc2bfd033b0901b";
+  revision = "1";
+  editedCabalFile = "1kqa99vrq35hk0n58cj5sgp6s87jgwhafz78jzrwi67v94w3hi01";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

@@ -8,8 +8,8 @@ mkDerivation {
   pname = "lentil";
   version = "1.5.8.0";
   sha256 = "d629d6ee883bee61050f2317f6e2f6725efc5dd4870897e804cc7aebff2ce121";
-  revision = "1";
-  editedCabalFile = "0n991bjlcjchmjlgfxg709sp6vsi6c5igzs7904i6hfabq3z47q5";
+  revision = "2";
+  editedCabalFile = "0qcibmqkw96658fx3dcfy90k8w4a7xdvllb8h0hk14v0lwvi4cmm";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

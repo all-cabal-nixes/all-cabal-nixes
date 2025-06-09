@@ -7,8 +7,8 @@ mkDerivation {
   pname = "lapack-ffi-tools";
   version = "0.1.3.2";
   sha256 = "6290a410a5d685b8fa3eb89b84db7541391fe21af20c92b11af6bdf53bc76078";
-  revision = "1";
-  editedCabalFile = "0z8ahg1bxcphdyhjaxwmfhdhwwg1d2mhx3dvl6af3c9sql9r5xjw";
+  revision = "2";
+  editedCabalFile = "0k96wssmadcjrhdzcd6q3n7qx9kpb2wb3i9c61xygwx6x9q13wm3";
   isLibrary = false;
   isExecutable = true;
   enableSeparateDataOutput = true;

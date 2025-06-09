@@ -8,6 +8,8 @@ mkDerivation {
   pname = "ginger";
   version = "0.10.6.0";
   sha256 = "f22cbdfe7e6dc531926962d3a6a0053487e3ff3d17e1583c674b4fd1d1cfaa48";
+  revision = "1";
+  editedCabalFile = "1226x5dlcpaczy3kx5h27fmq4g03h4aa1nc1aw9r7x18h8rjay04";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;

@@ -5,8 +5,8 @@ mkDerivation {
   pname = "hledger-interest";
   version = "1.6.7";
   sha256 = "e45a53e31d6e4074768627e3c976423448e63e2e4402133e8a5f200edff339ca";
-  revision = "1";
-  editedCabalFile = "1hl3vgwhlk15xrhafmp5y017cm4y7zkn2n8l9frsc0xz67h9571z";
+  revision = "2";
+  editedCabalFile = "1inrlrz2rgk99sspm33r7rnfiycx8pllsh95ais9x05fp88cxhcf";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

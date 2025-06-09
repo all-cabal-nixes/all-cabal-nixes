@@ -7,6 +7,8 @@ mkDerivation {
   pname = "IPv6DB";
   version = "0.3.3.4";
   sha256 = "4a5ed244b2ab6f1e7c8ed0f4333e0d48ccb32a6b3da33be8c0c98a47b1136ed6";
+  revision = "1";
+  editedCabalFile = "18wx26x4nyyywbl7inwna68kmxs8sbyckmrhdz4png9gn7ix4sr0";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

@@ -8,8 +8,8 @@ mkDerivation {
   pname = "horizontal-rule";
   version = "0.7.0.0";
   sha256 = "3d7537af59879b4ea7dc863b0677d53511ebda7368e2817620ec0599dd719068";
-  revision = "1";
-  editedCabalFile = "1jb71y6mxkrcnps1jdh6rkkrznhzcsyl8c7s565xjalabql56nkq";
+  revision = "2";
+  editedCabalFile = "02cql9yvsvbi6xf7kplidmxay7n70lxb1z2499vngn7197b6d5kh";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base terminal-size text ];

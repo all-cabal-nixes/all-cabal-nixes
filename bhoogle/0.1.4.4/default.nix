@@ -6,8 +6,8 @@ mkDerivation {
   pname = "bhoogle";
   version = "0.1.4.4";
   sha256 = "aa7b4ef4c1e6d008307a7ef2bd12768a6a85ad64d4e585b309f246fb248029fc";
-  revision = "1";
-  editedCabalFile = "182j2bc4cqddzv5vd2fkkyx2qs9ya7vg9r234xr5gyp35waln1i9";
+  revision = "2";
+  editedCabalFile = "1kpzvlzydrfqjhmpjirb51xhnwircdcnmhbn82nvnvm5s4h0pajd";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [
