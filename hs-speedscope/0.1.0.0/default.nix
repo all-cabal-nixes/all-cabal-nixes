@@ -4,6 +4,8 @@ mkDerivation {
   pname = "hs-speedscope";
   version = "0.1.0.0";
   sha256 = "7848260bffc7c86fd1461d3bca29ad72231f2da0896b82eee62c4f7580c3d9e0";
+  revision = "1";
+  editedCabalFile = "1hj3fi4z32px008rbsj390pccry87b57zfabhcgs02pakx9pcwj9";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

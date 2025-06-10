@@ -7,8 +7,8 @@ mkDerivation {
   pname = "stache";
   version = "2.3.4";
   sha256 = "a1a8272776a922ef8c0387763dada1f0f801c2ac7fe2fc1146394ea179f7f14d";
-  revision = "4";
-  editedCabalFile = "03bgp2b2kpijnvdsvcr4adas7iyz3v12cp6j044b248cw6hklayd";
+  revision = "5";
+  editedCabalFile = "1kvqv42w223r53mjkj2am6j65qly8bvahr5fxvlbnx88bairp0zm";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
