@@ -7,6 +7,8 @@ mkDerivation {
   pname = "langchain-hs";
   version = "0.0.2.0";
   sha256 = "7f265673a2fcceaf87f9951a7a492ec78004a9d2b3ab5f9e0cbaba7b6b7d033e";
+  revision = "2";
+  editedCabalFile = "0qk56yswclxrf903c34ifadd8ja2l3zxfc0b2vzlgf1x7zf4cikl";
   libraryHaskellDepends = [
     aeson async base bytestring conduit containers directory filepath
     http-conduit http-types ollama-haskell parsec pdf-toolbox-document
