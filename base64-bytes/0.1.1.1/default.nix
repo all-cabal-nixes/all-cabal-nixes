@@ -6,6 +6,8 @@ mkDerivation {
   pname = "base64-bytes";
   version = "0.1.1.1";
   sha256 = "7a871181553cfb33fe575feadd180a756b17571910dc8219d799e37a9e17703f";
+  revision = "1";
+  editedCabalFile = "17kl1813wdqbh6hjrm7npm2w65d0ir4bpbklggr4bxzxabwbsg2c";
   libraryHaskellDepends = [
     base byte-order bytebuild byteslice natural-arithmetic primitive
     run-st word-compat
