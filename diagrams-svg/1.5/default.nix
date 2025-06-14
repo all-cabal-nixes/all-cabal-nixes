@@ -7,8 +7,8 @@ mkDerivation {
   pname = "diagrams-svg";
   version = "1.5";
   sha256 = "a2586ecaff982cbad5e88c2a71ba63df52e6eea9a6e9c4c2793da5fed87621bc";
-  revision = "1";
-  editedCabalFile = "19s4f7c539zjyslbbp1mq6l394i8pims2j4gqviwkfgz46gjn60r";
+  revision = "2";
+  editedCabalFile = "1d7n707vmcbk1l1fi956hagyyzzn3hd11wxyabm1mirv8qxrha0s";
   libraryHaskellDepends = [
     base base64-bytestring bytestring colour containers diagrams-core
     diagrams-lib filepath hashable JuicyPixels lens monoid-extras mtl
