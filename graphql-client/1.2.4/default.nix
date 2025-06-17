@@ -8,6 +8,8 @@ mkDerivation {
   pname = "graphql-client";
   version = "1.2.4";
   sha256 = "ac040981c388d2253007f993704735f6f2ea10134ba9dba3c3ee7c9961e9a766";
+  revision = "1";
+  editedCabalFile = "0fi7q2zxfm85pdpn9b4jzh49rnakm5dvcmjkr0g39738zprgwaph";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
