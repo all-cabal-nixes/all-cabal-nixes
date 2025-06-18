@@ -9,8 +9,8 @@ mkDerivation {
   pname = "arithmoi";
   version = "0.13.1.0";
   sha256 = "6e1526982676e176d55a69b08e488c1cae9293a6bf3b1499b134e39927d6404d";
-  revision = "1";
-  editedCabalFile = "1q36pbxsz3vcig7gjr0m38bn5d34az2cjkhcag4n2ra86zdqrnvv";
+  revision = "2";
+  editedCabalFile = "1q81krc6qgg495qqlnh7kbzg2fk57amgiqa5xmxwhxrhlffjsk3d";
   configureFlags = [ "-f-llvm" ];
   libraryHaskellDepends = [
     array base chimera constraints containers deepseq exact-pi

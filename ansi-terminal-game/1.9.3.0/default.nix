@@ -7,8 +7,8 @@ mkDerivation {
   pname = "ansi-terminal-game";
   version = "1.9.3.0";
   sha256 = "b37a4cb1b1601d2b1b04d267be3a30e235f9ab5a4b7dcc11e5b571c5da87c7fb";
-  revision = "2";
-  editedCabalFile = "1gjaa3kj05v5zyjn27y17w05nx018bx28znj7r0al0c6267n0la8";
+  revision = "3";
+  editedCabalFile = "0m4df8a2p18j29zsgffnyf69hjkyam3rg3xc4zvmxafidj877ykk";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

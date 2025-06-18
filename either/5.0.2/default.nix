@@ -5,8 +5,8 @@ mkDerivation {
   pname = "either";
   version = "5.0.2";
   sha256 = "bfa45b967fd77b1c7c952e156377441e3c42b6dc873ab1f06a7421a3222287be";
-  revision = "2";
-  editedCabalFile = "1lx6ls938vssg75ib2fr1ww4nsig2rkhjc6x57yfinx1yb9r62vz";
+  revision = "3";
+  editedCabalFile = "0yhvngsgj3zvm3qxn3f8km9qkn25dwclvqd5s6gnj0lxnrhczqf8";
   libraryHaskellDepends = [
     base bifunctors mtl profunctors semigroupoids
   ];

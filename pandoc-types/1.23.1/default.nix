@@ -7,8 +7,8 @@ mkDerivation {
   pname = "pandoc-types";
   version = "1.23.1";
   sha256 = "ad0fa083d28d452b7d37a1c67a2c140137a5f29a2f52fd88e807fac20245a1c1";
-  revision = "2";
-  editedCabalFile = "1whymq4w5z08l5ng829kn8aslczda6svi6c6q72cnv200mlq7d1c";
+  revision = "3";
+  editedCabalFile = "0w2n4vzxs3jasrivaq49clxdlccnfv2gh4mkp8s7krxa1arambrz";
   libraryHaskellDepends = [
     aeson base bytestring containers deepseq ghc-prim QuickCheck syb
     text transformers

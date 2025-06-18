@@ -6,6 +6,8 @@ mkDerivation {
   pname = "vector-hashtables";
   version = "0.1.2.0";
   sha256 = "39a9aaf451cf9e6c299904dfb02f13afaffe151d553014c1da2f07e3481b0ce8";
+  revision = "1";
+  editedCabalFile = "02lwx5d8crk1gzacfjzxwhbawh08l2vk9bb0ln8z5fjzgih1y58r";
   libraryHaskellDepends = [ base hashable primitive vector ];
   testHaskellDepends = [
     base containers hashable hspec primitive QuickCheck

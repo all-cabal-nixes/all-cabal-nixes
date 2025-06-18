@@ -7,8 +7,8 @@ mkDerivation {
   pname = "cborg";
   version = "0.2.10.0";
   sha256 = "17fe070c38fc498cab49bcb9d6215b7747d53bedf96502e9bcce9cad73b9c797";
-  revision = "2";
-  editedCabalFile = "0m1ndq1a4yya5p7093lw3ynpcw2q74s73im0bhm9jp6a19cj88m5";
+  revision = "3";
+  editedCabalFile = "1ahqlq51kjc8cf5sybbmrh4rf6vsbkcd67rhxhrr9rc5w6nl9h27";
   libraryHaskellDepends = [
     array base bytestring containers deepseq ghc-bignum ghc-prim half
     primitive text

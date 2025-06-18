@@ -8,6 +8,8 @@ mkDerivation {
   pname = "hspec-core";
   version = "2.11.12";
   sha256 = "cc5125618268d1f99e4169349c4f38bf48d3ad0df6c4b56396e59c923800040c";
+  revision = "1";
+  editedCabalFile = "0yq9nnawcgbgxiz4ymfa8k66jrvgrhmv8j7g880x8k6q8q4ncqlq";
   libraryHaskellDepends = [
     ansi-terminal array base call-stack containers deepseq directory
     filepath haskell-lexer hspec-expectations HUnit process QuickCheck

@@ -13,8 +13,8 @@ mkDerivation {
   pname = "aeson";
   version = "2.2.3.0";
   sha256 = "daa25cf428256ad05d21f2bfa44077c1b14d6c784b7930a202ee901f11cc6baa";
-  revision = "3";
-  editedCabalFile = "16sajjm1fqrjjgdy651ff7hyj89di7ys9wk4qnm9h6nnpbr5krb1";
+  revision = "4";
+  editedCabalFile = "0yw5kahz82kls4svn0qssckvx143k73h5nqg0z1d4s7ibqww4j3x";
   libraryHaskellDepends = [
     base bytestring character-ps containers data-fix deepseq dlist
     exceptions generically ghc-prim hashable indexed-traversable
