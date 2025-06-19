@@ -5,8 +5,8 @@ mkDerivation {
   pname = "free-vector-spaces";
   version = "0.1.5.2";
   sha256 = "ebc2a7ccfa48a745ef1a1500c6c8ba1969a45c707e8ed652d531d911d5a50e5c";
-  revision = "2";
-  editedCabalFile = "1jlaljmfhsb4yb8iqmw1zaa3kkiayg6li6bk04a3camh2jc8k22m";
+  revision = "3";
+  editedCabalFile = "1nhbj4ch0fayqbd90qzwhlda929rny81422grdqifghqrr1lq4lv";
   libraryHaskellDepends = [
     base lens linear MemoTrie pragmatic-show template-haskell vector
     vector-space

@@ -6,6 +6,8 @@ mkDerivation {
   pname = "test-framework";
   version = "0.8.2.2";
   sha256 = "d736b259f3fb5be69b0b0c7dce2726ecbb1cf41f23c7b4312d11f56e7a713212";
+  revision = "1";
+  editedCabalFile = "1yv1qsr6bxphxk9430id9bqhfmkffdqmfg0k017dp9pnn4pqj0zh";
   libraryHaskellDepends = [
     ansi-terminal ansi-wl-pprint base containers hostname old-locale
     random regex-posix time xml
