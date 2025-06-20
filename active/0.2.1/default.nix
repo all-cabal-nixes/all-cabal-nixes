@@ -5,8 +5,8 @@ mkDerivation {
   pname = "active";
   version = "0.2.1";
   sha256 = "615758872a6d65546e27ddc0164822b56fd030ad00459c82c0492a3372e41394";
-  revision = "4";
-  editedCabalFile = "0s5aiyskly1j4wd4hs2c52bdawx9340pgdx0378xvivixd48cd8x";
+  revision = "5";
+  editedCabalFile = "0wxl3pfdz4krx7lg1rckvmjkm2hj5vlwx3kyzzfrpsfhc9zq7f1g";
   libraryHaskellDepends = [
     base lens linear semigroupoids semigroups vector
   ];
