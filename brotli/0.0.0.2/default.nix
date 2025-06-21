@@ -5,6 +5,8 @@ mkDerivation {
   pname = "brotli";
   version = "0.0.0.2";
   sha256 = "dfb088e14cae6581a7298dec2edf0e0c83e58528c8518c5abacce0dc1430c427";
+  revision = "1";
+  editedCabalFile = "1a0lbghilwpa6hb5msivb7hjqnnxi2bxlfgiawv0mjpc7gidhbz7";
   libraryHaskellDepends = [ base bytestring transformers ];
   libraryPkgconfigDepends = [ brotli ];
   testHaskellDepends = [
