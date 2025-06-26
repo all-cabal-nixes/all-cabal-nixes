@@ -7,6 +7,8 @@ mkDerivation {
   pname = "tiktoken";
   version = "1.0.3";
   sha256 = "46d619129e267935711131bb1bbd59a2257898c5a89013259a39cad772f2c343";
+  revision = "1";
+  editedCabalFile = "0pwxqznjqbdsy99g4l1cyx8anns7wr92kpnbh19y9y99f1913jbn";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base base64 bytestring containers deepseq filepath megaparsec

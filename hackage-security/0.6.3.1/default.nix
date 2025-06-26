@@ -9,6 +9,8 @@ mkDerivation {
   pname = "hackage-security";
   version = "0.6.3.1";
   sha256 = "1def1a524cc894351e28e86a91cf2d043f18eeaba79070e1cc1304c9f79e4c17";
+  revision = "1";
+  editedCabalFile = "1si6mkc8gimkpqkdl2wyzxp14v7yphp40hxvp77im7bhr8brsa77";
   libraryHaskellDepends = [
     base base16-bytestring base64-bytestring bytestring Cabal
     Cabal-syntax containers cryptohash-sha256 directory ed25519

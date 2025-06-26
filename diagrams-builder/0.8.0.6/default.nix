@@ -9,8 +9,8 @@ mkDerivation {
   pname = "diagrams-builder";
   version = "0.8.0.6";
   sha256 = "c4250d7b5e654057771011497130bfc9c0b4d7376828c8c77c9af4ce6a2bd19f";
-  revision = "2";
-  editedCabalFile = "1mkxn0r6wmxyvdhwly1a6j0z4j234mfv7aimirwl7jmcv55lwbs4";
+  revision = "3";
+  editedCabalFile = "0pi4509j5i8jgxn0a9z39ac1sr8n2n97v8pfyla9s30sc63ybjag";
   configureFlags = [ "-fcairo" "-fps" "-frasterific" "-fsvg" ];
   isLibrary = true;
   isExecutable = true;

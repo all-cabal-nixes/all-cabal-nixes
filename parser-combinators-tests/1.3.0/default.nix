@@ -6,8 +6,8 @@ mkDerivation {
   pname = "parser-combinators-tests";
   version = "1.3.0";
   sha256 = "42ad5f8d1388b33946580a25735ee323fe1366b8d2dc5e171d7e24f58fe6866b";
-  revision = "1";
-  editedCabalFile = "0h6lwj0mdlirlwcadjvyblvgqg6yksw2bnp77qkjxm2kk3rw56hn";
+  revision = "2";
+  editedCabalFile = "1b038wk6b1kria8627qb0nfrz4v67j2yq5rx01m3vigfxf6h4422";
   isLibrary = false;
   isExecutable = false;
   testHaskellDepends = [
