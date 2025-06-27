@@ -5,8 +5,8 @@ mkDerivation {
   pname = "int-cast";
   version = "0.2.0.0";
   sha256 = "e006956a08b751a996a92828ccb728b7237c9c435c4b35b5169eb8d44ac51969";
-  revision = "7";
-  editedCabalFile = "0z1bffrx787f2697a6gfkmbxkj3ymgs88kid9ckcla08n11zw2ql";
+  revision = "8";
+  editedCabalFile = "10a33fvsy4qkckw6ciqiigy4r5f1pflw16l284scsdas56lk1pqq";
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [
     base QuickCheck test-framework test-framework-quickcheck2
