@@ -6,8 +6,8 @@ mkDerivation {
   pname = "filestore";
   version = "0.6.5";
   sha256 = "b0052e1149e582d55078f8fd84ffb4e97111dab90ff8b589cc5ae2b6c711497c";
-  revision = "2";
-  editedCabalFile = "1m6qi647v475gcim8nfb6cgahhc99rszc8k1z2mpzm797qxg9xbs";
+  revision = "3";
+  editedCabalFile = "003vfb6j47vihjba1py9ls9l269gkg89rf732gb5lwdximxg7wf0";
   libraryHaskellDepends = [
     base bytestring containers Diff directory filepath old-locale
     parsec process split time utf8-string xml

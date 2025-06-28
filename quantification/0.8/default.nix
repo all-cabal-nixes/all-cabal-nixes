@@ -5,6 +5,8 @@ mkDerivation {
   pname = "quantification";
   version = "0.8";
   sha256 = "490526255cf13abbe84f50758087fe82c5cb3dfab29bdb662559ed0b3c3c84b7";
+  revision = "1";
+  editedCabalFile = "1abpn4sz7g9ih4c3iclpqnwng15dwa7553pxyvwvgy19x6sfgck2";
   libraryHaskellDepends = [
     base binary containers hashable path-pieces text
     unordered-containers

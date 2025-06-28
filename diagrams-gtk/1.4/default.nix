@@ -4,8 +4,8 @@ mkDerivation {
   pname = "diagrams-gtk";
   version = "1.4";
   sha256 = "b66bde621a09b79b99185af50b2d1ed0b2bd3988c95ed27c7e92e5383917eae9";
-  revision = "6";
-  editedCabalFile = "0fiv5w3pk8rbj6d28qyay13h25px7fs1flzqdriz1n74f6prnj98";
+  revision = "7";
+  editedCabalFile = "065hmxb3hhaa7g1xbay0wa29zcyivxrp289l9wrak7pg610ri3j3";
   libraryHaskellDepends = [
     base cairo diagrams-cairo diagrams-lib gtk
   ];
