@@ -5,8 +5,8 @@ mkDerivation {
   pname = "multistate";
   version = "0.8.0.4";
   sha256 = "b88494770cffa99b9d31289287d5e13ac7d5665c44016233c490010583608278";
-  revision = "1";
-  editedCabalFile = "0m1wv2yv1isw1qkzfa2fgjx0md7irp9djcgy16739wvl8hnj1ciq";
+  revision = "2";
+  editedCabalFile = "1gdxarys4x4bws8d8smw219z7zrjbyl8k7d2fqv1ray1x52zxr3n";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

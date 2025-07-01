@@ -6,8 +6,8 @@ mkDerivation {
   pname = "base64-bytestring-type";
   version = "1.0.1";
   sha256 = "f607d07c4aab227b4536c495fa7c07b35ddc9c2c013d385c16c02f236526780e";
-  revision = "21";
-  editedCabalFile = "1y3j1lkqlqw8l4p0g8s3iac0gd84nz3pqccrzfj7n23fp19zr1q3";
+  revision = "22";
+  editedCabalFile = "0a5640qjbd3f96v9sf6r1laqpqk83xh073qlq75174kcg5zi4rxa";
   libraryHaskellDepends = [
     aeson base base-compat base64-bytestring binary bytestring cereal
     deepseq hashable http-api-data QuickCheck serialise text

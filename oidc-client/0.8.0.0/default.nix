@@ -6,6 +6,8 @@ mkDerivation {
   pname = "oidc-client";
   version = "0.8.0.0";
   sha256 = "75a0cd1b9a9145b09e16664df783d20a9f4ccd8091206b4b6829bd679c75ae3a";
+  revision = "1";
+  editedCabalFile = "1zaaldni8i7kdxpmbpd2nlva0ygycn9955yh9qvcm08cd2wvq15d";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

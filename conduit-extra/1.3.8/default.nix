@@ -8,6 +8,8 @@ mkDerivation {
   pname = "conduit-extra";
   version = "1.3.8";
   sha256 = "491f3e8e9408f5d10ff8d02bf4d0edb11821e2537e7c22edbd6d64bf91388222";
+  revision = "1";
+  editedCabalFile = "1fq0cs2fcn2kd1mvp9ygsp7rm5qridwp1wwnr60jmpahvihb4cp9";
   libraryHaskellDepends = [
     async attoparsec base bytestring conduit directory filepath network
     primitive process resourcet stm streaming-commons text transformers
