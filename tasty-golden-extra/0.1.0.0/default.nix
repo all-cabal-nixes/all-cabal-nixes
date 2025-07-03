@@ -6,8 +6,8 @@ mkDerivation {
   pname = "tasty-golden-extra";
   version = "0.1.0.0";
   sha256 = "d2a23bbbfa3a749ef3ec542362075effdc441652852d7b46db42f33b284ecdad";
-  revision = "2";
-  editedCabalFile = "1vj6yr1ysnn5x76r3j824gdny121z69vr9367yi3mp4jxl1w44kw";
+  revision = "3";
+  editedCabalFile = "1hdkxsn075bc6f318vk81bddagxsyp390604v3azskfp52bwbl8r";
   libraryHaskellDepends = [
     aeson aeson-diff aeson-pretty base bytestring pretty-show
     pretty-simple tasty tasty-discover tasty-golden text yaml
