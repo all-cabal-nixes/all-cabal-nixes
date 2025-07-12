@@ -8,6 +8,8 @@ mkDerivation {
   pname = "discord-haskell";
   version = "1.12.4";
   sha256 = "481dd0dadff4ac7d6f5b5ba208dc166f7088b9195bd90ad10ba43a4d0d66314e";
+  revision = "1";
+  editedCabalFile = "0wksqy6r1h28dlvw45z0kv7kpisf5ddg91jwggnxjzk39gk36ivn";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

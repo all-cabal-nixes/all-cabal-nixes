@@ -10,6 +10,8 @@ mkDerivation {
   pname = "glirc";
   version = "2.41";
   sha256 = "cba798f1352731913351676798267e152829d71f5513f9b58eba4b5242822fea";
+  revision = "1";
+  editedCabalFile = "1inwjbag35qfyndmb05gpyc3ws1acmzp4qfq6g1jv2j1fjm3cc7v";
   isLibrary = true;
   isExecutable = true;
   setupHaskellDepends = [ base Cabal filepath ];
