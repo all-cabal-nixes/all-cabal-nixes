@@ -16,6 +16,8 @@ mkDerivation {
   pname = "ghcide";
   version = "2.11.0.0";
   sha256 = "7a8b449590b8ca4cfa80c28a4aa89d98a75867e33bb61b1c311ef1de0ddc3935";
+  revision = "1";
+  editedCabalFile = "1bbq5p529qpwihrc7wd595g2f5scg15s3hvyq5lql3bp0ks2l6k1";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
