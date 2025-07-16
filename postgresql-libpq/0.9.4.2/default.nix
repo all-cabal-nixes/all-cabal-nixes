@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, Cabal, lib, postgresql, unix }:
+{ mkDerivation, base, bytestring, Cabal, lib, libpq, unix }:
 mkDerivation {
   pname = "postgresql-libpq";
   version = "0.9.4.2";
@@ -7,7 +7,7 @@ mkDerivation {
   editedCabalFile = "1i0z3c0d657050kfggr5z8y4hmcqkckm2x1gn3fjbdzyx3p1rcaa";
   setupHaskellDepends = [ base Cabal ];
   libraryHaskellDepends = [ base bytestring unix ];
-  librarySystemDepends = [ postgresql ];
+  librarySystemDepends = [ libpq ];
   testHaskellDepends = [ base bytestring ];
   homepage = "https://github.com/phadej/postgresql-libpq";
   description = "low-level binding to libpq";

@@ -1,5 +1,5 @@
 { mkDerivation, base, haskelldb, haskelldb-hdbc, HDBC
-, HDBC-postgresql, lib, mtl, postgresql
+, HDBC-postgresql, lib, libpq, mtl
 }:
 mkDerivation {
   pname = "haskelldb-hdbc-postgresql";
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base haskelldb haskelldb-hdbc HDBC HDBC-postgresql mtl
   ];
-  executableSystemDepends = [ postgresql ];
+  executableSystemDepends = [ libpq ];
   homepage = "http://trac.haskell.org/haskelldb";
   description = "HaskellDB support for the HDBC PostgreSQL driver";
   license = lib.licenses.bsd3;

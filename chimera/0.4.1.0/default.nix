@@ -7,6 +7,8 @@ mkDerivation {
   pname = "chimera";
   version = "0.4.1.0";
   sha256 = "894cc5bd9665d42c508a51eb70a3879da4e8a3f4c9c0617352031fdc5203bcf3";
+  revision = "1";
+  editedCabalFile = "1rpm93iq6kapgcd1c0711sgsav0zpxnn0b88zga35pizq9j9vrm9";
   libraryHaskellDepends = [
     adjunctions base distributive infinite-list mtl primitive
     transformers vector

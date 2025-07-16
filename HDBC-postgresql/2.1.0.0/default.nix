@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, HDBC, lib, mtl, old-locale
-, old-time, parsec, postgresql, utf8-string
+{ mkDerivation, base, bytestring, HDBC, lib, libpq, mtl, old-locale
+, old-time, parsec, utf8-string
 }:
 mkDerivation {
   pname = "HDBC-postgresql";
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring HDBC mtl old-locale old-time parsec utf8-string
   ];
-  librarySystemDepends = [ postgresql ];
+  librarySystemDepends = [ libpq ];
   homepage = "http://software.complete.org/hdbc-postgres";
   description = "PostgreSQL driver for HDBC";
   license = "LGPL";

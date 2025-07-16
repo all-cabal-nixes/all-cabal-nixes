@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, exceptions, inline-c
-, lib, primitive, process, python3-embed, quickcheck-instances, stm
+, lib, primitive, process, python3, quickcheck-instances, stm
 , tasty, tasty-bench, tasty-hunit, tasty-quickcheck
 , template-haskell, text, transformers, vector
 }:
@@ -12,7 +12,7 @@ mkDerivation {
     quickcheck-instances stm tasty tasty-hunit tasty-quickcheck
     template-haskell text transformers vector
   ];
-  libraryPkgconfigDepends = [ python3-embed ];
+  libraryPkgconfigDepends = [ python3 ];
   testHaskellDepends = [ base tasty ];
   benchmarkHaskellDepends = [ base tasty tasty-bench ];
   doHaddock = false;

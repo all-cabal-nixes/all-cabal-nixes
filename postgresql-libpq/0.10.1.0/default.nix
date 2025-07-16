@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, Cabal, lib, postgresql, tasty
+{ mkDerivation, base, bytestring, Cabal, lib, libpq, tasty
 , tasty-hunit, unix
 }:
 mkDerivation {
@@ -9,7 +9,7 @@ mkDerivation {
   editedCabalFile = "1d7hvi969ksdzg4fzyy448k354h4jl3k2i3fv8nb6c4y1bzysiba";
   setupHaskellDepends = [ base Cabal ];
   libraryHaskellDepends = [ base bytestring unix ];
-  librarySystemDepends = [ postgresql ];
+  librarySystemDepends = [ libpq ];
   testHaskellDepends = [ base bytestring tasty tasty-hunit ];
   homepage = "https://github.com/haskellari/postgresql-libpq";
   description = "low-level binding to libpq";

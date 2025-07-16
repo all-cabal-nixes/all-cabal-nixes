@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, containers, data-default-class
-, exceptions, lib, lifted-base, monad-control, mtl, postgresql
+, exceptions, lib, libpq, lifted-base, monad-control, mtl
 , resource-pool, text, time, transformers, transformers-base
 , vector
 }:
@@ -16,7 +16,7 @@ mkDerivation {
     lifted-base monad-control mtl resource-pool text time transformers
     transformers-base vector
   ];
-  librarySystemDepends = [ postgresql ];
+  librarySystemDepends = [ libpq ];
   description = "Haskell bindings to libpqtypes";
   license = lib.licenses.bsd3;
 }

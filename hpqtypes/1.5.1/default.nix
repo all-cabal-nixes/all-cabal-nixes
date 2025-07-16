@@ -1,7 +1,7 @@
 { mkDerivation, aeson, base, bytestring, Cabal, containers
-, data-default-class, directory, exceptions, filepath, lib
-, lifted-base, monad-control, mtl, postgresql, resource-pool, text
-, text-show, time, transformers, transformers-base, vector
+, data-default-class, directory, exceptions, filepath, lib, libpq
+, lifted-base, monad-control, mtl, resource-pool, text, text-show
+, time, transformers, transformers-base, vector
 }:
 mkDerivation {
   pname = "hpqtypes";
@@ -17,7 +17,7 @@ mkDerivation {
     lifted-base monad-control mtl resource-pool text text-show time
     transformers transformers-base vector
   ];
-  librarySystemDepends = [ postgresql ];
+  librarySystemDepends = [ libpq ];
   homepage = "https://github.com/scrive/hpqtypes";
   description = "Haskell bindings to libpqtypes";
   license = lib.licenses.bsd3;

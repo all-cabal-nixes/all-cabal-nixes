@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, convertible, HDBC, lib, mtl
-, old-locale, old-time, parsec, postgresql, time, utf8-string
+{ mkDerivation, base, bytestring, convertible, HDBC, lib, libpq
+, mtl, old-locale, old-time, parsec, time, utf8-string
 }:
 mkDerivation {
   pname = "HDBC-postgresql";
@@ -13,7 +13,7 @@ mkDerivation {
     base bytestring convertible HDBC mtl old-locale old-time parsec
     time utf8-string
   ];
-  librarySystemDepends = [ postgresql ];
+  librarySystemDepends = [ libpq ];
   homepage = "http://github.com/hdbc/hdbc-postgresql";
   description = "PostgreSQL driver for HDBC";
   license = lib.licenses.bsd3;

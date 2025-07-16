@@ -1,9 +1,8 @@
 { mkDerivation, aeson, base, bytestring, containers
-, data-default-class, exceptions, HUnit, lib, lifted-base
-, monad-control, mtl, postgresql, QuickCheck, random, resource-pool
-, scientific, test-framework, test-framework-hunit, text, text-show
-, time, transformers, transformers-base, unordered-containers
-, vector
+, data-default-class, exceptions, HUnit, lib, libpq, lifted-base
+, monad-control, mtl, QuickCheck, random, resource-pool, scientific
+, test-framework, test-framework-hunit, text, text-show, time
+, transformers, transformers-base, unordered-containers, vector
 }:
 mkDerivation {
   pname = "hpqtypes";
@@ -16,7 +15,7 @@ mkDerivation {
     lifted-base monad-control mtl resource-pool text text-show time
     transformers transformers-base vector
   ];
-  librarySystemDepends = [ postgresql ];
+  librarySystemDepends = [ libpq ];
   testHaskellDepends = [
     aeson base bytestring exceptions HUnit lifted-base monad-control
     mtl QuickCheck random scientific test-framework
