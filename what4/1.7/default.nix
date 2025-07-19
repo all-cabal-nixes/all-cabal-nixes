@@ -15,6 +15,8 @@ mkDerivation {
   pname = "what4";
   version = "1.7";
   sha256 = "7b2c2893d0770b22242fad992677d8d07bb5459a3a77b7f1ebfda97f98396ac5";
+  revision = "1";
+  editedCabalFile = "0d2xhwmgk20pqjh9xgdfyzwi9brckz71bdk8lr56q36nzmrkj0dl";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
