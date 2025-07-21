@@ -10,6 +10,8 @@ mkDerivation {
   pname = "pandoc-lua-engine";
   version = "0.4.3";
   sha256 = "7c5622ad682760ebac2528ed8b3b558853f065b952343f4320ea8e40770dafe8";
+  revision = "1";
+  editedCabalFile = "0cgkbxhav8slsvg6r7fpkrq8imdk6bhxpfa3m2hjr0q5bnh57r8z";
   libraryHaskellDepends = [
     aeson base bytestring citeproc containers crypton data-default
     doclayout doctemplates exceptions hslua hslua-module-doclayout
