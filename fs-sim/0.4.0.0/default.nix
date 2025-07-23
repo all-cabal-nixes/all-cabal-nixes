@@ -8,6 +8,8 @@ mkDerivation {
   pname = "fs-sim";
   version = "0.4.0.0";
   sha256 = "fc929abea89a86ee873ebe160fe64cebf477716ac4ada646e0b23631ebe83972";
+  revision = "1";
+  editedCabalFile = "1lz7jaq5qp1pdc8dvahc3nl8csgpp0qplriqfnmrryn22dyqfi4s";
   libraryHaskellDepends = [
     base base16-bytestring bytestring containers fs-api io-classes mtl
     primitive QuickCheck safe-wild-cards text
