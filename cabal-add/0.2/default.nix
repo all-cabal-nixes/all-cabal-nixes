@@ -6,6 +6,8 @@ mkDerivation {
   pname = "cabal-add";
   version = "0.2";
   sha256 = "af2b1afe9156f5722d4cb282de607d9ff34e5ea13448320186b957371f4aa039";
+  revision = "1";
+  editedCabalFile = "03z75dp7mf471mm40mfb157ng2fgp66nkyhaa6fsb3j2qfwg5wz4";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

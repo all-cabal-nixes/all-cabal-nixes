@@ -1,19 +1,19 @@
 { mkDerivation, alex, array, base, containers, goldplate, happy
-, haskell-src-exts, lib, mtl, pretty, process, transformers
+, haskell-src-exts, lib, mtl, optparse-applicative, pretty, process
+, string-qq, transformers
 }:
 mkDerivation {
   pname = "MiniAgda";
-  version = "0.2022.3.11";
-  sha256 = "acbe6d1c023b7a636c1f77da89a17e51d11a1a0e4a8ffbbdea16750d07663fc0";
-  revision = "1";
-  editedCabalFile = "17jx0lcb32fb9i0kqxa3fsh8mfjxmg47bi2kxsfcl2nm2jakw0si";
-  isLibrary = false;
+  version = "0.2025.7.23";
+  sha256 = "b39fce61e9139b08beda8758a30268057aee7e448b715d3b7b796d290c5e7d8f";
+  isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
-  executableHaskellDepends = [
-    array base containers haskell-src-exts mtl pretty transformers
+  libraryHaskellDepends = [
+    array base containers haskell-src-exts mtl optparse-applicative
+    pretty string-qq transformers
   ];
-  executableToolDepends = [ alex happy ];
+  libraryToolDepends = [ alex happy ];
   testHaskellDepends = [ base process ];
   testToolDepends = [ goldplate ];
   homepage = "http://www.cse.chalmers.se/~abela/miniagda/";

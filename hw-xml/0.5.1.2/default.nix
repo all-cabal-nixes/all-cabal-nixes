@@ -10,6 +10,8 @@ mkDerivation {
   pname = "hw-xml";
   version = "0.5.1.2";
   sha256 = "a541ebca4eeda1215c25ad8b3f94efc0477081184f189ec7974cad4d226f657f";
+  revision = "1";
+  editedCabalFile = "1jrj3lpy76aly7pm4j7ys35s75a8rgf4mqlifasx61k1rvsiiv0s";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
