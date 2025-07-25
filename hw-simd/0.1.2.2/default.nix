@@ -8,8 +8,8 @@ mkDerivation {
   pname = "hw-simd";
   version = "0.1.2.2";
   sha256 = "1d430f455f3cc38102e8171ebd6e65b5fa0a95ccbff2baec37b8f29ec2ceec46";
-  revision = "1";
-  editedCabalFile = "0c0wv09q98inana4n70qnv6226506fdw4ghbw1pxqglj0ccallib";
+  revision = "2";
+  editedCabalFile = "05sfkgcfl94wighx2nfrp6rsvkvbch7wn701i669r88b900w56yv";
   libraryHaskellDepends = [
     base bits-extra bytestring deepseq hw-bits hw-prim hw-rankselect
     hw-rankselect-base transformers vector

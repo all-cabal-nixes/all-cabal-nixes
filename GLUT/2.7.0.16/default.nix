@@ -5,8 +5,8 @@ mkDerivation {
   pname = "GLUT";
   version = "2.7.0.16";
   sha256 = "b6fae948d0778ee49e1199b20a007d1c4e9e7c008096fcfe6d2f7ec98974b36d";
-  revision = "3";
-  editedCabalFile = "00jj0f8vxfz11kpw673v5hs72xciyz4jvhp8p74cbqyj11dbp35d";
+  revision = "4";
+  editedCabalFile = "0xfm8l90llyyqj3aip0i87ykq936zfl3bc7sibgdng8dhi5xj7y3";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

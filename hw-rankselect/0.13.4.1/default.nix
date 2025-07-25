@@ -9,8 +9,8 @@ mkDerivation {
   pname = "hw-rankselect";
   version = "0.13.4.1";
   sha256 = "a5d7755c191869d9fa76c0ebd52ef5c87766fe58f40f0f8472ebe290b944ce0e";
-  revision = "3";
-  editedCabalFile = "1fwgjhy3wm1bbyqcq62vcf9nvha17bwzb34g2rd6z1v5qr8dm1gi";
+  revision = "5";
+  editedCabalFile = "0g15p5dlnfk2ggqsww8gvp877j3vz5x3vc3xvfgwqp3640sgax6j";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

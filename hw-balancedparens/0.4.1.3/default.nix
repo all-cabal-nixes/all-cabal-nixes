@@ -8,8 +8,8 @@ mkDerivation {
   pname = "hw-balancedparens";
   version = "0.4.1.3";
   sha256 = "cc71849af6785fea182b1e74ccfd3273a8be59cf2558fd3192e0aa94eab7e832";
-  revision = "1";
-  editedCabalFile = "1q8kckqqnw434vaq0mx0q3ayhrzc30v8a7m758747yis8vqxrvjb";
+  revision = "3";
+  editedCabalFile = "1qkci3bwjd3c1kn3l9mgxvzqg0q89xmw6x7rlp1kh1qpv9vwg9d7";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
