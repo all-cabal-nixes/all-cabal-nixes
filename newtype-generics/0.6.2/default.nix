@@ -4,8 +4,8 @@ mkDerivation {
   pname = "newtype-generics";
   version = "0.6.2";
   sha256 = "a1ac6052020a09f1bc5000a141d2edd4b31a82f95ce5957b7eedad40c065a74e";
-  revision = "4";
-  editedCabalFile = "1489zmir2l591y7k9rik6khj6vf9zjnkxyhnpmpr4djpdzk6pcin";
+  revision = "5";
+  editedCabalFile = "0arlqrq482ai3j6cwgb8kc34zc8y3ghg8fgrxxcnw752hzrl1g71";
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base hspec ];
   testToolDepends = [ hspec-discover ];
