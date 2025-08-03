@@ -5,6 +5,8 @@ mkDerivation {
   pname = "codet-plugin";
   version = "0.1.0.1";
   sha256 = "663da817bb703ecb39014d96ed817328ad30a408f39dd6060680e3002070ad85";
+  revision = "1";
+  editedCabalFile = "0qjrxr49ak3cg00pg405sbalh0xb3q0f6v7azgxsjzcr8cd6k881";
   libraryHaskellDepends = [ base codet ghc ];
   testHaskellDepends = [
     base codet directory filepath syb tasty tasty-golden

@@ -7,8 +7,8 @@ mkDerivation {
   pname = "sasha";
   version = "0.2";
   sha256 = "60e3839d14e11a07263dc64d8958f797534a492f4d3f196d74cf9264578329fd";
-  revision = "1";
-  editedCabalFile = "0k3c54jajid7ggrm87xa0fvh11zjmhy2qn6lply1nykjhip9q1qn";
+  revision = "2";
+  editedCabalFile = "07zzjr1klfiafxxlxjdyqxdwvy2np6dg60qskv8bq12b863wxrf4";
   libraryHaskellDepends = [
     base bytestring containers lattices QuickCheck template-haskell
     th-letrec wide-word word8set
