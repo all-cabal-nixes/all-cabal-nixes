@@ -5,8 +5,8 @@ mkDerivation {
   pname = "nix-derivation";
   version = "1.1.3";
   sha256 = "ab4dd7540c5f39abcf0486e35441a7115f36d76611cc2278db8b43f9c783b985";
-  revision = "1";
-  editedCabalFile = "1w84h665dls927g1zwzyfp91jyk97dy0ccii8m07y1prp007ccxa";
+  revision = "2";
+  editedCabalFile = "0vh21lq7wishsv6wysi1yrmij1iq7kafyrv02nr06sdgfwh0vzan";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
