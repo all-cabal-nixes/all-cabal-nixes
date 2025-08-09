@@ -9,6 +9,8 @@ mkDerivation {
   pname = "hie-bios";
   version = "0.17.0";
   sha256 = "d1a7096f013557bca277b518d5fcf303853dd68b80aa6d1fb476fe71e464f335";
+  revision = "1";
+  editedCabalFile = "1ayi02194h4fqbrd797lv0r0apzrwv368ghndyyd8s7v5qj8r928";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
