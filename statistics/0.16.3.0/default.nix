@@ -9,6 +9,8 @@ mkDerivation {
   pname = "statistics";
   version = "0.16.3.0";
   sha256 = "03ec46e6641227cf7318b7a1f87acf005d38c8cfc4e13f40ff9014a9266ba1e7";
+  revision = "1";
+  editedCabalFile = "1996zyq4n7c5zh36h3nhzx5xyd7z6fa3mqsldrgii56g7ixq1rkz";
   libraryHaskellDepends = [
     aeson async base binary data-default-class deepseq
     dense-linear-algebra math-functions mwc-random parallel primitive
