@@ -11,6 +11,8 @@ mkDerivation {
   pname = "liquidhaskell-boot";
   version = "0.9.12.2";
   sha256 = "b9a905074a9ad386f09babbb37dd58255b119892912f5d3355db0c79f187d7bd";
+  revision = "1";
+  editedCabalFile = "0mywy0kck9q1rldzwi7r505a6zfbwaj6fjqq230x6abbqkba7rj6";
   libraryHaskellDepends = [
     aeson array base binary bytestring Cabal cereal cmdargs containers
     deepseq Diff directory exceptions extra filepath fingertree free
