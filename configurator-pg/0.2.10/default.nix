@@ -5,8 +5,8 @@ mkDerivation {
   pname = "configurator-pg";
   version = "0.2.10";
   sha256 = "527b96469442706ce51ab9b41681434fca413945b5ab868bd2778b66fe3d4689";
-  revision = "1";
-  editedCabalFile = "1v5zqpyyqrsh078glwlk5k8w0k64j6is41hpaz7fd000bdyk1810";
+  revision = "3";
+  editedCabalFile = "156p0hr14ggf2sfiivgndzrsayxfrmr22pr9hs6jban7m5r627ng";
   libraryHaskellDepends = [
     base containers megaparsec protolude scientific text
   ];
