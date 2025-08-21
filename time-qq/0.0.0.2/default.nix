@@ -5,6 +5,8 @@ mkDerivation {
   pname = "time-qq";
   version = "0.0.0.2";
   sha256 = "e7abb7307b01793c7283f8669985d8029501fd756890275b998e60597bd1ef7e";
+  revision = "1";
+  editedCabalFile = "1fqbr1xq57jp93jksfp27lhgf0s9gxww0n8fqb35jjpcwph3qqya";
   libraryHaskellDepends = [
     base template-haskell time time-locale-compat
   ];

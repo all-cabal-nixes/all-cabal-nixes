@@ -7,6 +7,8 @@ mkDerivation {
   pname = "github-actions";
   version = "0.1.1.0";
   sha256 = "4dfcf9571f7fe5fdafaaaf1112fc69ea4cfbda3d69e493396712cbeb7d81b7db";
+  revision = "1";
+  editedCabalFile = "12dvv7jg1qhlf087fb9sg06nlr5k8d3ph4237q3v604lz4ib4vpq";
   libraryHaskellDepends = [
     aeson base containers hedgehog hoist-error string-interpolate text
     vector

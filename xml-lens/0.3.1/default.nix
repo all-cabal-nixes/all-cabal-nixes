@@ -5,8 +5,8 @@ mkDerivation {
   pname = "xml-lens";
   version = "0.3.1";
   sha256 = "959956a8008340ce6afc06cbc3826639a7d3933ecafeafbdedd046a67027cc44";
-  revision = "4";
-  editedCabalFile = "1zicqdzvca53rg2ai14nkyq1f46w6kz6bd4mjmqzx778xn17d22f";
+  revision = "5";
+  editedCabalFile = "0w06wfjpd427sxlasacxg8lwbqrp7xnl0vs8v9s86c2c0i70hzrj";
   libraryHaskellDepends = [
     base case-insensitive containers lens text xml-conduit
   ];

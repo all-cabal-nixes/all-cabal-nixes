@@ -15,6 +15,8 @@ mkDerivation {
   pname = "pantry";
   version = "0.11.0";
   sha256 = "f34e92a98f82351174df3a66bffb50795a355a398c0f7fe3c8ee1fda73675568";
+  revision = "1";
+  editedCabalFile = "0zhj864sc9hwbiz9gixhwiwryir826x8qa1yk554dhgr11zgvl1d";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
