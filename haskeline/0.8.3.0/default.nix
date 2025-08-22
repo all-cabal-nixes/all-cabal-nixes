@@ -6,6 +6,8 @@ mkDerivation {
   pname = "haskeline";
   version = "0.8.3.0";
   sha256 = "9157d281f4fd5f649f35c1bff5ae1f106a057823d6af8ae4c628bc5eab643585";
+  revision = "1";
+  editedCabalFile = "0jx5mg6mqws5jmbjfjzhvfxw4x4p66h3bxrvb13hv3m2kngds1gg";
   configureFlags = [ "-fterminfo" ];
   isLibrary = true;
   isExecutable = true;
