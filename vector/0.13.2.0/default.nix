@@ -7,8 +7,8 @@ mkDerivation {
   pname = "vector";
   version = "0.13.2.0";
   sha256 = "28f203c786cbf8ac6dc3fea3378ec36f34173d505fb4a1dd60fc8418ad91c423";
-  revision = "1";
-  editedCabalFile = "07yq10jyw5y7dlvhx1szyf19gmih02sf5qv5937jl3ajfdxsadmp";
+  revision = "2";
+  editedCabalFile = "1d3ma9zldfwlz7s41hmaz6jcxwpyh12cld44n1ys7n2jvb43ihws";
   libraryHaskellDepends = [
     base deepseq primitive random tasty vector-stream
   ];

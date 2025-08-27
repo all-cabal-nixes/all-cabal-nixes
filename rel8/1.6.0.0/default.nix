@@ -11,6 +11,8 @@ mkDerivation {
   pname = "rel8";
   version = "1.6.0.0";
   sha256 = "a9af416b5e4723a5f21778a3f54816edbd556048c721e660b4a30d0fe31f5cd2";
+  revision = "1";
+  editedCabalFile = "1cvn3mmdp3kqm8335y3hfj5lbdxq09av11rfrrakg8mqgh13l0ly";
   libraryHaskellDepends = [
     aeson attoparsec attoparsec-aeson base base-compat base16
     bifunctors binary-parser bytestring case-insensitive comonad

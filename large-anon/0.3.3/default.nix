@@ -9,6 +9,8 @@ mkDerivation {
   pname = "large-anon";
   version = "0.3.3";
   sha256 = "70a88382af25b875213ec5392855fb05f12d9d0dc6b120d406219e209a3894f7";
+  revision = "1";
+  editedCabalFile = "0lqv9f4hq8f1cfgg763inqi05pc7kr08qdkmhrsmrqz24xan9wir";
   libraryHaskellDepends = [
     aeson base containers deepseq ghc ghc-tcplugin-api hashable
     large-generics mtl optics-core primitive record-hasfield sop-core
