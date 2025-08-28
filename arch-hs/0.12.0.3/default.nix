@@ -10,6 +10,8 @@ mkDerivation {
   pname = "arch-hs";
   version = "0.12.0.3";
   sha256 = "1133eb13ee4c0414d2b5695d116b69079ba71cf90d88b7fdc9cb610629983010";
+  revision = "1";
+  editedCabalFile = "0wisbwfhj8bb7n7l6vfjbn7jlwlk4mvhpb0akv4xlzbxlsmjmz48";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
