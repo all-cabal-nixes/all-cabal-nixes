@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "hakyll-alectryon";
-  version = "0.1.2.0";
-  sha256 = "ebcabc756f17be231be56028155ca47e44c0d85e0a8c787ff0e3a7939dfd3238";
-  revision = "1";
-  editedCabalFile = "0pv7q4imlyhgy718ijma2dy5154733aff6qx25k1frpidb90s17r";
+  version = "0.2.0.0";
+  sha256 = "b4b59ff313e4890e4847e42ba3f1991e792631534b8fdbc2755488143d3f947d";
   libraryHaskellDepends = [
     aeson base bytestring filepath hakyll mtl optparse-applicative
     pandoc pandoc-types process text
