@@ -5,6 +5,8 @@ mkDerivation {
   pname = "ihp-openai";
   version = "1.3.0";
   sha256 = "44f166ada60866eb6d1656c61ae00bcfb61770c7b0419d562bcd24133872669c";
+  revision = "1";
+  editedCabalFile = "03g2mz1vfxcfv02675nh33643k4baw2chx1vc9ij6p76868l1nk7";
   libraryHaskellDepends = [
     aeson base bytestring HsOpenSSL http-streams io-streams retry text
   ];
