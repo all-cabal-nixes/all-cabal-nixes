@@ -8,8 +8,8 @@ mkDerivation {
   pname = "dhall-csv";
   version = "1.0.4";
   sha256 = "8bf83d43248ece4ea3014c82ad083fd5e55f041b0877c1a0c081962c989cb9ce";
-  revision = "1";
-  editedCabalFile = "10kmbhaly9z95614x3jfmqkswa249dlmr302wng0dpmw1mxqzz2a";
+  revision = "2";
+  editedCabalFile = "0xd6v9zdwnbxq065sar6nw8zazbzfag0xllcnjip7vb1bdibawbj";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

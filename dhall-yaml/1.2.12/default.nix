@@ -7,8 +7,8 @@ mkDerivation {
   pname = "dhall-yaml";
   version = "1.2.12";
   sha256 = "e288091b568cfba756eb458716fb84745eb2599a848326b3eb3b45a5aa0008ea";
-  revision = "4";
-  editedCabalFile = "0l874s5q86dzy4q7pwjsdms53lckjamiq1wgll8sg6qifsjspmll";
+  revision = "5";
+  editedCabalFile = "1m7axqalsikr70kjvm9lcgnwhzzg5wia5avqs6mk1sxabanryzg2";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

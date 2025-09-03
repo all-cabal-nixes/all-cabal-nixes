@@ -6,6 +6,8 @@ mkDerivation {
   pname = "dhall-openapi";
   version = "1.0.7";
   sha256 = "62bbb1c002f6d415580b516debda54290ff6ccf348782833a3cc904b8979727a";
+  revision = "1";
+  editedCabalFile = "0bvyzviwsi7gwb7j729rdap0ijdims761s8s5hv3388jlhvwya22";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

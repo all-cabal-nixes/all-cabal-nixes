@@ -9,6 +9,8 @@ mkDerivation {
   pname = "dhall-lsp-server";
   version = "1.1.4";
   sha256 = "4c7f056c8414f811edb14d26b0a7d3f3225762d0023965e474b5712ed18c9a6d";
+  revision = "1";
+  editedCabalFile = "0rvs8qsdmh45sdg626vx559hjm1xfjsrpmfhcw6vx064kshkhd27";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

@@ -8,8 +8,8 @@ mkDerivation {
   pname = "dhall-json";
   version = "1.7.12";
   sha256 = "ca48cd434380cbd979dbb12889f90da8fdc1ea90bc266cab14f061c60e19d5fa";
-  revision = "3";
-  editedCabalFile = "1v21yb69aa6hzg6rhwhi6x61nrk35bbhl8pw1dikbw73s95c9f0j";
+  revision = "4";
+  editedCabalFile = "0wxwkymjg47bwdys9mzp8c96hj4a267x00sqwby8s8m5p0yz6qlk";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

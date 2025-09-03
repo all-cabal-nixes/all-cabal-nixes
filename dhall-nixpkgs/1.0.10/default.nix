@@ -7,8 +7,8 @@ mkDerivation {
   pname = "dhall-nixpkgs";
   version = "1.0.10";
   sha256 = "a5d672ac4bb86e149c8f324fd4d99e65ce30dc742d3e3bfab86329acb5fbe126";
-  revision = "2";
-  editedCabalFile = "0hk6ndmaf8fcmvi9m414a8pl6q6ykqd1mng8pcmak5b184b61961";
+  revision = "3";
+  editedCabalFile = "1kj470q34rmrh3hmwy557b21msnjgznl71bb5jw3rxn6dqhmrq6h";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

@@ -8,6 +8,8 @@ mkDerivation {
   pname = "dhall-docs";
   version = "1.0.12";
   sha256 = "3b6edcd49517df76b809d61c0f586e74c9129137495c17eee93c5b33aacee03d";
+  revision = "1";
+  editedCabalFile = "1m7h6y1fkam8kbgdpcgqjg87i820v6z96nqchvamdxnbvwlz4bq2";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
