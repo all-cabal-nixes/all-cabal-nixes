@@ -3,8 +3,8 @@ mkDerivation {
   pname = "ghc-paths";
   version = "0.1.0.12";
   sha256 = "6ecbe676d073cb07989c61ce4c5709c4e67cbefdd2d55a4095f9388b6fe2c484";
-  revision = "7";
-  editedCabalFile = "0irq8j1bz5z3da1g4xd3dp392hwi2xn1cjsrdiqyp4srjlyg2532";
+  revision = "8";
+  editedCabalFile = "1ymhq0il4l8a91n8iqfrq9q57sj6zfkmvpjf8nwgavwclfi50ka2";
   setupHaskellDepends = [ base Cabal directory ];
   libraryHaskellDepends = [ base ];
   description = "Knowledge of GHC's installation directories";

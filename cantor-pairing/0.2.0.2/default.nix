@@ -5,8 +5,8 @@ mkDerivation {
   pname = "cantor-pairing";
   version = "0.2.0.2";
   sha256 = "8295049597c75ba661f15ce010e9f33cdf932b131c133331208d431ad8ea25c1";
-  revision = "1";
-  editedCabalFile = "10dsxgdpxa5hxz5zrij8h2whwsz0l1fvkkwdmidqpv09is55wmz5";
+  revision = "2";
+  editedCabalFile = "023yj598gz8dmpc00fybj02gsdsj45aw8pdi5g20zyv98ps6hyk5";
   libraryHaskellDepends = [
     base containers integer-gmp integer-logarithms integer-roots
   ];

@@ -5,8 +5,8 @@ mkDerivation {
   pname = "hlrdb-core";
   version = "0.2.0.0";
   sha256 = "7469698c99b4e71961e68f08deb0796ae5d9c84c73a6b0c608ac4fb209a57242";
-  revision = "5";
-  editedCabalFile = "1wd5fx9q9h8ypc1rzpgpdcdvrvmd7v9rricy0k856jl1r7blsm93";
+  revision = "6";
+  editedCabalFile = "0lmlxc668ndc9diyr9qrpqkxqwc8nga83kp56h8pypxq5n2xjj9w";
   libraryHaskellDepends = [
     base bytestring hashable hedis lens mtl profunctors random time
     unordered-containers
