@@ -6,6 +6,8 @@ mkDerivation {
   pname = "hackage-revdeps";
   version = "0.2";
   sha256 = "5277e885d86417c5a0dcc8ba2cd300f09964933a3b18bcfe6dfe1963b0f2eef7";
+  revision = "1";
+  editedCabalFile = "1753nlx4yk2jrpj1wgl4lnwmw0nf33da7kd4d1lqrgy9fr98aqvy";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
