@@ -7,8 +7,8 @@ mkDerivation {
   pname = "cabal-flatpak";
   version = "0.1.2";
   sha256 = "f1ef3f7cacb74c1958adfed4e021f4e84eccacbd05645eecbd9d3eb1ca092f16";
-  revision = "2";
-  editedCabalFile = "01iqpfj5nvl19580ckl4b0aljl86svplxzpkavp5r0jbwaqi0ll3";
+  revision = "3";
+  editedCabalFile = "00yisb404gr82zns01326h0ppw5jraqsxnanzd3ff2h9x7805fd7";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [
