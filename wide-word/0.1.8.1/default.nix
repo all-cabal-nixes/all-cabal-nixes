@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "wide-word";
-  version = "0.1.8.0";
-  sha256 = "2384a594c100cd9827d12cc8db97b8d0cbf97ac6d397ff3bea55c2aa20734345";
-  revision = "1";
-  editedCabalFile = "03iiidk2879c8iz784naqzi7grhkv1s32qcnngqlycwmn53yy6as";
+  version = "0.1.8.1";
+  sha256 = "9ec94acc9d080d082945e6d0d960fb8f71aecaaf6cb73747e398f53c7c793a4a";
   libraryHaskellDepends = [ base binary deepseq hashable primitive ];
   testHaskellDepends = [
     base binary hedgehog primitive QuickCheck quickcheck-classes
