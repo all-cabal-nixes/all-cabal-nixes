@@ -5,6 +5,8 @@ mkDerivation {
   pname = "variety";
   version = "0.2.1.0";
   sha256 = "24e2c6df8b22f26ec1b91a00dea766fde505127f288a39d7afb483a3df4b3f2b";
+  revision = "1";
+  editedCabalFile = "1igrzy8wgg50xja0p0zh6jyzgrww7y9vxvqyl2dngw68z2bfnyh2";
   libraryHaskellDepends = [
     base bytestring containers exact-combinatorics
   ];

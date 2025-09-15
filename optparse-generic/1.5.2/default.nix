@@ -6,8 +6,8 @@ mkDerivation {
   pname = "optparse-generic";
   version = "1.5.2";
   sha256 = "c7b451f32d34124aab838fadaab4cf2e271e558ddc13a702458b6c790a2e8a35";
-  revision = "2";
-  editedCabalFile = "069srkpphp5x51b4x9al74qa9dmb5q5hngffj67cs28021y8pxnk";
+  revision = "3";
+  editedCabalFile = "0rmfwb4plak9vymdcf553ml7b5kpx81arjszwk4fsswx3mry6kif";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
