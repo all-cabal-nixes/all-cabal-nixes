@@ -9,6 +9,8 @@ mkDerivation {
   pname = "plots";
   version = "0.1.1.5";
   sha256 = "dc8da05df28a681dc5b25a1f8325aa4b5f94620ebe0a767cfbb642d76278f235";
+  revision = "1";
+  editedCabalFile = "0fp1i55arir0p9gvxgadq29v06p4qkqbrf14qd4nnfjry5i8pgqg";
   libraryHaskellDepends = [
     adjunctions base base-orphans colour containers data-default
     diagrams-core diagrams-lib directory distributive filepath
