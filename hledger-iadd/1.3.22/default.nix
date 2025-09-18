@@ -6,10 +6,8 @@
 }:
 mkDerivation {
   pname = "hledger-iadd";
-  version = "1.3.21";
-  sha256 = "828fcd5ecd72b7427ea36066db8d6b914153609acddab96cd0782270dddaa003";
-  revision = "11";
-  editedCabalFile = "16v21gwa4zkwjmg5ys4zchajv5k0dbk22vvr9hwfdwb7g21h3dvf";
+  version = "1.3.22";
+  sha256 = "9bf249c381428f6851b1656275c29b9fd02e41c4e42d642a7af356889f3cfb1c";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
