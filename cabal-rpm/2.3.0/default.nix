@@ -7,6 +7,8 @@ mkDerivation {
   pname = "cabal-rpm";
   version = "2.3.0";
   sha256 = "806b733b047492f7c5e51768f89ad8e460ff3d98f283715691d64b776d728fe9";
+  revision = "1";
+  editedCabalFile = "1ji882k0kkpxzlw7c3f6b48k2wzzyy8yv5baadmy4j7npqxfsxqy";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [
