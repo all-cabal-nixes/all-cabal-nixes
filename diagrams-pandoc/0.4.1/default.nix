@@ -7,6 +7,8 @@ mkDerivation {
   pname = "diagrams-pandoc";
   version = "0.4.1";
   sha256 = "b90382e25e9e40095575ca121900531006f7a348a4111eabe7c68efb8f2134be";
+  revision = "1";
+  editedCabalFile = "1pk9asxd89098hrqdvavk7hrqca9msmfvmk2ncs6kj6n5xifybgd";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

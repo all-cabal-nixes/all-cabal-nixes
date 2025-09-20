@@ -9,6 +9,8 @@ mkDerivation {
   pname = "nvfetcher";
   version = "0.7.0.0";
   sha256 = "5385f232ca574c08648f87acf6dbb540930d57bbc8f87f5846d5e5f08662ac45";
+  revision = "1";
+  editedCabalFile = "0pkcsb97x64fnrrs93l73k1yydrnswh8drwdab90c4ac9wjjxvk8";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
