@@ -8,8 +8,8 @@ mkDerivation {
   pname = "beam-sqlite";
   version = "0.5.4.1";
   sha256 = "71666d227cb0ab506153bdd8b6b273728f2a2ccfc4b43e745f6eb97fba96beb8";
-  revision = "1";
-  editedCabalFile = "0igd6nzypnnpswpybn87j7vzgy2cbgb4l19phimjdacgdjsvb4nf";
+  revision = "2";
+  editedCabalFile = "03j11sgmsaz80qvpb1r4j6zqdwya9gyi4rmlbhjl13wn3dzsf420";
   libraryHaskellDepends = [
     aeson attoparsec base beam-core beam-migrate bytestring
     direct-sqlite dlist free hashable monad-control mtl network-uri

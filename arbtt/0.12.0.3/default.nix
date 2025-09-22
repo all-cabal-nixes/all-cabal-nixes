@@ -9,6 +9,8 @@ mkDerivation {
   pname = "arbtt";
   version = "0.12.0.3";
   sha256 = "8d94a4280b3aa1defd33bb463d8ae1194b0eab97666f5e15720e6bcbdd09ecf1";
+  revision = "1";
+  editedCabalFile = "1kbma0ssjg8pd1rk9vi2bi7gy0fkfqpd6syh9271z350avgiwhf9";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [
