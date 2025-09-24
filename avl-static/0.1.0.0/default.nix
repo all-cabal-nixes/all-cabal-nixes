@@ -5,6 +5,8 @@ mkDerivation {
   pname = "avl-static";
   version = "0.1.0.0";
   sha256 = "20b0a9f7a858d980dadc96704709e5e2e1d448dcb17aa53f6064ad7a332f348f";
+  revision = "1";
+  editedCabalFile = "1rwf1m5v9hy3vrfy3ibgvahcl5zpip65d6pidmwg954lclrbm1gh";
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [
     base QuickCheck test-framework test-framework-quickcheck2
