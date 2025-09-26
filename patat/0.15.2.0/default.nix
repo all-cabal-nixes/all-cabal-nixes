@@ -10,6 +10,8 @@ mkDerivation {
   pname = "patat";
   version = "0.15.2.0";
   sha256 = "d1f182ecdf145b8db1aacee1c4d46731d197b192e6ef855c3505067c1cea2b65";
+  revision = "1";
+  editedCabalFile = "0x0dkxnkpwghzpmw93b72zfy2gyl4vhnxa0h15dycvd80k54n37x";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
