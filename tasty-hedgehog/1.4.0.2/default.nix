@@ -5,8 +5,8 @@ mkDerivation {
   pname = "tasty-hedgehog";
   version = "1.4.0.2";
   sha256 = "453484d732712525a9c74a07db5f18b5f80f867a98958e67031d8d0bfe007152";
-  revision = "6";
-  editedCabalFile = "1rb8ncp6xyy7jr6v0hyls9m529ba0djndsxgxmkgr52rk3qq8lrc";
+  revision = "7";
+  editedCabalFile = "0xcg6qiw7fgl8hw50zfw8rayzynl4czhmvbgdkydq2a2ajipz06r";
   libraryHaskellDepends = [ base hedgehog tagged tasty ];
   testHaskellDepends = [
     base hedgehog tasty tasty-expected-failure
