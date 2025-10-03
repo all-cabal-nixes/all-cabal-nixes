@@ -4,10 +4,8 @@
 }:
 mkDerivation {
   pname = "vty";
-  version = "6.4";
-  sha256 = "7165a6238bd22aed8a3f142925a0de48e105a5585cd2499c90e2c56a63090a46";
-  revision = "2";
-  editedCabalFile = "1dcnkfghflgn3qv72pdpa6npfdrrjqhil3wnxd75rbd4mf7812hf";
+  version = "6.5";
+  sha256 = "a8795c77da1f4fe69aadfd6bb034d2727e72f32249b44cd98334b01f0252940d";
   libraryHaskellDepends = [
     base binary blaze-builder bytestring deepseq directory filepath
     microlens microlens-mtl mtl parsec stm text utf8-string vector
