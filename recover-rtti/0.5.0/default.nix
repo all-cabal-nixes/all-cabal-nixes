@@ -1,6 +1,7 @@
 { mkDerivation, aeson, base, bytestring, containers, ghc-heap
-, ghc-prim, lib, mtl, primitive, QuickCheck, sop-core, stm, tasty
-, tasty-hunit, tasty-quickcheck, text, unordered-containers, vector
+, ghc-internal, ghc-prim, lib, mtl, primitive, QuickCheck, sop-core
+, stm, tasty, tasty-hunit, tasty-quickcheck, text
+, unordered-containers, vector
 }:
 mkDerivation {
   pname = "recover-rtti";
@@ -9,8 +10,8 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "1m39pwdlnk20lbp45zlgwwp931rhh98qba0rwvzs2789qw3ma57m";
   libraryHaskellDepends = [
-    aeson base bytestring containers ghc-heap ghc-prim mtl primitive
-    sop-core stm text unordered-containers vector
+    aeson base bytestring containers ghc-heap ghc-internal ghc-prim mtl
+    primitive sop-core stm text unordered-containers vector
   ];
   testHaskellDepends = [
     aeson base bytestring containers ghc-heap ghc-prim mtl primitive

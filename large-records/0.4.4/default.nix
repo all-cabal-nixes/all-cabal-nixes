@@ -1,6 +1,6 @@
 { mkDerivation, base, containers, generic-deriving, ghc
-, large-generics, lib, mtl, newtype, optics-core, optics-th
-, primitive, record-hasfield, syb, tasty, tasty-hunit
+, ghc-internal, large-generics, lib, mtl, newtype, optics-core
+, optics-th, primitive, record-hasfield, syb, tasty, tasty-hunit
 , template-haskell, transformers
 }:
 mkDerivation {
@@ -12,9 +12,9 @@ mkDerivation {
     record-hasfield syb template-haskell transformers
   ];
   testHaskellDepends = [
-    base generic-deriving large-generics mtl newtype optics-core
-    optics-th record-hasfield tasty tasty-hunit template-haskell
-    transformers
+    base generic-deriving ghc-internal large-generics mtl newtype
+    optics-core optics-th record-hasfield tasty tasty-hunit
+    template-haskell transformers
   ];
   description = "Efficient compilation for large records, linear in the size of the record";
   license = lib.licenses.bsd3;

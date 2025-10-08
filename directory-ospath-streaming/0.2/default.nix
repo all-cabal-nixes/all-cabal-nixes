@@ -5,8 +5,8 @@ mkDerivation {
   pname = "directory-ospath-streaming";
   version = "0.2";
   sha256 = "d9b72face8d5cbdeee5af30b64e0526766d768e339a47f8fd362fa370560a314";
-  revision = "1";
-  editedCabalFile = "0k148dqk6ign1h59malsqic2q4hd7s3w1bcgh4sr4szsa8gmx6y1";
+  revision = "2";
+  editedCabalFile = "09h4k5nspnxny3x9j2fa1hp9p0pfg3lnlvsn2j6ffdhfma4hdy99";
   libraryHaskellDepends = [
     atomic-counter base deepseq filepath os-string unix
   ];

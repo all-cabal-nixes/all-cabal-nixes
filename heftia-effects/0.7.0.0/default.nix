@@ -1,8 +1,8 @@
 { mkDerivation, base, bytestring, co-log-core, containers
-, data-effects, eff, effectful, filepath, freer-simple
-, fused-effects, heftia, hspec, lib, logict, mtl, polysemy, process
-, tasty, tasty-bench, tasty-discover, tasty-hspec, text, time
-, unbounded-delays, unix, unliftio
+, data-effects, effectful, filepath, fused-effects, heftia, hspec
+, lib, logict, mtl, polysemy, process, tasty, tasty-bench
+, tasty-discover, tasty-hspec, text, time, unbounded-delays, unix
+, unliftio
 }:
 mkDerivation {
   pname = "heftia-effects";
@@ -24,9 +24,9 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   benchmarkHaskellDepends = [
-    base bytestring co-log-core containers data-effects eff effectful
-    freer-simple fused-effects heftia logict mtl polysemy process
-    tasty-bench text time unbounded-delays unix unliftio
+    base bytestring co-log-core containers data-effects effectful
+    fused-effects heftia logict mtl polysemy process tasty-bench text
+    time unbounded-delays unix unliftio
   ];
   description = "higher-order algebraic effects done right";
   license = lib.licenses.mpl20;

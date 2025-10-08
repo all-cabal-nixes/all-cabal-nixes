@@ -4,21 +4,18 @@
 , ghcide, ghcide-bench, ghcide-test-utils, githash, gitrev
 , hashable, hie-bios, hiedb, hls-alternate-number-format-plugin
 , hls-cabal-fmt-plugin, hls-cabal-plugin, hls-call-hierarchy-plugin
-, hls-change-type-signature-plugin, hls-class-plugin
-, hls-code-range-plugin, hls-eval-plugin
-, hls-explicit-fixity-plugin, hls-explicit-imports-plugin
-, hls-explicit-record-fields-plugin, hls-fourmolu-plugin
-, hls-gadt-plugin, hls-graph, hls-hlint-plugin
-, hls-module-name-plugin, hls-overloaded-record-dot-plugin
-, hls-plugin-api, hls-pragmas-plugin
-, hls-qualify-imported-names-plugin, hls-refactor-plugin
-, hls-rename-plugin, hls-retrie-plugin, hls-splice-plugin
-, hls-stylish-haskell-plugin, hls-test-utils, hp2pretty
-, hspec-expectations, implicit-hie, lens, lens-aeson, lib, lsp
-, lsp-test, lsp-types, mtl, optparse-applicative, optparse-simple
-, prettyprinter, process, regex-tdfa, row-types, safe-exceptions
-, shake, shake-bench, sqlite-simple, stm, temporary, text
-, transformers, unix, unliftio-core, unordered-containers, yaml
+, hls-change-type-signature-plugin, hls-code-range-plugin
+, hls-eval-plugin, hls-explicit-fixity-plugin
+, hls-explicit-imports-plugin, hls-explicit-record-fields-plugin
+, hls-graph, hls-module-name-plugin
+, hls-overloaded-record-dot-plugin, hls-plugin-api
+, hls-pragmas-plugin, hls-qualify-imported-names-plugin
+, hls-test-utils, hp2pretty, hspec-expectations, implicit-hie, lens
+, lens-aeson, lib, lsp, lsp-test, lsp-types, mtl
+, optparse-applicative, optparse-simple, prettyprinter, process
+, regex-tdfa, row-types, safe-exceptions, shake, shake-bench
+, sqlite-simple, stm, temporary, text, transformers, unix
+, unliftio-core, unordered-containers, yaml
 }:
 mkDerivation {
   pname = "haskell-language-server";
@@ -31,15 +28,12 @@ mkDerivation {
     cryptohash-sha1 data-default directory extra filepath ghc ghcide
     githash hie-bios hiedb hls-alternate-number-format-plugin
     hls-cabal-fmt-plugin hls-cabal-plugin hls-call-hierarchy-plugin
-    hls-change-type-signature-plugin hls-class-plugin
-    hls-code-range-plugin hls-eval-plugin hls-explicit-fixity-plugin
+    hls-change-type-signature-plugin hls-code-range-plugin
+    hls-eval-plugin hls-explicit-fixity-plugin
     hls-explicit-imports-plugin hls-explicit-record-fields-plugin
-    hls-fourmolu-plugin hls-gadt-plugin hls-graph hls-hlint-plugin
-    hls-module-name-plugin hls-overloaded-record-dot-plugin
+    hls-graph hls-module-name-plugin hls-overloaded-record-dot-plugin
     hls-plugin-api hls-pragmas-plugin hls-qualify-imported-names-plugin
-    hls-refactor-plugin hls-rename-plugin hls-retrie-plugin
-    hls-splice-plugin hls-stylish-haskell-plugin lsp
-    optparse-applicative optparse-simple prettyprinter process
+    lsp optparse-applicative optparse-simple prettyprinter process
     safe-exceptions sqlite-simple text unordered-containers
   ];
   executableHaskellDepends = [
@@ -54,9 +48,8 @@ mkDerivation {
   testHaskellDepends = [
     aeson base bytestring containers data-default deepseq directory
     extra filepath ghcide ghcide-test-utils hashable hls-plugin-api
-    hls-refactor-plugin hls-test-utils hspec-expectations lens
-    lens-aeson lsp-test lsp-types prettyprinter process row-types text
-    unordered-containers
+    hls-test-utils hspec-expectations lens lens-aeson lsp-test
+    lsp-types prettyprinter process row-types text unordered-containers
   ];
   testToolDepends = [ ghcide ];
   benchmarkHaskellDepends = [

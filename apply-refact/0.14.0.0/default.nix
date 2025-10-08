@@ -11,7 +11,7 @@ mkDerivation {
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
-    base containers directory extra filemanip ghc ghc-boot-th
+    base containers directory extra filemanip ghc-boot-th
     ghc-exactprint process refact syb transformers uniplate unix-compat
   ];
   executableHaskellDepends = [

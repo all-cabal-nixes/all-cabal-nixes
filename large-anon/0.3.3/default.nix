@@ -1,9 +1,9 @@
 { mkDerivation, aeson, aeson-pretty, arrows, base, bytestring
 , containers, deepseq, ghc, ghc-tcplugin-api, hashable
 , large-generics, lib, mtl, optics-core, parsec, primitive
-, QuickCheck, record-dot-preprocessor, record-hasfield, sop-core
-, Stream, syb, tagged, tasty, tasty-hunit, tasty-quickcheck, text
-, typelet, validation-selective
+, QuickCheck, record-hasfield, sop-core, Stream, syb, tagged, tasty
+, tasty-hunit, tasty-quickcheck, text, typelet
+, validation-selective
 }:
 mkDerivation {
   pname = "large-anon";
@@ -18,9 +18,9 @@ mkDerivation {
   ];
   testHaskellDepends = [
     aeson aeson-pretty arrows base bytestring containers large-generics
-    mtl optics-core parsec QuickCheck record-dot-preprocessor
-    record-hasfield sop-core Stream tasty tasty-hunit tasty-quickcheck
-    text typelet validation-selective
+    mtl optics-core parsec QuickCheck record-hasfield sop-core Stream
+    tasty tasty-hunit tasty-quickcheck text typelet
+    validation-selective
   ];
   description = "Scalable anonymous records";
   license = lib.licenses.bsd3;

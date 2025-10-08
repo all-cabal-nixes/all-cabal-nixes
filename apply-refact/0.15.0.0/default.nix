@@ -1,8 +1,8 @@
-{ mkDerivation, base, containers, data-default, data-default-class
-, directory, extra, filemanip, filepath, ghc, ghc-boot-th
-, ghc-exactprint, ghc-paths, lib, optparse-applicative, process
-, refact, silently, syb, tasty, tasty-expected-failure
-, tasty-golden, transformers, uniplate, unix-compat
+{ mkDerivation, base, containers, data-default, directory, extra
+, filemanip, filepath, ghc, ghc-boot-th, ghc-exactprint, ghc-paths
+, lib, optparse-applicative, process, refact, silently, syb, tasty
+, tasty-expected-failure, tasty-golden, transformers, uniplate
+, unix-compat
 }:
 mkDerivation {
   pname = "apply-refact";
@@ -11,21 +11,20 @@ mkDerivation {
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
-    base containers data-default data-default-class directory extra
-    filemanip ghc ghc-boot-th ghc-exactprint process refact syb
-    transformers uniplate unix-compat
-  ];
-  executableHaskellDepends = [
-    base containers data-default data-default-class directory extra
-    filemanip filepath ghc ghc-boot-th ghc-exactprint ghc-paths
-    optparse-applicative process refact syb transformers uniplate
+    base containers data-default directory extra filemanip ghc
+    ghc-boot-th ghc-exactprint process refact syb transformers uniplate
     unix-compat
   ];
-  testHaskellDepends = [
+  executableHaskellDepends = [
     base containers data-default directory extra filemanip filepath ghc
     ghc-boot-th ghc-exactprint ghc-paths optparse-applicative process
-    refact silently syb tasty tasty-expected-failure tasty-golden
-    transformers uniplate unix-compat
+    refact syb transformers uniplate unix-compat
+  ];
+  testHaskellDepends = [
+    base containers directory extra filemanip filepath ghc ghc-boot-th
+    ghc-exactprint ghc-paths optparse-applicative process refact
+    silently syb tasty tasty-expected-failure tasty-golden transformers
+    uniplate unix-compat
   ];
   homepage = "https://github.com/mpickering/apply-refact";
   description = "Perform refactorings specified by the refact library";

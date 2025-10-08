@@ -14,7 +14,7 @@ mkDerivation {
     base bytestring hashable QuickCheck tasty tasty-quickcheck text
   ];
   benchmarkHaskellDepends = [
-    base bytestring deepseq digest hashable murmur-hash tasty-bench
+    base bytestring deepseq digest murmur-hash tasty-bench
   ];
   homepage = "https://github.com/haskell-haskey/xxhash-ffi#readme";
   description = "Bindings and high-level helpers for xxHash";

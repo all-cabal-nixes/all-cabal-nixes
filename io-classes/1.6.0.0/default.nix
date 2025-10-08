@@ -1,6 +1,6 @@
-{ mkDerivation, array, async, base, bytestring, deepseq, lib, mtl
-, nothunks, primitive, QuickCheck, stm, tasty, tasty-quickcheck
-, time
+{ mkDerivation, array, async, base, bytestring, deepseq
+, ghc-internal, lib, mtl, nothunks, primitive, QuickCheck, stm
+, tasty, tasty-quickcheck, time
 }:
 mkDerivation {
   pname = "io-classes";
@@ -9,8 +9,8 @@ mkDerivation {
   revision = "2";
   editedCabalFile = "0mdsl0nnvk7vwmcn6mzfc24av0y7j569rzgb8pmkln51mv4r9lcx";
   libraryHaskellDepends = [
-    array async base bytestring deepseq mtl nothunks primitive
-    QuickCheck stm time
+    array async base bytestring deepseq ghc-internal mtl nothunks
+    primitive QuickCheck stm time
   ];
   testHaskellDepends = [ base QuickCheck tasty tasty-quickcheck ];
   doHaddock = false;

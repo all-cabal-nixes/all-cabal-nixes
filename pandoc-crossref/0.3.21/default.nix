@@ -8,8 +8,8 @@ mkDerivation {
   pname = "pandoc-crossref";
   version = "0.3.21";
   sha256 = "10b2b805e3a42d8d9c5d7f73b2a462d7cfd92ff13bfb729182a3cb83129c2eeb";
-  revision = "1";
-  editedCabalFile = "195b06n5kjqzjhsh7hxhzxpadf0s52d5daxh0jry3wzf0vgzkw4p";
+  revision = "2";
+  editedCabalFile = "1j9s9r6xmw8wq48y73q6w87v92wc5p9va38k5csy28hyix9xf32i";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;

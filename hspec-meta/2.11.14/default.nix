@@ -7,6 +7,8 @@ mkDerivation {
   pname = "hspec-meta";
   version = "2.11.14";
   sha256 = "e563eeeb9108d7c147912cbc52cdbc815aca22f7a630c4676f0138dcabd321d6";
+  revision = "2";
+  editedCabalFile = "0iylscmcm5052sqa3xaikiqrlfaqs9cn82r777g43l6wgbzzsxi4";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

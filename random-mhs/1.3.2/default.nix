@@ -1,7 +1,6 @@
 { mkDerivation, base, bytestring, containers, deepseq, lib, mtl
 , primitive, random, rdtsc, smallcheck, split, splitmix, stm, tasty
-, tasty-bench, tasty-hunit, tasty-inspection-testing
-, tasty-smallcheck, time, transformers
+, tasty-bench, tasty-hunit, tasty-smallcheck, time, transformers
 }:
 mkDerivation {
   pname = "random-mhs";
@@ -12,7 +11,7 @@ mkDerivation {
   ];
   testHaskellDepends = [
     base bytestring containers random smallcheck stm tasty tasty-hunit
-    tasty-inspection-testing tasty-smallcheck transformers
+    tasty-smallcheck transformers
   ];
   benchmarkHaskellDepends = [
     base mtl primitive random rdtsc split splitmix tasty-bench time

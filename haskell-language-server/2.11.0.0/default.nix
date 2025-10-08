@@ -1,19 +1,18 @@
-{ mkDerivation, aeson, aeson-pretty, apply-refact, array, async
-, base, binary, bytestring, Cabal, cabal-add, Cabal-syntax
-, containers, data-default, deepseq, Diff, directory, dlist
-, enummapset, eventlog2html, extra, filepath, floskell, foldl
-, fourmolu, fuzzy, ghc, ghc-boot, ghc-boot-th, ghc-exactprint
-, ghc-lib-parser, ghc-lib-parser-ex, ghcide, githash, hashable
-, hie-bios, hie-compat, hiedb, hlint, hls-graph, hls-plugin-api
-, hls-test-utils, implicit-hie, lens, lens-aeson, lib, list-t, lsp
-, lsp-test, lsp-types, megaparsec, mod, mtl, network-uri
+{ mkDerivation, aeson, aeson-pretty, array, async, base, binary
+, bytestring, Cabal, cabal-add, Cabal-syntax, containers
+, data-default, deepseq, Diff, directory, dlist, enummapset
+, eventlog2html, extra, filepath, fourmolu, fuzzy, ghc, ghc-boot
+, ghc-boot-th, ghc-exactprint, ghcide, githash, hashable, hie-bios
+, hie-compat, hiedb, hls-graph, hls-plugin-api, hls-test-utils
+, implicit-hie, lens, lens-aeson, lib, list-t, lsp, lsp-test
+, lsp-types, megaparsec, mod, mtl, network-uri
 , optparse-applicative, optparse-simple, ormolu, parser-combinators
 , pretty, prettyprinter, process, process-extras, QuickCheck
-, random, refact, regex-applicative, regex-tdfa, retrie, row-types
-, safe-exceptions, semigroupoids, shake, shake-bench, sqlite-simple
-, stan, stm, stm-containers, stylish-haskell, syb, tasty
+, random, regex-applicative, regex-tdfa, row-types, safe-exceptions
+, semigroupoids, shake, shake-bench, sqlite-simple, stan, stm
+, stm-containers, stylish-haskell, syb, tasty
 , tasty-expected-failure, tasty-hunit, tasty-quickcheck
-, tasty-rerun, template-haskell, temporary, text, text-rope, time
+, tasty-rerun, template-haskell, text, text-rope, time
 , transformers, trial, unix, unliftio, unliftio-core
 , unordered-containers, vector, yaml
 }:
@@ -26,18 +25,17 @@ mkDerivation {
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
-    aeson aeson-pretty apply-refact array async base binary bytestring
-    Cabal cabal-add Cabal-syntax containers data-default deepseq Diff
-    directory dlist extra filepath floskell foldl fourmolu fuzzy ghc
-    ghc-boot ghc-boot-th ghc-exactprint ghc-lib-parser
-    ghc-lib-parser-ex ghcide githash hashable hie-bios hie-compat hiedb
-    hlint hls-graph hls-plugin-api hls-test-utils lens lens-aeson lsp
-    lsp-test lsp-types megaparsec mod mtl optparse-applicative
-    optparse-simple ormolu parser-combinators pretty prettyprinter
-    process process-extras refact regex-applicative regex-tdfa retrie
-    row-types safe-exceptions semigroupoids shake sqlite-simple stan
-    stm stm-containers stylish-haskell syb template-haskell temporary
-    text text-rope time transformers trial unliftio unliftio-core
+    aeson aeson-pretty array async base binary bytestring Cabal
+    cabal-add Cabal-syntax containers data-default deepseq Diff
+    directory dlist extra filepath fourmolu fuzzy ghc ghc-boot
+    ghc-boot-th ghc-exactprint ghcide githash hashable hie-bios
+    hie-compat hiedb hls-graph hls-plugin-api hls-test-utils lens
+    lens-aeson lsp lsp-test lsp-types megaparsec mod mtl
+    optparse-applicative optparse-simple ormolu parser-combinators
+    pretty prettyprinter process process-extras regex-applicative
+    regex-tdfa row-types safe-exceptions semigroupoids shake
+    sqlite-simple stan stm stm-containers stylish-haskell syb
+    template-haskell text text-rope time transformers trial unliftio
     unordered-containers vector yaml
   ];
   executableHaskellDepends = [

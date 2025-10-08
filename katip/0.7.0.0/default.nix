@@ -11,8 +11,8 @@ mkDerivation {
   pname = "katip";
   version = "0.7.0.0";
   sha256 = "0ba53e13cfa9e717c3e040f0c858f0d1de1417cffaf670542d546951d21885fc";
-  revision = "1";
-  editedCabalFile = "1lzla1iv5ll9iks5xh8399vs2mjxb33pbdg115kqbq9r5z3h84qp";
+  revision = "2";
+  editedCabalFile = "10sdhmnxk0hd42yf0wi0bsxi0igs15r8sd19s99dk3k356w26c0f";
   libraryHaskellDepends = [
     aeson async auto-update base bytestring containers either hostname
     microlens microlens-th monad-control mtl old-locale resourcet

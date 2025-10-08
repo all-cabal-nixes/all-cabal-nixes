@@ -1,6 +1,6 @@
 { mkDerivation, alex, array, base, binary, bytestring, containers
-, deepseq, directory, exceptions, filepath, ghc-prim, happy, lib
-, parsec, pretty, process, time, transformers, unix
+, deepseq, directory, exceptions, filepath, ghc-internal, ghc-prim
+, happy, lib, parsec, pretty, process, time, transformers, unix
 }:
 mkDerivation {
   pname = "ghc-lib-parser";
@@ -9,8 +9,8 @@ mkDerivation {
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     array base binary bytestring containers deepseq directory
-    exceptions filepath ghc-prim parsec pretty process time
-    transformers unix
+    exceptions filepath ghc-internal ghc-prim parsec pretty process
+    time transformers unix
   ];
   libraryToolDepends = [ alex happy ];
   homepage = "https://github.com/digital-asset/ghc-lib";

@@ -1,5 +1,5 @@
-{ mkDerivation, array, async, base, bytestring, lib, mtl, primitive
-, stm, time
+{ mkDerivation, array, async, base, bytestring, ghc-internal, lib
+, mtl, primitive, stm, time
 }:
 mkDerivation {
   pname = "io-classes";
@@ -8,7 +8,7 @@ mkDerivation {
   revision = "2";
   editedCabalFile = "167lkg0n4ixv425c3mv0947niwnr2flb8ygc01vmkjcpzdingsj2";
   libraryHaskellDepends = [
-    array async base bytestring mtl primitive stm time
+    array async base bytestring ghc-internal mtl primitive stm time
   ];
   description = "Type classes for concurrency with STM, ST and timing";
   license = lib.licenses.asl20;
