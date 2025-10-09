@@ -6,6 +6,8 @@ mkDerivation {
   pname = "enummapset";
   version = "0.6.0.2";
   sha256 = "3b344af1b375cd904ab4cbe687a1a336840c6de3e66b4c2a26f73a96d5cfe610";
+  revision = "1";
+  editedCabalFile = "11330g8dhy4apvlj27kwb7kwalsfdmc5rlbbixcchpzr70mgz8df";
   libraryHaskellDepends = [ base containers deepseq semigroups ];
   testHaskellDepends = [
     array base containers deepseq ghc-prim HUnit QuickCheck semigroups
