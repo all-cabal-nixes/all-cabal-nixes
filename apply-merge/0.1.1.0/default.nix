@@ -6,8 +6,8 @@ mkDerivation {
   pname = "apply-merge";
   version = "0.1.1.0";
   sha256 = "2847e4e34230f72c8c1e51cbc2f896c6ab333066cf1363df4efd8e5c464dd5ea";
-  revision = "5";
-  editedCabalFile = "1bcpcp6cg50bm4p7snbl8z9vrmps2qzfhzf3v8rk3xlcwfmhvjw0";
+  revision = "6";
+  editedCabalFile = "1b98vn8j14mm4hxxfd34h2mzjjmraxg199z234q7gdgafwwc19ix";
   libraryHaskellDepends = [ base containers pqueue reflection ];
   testHaskellDepends = [
     base containers data-ordlist pqueue reflection tasty
