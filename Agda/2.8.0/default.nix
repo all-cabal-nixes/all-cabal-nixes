@@ -13,6 +13,8 @@ mkDerivation {
   pname = "Agda";
   version = "2.8.0";
   sha256 = "86841907e78a5aafcf57b09edb7d50036f7de1b2217c8b58e2c57d6004969ba0";
+  revision = "1";
+  editedCabalFile = "1dnf5h8gn3mh13q20ndhvam7dcyn8pwnchwxnr88wgklvi5ha2dd";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
