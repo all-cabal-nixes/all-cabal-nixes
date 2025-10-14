@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "QuickCheck";
-  version = "2.17.0.0";
-  sha256 = "dbb5cabd9babd01bef6c6404514d00c170a3748675598da792b9b1705121e738";
-  revision = "2";
-  editedCabalFile = "1fwcj636fjffp1hxwrzqkvphh75igysy8bg4mw2a887v3pihb3zm";
+  version = "2.17.1.0";
+  sha256 = "0830434f54629d4d2f4751059556c94f9b3980fdd5466a7a19334a630c7b7937";
   libraryHaskellDepends = [
     base containers deepseq random splitmix template-haskell
     transformers
