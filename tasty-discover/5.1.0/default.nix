@@ -8,6 +8,8 @@ mkDerivation {
   pname = "tasty-discover";
   version = "5.1.0";
   sha256 = "2ee6ab127e0457be1ead3fde35267d7af141199e960d03f2deb8c56128f1d778";
+  revision = "1";
+  editedCabalFile = "1bac8ll0im08w7n5hj43fkjpilcax9bz0kbq0nr690lh49ws2353";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
