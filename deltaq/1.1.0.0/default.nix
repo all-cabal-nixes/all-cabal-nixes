@@ -7,6 +7,8 @@ mkDerivation {
   pname = "deltaq";
   version = "1.1.0.0";
   sha256 = "4a92650b4ebba0f4a3eb8bced447bbc9733b83d6cd0fcafdddb7d739630dc719";
+  revision = "1";
+  editedCabalFile = "1g9l29msxa2w3yzv3xnvhhzgh1a2vc3s7g39g6rbx9rdx1xw68kc";
   libraryHaskellDepends = [
     base Chart deepseq diagrams-lib diagrams-svg lattices
     probability-polynomial
