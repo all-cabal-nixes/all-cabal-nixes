@@ -6,6 +6,8 @@ mkDerivation {
   pname = "rcu";
   version = "0.2.7";
   sha256 = "890d2c0061442250494b7b3578e693bac4b501393ace6cc5554621c8a4e08147";
+  revision = "1";
+  editedCabalFile = "0r56khfhyr29wbidvrdlzzayzniaa6pqmjf6kjymackmvy6kiszq";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

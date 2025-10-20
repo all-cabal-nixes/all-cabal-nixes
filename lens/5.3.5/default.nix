@@ -12,6 +12,8 @@ mkDerivation {
   pname = "lens";
   version = "5.3.5";
   sha256 = "efebacf3dfb108c96171e564f059778d21ac262a98a956fef8890223ed8f1fe8";
+  revision = "1";
+  editedCabalFile = "06asqa9n6grq6dpzd2m9ynhn28mxmyqpj79bnh95x8lynf4kchg0";
   libraryHaskellDepends = [
     array assoc base base-orphans bifunctors bytestring call-stack
     comonad containers contravariant distributive exceptions filepath
