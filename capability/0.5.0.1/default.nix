@@ -8,8 +8,8 @@ mkDerivation {
   pname = "capability";
   version = "0.5.0.1";
   sha256 = "91e10f3f425b0dfd261ad8908e5373616acaae313ec1a0ce56052bee05697a6a";
-  revision = "4";
-  editedCabalFile = "00lkh7rnys52wji7301ca1nriypwqd8q7gslz3gvnwqmi6as0grv";
+  revision = "5";
+  editedCabalFile = "1gqrc6gql8jfgblx8v9v352a51lj5mnw41hk66cgq269ywsg8igs";
   libraryHaskellDepends = [
     base constraints dlist exceptions generic-lens lens monad-control
     mtl mutable-containers primitive reflection safe-exceptions

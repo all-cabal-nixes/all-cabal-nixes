@@ -6,8 +6,8 @@ mkDerivation {
   pname = "unicode-transforms";
   version = "0.4.0.1";
   sha256 = "3278e1e1d648da4bcd7368658ae091a89080e88a2f44db9df5136711e99649fc";
-  revision = "7";
-  editedCabalFile = "1lsb6788m8ibpddfx0ah3v5c09q9i0d1ik92bpgsx5ygx1xcnsj4";
+  revision = "8";
+  editedCabalFile = "0m2frv6g0hnsjif4acxy6dgfzzxhk7g82s57fcwc3zqsr2sr1i0z";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
