@@ -6,8 +6,8 @@ mkDerivation {
   pname = "fast-logger";
   version = "3.0.3";
   sha256 = "5763a0321053ecaba2d1040800bae9988f52b813fb08d5276ea7ce10e3d2f068";
-  revision = "1";
-  editedCabalFile = "0s2ac65ivxg97mavvgifgbbjlm9w0vp6islcndxxg9q8w71ds81w";
+  revision = "2";
+  editedCabalFile = "16zkcnnlhpgw3m9qpzq1f1lc2k2vmhc9ibikl96gvjh5ssakkvvh";
   libraryHaskellDepends = [
     array auto-update base bytestring directory easy-file filepath text
     unix-compat unix-time
