@@ -7,6 +7,8 @@ mkDerivation {
   pname = "simple-sql-parser";
   version = "0.8.0";
   sha256 = "7c6b337c5db70b395c6fd57eccfffa5ba24504d8e26f604c9bb7ad37b2acbe06";
+  revision = "1";
+  editedCabalFile = "0lp9kab0yj7fqdsyavgq31r15dfq55a19ahljxhryzb2v1ggxpny";
   libraryHaskellDepends = [
     base containers megaparsec mtl parser-combinators prettyprinter
     text

@@ -7,10 +7,8 @@
 }:
 mkDerivation {
   pname = "statistics";
-  version = "0.16.3.0";
-  sha256 = "03ec46e6641227cf7318b7a1f87acf005d38c8cfc4e13f40ff9014a9266ba1e7";
-  revision = "2";
-  editedCabalFile = "0mh009z5yqimvvqr37mkkby4wmy1hb8ch9sixvp795gpba13kfs7";
+  version = "0.16.4.0";
+  sha256 = "82cbc42762bebb78b6e4e41cb1903103442b2b9a293538478d7e865494003d6b";
   libraryHaskellDepends = [
     aeson async base binary data-default-class deepseq
     dense-linear-algebra math-functions mwc-random parallel primitive
