@@ -8,6 +8,8 @@ mkDerivation {
   pname = "webgear-server";
   version = "1.5.0";
   sha256 = "5e3019b1a562fa22fe4022b2e8e56ea82b4fb44cb0c599bd4c658549d72c39eb";
+  revision = "1";
+  editedCabalFile = "0wx2qlwkk6yxnpfxy9261fwn7xkykcll7636ls6kxvc5ybwyn5h6";
   libraryHaskellDepends = [
     aeson arrows base base64-bytestring binary bytestring cookie
     http-api-data http-media http-types jose monad-time mtl resourcet
