@@ -5,8 +5,8 @@ mkDerivation {
   pname = "Chart";
   version = "1.9.5";
   sha256 = "0c1e2fb865093eb9456d5b05a4974abcba149c96d83678b39ddb949b9e6adf5b";
-  revision = "2";
-  editedCabalFile = "1a9z8an5yhsqbawzahmg77g9l6jvavhxbk2v48k4j8fyr7sy544q";
+  revision = "3";
+  editedCabalFile = "06cz0giahpfl3ardb0xrc474w39y9lb279i5lb4q43rn0hk64mmj";
   libraryHaskellDepends = [
     array base colour data-default-class lens mtl old-locale
     operational time vector

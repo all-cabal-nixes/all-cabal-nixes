@@ -5,8 +5,8 @@ mkDerivation {
   pname = "gtk2hs-buildtools";
   version = "0.13.10.0";
   sha256 = "dcbb47e95da9a59d3058485d352bb2a66830cb741ccce078d56940938a1d8573";
-  revision = "2";
-  editedCabalFile = "0nxrnyv8zv1s597y7qh51mnscc8j8zqk2q2aspsk5mvy36g8nba8";
+  revision = "3";
+  editedCabalFile = "19k3d2n8a75bcnsyhj6c6bhxj7gkvg9dhklajrb021nlz68kx65y";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
