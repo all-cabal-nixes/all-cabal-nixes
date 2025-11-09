@@ -6,6 +6,8 @@ mkDerivation {
   pname = "toml-reader-parse";
   version = "0.1.0.0";
   sha256 = "871764c6bdb7d28f3c5309de67998b474bf40056b408d01c4801471d9398bcb5";
+  revision = "1";
+  editedCabalFile = "1ib9rqfcnrg6msd5kvh45v3sag9hmmd8679sfslrygnfk7h4a7fv";
   libraryHaskellDepends = [
     base comonad containers deepseq dlist mtl prettyprinter
     prettyprinter-combinators text time toml-reader vector
