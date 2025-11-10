@@ -1,0 +1,31 @@
+{ mkDerivation, base, base-orphans, containers
+, deep-transformations, directory, either, filepath
+, grammatical-parsers, input-parsers, lib, optparse-applicative
+, parsers, prettyprinter, rank2classes, repr-tree-syb, tasty
+, tasty-hunit, template-haskell, text, transformers
+}:
+mkDerivation {
+  pname = "language-oberon";
+  version = "0.3.4";
+  sha256 = "627ddba2266a2ec98ba8f6cb73eec27d93f065408c9d36ab437cf43d694a77ec";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    base base-orphans containers deep-transformations directory either
+    filepath grammatical-parsers input-parsers parsers prettyprinter
+    rank2classes template-haskell text transformers
+  ];
+  executableHaskellDepends = [
+    base containers deep-transformations either filepath
+    grammatical-parsers input-parsers optparse-applicative
+    prettyprinter rank2classes repr-tree-syb text
+  ];
+  testHaskellDepends = [
+    base deep-transformations directory either filepath
+    grammatical-parsers prettyprinter tasty tasty-hunit text
+  ];
+  homepage = "https://github.com/blamario/language-oberon";
+  description = "Parser, pretty-printer, and more for the Oberon programming language";
+  license = lib.licenses.gpl3Only;
+  mainProgram = "parse";
+}
