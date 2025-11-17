@@ -9,6 +9,8 @@ mkDerivation {
   pname = "http3";
   version = "0.1.1";
   sha256 = "d24b54a31462d9875feb7703977029fa6e2b0cb8e41830962adc9b6f0747f12f";
+  revision = "1";
+  editedCabalFile = "10jia38klvizlrbxchlr0gr5xdqakhbbl23v8h4xj3brlfx9dn5f";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
