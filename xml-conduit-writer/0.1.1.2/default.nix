@@ -5,6 +5,8 @@ mkDerivation {
   pname = "xml-conduit-writer";
   version = "0.1.1.2";
   sha256 = "0891c05ad2a2de68183868de8f66230d02f209446ee91bca772cbf22b599ae58";
+  revision = "1";
+  editedCabalFile = "0v2lsmrijj07anr97h90q2jcpxhzspnh8i8nzwvna7hb0qns710j";
   libraryHaskellDepends = [
     base containers data-default dlist mtl text xml-conduit xml-types
   ];
