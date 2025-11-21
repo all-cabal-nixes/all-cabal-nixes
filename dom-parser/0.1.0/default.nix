@@ -6,6 +6,8 @@ mkDerivation {
   pname = "dom-parser";
   version = "0.1.0";
   sha256 = "4c50bf12e43d85a1a327b5a89fcd07df5ff066f6878d3e668311573f2e24fe70";
+  revision = "1";
+  editedCabalFile = "10m4nwv81wsxryrkp4c97m2aw0y6316jc594kyqyjf18fgm5qrk4";
   libraryHaskellDepends = [
     base lens mtl open-union semigroups shakespeare text transformers
     type-fun xml-conduit xml-lens
