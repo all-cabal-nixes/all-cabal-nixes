@@ -6,6 +6,8 @@ mkDerivation {
   pname = "dom-parser";
   version = "3.2.0";
   sha256 = "243b431d8879931b42367cbd3cf85b3022c7b07a635070dee4ed02cc3b7be1c4";
+  revision = "1";
+  editedCabalFile = "15h56mpdddbws6ifkd93m3l6ywg90cp9vf40b1f8qzhvwy65dpj9";
   libraryHaskellDepends = [
     base case-insensitive containers lens mtl scientific semigroups
     text transformers xml-conduit xml-conduit-writer xml-lens
