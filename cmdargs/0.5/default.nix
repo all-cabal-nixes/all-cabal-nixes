@@ -3,6 +3,8 @@ mkDerivation {
   pname = "cmdargs";
   version = "0.5";
   sha256 = "a7d87e3569b5dcd3580173b1c78bf6dae0bef24c4ba9c550dd2e01636d0e7521";
+  revision = "1";
+  editedCabalFile = "0n8shi21d0whl8lab45g4x57vh1aks7x364kvhfxasbfyabr0ih9";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base filepath mtl ];
