@@ -9,6 +9,8 @@ mkDerivation {
   pname = "xlsx";
   version = "0.8.3";
   sha256 = "b8240d7158adfa3245e2d88baf744ca3a25f4d36a2ff3fad538f0791a35be685";
+  revision = "1";
+  editedCabalFile = "052qhkn5p0zcyinh21kizf40gca7l3iwq40zl1kz95v9rrrq5gkd";
   libraryHaskellDepends = [
     attoparsec base base64-bytestring binary-search bytestring conduit
     containers data-default deepseq errors extra filepath lens mtl

@@ -5,6 +5,8 @@ mkDerivation {
   pname = "hoogle";
   version = "4.0.0.2";
   sha256 = "3b79489cebf61cc98720cb284a175bb1af139c30f32fccefeb7fb27e74ee88e3";
+  revision = "1";
+  editedCabalFile = "0vl2zb7x6c670xd8d9q69yrdrfwgrravfxrgfzrh3a429gwy01kb";
   isLibrary = false;
   isExecutable = true;
   enableSeparateDataOutput = true;
