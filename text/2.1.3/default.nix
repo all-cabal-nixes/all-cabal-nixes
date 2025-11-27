@@ -8,6 +8,8 @@ mkDerivation {
   pname = "text";
   version = "2.1.3";
   sha256 = "b1bb1ee43e9dac6417a7d4897316ffc13a7c77ddd737600a3155c3c3d9cef89d";
+  revision = "1";
+  editedCabalFile = "0lw01f0vgppdxxnkmqv4wilfb47abv590rpsqmca8zbi9wkb352h";
   libraryHaskellDepends = [
     array base binary bytestring deepseq ghc-prim system-cxx-std-lib
     template-haskell
