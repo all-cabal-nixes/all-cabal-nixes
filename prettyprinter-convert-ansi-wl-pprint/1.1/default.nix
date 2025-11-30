@@ -5,8 +5,8 @@ mkDerivation {
   pname = "prettyprinter-convert-ansi-wl-pprint";
   version = "1.1";
   sha256 = "b8982d38776249d3d29a4ede426a27a02f7cbb6843722b5ec8ede18d032fa60c";
-  revision = "1";
-  editedCabalFile = "1c4zcscmvq0vbdgnp7n0avv8si5jshl4kw2qd1lqmhr28kj8x45f";
+  revision = "2";
+  editedCabalFile = "1ccqy5165v4a07w9sjqy502a485f9xqxrmxx6jf42kh8hs1251k6";
   libraryHaskellDepends = [
     ansi-terminal ansi-wl-pprint base prettyprinter
     prettyprinter-ansi-terminal text

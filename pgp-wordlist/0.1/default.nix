@@ -5,6 +5,8 @@ mkDerivation {
   pname = "pgp-wordlist";
   version = "0.1";
   sha256 = "2280cbcb3d01babbd7a95cf252fdabe9ceae249dacead376bcdb37d4ecb33363";
+  revision = "1";
+  editedCabalFile = "0x5q0lbvayadqj558bsw3qqmqsxzrd22h8cxbnvi5hrvc3bfjjzn";
   libraryHaskellDepends = [ base bimap bytestring text ];
   testHaskellDepends = [
     base bytestring HUnit tasty tasty-hunit tasty-quickcheck text
