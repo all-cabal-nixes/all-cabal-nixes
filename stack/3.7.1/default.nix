@@ -16,6 +16,8 @@ mkDerivation {
   pname = "stack";
   version = "3.7.1";
   sha256 = "412a7a8d654ba38b29ea88f473c771d612c1836af80c0293fe092faa430ac80e";
+  revision = "1";
+  editedCabalFile = "1rfqqgmxgp7xbsqzln4nz2ywcdmdwh66mryzrh7nnd4iym44556s";
   configureFlags = [
     "-fdisable-git-info" "-fhide-dependency-versions"
     "-fsupported-build"

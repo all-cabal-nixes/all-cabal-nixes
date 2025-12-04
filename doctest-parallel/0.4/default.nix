@@ -8,6 +8,8 @@ mkDerivation {
   pname = "doctest-parallel";
   version = "0.4";
   sha256 = "dd758ae96b6d528b751d78f2de04321c05e6add932a3b1796b5e1d2f9e3b20f9";
+  revision = "1";
+  editedCabalFile = "14727y7lzskg9qazpc1p2fsj35fbqdm4g54hii3q0626y62ff7mj";
   libraryHaskellDepends = [
     base base-compat Cabal code-page containers deepseq directory
     exceptions filepath ghc ghc-exactprint ghc-paths Glob process
