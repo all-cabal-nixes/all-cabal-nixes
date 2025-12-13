@@ -7,8 +7,8 @@ mkDerivation {
   pname = "perceptual-hash";
   version = "0.1.4.7";
   sha256 = "b3e6e1ec6abdf704e4dfada1d221d32c83873af82341b253d531210af12a3a94";
-  revision = "1";
-  editedCabalFile = "0fkfpihq505m02v77lsg78g40amjh85726rr8kr37zrn2a255v41";
+  revision = "2";
+  editedCabalFile = "0r16n50ak4k4l21shwd5l0i2iiw2yf93a7qjjv8yfll9mhss87wk";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
