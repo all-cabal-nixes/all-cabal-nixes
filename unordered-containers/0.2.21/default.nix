@@ -7,6 +7,8 @@ mkDerivation {
   pname = "unordered-containers";
   version = "0.2.21";
   sha256 = "3b2ad1522b546e61960153257d1e5d239eeec5e83da847d5cb4d896a5bb7f9c0";
+  revision = "1";
+  editedCabalFile = "1rc452vcql3qbr1i3d4k28pws0jlak1x2ijkkfzja7msizs69zxw";
   libraryHaskellDepends = [ base deepseq hashable template-haskell ];
   testHaskellDepends = [
     base ChasingBottoms containers hashable HUnit nothunks QuickCheck

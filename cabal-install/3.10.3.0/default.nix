@@ -12,8 +12,8 @@ mkDerivation {
   pname = "cabal-install";
   version = "3.10.3.0";
   sha256 = "a8e706f0cf30cd91e006ae8b38137aecf65983346f44d0cba4d7a60bbfa3da9e";
-  revision = "1";
-  editedCabalFile = "1w3i7rss9q7kyiy0rhxn88w7blx1v19mqkfm0pbdwg9bv0qbv96k";
+  revision = "2";
+  editedCabalFile = "0n4fb7v6pa6y7hilprik59fqdybk6fmcsvpjcywi6f1sqgdgiavs";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
