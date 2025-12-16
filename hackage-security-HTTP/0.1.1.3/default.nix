@@ -5,6 +5,8 @@ mkDerivation {
   pname = "hackage-security-HTTP";
   version = "0.1.1.3";
   sha256 = "1d8738f657a3e78174a64742621cb45d98a4289c2f14a85877c7c501bfbd306d";
+  revision = "1";
+  editedCabalFile = "0arl3hmdzfay8na6scbwjlv1dnr4a7r8ka9iajx4qw3l4jpgamdw";
   libraryHaskellDepends = [
     base bytestring hackage-security HTTP mtl network network-uri zlib
   ];
