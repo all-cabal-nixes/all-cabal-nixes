@@ -5,8 +5,8 @@ mkDerivation {
   pname = "fgl";
   version = "5.8.3.0";
   sha256 = "a4ca15b162068a6cd8fd8685e2c1231ace4a24d56b2424b8e3f8988ff1ab63c1";
-  revision = "1";
-  editedCabalFile = "13yn7h8rwmdjwscli9cpn44dp5pm2c0km7b3v1cmfq4na16pczsh";
+  revision = "2";
+  editedCabalFile = "1syrd35vp1cas3x8hfss2mwskbhn0j97mzf97ab8aszc4m9asa59";
   libraryHaskellDepends = [
     array base containers deepseq transformers
   ];
