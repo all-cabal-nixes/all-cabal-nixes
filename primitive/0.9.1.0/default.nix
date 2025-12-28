@@ -7,6 +7,8 @@ mkDerivation {
   pname = "primitive";
   version = "0.9.1.0";
   sha256 = "44b4de41813c7bc5db8a57f87c3612a069b65086946268ba165097252ebd3d76";
+  revision = "1";
+  editedCabalFile = "1w1rsak97k5sp1sg25kgxcxwbi90mbdrr9hzm1dyzijvf4n24svm";
   libraryHaskellDepends = [
     base deepseq template-haskell transformers
   ];
