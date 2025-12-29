@@ -9,6 +9,8 @@ mkDerivation {
   pname = "warp";
   version = "3.4.11";
   sha256 = "a524b0334aa03c7ccdfcf9103ccaeace460d25cb48fcc09b1789bcbdbd4e7c33";
+  revision = "1";
+  editedCabalFile = "04zby3f2d5zg8nvwxj52kqnsq6755d8a3j42lkqrr46i4svigslw";
   libraryHaskellDepends = [
     array async auto-update base bsb-http-chunked bytestring
     case-insensitive containers crypton-x509 ghc-prim hashable

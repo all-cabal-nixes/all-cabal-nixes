@@ -14,6 +14,8 @@ mkDerivation {
   pname = "clash-prelude";
   version = "1.8.4";
   sha256 = "7ebdd0a2b682aaeab9b70866a9d89f87c4ceabebdc8e81eaec2802b830db896d";
+  revision = "1";
+  editedCabalFile = "0jxnnzxkv1s43r4bpf8pxa2br9g5silf3a0rsni53wiiky3pc31i";
   libraryHaskellDepends = [
     array arrows base binary bytestring constraints containers
     data-binary-ieee754 data-default-class deepseq extra ghc-bignum

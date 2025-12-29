@@ -5,6 +5,8 @@ mkDerivation {
   pname = "pqueue";
   version = "1.6.0.0";
   sha256 = "865b5cf14bf26b7ca43028a8997aedbd9e56cedf49e03c7f7d8f0a032af8e9ad";
+  revision = "1";
+  editedCabalFile = "1g2xnsh8h8dddgagpivnbns5h7yzmwyhwcxwya6a0pdlisfi8rdm";
   libraryHaskellDepends = [ base deepseq indexed-traversable ];
   testHaskellDepends = [
     base deepseq indexed-traversable tasty tasty-quickcheck

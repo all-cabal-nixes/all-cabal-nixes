@@ -16,6 +16,8 @@ mkDerivation {
   pname = "clash-lib";
   version = "1.8.4";
   sha256 = "3d6d4ded9410e9e0e47cf74c9d029a64d3747579715ec6106cbf8841035231df";
+  revision = "1";
+  editedCabalFile = "0iif62zqbzxkmvgfbqmagxkrx5k6y97p1qamrcnqa544gxcrj4c0";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
