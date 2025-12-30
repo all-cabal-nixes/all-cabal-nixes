@@ -6,6 +6,8 @@ mkDerivation {
   pname = "generic-data";
   version = "1.1.0.2";
   sha256 = "f27e0a28459755f6c301eb9661f15230ccc6cf94f699d9aafb34ce659138dab5";
+  revision = "1";
+  editedCabalFile = "0f2aijk70cb01p8yzbg5jq4gawnaryg8qnb1jx4xx92mfmn673p8";
   libraryHaskellDepends = [
     ap-normalize base base-orphans ghc-boot-th show-combinators
   ];
