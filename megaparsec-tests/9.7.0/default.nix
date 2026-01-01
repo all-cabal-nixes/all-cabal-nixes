@@ -6,8 +6,8 @@ mkDerivation {
   pname = "megaparsec-tests";
   version = "9.7.0";
   sha256 = "61dd6c65f451748ccbe4b257482599b7f264379361ebec6a75d952e484f95c9e";
-  revision = "2";
-  editedCabalFile = "08lkj731i0pvynw9kvx72xi7rph84syg0dxvcz2ssnqdg3q6jxqf";
+  revision = "3";
+  editedCabalFile = "06r004sdmxr4i28cwf94pacfs9n6j1ny5nyl6b46cjkkm07gny1x";
   libraryHaskellDepends = [
     base bytestring containers hspec hspec-megaparsec megaparsec mtl
     QuickCheck text transformers
