@@ -5,18 +5,18 @@
 }:
 mkDerivation {
   pname = "cabal-install-solver";
-  version = "3.12.1.0";
-  sha256 = "71dba1d353e9039834573291eaefdb10d7cbc62ee0d81e7a53e9e8cf55225e7a";
+  version = "3.16.1.0";
+  sha256 = "adfc2b5e94ea7999dff56e91048dcebe062dd52da13e87bf8c49a2c8ef33a428";
   revision = "1";
-  editedCabalFile = "0bai933mfjv0gazbbvvwaglzhgqnzdf3i1zl8r18cc9amwrh4rag";
+  editedCabalFile = "0s003vpqfchy967zwgp51q3vczhmldaa10bkckch4dfpyb5qjbw8";
   libraryHaskellDepends = [
     array base bytestring Cabal Cabal-syntax containers directory
     edit-distance filepath mtl network-uri pretty text transformers
   ];
   testHaskellDepends = [
-    base Cabal Cabal-syntax tasty tasty-hunit tasty-quickcheck
+    base Cabal-syntax tasty tasty-hunit tasty-quickcheck
   ];
   homepage = "http://www.haskell.org/cabal/";
-  description = "The command-line interface for Cabal and Hackage";
+  description = "The solver component of cabal-install";
   license = lib.licenses.bsd3;
 }

@@ -7,6 +7,8 @@ mkDerivation {
   pname = "javelin";
   version = "0.1.4.2";
   sha256 = "04327a18dd49d676a0c20582621f670a9d37fd9cc98ef67581d4c44d096a7426";
+  revision = "1";
+  editedCabalFile = "0fczpydfqnkx0g47xil9n465m30vp0awq82d99j58h2iiipha63x";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

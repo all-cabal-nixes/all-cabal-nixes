@@ -6,6 +6,8 @@ mkDerivation {
   pname = "javelin-frames";
   version = "0.1.0.2";
   sha256 = "7415d1f090f16cc6ef277dcff706c940adda8203108a93a5bf1ed5b270e09b3c";
+  revision = "1";
+  editedCabalFile = "18qw69lgww25b9dfgcy8i0caxkbr9ch47266karp8dsygiypysy4";
   libraryHaskellDepends = [
     base containers these vector vector-algorithms
   ];

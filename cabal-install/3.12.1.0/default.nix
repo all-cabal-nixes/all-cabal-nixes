@@ -13,8 +13,8 @@ mkDerivation {
   pname = "cabal-install";
   version = "3.12.1.0";
   sha256 = "6848acfd9c726fdcce544a8b669748d0fd9f2da26d28e841069dc4840276b1b2";
-  revision = "3";
-  editedCabalFile = "0zzg0skzjrmfvy0qm56y333947fi3qas329bl7bng4c4dyhgcz4s";
+  revision = "4";
+  editedCabalFile = "177sqwc3kl94xpq9a1sfaqnc3s3q89an7pq278afxy0vxp16w7kf";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
