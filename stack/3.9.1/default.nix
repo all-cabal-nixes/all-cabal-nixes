@@ -14,10 +14,8 @@
 }:
 mkDerivation {
   pname = "stack";
-  version = "3.7.1";
-  sha256 = "412a7a8d654ba38b29ea88f473c771d612c1836af80c0293fe092faa430ac80e";
-  revision = "2";
-  editedCabalFile = "0zqb54yhqqpb2fh5l3r9hp2jg1bnk0d8rcdx0qcw0lp87pkbx616";
+  version = "3.9.1";
+  sha256 = "495953c4c4c6a18bb49413d7dd961aa46ebff3abcde6f9ae1887f850559e06cc";
   configureFlags = [
     "-fdisable-git-info" "-fhide-dependency-versions"
     "-fsupported-build"
@@ -74,7 +72,7 @@ mkDerivation {
     $exe --bash-completion-script $exe >$out/share/bash-completion/completions/stack
   '';
   homepage = "http://haskellstack.org";
-  description = "The Haskell Tool Stack";
+  description = "A program for developing Haskell projects";
   license = lib.licenses.bsd3;
   mainProgram = "stack";
 }

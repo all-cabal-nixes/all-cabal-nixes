@@ -5,8 +5,8 @@ mkDerivation {
   pname = "integer-conversion";
   version = "0.1.1";
   sha256 = "c18164a048073310f6353ebc64c9037b52a4b8299963ce05e027bcf60e22155a";
-  revision = "1";
-  editedCabalFile = "1jf1wqbs6cgjbc1igy4lll1qxz4ynknspqpgbpzwn911dvhll7cl";
+  revision = "2";
+  editedCabalFile = "17vw8kq3glpb5bihhmff10ly78lajw2q33f601jrgw04hh41ng8j";
   libraryHaskellDepends = [ base bytestring primitive text ];
   testHaskellDepends = [
     base bytestring QuickCheck tasty tasty-quickcheck text
