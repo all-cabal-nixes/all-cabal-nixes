@@ -5,8 +5,8 @@ mkDerivation {
   pname = "hsc2hs";
   version = "0.68.10";
   sha256 = "6f4e34d788fe2ca7091ee0a10307ee8a7c060a1ba890f2bffad16a7d4d5cef76";
-  revision = "4";
-  editedCabalFile = "0gphymx87rjky73mxk6y656jxms5xrds7q2dvcrf7mnk0gdgcpkj";
+  revision = "5";
+  editedCabalFile = "09fpqh14ffp6hix6n9w2wbwz19idig5cgzjrzsih2axh57cmzcir";
   isLibrary = false;
   isExecutable = true;
   enableSeparateDataOutput = true;

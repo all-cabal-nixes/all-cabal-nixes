@@ -12,6 +12,8 @@ mkDerivation {
   pname = "Hastructure";
   version = "0.50.4";
   sha256 = "8e014f9b4e91b8af457db85872377bed311781fa4967f2adafee6a019f86e495";
+  revision = "2";
+  editedCabalFile = "0j298vgn27f8xgfzq85pgmbzwwv95r2v4004093vn2xyr9gb5v19";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
