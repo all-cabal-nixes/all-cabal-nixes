@@ -5,8 +5,8 @@ mkDerivation {
   pname = "HaXml";
   version = "1.25.14";
   sha256 = "ea77d88dda93483421335220b3bdc390a05fe4999fa0d43d99aaf98b90ba79ff";
-  revision = "1";
-  editedCabalFile = "00na7cp1d6pf797xyq17qgsdj2hlhdgvirm1ssvad4wgrb66v0la";
+  revision = "2";
+  editedCabalFile = "0ancsjscz52173n7xf5grjawsn8f1amfhmwgpqwh2lms1jplk061";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

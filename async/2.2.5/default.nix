@@ -5,8 +5,8 @@ mkDerivation {
   pname = "async";
   version = "2.2.5";
   sha256 = "1818473ebab9212afad2ed76297aefde5fae8b5d4404daf36939aece6a8f16f7";
-  revision = "3";
-  editedCabalFile = "0fvnk4rz1d2j4n5pww17qy0km0blv2gqycnbjlyrg6kjcmhqqr5p";
+  revision = "4";
+  editedCabalFile = "0amddhjsja9b8nc1yhksn94lwgym9zyzw4hkr7ig3vb8g5qpga72";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base hashable stm ];
