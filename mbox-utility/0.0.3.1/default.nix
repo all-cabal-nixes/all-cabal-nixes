@@ -5,8 +5,8 @@ mkDerivation {
   pname = "mbox-utility";
   version = "0.0.3.1";
   sha256 = "22a938ab138641477017bfd2237219934c6d8a52357f2713d6da8d47e08a096e";
-  revision = "3";
-  editedCabalFile = "10smxm3w0f8n0milq67vy1zlb7ikks1pb9bjnrk54b1wsgap5div";
+  revision = "4";
+  editedCabalFile = "0hnrbknv7wdsaplvx48d3n86d7r3cgi9chxzrqc1kr2q62hqz3kl";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

@@ -6,8 +6,8 @@ mkDerivation {
   pname = "text-icu";
   version = "0.8.0.5";
   sha256 = "442eba38d8e4c9ae2575a40288c8277599649cf13bf114543fa0de2da83aeddb";
-  revision = "1";
-  editedCabalFile = "1zqbcsnf9943mk8i9lyj1ab2xvg6dw9k6jfjhblxqcliq53c3dpp";
+  revision = "2";
+  editedCabalFile = "1p683nr0q979xnps2s2zvnffm1hnv2wgi7qql1mlg353p1d6jbql";
   libraryHaskellDepends = [ base bytestring deepseq text time ];
   librarySystemDepends = [ icu ];
   libraryPkgconfigDepends = [ icu ];

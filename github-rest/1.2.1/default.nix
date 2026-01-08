@@ -7,6 +7,8 @@ mkDerivation {
   pname = "github-rest";
   version = "1.2.1";
   sha256 = "ae177c8bdc281cc4fa8eebde2036b04da25b1952f319dbde013f7c855b8cf2b4";
+  revision = "1";
+  editedCabalFile = "156hsqk60ppncgm0z3jqgzva04k83360qr1mrss8ffa3h9zfhq7x";
   libraryHaskellDepends = [
     aeson base bytestring crypton http-client http-client-tls
     http-types jose-jwt mtl scientific text time transformers unliftio

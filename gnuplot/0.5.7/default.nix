@@ -6,8 +6,8 @@ mkDerivation {
   pname = "gnuplot";
   version = "0.5.7";
   sha256 = "a342e84c2201ff938e18803deb39596f470249effc5a3af5577795a807848abe";
-  revision = "3";
-  editedCabalFile = "1rwlkr94h6lzp6aa3p4i5dgdl1i9nl7mahxny2qz9ggjbj4yiw65";
+  revision = "4";
+  editedCabalFile = "1cdqq9r3r83hk6k39nhgz2rg30h3drilcp3my72hs07cxx50rxb8";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;

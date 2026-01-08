@@ -5,8 +5,8 @@ mkDerivation {
   pname = "effectful-th";
   version = "1.0.0.3";
   sha256 = "3b4e8fd04657194b3efc983df8ababa06c1671ef1e1469adcdec134b0af0f237";
-  revision = "1";
-  editedCabalFile = "02p2pb43znjrmwrrpgrm6aflli1dg27ig6kbnd5j5kqab8nhbcbb";
+  revision = "2";
+  editedCabalFile = "1lw9kipgmvcm5cfhjz3iyb8f1fj8nzn60i4x4qvy9dlfykjsyd96";
   libraryHaskellDepends = [
     base containers effectful-core exceptions template-haskell
     th-abstraction

@@ -8,6 +8,8 @@ mkDerivation {
   pname = "distributed-process-supervisor";
   version = "0.2.4";
   sha256 = "4f15d1aa642f603298086f87bf63a292cce8eaff20d75f484c57ca01fbc2ee9a";
+  revision = "1";
+  editedCabalFile = "0490vfzdrgd6098irlhq30f2dvpcl8ay6pnyd6ydx96zgv9lc0gb";
   libraryHaskellDepends = [
     base binary containers data-accessor deepseq distributed-process
     distributed-process-client-server distributed-process-extras

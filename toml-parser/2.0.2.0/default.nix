@@ -6,6 +6,8 @@ mkDerivation {
   pname = "toml-parser";
   version = "2.0.2.0";
   sha256 = "9e8b5ee5eea9bea2441732347839a8e32e98789055a621f55a72c2df7a8de1a8";
+  revision = "1";
+  editedCabalFile = "02mgl73181q92iwzws45ixgr358xs5qpz54xpkpx1spwxx1r4fms";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

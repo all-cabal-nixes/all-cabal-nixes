@@ -5,8 +5,8 @@ mkDerivation {
   pname = "distributed-static";
   version = "0.3.11";
   sha256 = "f0e8cd5b36a263bedf5fe969b8c6490442a2257db365c45ec01ab16554d33741";
-  revision = "1";
-  editedCabalFile = "1ifq0rls8rp8p1xmynzb7rx5vmqwi6jxb65lmv0z244d2b35d3x3";
+  revision = "2";
+  editedCabalFile = "1mwwq8fmb95vgv3aklrx15qxdpjwbq5s7zq8rprc9h28qx95mh54";
   libraryHaskellDepends = [
     base binary bytestring containers deepseq rank1dynamic
   ];

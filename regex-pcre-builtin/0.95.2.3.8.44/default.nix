@@ -5,8 +5,8 @@ mkDerivation {
   pname = "regex-pcre-builtin";
   version = "0.95.2.3.8.44";
   sha256 = "cacea6a45faf93df8afbf50ecb09f87acabfed0477cba4746205649eb52ec55e";
-  revision = "6";
-  editedCabalFile = "1rn3649yqqrbd177mbyk12gdpbm3kdzjgnjqxfv68crah237y08j";
+  revision = "7";
+  editedCabalFile = "0gv55qvcsp579f925xb32n27h5nsvlpfgx65y17h0mk8cf2wwm0y";
   libraryHaskellDepends = [
     array base bytestring containers regex-base text
   ];

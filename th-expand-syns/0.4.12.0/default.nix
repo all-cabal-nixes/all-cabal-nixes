@@ -5,6 +5,8 @@ mkDerivation {
   pname = "th-expand-syns";
   version = "0.4.12.0";
   sha256 = "18e19967329c89f376cfc9ec04bd7871854ce0c70f803a1af15532be00c6ef0f";
+  revision = "1";
+  editedCabalFile = "09mhaz7ylkh35c7zaix1gfx3z4bqvvibsmb4nd8x42mf87xja5fp";
   libraryHaskellDepends = [
     base containers syb template-haskell th-abstraction
   ];

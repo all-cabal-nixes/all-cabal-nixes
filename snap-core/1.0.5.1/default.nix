@@ -11,8 +11,8 @@ mkDerivation {
   pname = "snap-core";
   version = "1.0.5.1";
   sha256 = "a704c1a0e2c4ebfdcc8baf6feab09dd7715bdc9d750f7efb63d06e3965ec0502";
-  revision = "6";
-  editedCabalFile = "0sc559ahr96y0xzahxj25rrr6mhq3d12ljj42rwvnpnfyaynqbqc";
+  revision = "7";
+  editedCabalFile = "17jw3sdj4raqiy6xknl14si9d38ycq1kaivx5s9nm2ji6hx7b1ym";
   libraryHaskellDepends = [
     attoparsec base bytestring bytestring-builder case-insensitive
     containers directory filepath hashable HUnit io-streams lifted-base

@@ -7,8 +7,8 @@ mkDerivation {
   pname = "cabal-sort";
   version = "0.1.2.2";
   sha256 = "bfb975c005e1585db65b00addc63c76dcf952280fc9d764850fed782482bddbf";
-  revision = "1";
-  editedCabalFile = "0hlz8y734rgcqjlncv0bwi05m30iviz6bi9bsafvsv1w25lxlpc4";
+  revision = "2";
+  editedCabalFile = "0bzx8s7a5vl271dz0kkzdn6l5jkwwgch9r5k396ymbmj6s07dlgl";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

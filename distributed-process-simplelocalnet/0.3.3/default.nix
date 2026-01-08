@@ -6,6 +6,8 @@ mkDerivation {
   pname = "distributed-process-simplelocalnet";
   version = "0.3.3";
   sha256 = "ad2c00116d6f18cc5cbe9e0a74aabd3913a2ce106678b6233d12f144752107af";
+  revision = "1";
+  editedCabalFile = "19lywdffpanf5c45w7gad1vqgyk9jg085mrhf8nawv1c02fr9f4n";
   libraryHaskellDepends = [
     base binary bytestring containers data-accessor distributed-process
     exceptions network network-multicast network-transport
