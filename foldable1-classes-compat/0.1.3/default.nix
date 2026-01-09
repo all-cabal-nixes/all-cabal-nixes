@@ -4,10 +4,8 @@
 }:
 mkDerivation {
   pname = "foldable1-classes-compat";
-  version = "0.1.2";
-  sha256 = "e3160e89adea466c18f2ae3377efb7953daa86f01f17443cb4bcbd03d443cad8";
-  revision = "2";
-  editedCabalFile = "075wsm1ylbwpa0jk6b1z5z5slq1sfci81wfj2hk4ilxwl9c2n1fb";
+  version = "0.1.3";
+  sha256 = "7701dca1ccfeb7a20a17693954508f1e6c73974d1b59fb1795da0742fb1ae8f9";
   libraryHaskellDepends = [ base ghc-prim tagged ];
   testHaskellDepends = [
     base containers QuickCheck quickcheck-instances tasty

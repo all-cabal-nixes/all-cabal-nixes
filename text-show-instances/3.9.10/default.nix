@@ -11,8 +11,8 @@ mkDerivation {
   pname = "text-show-instances";
   version = "3.9.10";
   sha256 = "81ad9bee0a7c32a24c5a2dad0a5ffe8c8ef0f6408d5c45a69c0f82f8421a8b25";
-  revision = "4";
-  editedCabalFile = "1k5h1lqc8z593cwnmy2yngh3nlq2b4zfbjwkmyqddg192xia8bbh";
+  revision = "5";
+  editedCabalFile = "0mrlg1pn18vc8bj6dh3wncc7xcyaaamdsz5ja24sgxv2g08m3wvg";
   libraryHaskellDepends = [
     aeson base base-compat bifunctors binary containers directory
     ghc-boot-th haskeline hpc nonempty-vector old-locale old-time
