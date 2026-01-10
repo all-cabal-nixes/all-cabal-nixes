@@ -7,8 +7,8 @@ mkDerivation {
   pname = "tomland";
   version = "1.3.3.3";
   sha256 = "a0992bea52a636e2aa2597b0ab25c54f0fb389e0052fe5a6436fe53acef956ab";
-  revision = "3";
-  editedCabalFile = "0aclzlwr7xmjzda327vzfb8av90g3lpcln1h1gkw76x5w7xq662s";
+  revision = "4";
+  editedCabalFile = "128mzn1d9cxhw4kfvgy2rv2hn362dn57k8ha4jdj34caaaagdq9w";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
