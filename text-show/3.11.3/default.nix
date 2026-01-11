@@ -8,6 +8,8 @@ mkDerivation {
   pname = "text-show";
   version = "3.11.3";
   sha256 = "2fc3eb8eeb3c1bcacd7aa81df9833647264892950c6ddbe8723f6e2a69846a57";
+  revision = "1";
+  editedCabalFile = "0vhl7zqqg3q8dm4dkw0b940ka8kaaxsa7adxpbw1frgqg8xrg960";
   libraryHaskellDepends = [
     array base base-compat-batteries bifunctors bytestring containers
     ghc-boot-th ghc-prim template-haskell text th-abstraction

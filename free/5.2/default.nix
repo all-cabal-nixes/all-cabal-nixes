@@ -6,8 +6,8 @@ mkDerivation {
   pname = "free";
   version = "5.2";
   sha256 = "72867f7c89173263765736e8d395e94291f1aaea626ecb1d673d72ce90b94f89";
-  revision = "7";
-  editedCabalFile = "0h43xp4f38bpxhs5s06x1jw6d6zv55hhyhj6cmdbmfw7d6k94fbz";
+  revision = "8";
+  editedCabalFile = "0r0imkhc4xzyz4azhj6shx595p2ba4f8j9j2svzhhbvwbxj03jir";
   libraryHaskellDepends = [
     base comonad containers distributive exceptions indexed-traversable
     mtl profunctors semigroupoids template-haskell th-abstraction

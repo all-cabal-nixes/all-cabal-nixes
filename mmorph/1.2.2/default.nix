@@ -4,6 +4,8 @@ mkDerivation {
   pname = "mmorph";
   version = "1.2.2";
   sha256 = "dd6f2d2b3b6776544fc6fefe914c9ba4016ca911755383ec639d6ede417b9faf";
+  revision = "1";
+  editedCabalFile = "093280asv0ni2yz0nn6zbvl7650b5wddfq3b521vi8vi16zizf9s";
   libraryHaskellDepends = [
     base mtl transformers transformers-compat
   ];
