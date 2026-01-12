@@ -5,8 +5,8 @@ mkDerivation {
   pname = "postgresql-migration";
   version = "0.2.1.8";
   sha256 = "2a1b9b6aec84c04b466d351c1b1f7d4328383ba3fc662545b1b0ff21f27321d3";
-  revision = "1";
-  editedCabalFile = "1r8j7ydf03bddxp1r9jcqg0s2mw1f9mjy6zyz9bhvj3ldrzi5931";
+  revision = "2";
+  editedCabalFile = "1cipwxpizrk79jh5gdsaax102d96kdz602bjmw8silx255jmyfbd";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

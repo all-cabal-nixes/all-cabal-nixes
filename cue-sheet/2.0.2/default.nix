@@ -6,8 +6,8 @@ mkDerivation {
   pname = "cue-sheet";
   version = "2.0.2";
   sha256 = "87a41f6c7608c9160d3405d6fbec036c3ae996bf49c2ab07f80d7d8a4b2d0a59";
-  revision = "4";
-  editedCabalFile = "1r2sf31lkmx5s48r7n0lcy2z1r2vkir8chnjcfd5hhjmpcbwrng1";
+  revision = "5";
+  editedCabalFile = "14pjkxxw0qlwn5srf780dlb8xrln0401z51nik3chh27ghrcn4ky";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base bytestring containers exceptions megaparsec mtl QuickCheck

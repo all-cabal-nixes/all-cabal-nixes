@@ -6,8 +6,8 @@ mkDerivation {
   pname = "flac";
   version = "0.2.1";
   sha256 = "2d6dfa51a7930bf5eb454d3b43b3abfa320f9723ae156969b6a907413d0d4431";
-  revision = "3";
-  editedCabalFile = "1s1x9dzzryccpsdyaqhivz5awlwrwqhmkfnvv58wpxqyjcc236jp";
+  revision = "4";
+  editedCabalFile = "1vc9ry902yvzblagqkw2041n4kaayk42i3b09y724c5svbn8mj79";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base bytestring containers directory exceptions filepath mtl text

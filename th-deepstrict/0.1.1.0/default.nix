@@ -6,8 +6,8 @@ mkDerivation {
   pname = "th-deepstrict";
   version = "0.1.1.0";
   sha256 = "178636ff4be2ae14407b5c85562556280d0d96c7973cc8165f9a90aaffa31c78";
-  revision = "2";
-  editedCabalFile = "1h4shx5kcyj3k0bngr2fbngl2l4dcyk8qffvbfm2qjlp4ymz6m0n";
+  revision = "3";
+  editedCabalFile = "0amva110705z0cbjls1nsgrf4ly570jvcp7d2x4iksyrw6hznv7b";
   libraryHaskellDepends = [
     base containers mtl template-haskell th-abstraction th-orphans
   ];
