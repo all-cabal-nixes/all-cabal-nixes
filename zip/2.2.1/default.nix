@@ -8,6 +8,8 @@ mkDerivation {
   pname = "zip";
   version = "2.2.1";
   sha256 = "d25c13cfe565b3e6ab06abd836f7f4d567239dfb4d1d619a9d562c3200b500f3";
+  revision = "1";
+  editedCabalFile = "0jlmiw06kqn628qyw9wfa7p1zy30hszbmqw674c43nqvpkfp2kfg";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

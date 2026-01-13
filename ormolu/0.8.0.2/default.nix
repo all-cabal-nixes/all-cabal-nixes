@@ -8,8 +8,8 @@ mkDerivation {
   pname = "ormolu";
   version = "0.8.0.2";
   sha256 = "4d89f82ee87c3e4b4cafa490a1a8260ed3f5af1a81a48a43ddfd6fe435a902ba";
-  revision = "1";
-  editedCabalFile = "1hfgbbrwqj56j5sxnlb6xlmf43iykawnw3lii0fg83wg3vk173if";
+  revision = "2";
+  editedCabalFile = "0sqxf4rrz48v6fgvwnkkbfis2b0qwjr7j64x4knkkvy9l5vganj0";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

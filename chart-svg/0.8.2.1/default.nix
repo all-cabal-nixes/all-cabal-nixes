@@ -7,6 +7,8 @@ mkDerivation {
   pname = "chart-svg";
   version = "0.8.2.1";
   sha256 = "5417a4279e54377933146417a78dd14c1baadeffe2295d50c954dbd3de43af5b";
+  revision = "2";
+  editedCabalFile = "1b9s0sa54d1jr59pns5idvbc5qxrkvv362cqb4k2lfh3pfk6z2kh";
   libraryHaskellDepends = [
     base bytestring Color containers cubicbezier flatparse formatn
     harpie lens markup-parse mtl numhask numhask-space optics-core

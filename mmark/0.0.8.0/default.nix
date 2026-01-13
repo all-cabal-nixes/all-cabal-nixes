@@ -8,8 +8,8 @@ mkDerivation {
   pname = "mmark";
   version = "0.0.8.0";
   sha256 = "f9499eb3caca7410fb706a95d7d176447e4ca0cc98413abc78051802b1979f17";
-  revision = "2";
-  editedCabalFile = "0gy66sawj11za86rwkvmr791acd84f895ym568w7wnbks9p6gmmr";
+  revision = "3";
+  editedCabalFile = "1ha5y8fb5bqfbvp6vbx03fwv1754zviyr1y6x8xyi23n7d7gc05q";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     aeson base case-insensitive containers deepseq dlist email-validate

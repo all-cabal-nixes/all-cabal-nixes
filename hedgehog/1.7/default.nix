@@ -9,6 +9,8 @@ mkDerivation {
   pname = "hedgehog";
   version = "1.7";
   sha256 = "09e2bca0f798dbf5848ff3eb78c1617fc13e51660ad5d4a457a54ce87b1b564e";
+  revision = "1";
+  editedCabalFile = "17k8m45craiwpfhp4kypnzxwkv7vzgsh9q99r3k3bzcxnfycqj8z";
   libraryHaskellDepends = [
     ansi-terminal async barbies base bytestring concurrent-output
     containers deepseq directory erf exceptions lifted-async mmorph
