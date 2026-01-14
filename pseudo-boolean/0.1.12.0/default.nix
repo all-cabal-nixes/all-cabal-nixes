@@ -7,6 +7,8 @@ mkDerivation {
   pname = "pseudo-boolean";
   version = "0.1.12.0";
   sha256 = "b5f0f1df52e7b2d0f0ba4ec53715082b40ebbdcb17e3c5e60768e2ef16a6b6c6";
+  revision = "1";
+  editedCabalFile = "1ijqykfxh81svgpg43sy9lgz6i1zbgisb31896hj8pl1a1qxqx6d";
   libraryHaskellDepends = [
     attoparsec base bytestring bytestring-builder containers deepseq
     dlist hashable integer-logarithms megaparsec parsec void
