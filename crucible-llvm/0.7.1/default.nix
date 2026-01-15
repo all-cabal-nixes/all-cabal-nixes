@@ -9,8 +9,8 @@ mkDerivation {
   pname = "crucible-llvm";
   version = "0.7.1";
   sha256 = "7af55f37aa8e67494b67545bf820e295cf052dd1698b048abcbbadd7b6745160";
-  revision = "2";
-  editedCabalFile = "12k4r85w7864b4nbg03v2w0vhk8sgld55aqqckc5qz7d78q6lzkx";
+  revision = "3";
+  editedCabalFile = "02mfs9kkxdpy6csljf248n13qf1vg9j55jrd0p01d9znra2r9lb2";
   libraryHaskellDepends = [
     attoparsec base bv-sized bytestring containers crucible
     crucible-symio extra itanium-abi lens llvm-pretty mtl

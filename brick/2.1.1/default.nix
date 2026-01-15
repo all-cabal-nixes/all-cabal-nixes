@@ -8,6 +8,8 @@ mkDerivation {
   pname = "brick";
   version = "2.1.1";
   sha256 = "30280d6f7130eb3e6cbf5a55465a06a825169cb536d3b2e91883aec23532b31e";
+  revision = "1";
+  editedCabalFile = "0bmhrr2spq1di561qpihqz5w9k4cvpqqfqhvmp4jb5jigyssj257";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
