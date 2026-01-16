@@ -11,6 +11,8 @@ mkDerivation {
   pname = "clash-ghc";
   version = "1.8.4";
   sha256 = "eb114e703a697c6155341cccb59b67865035ef5405b4576929d6a16a8bc7f5b5";
+  revision = "1";
+  editedCabalFile = "0pq4j5v7z94mr2v5gnivmcm03jr3z7xg16cz0hjqkrk2z2awrr2s";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

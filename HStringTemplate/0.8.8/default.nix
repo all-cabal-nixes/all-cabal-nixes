@@ -7,8 +7,8 @@ mkDerivation {
   pname = "HStringTemplate";
   version = "0.8.8";
   sha256 = "717df416550bdc62f2070c1a86238efe535b0fa41c5fd708c4f631f927880cd9";
-  revision = "9";
-  editedCabalFile = "1pfn0g6zchygdp3y2laj67ni81iyq57kwj7wpf5z4g0dfg286abp";
+  revision = "10";
+  editedCabalFile = "03i9glxnx7g6k56zhi50bp3rfz1mw3kxxnf1k3jlk5zkf9fyvhb5";
   libraryHaskellDepends = [
     array base blaze-builder bytestring containers deepseq directory
     filepath mtl old-locale parsec pretty semigroups syb
