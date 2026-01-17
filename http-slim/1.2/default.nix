@@ -4,10 +4,8 @@
 }:
 mkDerivation {
   pname = "http-slim";
-  version = "1.0";
-  sha256 = "2e46711ddb39dc16c32672ab884b06ca99bc7361b88360d0f9fe031b5a0c154b";
-  revision = "2";
-  editedCabalFile = "00sbvam826jscpwqagfk5x6kcwxz3nvzv9ciz6f0184vr9rd912c";
+  version = "1.2";
+  sha256 = "795f5370ebf58f9c9f7866e78efcf446465f95aaf2359be71137dd843ca5aad8";
   libraryHaskellDepends = [
     array base bytestring containers HsOpenSSL mtl network network-bsd
     network-uri parsec time transformers
