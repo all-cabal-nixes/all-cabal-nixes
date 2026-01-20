@@ -5,8 +5,8 @@ mkDerivation {
   pname = "linear-generics";
   version = "0.2.3";
   sha256 = "02af9dbd20f6e33da9de674f79a8712618862b7b48440aca1269228d28f72301";
-  revision = "3";
-  editedCabalFile = "1xg7v40hj38r5zqj65d3kjbzynp4vwh8fgwjsjw85lf11sl83kf8";
+  revision = "4";
+  editedCabalFile = "1wxb2r70bn1rhs771jlq08q1wvaf7risn6y931snaxa0xwi6a4zq";
   libraryHaskellDepends = [
     base containers ghc-prim template-haskell th-abstraction
   ];
