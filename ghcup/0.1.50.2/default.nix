@@ -17,6 +17,8 @@ mkDerivation {
   pname = "ghcup";
   version = "0.1.50.2";
   sha256 = "ddba1bcf9a1ca49b51d348454c2798172e9844f4733c1619700e161e43dd50b6";
+  revision = "1";
+  editedCabalFile = "1hxldnqh5y9484an8inabf3ikjm2iyflj1bprphsillnpcawshpj";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
