@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck ];
   homepage = "https://github.com/tonyday567/numhask-array#readme";
   description = "Multi-dimensional arrays";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

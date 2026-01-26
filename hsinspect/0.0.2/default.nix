@@ -12,6 +12,6 @@ mkDerivation {
     base directory ghc ghc-boot ghc-paths time
   ];
   description = "Inspect Haskell source files";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "hsinspect";
 }

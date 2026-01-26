@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/pjones/mock-httpd";
   description = "A HTTP server for testing HTTP clients";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
   mainProgram = "mock-httpd";
 }

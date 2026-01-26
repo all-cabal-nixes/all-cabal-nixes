@@ -18,6 +18,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   doHaddock = false;
   description = "Generate flamegraphs from Jaeger .json dumps.";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "jaeger-flamegraph";
 }

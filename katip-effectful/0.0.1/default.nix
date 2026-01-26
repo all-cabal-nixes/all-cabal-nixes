@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/eldritch-cookie/katip-effectful";
   description = "Katip integration for Effectful";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

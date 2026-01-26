@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, convertible, criterion, lib
-, libdevil, primitive, QuickCheck, ratio-int, test-framework
+{ mkDerivation, base, bytestring, convertible, criterion, IL, lib
+, primitive, QuickCheck, ratio-int, test-framework
 , test-framework-quickcheck2, transformers, vector
 }:
 mkDerivation {
@@ -13,7 +13,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring convertible primitive ratio-int transformers vector
   ];
-  librarySystemDepends = [ libdevil ];
+  librarySystemDepends = [ IL ];
   testHaskellDepends = [
     base QuickCheck test-framework test-framework-quickcheck2 vector
   ];

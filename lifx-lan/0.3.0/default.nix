@@ -11,5 +11,5 @@ mkDerivation {
     network random safe text time transformers
   ];
   description = "LIFX LAN API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

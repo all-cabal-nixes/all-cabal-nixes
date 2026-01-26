@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/brendanhay/amazonka";
   description = "Amazon Kinesis Video Streams SDK";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

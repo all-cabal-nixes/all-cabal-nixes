@@ -15,5 +15,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/Matthew-Mosior/yesod-static-streamly";
   description = "A streamly-based library providing performance-focused alternatives for functionality found in yesod-static";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

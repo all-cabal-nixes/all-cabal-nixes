@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base directory hspec megaparsec text ];
   homepage = "https://github.com/poscat0x04/spdx-license";
   description = "SPDX license templates";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

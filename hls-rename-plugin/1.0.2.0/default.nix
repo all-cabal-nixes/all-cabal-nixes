@@ -6,5 +6,5 @@ mkDerivation {
   revision = "2";
   editedCabalFile = "1jw8rz67s9q3z35krc6fwivws0zp5wqb49fa7xjmvh9qkv4kyh8j";
   description = "Rename plugin for Haskell Language Server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

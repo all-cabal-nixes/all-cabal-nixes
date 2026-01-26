@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/brendanhay/amazonka";
   description = "Amazon Simple Storage Service SDK - Client-Side Encryption";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

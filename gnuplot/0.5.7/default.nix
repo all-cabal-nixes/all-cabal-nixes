@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskell.org/haskellwiki/Gnuplot";
   description = "2D and 3D plots using gnuplot";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

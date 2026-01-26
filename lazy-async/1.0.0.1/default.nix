@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/lazy-async";
   description = "Asynchronous actions that don't start right away";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

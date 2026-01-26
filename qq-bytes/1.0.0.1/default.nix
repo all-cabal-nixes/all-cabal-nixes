@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/0y2k/qq-bytes";
   description = "QuasiQuoter for byte sequence";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

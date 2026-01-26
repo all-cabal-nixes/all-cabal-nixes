@@ -15,6 +15,6 @@ mkDerivation {
   testHaskellDepends = [ aeson base hspec text unix vector ];
   homepage = "https://yamlscript.org";
   description = "Haskell bindings for YAMLScript";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "yamlscript-test";
 }

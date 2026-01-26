@@ -29,5 +29,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/junjihashimoto/intelli-monad";
   description = "Type level prompt with LLMs via louter";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers dependent-sum some ];
   testHaskellDepends = [ base dependent-sum some ];
   description = "A generalisation of EnumMap to dependent types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

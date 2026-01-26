@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/JuniorGarbageCollector/QLinear#readme";
   description = "Typesafe library for linear algebra";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

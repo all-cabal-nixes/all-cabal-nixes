@@ -12,5 +12,5 @@ mkDerivation {
     base changeset containers falsify monoid-extras tasty tasty-hunit
   ];
   description = "Stateful monad transformer based on monoidal actions";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

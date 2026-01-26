@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/git@github.com:andrewufrank/uniform-algebras.git#readme";
   description = "Pointless functions and a simplistic zero and monoid";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

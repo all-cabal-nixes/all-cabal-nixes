@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base incipit-base polysemy ];
   homepage = "https://github.com/tek/incipit-core#readme";
   description = "A Prelude for Polysemy";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

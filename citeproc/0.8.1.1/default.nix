@@ -22,5 +22,5 @@ mkDerivation {
     text timeit transformers
   ];
   description = "Generates citations and bibliography from CSL styles";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

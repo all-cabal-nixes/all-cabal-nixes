@@ -17,5 +17,5 @@ mkDerivation {
     tasty tasty-hedgehog template-haskell text time torsor
   ];
   description = "Polysemy Effect for Time";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

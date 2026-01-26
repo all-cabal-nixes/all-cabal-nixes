@@ -25,5 +25,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Torch for tensors and neural networks in Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

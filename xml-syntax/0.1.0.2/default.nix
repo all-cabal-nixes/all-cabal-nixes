@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base byteslice tasty tasty-hunit ];
   homepage = "https://github.com/byteverse/xml-syntax";
   description = "Parse XML from bytes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

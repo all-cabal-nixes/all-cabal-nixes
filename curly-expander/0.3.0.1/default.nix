@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base parsec text ];
   homepage = "https://github.com/stastnypremysl/curly-expander";
   description = "Curly braces (brackets) expanding";
-  license = lib.licenses.lgpl3Only;
+  license = lib.licensesSpdx."LGPL-3.0-only";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/deferred-folds";
   description = "Abstractions over deferred folds";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

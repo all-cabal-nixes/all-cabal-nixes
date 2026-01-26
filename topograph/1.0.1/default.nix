@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base base-orphans containers vector ];
   homepage = "https://github.com/phadej/topograph";
   description = "Directed acyclic graphs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phonohawk/bitstream";
   description = "Fast, packed, strict and lazy bit streams with stream fusion";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

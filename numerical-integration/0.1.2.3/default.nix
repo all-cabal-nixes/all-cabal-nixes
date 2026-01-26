@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base system-cxx-std-lib ];
   homepage = "https://github.com/stla/numerical-integration#readme";
   description = "Numerical integration";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base freer-base-classes ];
   homepage = "https://github.com/YoshikuniJujo/higher-order-open-union#readme";
   description = "This package is used by package yaftee";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "higher-order-open-union-exe";
 }

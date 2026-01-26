@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fumieval/xml-lens";
   description = "Lenses, traversals, and prisms for xml-conduit";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ aeson base hedgehog ];
   homepage = "https://github.com/felixmulder/hedgehog-golden";
   description = "Golden testing capabilities for hedgehog using Aeson";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

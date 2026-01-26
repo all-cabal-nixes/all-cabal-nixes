@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base semigroupoids ];
   homepage = "https://github.com/kozross/semigroupoids-do";
   description = "Support for QualifiedDo with semigroupoids classes";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

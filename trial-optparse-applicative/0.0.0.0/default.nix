@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base optparse-applicative trial ];
   homepage = "https://github.com/kowainik/trial";
   description = "Trial helper functions for optparse-applicative";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

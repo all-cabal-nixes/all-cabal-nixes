@@ -18,5 +18,5 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Tools to build the Gtk2Hs suite of User Interface libraries";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

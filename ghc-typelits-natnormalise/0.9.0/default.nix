@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "http://www.clash-lang.org/";
   description = "GHC typechecker plugin for types of kind GHC.TypeLits.Nat";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

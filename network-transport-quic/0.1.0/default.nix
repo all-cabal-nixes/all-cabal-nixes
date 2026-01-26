@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "http://haskell-distributed.github.com";
   description = "Networking layer for Cloud Haskell based on QUIC";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

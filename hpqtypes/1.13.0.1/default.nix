@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/scrive/hpqtypes";
   description = "Haskell bindings to libpqtypes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

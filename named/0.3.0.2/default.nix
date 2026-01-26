@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/monadfix/named";
   description = "Named parameters (keyword arguments) for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

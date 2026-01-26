@@ -14,5 +14,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/kakkun61/postgresql-placeholder-converter";
   description = "Converter for question mark style and dollar sign style of PostgreSQL SQL";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/donatello/wai-rate-limit-postgres";
   description = "See README for more info";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

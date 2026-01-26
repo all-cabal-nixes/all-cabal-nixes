@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/cjdev/text-conversions";
   description = "Safe conversions between textual types";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

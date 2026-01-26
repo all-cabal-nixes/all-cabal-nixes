@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/cheopslab/k8s-wrapper";
   description = "Application wrapper for the k8s environment";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

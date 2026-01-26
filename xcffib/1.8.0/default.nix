@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/tych0/xcffib";
   description = "A cffi-based python binding for X";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "xcffibgen";
 }

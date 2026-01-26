@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/githubuser/warlock#readme";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

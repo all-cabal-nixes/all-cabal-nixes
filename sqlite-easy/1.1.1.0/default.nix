@@ -17,5 +17,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq ];
   homepage = "https://gitlab.com/gilmi/sqlite-easy";
   description = "A primitive yet easy to use sqlite library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

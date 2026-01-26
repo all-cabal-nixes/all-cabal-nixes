@@ -11,5 +11,5 @@ mkDerivation {
     base containers ghcjs-dom-jsaddle text transformers
   ];
   description = "DOM library that supports both GHCJS and GHC";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

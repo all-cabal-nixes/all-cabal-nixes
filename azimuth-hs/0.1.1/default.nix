@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec shelly text urbit-hob ];
   homepage = "https://github.com/urbit/azimuth-hs";
   description = "Interact with Azimuth from Haskell";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

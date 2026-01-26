@@ -17,5 +17,5 @@ mkDerivation {
     tasty-hunit
   ];
   description = "PowerDNS API bindings for api/v1";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

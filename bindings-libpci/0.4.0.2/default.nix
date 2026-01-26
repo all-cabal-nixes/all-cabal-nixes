@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "3af06e6d7fcc2bb807dd18b34ab158345335cc3bddf42b11e56fdd3f0c79de8d";
   libraryHaskellDepends = [ base bindings-DSL ];
   description = "Low level bindings to libpci";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

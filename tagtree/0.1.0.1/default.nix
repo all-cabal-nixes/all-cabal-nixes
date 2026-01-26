@@ -10,5 +10,5 @@ mkDerivation {
     megaparsec parser-combinators relude text
   ];
   description = "Hierarchical Tags & Tag Trees";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

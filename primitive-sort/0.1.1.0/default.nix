@@ -14,5 +14,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge ghc-prim primitive random ];
   homepage = "https://github.com/andrewthad/primitive-sort";
   description = "Sort primitive arrays";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

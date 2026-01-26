@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck quickcheck-classes ];
   homepage = "https://github.com/chessai/prim-instances.git";
   description = "Prim typeclass instances";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

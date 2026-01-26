@@ -16,5 +16,5 @@ mkDerivation {
     lsp-types row-types text
   ];
   description = "Overloaded record dot plugin for Haskell Language Server";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

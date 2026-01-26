@@ -37,5 +37,5 @@ mkDerivation {
   ];
   homepage = "https://clash-lang.org/";
   description = "Clash: a functional hardware description language - As a library";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

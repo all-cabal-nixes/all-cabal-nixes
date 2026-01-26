@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/DKISTDC/globus-hs";
   description = "GLOBUS Data Transfer";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

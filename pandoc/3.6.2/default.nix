@@ -48,5 +48,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://pandoc.org";
   description = "Conversion between markup formats";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

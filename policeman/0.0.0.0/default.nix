@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/policeman";
   description = "Haskell PVP version adviser";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "policeman";
 }

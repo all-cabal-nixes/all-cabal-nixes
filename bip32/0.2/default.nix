@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/k0001/hs-bip32";
   description = "BIP-0032: Hierarchical Deterministic Wallets for Bitcoin and other cryptocurrencies";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

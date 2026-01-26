@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/benaco/paddle#readme";
   description = "API to the Paddle payment processor";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

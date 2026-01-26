@@ -10,5 +10,5 @@ mkDerivation {
     text time uuid
   ];
   description = "aeson-based rendering for eventuo11y";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

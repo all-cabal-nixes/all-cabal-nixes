@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/awkward-squad/int-supply";
   description = "A simple, efficient supply of integers using atomic fetch-and-add";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

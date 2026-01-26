@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "f85f0212699799fd0e930a91d3c21eafec63f937507a82e2e04a0df5b9915509";
   libraryHaskellDepends = [ array base ];
   description = "Haskell 2020[draft] Standard Library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

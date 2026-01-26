@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base memory tasty tasty-hunit ];
   homepage = "https://github.com/k0001/blake3";
   description = "BLAKE3 hashing algorithm";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

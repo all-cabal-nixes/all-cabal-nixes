@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/brandonchinn178/skeletest#readme";
   description = "Batteries-included, opinionated test framework";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "skeletest-preprocessor";
 }

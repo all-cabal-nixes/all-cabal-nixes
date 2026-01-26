@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion incipit-base ];
   homepage = "https://git.tryp.io/tek/exon";
   description = "Customizable Quasiquote Interpolation";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

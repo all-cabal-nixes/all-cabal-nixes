@@ -11,5 +11,5 @@ mkDerivation {
     base bv-sized containers parameterized-utils rme vector what4
   ];
   description = "What4 adapter for the RME solver";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

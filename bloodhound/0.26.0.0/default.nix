@@ -26,5 +26,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/bitemyapp/bloodhound.git#readme";
   description = "Elasticsearch client library for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

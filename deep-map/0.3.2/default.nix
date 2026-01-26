@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mixphix/deep-map";
   description = "Deeply-nested, multiple key type maps";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

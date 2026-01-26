@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/expipiplus1/vulkan#readme";
   description = "Bindings to the VulkanMemoryAllocator library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -40,5 +40,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://tools.galois.com/cryptol";
   description = "Cryptol: The Language of Cryptography";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

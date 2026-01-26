@@ -12,5 +12,5 @@ mkDerivation {
     hedgehog text
   ];
   description = "Hedgehog Generators for clash-prelude";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

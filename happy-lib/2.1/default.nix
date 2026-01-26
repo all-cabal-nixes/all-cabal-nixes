@@ -8,5 +8,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://www.haskell.org/happy/";
   description = "Happy is a parser generator for Haskell implemented using this library";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

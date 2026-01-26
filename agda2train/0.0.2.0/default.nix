@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/omelkonian/agda2train/";
   description = "Agda backend to generate training data for machine learning purposes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "agda2train";
 }

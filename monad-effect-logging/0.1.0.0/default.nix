@@ -11,5 +11,5 @@ mkDerivation {
     monad-logger primitive stm template-haskell text time
   ];
   description = "A flexible logging system utilizing the `monad-effect` effect system";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

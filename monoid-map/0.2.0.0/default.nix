@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/obsidiansystems/monoid-map";
   description = "A monoidal map with the right group instance";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

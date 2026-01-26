@@ -10,5 +10,5 @@ mkDerivation {
     extra filepath shake text
   ];
   description = "Build rules for historical benchmarking";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

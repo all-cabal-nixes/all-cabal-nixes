@@ -19,5 +19,5 @@ mkDerivation {
     tasty-quickcheck text
   ];
   description = "Provide Alternate Number Formats plugin for Haskell Language Server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

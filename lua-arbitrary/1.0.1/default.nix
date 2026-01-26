@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lua QuickCheck ];
   homepage = "https://hslua.org/";
   description = "Arbitrary instances for Lua types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

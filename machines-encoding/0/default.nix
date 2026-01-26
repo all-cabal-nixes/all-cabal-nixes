@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring machines text ];
   homepage = "https://oss.xkcd.com/";
   description = "Transcode encodings with machines";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

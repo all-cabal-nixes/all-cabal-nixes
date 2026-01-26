@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base primitive primitive-unlifted ];
   homepage = "https://github.com/andrewthad/run-st";
   description = "runST without boxing penalty";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

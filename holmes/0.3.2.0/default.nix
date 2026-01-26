@@ -19,5 +19,5 @@ mkDerivation {
   testToolDepends = [ markdown-unlit tasty-discover ];
   homepage = "https://github.com/i-am-tom/holmes/";
   description = "Tools and combinators for solving constraint problems";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

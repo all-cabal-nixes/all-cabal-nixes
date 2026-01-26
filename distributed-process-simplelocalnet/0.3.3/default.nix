@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "http://haskell-distributed.github.com";
   description = "Simple zero-configuration backend for Cloud Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

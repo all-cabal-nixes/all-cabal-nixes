@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog template-haskell ];
   homepage = "https://github.com/typeclasses/d10";
   description = "Digits 0-9";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

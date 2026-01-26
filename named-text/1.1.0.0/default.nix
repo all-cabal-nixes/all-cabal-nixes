@@ -14,5 +14,5 @@ mkDerivation {
     tasty-ant-xml tasty-checklist tasty-hspec text
   ];
   description = "A parameterized named text type and associated functionality";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

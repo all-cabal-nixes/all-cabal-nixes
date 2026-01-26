@@ -14,5 +14,5 @@ mkDerivation {
     text transformers
   ];
   description = "Parse and render URI templates";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

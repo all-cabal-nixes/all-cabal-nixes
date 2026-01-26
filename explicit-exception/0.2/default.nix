@@ -10,5 +10,5 @@ mkDerivation {
   libraryHaskellDepends = [ base deepseq semigroups transformers ];
   homepage = "http://wiki.haskell.org/Exception";
   description = "Exceptions which are explicit in the type signature";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

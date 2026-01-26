@@ -12,6 +12,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base warp ];
   description = "A minimalist HTTP server framework written on top of wai";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "porpoise-example";
 }

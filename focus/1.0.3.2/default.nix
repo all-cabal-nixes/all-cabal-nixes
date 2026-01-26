@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ rerebase tasty tasty-hunit ];
   homepage = "https://github.com/nikita-volkov/focus";
   description = "A general abstraction for manipulating elements of container data structures";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

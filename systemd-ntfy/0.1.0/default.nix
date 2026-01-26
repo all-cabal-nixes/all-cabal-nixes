@@ -12,6 +12,6 @@ mkDerivation {
     wreq
   ];
   description = "Send notifications for systemd units to ntfy.sh";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "systemd-ntfy";
 }

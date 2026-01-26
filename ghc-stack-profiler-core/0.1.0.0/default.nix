@@ -11,5 +11,5 @@ mkDerivation {
     base binary bytestring containers text transformers
   ];
   description = "Thread sample types and serialisation logic for `ghc-stack-profiler`";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

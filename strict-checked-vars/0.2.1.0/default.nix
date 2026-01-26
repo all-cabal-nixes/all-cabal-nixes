@@ -12,5 +12,5 @@ mkDerivation {
     base io-classes io-sim nothunks QuickCheck tasty tasty-quickcheck
   ];
   description = "Strict MVars and TVars with invariant checking for IO and IOSim";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

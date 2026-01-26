@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers logict mtl ];
   homepage = "https://wrengr.org/software/hackage.html";
   description = "Simple generic unification algorithms";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

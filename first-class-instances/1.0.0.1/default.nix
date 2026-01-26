@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base tasty tasty-hunit template-haskell ];
   description = "First-class typeclass instances";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

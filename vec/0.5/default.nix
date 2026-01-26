@@ -19,5 +19,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion fin vector ];
   homepage = "https://github.com/phadej/vec";
   description = "Vec: length-indexed (sized) list";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

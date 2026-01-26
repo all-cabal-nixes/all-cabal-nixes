@@ -19,5 +19,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base tasty tasty-bench vector ];
   homepage = "https://github.com/Simre1/lambdasound";
   description = "A libary for generating low-level sounds with high-level combinators";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

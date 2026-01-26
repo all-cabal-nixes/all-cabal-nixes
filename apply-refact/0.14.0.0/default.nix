@@ -27,6 +27,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/mpickering/apply-refact";
   description = "Perform refactorings specified by the refact library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "refactor";
 }

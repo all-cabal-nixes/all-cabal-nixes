@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ attoparsec base box text time ];
   homepage = "https://github.com/tonyday567/box-csv#readme";
   description = "CSV parsing in a box";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/aaronallen8455/pinned-warnings#readme";
   description = "Preserve warnings in a GHCi session";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

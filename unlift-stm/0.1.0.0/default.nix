@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hololeap/unlift-stm";
   description = "(un)lifted classes and functions for the STM monad";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

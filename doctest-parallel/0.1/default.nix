@@ -23,5 +23,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/martijnbastiaan/doctest-parallel#readme";
   description = "Test interactive Haskell examples";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -16,5 +16,5 @@ mkDerivation {
     tasty-quickcheck text
   ];
   description = "BIP 158 compact block filters";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hercules-ci/katip-raven";
   description = "Katip scribe for raven (https://sentry.io)";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

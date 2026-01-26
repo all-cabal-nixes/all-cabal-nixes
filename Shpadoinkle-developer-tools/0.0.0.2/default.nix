@@ -17,6 +17,6 @@ mkDerivation {
     Shpadoinkle-backend-pardiff Shpadoinkle-html stm text time unliftio
   ];
   description = "Chrome extension to aide in development";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "devtools";
 }

@@ -10,6 +10,6 @@ mkDerivation {
     base Cabal-syntax directory filepath
   ];
   description = "Automatically re-export modules";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "autoexporter";
 }

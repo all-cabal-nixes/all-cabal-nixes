@@ -25,6 +25,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/dixslyf/nbparts";
   description = "Unpack a Jupyter notebook into its sources, metadata and outputs";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "nbparts";
 }

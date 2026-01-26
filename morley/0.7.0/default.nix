@@ -46,6 +46,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://gitlab.com/morley-framework/morley";
   description = "Developer tools for the Michelson Language";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "morley";
 }

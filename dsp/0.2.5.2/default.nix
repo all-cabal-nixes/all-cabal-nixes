@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ array base containers QuickCheck ];
   homepage = "http://www.haskell.org/haskellwiki/DSP";
   description = "Haskell Digital Signal Processing";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

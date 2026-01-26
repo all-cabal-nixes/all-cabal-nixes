@@ -14,5 +14,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "JuicyPixels wrappers for libjpeg-turbo";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

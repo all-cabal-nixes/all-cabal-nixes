@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest ];
   homepage = "https://github.com/haskell-trasa/trasa";
   description = "Type Safe Web Routing";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

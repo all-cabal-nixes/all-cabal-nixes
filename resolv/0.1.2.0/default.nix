@@ -14,5 +14,5 @@ mkDerivation {
     base bytestring directory filepath tasty tasty-hunit
   ];
   description = "Domain Name Service (DNS) lookup via the libresolv standard library routines";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

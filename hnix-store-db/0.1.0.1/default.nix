@@ -17,5 +17,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/haskell-nix/hnix-store";
   description = "Nix store database support";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

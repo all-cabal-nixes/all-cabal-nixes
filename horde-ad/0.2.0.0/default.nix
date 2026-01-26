@@ -22,5 +22,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq random ];
   doHaddock = false;
   description = "Higher Order Reverse Derivatives Efficiently - Automatic Differentiation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

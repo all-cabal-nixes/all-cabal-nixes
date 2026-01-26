@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/nagashi/claims-x12-dsl#readme";
   description = "Type-safe DSL for healthcare claims validation and X12 processing";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "claims-x12-dsl-exe";
 }

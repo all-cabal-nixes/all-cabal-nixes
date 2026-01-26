@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base nonempty-wrapper QuickCheck ];
   homepage = "http://github.com/blackheaven/nonempty-wrapper/nonempty-wrapper-quickcheck";
   description = "QuickCheck instance for 'NonEmpty'";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

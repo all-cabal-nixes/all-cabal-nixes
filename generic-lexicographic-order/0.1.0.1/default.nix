@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/friedbrice/generic-lexicographic-order";
   description = "Derive Bounded and Enum for sum types and Enum for product types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

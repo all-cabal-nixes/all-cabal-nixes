@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/TheBizzle";
   description = "A lousy Prelude replacement by a lousy dude";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

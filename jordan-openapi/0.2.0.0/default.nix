@@ -15,5 +15,5 @@ mkDerivation {
     insert-ordered-containers jordan openapi3 optics-core text
   ];
   description = "OpenAPI Definitions for Jordan, Automatically";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

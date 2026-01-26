@@ -13,5 +13,5 @@ mkDerivation {
     base bytestring criterion ppad-base16
   ];
   description = "A pure Poly1305 MAC";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

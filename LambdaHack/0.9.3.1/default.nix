@@ -25,6 +25,6 @@ mkDerivation {
   testHaskellDepends = [ async base filepath optparse-applicative ];
   homepage = "https://lambdahack.github.io";
   description = "A game engine library for tactical squad ASCII roguelike dungeon crawlers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "LambdaHack";
 }

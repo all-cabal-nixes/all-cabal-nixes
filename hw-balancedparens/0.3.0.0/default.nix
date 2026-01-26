@@ -24,5 +24,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "http://github.com/haskell-works/hw-balancedparens#readme";
   description = "Balanced parentheses";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

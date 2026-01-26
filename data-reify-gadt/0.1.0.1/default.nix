@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Arthi-chaud/data-reify-gadt#readme";
   description = "Data.Reify for GADTs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "example-ast";
 }

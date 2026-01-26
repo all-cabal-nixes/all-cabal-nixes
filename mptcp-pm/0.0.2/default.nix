@@ -19,6 +19,6 @@ mkDerivation {
   executableToolDepends = [ c2hs ];
   homepage = "https://github.com/teto/netlink_pm";
   description = "A work in progress Multipath TCP path manager";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "mptcp-pm";
 }

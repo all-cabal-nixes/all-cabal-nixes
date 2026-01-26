@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/jsonifier";
   description = "Fast and simple JSON encoding toolkit";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

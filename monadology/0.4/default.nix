@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit text ];
   homepage = "https://github.com/AshleyYakeley/monadology#readme";
   description = "The best ideas in monad-related classes and types";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

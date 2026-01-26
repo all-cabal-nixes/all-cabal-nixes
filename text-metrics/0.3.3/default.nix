@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq text weigh ];
   homepage = "https://github.com/mrkkrp/text-metrics";
   description = "Calculate various string metrics efficiently";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/os-string/blob/master/README.md";
   description = "Library for manipulating Operating system strings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

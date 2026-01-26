@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base containers hspec QuickCheck text ];
   description = "Parse and render URI templates";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

@@ -59,6 +59,6 @@ mkDerivation {
     url-slug uuid which with-utf8 xmlhtml yaml
   ];
   description = "Emanate a structured view of your plain-text notes";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "emanote";
 }

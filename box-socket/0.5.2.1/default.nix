@@ -16,6 +16,6 @@ mkDerivation {
   testHaskellDepends = [ base doctest-parallel ];
   homepage = "https://github.com/tonyday567/box-socket#readme";
   description = "Box websockets";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "box-socket";
 }

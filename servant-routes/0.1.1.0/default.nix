@@ -17,5 +17,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/fpringle/servant-routes";
   description = "Generate route descriptions from Servant APIs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

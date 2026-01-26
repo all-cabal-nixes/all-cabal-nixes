@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hslua/hslua";
   description = "Lua module wrapper around Haskell's System module";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

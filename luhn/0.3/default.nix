@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base digits QuickCheck ];
   testHaskellDepends = [ base QuickCheck ];
   description = "An implementation of Luhn's check digit algorithm";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

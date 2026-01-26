@@ -30,6 +30,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/haskell-works/hw-uri";
   description = "Supports IO on URIs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hw-uri";
 }

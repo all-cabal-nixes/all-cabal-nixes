@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ aeson base bytestring tasty tasty-hunit ];
   homepage = "https://github.com/proggerx/lrclib-client";
   description = "A Haskell client for the LrcLib API (lyrics database)";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

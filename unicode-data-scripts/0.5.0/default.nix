@@ -8,5 +8,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base deepseq tasty tasty-bench ];
   homepage = "http://github.com/composewell/unicode-data";
   description = "Unicode characters scripts";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

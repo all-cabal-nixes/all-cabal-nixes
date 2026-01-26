@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jcranch/mapping#readme";
   description = "Types which represent functions k -> v";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "view";
 }

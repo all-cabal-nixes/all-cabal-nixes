@@ -28,5 +28,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hasufell/streamly-yaml#readme";
   description = "Support for parsing and rendering YAML documents";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

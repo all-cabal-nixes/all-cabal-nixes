@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/phadej/generic-lens-lite";
   description = "Monomorphic field lens like with generic-lens";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

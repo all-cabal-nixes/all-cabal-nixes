@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base sop-core ];
   testHaskellDepends = [ base doctest sop-core ];
   description = "Uncurry functions with multiple arguments";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

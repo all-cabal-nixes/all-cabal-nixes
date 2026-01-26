@@ -12,6 +12,6 @@ mkDerivation {
     optparse-generic process text time
   ];
   description = "Command line tool to search and download papers from arXiv.org";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "arxiv-client-cli";
 }

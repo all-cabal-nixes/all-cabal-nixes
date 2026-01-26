@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base safe-exceptions transformers ];
   homepage = "https://github.com/k0001/hs-memzero";
   description = "Securely erase memory contents by writing zeros to it";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

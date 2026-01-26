@@ -32,6 +32,6 @@ mkDerivation {
     tasty-golden tasty-hedgehog text time toml-parser
   ];
   description = "Tools for working with the Haskell security advisory database";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hsec-tools";
 }

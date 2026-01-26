@@ -23,6 +23,6 @@ mkDerivation {
     random vector
   ];
   description = "Labeled one-dimensional arrays";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "bench-report";
 }

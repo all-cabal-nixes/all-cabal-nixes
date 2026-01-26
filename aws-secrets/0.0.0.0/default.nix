@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/aws-secrets";
   description = "Fetch data from AWS Secrets Manager";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -15,6 +15,6 @@ mkDerivation {
   testHaskellDepends = [ base containers doctest ];
   homepage = "https://github.com/tonyday567/readme-lhs#readme";
   description = "See readme.md";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "readme-lhs-example";
 }

@@ -32,5 +32,5 @@ mkDerivation {
   ];
   homepage = "https://whetstone.private.storage/PrivateStorage/gbs-downloader";
   description = "A library for downloading data from a Great Black Swamp server";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

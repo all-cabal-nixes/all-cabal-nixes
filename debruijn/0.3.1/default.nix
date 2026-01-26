@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base QuickCheck tasty tasty-quickcheck ];
   description = "de Bruijn indices and levels";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

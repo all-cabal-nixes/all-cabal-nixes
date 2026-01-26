@@ -15,6 +15,6 @@ mkDerivation {
     multi-except optparse-applicative pretty process utf8-string
   ];
   description = "Inspect the padding and size of C data declarations and their fields";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "struct-packing-report";
 }

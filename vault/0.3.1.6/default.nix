@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/HeinrichApfelmus/vault";
   description = "a persistent store for values of arbitrary types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

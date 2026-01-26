@@ -18,5 +18,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base hspec ];
   description = "Shows how to test a simple service using tmp-proc";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

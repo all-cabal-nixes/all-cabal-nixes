@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/FinleyMcIlwaine/ebird-haskell";
   description = "A command-line utility for interacting with the eBird API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "ebird";
 }

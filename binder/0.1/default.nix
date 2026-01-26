@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/ijaketak/binder";
   description = "Variable binding for abstract syntax tree";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

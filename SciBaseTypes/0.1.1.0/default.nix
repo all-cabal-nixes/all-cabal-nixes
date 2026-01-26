@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/choener/SciBaseTypes";
   description = "Base types and classes for statistics, sciences and humanities";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

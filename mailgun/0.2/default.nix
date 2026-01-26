@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://oss.xkcd.com/";
   description = "API binding for Mailgun";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   libraryHaskellDepends = [ base OneTuple Only single-tuple ];
   homepage = "https://github.com/kakkun61/tuple";
   description = "Homotuple, all whose elements are the same type";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

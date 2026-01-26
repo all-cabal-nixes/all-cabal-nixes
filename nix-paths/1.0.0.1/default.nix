@@ -1,4 +1,6 @@
-{ mkDerivation, base, lib, nix, process }:
+{ mkDerivation, base, lib, nix-build, nix-env, nix-instantiate
+, nix-store, process
+}:
 mkDerivation {
   pname = "nix-paths";
   version = "1.0.0.1";
@@ -6,7 +8,9 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "17l6x5azdiklwmiwkk05zxg50gqgdq9n5a1nyfywy05b6h7m33il";
   libraryHaskellDepends = [ base process ];
-  libraryToolDepends = [ nix ];
+  libraryToolDepends = [
+    nix-build nix-env nix-instantiate nix-store
+  ];
   homepage = "https://github.com/peti/nix-paths";
   description = "Knowledge of Nix's installation directories";
   license = lib.licenses.bsd3;

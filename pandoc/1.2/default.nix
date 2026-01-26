@@ -17,10 +17,6 @@ mkDerivation {
     parsec pretty process syb template-haskell utf8-string xhtml
     zip-archive
   ];
-  postInstall = ''
-    mkdir -p $out/share
-    mv $data/*/*/man $out/share/
-  '';
   homepage = "http://johnmacfarlane.net/pandoc";
   description = "Conversion between markup formats";
   license = "GPL";

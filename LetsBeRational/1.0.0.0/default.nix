@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/ghais/LetsBeRational";
   description = "European option implied vol calculation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

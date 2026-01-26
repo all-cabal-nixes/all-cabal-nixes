@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://notabug.org/koz.ross/streamly-fsnotify";
   description = "Folder watching as a Streamly stream";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

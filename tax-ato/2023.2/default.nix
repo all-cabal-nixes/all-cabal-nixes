@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lens tax time ];
   homepage = "https://github.com/frasertweedale/hs-tax-ato";
   description = "Tax types and computations for Australia";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

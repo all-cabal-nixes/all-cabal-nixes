@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base effectful-core stm tasty tasty-hunit ];
   homepage = "https://github.com/TristanCacqueray/ki-effectful#readme";
   description = "Adaptation of the ki library for the effectful ecosystem";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

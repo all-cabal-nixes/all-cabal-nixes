@@ -11,5 +11,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://gitlab.com/lysxia/weave";
   description = "Compositional breadth-first walks";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

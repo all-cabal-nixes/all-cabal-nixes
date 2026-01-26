@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/k0001/leb128-binary";
   description = "Signed and unsigned LEB128 codec for binary library";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

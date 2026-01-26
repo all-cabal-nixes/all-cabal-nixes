@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ singletons-base-code-generator ];
   homepage = "http://www.github.com/goldfirere/singletons";
   description = "A promoted and singled version of the base library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

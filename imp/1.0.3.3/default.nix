@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base exceptions ghc hspec ];
   description = "A GHC plugin for automatically importing modules";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

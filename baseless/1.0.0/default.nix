@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ ghc-internal ];
   homepage = "https://github.com/jappeace/baseless#readme";
   description = "baseless claims";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "exe";
 }

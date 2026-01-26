@@ -20,5 +20,5 @@ mkDerivation {
     monoid-insertleft quantizer rev-scientific rhythmic-sequences
   ];
   description = "An AFTOVolio implementation for creating texts with special phonetic / prosodic properties";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

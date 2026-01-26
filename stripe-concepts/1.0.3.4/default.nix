@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring text ];
   homepage = "https://github.com/typeclasses/stripe";
   description = "Types for the Stripe API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

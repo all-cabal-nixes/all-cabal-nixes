@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/novisci/interval-algebra#readme";
   description = "An implementation of Allen's interval algebra for temporal logic";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

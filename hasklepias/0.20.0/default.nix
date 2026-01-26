@@ -29,5 +29,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/novisci/asclepias/#readme";
   description = "embedded DSL for defining epidemiologic cohorts";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

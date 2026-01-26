@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/konn/ghc-typelits-presburger#readme";
   description = "Presburger Arithmetic Solver for GHC Type-level natural numbers with Singletons package";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

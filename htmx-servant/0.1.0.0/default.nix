@@ -8,5 +8,5 @@ mkDerivation {
     base htmx htmx-lucid lucid servant text
   ];
   description = "Use htmx with servant";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

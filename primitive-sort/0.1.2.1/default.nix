@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/primitive-sort";
   description = "Sort primitive arrays";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
     c libGL libX11 libXcursor libXext libXi libXinerama libXrandr
   ];
   description = "Raylib bindings for Haskell";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

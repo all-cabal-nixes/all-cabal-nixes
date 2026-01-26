@@ -13,5 +13,5 @@ mkDerivation {
     text
   ];
   description = "Check multiple items during a tasty test";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

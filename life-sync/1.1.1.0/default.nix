@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/life-sync";
   description = "Synchronize personal configs across multiple machines";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "life";
 }

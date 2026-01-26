@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base inspection-testing tagged ];
   homepage = "https://github.com/phadej/vec";
   description = "Nat and Fin: peano naturals and finite numbers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

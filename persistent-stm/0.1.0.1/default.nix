@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec stm temporary ];
   homepage = "https://github.com/cdsmith/persistent-stm";
   description = "STM transactions involving persistent storage";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

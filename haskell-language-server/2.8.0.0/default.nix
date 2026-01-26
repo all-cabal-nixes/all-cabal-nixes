@@ -62,5 +62,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/haskell/haskell-language-server#readme";
   description = "LSP server for GHC";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

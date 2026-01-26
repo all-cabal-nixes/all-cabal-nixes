@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/bazqux/http-conduit-downloader";
   description = "HTTP downloader tailored for web-crawler needs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

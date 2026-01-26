@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover markdown-unlit ];
   homepage = "https://github.com/carlwr/hspec-tidy-formatter#readme";
   description = "A custom hspec formatter for easy-to-read terminal output";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

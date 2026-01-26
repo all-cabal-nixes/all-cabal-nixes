@@ -13,5 +13,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ cairo ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Cairo library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

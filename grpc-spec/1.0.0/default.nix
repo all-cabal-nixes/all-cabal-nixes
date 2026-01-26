@@ -24,5 +24,5 @@ mkDerivation {
     text tree-diff
   ];
   description = "Implementation of the pure part of the gRPC spec";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ad-si/ulid";
   description = "Implementation of ULID - Universally Unique Lexicographically Sortable Identifier";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ulid-exe";
 }

@@ -15,5 +15,5 @@ mkDerivation {
     resourcet temporary text time transformers vector
   ];
   description = "Persistent database integration for the dataframe library";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

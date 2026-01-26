@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/jgm/yst";
   description = "Builds a static website from templates and data in YAML or CSV files";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
   mainProgram = "yst";
 }

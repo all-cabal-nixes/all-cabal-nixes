@@ -21,5 +21,5 @@ mkDerivation {
     tasty-quickcheck tasty-rerun temporary text typed-process vector
   ];
   description = "SVG file loader and serializer";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

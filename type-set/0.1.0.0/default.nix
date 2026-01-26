@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base random template-haskell ];
   homepage = "https://github.com/YoshikuniJujo/type-set#readme";
   description = "Type set";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

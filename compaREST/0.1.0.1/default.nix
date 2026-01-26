@@ -30,5 +30,5 @@ mkDerivation {
     pandoc-types tasty tasty-golden text yaml
   ];
   description = "Compatibility checker for OpenAPI";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

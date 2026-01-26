@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ rerebase tasty tasty-quickcheck ];
   homepage = "https://github.com/nikita-volkov/deque";
   description = "Double-ended queues";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

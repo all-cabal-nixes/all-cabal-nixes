@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ];
   homepage = "https://github.com/schuelermine/spars";
   description = "A sparse set-based parsing library for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

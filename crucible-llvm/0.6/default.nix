@@ -23,5 +23,5 @@ mkDerivation {
     tasty-hunit tasty-quickcheck tasty-sugar vector what4
   ];
   description = "Support for translating and executing LLVM code in Crucible";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

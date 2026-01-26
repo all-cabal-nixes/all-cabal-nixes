@@ -12,5 +12,5 @@ mkDerivation {
     base bytestring ghc ghc-boot hspec template-haskell
   ];
   description = "Translate Haskell source to Template Haskell expression";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

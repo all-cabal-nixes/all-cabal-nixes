@@ -12,5 +12,5 @@ mkDerivation {
     base hspec math-programming math-programming-tests unliftio
   ];
   description = "A GLPK backend to the math-programming library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bifunctors ];
   homepage = "https://github.com/treeowl/unzip-traversable";
   description = "Unzip functions for general Traversable containers";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

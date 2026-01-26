@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ array base deepseq template-haskell ];
   homepage = "https://github.com/haskell/containers";
   description = "Assorted concrete container types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kleinreact/clash-finite";
   description = "A class for types with only finitely many inhabitants";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

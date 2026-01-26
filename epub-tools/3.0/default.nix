@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/dino-/epub-tools.git";
   description = "Command line utilities for working with epub files";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

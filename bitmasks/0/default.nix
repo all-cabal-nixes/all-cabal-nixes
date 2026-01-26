@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec QuickCheck ];
   homepage = "https://github.com/AliceRixte/bitmasks#readme";
   description = "Bitmasks for efficient storing of boolean flags";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

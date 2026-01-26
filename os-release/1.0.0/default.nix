@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/yaccz/os-release";
   description = "/etc/os-release helpers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

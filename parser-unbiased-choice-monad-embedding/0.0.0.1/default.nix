@@ -10,5 +10,5 @@ mkDerivation {
     base doctest lexer-applicative regex-applicative
   ];
   description = "Parsing combinator library with unbiased choice and support for embedding arbitrary monad. You may use applicative or arrow style. Supports left recursion, location tracking, parsing and semantic error messages, heuristic ambiguity checking. Based on Earley";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

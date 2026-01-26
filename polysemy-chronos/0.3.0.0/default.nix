@@ -12,5 +12,5 @@ mkDerivation {
     base chronos incipit-core polysemy-test polysemy-time tasty
   ];
   description = "Polysemy-time Interpreters for Chronos";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

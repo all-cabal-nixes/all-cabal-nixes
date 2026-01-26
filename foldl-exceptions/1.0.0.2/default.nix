@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base foldl hedgehog safe-exceptions ];
   homepage = "https://github.com/typeclasses/foldl-exceptions";
   description = "Exception handling with FoldM";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hasql hasql-transaction-io ];
   homepage = "https://github.com/andremarianiello/hasql-streams";
   description = "Stream Hasql queries";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

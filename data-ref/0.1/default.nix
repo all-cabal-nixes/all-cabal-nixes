@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base data-accessor stm transformers ];
   homepage = "http://wiki.haskell.org/Mutable_variable";
   description = "Unify STRef and IORef in plain Haskell 98";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base tasty tasty-hunit transformers ];
   homepage = "https://github.com/AshleyYakeley/monadology#readme";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

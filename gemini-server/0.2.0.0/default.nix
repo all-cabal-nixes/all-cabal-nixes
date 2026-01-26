@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://sr.ht/~fgaz/haskell-gemini/";
   description = "A lightweight server for the Gemini protocol";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

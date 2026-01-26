@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ];
   testHaskellDepends = [ base doctest QuickCheck ];
   description = "Checks context free grammar for ambiguity using brute force up to given limit";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

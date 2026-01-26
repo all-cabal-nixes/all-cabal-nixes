@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/bytebuild";
   description = "Serialize to a small byte arrays";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

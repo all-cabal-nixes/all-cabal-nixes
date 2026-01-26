@@ -24,5 +24,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq Diff ];
   homepage = "https://github.com/phadej/tree-diff";
   description = "Diffing of (expression) trees";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

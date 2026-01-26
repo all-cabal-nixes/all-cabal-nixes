@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest Glob ];
   homepage = "https://github.com/vrom911/slist";
   description = "Sized list";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

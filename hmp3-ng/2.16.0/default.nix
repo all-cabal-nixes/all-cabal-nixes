@@ -15,6 +15,6 @@ mkDerivation {
   executableSystemDepends = [ ncurses ];
   homepage = "https://github.com/galenhuntington/hmp3-ng#readme";
   description = "A 2019 fork of an ncurses mp3 player written in Haskell";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
   mainProgram = "hmp3";
 }

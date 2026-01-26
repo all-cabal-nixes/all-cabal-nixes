@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/bcardiff/haskell-tinyapp";
   description = "Library to build tiny apps in Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

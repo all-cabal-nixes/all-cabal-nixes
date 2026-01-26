@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fosskers/servant-xml";
   description = "Servant support for the XML Content-Type";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Bindings to Cutorch";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

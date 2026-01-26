@@ -10,5 +10,5 @@ mkDerivation {
     amqp base bytestring hspec hspec-tmp-proc text tmp-proc
   ];
   description = "Shows how to run RabbitMQ as a tmp proc";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     ukrainian-phonetics-basic-array
   ];
   description = "A shared by different Ukrainian implementations of the PhLADiPreLiO functionality";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

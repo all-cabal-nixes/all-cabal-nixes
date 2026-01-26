@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/sighingnow/imgui-haskell/tree/master/imgui#readme";
   description = "Haskell bindings for the gl3w library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

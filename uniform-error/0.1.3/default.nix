@@ -9,5 +9,5 @@ mkDerivation {
     base HTF safe transformers uniform-strings
   ];
   description = "Handling errors in the uniform framework";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

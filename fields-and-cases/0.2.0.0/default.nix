@@ -11,5 +11,5 @@ mkDerivation {
     tasty-hunit
   ];
   description = "Codegen Haskell types to other languages";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/siphon";
   description = "Encode and decode CSV files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

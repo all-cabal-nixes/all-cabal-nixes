@@ -7,5 +7,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring tasty-bench ];
   homepage = "https://github.com/maoe/ghc-trace-events";
   description = "Faster traceEvent and traceMarker, and binary object logging for eventlog";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

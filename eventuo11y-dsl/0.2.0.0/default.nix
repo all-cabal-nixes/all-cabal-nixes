@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "3c29d7e08ee1297eb0f421fea3a07fa954953457a9b81d203aa2883aa5664561";
   libraryHaskellDepends = [ base template-haskell ];
   description = "DSL for defining eventuo11y fields and selectors";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

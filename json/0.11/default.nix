@@ -9,5 +9,5 @@ mkDerivation {
     array base bytestring containers mtl parsec pretty syb text
   ];
   description = "Support for serialising Haskell to and from JSON";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

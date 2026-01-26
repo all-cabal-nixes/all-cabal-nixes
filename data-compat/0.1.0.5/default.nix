@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base constraints ];
   homepage = "https://github.com/TravisWhitaker/data-compat";
   description = "Define Backwards Compatibility Schemes for Arbitrary Data";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

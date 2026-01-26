@@ -15,5 +15,5 @@ mkDerivation {
     QuickCheck quickcheck-text refined servant servant-client text time
   ];
   description = "Datadog tracing client and mock agent";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

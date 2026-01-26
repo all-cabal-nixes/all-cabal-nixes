@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/hs-wai-cryptocookie";
   description = "Encrypted cookies for WAI";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

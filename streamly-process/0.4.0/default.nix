@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://streamly.composewell.com";
   description = "Use OS processes as stream transformation functions";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

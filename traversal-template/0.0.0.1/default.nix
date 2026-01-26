@@ -10,5 +10,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge template-haskell util ];
   homepage = "https://github.com/strake/traversal-template.hs";
   description = "See README for more info";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

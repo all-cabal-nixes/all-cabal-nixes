@@ -8,5 +8,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://gitlab.com/fosskers/bounded-queue";
   description = "A strict, immutable, thread-safe, single-ended, bounded queue";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

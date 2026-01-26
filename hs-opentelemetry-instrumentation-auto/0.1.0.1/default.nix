@@ -19,5 +19,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "Plugin for instrumenting an application";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

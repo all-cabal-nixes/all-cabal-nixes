@@ -17,6 +17,6 @@ mkDerivation {
     aeson base fused-effects tasty tasty-hunit unliftio
   ];
   description = "a library which implements easy, concurrent and pretty logging";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "unclogging";
 }

@@ -18,5 +18,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "A dynamic environment for dependency injection";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

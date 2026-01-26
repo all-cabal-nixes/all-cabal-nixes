@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fused-effects/fused-effects-th";
   description = "Template Haskell helpers for fused-effects";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

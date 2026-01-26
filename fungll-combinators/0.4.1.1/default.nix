@@ -9,5 +9,5 @@ mkDerivation {
     array base containers gll pretty regex-applicative text time
   ];
   description = "GLL parser with simple combinator interface";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/oscoin/ipfs";
   description = "Auto-generated IPFS HTTP API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

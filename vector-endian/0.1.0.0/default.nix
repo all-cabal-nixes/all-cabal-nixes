@@ -9,5 +9,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://git.zenhack.net/zenhack/haskell-vector-endian";
   description = "Storable vectors with cpu-independent representation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

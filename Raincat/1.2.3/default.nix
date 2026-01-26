@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "http://raincat.bysusanlin.com/";
   description = "A puzzle game written in Haskell with a cat in lead role";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "raincat";
 }

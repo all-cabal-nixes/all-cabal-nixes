@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fosskers/mapalgebra";
   description = "Efficient, polymorphic Map Algebra";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

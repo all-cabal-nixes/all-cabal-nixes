@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec HUnit QuickCheck ];
   homepage = "https://github.com/xc-jp/safe-gen#readme";
   description = "Recursive Arbitrary instances without headaches";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

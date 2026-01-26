@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/wavewave/fficxx";
   description = "Binding to Standard Template Library C++";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

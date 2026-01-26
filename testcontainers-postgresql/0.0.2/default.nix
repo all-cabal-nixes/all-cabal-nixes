@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base testcontainers text ];
   homepage = "https://github.com/nikita-volkov/testcontainers-postgresql";
   description = "Testcontainers integration for PostgreSQL";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

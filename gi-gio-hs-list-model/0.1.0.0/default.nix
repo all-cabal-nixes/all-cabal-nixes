@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://git.coop/akshay/gi-gio-hs-list-model#gi-gio-hs-list-model";
   description = "Haskell implementation of GListModel interface from gi-gio";
-  license = lib.licenses.lgpl21Only;
+  license = lib.licensesSpdx."LGPL-2.1-only";
 }

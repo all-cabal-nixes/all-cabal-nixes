@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base bytestring ];
   testHaskellDepends = [ base ];
   description = "A pure Haskell implementation of the Snappy compression spec";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "snappy-hs";
 }

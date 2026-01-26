@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring tasty tasty-hunit time ];
   homepage = "https://gitlab.com/k0001/hs-bitcoin-hash";
   description = "Bitcoin hash primitives";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

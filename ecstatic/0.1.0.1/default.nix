@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://codeberg.org/slycelote/haskell-ecstatic/";
   description = "Build \"as static as possible\" executable on Linux";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "ecstatic";
 }

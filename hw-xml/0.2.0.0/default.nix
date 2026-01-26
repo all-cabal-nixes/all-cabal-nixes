@@ -33,6 +33,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-xml#readme";
   description = "Conduits for tokenizing streams";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hw-xml-example";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   librarySystemDepends = [ glpk ];
   testHaskellDepends = [ base hspec ];
   description = "Low-level Haskell bindings to the GLPK library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

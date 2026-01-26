@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base containers haskeline ];
   testHaskellDepends = [ base containers haskeline ];
   description = "A framework for multiverse debugging with support for user-definable search strategies";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "multiverse-debugging-exe";
 }

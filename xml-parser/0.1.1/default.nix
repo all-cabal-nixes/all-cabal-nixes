@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/xml-parser";
   description = "XML parser with informative error-reporting and simple API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

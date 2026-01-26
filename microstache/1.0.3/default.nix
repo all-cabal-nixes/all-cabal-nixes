@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskellari/microstache";
   description = "Mustache templates for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

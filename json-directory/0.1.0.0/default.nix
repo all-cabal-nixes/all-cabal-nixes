@@ -12,6 +12,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ aeson base bytestring ];
   description = "Load JSON from files in a directory structure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "jsondir";
 }

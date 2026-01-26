@@ -15,5 +15,5 @@ mkDerivation {
     base deepseq random tasty tasty-bench
   ];
   description = "Faster integer division and modulus operations";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base HUnit text ];
   homepage = "https://codeberg.org/sena/gemmula";
   description = "a tiny gemtext parser";
-  license = lib.licenses.lgpl3Plus;
+  license = lib.licensesSpdx."LGPL-3.0-or-later";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Fast and safe implementation of common compiler machinery";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
 }

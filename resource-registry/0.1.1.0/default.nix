@@ -14,5 +14,5 @@ mkDerivation {
     quickcheck-state-machine tasty tasty-quickcheck tree-diff
   ];
   description = "Track allocated resources";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

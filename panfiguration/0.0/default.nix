@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ barbies-th base ];
   description = "Merge environment variables and command line options generically";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

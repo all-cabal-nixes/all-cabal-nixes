@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/postgresql-simple-postgresql-types";
   description = "Integration of \"postgresql-simple\" with \"postgresql-types\"";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

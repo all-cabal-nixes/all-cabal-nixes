@@ -10,5 +10,5 @@ mkDerivation {
     base containers HUnit test-framework test-framework-hunit text
   ];
   description = "Convert distfix precedence grammars to unambiguous context-free grammars";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

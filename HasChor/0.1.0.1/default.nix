@@ -16,5 +16,5 @@ mkDerivation {
     async base containers random split time transformers
   ];
   description = "Functional choreographic programming in Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

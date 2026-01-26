@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers vector ];
   homepage = "https://gitlab.com/Wismill/shamochu";
   description = "“Shuffle and merge overlapping chunks” lossless compression";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -24,5 +24,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Reading, writing and manipulating \".tar\" archive files.";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

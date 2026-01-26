@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/facebookincubator/hsthrift";
   description = "A compiler from the Thrift Interface Definition Language (IDL) to Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "thrift-compiler";
 }

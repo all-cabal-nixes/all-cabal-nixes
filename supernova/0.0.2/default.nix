@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ aeson async base bytestring streamly text ];
   homepage = "https://github.com/cr-org/supernova";
   description = "Apache Pulsar client for Haskell";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

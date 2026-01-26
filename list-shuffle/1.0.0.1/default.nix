@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base deepseq random tasty-bench ];
   homepage = "https://github.com/awkward-squad/list-shuffle";
   description = "List shuffling and sampling";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

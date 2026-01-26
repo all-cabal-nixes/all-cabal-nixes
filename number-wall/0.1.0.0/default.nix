@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/UnaryPlus/number-wall";
   description = "Create number walls and save them as images";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

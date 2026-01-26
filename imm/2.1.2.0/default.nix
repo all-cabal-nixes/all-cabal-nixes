@@ -34,5 +34,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0ral/imm";
   description = "Execute arbitrary actions for each item from RSS/Atom feeds";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

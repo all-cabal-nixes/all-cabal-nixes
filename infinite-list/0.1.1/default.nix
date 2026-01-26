@@ -14,5 +14,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base tasty-bench ];
   homepage = "https://github.com/Bodigrim/infinite-list";
   description = "Infinite lists";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

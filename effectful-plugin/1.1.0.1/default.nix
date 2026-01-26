@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers effectful-core ghc ];
   testHaskellDepends = [ base effectful-core ];
   description = "A GHC plugin for improving disambiguation of effects";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

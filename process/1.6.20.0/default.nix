@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "00yabbj6vjlxnslp516a824gwkx9hxx9a9j8izxib17i6gg974ra";
   libraryHaskellDepends = [ base deepseq directory filepath unix ];
   description = "Process libraries";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

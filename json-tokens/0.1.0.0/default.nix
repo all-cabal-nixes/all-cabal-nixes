@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/json-tokens";
   description = "Tokenize JSON";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

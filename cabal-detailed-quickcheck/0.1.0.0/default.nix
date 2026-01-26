@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base Cabal QuickCheck ];
   homepage = "https://github.com/schuelermine/cabal-detailed-quickcheck";
   description = "QuickCheck for Cabal tests";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

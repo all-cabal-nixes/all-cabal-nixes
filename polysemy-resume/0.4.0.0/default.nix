@@ -14,5 +14,5 @@ mkDerivation {
     stm tasty tasty-hedgehog text
   ];
   description = "Polysemy error tracking";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

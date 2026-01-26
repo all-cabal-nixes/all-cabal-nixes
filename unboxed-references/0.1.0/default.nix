@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base vector ];
   homepage = "https://github.com/Boarders/unboxed-references";
   description = "A library for reference cells backed by unboxed-vectors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "example";
 }

@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/mbg/home-assistant-client#readme";
   description = "Client library for the Home Assistant API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ha-client";
 }

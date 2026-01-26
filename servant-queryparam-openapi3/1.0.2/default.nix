@@ -9,5 +9,5 @@ mkDerivation {
     base openapi3 servant servant-openapi3 servant-queryparam-core
   ];
   description = "Instances of classes from openapi3 for servant-queryparam-core";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

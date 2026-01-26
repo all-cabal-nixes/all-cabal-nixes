@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base ];
   description = "Lightweight strict types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

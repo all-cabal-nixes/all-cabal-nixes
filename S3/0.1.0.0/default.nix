@@ -15,5 +15,5 @@ mkDerivation {
     Prelude text text-short time X
   ];
   description = "Library for accessing S3 compatible storage services";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

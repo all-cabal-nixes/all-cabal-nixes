@@ -13,5 +13,5 @@ mkDerivation {
     base bytestring criterion deepseq ppad-base16
   ];
   description = "A pure ChaCha20 stream cipher";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

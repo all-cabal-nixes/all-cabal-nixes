@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jonathanjouty/aeson-possible";
   description = "Possible values for aeson";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

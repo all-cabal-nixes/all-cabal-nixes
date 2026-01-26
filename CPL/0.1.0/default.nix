@@ -11,6 +11,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/msakai/cpl";
   description = "An interpreter of Hagino's Categorical Programming Language (CPL)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "cpl";
 }

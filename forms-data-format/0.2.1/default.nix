@@ -10,5 +10,5 @@ mkDerivation {
     rank2classes text
   ];
   description = "Parse and serialize FDF, the Forms Data Format";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

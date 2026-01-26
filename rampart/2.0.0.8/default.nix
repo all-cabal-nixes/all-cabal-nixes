@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base hspec ];
   description = "Determine how intervals relate to each other";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

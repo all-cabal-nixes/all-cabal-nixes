@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/metrix-ai/primitive-extras";
   description = "Extras for the \"primitive\" library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

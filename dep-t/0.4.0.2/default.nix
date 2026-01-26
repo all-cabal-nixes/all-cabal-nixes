@@ -11,5 +11,5 @@ mkDerivation {
     template-haskell transformers unliftio-core
   ];
   description = "Reader-like monad transformer for dependency injection";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

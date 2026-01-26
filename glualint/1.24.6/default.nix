@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/FPtje/GLuaFixer";
   description = "Attempts to fix your syntax erroring Lua files";
-  license = lib.licenses.lgpl21Plus;
+  license = lib.licensesSpdx."LGPL-2.1-or-later";
   mainProgram = "glualint";
 }

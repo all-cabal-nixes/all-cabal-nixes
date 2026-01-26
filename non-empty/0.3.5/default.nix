@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/non-empty/";
   description = "List-like structures with static restrictions on the number of elements";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

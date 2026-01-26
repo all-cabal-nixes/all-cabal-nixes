@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-cryptography/one-time-password";
   description = "HMAC-Based and Time-Based One-Time Passwords";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "one-time-password";
 }

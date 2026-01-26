@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ array base parsec tasty tasty-hunit text ];
   homepage = "https://github.com/tarleb/gridtables";
   description = "Parser for reStructuredText-style grid tables";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

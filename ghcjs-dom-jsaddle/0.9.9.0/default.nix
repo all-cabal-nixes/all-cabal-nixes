@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ jsaddle-dom ];
   doHaddock = false;
   description = "DOM library that supports both GHCJS and GHC using jsaddle";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

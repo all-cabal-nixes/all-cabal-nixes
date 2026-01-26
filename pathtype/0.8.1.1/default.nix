@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base random ];
   homepage = "http://hub.darcs.net/thielema/pathtype/";
   description = "Type-safe replacement for System.FilePath etc";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

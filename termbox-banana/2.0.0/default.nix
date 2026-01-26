@@ -10,5 +10,5 @@ mkDerivation {
   libraryHaskellDepends = [ base reactive-banana termbox ];
   homepage = "https://github.com/awkward-squad/termbox";
   description = "termbox + reactive-banana";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

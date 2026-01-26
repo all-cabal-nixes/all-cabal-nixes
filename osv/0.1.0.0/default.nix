@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base cvss text time ];
   testHaskellDepends = [ base tasty tasty-hunit ];
   description = "Open Source Vulnerability format";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -4,7 +4,7 @@
 , gi-glib, gi-gtk, gi-pango, gi-vte, gtk3, haskell-gi-base
 , inline-c, lens, lib, optparse-applicative, pcre2, pretty-simple
 , QuickCheck, tasty, template-haskell, text, transformers
-, unordered-containers, vte_291, xml-conduit, xml-html-qq, yaml
+, unordered-containers, vte, xml-conduit, xml-html-qq, yaml
 }:
 mkDerivation {
   pname = "termonad";
@@ -20,7 +20,7 @@ mkDerivation {
     optparse-applicative pretty-simple text transformers
     unordered-containers xml-conduit xml-html-qq yaml
   ];
-  libraryPkgconfigDepends = [ gtk3 pcre2 vte_291 ];
+  libraryPkgconfigDepends = [ gtk3 pcre2 vte ];
   executableHaskellDepends = [ base ];
   testHaskellDepends = [
     base doctest QuickCheck tasty template-haskell

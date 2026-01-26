@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Testing library for Hasktorch's FFI bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

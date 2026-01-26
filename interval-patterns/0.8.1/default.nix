@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mixphix/interval-patterns";
   description = "Intervals, and monoids thereof";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

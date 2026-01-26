@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base HUnit ];
   homepage = "https://github.com/facebookincubator/hsthrift";
   description = "Stubs for dependencies of test code";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

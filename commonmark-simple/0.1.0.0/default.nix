@@ -12,5 +12,5 @@ mkDerivation {
     yaml
   ];
   description = "Simple interface to commonmark-hs";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

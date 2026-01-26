@@ -53,5 +53,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://docs.hercules-ci.com";
   description = "Runs Continuous Integration tasks on your machines";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

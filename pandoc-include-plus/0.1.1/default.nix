@@ -13,6 +13,6 @@ mkDerivation {
   executableHaskellDepends = [ base directory pandoc-types ];
   homepage = "https://github.com/mhwombat/pandoc-columns";
   description = "A pandoc filter that provides a Markdown extension to include files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "pandoc-columns";
 }

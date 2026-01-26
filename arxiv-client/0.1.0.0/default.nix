@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base text ];
   description = "Tiny client for the arXiv Atom API with a simple query DSL";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

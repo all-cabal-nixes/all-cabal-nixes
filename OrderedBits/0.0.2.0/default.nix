@@ -14,5 +14,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion ];
   homepage = "https://github.com/choener/OrderedBits";
   description = "Efficient ordered (by popcount) enumeration of bits";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

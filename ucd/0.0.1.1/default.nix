@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge util ];
   homepage = "https://github.com/strake/ucd.hs";
   description = "Unicode Character Database — Predicates on characters specified by Unicode";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

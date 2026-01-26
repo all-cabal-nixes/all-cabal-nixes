@@ -9,5 +9,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/rampion/pear";
   description = "Pear Trees: An indexed type using type-level binary numbers";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "http://github.com/github/semantic";
   description = "Framework and service for analyzing and diffing untrusted code";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

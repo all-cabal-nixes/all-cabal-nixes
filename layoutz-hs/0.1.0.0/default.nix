@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://github.com/mattlianje/layoutz";
   description = "Simple, beautiful CLI output for Haskell";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

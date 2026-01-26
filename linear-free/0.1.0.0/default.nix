@@ -10,5 +10,5 @@ mkDerivation {
     base containers hspec linear-base QuickCheck
   ];
   description = "Linear free monads";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

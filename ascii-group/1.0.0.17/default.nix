@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ ascii-char base hspec ];
   homepage = "https://github.com/typeclasses/ascii-group";
   description = "ASCII character groups";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

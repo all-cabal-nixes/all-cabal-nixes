@@ -20,6 +20,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/CrystalSplitter/ghcitui";
   description = "A Terminal User Interface (TUI) for GHCi";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ghcitui";
 }

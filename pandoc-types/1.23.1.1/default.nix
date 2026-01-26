@@ -19,5 +19,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion text ];
   homepage = "https://pandoc.org/";
   description = "Types for representing a structured document";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

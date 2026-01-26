@@ -11,5 +11,5 @@ mkDerivation {
   librarySystemDepends = [ xmlsec1 ];
   homepage = "https://github.com/jotron-as/xml-verify";
   description = "Verifying XML signatures";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

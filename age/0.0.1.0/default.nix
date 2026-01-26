@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/intricate/age-haskell";
   description = "Actually Good Encryption";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

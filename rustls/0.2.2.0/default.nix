@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/amesgen/hs-rustls/tree/main/rustls";
   description = "TLS bindings for Rustls";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

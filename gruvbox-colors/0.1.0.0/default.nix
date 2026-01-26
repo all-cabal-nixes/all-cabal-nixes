@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/ccntrq/gruvbox-colors-hs";
   description = "Gruvbox colors for use in Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

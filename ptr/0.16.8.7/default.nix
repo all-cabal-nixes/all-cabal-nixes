@@ -18,5 +18,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ cereal criterion rerebase ];
   homepage = "https://github.com/nikita-volkov/ptr";
   description = "Experimental abstractions for operations on pointers";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

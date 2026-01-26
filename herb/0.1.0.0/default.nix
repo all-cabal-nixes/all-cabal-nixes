@@ -14,6 +14,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec QuickCheck ];
   homepage = "https://gitlab.com/exaexa/herb";
   description = "Accessible format for structured data serialization";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
   mainProgram = "herb-format";
 }

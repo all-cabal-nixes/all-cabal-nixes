@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "http://code.haskell.org/~thielema/wraxml/";
   description = "Lazy wrapper to HaXML, HXT, TagSoup via custom XML tree structure";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

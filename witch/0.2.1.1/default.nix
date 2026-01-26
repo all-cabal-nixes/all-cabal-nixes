@@ -12,5 +12,5 @@ mkDerivation {
     base bytestring containers hspec QuickCheck text
   ];
   description = "Convert values from one type into another";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

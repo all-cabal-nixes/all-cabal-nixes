@@ -18,5 +18,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/RubenAstudillo/rsi-break";
   description = "Let your mind know that your hands need a rest!";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://clickhaskell.dev/";
   description = "ClickHouse driver";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

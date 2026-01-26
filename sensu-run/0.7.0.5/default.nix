@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/maoe/sensu-run#readme";
   description = "A tool to send command execution results to Sensu";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "sensu-run";
 }

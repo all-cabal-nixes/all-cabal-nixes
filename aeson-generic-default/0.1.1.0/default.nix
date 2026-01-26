@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ondrap/aeson-generic-default";
   description = "Type-level default fields for aeson Generic FromJSON parser";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/alx741/thumbnail-polish";
   description = "Image thumbnail creation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskell.org/haskellwiki/Numeric_Prelude";
   description = "An experimental alternative hierarchy of numeric type classes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

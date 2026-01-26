@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://hslua.org/";
   description = "Lua, an embeddable scripting language";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

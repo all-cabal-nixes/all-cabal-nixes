@@ -13,5 +13,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/MMZK1526/mmzk-env";
   description = "Read environment variables into a user-defined data type";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

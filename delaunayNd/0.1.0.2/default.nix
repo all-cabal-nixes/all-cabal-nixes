@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/stla/delaunayNd#readme";
   description = "Delaunay tessellation";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

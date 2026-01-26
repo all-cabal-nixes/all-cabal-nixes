@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/pipes-attoparsec";
   description = "Attoparsec and Pipes integration";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

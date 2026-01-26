@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/adetokunbo/wai-middleware-delegate#readme";
   description = "WAI middleware that delegates handling of requests";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

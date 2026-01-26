@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-works/hw-kafka-avro#readme";
   description = "Avro support for Kafka infrastructure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

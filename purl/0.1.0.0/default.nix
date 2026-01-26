@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base containers tasty tasty-hunit text ];
   description = "Support for purl (mostly universal package url)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

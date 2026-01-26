@@ -9,5 +9,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base linear-base ];
   description = "A reference counting library to alias linear resources";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

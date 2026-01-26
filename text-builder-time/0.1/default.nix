@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text-builder time ];
   homepage = "https://github.com/nikita-volkov/text-builder-time";
   description = "Various formats for \"time\" in terms of \"text-builder\"";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

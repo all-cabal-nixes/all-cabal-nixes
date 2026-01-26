@@ -10,5 +10,5 @@ mkDerivation {
     base bytestring hedis hspec hspec-tmp-proc text tmp-proc
   ];
   description = "Launch Redis in docker using tmp-proc";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

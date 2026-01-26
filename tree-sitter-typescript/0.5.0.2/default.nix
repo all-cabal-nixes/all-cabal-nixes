@@ -7,5 +7,5 @@ mkDerivation {
   libraryHaskellDepends = [ base tree-sitter ];
   homepage = "https://github.com/tree-sitter/haskell-tree-sitter/tree/master/tree-sitter-typescript";
   description = "Tree-sitter grammar/parser for TypeScript";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

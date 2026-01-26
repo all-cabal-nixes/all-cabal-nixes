@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base gev-dist HUnit ];
   homepage = "https://github.com/HaeckGabriel/gev-lib-Haskell";
   description = "The family of Extreme Value Distributions";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

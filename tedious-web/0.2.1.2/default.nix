@@ -39,6 +39,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/xiongxiong/tedious-web#readme";
   description = "Easily define multiple interrelated data types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "tedious-web-exe";
 }

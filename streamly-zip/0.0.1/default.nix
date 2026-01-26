@@ -20,5 +20,5 @@ mkDerivation {
   testSystemDepends = [ zip ];
   homepage = "https://github.com/shlok/streamly-zip";
   description = "Stream data from zip archives using the streamly library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

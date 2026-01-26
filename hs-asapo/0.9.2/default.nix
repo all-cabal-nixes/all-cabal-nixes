@@ -17,5 +17,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base optparse-applicative text time ];
   homepage = "https://github.com/pmiddend/hs-asapo";
   description = "Haskell bindings for ASAP:O";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

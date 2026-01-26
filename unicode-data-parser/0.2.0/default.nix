@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring ];
   homepage = "https://gitlab.com/Wismill/unicode-data-parser";
   description = "Parsers for Unicode Character Database (UCD) files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

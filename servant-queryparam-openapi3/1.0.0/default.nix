@@ -11,5 +11,5 @@ mkDerivation {
     servant-queryparam-core servant-server text warp
   ];
   description = "Instances of classes from [openapi3](https://hackage.haskell.org/package/openapi3) for [servant-queryparam-server](https://hackage.haskell.org/package/servant-queryparam-server).";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

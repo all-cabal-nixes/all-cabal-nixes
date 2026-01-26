@@ -17,5 +17,5 @@ mkDerivation {
     tasty-quickcheck text vector
   ];
   description = "An implementation of the Futhark data format";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

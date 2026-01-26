@@ -10,5 +10,5 @@ mkDerivation {
     async base containers haskell-trottle stm tasty tasty-hunit time
   ];
   description = "A simple throttling library, which drops messages from same group";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

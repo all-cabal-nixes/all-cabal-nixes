@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/worm2fed/servant-prometheus#readme";
   description = "Helpers for using prometheus with servant";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

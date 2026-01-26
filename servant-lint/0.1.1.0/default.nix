@@ -15,5 +15,5 @@ mkDerivation {
     servant-multipart servant-server sydtest text
   ];
   description = "Lint Servant Routes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   benchmarkHaskellDepends = [ base criterion random ];
   description = "Line-indexed file reader";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

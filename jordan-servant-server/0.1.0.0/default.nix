@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/AnthonySuper/jordan";
   description = "Servers for Jordan-Based Servant Combinators";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

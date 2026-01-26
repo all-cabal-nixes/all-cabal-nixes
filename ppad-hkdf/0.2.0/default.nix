@@ -15,5 +15,5 @@ mkDerivation {
     base bytestring criterion ppad-sha256 ppad-sha512
   ];
   description = "A HMAC-based key derivation function";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

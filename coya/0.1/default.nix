@@ -8,5 +8,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chessai/coya";
   description = "Coya monoids";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

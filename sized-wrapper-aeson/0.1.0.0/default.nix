@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/blackheaven/sized-wrapper/sized-wrapper-aeson";
   description = "aeson instances for 'Sized'";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

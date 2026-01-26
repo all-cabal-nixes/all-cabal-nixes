@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring mono-traversable ];
   homepage = "https://github.com/YoshikuniJujo/bytestring-ft#readme";
   description = "Byte String implemented on Finger Tree";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

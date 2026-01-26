@@ -24,5 +24,5 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "QuickCheck entire APIs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

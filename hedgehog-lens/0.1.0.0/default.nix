@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hedgehog lens ];
   homepage = "https://github.com/solomon-b/hedgehog-lens";
   description = "Hedgehog properties for lens laws";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

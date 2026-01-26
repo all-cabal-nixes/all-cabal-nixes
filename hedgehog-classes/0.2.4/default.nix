@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chessai/hedgehog-classes";
   description = "Hedgehog will eat your typeclass bugs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

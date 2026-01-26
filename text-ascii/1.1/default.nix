@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-text/text-ascii";
   description = "ASCII string and character processing";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -15,5 +15,5 @@ mkDerivation {
     unordered-containers uuid vector
   ];
   librarySystemDepends = [ temporal_bridge ];
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -23,5 +23,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Bindings to Lua, an embeddable scripting language";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -19,6 +19,6 @@ mkDerivation {
     template-haskell text unordered-containers vector yaml
   ];
   description = "Stream eventlog data to the OpenTelemetry Collector";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "eventlog-live-otelcol";
 }

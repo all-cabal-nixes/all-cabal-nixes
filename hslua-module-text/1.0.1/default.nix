@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hslua/hslua";
   description = "Lua module for text";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

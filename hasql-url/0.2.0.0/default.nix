@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hasql tasty tasty-quickcheck ];
   homepage = "https://github.com/shinzui/hasql-url";
   description = "Parse PostgreSQL connection URI into Hasql.Connection Settings";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

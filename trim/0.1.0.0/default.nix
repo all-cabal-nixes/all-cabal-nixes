@@ -11,6 +11,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/ndrewtl/trim";
   description = "A command-line tool for trimming whitespace";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "trim";
 }

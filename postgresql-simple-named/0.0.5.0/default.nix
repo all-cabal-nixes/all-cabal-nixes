@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Holmusk/postgresql-simple-named";
   description = "Implementation of named parameters for `postgresql-simple` library";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

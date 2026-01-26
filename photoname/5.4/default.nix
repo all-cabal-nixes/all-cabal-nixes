@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/dino-/photoname";
   description = "Rename photo image files based on EXIF shoot date";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
   mainProgram = "photoname";
 }

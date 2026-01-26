@@ -21,5 +21,5 @@ mkDerivation {
     base containers deepseq tasty-bench tasty-hunit
   ];
   description = "Internal support for monoidmap";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/primitive";
   description = "Primitive memory-related operations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

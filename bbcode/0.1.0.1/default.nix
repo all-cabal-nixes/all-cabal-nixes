@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/repetitivesin/BBCode";
   description = "Library for parsing, constructing, and printing BBCode";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

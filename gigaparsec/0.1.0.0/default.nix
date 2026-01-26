@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base containers tasty tasty-hunit ];
   homepage = "https://github.com/j-mie6/gigaparsec";
   description = "Refreshed parsec-style library for compatiblity with Scala parsley";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

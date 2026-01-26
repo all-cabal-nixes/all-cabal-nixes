@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/base62";
   description = "Base62 encoding and decoding";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

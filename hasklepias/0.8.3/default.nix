@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/novisci/asclepias/#readme";
   description = "Define features from events";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

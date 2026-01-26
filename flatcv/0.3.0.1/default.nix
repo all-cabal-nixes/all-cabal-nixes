@@ -8,5 +8,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec vector ];
   homepage = "https://github.com/ad-si/FlatCV";
   description = "Haskell bindings for FlatCV image processing library";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

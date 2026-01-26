@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/lorenzo/web-view-colonnade";
   description = "Build HTML tables using web-view and colonnade";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

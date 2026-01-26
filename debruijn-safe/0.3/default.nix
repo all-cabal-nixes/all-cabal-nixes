@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0hlgml3nxhdc4d3arphhz51d85x6553cy5asjkabnqi8n0iffdpk";
   libraryHaskellDepends = [ base deepseq fin some ];
   description = "de Bruijn indices and levels";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

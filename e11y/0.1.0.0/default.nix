@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/shlevy/e11y";
   description = "An event-oriented observability library";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

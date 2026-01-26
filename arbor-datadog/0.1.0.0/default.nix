@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/arbor/arbor-datadog";
   description = "Datadog client for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

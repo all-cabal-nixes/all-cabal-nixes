@@ -23,5 +23,5 @@ mkDerivation {
     tasty-quickcheck these transformers witherable
   ];
   description = "Effectful streams and automata in coalgebraic encoding";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

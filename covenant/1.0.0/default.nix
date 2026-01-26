@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mlabs-haskell/covenant";
   description = "Standalone IR for Cardano scripts";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

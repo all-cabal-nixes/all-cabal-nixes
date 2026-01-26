@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/FinleyMcIlwaine/ebird-haskell";
   description = "Client functions for querying the eBird API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

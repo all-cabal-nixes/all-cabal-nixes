@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck ];
   homepage = "https://github.com/jonpetterbergman/step-function";
   description = "Staircase functions or piecewise constant functions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -15,6 +15,6 @@ mkDerivation {
     base HasBigDecimal tasty tasty-hunit tasty-quickcheck text
   ];
   description = "Calculate expressions involving significant figures";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "significant-figures-cli";
 }

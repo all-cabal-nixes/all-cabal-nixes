@@ -29,6 +29,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-works/avro-piper#readme";
   description = "Tool for decoding avro";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "avro-decode";
 }

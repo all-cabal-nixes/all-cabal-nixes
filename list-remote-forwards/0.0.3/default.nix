@@ -19,6 +19,6 @@ mkDerivation {
     tasty-hunit
   ];
   description = "List all remote forwards for mail accounts stored in a SQL database";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "list-remote-forwards";
 }

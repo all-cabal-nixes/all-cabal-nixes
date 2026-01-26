@@ -12,6 +12,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base criterion megaparsec text ];
   description = "Megaparsec parser for Godot `tscn` and `gdextension` files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "bench";
 }

@@ -17,6 +17,6 @@ mkDerivation {
   executablePkgconfigDepends = [ ncurses ];
   homepage = "https://mbays.sdf.org/fov/";
   description = "A terminal broughlike game about manipulating vision";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "fearOfView";
 }

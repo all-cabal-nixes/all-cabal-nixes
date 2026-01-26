@@ -38,5 +38,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kakkun61/postgresql-pure";
   description = "pure Haskell PostgreSQL driver";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

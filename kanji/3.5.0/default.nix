@@ -14,5 +14,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ aeson base containers criterion text ];
   homepage = "https://github.com/fosskers/kanji";
   description = "Perform 漢字検定 (Japan Kanji Aptitude Test) level analysis on Japanese Kanji";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

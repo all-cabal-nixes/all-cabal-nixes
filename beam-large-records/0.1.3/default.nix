@@ -15,5 +15,5 @@ mkDerivation {
     time
   ];
   description = "Integration of large-records with beam-core";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

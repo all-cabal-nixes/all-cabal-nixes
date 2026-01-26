@@ -12,5 +12,5 @@ mkDerivation {
     base bytestring hspec hspec-tmp-proc text tmp-proc
   ];
   description = "Launch ZipKin in docker using tmp-proc";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

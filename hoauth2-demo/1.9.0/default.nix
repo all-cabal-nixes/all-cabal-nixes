@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/freizl/hoauth2";
   description = "hoauth2 demo application";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "hoauth2-demo";
 }

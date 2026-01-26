@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/bellroy/unliftio-servant-server";
   description = "Use MonadUnliftIO on servant APIs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

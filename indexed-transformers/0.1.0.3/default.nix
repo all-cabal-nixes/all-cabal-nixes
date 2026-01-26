@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base free mtl transformers ];
   homepage = "https://github.com/morphismtech/indexed-transformers#readme";
   description = "Atkey indexed monad transformers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

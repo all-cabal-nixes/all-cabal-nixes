@@ -27,5 +27,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/cachix/cachix#readme";
   description = "Servant HTTP API specification for https://cachix.org";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

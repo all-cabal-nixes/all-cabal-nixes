@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Object orientation tools for HsLua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

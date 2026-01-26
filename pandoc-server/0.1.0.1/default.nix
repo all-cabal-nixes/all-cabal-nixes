@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://pandoc.org";
   description = "Pandoc document conversion as an HTTP servant-server";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

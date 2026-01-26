@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pierric/fei-examples#readme";
   description = "fei examples";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/schuelermine/ordering-util";
   description = "Utilities for Orderings";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

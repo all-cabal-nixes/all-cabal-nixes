@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://michael.orlitzky.com/code/mailbox-count.xhtml";
   description = "Count mailboxes in a SQL database";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "mailbox-count";
 }

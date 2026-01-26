@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/dino-/hscrtmpl#readme";
   description = "Haskell shell script templates";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

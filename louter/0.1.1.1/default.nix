@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/junjihashimoto/louter";
   description = "Multi-protocol LLM router and client library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

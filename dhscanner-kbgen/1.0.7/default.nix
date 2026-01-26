@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/OrenGitHub/dhscanner";
   description = "knowledge base predicates for static code analysis";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

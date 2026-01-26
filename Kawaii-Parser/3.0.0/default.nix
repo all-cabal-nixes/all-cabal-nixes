@@ -11,5 +11,5 @@ mkDerivation {
     base containers directory generic-lens lens mtl
   ];
   description = "A simple parsing library and some additional utilities";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

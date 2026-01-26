@@ -18,5 +18,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "WGPU";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

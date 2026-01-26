@@ -31,6 +31,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-rankselect#readme";
   description = "Rank-select";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hw-rankselect";
 }

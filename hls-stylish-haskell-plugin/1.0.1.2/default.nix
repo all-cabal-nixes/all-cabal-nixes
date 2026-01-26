@@ -6,5 +6,5 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "0r6dn3ygd3qx584acb92s8axp6jwy5w07i4fgvfv8all2ski2k2n";
   description = "Integration with the Stylish Haskell code formatter";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

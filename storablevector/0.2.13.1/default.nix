@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskell.org/haskellwiki/Storable_Vector";
   description = "Fast, packed, strict storable arrays with a list interface like ByteString";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

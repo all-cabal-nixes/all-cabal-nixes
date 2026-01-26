@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/scrive/log";
   description = "Structured logging solution (Elasticsearch back end)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-distributed/distributed-process";
   description = "The Cloud Haskell Application Platform";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

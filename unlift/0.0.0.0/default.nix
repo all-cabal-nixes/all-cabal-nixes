@@ -8,5 +8,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/unlift";
   description = "Typeclass for monads that can be unlifted to arbitrary base monads";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

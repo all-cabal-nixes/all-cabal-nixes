@@ -13,5 +13,5 @@ mkDerivation {
   librarySystemDepends = [ evdev ];
   libraryToolDepends = [ c2hs ];
   description = "Bindings to libevdev";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

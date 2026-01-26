@@ -12,5 +12,5 @@ mkDerivation {
     uuid-types vector
   ];
   description = "Generate swift types from haskell types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

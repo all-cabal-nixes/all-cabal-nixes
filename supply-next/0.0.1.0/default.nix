@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/supply-next";
   description = "Supply-chain interface for basic streaming";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

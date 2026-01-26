@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/fused-effects/fused-effects-readline";
   description = "A readline-like effect and carrier for fused-effects";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

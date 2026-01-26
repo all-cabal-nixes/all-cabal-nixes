@@ -9,5 +9,5 @@ mkDerivation {
   libraryHaskellDepends = [ rts ];
   librarySystemDepends = [ c ];
   description = "GHC primitives";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

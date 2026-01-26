@@ -8,5 +8,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/1Computer1/reorder-expression";
   description = "Reorder expressions in a syntax tree according to operator fixities";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

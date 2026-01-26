@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/njaremko/ory-kratos-haskell-sdk";
   description = "API bindings for Ory Kratos";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

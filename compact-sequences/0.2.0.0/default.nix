@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck tasty tasty-quickcheck ];
   homepage = "https://github.com/treeowl/compact-sequences/";
   description = "Stacks, queues, and deques with compact representations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

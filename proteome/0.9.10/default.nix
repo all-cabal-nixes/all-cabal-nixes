@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/proteome#readme";
   description = "Neovim Project Manager";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
   mainProgram = "proteome";
 }

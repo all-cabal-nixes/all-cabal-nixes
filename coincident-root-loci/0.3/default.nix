@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/bkomuves/coincident-root-loci";
   description = "Equivariant CSM classes of coincident root loci";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

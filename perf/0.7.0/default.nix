@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base deepseq doctest rdtsc ];
   homepage = "https://github.com/tonyday567/perf#readme";
   description = "Low-level run time measurement";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

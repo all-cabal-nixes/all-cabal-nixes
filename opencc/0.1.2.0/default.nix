@@ -9,5 +9,5 @@ mkDerivation {
   librarySystemDepends = [ opencc ];
   testHaskellDepends = [ base bytestring mtl text transformers ];
   description = "OpenCC bindings";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

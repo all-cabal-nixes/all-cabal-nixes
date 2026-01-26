@@ -26,6 +26,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/illia-shkroba/pfile#readme";
   description = "CLI program for profiles management";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "pfile";
 }

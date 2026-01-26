@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/seanhess/web-view";
   description = "Type-safe HTML and CSS with intuitive layouts and composable styles";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

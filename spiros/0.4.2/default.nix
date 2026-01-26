@@ -21,5 +21,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest ];
   homepage = "https://github.com/sboosali/spiros#readme";
   description = "Spiros Boosalis's Custom Prelude";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

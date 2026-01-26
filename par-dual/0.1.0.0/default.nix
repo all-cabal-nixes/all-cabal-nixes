@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/gvolpe/par-dual";
   description = "ParDual class for Parallel <-> Sequential";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

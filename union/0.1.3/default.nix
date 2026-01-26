@@ -10,5 +10,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base criterion deepseq lens ];
   description = "Extensible type-safe unions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

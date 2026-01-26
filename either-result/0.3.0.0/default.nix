@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "https://github.com/kakkun61/either-result";
   description = "‘MonadFail’ instance for a wrapper of ‘ExceptT String m a’";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

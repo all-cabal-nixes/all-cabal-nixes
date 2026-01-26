@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base filepath hls-test-utils text ];
   description = "Show fixity explicitly while hovering";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

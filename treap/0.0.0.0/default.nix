@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest Glob hspec hspec-core ];
   homepage = "https://github.com/chshersh/treap";
   description = "Efficient implementation of the implicit treap data structure";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

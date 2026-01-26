@@ -28,6 +28,6 @@ mkDerivation {
   testHaskellDepends = [ base HUnit ip mptcp text ];
   homepage = "https://github.com/teto/quantum2";
   description = "A Multipath TCP path manager";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "mptcp-pm";
 }

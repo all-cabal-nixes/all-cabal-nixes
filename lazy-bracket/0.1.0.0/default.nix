@@ -7,5 +7,5 @@ mkDerivation {
   libraryHaskellDepends = [ base exceptions ];
   testHaskellDepends = [ base doctest exceptions tasty tasty-hunit ];
   description = "A bracket with lazy resource allocation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

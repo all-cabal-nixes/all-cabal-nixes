@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/morphismtech/squeal/ltree";
   description = "LTree extension for Squeal";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

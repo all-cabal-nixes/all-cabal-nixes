@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/prolens";
   description = "Profunctor-based lightweight implementation of optics";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

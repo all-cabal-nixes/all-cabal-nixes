@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Lua module to work with file paths";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

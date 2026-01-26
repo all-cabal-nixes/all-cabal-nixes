@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base ersatz text ];
   homepage = "https://git.imn.htwk-leipzig.de/waldmann/ersatz-viz";
   description = "draw circuit (DAG) for Ersatz.Bit";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

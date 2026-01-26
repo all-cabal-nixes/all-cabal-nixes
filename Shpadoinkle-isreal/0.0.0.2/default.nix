@@ -17,6 +17,6 @@ mkDerivation {
     random servant servant-server text time warp
   ];
   description = "Isreal Swan will make a snowman for you!";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "isreal";
 }

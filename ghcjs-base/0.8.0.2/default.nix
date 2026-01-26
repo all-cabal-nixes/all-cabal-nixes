@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "07b13942219f3f5fbad2a67c29bf2553df46d18a260cd8133b6c852cc1a9e8dc";
   homepage = "http://github.com/ghcjs/ghcjs-base";
   description = "base library for GHCJS";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

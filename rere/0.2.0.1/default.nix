@@ -20,5 +20,5 @@ mkDerivation {
     vec
   ];
   description = "Regular-expressions extended with fixpoints for context-free powers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

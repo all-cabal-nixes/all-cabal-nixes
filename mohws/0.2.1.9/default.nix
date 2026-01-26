@@ -19,6 +19,6 @@ mkDerivation {
   executableHaskellDepends = [ base bytestring ];
   homepage = "http://code.haskell.org/mohws/";
   description = "Modular Haskell Web Server";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hws";
 }

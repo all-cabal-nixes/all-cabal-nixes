@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base deepseq profunctors semigroups ];
   homepage = "https://github.com/cutsea110/magma";
   description = "magma is an algebraic structure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://git.mangoiv.com/mangoiv/http-barf";
   description = "a library to make http requests without worrying much";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

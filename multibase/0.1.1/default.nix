@@ -16,5 +16,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest QuickCheck template-haskell ];
   homepage = "https://github.com/oscoin/ipfs";
   description = "Self-identifying base encodings, implementation of <https://github.com/multiformats/multihash>";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

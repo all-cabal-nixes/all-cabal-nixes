@@ -20,5 +20,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "Handlers for standard effects using Heftia";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

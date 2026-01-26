@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ghc safe ];
   homepage = "https://github.com/owensmurray/om-plugin-imports";
   description = "Plugin-based import warnings";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -16,6 +16,6 @@ mkDerivation {
     yaml
   ];
   homepage = "https://gitlab.com/Vonfry/yiyd";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "yiyd";
 }

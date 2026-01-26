@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hedgehogqa/haskell-hedgehog-classes";
   description = "Hedgehog will eat your typeclass bugs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/nikita-volkov/hasql-pool";
   description = "Pool of connections for Hasql";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

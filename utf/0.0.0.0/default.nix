@@ -8,5 +8,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge ];
   homepage = "https://github.com/strake/utf.hs";
   description = "UTF-8";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

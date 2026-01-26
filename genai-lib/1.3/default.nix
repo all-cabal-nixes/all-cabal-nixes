@@ -17,6 +17,6 @@ mkDerivation {
     text
   ];
   description = "Library and command line tool for interacting with various generative AI LLMs";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
   mainProgram = "genai";
 }

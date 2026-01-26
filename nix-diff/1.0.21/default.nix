@@ -26,6 +26,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Gabriella439/nix-diff";
   description = "Explain why two Nix derivations differ";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "nix-diff";
 }

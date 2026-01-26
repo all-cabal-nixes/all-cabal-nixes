@@ -14,5 +14,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Live processing of eventlog data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

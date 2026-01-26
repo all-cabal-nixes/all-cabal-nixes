@@ -17,5 +17,5 @@ mkDerivation {
     unliftio unordered-containers
   ];
   description = "Eval plugin for Haskell Language Server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

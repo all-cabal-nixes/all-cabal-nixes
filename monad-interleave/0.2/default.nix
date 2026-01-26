@@ -9,5 +9,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/sergv/monad-interleave";
   description = "Monads with an unsaveInterleaveIO-like operation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

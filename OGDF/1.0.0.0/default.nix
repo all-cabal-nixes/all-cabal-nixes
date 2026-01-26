@@ -11,5 +11,5 @@ mkDerivation {
   librarySystemDepends = [ COIN OGDF ];
   homepage = "https://github.com/wavewave/hs-ogdf";
   description = "Haskell binding to OGDF";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

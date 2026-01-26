@@ -28,6 +28,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/guibou/krank";
   description = "Krank checks issue tracker link status in your source code";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "krank";
 }

@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ocharles/dhall-to-cabal";
   description = "Compile Dhall expressions to Cabal files";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

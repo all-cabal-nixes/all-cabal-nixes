@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base vector ];
   homepage = "https://github.com/phadej/regression-simple";
   description = "Simple linear and quadratic regression";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

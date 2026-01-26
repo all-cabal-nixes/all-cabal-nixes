@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1k49g7iqkvqawjwz070wp7i9rg0vd3hiqkw1c4dklbjx0l6c4iml";
   libraryHaskellDepends = [ adjunctions base deepseq lens mtl ];
   description = "A library for writing predicates and transformations over predicates in Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

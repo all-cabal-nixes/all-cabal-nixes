@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base filepath hspec ];
   description = "Notify Honeybadger about exceptions";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

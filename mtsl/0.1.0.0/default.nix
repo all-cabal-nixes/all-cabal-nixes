@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl ];
   homepage = "https://github.com/SamuelSchlesinger/mtsl";
   description = "Reified monad transformer stacks";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

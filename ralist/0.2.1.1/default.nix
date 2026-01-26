@@ -10,5 +10,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq ];
   homepage = "http://github.com/cartazio/ralist";
   description = "Random access list with a list compatible interface";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

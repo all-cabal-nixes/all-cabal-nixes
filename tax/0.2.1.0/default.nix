@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base dollaridoos profunctors ];
   homepage = "https://github.com/frasertweedale/hs-tax";
   description = "Types and combinators for taxes";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

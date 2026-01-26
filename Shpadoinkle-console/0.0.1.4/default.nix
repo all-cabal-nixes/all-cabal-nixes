@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "7351ba29b4bea375cfd20a0d4fb19e02d3f136ac6654d6606dc9177450f6fba9";
   libraryHaskellDepends = [ aeson base jsaddle lens text unliftio ];
   description = "Support for the native browser console";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

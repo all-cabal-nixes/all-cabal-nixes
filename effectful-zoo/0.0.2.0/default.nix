@@ -21,5 +21,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/haskell-works/effectful-zoo#readme";
   description = "Effectful effects for testing";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/chris-martin/wordlist";
   description = "Command-line tool to get random words";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "wordlist";
 }

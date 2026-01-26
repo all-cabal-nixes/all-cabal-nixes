@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base numeric-prelude sample-frame ];
   homepage = "http://www.haskell.org/haskellwiki/Synthesizer";
   description = "Orphan instances for types from sample-frame and numericprelude";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

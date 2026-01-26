@@ -19,6 +19,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/habibalamin/wai-secure-cookies";
   description = "WAI middleware to automatically encrypt and sign cookies";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "waicookie-genkey";
 }

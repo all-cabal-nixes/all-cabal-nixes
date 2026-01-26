@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base gdp primitive ];
   homepage = "https://github.com/chessai/st2.git";
   description = "shared heap regions between local mutable state threads";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

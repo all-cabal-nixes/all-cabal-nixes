@@ -1,19 +1,20 @@
-{ mkDerivation, 3d-graphics-examples, 3dmodels, 4Blocks, a50
-, abc-puzzle, abcBridge, abeson, ABList, abnf, AbortT-monadstf
-, abstract-deque-tests, abt, AC-Boolean, AC-BuildPlatform
-, AC-Colour, AC-EasyRaster-GTK, AC-HalfInteger, ac-machine-conduit
-, AC-MiniTest, AC-PPM, AC-Random, AC-Terminal, AC-VanillaArray
-, AC-Vector-Fancy, accelerate-bignum, accelerate-fourier-benchmark
-, accelerate-typelits, accentuateus, access-time, accuerr, ace
-, acid-state-dist, acid-state-tls, ACME, acme-all-monad, acme-cadre
-, acme-cofunctor, acme-colosson, acme-comonad, acme-cutegirl
-, acme-default, acme-flipping-tables, acme-functors, acme-grawlix
-, acme-hq9plus, acme-http, acme-inator, acme-io, acme-iot
-, acme-kitchen-sink, acme-lolcat, acme-lookofdisapproval
-, acme-memorandom, acme-microwave, acme-miscorder, acme-missiles
-, acme-now, acme-numbersystem, acme-omitted, acme-one
-, acme-operators, acme-php, acme-pointful-numbers, acme-realworld
-, acme-safe, acme-schoenfinkel, acme-smuggler, acme-strfry
+{ mkDerivation, _3d-graphics-examples, _3dmodels, _4Blocks, _if
+, _type, a50, abc-puzzle, abcBridge, abeson, ABList, abnf
+, AbortT-monadstf, abstract-deque-tests, abt, AC-Boolean
+, AC-BuildPlatform, AC-Colour, AC-EasyRaster-GTK, AC-HalfInteger
+, ac-machine-conduit, AC-MiniTest, AC-PPM, AC-Random, AC-Terminal
+, AC-VanillaArray, AC-Vector-Fancy, accelerate-bignum
+, accelerate-fourier-benchmark, accelerate-typelits, accentuateus
+, access-time, accuerr, ace, acid-state-dist, acid-state-tls, ACME
+, acme-all-monad, acme-cadre, acme-cofunctor, acme-colosson
+, acme-comonad, acme-cutegirl, acme-default, acme-flipping-tables
+, acme-functors, acme-grawlix, acme-hq9plus, acme-http, acme-inator
+, acme-io, acme-iot, acme-kitchen-sink, acme-lolcat
+, acme-lookofdisapproval, acme-memorandom, acme-microwave
+, acme-miscorder, acme-missiles, acme-now, acme-numbersystem
+, acme-omitted, acme-one, acme-operators, acme-php
+, acme-pointful-numbers, acme-realworld, acme-safe
+, acme-schoenfinkel, acme-smuggler, acme-strfry
 , acme-stringly-typed, acme-strtok, acme-timemachine, acme-year
 , ActionKid, activehs, activitystreams-aeson, actor, Adaptive
 , Adaptive-Blaisorblade, adaptive-containers, adaptive-tuple, adb
@@ -713,7 +714,7 @@
 , IcoGrid, icon-fonts, iconv-typed, ide-backend-rts
 , ide-backend-server, ideas-math, idempotent, identicon
 , identifiers, idna2008, IDynamic, ieee-utils-tempfix
-, ieee754-parser, iException, if, iff, IFS, ig, ige-mac-integration
+, ieee754-parser, iException, iff, IFS, ig, ige-mac-integration
 , igraph, igrf, ihaskell-aeson, ihaskell-basic, ihaskell-charts
 , ihaskell-diagrams, ihaskell-display, ihaskell-hatex
 , ihaskell-inline-r, ihaskell-juicypixels, ihaskell-magic
@@ -1361,41 +1362,41 @@
 , twentefp-eventloop-trees, twentefp-graphs, twentefp-rosetree
 , twentefp-trees, twhs, twidge, twilight-stm, twilio, twill, twiml
 , twisty, twitter, twitter-enumerator, twitter-feed, Twofish, tx
-, txt2rtf, txtblk, TYB, typalyze, type, type-assertions
-, type-booleans, type-cache, type-equality-check
-, type-indexed-queues, type-int, type-iso, type-level-bst
-, type-level-integers, type-level-kv-list, type-map, type-prelude
-, type-settheory, type-structure, typeable-th, TypeClass
-, typed-duration, typed-streams, typed-wire-utils, typehash
-, TypeIlluminator, typeof, typeparams, typerbole, typesafe-precure
-, typescript-docs, TypingTester, tyro, u2f, ua-parser, uacpid
-, uAgda, uber, uberlast, uconv, udbus-model, udcode, udp-conduit
-, uhexdump, uid, UMM, una, unagi-bloomfilter, unagi-streams
-, unamb-custom, unbounded-delays-units, unboxed-containers
-, unboxed-ref, uncertain, ungadtagger, uni-uDrawGraph, unicode
-, unicode-names, unicode-normalization, unicode-prelude
-, unicode-symbols, unidecode, uniform-io, uniform-pair, union
-, union-map, uniq-deep, Unique, unique-logic, unique-logic-tf
-, uniqueid, unit, units-attoparsec, unittyped, unitym-servant
-, unitym-yesod, universal-binary, unix-fcntl, unix-handle
-, unix-io-extra, unix-memory, unix-process-conduit, unix-pty-light
-, Unixutils-shadow, unm-hip, unordered-containers-rematch
-, unordered-graphs, unroll-ghc-plugin, unsafe-promises, unsafely
-, unsafeperformst, unscramble, unusable-pkg, uom-plugin, up
-, up-grade, Updater, uploadcare, upskirt, ureader, urembed
-, uri-bytestring-aeson, uri-enumerator-file, url-generic, URLb
-, urlcheck, urldecode, UrlDisp, urldisp-happstack, URLT, urn, urxml
-, usb-enumerator, usb-hid, usb-iteratee, usb-safe, Useful
-, users-mysql-haskell, users-persistent, users-postgresql-simple
-, users-test, utc, utf8-prelude, UtilityTM, uu-cco-examples
-, uu-cco-hut-parsing, uu-cco-uu-parsinglib, uu-options, uu-tc
-, uuagc-bootstrap, uuagc-diagrams, uuagd, uuid-le, uuid-quasi
-, uvector-algorithms, uzbl-with-source, v4l2-examples, vacuum-cairo
-, vacuum-graphviz, vacuum-opengl, vacuum-ubigraph, valid-names
-, validate, validate-input, validated-literals, validated-types
-, Validation, validations, vampire, var, varan, variable-precision
-, variables, variation, vault-tool-server, vcache-trie, vcard
-, Vec-Boolean, VecN, vect-floating-accelerate, vector-buffer
+, txt2rtf, txtblk, TYB, typalyze, type-assertions, type-booleans
+, type-cache, type-equality-check, type-indexed-queues, type-int
+, type-iso, type-level-bst, type-level-integers, type-level-kv-list
+, type-map, type-prelude, type-settheory, type-structure
+, typeable-th, TypeClass, typed-duration, typed-streams
+, typed-wire-utils, typehash, TypeIlluminator, typeof, typeparams
+, typerbole, typesafe-precure, typescript-docs, TypingTester, tyro
+, u2f, ua-parser, uacpid, uAgda, uber, uberlast, uconv, udbus-model
+, udcode, udp-conduit, uhexdump, uid, UMM, una, unagi-bloomfilter
+, unagi-streams, unamb-custom, unbounded-delays-units
+, unboxed-containers, unboxed-ref, uncertain, ungadtagger
+, uni-uDrawGraph, unicode, unicode-names, unicode-normalization
+, unicode-prelude, unicode-symbols, unidecode, uniform-io
+, uniform-pair, union, union-map, uniq-deep, Unique, unique-logic
+, unique-logic-tf, uniqueid, unit, units-attoparsec, unittyped
+, unitym-servant, unitym-yesod, universal-binary, unix-fcntl
+, unix-handle, unix-io-extra, unix-memory, unix-process-conduit
+, unix-pty-light, Unixutils-shadow, unm-hip
+, unordered-containers-rematch, unordered-graphs, unroll-ghc-plugin
+, unsafe-promises, unsafely, unsafeperformst, unscramble
+, unusable-pkg, uom-plugin, up, up-grade, Updater, uploadcare
+, upskirt, ureader, urembed, uri-bytestring-aeson
+, uri-enumerator-file, url-generic, URLb, urlcheck, urldecode
+, UrlDisp, urldisp-happstack, URLT, urn, urxml, usb-enumerator
+, usb-hid, usb-iteratee, usb-safe, Useful, users-mysql-haskell
+, users-persistent, users-postgresql-simple, users-test, utc
+, utf8-prelude, UtilityTM, uu-cco-examples, uu-cco-hut-parsing
+, uu-cco-uu-parsinglib, uu-options, uu-tc, uuagc-bootstrap
+, uuagc-diagrams, uuagd, uuid-le, uuid-quasi, uvector-algorithms
+, uzbl-with-source, v4l2-examples, vacuum-cairo, vacuum-graphviz
+, vacuum-opengl, vacuum-ubigraph, valid-names, validate
+, validate-input, validated-literals, validated-types, Validation
+, validations, vampire, var, varan, variable-precision, variables
+, variation, vault-tool-server, vcache-trie, vcard, Vec-Boolean
+, VecN, vect-floating-accelerate, vector-buffer
 , vector-bytes-instances, vector-bytestring, vector-clock
 , vector-conduit, vector-functorlazy, vector-instances-collections
 , vector-mmap, vector-random, vector-space-map, vector-space-opengl
@@ -1507,9 +1508,9 @@ mkDerivation {
   version = "2017.7.10";
   sha256 = "3ef976a701ff043b5faccf48a1a6f9dcd77b778501e04c50cd143a346d869c59";
   libraryHaskellDepends = [
-    3d-graphics-examples 3dmodels 4Blocks a50 abc-puzzle abcBridge
-    abeson ABList abnf AbortT-monadstf abstract-deque-tests abt
-    AC-Boolean AC-BuildPlatform AC-Colour AC-EasyRaster-GTK
+    _3d-graphics-examples _3dmodels _4Blocks _if _type a50 abc-puzzle
+    abcBridge abeson ABList abnf AbortT-monadstf abstract-deque-tests
+    abt AC-Boolean AC-BuildPlatform AC-Colour AC-EasyRaster-GTK
     AC-HalfInteger ac-machine-conduit AC-MiniTest AC-PPM AC-Random
     AC-Terminal AC-VanillaArray AC-Vector-Fancy accelerate-bignum
     accelerate-fourier-benchmark accelerate-typelits accentuateus
@@ -2152,7 +2153,7 @@ mkDerivation {
     hypher hzenhan hzulip i18n iap-verifier iban ibus-hs iCalendar
     IcoGrid icon-fonts iconv-typed ide-backend-rts ide-backend-server
     ideas-math idempotent identicon identifiers idna2008 IDynamic
-    ieee-utils-tempfix ieee754-parser iException if iff IFS ig
+    ieee-utils-tempfix ieee754-parser iException iff IFS ig
     ige-mac-integration igraph igrf ihaskell-aeson ihaskell-basic
     ihaskell-charts ihaskell-diagrams ihaskell-display ihaskell-hatex
     ihaskell-inline-r ihaskell-juicypixels ihaskell-magic
@@ -2736,7 +2737,7 @@ mkDerivation {
     twentefp-eventloop-trees twentefp-graphs twentefp-rosetree
     twentefp-trees twhs twidge twilight-stm twilio twill twiml twisty
     twitter twitter-enumerator twitter-feed Twofish tx txt2rtf txtblk
-    TYB typalyze type type-assertions type-booleans type-cache
+    TYB typalyze type-assertions type-booleans type-cache
     type-equality-check type-indexed-queues type-int type-iso
     type-level-bst type-level-integers type-level-kv-list type-map
     type-prelude type-settheory type-structure typeable-th TypeClass

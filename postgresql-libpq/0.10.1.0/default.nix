@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring tasty tasty-hunit ];
   homepage = "https://github.com/haskellari/postgresql-libpq";
   description = "low-level binding to libpq";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

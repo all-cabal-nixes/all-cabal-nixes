@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-logging";
   description = "Opinionated logging utilities";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

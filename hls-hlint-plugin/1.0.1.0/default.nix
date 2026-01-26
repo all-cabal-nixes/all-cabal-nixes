@@ -16,5 +16,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "Hlint integration plugin with Haskell Language Server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

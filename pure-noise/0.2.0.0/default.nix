@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jtnuttall/pure-noise#readme";
   description = "High-performance composable noise generation (Perlin, Simplex, Cellular)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

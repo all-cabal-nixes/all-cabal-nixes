@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base process ];
   executableSystemDepends = [ openssl ];
   description = "The Stateless Password Manager";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "lesspass";
 }

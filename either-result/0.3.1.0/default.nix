@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "https://github.com/kakkun61/either-result";
   description = "The simplest ‘MonadFail’ instance";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

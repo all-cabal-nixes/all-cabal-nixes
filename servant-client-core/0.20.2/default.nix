@@ -18,5 +18,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://docs.servant.dev/";
   description = "Core functionality and class for client function generation for servant APIs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

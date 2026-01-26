@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "c811bda31ca6bc08da85172b7679455bde8356b30f7c01a24f666c4c3bc7052b";
   libraryHaskellDepends = [ array base io-classes stm ];
   description = "Strict STM interface polymorphic over stm implementation";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

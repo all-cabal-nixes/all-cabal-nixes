@@ -11,6 +11,6 @@ mkDerivation {
     base bytestring directory file-embed graph-trace-dot process
   ];
   description = "Converts a graph-trace log into an HTML document";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "graph-trace-viz";
 }

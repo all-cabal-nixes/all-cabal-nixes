@@ -11,5 +11,5 @@ mkDerivation {
     template-haskell transformers
   ];
   description = "GHC type-checker plugin for solving LiftT instances from codet";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

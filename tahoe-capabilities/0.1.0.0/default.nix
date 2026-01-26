@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://whetstone.private.storage/PrivateStorage/tahoe-capabilities";
   description = "Abstractions related to Tahoe-LAFS \"capabilities\"";
-  license = lib.licenses.lgpl3Plus;
+  license = lib.licensesSpdx."LGPL-3.0-or-later";
 }

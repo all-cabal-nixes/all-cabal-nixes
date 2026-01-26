@@ -10,5 +10,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc-prim ];
   testHaskellDepends = [ base ghc-prim tasty tasty-hunit ];
   description = "Duplicate any closure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

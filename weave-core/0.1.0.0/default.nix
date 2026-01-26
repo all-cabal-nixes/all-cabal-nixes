@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base some ];
   homepage = "https://gitlab.com/lysxia/weave";
   description = "Core definitions for weave";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -24,5 +24,5 @@ mkDerivation {
   testToolDepends = [ hlint ];
   homepage = "https://github.com/ncaq/himari";
   description = "A standard library for Haskell as an alternative to rio";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

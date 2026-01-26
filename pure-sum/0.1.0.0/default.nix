@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/blackheaven/pure-sum/pure-sum";
   description = "Derive fromString/toString-like for pure sum types";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

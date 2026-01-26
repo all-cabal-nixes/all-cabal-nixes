@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ];
   homepage = "https://github.com/typedbyte/chessica";
   description = "A Library for Chess Game Logic";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   isExecutable = true;
   homepage = "https://github.com/fgaz/shine/tree/master/shine-examples";
   description = "Examples for the shine package";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -14,6 +14,6 @@ mkDerivation {
     async base http-types prometheus wai warp
   ];
   description = "Instrument a wai application with various metrics";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "prometheus-wai-middleware-example";
 }

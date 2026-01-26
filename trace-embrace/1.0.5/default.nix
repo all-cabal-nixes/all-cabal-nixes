@@ -21,5 +21,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/yaitskov/trace-embrace";
   description = "Smart version of Debug.Trace module";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

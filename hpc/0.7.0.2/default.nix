@@ -9,5 +9,5 @@ mkDerivation {
     base containers deepseq directory filepath time
   ];
   description = "Code Coverage Library for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "http://rohandrape.net/t/hmt";
   description = "Haskell Music Theory";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

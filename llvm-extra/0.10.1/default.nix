@@ -22,5 +22,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://wiki.haskell.org/LLVM";
   description = "Utility functions for the llvm interface";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

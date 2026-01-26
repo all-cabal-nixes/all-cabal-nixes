@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "6648dccc011293bcb297e0572d353f9ccf47ccfc4aab513c737fab9a550f99c6";
   libraryHaskellDepends = [ base htmx lucid2 text ];
   description = "Use htmx with lucid";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

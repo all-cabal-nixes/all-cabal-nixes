@@ -10,5 +10,5 @@ mkDerivation {
     transformers
   ];
   description = "An opinionated Prelude replacement library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

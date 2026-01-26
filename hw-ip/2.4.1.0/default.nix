@@ -26,6 +26,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/haskell-works/hw-ip#readme";
   description = "Library for manipulating IP addresses and CIDR blocks";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hw-ip";
 }

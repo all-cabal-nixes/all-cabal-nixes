@@ -24,6 +24,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://git.sr.ht/~jack/nix-freeze-tree";
   description = "Convert a tree of files into fixed-output derivations";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "nix-freeze-tree";
 }

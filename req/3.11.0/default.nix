@@ -26,5 +26,5 @@ mkDerivation {
   doCheck = false;
   homepage = "https://github.com/mrkkrp/req";
   description = "HTTP client library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

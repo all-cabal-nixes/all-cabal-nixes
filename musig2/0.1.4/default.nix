@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/storopoli/musig2";
   description = "MuSig2 library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

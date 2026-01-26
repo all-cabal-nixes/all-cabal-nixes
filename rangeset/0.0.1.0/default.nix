@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/j-mie6/rangeset/tree/master";
   description = "Efficient sets for semi-contiguous data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

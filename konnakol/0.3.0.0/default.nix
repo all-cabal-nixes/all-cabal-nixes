@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/tidalcycles/konnakol-gsoc";
   description = "Formalising the rules of Konnakol, an Indian percussional art form";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

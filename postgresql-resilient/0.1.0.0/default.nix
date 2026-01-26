@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0j2klssj7d379i4vyp34p6n37wrc0ipl89az6k1aknh7n92c1ga2";
   libraryHaskellDepends = [ base exceptions postgresql-simple ];
   description = "Automatic re-connection support for PostgreSQL";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/rkaippully/webgear#readme";
   description = "Composable, type-safe library to build HTTP API servers";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

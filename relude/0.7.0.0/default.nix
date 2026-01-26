@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge unordered-containers ];
   homepage = "https://github.com/kowainik/relude";
   description = "Safe, performant, user-friendly and lightweight Haskell Standard Library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

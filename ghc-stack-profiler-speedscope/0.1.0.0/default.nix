@@ -15,6 +15,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base ];
   description = "Convert eventlog messages from `ghc-stack-profiler` into a speedscope json";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ghc-stack-profiler-speedscope";
 }

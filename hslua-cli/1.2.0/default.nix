@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Command-line interface for Lua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

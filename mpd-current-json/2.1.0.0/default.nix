@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/useless-utils/mpd-current-json";
   description = "Print current MPD song and status as JSON";
-  license = lib.licenses.unlicense;
+  license = lib.licensesSpdx."Unlicense";
   mainProgram = "mpd-current-json";
 }

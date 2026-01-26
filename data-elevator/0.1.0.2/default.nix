@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base hspec ];
   description = "Coerce between unlifted boxed and lifted types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

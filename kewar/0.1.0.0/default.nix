@@ -10,6 +10,6 @@ mkDerivation {
   executableHaskellDepends = [ array base containers split ];
   testHaskellDepends = [ array base containers HUnit split ];
   description = "CLI and library to generate QR codes";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "kewar";
 }

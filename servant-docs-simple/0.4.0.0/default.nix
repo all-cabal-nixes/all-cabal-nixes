@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Holmusk/servant-docs-simple";
   description = "Generate endpoints overview for Servant API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

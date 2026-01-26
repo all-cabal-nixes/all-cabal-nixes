@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/mstksg/dhall-text-shell";
   description = "Render dhall text with shell commands as function arguments";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "dhall-text-shell";
 }

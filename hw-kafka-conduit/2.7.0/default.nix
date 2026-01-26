@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/haskell-works/hw-kafka-conduit";
   description = "Conduit bindings for hw-kafka-client";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

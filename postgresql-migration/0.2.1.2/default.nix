@@ -20,6 +20,6 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec postgresql-simple ];
   homepage = "https://github.com/andrevdm/postgresql-migration";
   description = "PostgreSQL Schema Migrations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "migrate";
 }

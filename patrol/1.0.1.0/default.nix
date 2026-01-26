@@ -15,5 +15,5 @@ mkDerivation {
     http-types network-uri text time uuid
   ];
   description = "Sentry SDK";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

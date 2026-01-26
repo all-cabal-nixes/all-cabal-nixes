@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tsurucapital/enummapset-th";
   description = "TH-generated EnumSet/EnumMap wrappers around IntSet/IntMap";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

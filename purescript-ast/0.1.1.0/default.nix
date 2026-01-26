@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://www.purescript.org/";
   description = "PureScript Programming Language Abstract Syntax Tree";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

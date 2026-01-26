@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/attoparsec-data";
   description = "Parsers for the standard Haskell data types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

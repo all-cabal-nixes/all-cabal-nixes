@@ -23,5 +23,5 @@ mkDerivation {
     text time uri-bytestring xml-conduit xml-types
   ];
   description = "Streaming parser/renderer for the Atom 1.0 standard (RFC 4287).";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.iscpif.fr/gargantext/corenlp-types";
   description = "Types for interaction with CoreNLP";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

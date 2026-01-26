@@ -11,5 +11,5 @@ mkDerivation {
     transformers unliftio wai wai-app-static warp
   ];
   description = "A programming model for declarative, high performance user interface";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck ];
   homepage = "https://github.com/nikita-volkov/refined";
   description = "Refinement types with static and runtime checking";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

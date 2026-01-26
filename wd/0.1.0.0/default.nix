@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base directory process ];
   homepage = "https://github.com/kakkun61/wd";
   description = "Run a command on a specified directory";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "wd";
 }

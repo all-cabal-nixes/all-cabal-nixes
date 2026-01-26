@@ -11,5 +11,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/sheaf/acts";
   description = "Semigroup actions, groups, and torsors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

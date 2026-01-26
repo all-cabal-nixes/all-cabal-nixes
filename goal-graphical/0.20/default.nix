@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/sacha-sokoloski/goal";
   description = "Optimization of latent variable and dynamical models with Goal";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

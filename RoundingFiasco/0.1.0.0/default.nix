@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://gitlab.com/pauldennis/rounding-fiasco-hackage-package/-/tree/master/rounding-fiasco-hackage-package/processing/RoundingFiasco";
   description = "rounding variants floor, ceil and truncate for floating point operations +-*/√…";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

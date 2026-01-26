@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/extensions";
   description = "Parse Haskell Language Extensions";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "extensions";
 }

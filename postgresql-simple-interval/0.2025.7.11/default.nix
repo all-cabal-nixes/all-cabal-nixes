@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ attoparsec base bytestring hspec ];
   description = "A simple interval type for PostgreSQL";
-  license = lib.licenses.bsd0;
+  license = lib.licensesSpdx."0BSD";
 }

@@ -15,6 +15,6 @@ mkDerivation {
   testHaskellDepends = [ base containers sdl2 sdl2-image stm text ];
   homepage = "https://github.com/grinshpon/pine#readme";
   description = "Functional 2D Game Framework";
-  license = lib.licenses.zlib;
+  license = lib.licensesSpdx."Zlib";
   mainProgram = "pine-exe";
 }

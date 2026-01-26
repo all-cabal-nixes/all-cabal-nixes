@@ -23,6 +23,6 @@ mkDerivation {
     template-haskell text
   ];
   description = "Parse and render JSON";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "argo";
 }

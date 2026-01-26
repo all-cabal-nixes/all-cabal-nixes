@@ -13,5 +13,5 @@ mkDerivation {
     servant servant-client-core text transformers transformers-base
   ];
   description = "A servant client for frontend JavaScript";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

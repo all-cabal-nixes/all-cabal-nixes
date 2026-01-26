@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kaizhang/matrix-sized#readme";
   description = "Haskell matrix library with interface to C++ linear algebra libraries";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

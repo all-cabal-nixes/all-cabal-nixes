@@ -21,6 +21,6 @@ mkDerivation {
     base Diff directory process string-qq tasty temporary
   ];
   description = "Extend Cabal build-depends from the command line";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "cabal-add";
 }

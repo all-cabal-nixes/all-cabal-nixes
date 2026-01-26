@@ -22,6 +22,6 @@ mkDerivation {
     base bytestring criterion deepseq random snappy-lazy zlib
   ];
   description = "Bindings to Google's Snappy: A fast compression library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "snappy-cli";
 }

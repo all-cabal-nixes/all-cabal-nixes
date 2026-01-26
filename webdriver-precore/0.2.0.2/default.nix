@@ -19,5 +19,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/pyrethrum/webdriver-precore#readme";
   description = "A typed wrapper for W3C WebDriver (HTTP and BiDi) protocols";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/gregorycollins/token-limiter";
   description = "Fast rate limiting using the token bucket algorithm (BSD)";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

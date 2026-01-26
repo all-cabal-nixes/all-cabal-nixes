@@ -27,6 +27,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/blamario/language-Modula2";
   description = "Parser, pretty-printer, and more for the Modula-2 programming language";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "parse";
 }

@@ -9,5 +9,5 @@ mkDerivation {
     base optparse-applicative prettyprinter text
   ];
   description = "Extra functions for working with optparse-applicative";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

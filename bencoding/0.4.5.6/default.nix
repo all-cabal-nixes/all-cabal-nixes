@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sergv/bencoding";
   description = "A library for encoding and decoding of BEncode data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

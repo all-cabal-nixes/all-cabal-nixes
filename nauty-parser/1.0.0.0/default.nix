@@ -12,5 +12,5 @@ mkDerivation {
     array base bytestring HUnit text transformers
   ];
   description = "Parse/encode graph6, digraph6 and sparse6 formats (nauty)";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

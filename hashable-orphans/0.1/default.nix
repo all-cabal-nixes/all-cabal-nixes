@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hashable sorted-list time-compat ];
   homepage = "https://oss.xkcd.com/";
   description = "Provides instances missing from Hashable";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base rdf4h text ];
   homepage = "https://github.com/pniedzielski/rdf4h-vocab-activitystreams#readme";
   description = "The ActivityStreams 2 RDF vocabulary for rdf4h";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

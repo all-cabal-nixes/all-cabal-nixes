@@ -28,6 +28,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/LaurentRDC/pandoc-plot#readme";
   description = "A Pandoc filter to include figures generated from code blocks using your plotting toolkit of choice";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
   mainProgram = "pandoc-plot";
 }

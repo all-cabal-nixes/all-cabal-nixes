@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base config-value text ];
   homepage = "https://github.com/glguy/config-schema";
   description = "Schema definitions for the config-value package";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "http://iki.fi/matti.niemenmaa/list-tries/";
   description = "Tries and Patricia tries: finite sets and maps for list keys";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

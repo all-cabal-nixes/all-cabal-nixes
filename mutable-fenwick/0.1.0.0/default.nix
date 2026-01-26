@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ array base hspec vector ];
   homepage = "https://github.com/ParsaAlizadeh/fenwick-tree";
   description = "Mutable Fenwick trees";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

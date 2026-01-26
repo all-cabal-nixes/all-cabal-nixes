@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mrkkrp/megaparsec";
   description = "Monadic parser combinators";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

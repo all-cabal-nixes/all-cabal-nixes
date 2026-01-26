@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mordae/snack#readme";
   description = "Strict ByteString Parser Combinator";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

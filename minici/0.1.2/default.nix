@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "https://erebosprotocol.net/minici";
   description = "Minimalist CI framework to run checks on local machine";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "minici";
 }

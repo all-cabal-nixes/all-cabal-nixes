@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/emilypi/base32";
   description = "Fast RFC 4648-compliant Base32 encoding";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

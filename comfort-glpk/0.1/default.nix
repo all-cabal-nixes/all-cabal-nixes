@@ -20,5 +20,5 @@ mkDerivation {
     utility-ht
   ];
   description = "Linear Programming using GLPK and comfort-array";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

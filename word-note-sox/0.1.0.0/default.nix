@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://hackage.haskell.org/package/word-note-sox";
   description = "SoX for algorithmic composition with groups of notes liken to words";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

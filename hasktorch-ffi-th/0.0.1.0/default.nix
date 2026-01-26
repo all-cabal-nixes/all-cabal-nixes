@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Bindings to Torch";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

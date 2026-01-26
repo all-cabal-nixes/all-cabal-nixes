@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/sjbiaga/hascalam";
   description = "Haskell to and from Scalameta";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

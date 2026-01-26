@@ -16,6 +16,6 @@ mkDerivation {
     template-haskell unordered-containers
   ];
   description = "An implementation of LangChain in Haskell";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "typechain-exe";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/html-entities";
   description = "A codec library for HTML-escaped text and HTML-entities";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

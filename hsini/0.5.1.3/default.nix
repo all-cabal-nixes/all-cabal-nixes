@@ -11,5 +11,5 @@ mkDerivation {
     tasty-quickcheck tasty-th
   ];
   description = "ini configuration files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

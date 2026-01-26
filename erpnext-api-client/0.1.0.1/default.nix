@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/schoettl/erpnext-api-client";
   description = "Generic API client library for ERPNext";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

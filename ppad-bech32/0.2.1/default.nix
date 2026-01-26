@@ -13,5 +13,5 @@ mkDerivation {
     array base bytestring criterion deepseq
   ];
   description = "bech32 and bech32m encoding/decoding, per BIPs 173 & 350";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

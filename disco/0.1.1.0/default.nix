@@ -29,6 +29,6 @@ mkDerivation {
     base bytestring directory filepath process tasty tasty-golden
   ];
   description = "Functional programming language for teaching discrete math";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "disco";
 }

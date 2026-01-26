@@ -19,5 +19,5 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/NorfairKing/feedback#readme";
   description = "Declarative feedback loop manager";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

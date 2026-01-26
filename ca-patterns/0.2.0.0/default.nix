@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/UnaryPlus/ca-patterns";
   description = "Manipulate patterns in cellular automata, create and parse RLE files";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

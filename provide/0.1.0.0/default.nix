@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lens reflection vinyl ];
   testHaskellDepends = [ base vinyl ];
   description = "Lightweight dependency injection / namespaced+typed implicit-ish arguments";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

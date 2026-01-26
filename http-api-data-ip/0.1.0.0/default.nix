@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ attoparsec base http-api-data ip text ];
   homepage = "https://github.com/andrewthad/http-api-data-ip";
   description = "Code for using the ip package with http-api-data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

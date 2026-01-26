@@ -11,5 +11,5 @@ mkDerivation {
     servant-server template-haskell unordered-containers warp
   ];
   description = "Type-safe and efficient choreographies with location-set polymorphism";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

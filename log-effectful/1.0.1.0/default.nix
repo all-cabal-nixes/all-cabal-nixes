@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ aeson base effectful-core log-base text ];
   description = "Adaptation of the log library for the effectful ecosystem";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

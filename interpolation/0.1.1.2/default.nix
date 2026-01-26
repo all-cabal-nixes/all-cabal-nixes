@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/interpolation/";
   description = "piecewise linear and cubic Hermite interpolation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

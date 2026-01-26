@@ -18,6 +18,6 @@ mkDerivation {
     prettyprinter-ansi-terminal regex-tdfa
   ];
   description = "Handy tools for working with ghc-dump dumps";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ghc-dump";
 }

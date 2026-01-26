@@ -43,5 +43,5 @@ mkDerivation {
   ];
   homepage = "https://ihp.digitallyinduced.com/";
   description = "Haskell Web Framework";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

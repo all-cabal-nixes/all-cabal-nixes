@@ -18,5 +18,5 @@ mkDerivation {
     base bytestring filepath pretty-show tasty tasty-golden text
   ];
   description = "Parsing and evaluating typst syntax";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

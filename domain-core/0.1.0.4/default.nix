@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/domain-core";
   description = "Low-level API of \"domain\"";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

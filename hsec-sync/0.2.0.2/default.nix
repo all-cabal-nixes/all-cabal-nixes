@@ -20,6 +20,6 @@ mkDerivation {
     base directory filepath tasty tasty-hunit temporary text time
   ];
   description = "Synchronize with the Haskell security advisory database";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hsec-sync";
 }

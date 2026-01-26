@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base doctest hedgehog hedgehog-classes ];
   description = "circular vectors";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

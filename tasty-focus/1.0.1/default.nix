@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jonascarpay/tasty-focus#readme";
   description = "Simple focus mechanism for tasty";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

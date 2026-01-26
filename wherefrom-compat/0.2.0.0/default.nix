@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc-heap ];
   testHaskellDepends = [ base tasty tasty-hunit ];
   description = "A compatibility layer for GHC's 'wherefrom' function";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

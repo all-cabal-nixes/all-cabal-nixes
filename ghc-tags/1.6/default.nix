@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/arybczak/ghc-tags";
   description = "Utility for generating ctags and etags with GHC API";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "ghc-tags";
 }

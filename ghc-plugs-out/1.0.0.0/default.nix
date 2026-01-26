@@ -10,5 +10,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/blockscope/ghc-plugs-out";
   description = "Type checker plugins without the type checking";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

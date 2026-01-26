@@ -13,6 +13,6 @@ mkDerivation {
   executableHaskellDepends = [ base http-types wai warp ];
   homepage = "https://github.com/hercules-ci/warp-systemd";
   description = "Socket activation and other systemd integration for the Warp web server (WAI)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "warp-systemd-example";
 }

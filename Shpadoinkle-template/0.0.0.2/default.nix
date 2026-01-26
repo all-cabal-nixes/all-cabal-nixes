@@ -15,5 +15,5 @@ mkDerivation {
     Shpadoinkle Shpadoinkle-backend-static template-haskell text
   ];
   description = "Read standard file formats into Shpadoinkle with Template Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

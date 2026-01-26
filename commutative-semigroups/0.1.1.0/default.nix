@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "f3a29a44c6c02d8845b39a744c51ee5ab3775d5a66959a8df86e36643ee1641d";
   libraryHaskellDepends = [ base containers ];
   description = "Commutative semigroups";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

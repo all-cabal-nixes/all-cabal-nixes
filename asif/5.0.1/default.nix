@@ -33,6 +33,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/packetloop/asif#readme";
   description = "Library for creating and querying segmented feeds";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "asif";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/blackheaven/typed-range";
   description = "An efficient and versatile typed range library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

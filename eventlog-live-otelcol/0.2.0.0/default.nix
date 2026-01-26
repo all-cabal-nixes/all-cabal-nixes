@@ -15,6 +15,6 @@ mkDerivation {
     proto-lens random text unordered-containers vector
   ];
   description = "Stream eventlog data to the OpenTelemetry Collector";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "eventlog-live-otelcol";
 }

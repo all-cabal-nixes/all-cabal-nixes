@@ -16,6 +16,6 @@ mkDerivation {
     base containers tasty tasty-hunit text transformers
   ];
   description = "Toy dependency injection framework";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "cauldron-example-wiring";
 }

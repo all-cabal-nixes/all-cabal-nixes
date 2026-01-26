@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec pretty-simple QuickCheck text ];
   testToolDepends = [ hspec-discover ];
   description = "Library to control network protocols";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "856271f37d9caf412504f16900358c66ec18bc0f0ee66d967e9b820d110ac7d2";
   libraryHaskellDepends = [ base ];
   description = "A library to provide special kind of big numbers writing";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

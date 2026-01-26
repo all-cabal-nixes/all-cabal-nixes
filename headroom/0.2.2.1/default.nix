@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/vaclavsvejcar/headroom";
   description = "License Header Manager";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "headroom";
 }

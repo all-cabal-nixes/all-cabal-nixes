@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lens strict-tuple ];
   homepage = "https://github.com/emilypi/strict-tuple-lens";
   description = "Optics for the `strict-tuple` library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

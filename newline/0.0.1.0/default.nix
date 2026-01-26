@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text ];
   homepage = "https://github.com/edemko/hs-newline";
   description = "newline specifications as values";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

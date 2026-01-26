@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/phoityne/pty-mcp-server";
   description = "pty-mcp-server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "pty-mcp-server";
 }

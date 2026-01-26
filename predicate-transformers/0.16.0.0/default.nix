@@ -10,5 +10,5 @@ mkDerivation {
     recover-rtti text
   ];
   description = "A library for writing predicates and transformations over predicates in Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

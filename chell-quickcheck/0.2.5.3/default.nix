@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base chell QuickCheck random ];
   homepage = "https://github.com/typeclasses/chell";
   description = "QuickCheck support for the Chell testing library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

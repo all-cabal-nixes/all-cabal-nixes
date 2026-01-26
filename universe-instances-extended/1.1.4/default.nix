@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/dmwit/universe";
   description = "Universe instances for types from selected extra packages";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

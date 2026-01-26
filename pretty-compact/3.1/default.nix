@@ -12,5 +12,5 @@ mkDerivation {
     unordered-containers wl-pprint
   ];
   description = "Pretty-printing library";
-  license = lib.licenses.lgpl3Only;
+  license = lib.licensesSpdx."LGPL-3.0-only";
 }

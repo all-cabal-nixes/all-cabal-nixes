@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Marshalling of values between Haskell and Lua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

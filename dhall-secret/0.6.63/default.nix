@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jcouyang/dhall-secret";
   description = "Encrypt Decrypt Dhall expressions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "dhall-secret";
 }

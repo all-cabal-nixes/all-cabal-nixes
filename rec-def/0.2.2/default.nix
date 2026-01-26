@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nomeata/haskell-rec-def";
   description = "Recursively defined values";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

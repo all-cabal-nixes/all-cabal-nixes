@@ -17,5 +17,5 @@ mkDerivation {
     integer-gmp old-locale scientific text time transformers
   ];
   description = "Combinator-based type-safe formatting (like printf() or FORMAT)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

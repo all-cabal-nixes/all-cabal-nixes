@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/seanhess/hyperbole";
   description = "Web Framework inspired by HTMX";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "example";
 }

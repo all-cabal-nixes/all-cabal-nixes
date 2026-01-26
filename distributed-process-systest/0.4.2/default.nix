@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-distributed/distributed-process-systest";
   description = "Cloud Haskell Test Support";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

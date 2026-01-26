@@ -17,5 +17,5 @@ mkDerivation {
   libraryToolDepends = [ alex happy ];
   homepage = "https://github.com/digital-asset/ghc-lib";
   description = "The GHC API, decoupled from GHC versions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

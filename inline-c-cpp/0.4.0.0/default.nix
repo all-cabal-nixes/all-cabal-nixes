@@ -12,5 +12,5 @@ mkDerivation {
     base containers hspec inline-c safe-exceptions
   ];
   description = "Lets you embed C++ code into Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

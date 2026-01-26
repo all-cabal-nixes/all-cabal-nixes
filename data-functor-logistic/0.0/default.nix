@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1m2xhx3b80imcrmnw5jvak7rz82g0pym5bjnli6l69mwjfkpfrkl";
   libraryHaskellDepends = [ base distributive ];
   description = "Updatable analogue of Distributive functors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,6 +12,6 @@ mkDerivation {
     X11
   ];
   description = "A unix-style (read from stdin, write to stdout) global hotkey daemon";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "spartacon";
 }

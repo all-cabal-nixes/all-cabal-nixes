@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://erebosprotocol.net/tester";
   description = "Test framework with virtual network using Linux namespaces";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "erebos-tester";
 }

@@ -12,6 +12,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/schuelermine/ret";
   description = "A tool that returns to a landmark parent directory";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "ret";
 }

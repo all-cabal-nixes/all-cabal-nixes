@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.iscpif.fr/gargantext/haskell-bee";
   description = "Reusable test suite for any haskell-bee Broker implementation";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

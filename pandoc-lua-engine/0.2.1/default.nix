@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://pandoc.org";
   description = "Lua engine to power custom pandoc conversions";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

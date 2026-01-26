@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/meowgorithm/mr-env#readme";
   description = "A simple way to read environment variables in Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

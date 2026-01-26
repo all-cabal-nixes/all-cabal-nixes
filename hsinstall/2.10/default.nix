@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/dinofp/hsinstall";
   description = "Install Haskell software";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
   mainProgram = "hsinstall";
 }

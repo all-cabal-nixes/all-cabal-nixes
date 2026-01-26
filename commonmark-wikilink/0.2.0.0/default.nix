@@ -16,5 +16,5 @@ mkDerivation {
     url-slug
   ];
   description = "Obsidian-friendly commonmark wikilink parser";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

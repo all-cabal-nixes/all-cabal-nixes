@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base containers GLFW-b stm text ];
   homepage = "https://github.com/YoshikuniJujo/glfw-group#readme";
   description = "GLFW package with window groups destroyed together";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "glfw-group-exe";
 }

@@ -17,5 +17,5 @@ mkDerivation {
     Shpadoinkle-backend-static text unliftio wai wai-app-static warp
   ];
   description = "A single page application rounter for Shpadoinkle based on Servant";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -17,5 +17,5 @@ mkDerivation {
     quickcheck-text raw-strings-qq scientific text
   ];
   description = "JSON with Structure";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

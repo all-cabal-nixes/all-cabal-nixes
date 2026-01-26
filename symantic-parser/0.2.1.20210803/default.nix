@@ -27,5 +27,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://git.hut.sourcephile.fr/~julm/symantic-parser";
   description = "Parser combinators statically optimized and staged via typed meta-programming";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

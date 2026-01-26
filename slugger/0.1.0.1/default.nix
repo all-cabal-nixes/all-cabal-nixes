@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec text text-icu ];
   homepage = "https://github.com/rpearce/slugger";
   description = "Clean URI slugs for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "slugger";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "Ergonomic process launching with extreme flexibility and speed";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

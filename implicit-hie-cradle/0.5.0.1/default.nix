@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/Avi-D-coder/implicit-hie-cradle#readme";
   description = "Auto generate hie-bios cradles";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

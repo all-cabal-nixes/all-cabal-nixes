@@ -15,6 +15,6 @@ mkDerivation {
     microlens microlens-platform text time unordered-containers vty
   ];
   description = "A simple TUI using ghc-debug";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ghc-debug-brick";
 }

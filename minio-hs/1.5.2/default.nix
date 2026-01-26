@@ -32,5 +32,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/minio/minio-hs#readme";
   description = "A MinIO Haskell Library for Amazon S3 compatible cloud storage";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

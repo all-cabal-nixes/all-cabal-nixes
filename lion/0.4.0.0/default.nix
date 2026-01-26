@@ -11,5 +11,5 @@ mkDerivation {
     ghc-typelits-knownnat ghc-typelits-natnormalise ice40-prim lens mtl
   ];
   description = "RISC-V Core";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

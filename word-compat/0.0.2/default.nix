@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "36e5a1a17f20935f55bf274fb52cbb028d301fd48d814f574d3171ccc6bc9f98";
   libraryHaskellDepends = [ base ghc-prim ];
   description = "Compatibility shim for the Int/Word internal change in GHC 9.2";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

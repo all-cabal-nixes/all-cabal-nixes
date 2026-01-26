@@ -13,6 +13,6 @@ mkDerivation {
     utility-ht
   ];
   description = "Generate Pkg-Config configuration file for LLVM";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "llvm-pkg-config";
 }

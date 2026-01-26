@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fosskers/streaming-osm";
   description = "A hand-written streaming byte parser for OpenStreetMap Protobuf data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base filepath hls-test-utils text ];
   description = "A Haskell Language Server plugin that qualifies imported names";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

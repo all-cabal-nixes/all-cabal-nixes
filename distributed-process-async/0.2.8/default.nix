@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-distributed/distributed-process";
   description = "Cloud Haskell Async API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

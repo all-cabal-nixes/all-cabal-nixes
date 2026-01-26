@@ -17,6 +17,6 @@ mkDerivation {
     storablevector synthesizer-core temporary transformers utility-ht
   ];
   description = "Approximate a song from other pieces of sound";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "sound-collage";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   testToolDepends = [ tasty-discover ];
   description = "Higher-order version of Freer";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

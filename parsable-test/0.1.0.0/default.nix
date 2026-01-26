@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/gentoo-haskell/cabal-portage/tree/main/parsable-test";
   description = "Test functions for the parsable package";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
 }

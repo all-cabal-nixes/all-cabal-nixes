@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc-prim ];
   testHaskellDepends = [ base ];
   description = "Compatibility shim for the Int/Word internal change in GHC 9.2";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

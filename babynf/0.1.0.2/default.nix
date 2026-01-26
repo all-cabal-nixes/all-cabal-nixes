@@ -10,5 +10,5 @@ mkDerivation {
     attoparsec base bytestring tasty tasty-hunit
   ];
   description = "Library for generating parsers from ABNF";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

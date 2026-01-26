@@ -18,5 +18,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://hub.darcs.net/thielema/comfort-array-shape/";
   description = "Additional shape types for the comfort-array package";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

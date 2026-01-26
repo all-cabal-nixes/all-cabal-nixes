@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base unlifted ];
   homepage = "https://github.com/andrewthad/natural-arithmetic";
   description = "Arithmetic of natural numbers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

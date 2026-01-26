@@ -21,6 +21,6 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "Generate Haskell boilerplate";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "boilerplate";
 }

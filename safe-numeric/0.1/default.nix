@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base containers doctest ];
   homepage = "https://github.com/infinity0/hs-safe-numeric";
   description = "Safe arithmetic operations";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

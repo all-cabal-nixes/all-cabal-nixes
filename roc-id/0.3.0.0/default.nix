@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jonathanknowles/roc-id#readme";
   description = "Implementation of the ROC (Taiwan) Uniform ID Number format";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

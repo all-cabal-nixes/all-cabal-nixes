@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ array base containers text ];
   homepage = "https://github.com/jwaldmann/haskell-obdd";
   description = "Ordered Reduced Binary Decision Diagrams";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

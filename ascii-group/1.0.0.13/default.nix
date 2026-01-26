@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ ascii-char base hedgehog ];
   homepage = "https://github.com/typeclasses/ascii";
   description = "ASCII character groups";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ array base containers random ];
   homepage = "http://haskellformaths.blogspot.com/";
   description = "Combinatorics, group theory, commutative algebra, non-commutative algebra";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

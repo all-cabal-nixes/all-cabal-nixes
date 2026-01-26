@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest QuickCheck ];
   homepage = "https://github.com/tonyday567/numhask#readme";
   description = "A numeric class hierarchy";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

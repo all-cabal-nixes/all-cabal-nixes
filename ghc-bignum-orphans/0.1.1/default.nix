@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc-bignum ];
   homepage = "https://github.com/haskell-compat/ghc-bignum-orphans";
   description = "Backwards-compatible orphan instances for ghc-bignum";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

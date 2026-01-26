@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/awakesecurity/nix-graph";
   description = "Reify the Nix build graph into a Haskell graph data structure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "nix-graph";
 }

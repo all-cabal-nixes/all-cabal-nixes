@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/414owen/context-free-art";
   description = "Generate art from context-free grammars";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "tests";
 }

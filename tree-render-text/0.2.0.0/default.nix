@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base boxes containers mtl ];
   homepage = "https://github.com/thomaseding/tree-render-text";
   description = "Configurable text rendering of trees";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

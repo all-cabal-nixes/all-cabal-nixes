@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/gpu-vulkan-middle-khr-swapchain#readme";
   description = "medium wrapper for VK_KHR_swapchain extension of the Vulkan API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

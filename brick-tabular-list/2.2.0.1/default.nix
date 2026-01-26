@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/amano.kenji/brick-tabular-list";
   description = "Tabular list widgets for brick";
-  license = lib.licenses.bsd0;
+  license = lib.licensesSpdx."0BSD";
 }

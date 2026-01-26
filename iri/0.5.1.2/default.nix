@@ -18,5 +18,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/nikita-volkov/iri";
   description = "RFC-compliant universal resource identifier library (URL, URI, IRI)";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

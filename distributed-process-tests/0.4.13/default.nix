@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-distributed/distributed-process/tree/master/distributed-process-tests";
   description = "Tests and test support tools for distributed-process";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

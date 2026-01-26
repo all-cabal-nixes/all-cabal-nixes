@@ -30,5 +30,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/winterland1989/mysql-haskell";
   description = "pure haskell MySQL driver";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

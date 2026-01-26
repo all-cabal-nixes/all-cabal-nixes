@@ -12,5 +12,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "Haskell Language Server API for plugin communication";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -1,4 +1,4 @@
-{ mkDerivation, assert, base, containers, deepseq, grid, lib
+{ mkDerivation, _assert, base, containers, deepseq, grid, lib
 , MonadRandom, QuickCheck, random, test-framework
 , test-framework-quickcheck2
 }:
@@ -7,10 +7,10 @@ mkDerivation {
   version = "8.1.1";
   sha256 = "0f04542a3b2a343516a4329e9659b25730d3308cc989a05e8e093501e3d71699";
   libraryHaskellDepends = [
-    assert base containers deepseq grid MonadRandom
+    _assert base containers deepseq grid MonadRandom
   ];
   testHaskellDepends = [
-    assert base containers grid MonadRandom QuickCheck random
+    _assert base containers grid MonadRandom QuickCheck random
     test-framework test-framework-quickcheck2
   ];
   homepage = "https://github.com/mhwombat/som";

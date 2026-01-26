@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "http://awgn.github.io/cgrep/";
   description = "Command line tool";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
   mainProgram = "cgrep";
 }

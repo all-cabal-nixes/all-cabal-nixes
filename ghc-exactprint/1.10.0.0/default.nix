@@ -13,5 +13,5 @@ mkDerivation {
     ghc-paths HUnit silently syb
   ];
   description = "ExactPrint for GHC";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

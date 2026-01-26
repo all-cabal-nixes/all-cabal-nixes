@@ -15,5 +15,5 @@ mkDerivation {
     http-client-tls http-types req text wai warp warp-tls
   ];
   description = "Run 'tmp' processes in integration tests";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base generics-sop vector ];
   testHaskellDepends = [ base ];
   description = "An implementation of extensible products and sums";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

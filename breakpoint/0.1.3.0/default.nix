@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base containers tasty tasty-hunit ];
   description = "Set breakpoints using a GHC plugin";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

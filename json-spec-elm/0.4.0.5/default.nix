@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base containers elm-syntax json-spec text ];
   homepage = "https://github.com/owensmurray/json-spec-elm";
   description = "Elm code generate for `json-spec`";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

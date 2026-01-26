@@ -19,6 +19,6 @@ mkDerivation {
     vector
   ];
   description = "A drop-in replacement for nix-serve that's faster and more stable";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "nix-serve";
 }

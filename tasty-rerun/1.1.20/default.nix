@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/ocharles/tasty-rerun";
   description = "Rerun only tests which failed in a previous test run";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

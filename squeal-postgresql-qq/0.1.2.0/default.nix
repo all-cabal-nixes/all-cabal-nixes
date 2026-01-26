@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/squeal-postgresql-qq";
   description = "QuasiQuoter transforming raw sql into Squeal expressions";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

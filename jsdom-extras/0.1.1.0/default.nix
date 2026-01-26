@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "05c91c468aec9017b03a758e9ccda682a2fc973d763603c6b02330bdab0a2336";
   libraryHaskellDepends = [ aeson base jsaddle lens text ];
   description = "Convenience utilities for JSDOM";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/domain-aeson";
   description = "Integration of domain with aeson";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring containers mtl text ];
   homepage = "https://github.com/Matthew-Mosior/text-compression";
   description = "A text compression library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

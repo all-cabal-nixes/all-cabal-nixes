@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bindings-DSL ];
   libraryPkgconfigDepends = [ libpci ];
   description = "Low level bindings to libpci";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -22,6 +22,6 @@ mkDerivation {
     base bytestring directory doclayout filepath tasty-bench
   ];
   description = "Parser and renderer for djot light markup syntax";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "djoths";
 }

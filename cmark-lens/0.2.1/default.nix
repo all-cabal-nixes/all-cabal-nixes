@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base cmark hspec lens text ];
   homepage = "https://github.com/ingun37/cmark-lens";
   description = "Collection of lens for CMark with minimal dependencies";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

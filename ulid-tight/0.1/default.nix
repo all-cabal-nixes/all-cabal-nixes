@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/ijaketak/ulid-tight";
   description = "Another ULID implementation with tight memory representation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

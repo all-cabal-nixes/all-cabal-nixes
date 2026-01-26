@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base base-prelude ];
   testHaskellDepends = [ base base-prelude ];
   description = "A Future type that is easy to represent and handle in C/C++";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

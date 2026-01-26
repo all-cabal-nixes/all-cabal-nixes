@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base containers tasty tasty-hunit ];
   homepage = "http://github.com/kostmo/AhoCorasick";
   description = "Aho-Corasick string matching algorithm";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

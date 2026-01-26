@@ -12,5 +12,5 @@ mkDerivation {
     unliftio
   ];
   description = "Shpadoinkle as a static site";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

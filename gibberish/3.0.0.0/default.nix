@@ -32,5 +32,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://www.github.com/sgillespie/gibberish";
   description = "Generate easy-to-remember, hard-to-guess passwords";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

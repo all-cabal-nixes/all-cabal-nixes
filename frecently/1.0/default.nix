@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jonascarpay/frecently#readme";
   description = "CLI frecency history";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "frecently";
 }

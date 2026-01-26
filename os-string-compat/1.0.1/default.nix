@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Anteproperispomenon/os-string-compat#readme";
   description = "Compatibility layer for os-string";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

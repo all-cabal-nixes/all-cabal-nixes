@@ -6,5 +6,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/RamiroPastor/SvgIcons";
   description = "Svg Icons and more";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ fourmolu ];
   homepage = "https://github.com/haskell/haskell-language-server";
   description = "Integration with the Fourmolu code formatter";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

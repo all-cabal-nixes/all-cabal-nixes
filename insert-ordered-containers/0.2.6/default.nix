@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/insert-ordered-containers#readme";
   description = "Associative containers retaining insertion order for traversals";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

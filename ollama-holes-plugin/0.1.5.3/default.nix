@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Tritlo/OllamaHoles";
   description = "A typed-hole plugin that uses LLMs to generate valid hole-fits";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

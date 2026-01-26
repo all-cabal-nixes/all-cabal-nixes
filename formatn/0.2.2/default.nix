@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers QuickCheck text ];
   homepage = "https://github.com/tonyday567/formatn#readme";
   description = "Formatting of doubles";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

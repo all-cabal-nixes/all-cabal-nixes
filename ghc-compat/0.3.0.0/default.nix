@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "961acd263400bf232ee2aea44cc15ccbde6a5fd818b1dd4cecf06f920ed5e9df";
   libraryHaskellDepends = [ base ];
   description = "GHC compatibility for MicroHs";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

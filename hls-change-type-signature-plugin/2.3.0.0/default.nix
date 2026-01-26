@@ -14,5 +14,5 @@ mkDerivation {
     base filepath hls-test-utils lsp QuickCheck regex-tdfa text
   ];
   description = "Change a declarations type signature with a Code Action";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

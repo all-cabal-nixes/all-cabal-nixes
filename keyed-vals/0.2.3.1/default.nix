@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/adetokunbo/keyed-vals#readme";
   description = "An abstract Handle for accessing collections in stores like Redis";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

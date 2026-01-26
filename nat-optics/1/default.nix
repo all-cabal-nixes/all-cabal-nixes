@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base optics-core text ];
   homepage = "https://github.com/typeclasses/nat-optics";
   description = "Refinement types for natural numbers with an optics interface";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

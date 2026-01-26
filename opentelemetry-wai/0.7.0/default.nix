@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring http-types opentelemetry text wai
   ];
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

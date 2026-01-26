@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ gogol-core ];
   homepage = "https://github.com/brendanhay/gogol";
   description = "Google + SDK";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

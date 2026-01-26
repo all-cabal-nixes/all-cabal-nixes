@@ -17,5 +17,5 @@ mkDerivation {
     base filepath hls-test-utils row-types text
   ];
   description = "HLS Plugin to expand TemplateHaskell Splices and QuasiQuotes";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

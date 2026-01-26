@@ -8,5 +8,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/haskellari/postgresql-libpq";
   description = "low-level binding to libpq: pkg-config based provider";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

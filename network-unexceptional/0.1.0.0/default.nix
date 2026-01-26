@@ -9,5 +9,5 @@ mkDerivation {
     base byteslice error-codes network posix-api primitive
   ];
   description = "Network functions that do not throw exceptions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

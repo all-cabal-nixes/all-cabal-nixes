@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc-prim ];
   homepage = "http://github.com/cutsea110/stable-marriage";
   description = "algorithms around stable marriage";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

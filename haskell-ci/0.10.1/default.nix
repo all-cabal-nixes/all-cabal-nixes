@@ -27,6 +27,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://haskell-ci.rtfd.org/";
   description = "Cabal package script generator for Travis-CI";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "haskell-ci";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog ];
   homepage = "https://github.com/robrix/interval-functor";
   description = "Intervals of functors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

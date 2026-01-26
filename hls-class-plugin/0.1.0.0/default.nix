@@ -11,5 +11,5 @@ mkDerivation {
     hls-plugin-api lens shake text transformers unordered-containers
   ];
   description = "Explicit imports plugin for Haskell Language Server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

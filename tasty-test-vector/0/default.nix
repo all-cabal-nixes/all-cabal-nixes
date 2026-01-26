@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base tasty ];
   homepage = "https://oss.xkcd.com/";
   description = "Test vector support for tasty";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

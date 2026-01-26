@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base random resourcet time ];
   homepage = "https://github.com/k0001/hs-job";
   description = "Job queue";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

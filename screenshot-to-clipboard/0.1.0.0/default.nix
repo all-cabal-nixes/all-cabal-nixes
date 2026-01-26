@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/cdepillabout/screenshot-to-clipboard";
   description = "Take screenshot and copy it to the system clipboard";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "screenshot-to-clipboard";
 }

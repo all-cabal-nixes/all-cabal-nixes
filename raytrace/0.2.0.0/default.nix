@@ -14,5 +14,5 @@ mkDerivation {
     base Color linear massiv massiv-io mtl random
   ];
   description = "Ray tracing library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

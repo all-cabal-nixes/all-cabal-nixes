@@ -26,10 +26,6 @@ mkDerivation {
     random syb tagsoup temporary texmath time utf8-string xml
     zip-archive zlib
   ];
-  postInstall = ''
-    mkdir -p $out/share
-    mv $data/*/*/man $out/share/
-  '';
   homepage = "http://johnmacfarlane.net/pandoc";
   description = "Conversion between markup formats";
   license = "GPL";

@@ -10,5 +10,5 @@ mkDerivation {
     prosidy text unordered-containers
   ];
   description = "A DSL for processing Prosidy documents";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

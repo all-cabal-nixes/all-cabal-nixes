@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/coot#readme";
   description = "A compiler plugin which generates tags file from GHC syntax tree";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

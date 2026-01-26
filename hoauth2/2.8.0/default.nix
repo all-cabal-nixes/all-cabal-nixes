@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/freizl/hoauth2";
   description = "Haskell OAuth2 authentication client";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

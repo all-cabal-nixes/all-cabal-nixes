@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/dotparse#readme";
   description = "dot language parsing and printing";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

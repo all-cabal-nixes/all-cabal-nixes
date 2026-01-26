@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/base64-bytes";
   description = "Base64 encoding of byte sequences";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

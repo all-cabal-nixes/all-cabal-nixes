@@ -8,5 +8,5 @@ mkDerivation {
     base bytestring hashable template-haskell
   ];
   description = "Runtime for fficxx-generated library";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/ngua/heddit";
   description = "Reddit API bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

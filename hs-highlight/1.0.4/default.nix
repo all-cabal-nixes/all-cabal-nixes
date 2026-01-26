@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/Lorenzobattistela/hs-highlight";
   description = "A tool to highlight terminal strings";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "test-exe";
 }

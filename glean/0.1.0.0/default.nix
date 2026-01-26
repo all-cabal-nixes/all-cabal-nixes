@@ -3,19 +3,19 @@
 , bytestring, clock, containers, contravariant, criterion
 , data-default, deepseq, directory, exceptions, extra, fb-util
 , filepath, fmt, fuzzy, gflags, ghc, ghc-compact, ghc-prim, Glob
-, gtest_main, happy, hashable, haskeline, haxl, hie-compat, hiedb
-, hinotify, http-types, HUnit, icu, IntervalMap, json, lib
-, libfolly, libglog, libunwind, libxxhash, mangle, microlens
-, monad-control, mtl, network, network-uri, optparse-applicative
-, parsec, pretty, prettyprinter, prettyprinter-ansi-terminal
-, primitive, process, process-extras, proto-lens
-, proto-lens-runtime, QuickCheck, quickcheck-io, quickcheck-text
-, random, regex-base, regex-pcre, rocksdb, safe, safe-exceptions
-, scientific, SHA, split, stm, STMonadTrans, tar, tasty
-, tasty-hunit-adapter, template-haskell, temporary, text, text-show
-, thrift-haxl, thrift-http, thrift-lib, time, transformers, unix
-, unordered-containers, uri-encode, utf8-string, uuid, vector
-, vector-algorithms, wai, warp, yaml
+, glog, gtest_main, happy, hashable, haskeline, haxl, hie-compat
+, hiedb, hinotify, http-types, HUnit, icu, IntervalMap, json, lib
+, libfolly, libunwind, mangle, microlens, monad-control, mtl
+, network, network-uri, optparse-applicative, parsec, pretty
+, prettyprinter, prettyprinter-ansi-terminal, primitive, process
+, process-extras, proto-lens, proto-lens-runtime, QuickCheck
+, quickcheck-io, quickcheck-text, random, regex-base, regex-pcre
+, rocksdb, safe, safe-exceptions, scientific, SHA, split, stm
+, STMonadTrans, tar, tasty, tasty-hunit-adapter, template-haskell
+, temporary, text, text-show, thrift-haxl, thrift-http, thrift-lib
+, time, transformers, unix, unordered-containers, uri-encode
+, utf8-string, uuid, vector, vector-algorithms, wai, warp, xxHash
+, yaml
 }:
 mkDerivation {
   pname = "glean";
@@ -41,7 +41,7 @@ mkDerivation {
   ];
   librarySystemDepends = [ atomic ];
   libraryPkgconfigDepends = [
-    fmt gflags icu libfolly libglog libunwind libxxhash rocksdb
+    fmt gflags glog icu libfolly libunwind rocksdb xxHash
   ];
   libraryToolDepends = [ alex happy ];
   executableHaskellDepends = [
@@ -71,5 +71,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/facebookincubator/Glean";
   description = "A system for collecting, deriving and working with facts about source code";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

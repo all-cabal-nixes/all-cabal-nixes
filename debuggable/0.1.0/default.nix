@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ async base optparse-applicative ];
   description = "Utilities for making your applications more debuggable";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

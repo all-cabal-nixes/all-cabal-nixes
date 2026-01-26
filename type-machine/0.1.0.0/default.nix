@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Arthi-chaud/type-machine#readme";
   description = "Template Haskell-based Type functions on record types in Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "vector-example";
 }

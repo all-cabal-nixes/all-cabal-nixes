@@ -27,6 +27,6 @@ mkDerivation {
     semigroups text time transformers unordered-containers vector
   ];
   description = "Neptune Client";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "example-app";
 }

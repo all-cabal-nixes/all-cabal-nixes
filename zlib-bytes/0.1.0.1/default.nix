@@ -12,5 +12,5 @@ mkDerivation {
     base byteslice bytestring primitive tasty tasty-quickcheck
   ];
   description = "zlib compression bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

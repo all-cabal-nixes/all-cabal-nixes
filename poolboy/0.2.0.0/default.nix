@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec hspec-core ];
   homepage = "https://github.com/blackheaven/poolboy";
   description = "Simple work queue for bounded concurrency";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

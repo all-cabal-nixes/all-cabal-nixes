@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/georgefst/svgone";
   description = "Optimise SVGs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "svgone";
 }

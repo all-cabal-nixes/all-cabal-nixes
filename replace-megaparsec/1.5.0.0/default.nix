@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec megaparsec text ];
   homepage = "https://github.com/jamesdbrock/replace-megaparsec";
   description = "Find, replace, split string patterns with Megaparsec parsers (instead of regex)";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

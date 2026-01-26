@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base fin lens vec ];
   homepage = "https://github.com/phadej/vec";
   description = "Vec: length-indexed (sized) list: lens support";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

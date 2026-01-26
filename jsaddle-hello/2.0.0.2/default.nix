@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ghcjs/jsaddle-hello";
   description = "JSaddle Hello World, an example package";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

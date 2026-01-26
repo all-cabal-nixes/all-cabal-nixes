@@ -13,5 +13,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/UnaryPlus/sound-change";
   description = "Apply sound changes to words";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

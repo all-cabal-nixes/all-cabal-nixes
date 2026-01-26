@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "Massiv-based alternative for gloss-raster";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

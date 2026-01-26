@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://whetstone.private.storage/PrivateStorage/tahoe-ssk";
   description = "An implementation of the Tahoe-LAFS SSK cryptographic protocols";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

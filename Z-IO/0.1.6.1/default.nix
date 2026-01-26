@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-Z/Z-IO";
   description = "Simple and high performance IO toolkit for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

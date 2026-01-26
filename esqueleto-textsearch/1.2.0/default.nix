@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jappeace/esqueleto-textsearch";
   description = "PostgreSQL full text search for Esqueleto";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

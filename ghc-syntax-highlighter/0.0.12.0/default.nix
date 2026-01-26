@@ -11,5 +11,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/mrkkrp/ghc-syntax-highlighter";
   description = "Syntax highlighter for Haskell using the lexer of GHC";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

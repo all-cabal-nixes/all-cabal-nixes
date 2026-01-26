@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/aionescu/oplang#readme";
   description = "Stack-based esoteric programming language";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "oplang";
 }

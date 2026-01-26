@@ -45,5 +45,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Log-structured merge-trees";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

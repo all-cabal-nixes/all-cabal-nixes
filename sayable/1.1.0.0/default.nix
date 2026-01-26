@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring exceptions prettyprinter text
   ];
   description = "Data structures, classes and operators for constructing context-adjusted pretty output";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

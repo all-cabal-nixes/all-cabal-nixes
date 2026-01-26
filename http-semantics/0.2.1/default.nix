@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kazu-yamamoto/http-semantics";
   description = "HTTP senmatics libarry";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

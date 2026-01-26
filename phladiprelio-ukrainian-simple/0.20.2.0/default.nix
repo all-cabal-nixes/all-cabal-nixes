@@ -35,6 +35,6 @@ mkDerivation {
     rhythmic-sequences ukrainian-phonetics-basic-array
   ];
   description = "A PhLADiPreLiO implementation for Ukrainian that uses hashes and asynchronous concurrency";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "phladiprelioUkr";
 }

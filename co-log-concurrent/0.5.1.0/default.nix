@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base co-log-core stm ];
   homepage = "https://github.com/qnikst/co-log-concurrent/";
   description = "Asynchronous backend for co-log library";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

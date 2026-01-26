@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fumieval/membership";
   description = "Indices for type level lists";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

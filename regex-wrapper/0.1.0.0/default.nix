@@ -10,5 +10,5 @@ mkDerivation {
     regex-tdfa string-conv text
   ];
   description = "Types that can only be constructed if they match a regular expression";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

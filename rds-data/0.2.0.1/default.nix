@@ -24,5 +24,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "http://github.com/haskell-works/rds-data#readme";
   description = "Codecs for use with AWS rds-data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

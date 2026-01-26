@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://www.github.com/solomon-b/kindly-functors";
   description = "A category polymorphic `Functor` typeclass";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

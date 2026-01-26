@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/amesgen/hs-rustls/tree/main/http-client-rustls";
   description = "http-client TLS backend using Rustls";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

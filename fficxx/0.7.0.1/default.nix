@@ -15,5 +15,5 @@ mkDerivation {
     template-haskell text transformers unordered-containers
   ];
   description = "Automatic C++ binding generation";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

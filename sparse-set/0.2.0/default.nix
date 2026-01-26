@@ -12,6 +12,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   benchmarkHaskellDepends = [ base criterion deepseq vector ];
   description = "Sparse set data structure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "sparse-set";
 }

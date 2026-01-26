@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base effectful-core stm ];
   homepage = "https://github.com/typedbyte/resource-effectful";
   description = "A region-based resource effect for the effectful ecosystem";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

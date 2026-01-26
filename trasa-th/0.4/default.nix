@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base trasa ];
   homepage = "https://github.com/haskell-trasa/trasa";
   description = "Template Haskell to generate trasa routes";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/arbor/arbor-postgres#readme";
   description = "Convenience types and functions for postgresql-simple";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

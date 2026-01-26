@@ -1,17 +1,17 @@
-{ mkDerivation, 3d-graphics-examples, 3dmodels, 4Blocks, a50
-, abc-puzzle, abeson, ABList, AbortT-monadstf, abstract-deque-tests
-, abt, AC-Boolean, AC-BuildPlatform, AC-Colour, AC-EasyRaster-GTK
-, AC-HalfInteger, ac-machine-conduit, AC-MiniTest, AC-PPM
-, AC-Random, AC-Terminal, AC-VanillaArray, AC-Vector-Fancy
-, accelerate-examples, accelerate-fourier-benchmark, accentuateus
-, access-time, ace, acid-state-tls, ACME, acme-cadre
-, acme-cofunctor, acme-colosson, acme-comonad, acme-cutegirl
-, acme-hq9plus, acme-http, acme-inator, acme-io, acme-lolcat
-, acme-lookofdisapproval, acme-microwave, acme-miscorder
-, acme-missiles, acme-now, acme-numbersystem, acme-omitted
-, acme-php, acme-pointful-numbers, acme-realworld, acme-safe
-, acme-schoenfinkel, acme-strfry, acme-stringly-typed, acme-strtok
-, acme-timemachine, acme-year, ActionKid, activehs
+{ mkDerivation, _3d-graphics-examples, _3dmodels, _4Blocks, _assert
+, _type, a50, abc-puzzle, abeson, ABList, AbortT-monadstf
+, abstract-deque-tests, abt, AC-Boolean, AC-BuildPlatform
+, AC-Colour, AC-EasyRaster-GTK, AC-HalfInteger, ac-machine-conduit
+, AC-MiniTest, AC-PPM, AC-Random, AC-Terminal, AC-VanillaArray
+, AC-Vector-Fancy, accelerate-examples
+, accelerate-fourier-benchmark, accentuateus, access-time, ace
+, acid-state-tls, ACME, acme-cadre, acme-cofunctor, acme-colosson
+, acme-comonad, acme-cutegirl, acme-hq9plus, acme-http, acme-inator
+, acme-io, acme-lolcat, acme-lookofdisapproval, acme-microwave
+, acme-miscorder, acme-missiles, acme-now, acme-numbersystem
+, acme-omitted, acme-php, acme-pointful-numbers, acme-realworld
+, acme-safe, acme-schoenfinkel, acme-strfry, acme-stringly-typed
+, acme-strtok, acme-timemachine, acme-year, ActionKid, activehs
 , activitystreams-aeson, actor, Adaptive, Adaptive-Blaisorblade
 , adaptive-containers, adaptive-tuple, adb, adblock2privoxy
 , addLicenseInfo, adict, adobe-swatch-exchange, adp-multi-monadiccp
@@ -57,20 +57,19 @@
 , arithmatic, armada, array-memoize, array-primops, array-utils
 , ArrayRef, arrow-improve, arrow-list, arrowp, ArrowVHDL, artery
 , arx, arxiv, ascii-progress, ascii85-conduit, asic, ASN1, asn1dump
-, assembler, assert, assertions, assimp, astrds, astview
-, async-extras, async-manager, async-pool, asynchronous-exceptions
-, atl, atlassian-connect-core, atmos-dimensional
-, atmos-dimensional-tf, atom-msp430, atomic-primops-foreign
-, atomic-primops-vector, atomic-write, AttoBencode, attoparsec-arff
-, attoparsec-csv, attoparsec-parsec, attoparsec-text-enumerator
-, attosplit, Attrac, atuin, audacity, augur, aur, Aurochs
-, authinfo-hs, authoring, auto, AutoForms, autoproc, avahi, AVar
-, avers, avl-static, avr-shake, awesomium-glut, AWin32Console
-, aws-cloudfront-signer, aws-dynamodb-streams
-, aws-elastic-transcoder, aws-lambda, aws-route53
-, aws-sdk-xml-unordered, aws-sns, azure-servicebus, azurify, b-tree
-, babylon, backdropper, backtracking-exceptions, backward-state
-, bacteria, bag, Baggins, bake, bamboo-launcher
+, assembler, assertions, assimp, astrds, astview, async-extras
+, async-manager, async-pool, asynchronous-exceptions, atl
+, atlassian-connect-core, atmos-dimensional, atmos-dimensional-tf
+, atom-msp430, atomic-primops-foreign, atomic-primops-vector
+, atomic-write, AttoBencode, attoparsec-arff, attoparsec-csv
+, attoparsec-parsec, attoparsec-text-enumerator, attosplit, Attrac
+, atuin, audacity, augur, aur, Aurochs, authinfo-hs, authoring
+, auto, AutoForms, autoproc, avahi, AVar, avers, avl-static
+, avr-shake, awesomium-glut, AWin32Console, aws-cloudfront-signer
+, aws-dynamodb-streams, aws-elastic-transcoder, aws-lambda
+, aws-route53, aws-sdk-xml-unordered, aws-sns, azure-servicebus
+, azurify, b-tree, babylon, backdropper, backtracking-exceptions
+, backward-state, bacteria, bag, Baggins, bake, bamboo-launcher
 , bamboo-plugin-highlight, bamboo-plugin-photo
 , bamboo-theme-mini-html5, bamse, bamstats, Bang
 , bank-holidays-england, barchart, barcodes-code128, barley
@@ -930,7 +929,7 @@
 , twentefp-graphs, twentefp-rosetree, twentefp-trees, twhs, twidge
 , twilight-stm, twilio, twill, twiml, twisty, twitch, twitter
 , twitter-enumerator, twitter-feed, Twofish, tx, txt2rtf, txtblk
-, TYB, typalyze, type, type-booleans, type-equality-check, type-int
+, TYB, typalyze, type-booleans, type-equality-check, type-int
 , type-iso, type-level-bst, type-list, type-prelude, type-settheory
 , type-structure, typeable-th, TypeClass, typehash, TypeIlluminator
 , TypeNat, typeof, typeparams, typescript-docs, TypingTester, tz
@@ -1034,11 +1033,11 @@ mkDerivation {
   version = "2015.5.4.1";
   sha256 = "5f32f4e87662b7c7b993cab50631c20c489de3a21db08ea82dadd06d05614f12";
   libraryHaskellDepends = [
-    3d-graphics-examples 3dmodels 4Blocks a50 abc-puzzle abeson ABList
-    AbortT-monadstf abstract-deque-tests abt AC-Boolean
-    AC-BuildPlatform AC-Colour AC-EasyRaster-GTK AC-HalfInteger
-    ac-machine-conduit AC-MiniTest AC-PPM AC-Random AC-Terminal
-    AC-VanillaArray AC-Vector-Fancy accelerate-examples
+    _3d-graphics-examples _3dmodels _4Blocks _assert _type a50
+    abc-puzzle abeson ABList AbortT-monadstf abstract-deque-tests abt
+    AC-Boolean AC-BuildPlatform AC-Colour AC-EasyRaster-GTK
+    AC-HalfInteger ac-machine-conduit AC-MiniTest AC-PPM AC-Random
+    AC-Terminal AC-VanillaArray AC-Vector-Fancy accelerate-examples
     accelerate-fourier-benchmark accentuateus access-time ace
     acid-state-tls ACME acme-cadre acme-cofunctor acme-colosson
     acme-comonad acme-cutegirl acme-hq9plus acme-http acme-inator
@@ -1087,8 +1086,8 @@ mkDerivation {
     archnews arff arguedit ariadne arion arithmatic armada
     array-memoize array-primops array-utils ArrayRef arrow-improve
     arrow-list arrowp ArrowVHDL artery arx arxiv ascii-progress
-    ascii85-conduit asic ASN1 asn1dump assembler assert assertions
-    assimp astrds astview async-extras async-manager async-pool
+    ascii85-conduit asic ASN1 asn1dump assembler assertions assimp
+    astrds astview async-extras async-manager async-pool
     asynchronous-exceptions atl atlassian-connect-core
     atmos-dimensional atmos-dimensional-tf atom-msp430
     atomic-primops-foreign atomic-primops-vector atomic-write
@@ -1869,7 +1868,7 @@ mkDerivation {
     tweak twentefp twentefp-eventloop-trees twentefp-graphs
     twentefp-rosetree twentefp-trees twhs twidge twilight-stm twilio
     twill twiml twisty twitch twitter twitter-enumerator twitter-feed
-    Twofish tx txt2rtf txtblk TYB typalyze type type-booleans
+    Twofish tx txt2rtf txtblk TYB typalyze type-booleans
     type-equality-check type-int type-iso type-level-bst type-list
     type-prelude type-settheory type-structure typeable-th TypeClass
     typehash TypeIlluminator TypeNat typeof typeparams typescript-docs

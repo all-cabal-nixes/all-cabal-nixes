@@ -15,5 +15,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Support for the Sockets and Pipes book";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

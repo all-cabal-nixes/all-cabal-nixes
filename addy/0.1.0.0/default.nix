@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pjones/addy";
   description = "A full-featured library for parsing, validating, and rendering email addresses";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

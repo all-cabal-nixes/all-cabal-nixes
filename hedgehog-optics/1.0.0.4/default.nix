@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hedgehog optics-core ];
   homepage = "https://github.com/typeclasses/hedgehog-optics";
   description = "Hedgehog properties for optics laws";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

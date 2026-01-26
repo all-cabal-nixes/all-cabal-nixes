@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq integer-gmp ];
   homepage = "https://github.com/ff-notes/ron";
   description = "RON";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

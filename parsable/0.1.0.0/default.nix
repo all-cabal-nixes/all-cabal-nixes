@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base parsec text transformers ];
   homepage = "https://github.com/gentoo-haskell/cabal-portage/tree/main/parsable";
   description = "Parsable and Printable classes";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
 }

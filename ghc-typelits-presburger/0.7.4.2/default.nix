@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/konn/ghc-typelits-presburger#readme";
   description = "Presburger Arithmetic Solver for GHC Type-level natural numbers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

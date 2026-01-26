@@ -27,6 +27,6 @@ mkDerivation {
   testToolDepends = [ ghcide implicit-hie ];
   homepage = "https://github.com/haskell/haskell-language-server/tree/master/ghcide#readme";
   description = "An LSP client for running performance experiments on HLS";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "ghcide-bench";
 }

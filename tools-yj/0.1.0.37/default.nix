@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/tools-yj#readme";
   description = "Tribial tools";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
     unordered-containers uuid-types vector
   ];
   description = "Structure (hash) of your data types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

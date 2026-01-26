@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/gtollini/webdriver-wrapper#readme";
   description = "Wrapper around the webdriver package that automatically manages Selenium";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

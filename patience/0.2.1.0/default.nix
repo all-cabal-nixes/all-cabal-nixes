@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ];
   homepage = "https://github.com/chessai/patience";
   description = "Patience diff and longest increasing subsequence";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/rashadg1030/matcha#readme";
   description = "A micro web framework based on pattern matching";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "matcha-exe";
 }

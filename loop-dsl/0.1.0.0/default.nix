@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec mtl transformers vector ];
   homepage = "https://github.com/ailrk/loop-dsl";
   description = "monadic loop dsl";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

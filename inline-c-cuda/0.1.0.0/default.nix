@@ -16,5 +16,5 @@ mkDerivation {
     safe-exceptions template-haskell vector
   ];
   description = "Lets you embed CUDA code into Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

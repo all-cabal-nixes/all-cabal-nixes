@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/bkomuves/polynomial-algebra";
   description = "Multivariate polynomial rings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

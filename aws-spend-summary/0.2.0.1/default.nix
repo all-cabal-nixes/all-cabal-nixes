@@ -18,6 +18,6 @@ mkDerivation {
     base data-default optparse-applicative text
   ];
   description = "Extract recent daily AWS costs";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
   mainProgram = "aws-spend-summary";
 }

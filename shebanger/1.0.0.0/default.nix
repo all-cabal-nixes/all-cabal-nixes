@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/cdepillabout/shebanger";
   description = "Transform a shell script into a series of scripts with only shebang lines";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "shebanger";
 }

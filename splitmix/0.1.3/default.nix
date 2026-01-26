@@ -18,5 +18,5 @@ mkDerivation {
     base containers criterion random tf-random
   ];
   description = "Fast Splittable PRNG";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

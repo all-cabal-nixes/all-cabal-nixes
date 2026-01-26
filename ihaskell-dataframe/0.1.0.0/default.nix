@@ -17,6 +17,6 @@ mkDerivation {
   ];
   testHaskellDepends = [ base dataframe ihaskell text ];
   homepage = "https://github.com/githubuser/ihaskell-dataframe#readme";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ihaskell-dataframe-exe";
 }

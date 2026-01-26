@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lens tell ];
   homepage = "https://github.com/LightAndLight/tell";
   description = "MonadTell-based lens combinators";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

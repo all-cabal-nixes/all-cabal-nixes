@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/awkward-squad/cretheus";
   description = "A clean aeson wrapper";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

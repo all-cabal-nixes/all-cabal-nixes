@@ -7,5 +7,5 @@ mkDerivation {
   libraryToolDepends = [ c2hs ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "C-types for Cutorch";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://ema.srid.ca/";
   description = "Static site generator library with hot reload";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
 }

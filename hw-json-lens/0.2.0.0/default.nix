@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-json-lens#readme";
   description = "Lens for hw-json";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

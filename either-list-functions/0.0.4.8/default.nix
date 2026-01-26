@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest ];
   homepage = "https://github.com/typeclasses/either-list-functions";
   description = "Functions involving lists of Either";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

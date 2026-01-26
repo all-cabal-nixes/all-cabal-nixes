@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/twesterhout/halide-haskell";
   description = "Haskell bindings to Halide";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fumieval/webauthn";
   description = "Web Authentication API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jvstinian/h3-hs";
   description = "A Haskell binding for H3";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

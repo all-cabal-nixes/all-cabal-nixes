@@ -18,5 +18,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/Holmusk/elm-street";
   description = "Crossing the road between Haskell and Elm";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

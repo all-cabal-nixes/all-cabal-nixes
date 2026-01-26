@@ -25,5 +25,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/junjihashimoto/intelli-monad";
   description = "Type level prompt with openai";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

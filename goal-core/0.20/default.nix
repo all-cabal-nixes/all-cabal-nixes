@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/sacha-sokoloski/goal";
   description = "Common, non-geometric tools for use with Goal";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

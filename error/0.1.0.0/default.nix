@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text ];
   homepage = "https://github.com/Profpatsch/error";
   description = "The canonical error type";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

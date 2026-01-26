@@ -18,6 +18,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   testToolDepends = [ hspec-discover ];
   description = "Advanced keyboard remapping utility";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "kmonad";
 }

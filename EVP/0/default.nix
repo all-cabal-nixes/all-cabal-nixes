@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base text ];
   homepage = "https://github.com/fumieval/EVP";
   description = "Environment Variable Parser";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

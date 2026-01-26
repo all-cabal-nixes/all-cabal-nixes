@@ -26,6 +26,6 @@ mkDerivation {
     pretty-simple tasty tasty-golden tasty-hunit text time
   ];
   description = "Tools for working with the Haskell security advisory database";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hsec-tools";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hashable hspec QuickCheck ];
   homepage = "https://github.com/adetokunbo/redis-glob#readme";
   description = "Specify valid redis globs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

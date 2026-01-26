@@ -5,7 +5,7 @@
 , gi-glib, gi-gtk, gi-pango, gi-vte, gtk3, haskell-gi-base
 , hedgehog, inline-c, lens, lib, mono-traversable, pcre2
 , pretty-simple, QuickCheck, singletons, tasty, tasty-hedgehog
-, tasty-hspec, template-haskell, text, vte_291, xml-conduit
+, tasty-hspec, template-haskell, text, vte, xml-conduit
 , xml-html-qq
 }:
 mkDerivation {
@@ -23,7 +23,7 @@ mkDerivation {
     mono-traversable pretty-simple QuickCheck singletons text
     xml-conduit xml-html-qq
   ];
-  libraryPkgconfigDepends = [ gtk3 pcre2 vte_291 ];
+  libraryPkgconfigDepends = [ gtk3 pcre2 vte ];
   executableHaskellDepends = [ base ];
   testHaskellDepends = [
     base doctest genvalidity-containers genvalidity-hspec hedgehog lens

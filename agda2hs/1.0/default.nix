@@ -13,6 +13,6 @@ mkDerivation {
     mtl syb text unordered-containers
   ];
   description = "Compiling Agda code to readable Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "agda2hs";
 }

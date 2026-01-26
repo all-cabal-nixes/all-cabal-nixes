@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec operational ];
   testToolDepends = [ hspec-discover ];
   description = "This library `Has` transformers";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

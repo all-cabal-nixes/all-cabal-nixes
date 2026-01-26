@@ -20,5 +20,5 @@ mkDerivation {
     tasty-quickcheck text
   ];
   description = "A simple language for writing documents";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

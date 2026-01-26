@@ -13,5 +13,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base hedgehog path polysemy tasty text ];
   description = "Polysemy Effects for Testing";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

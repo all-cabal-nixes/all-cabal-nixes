@@ -13,6 +13,6 @@ mkDerivation {
     lens-family machines optparse-applicative text
   ];
   description = "Stream eventlog data into InfluxDB";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "eventlog-live-influxdb";
 }

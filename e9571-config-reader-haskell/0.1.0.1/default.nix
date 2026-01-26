@@ -10,6 +10,6 @@ mkDerivation {
   executableHaskellDepends = [ aeson base ];
   homepage = "https://github.com/e9571/e9571-config-reader-haskell";
   description = "Automatically read config.json from the current directory";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "simple-example";
 }

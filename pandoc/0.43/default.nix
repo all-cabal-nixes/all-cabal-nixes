@@ -16,10 +16,6 @@ mkDerivation {
   executableHaskellDepends = [
     base mtl network parsec regex-compat xhtml
   ];
-  postInstall = ''
-    mkdir -p $out/share
-    mv $data/*/*/man $out/share/
-  '';
   homepage = "http://sophos.berkeley.edu/macfarlane/pandoc";
   description = "Conversion between markup formats";
   license = "GPL";

@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ExtremaIS/redact-haskell#readme";
   description = "hide secret text on the terminal";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "redact";
 }

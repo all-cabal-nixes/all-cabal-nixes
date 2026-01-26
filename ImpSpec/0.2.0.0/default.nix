@@ -15,5 +15,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/input-output-hk/ImpSpec";
   description = "Imperative approach to testing stateful applications. ImpSpec is built on top of HSpec and QuickCheck.";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

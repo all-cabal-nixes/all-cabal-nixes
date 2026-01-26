@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest ];
   homepage = "https://github.com/tbidne/env-guard/";
   description = "Conditionally running IO actions based on environment variables";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/avanov/amazonka-contrib-rds-utils";
   description = "A Haskell equivalent of \"aws rds generate-db-auth-token\"";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "generate-db-auth-token";
 }

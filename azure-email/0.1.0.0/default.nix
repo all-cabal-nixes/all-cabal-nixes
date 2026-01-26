@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/layer-3-communications/azure-email";
   description = "send email with microsoft azure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

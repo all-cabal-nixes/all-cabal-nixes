@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sergv/emacs-module";
   description = "Utilities to write Emacs dynamic modules";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

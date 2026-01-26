@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base blaze-html clay text ];
   homepage = "https://github.com/joshua-obritsch/blizzard-html";
   description = "An HTML and CSS renderer for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

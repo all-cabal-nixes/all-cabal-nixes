@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/bytetrie";
   description = "Tries with Bytes as keys";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

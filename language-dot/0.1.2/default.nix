@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base mtl ];
   testHaskellDepends = [ base parsec pretty ];
   description = "A library for the analysis and creation of Graphviz DOT files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ppdot";
 }

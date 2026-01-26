@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/slist";
   description = "Sized list";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

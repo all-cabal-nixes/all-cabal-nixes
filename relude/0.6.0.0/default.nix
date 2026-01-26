@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/relude";
   description = "Custom prelude from Kowainik";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

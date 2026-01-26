@@ -13,5 +13,5 @@ mkDerivation {
     template-haskell text time transformers unliftio
   ];
   description = "A typed, template generated Html DSL, and helpers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

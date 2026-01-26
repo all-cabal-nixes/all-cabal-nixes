@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-primitive/primitive-unlifted";
   description = "Primitive GHC types with unlifted types inside";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

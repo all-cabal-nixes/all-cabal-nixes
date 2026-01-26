@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base bytestring containers directory ];
   description = "Bindings and wrappers for PL_SYNTH - no-deps sound effects synthesizer and tracker";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

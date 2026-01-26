@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sonowz/haskell-google-genai-client#readme";
   description = "Auto-generated Gemini API Client for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

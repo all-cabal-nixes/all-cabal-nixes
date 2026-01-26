@@ -15,5 +15,5 @@ mkDerivation {
     transformers vector
   ];
   description = "core package for Numerical Haskell project";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

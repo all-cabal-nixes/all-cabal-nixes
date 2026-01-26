@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1bjaz33byxl0x8rj4jvw7dqbjhmysmnx9cgjs29s5c8g5i1pq0ki";
   libraryHaskellDepends = [ base template-haskell ];
   description = "The 'QuasiQuoter' interface";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

@@ -26,5 +26,5 @@ mkDerivation {
     template-haskell text warp
   ];
   description = "Polysemy effect for http-client";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

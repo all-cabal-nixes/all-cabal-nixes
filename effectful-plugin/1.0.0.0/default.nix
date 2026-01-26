@@ -6,5 +6,5 @@ mkDerivation {
   revision = "3";
   editedCabalFile = "127phsvh3pq96lram633hwawcy594n36gc5cxiwaagaksi240568";
   description = "A GHC plugin for improving disambiguation of effects";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

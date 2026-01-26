@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers primitive ];
   homepage = "https://github.com/glguy/intcode";
   description = "Advent of Code 2019 intcode interpreter";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

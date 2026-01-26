@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover ];
   homepage = "http://github.com/haskell-works/hw-diagnostics#readme";
   description = "Diagnostics library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

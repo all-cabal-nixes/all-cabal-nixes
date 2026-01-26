@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base polysemy polysemy-plugin tasty ];
   testToolDepends = [ tasty-discover ];
   description = "Polysemy wrapper around the Blockfrost client";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

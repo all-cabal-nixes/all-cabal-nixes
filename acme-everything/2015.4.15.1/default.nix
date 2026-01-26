@@ -1,21 +1,21 @@
-{ mkDerivation, 3d-graphics-examples, 3dmodels, 4Blocks, a50
-, abacate, abc-puzzle, abcBridge, abcnotation, abeson, ABList
-, AbortT-monadstf, AbortT-mtl, AbortT-transformers, abstract-deque
-, abstract-deque-tests, abstract-par, abstract-par-accelerate, abt
-, AC-Angle, AC-Boolean, AC-BuildPlatform, AC-Colour
-, AC-EasyRaster-GTK, AC-HalfInteger, ac-machine, ac-machine-conduit
-, AC-MiniTest, AC-PPM, AC-Random, AC-Terminal, AC-VanillaArray
-, AC-Vector, AC-Vector-Fancy, accelerate, accelerate-arithmetic
-, accelerate-cublas, accelerate-cuda, accelerate-cufft
-, accelerate-examples, accelerate-fft, accelerate-fftw
-, accelerate-fourier, accelerate-fourier-benchmark, accelerate-io
-, accelerate-utility, accentuateus, access-time, ace, acid-state
-, acid-state-tls, acl2, ACME, acme-cadre, acme-cofunctor
-, acme-colosson, acme-comonad, acme-cutegirl, acme-dont
-, acme-hq9plus, acme-http, acme-inator, acme-io, acme-lolcat
-, acme-lookofdisapproval, acme-microwave, acme-miscorder
-, acme-missiles, acme-now, acme-numbersystem, acme-omitted
-, acme-php, acme-pointful-numbers, acme-realworld
+{ mkDerivation, _3d-graphics-examples, _3dmodels, _4Blocks, _assert
+, _type, a50, abacate, abc-puzzle, abcBridge, abcnotation, abeson
+, ABList, AbortT-monadstf, AbortT-mtl, AbortT-transformers
+, abstract-deque, abstract-deque-tests, abstract-par
+, abstract-par-accelerate, abt, AC-Angle, AC-Boolean
+, AC-BuildPlatform, AC-Colour, AC-EasyRaster-GTK, AC-HalfInteger
+, ac-machine, ac-machine-conduit, AC-MiniTest, AC-PPM, AC-Random
+, AC-Terminal, AC-VanillaArray, AC-Vector, AC-Vector-Fancy
+, accelerate, accelerate-arithmetic, accelerate-cublas
+, accelerate-cuda, accelerate-cufft, accelerate-examples
+, accelerate-fft, accelerate-fftw, accelerate-fourier
+, accelerate-fourier-benchmark, accelerate-io, accelerate-utility
+, accentuateus, access-time, ace, acid-state, acid-state-tls, acl2
+, ACME, acme-cadre, acme-cofunctor, acme-colosson, acme-comonad
+, acme-cutegirl, acme-dont, acme-hq9plus, acme-http, acme-inator
+, acme-io, acme-lolcat, acme-lookofdisapproval, acme-microwave
+, acme-miscorder, acme-missiles, acme-now, acme-numbersystem
+, acme-omitted, acme-php, acme-pointful-numbers, acme-realworld
 , acme-schoenfinkel, acme-strfry, acme-stringly-typed, acme-strtok
 , acme-year, action-permutations, ActionKid, active, activehs
 , activehs-base, activitystreams-aeson, actor, ad, Adaptive
@@ -80,8 +80,8 @@
 , ArrowVHDL, artery, arx, arxiv, ascetic, ascii, ascii-progress
 , ascii-vector-avc, ascii85-conduit, asciidiagram, asic, asil, ASN1
 , asn1-data, asn1-encoding, asn1-parse, asn1-types, asn1dump
-, AspectAG, assembler, assert, assert-failure, assertions, assimp
-, astar, astrds, astview, astview-utils, async, async-extras
+, AspectAG, assembler, assert-failure, assertions, assimp, astar
+, astrds, astview, astview-utils, async, async-extras
 , async-manager, async-pool, asynchronous-exceptions, aterm
 , aterm-utils, atl, atlassian-connect-core
 , atlassian-connect-descriptor, atmos, atmos-dimensional
@@ -1543,8 +1543,8 @@
 , twidge, twilight-stm, twilio, twill, twiml, twine, twisty, twitch
 , twitter, twitter-conduit, twitter-enumerator, twitter-feed
 , twitter-types, twitter-types-lens, Twofish, tx, txt-sushi
-, txt2rtf, txtblk, ty, TYB, typalyze, type, type-aligned
-, type-booleans, type-cereal, type-digits, type-eq, type-equality
+, txt2rtf, txtblk, ty, TYB, typalyze, type-aligned, type-booleans
+, type-cereal, type-digits, type-eq, type-equality
 , type-equality-check, type-functions, type-hint, type-int
 , type-iso, type-level, type-level-bst, type-level-natural-number
 , type-level-natural-number-induction
@@ -1719,9 +1719,9 @@ mkDerivation {
   version = "2015.4.15.1";
   sha256 = "7de669633a57a9aab08b3b0d88657e8290f3f9e758c08873e0e7659662119357";
   libraryHaskellDepends = [
-    3d-graphics-examples 3dmodels 4Blocks a50 abacate abc-puzzle
-    abcBridge abcnotation abeson ABList AbortT-monadstf AbortT-mtl
-    AbortT-transformers abstract-deque abstract-deque-tests
+    _3d-graphics-examples _3dmodels _4Blocks _assert _type a50 abacate
+    abc-puzzle abcBridge abcnotation abeson ABList AbortT-monadstf
+    AbortT-mtl AbortT-transformers abstract-deque abstract-deque-tests
     abstract-par abstract-par-accelerate abt AC-Angle AC-Boolean
     AC-BuildPlatform AC-Colour AC-EasyRaster-GTK AC-HalfInteger
     ac-machine ac-machine-conduit AC-MiniTest AC-PPM AC-Random
@@ -1791,22 +1791,22 @@ mkDerivation {
     arrow-improve arrow-list arrowapply-utils arrowp arrows ArrowVHDL
     artery arx arxiv ascetic ascii ascii-progress ascii-vector-avc
     ascii85-conduit asciidiagram asic asil ASN1 asn1-data asn1-encoding
-    asn1-parse asn1-types asn1dump AspectAG assembler assert
-    assert-failure assertions assimp astar astrds astview astview-utils
-    async async-extras async-manager async-pool asynchronous-exceptions
-    aterm aterm-utils atl atlassian-connect-core
-    atlassian-connect-descriptor atmos atmos-dimensional
-    atmos-dimensional-tf atom atom-msp430 atomic-primops
-    atomic-primops-foreign atomic-primops-vector atomic-write atomo
-    attempt atto-lisp AttoBencode AttoJson attoparsec attoparsec-arff
-    attoparsec-binary attoparsec-conduit attoparsec-csv
-    attoparsec-enumerator attoparsec-expr attoparsec-iteratee
-    attoparsec-parsec attoparsec-text attoparsec-text-enumerator
-    attosplit Attrac atuin audacity audiovisual augeas augur aur
-    Aurochs authenticate authenticate-kerberos authenticate-ldap
-    authenticate-oauth authinfo-hs authoring auto auto-update AutoForms
-    autonix-deps autonix-deps-kf5 autoproc avahi AVar average avers
-    avl-static AvlTree avr-shake awesomium awesomium-glut awesomium-raw
+    asn1-parse asn1-types asn1dump AspectAG assembler assert-failure
+    assertions assimp astar astrds astview astview-utils async
+    async-extras async-manager async-pool asynchronous-exceptions aterm
+    aterm-utils atl atlassian-connect-core atlassian-connect-descriptor
+    atmos atmos-dimensional atmos-dimensional-tf atom atom-msp430
+    atomic-primops atomic-primops-foreign atomic-primops-vector
+    atomic-write atomo attempt atto-lisp AttoBencode AttoJson
+    attoparsec attoparsec-arff attoparsec-binary attoparsec-conduit
+    attoparsec-csv attoparsec-enumerator attoparsec-expr
+    attoparsec-iteratee attoparsec-parsec attoparsec-text
+    attoparsec-text-enumerator attosplit Attrac atuin audacity
+    audiovisual augeas augur aur Aurochs authenticate
+    authenticate-kerberos authenticate-ldap authenticate-oauth
+    authinfo-hs authoring auto auto-update AutoForms autonix-deps
+    autonix-deps-kf5 autoproc avahi AVar average avers avl-static
+    AvlTree avr-shake awesomium awesomium-glut awesomium-raw
     AWin32Console aws aws-cloudfront-signer aws-dynamodb-streams
     aws-ec2 aws-elastic-transcoder aws-general aws-kinesis
     aws-kinesis-client aws-kinesis-reshard aws-lambda
@@ -3109,10 +3109,10 @@ mkDerivation {
     twilight-stm twilio twill twiml twine twisty twitch twitter
     twitter-conduit twitter-enumerator twitter-feed twitter-types
     twitter-types-lens Twofish tx txt-sushi txt2rtf txtblk ty TYB
-    typalyze type type-aligned type-booleans type-cereal type-digits
-    type-eq type-equality type-equality-check type-functions type-hint
-    type-int type-iso type-level type-level-bst
-    type-level-natural-number type-level-natural-number-induction
+    typalyze type-aligned type-booleans type-cereal type-digits type-eq
+    type-equality type-equality-check type-functions type-hint type-int
+    type-iso type-level type-level-bst type-level-natural-number
+    type-level-natural-number-induction
     type-level-natural-number-operations type-level-numbers
     type-level-sets type-level-tf type-list type-natural type-ord
     type-ord-spine-cereal type-prelude type-settheory type-spine

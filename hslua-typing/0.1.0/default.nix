@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Type specifiers for Lua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

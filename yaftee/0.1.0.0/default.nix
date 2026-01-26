@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/yaftee#readme";
   description = "Yet Another heFTy-inspired Extensible Effect";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -16,6 +16,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://codeberg.org/Aster89/xnobar";
   description = "Text-based notification server for XMobar";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "Echo";
 }

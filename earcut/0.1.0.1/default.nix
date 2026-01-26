@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base vector ];
   homepage = "https://github.com/reanimate/earcut";
   description = "Binding to C++ earcut library";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

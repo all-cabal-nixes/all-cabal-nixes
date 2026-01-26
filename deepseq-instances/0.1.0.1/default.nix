@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ array base deepseq stm ];
   homepage = "https://github.com/TravisWhitaker/deepseq-instances";
   description = "Candidate NFData Instances for Types in base";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

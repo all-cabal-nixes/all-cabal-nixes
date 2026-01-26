@@ -11,5 +11,5 @@ mkDerivation {
   ];
   libraryToolDepends = [ c2hs ];
   description = "C bindings plus conveniences for the festival tts system";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

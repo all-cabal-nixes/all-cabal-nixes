@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base hspec inspection-testing primitive ];
   description = "Coerce between unlifted boxed and lifted types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

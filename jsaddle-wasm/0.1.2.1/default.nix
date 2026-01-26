@@ -9,5 +9,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/amesgen/jsaddle-wasm";
   description = "Run JSaddle JSM with the GHC Wasm backend";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

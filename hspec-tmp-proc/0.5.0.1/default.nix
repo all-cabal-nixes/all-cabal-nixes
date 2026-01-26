@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hspec tmp-proc ];
   homepage = "https://github.com/adetokunbo/tmp-proc/tree/master/tmp-proc#tmp-proc";
   description = "Simplify use of tmp-proc from hspec tests";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

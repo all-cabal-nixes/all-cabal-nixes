@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/http-interchange";
   description = "Types and serialization for HTTP";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/grinshpon/pine#readme";
   description = "Functional 2D Game Framework";
-  license = lib.licenses.zlib;
+  license = lib.licensesSpdx."Zlib";
 }

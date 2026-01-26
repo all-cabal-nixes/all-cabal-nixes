@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text text-builder ];
   homepage = "https://github.com/mitchellwrosen/text-ansi";
   description = "Text styling for ANSI terminals";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

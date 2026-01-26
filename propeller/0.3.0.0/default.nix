@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base containers ];
   homepage = "https://github.com/typedbyte/propeller#readme";
   description = "A Propagator Library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

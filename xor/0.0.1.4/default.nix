@@ -11,5 +11,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base bytestring criterion ];
   description = "Efficient XOR masking";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

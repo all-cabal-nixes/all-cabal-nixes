@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers contiguous deepseq ];
   homepage = "https://github.com/edemko/reverse-list";
   description = "reversed lists/snoc lists";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

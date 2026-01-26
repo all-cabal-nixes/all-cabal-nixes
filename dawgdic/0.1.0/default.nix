@@ -14,5 +14,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   benchmarkHaskellDepends = [ base criterion ];
   description = "Generation and traversal of compressed directed acyclic dawg graphs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring text utf8-string ];
   homepage = "https://github.com/verrens/GOST34112012-Hash";
   description = "Bindings to the GOST R 34.11-2012 hashing implementation";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

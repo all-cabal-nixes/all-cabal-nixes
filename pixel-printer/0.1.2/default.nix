@@ -13,6 +13,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/ZSarver/pixel-printer#readme";
   description = "A program for turning pixel art into 3D prints";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "pixel-printer-exe";
 }

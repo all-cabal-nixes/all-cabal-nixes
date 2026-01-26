@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/kaol/recommender-als";
   description = "Recommendations using alternating least squares algorithm";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "movielens";
 }

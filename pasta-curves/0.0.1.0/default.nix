@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/nccgroup/pasta-curves";
   description = "Provides the Pasta curves: Pallas, Vesta and their field elements Fp and Fq";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "pasta-curves";
 }

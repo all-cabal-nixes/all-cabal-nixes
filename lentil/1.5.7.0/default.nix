@@ -25,6 +25,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://www.ariis.it/static/articles/lentil/page.html";
   description = "frugal issue tracker";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "lentil";
 }

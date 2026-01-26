@@ -25,6 +25,6 @@ mkDerivation {
   testHaskellDepends = [ base HUnit ];
   homepage = "https://github.com/glguy/irc-core";
   description = "Console IRC client";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
   mainProgram = "glirc";
 }

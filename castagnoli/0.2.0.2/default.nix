@@ -8,5 +8,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring primitive text ];
   homepage = "https://github.com/byteverse/castagnoli";
   description = "Portable CRC-32C";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

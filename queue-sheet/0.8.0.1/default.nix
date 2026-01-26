@@ -21,6 +21,6 @@ mkDerivation {
   testHaskellDepends = [ base bytestring tasty tasty-hunit ];
   homepage = "https://github.com/ExtremaIS/queue-sheet-haskell#readme";
   description = "queue sheet utility";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "queue-sheet";
 }

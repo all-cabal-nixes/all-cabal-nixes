@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/cnr/cgroup-rts-threads";
   description = "A container-/cgroup-aware substitute for the GHC RTS `-N` flag";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

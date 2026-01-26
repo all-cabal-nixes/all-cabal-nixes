@@ -9,5 +9,5 @@ mkDerivation {
     base exon polysemy polysemy-plugin prelate random sqel uuid
   ];
   description = "Polysemy effects for databases";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

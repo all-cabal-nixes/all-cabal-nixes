@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/bound-extras";
   description = "ScopeH and ScopeT extras for bound";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

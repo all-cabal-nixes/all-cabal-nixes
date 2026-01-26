@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base silently tasty tasty-hunit text ];
   homepage = "https://github.com/tusharad/ollama-haskell";
   description = "Ollama Haskell library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

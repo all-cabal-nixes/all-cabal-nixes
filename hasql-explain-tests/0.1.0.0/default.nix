@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hasql tasty tasty-hunit ];
   homepage = "https://github.com/cheopslab/hasql-explain-tests";
   description = "Hasql queries testing interface";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

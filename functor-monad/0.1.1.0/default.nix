@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base free transformers ];
   homepage = "https://github.com/viercc/functor-monad/tree/main/functor-monad";
   description = "FFunctor: functors on (the usual) Functors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

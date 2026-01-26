@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/arbor/arbor-monad-metric#readme";
   description = "Core metric library for publishing metrics";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

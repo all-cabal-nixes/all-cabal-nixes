@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/UnaryPlus/jaskell";
   description = "Stack-based concatenative language embedded in Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec Z-Data ];
   homepage = "https://github.com/ZHaskell/z-yaml";
   description = "YAML tools";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

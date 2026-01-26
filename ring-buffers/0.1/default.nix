@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base contiguous primitive semirings ];
   homepage = "https://github.com/chessai/ring-buffers";
   description = "mutable ring buffers with atomic updates in GHC Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

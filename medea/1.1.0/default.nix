@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/juspay/medea";
   description = "A schema language for JSON";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

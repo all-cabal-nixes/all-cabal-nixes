@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/hs-resourcet-extra";
   description = "ResourceT extras";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/perf#readme";
   description = "analysis example using perf";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "perf-examples";
 }

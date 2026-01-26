@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/zenhack/haskell-lifetimes";
   description = "Flexible manual resource management";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

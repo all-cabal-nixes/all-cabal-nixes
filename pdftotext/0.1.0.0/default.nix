@@ -1,6 +1,5 @@
 { mkDerivation, aeson, ansi-wl-pprint, base, bytestring, hspec
-, hspec-discover, lib, optparse-applicative, poppler-cpp, range
-, text
+, hspec-discover, lib, optparse-applicative, poppler, range, text
 }:
 mkDerivation {
   pname = "pdftotext";
@@ -9,7 +8,7 @@ mkDerivation {
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base bytestring text ];
-  libraryPkgconfigDepends = [ poppler-cpp ];
+  libraryPkgconfigDepends = [ poppler ];
   executableHaskellDepends = [
     aeson ansi-wl-pprint base optparse-applicative range text
   ];

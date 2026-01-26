@@ -18,5 +18,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/Qqwy/haskell-symbolize#readme";
   description = "Efficient global Symbol table, with Garbage Collection";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -22,5 +22,5 @@ mkDerivation {
   testHaskellDepends = [ base co-log-core doctest Glob hedgehog ];
   homepage = "https://github.com/co-log/co-log";
   description = "Composable Contravariant Comonadic Logging Library";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

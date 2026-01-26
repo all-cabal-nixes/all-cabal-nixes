@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base pandoc pandoc-types text ];
   homepage = "https://codeberg.org/mhwombat/pandoc-query";
   description = "Pandoc filter to extract only the links";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

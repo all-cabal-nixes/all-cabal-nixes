@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base-prelude bytestring criterion ];
   homepage = "https://github.com/nikita-volkov/bytestring-tree-builder";
   description = "A very efficient ByteString builder implementation based on the binary tree";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

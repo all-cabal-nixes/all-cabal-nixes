@@ -21,5 +21,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge ];
   homepage = "https://github.com/ghais/HQu";
   description = "quantitative finance library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

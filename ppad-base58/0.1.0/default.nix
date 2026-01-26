@@ -11,5 +11,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base bytestring criterion ];
   description = "base58 and base58check encoding/decoding";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

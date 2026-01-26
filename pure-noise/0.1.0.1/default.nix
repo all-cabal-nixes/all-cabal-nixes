@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jtnuttall/pure-noise#readme";
   description = "Performant, modern noise generation for Haskell with minimal dependencies. Based on FastNoiseLite.";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

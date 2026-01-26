@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "http://felsin9.de/nnis/ghc-vis";
   description = "Live visualization of data structures in GHCi";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

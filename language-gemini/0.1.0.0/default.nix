@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text ];
   homepage = "https://sr.ht/~fgaz/haskell-gemini/";
   description = "Datatypes and parsing/printing functions to represent the Gemini markup language";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

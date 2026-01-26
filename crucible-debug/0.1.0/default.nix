@@ -19,6 +19,6 @@ mkDerivation {
     base bytestring directory prettyprinter tasty tasty-golden text
   ];
   description = "An interactive debugger for Crucible programs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "crucible-debug";
 }

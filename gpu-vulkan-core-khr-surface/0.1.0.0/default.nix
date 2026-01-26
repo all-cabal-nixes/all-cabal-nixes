@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base c-struct gpu-vulkan-core ];
   homepage = "https://github.com/YoshikuniJujo/gpu-vulkan-core-khr-surface#readme";
   description = "Thin wrapper for VK_KHR_surface extension of the Vulkan API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

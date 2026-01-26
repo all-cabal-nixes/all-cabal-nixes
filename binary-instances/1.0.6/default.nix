@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskellari/binary-instances#readme";
   description = "Orphan instances for binary";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

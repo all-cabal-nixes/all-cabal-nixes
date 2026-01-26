@@ -12,5 +12,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "Type-checked proof that a key exists in a container and can be safely indexed";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

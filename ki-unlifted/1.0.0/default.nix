@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ki unliftio-core ];
   homepage = "https://github.com/awkward-squad/ki";
   description = "A lightweight structured-concurrency library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/ascii-superset";
   description = "Representing ASCII with refined supersets";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

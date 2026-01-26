@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jmazon/haskell-igraph#readme";
   description = "Bindings to the igraph C library (v0.8.5).";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

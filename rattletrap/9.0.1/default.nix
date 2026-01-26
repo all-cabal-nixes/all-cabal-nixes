@@ -25,6 +25,6 @@ mkDerivation {
     template-haskell temporary text transformers
   ];
   description = "Parse and generate Rocket League replays";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "rattletrap";
 }

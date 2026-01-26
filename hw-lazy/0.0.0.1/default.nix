@@ -14,5 +14,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "http://github.com/haskell-works/hw-lazy#readme";
   description = "Combinators for lazy IO";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

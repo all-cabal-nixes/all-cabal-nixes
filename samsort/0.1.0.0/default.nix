@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/meooow25/samsort";
   description = "A stable adaptive mergesort implementation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

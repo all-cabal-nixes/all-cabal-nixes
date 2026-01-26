@@ -31,5 +31,5 @@ mkDerivation {
   ];
   homepage = "http://snapframework.com/";
   description = "Snap: A Haskell Web Framework (core interfaces and types)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

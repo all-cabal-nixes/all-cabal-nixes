@@ -25,5 +25,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/haskell-servant/servant/tree/master/servant-swagger#readme";
   description = "Generate a Swagger/OpenAPI/OAS 2.0 specification for your servant API.";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

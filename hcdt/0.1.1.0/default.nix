@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/stla/hcdt#readme";
   description = "2d Delaunay triangulation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

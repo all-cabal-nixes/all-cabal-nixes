@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base logict mtl sequence type-aligned ];
   homepage = "https://github.com/dagit/logict-sequence";
   description = "A backtracking logic-programming monad with asymptotic improvements to msplit";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

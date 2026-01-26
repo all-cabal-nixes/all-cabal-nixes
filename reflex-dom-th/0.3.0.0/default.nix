@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chrbauer/reflex-dom-th";
   description = "reflex-dom-th transpiles HTML templates to haskell code for reflex-dom";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

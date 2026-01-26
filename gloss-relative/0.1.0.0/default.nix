@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers gloss mtl ];
   executableHaskellDepends = [ base ];
   description = "Painless relative-sized pictures in Gloss";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

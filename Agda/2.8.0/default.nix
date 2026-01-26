@@ -37,5 +37,5 @@ mkDerivation {
   executableToolDepends = [ emacs ];
   homepage = "https://wiki.portal.chalmers.se/agda/";
   description = "A dependently typed functional programming language and proof assistant";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

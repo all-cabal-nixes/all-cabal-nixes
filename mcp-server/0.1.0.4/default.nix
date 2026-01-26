@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/drshade/haskell-mcp-server";
   description = "Library for building Model Context Protocol (MCP) servers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

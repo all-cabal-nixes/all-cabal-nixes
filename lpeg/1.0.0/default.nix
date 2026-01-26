@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base lua tasty tasty-hunit ];
   homepage = "https://hslua.org/";
   description = "LPeg – Parsing Expression Grammars For Lua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

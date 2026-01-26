@@ -9,5 +9,5 @@ mkDerivation {
     base containers monoid-subclasses monoidmap QuickCheck
   ];
   description = "QuickCheck support for monoidmap";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

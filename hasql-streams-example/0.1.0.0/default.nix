@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/andremarianiello/hasql-streams";
   description = "An example program that shows how to use Hasql streams with Rel8";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "hasql-streaming";
 }

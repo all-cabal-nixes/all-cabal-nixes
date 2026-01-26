@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring ];
   homepage = "https://github.com/cartazio/securehash-sha3";
   description = "simple static linked SHA3 using private symbols and the ref impl";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

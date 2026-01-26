@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/polysemy-conc#readme";
   description = "Polysemy effects for concurrency";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/scrive/log";
   description = "Structured logging solution (base package)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

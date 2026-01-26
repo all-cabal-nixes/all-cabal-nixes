@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sergv/atomic-counter";
   description = "Mutable counters that can be modified with atomic operatinos";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

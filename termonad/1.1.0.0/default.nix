@@ -5,7 +5,7 @@
 , gi-glib, gi-gtk, gi-pango, gi-vte, gtk3, haskell-gi-base
 , hedgehog, lens, lib, mono-traversable, pretty-simple, QuickCheck
 , singletons, tasty, tasty-hedgehog, tasty-hspec, template-haskell
-, vte_291, xml-conduit, xml-html-qq
+, vte, xml-conduit, xml-html-qq
 }:
 mkDerivation {
   pname = "termonad";
@@ -22,7 +22,7 @@ mkDerivation {
     mono-traversable pretty-simple QuickCheck singletons xml-conduit
     xml-html-qq
   ];
-  libraryPkgconfigDepends = [ gtk3 vte_291 ];
+  libraryPkgconfigDepends = [ gtk3 vte ];
   executableHaskellDepends = [ base ];
   testHaskellDepends = [
     base doctest genvalidity-containers genvalidity-hspec hedgehog lens

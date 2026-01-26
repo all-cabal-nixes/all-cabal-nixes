@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/merijn/broadcast-chan";
   description = "Helpers for generating tests for broadcast-chan";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

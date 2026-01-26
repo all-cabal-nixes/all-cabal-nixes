@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base Cabal dir-traverse filepath ];
   homepage = "https://github.com/kowainik/autopack";
   description = "Custom Setup to automate package modules discovery";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

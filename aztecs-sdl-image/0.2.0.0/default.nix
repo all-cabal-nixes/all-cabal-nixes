@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/matthunz/aztecs";
   description = "A type-safe and friendly Entity-Component-System (ECS) for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

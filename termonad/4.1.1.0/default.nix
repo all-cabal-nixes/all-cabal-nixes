@@ -5,7 +5,7 @@
 , gi-glib, gi-gtk, gi-pango, gi-vte, gtk3, haskell-gi-base
 , hedgehog, inline-c, lens, lib, mono-traversable, pcre2
 , pretty-simple, QuickCheck, tasty, tasty-hedgehog, tasty-hspec
-, text, transformers, vte_291, xml-conduit, xml-html-qq, yaml
+, text, transformers, vte, xml-conduit, xml-html-qq, yaml
 }:
 mkDerivation {
   pname = "termonad";
@@ -22,7 +22,7 @@ mkDerivation {
     haskell-gi-base inline-c lens mono-traversable pretty-simple
     QuickCheck text transformers xml-conduit xml-html-qq yaml
   ];
-  libraryPkgconfigDepends = [ gtk3 pcre2 vte_291 ];
+  libraryPkgconfigDepends = [ gtk3 pcre2 vte ];
   executableHaskellDepends = [ base ];
   testHaskellDepends = [
     base genvalidity-containers genvalidity-hspec hedgehog lens

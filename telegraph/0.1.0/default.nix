@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/poscat0x04/telegraph";
   description = "Binding to the telegraph API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

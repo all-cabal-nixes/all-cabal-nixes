@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base bytestring cpu hosc network ];
   homepage = "https://github.com/Vawlpe/hgreet";
   description = "Haskell module to interact with the greetd daemon trough it's IPC protocol";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

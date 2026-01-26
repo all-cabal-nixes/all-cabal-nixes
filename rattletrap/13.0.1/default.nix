@@ -14,6 +14,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base bytestring filepath ];
   description = "Parse and generate Rocket League replays";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "rattletrap";
 }

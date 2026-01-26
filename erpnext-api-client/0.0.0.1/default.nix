@@ -9,5 +9,5 @@ mkDerivation {
     aeson base bytestring http-client http-types network-uri text time
   ];
   homepage = "xxx";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

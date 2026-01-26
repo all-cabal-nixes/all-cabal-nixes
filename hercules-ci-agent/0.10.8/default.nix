@@ -8,10 +8,10 @@
 , http-client, http-client-tls, http-conduit, HUnit, inline-c
 , inline-c-cpp, katip, lens, lens-aeson, lib, lifted-async
 , lifted-base, monad-control, mtl, network, network-uri, nix
-, nix-flake, optparse-applicative, process, process-extras
-, profunctors, protolude, QuickCheck, safe-exceptions, scientific
-, servant, servant-auth-client, servant-client, servant-client-core
-, stm, tagged, temporary, text, time, tls, tomland, transformers
+, optparse-applicative, process, process-extras, profunctors
+, protolude, QuickCheck, safe-exceptions, scientific, servant
+, servant-auth-client, servant-client, servant-client-core, stm
+, tagged, temporary, text, time, tls, tomland, transformers
 , transformers-base, unbounded-delays, unix, unliftio
 , unliftio-core, unordered-containers, uuid, vector, websockets
 , wuss
@@ -48,7 +48,7 @@ mkDerivation {
     unordered-containers uuid vector websockets wuss
   ];
   executableSystemDepends = [ boost ];
-  executablePkgconfigDepends = [ nix nix-flake ];
+  executablePkgconfigDepends = [ nix ];
   testHaskellDepends = [
     aeson async attoparsec base bifunctors binary binary-conduit
     bytestring conduit containers exceptions filepath
@@ -62,5 +62,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://docs.hercules-ci.com";
   description = "Runs Continuous Integration tasks on your machines";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

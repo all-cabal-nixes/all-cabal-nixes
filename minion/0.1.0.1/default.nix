@@ -16,5 +16,5 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base warp ];
   description = "A Haskell introspectable web router";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

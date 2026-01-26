@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ncfavier/misfortune";
   description = "fortune-mod clone";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "misfortune";
 }

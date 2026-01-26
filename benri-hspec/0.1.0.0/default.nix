@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hspec ];
   homepage = "https://github.com/adetokunbo/benri-hspec#readme";
   description = "Simplify tests where Either or Maybe types are returned from monadic code";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

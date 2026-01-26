@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, derive-storable, lib, llama
+{ mkDerivation, base, bytestring, derive-storable, lib, llama-cpp
 , tasty, tasty-hunit
 }:
 mkDerivation {
@@ -6,7 +6,7 @@ mkDerivation {
   version = "0.1.0.0";
   sha256 = "120b12fcdfcd42657a505d977566f913f4a086b1340ea6e46fa8d8d0e5fca3fe";
   libraryHaskellDepends = [ base bytestring derive-storable ];
-  librarySystemDepends = [ llama ];
+  librarySystemDepends = [ llama-cpp ];
   testHaskellDepends = [
     base bytestring derive-storable tasty tasty-hunit
   ];

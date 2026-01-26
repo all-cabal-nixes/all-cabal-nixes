@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/expipiplus1/vector-sized#readme";
   description = "Size tagged vectors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

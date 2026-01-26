@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Utilities to build Lua modules";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

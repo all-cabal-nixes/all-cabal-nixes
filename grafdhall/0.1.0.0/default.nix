@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/softwarefactory-project/grafdhall#readme";
   description = "Configure grafana dashboards from Dhall expression";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "grafdhall";
 }

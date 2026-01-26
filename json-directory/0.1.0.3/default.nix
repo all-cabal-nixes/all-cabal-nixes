@@ -16,6 +16,6 @@ mkDerivation {
     aeson base bytestring filepath mtl process text
   ];
   description = "Load JSON from files in a directory structure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "jsondir";
 }

@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ad-si/Brillo";
   description = "Load any image supported by Juicy.Pixels in your brillo application";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "brillo-juicy-viewer";
 }

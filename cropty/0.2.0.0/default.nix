@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog unliftio ];
   homepage = "https://github.com/SamuelSchlesinger/cropty";
   description = "Encryption and decryption";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -48,6 +48,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/ethereum/hevm";
   description = "Symbolic EVM Evaluator";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "hevm";
 }

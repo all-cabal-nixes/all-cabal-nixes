@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/hasql-optparse-applicative";
   description = "\"optparse-applicative\" parsers for \"hasql\"";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

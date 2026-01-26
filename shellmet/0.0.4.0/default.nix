@@ -13,6 +13,6 @@ mkDerivation {
   testHaskellDepends = [ base doctest Glob ];
   homepage = "https://github.com/kowainik/shellmet";
   description = "Out of the shell solution for scripting in Haskell";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "readme";
 }

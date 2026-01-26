@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://git.sr.ht/~ehamberg/fswatcher";
   description = "Watch a file/directory and run a command when it's modified";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "fswatcher";
 }

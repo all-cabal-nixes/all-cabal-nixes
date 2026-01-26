@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "https://github.com/haskell-works/hw-hspec-hedgehog#readme";
   description = "Interoperability between hspec and hedgehog";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

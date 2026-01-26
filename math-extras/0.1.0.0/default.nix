@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog ];
   homepage = "https://github.com/zliu41/math-extras";
   description = "A variety of mathematical utilities";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

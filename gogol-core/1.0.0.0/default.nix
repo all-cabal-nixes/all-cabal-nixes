@@ -17,5 +17,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty ];
   homepage = "https://github.com/brendanhay/gogol";
   description = "Core data types and functionality for Gogol libraries";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

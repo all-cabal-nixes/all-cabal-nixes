@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base cryptonite doctest hedgehog ];
   homepage = "https://github.com/oscoin/ipfs";
   description = "Self-identifying hashes, implementation of <https://github.com/multiformats/multihash>";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

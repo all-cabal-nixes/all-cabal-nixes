@@ -1,11 +1,12 @@
-{ mkDerivation, 3d-graphics-examples, 3dmodels, 4Blocks, a50
-, abc-puzzle, abcBridge, abeson, ABList, abnf, AbortT-monadstf
-, abstract-deque-tests, abt, AC-Boolean, AC-BuildPlatform
-, AC-Colour, AC-EasyRaster-GTK, AC-HalfInteger, ac-machine-conduit
-, AC-MiniTest, AC-PPM, AC-Random, AC-Terminal, AC-VanillaArray
-, AC-Vector-Fancy, accelerate-bignum, accelerate-blas
-, accelerate-fourier-benchmark, accelerate-typelits, accentuateus
-, access-time, access-token-provider, accuerr, ace, acid-state-dist
+{ mkDerivation, _3d-graphics-examples, _3dmodels, _4Blocks, _if
+, _type, _with, a50, abc-puzzle, abcBridge, abeson, ABList, abnf
+, AbortT-monadstf, abstract-deque-tests, abt, AC-Boolean
+, AC-BuildPlatform, AC-Colour, AC-EasyRaster-GTK, AC-HalfInteger
+, ac-machine-conduit, AC-MiniTest, AC-PPM, AC-Random, AC-Terminal
+, AC-VanillaArray, AC-Vector-Fancy, accelerate-bignum
+, accelerate-blas, accelerate-fourier-benchmark
+, accelerate-typelits, accentuateus, access-time
+, access-token-provider, accuerr, ace, acid-state-dist
 , acid-state-tls, ACME, acme-all-monad, acme-cadre, acme-cofunctor
 , acme-colosson, acme-comonad, acme-cutegirl, acme-default
 , acme-flipping-tables, acme-functors, acme-grawlix, acme-hq9plus
@@ -832,12 +833,12 @@
 , IcoGrid, icon-fonts, iconv-typed, ide-backend-rts
 , ide-backend-server, ideas-math, idempotent
 , identicon-style-squares, identifiers, idna2008, IDynamic
-, ieee-utils-tempfix, ieee754-parser, iException, if, iff, IFS, ig
-, ige, ige-mac-integration, igraph, igrf, ihaskell-aeson
-, ihaskell-basic, ihaskell-charts, ihaskell-diagrams
-, ihaskell-display, ihaskell-gnuplot, ihaskell-hatex
-, ihaskell-hvega, ihaskell-inline-r, ihaskell-juicypixels
-, ihaskell-magic, ihaskell-parsec, ihaskell-plot, ihaskell-rlangqq
+, ieee-utils-tempfix, ieee754-parser, iException, iff, IFS, ig, ige
+, ige-mac-integration, igraph, igrf, ihaskell-aeson, ihaskell-basic
+, ihaskell-charts, ihaskell-diagrams, ihaskell-display
+, ihaskell-gnuplot, ihaskell-hatex, ihaskell-hvega
+, ihaskell-inline-r, ihaskell-juicypixels, ihaskell-magic
+, ihaskell-parsec, ihaskell-plot, ihaskell-rlangqq
 , ihaskell-widgets, ihs, ihttp, illuminate, imagefilters
 , imagemagick, imagepaste, imap, imapget, imbib, imgurder
 , imj-measure-stdout, imparse, ImperativeHaskell, implicit-logging
@@ -1567,17 +1568,17 @@
 , twentefp-eventloop-trees, twentefp-graphs, twentefp-rosetree
 , twentefp-trees, twhs, twidge, twilight-stm, twilio, twill, twiml
 , twisty, twitter, twitter-enumerator, twitter-feed, Twofish, tx
-, txt2rtf, txtblk, TYB, tyfam-witnesses, typalyze, type
-, type-assertions, type-booleans, type-cache
-, type-combinators-singletons, type-equality-check
-, type-indexed-queues, type-int, type-interpreter, type-level-bst
-, type-level-integers, type-level-kv-list, type-level-numbers
-, type-map, type-of-html-static, type-operators, type-prelude
-, type-settheory, type-structure, type-tree, typeable-th, TypeClass
-, typed-duration, typed-streams, typed-wire-utils, typedflow
-, typehash, TypeIlluminator, typenums, typeof, typeparams
-, typerbole, typesafe-precure, typescript-docs, TypingTester, tyro
-, u2f, uacpid, uAgda, uber, uberlast, uconv, udbus-model, udcode
+, txt2rtf, txtblk, TYB, tyfam-witnesses, typalyze, type-assertions
+, type-booleans, type-cache, type-combinators-singletons
+, type-equality-check, type-indexed-queues, type-int
+, type-interpreter, type-level-bst, type-level-integers
+, type-level-kv-list, type-level-numbers, type-map
+, type-of-html-static, type-operators, type-prelude, type-settheory
+, type-structure, type-tree, typeable-th, TypeClass, typed-duration
+, typed-streams, typed-wire-utils, typedflow, typehash
+, TypeIlluminator, typenums, typeof, typeparams, typerbole
+, typesafe-precure, typescript-docs, TypingTester, tyro, u2f
+, uacpid, uAgda, uber, uberlast, uconv, udbus-model, udcode
 , udp-conduit, udp-streaming, uhexdump, uid, UMM, una
 , unagi-bloomfilter, unagi-streams, unamb-custom
 , unbounded-delays-units, unboxed-containers, unboxed-ref
@@ -1659,26 +1660,26 @@
 , Win32-dhcp-server, Win32-extras, Win32-junction-point
 , Win32-notify, Win32-security, Win32-services-wrapper
 , Win32-shortcut, windns, windowslive, winio, Wired, wires, wiring
-, with, with-index, with-location, withdependencies, witty, wizard
-, wkt, wkt-geom, wl-pprint-ansiterm, wl-pprint-console
-, WL500gPControl, wlc-hs, WMSigner, woffex, wol, woot, word
-, word-trie, word-vector, word12, wordcloud, Wordlint, WordNet
-, WordNet-ghc74, wordpass, words, wordsearch, wordsetdiff, workdays
-, wp-archivebot, wrap, wraxml, wrecker-ui, wreq-stringless, wright
-, write-buffer-stm, writer-cps-exceptions, writer-cps-full
-, writer-cps-monads-tf, wryte, ws-chans, wsdl, wsedit
-, wumpus-microprint, wumpus-tree, WURFL, wxAsteroids, WXDiffCtrl
-, wxFruit, WxGeneric, wxhnotepad, wxSimpleCanvas, wxturtle, wyvern
-, x-dsp, X11-extras, X11-xdamage, X11-xfixes, x11-xinput, x509-util
-, x86-64bit, XAttr, xbattbar, xchat-plugin, xcp, xdcc, xdg-userdirs
-, Xec, xenstore, xfconf, xhaskell-library, xhb-ewmh, xilinx-lava
-, xine, xing-api, XInput, xinput-conduit, xkcd, xleb, xlsior
-, xlsx-tabular, xlsx-templater, XML, xml-conduit-decode
-, xml-conduit-parse, xml-enumerator-combinators
-, xml-html-conduit-lens, xml-indexed-cursor, xml-isogen, xml-monad
-, xml-prettify, xml-push, xml-query-xml-conduit, xml-tydom-conduit
-, xml2html, xml2x, xmlbf-xmlhtml, XmlHtmlWriter, XMLParser, xmltv
-, XMMS, xmobar, xmonad-contrib-bluetilebranch, xmonad-contrib-gpl
+, with-index, with-location, withdependencies, witty, wizard, wkt
+, wkt-geom, wl-pprint-ansiterm, wl-pprint-console, WL500gPControl
+, wlc-hs, WMSigner, woffex, wol, woot, word, word-trie, word-vector
+, word12, wordcloud, Wordlint, WordNet, WordNet-ghc74, wordpass
+, words, wordsearch, wordsetdiff, workdays, wp-archivebot, wrap
+, wraxml, wrecker-ui, wreq-stringless, wright, write-buffer-stm
+, writer-cps-exceptions, writer-cps-full, writer-cps-monads-tf
+, wryte, ws-chans, wsdl, wsedit, wumpus-microprint, wumpus-tree
+, WURFL, wxAsteroids, WXDiffCtrl, wxFruit, WxGeneric, wxhnotepad
+, wxSimpleCanvas, wxturtle, wyvern, x-dsp, X11-extras, X11-xdamage
+, X11-xfixes, x11-xinput, x509-util, x86-64bit, XAttr, xbattbar
+, xchat-plugin, xcp, xdcc, xdg-userdirs, Xec, xenstore, xfconf
+, xhaskell-library, xhb-ewmh, xilinx-lava, xine, xing-api, XInput
+, xinput-conduit, xkcd, xleb, xlsior, xlsx-tabular, xlsx-templater
+, XML, xml-conduit-decode, xml-conduit-parse
+, xml-enumerator-combinators, xml-html-conduit-lens
+, xml-indexed-cursor, xml-isogen, xml-monad, xml-prettify, xml-push
+, xml-query-xml-conduit, xml-tydom-conduit, xml2html, xml2x
+, xmlbf-xmlhtml, XmlHtmlWriter, XMLParser, xmltv, XMMS, xmobar
+, xmonad-contrib-bluetilebranch, xmonad-contrib-gpl
 , xmonad-entryhelper, xmonad-eval, xmonad-extras, xmonad-screenshot
 , xmonad-utils, xmonad-wallpaper, xmonad-windownames, xorshift
 , Xorshift128Plus, xpathdsv, xsact, XSaiga, xsha1, xtest, xxhash
@@ -1731,15 +1732,15 @@ mkDerivation {
   version = "2018.11.18";
   sha256 = "aab553064300163b00d28c05e96426bca4dd601dff2dcb07789d9e9a62eeffc2";
   libraryHaskellDepends = [
-    3d-graphics-examples 3dmodels 4Blocks a50 abc-puzzle abcBridge
-    abeson ABList abnf AbortT-monadstf abstract-deque-tests abt
-    AC-Boolean AC-BuildPlatform AC-Colour AC-EasyRaster-GTK
-    AC-HalfInteger ac-machine-conduit AC-MiniTest AC-PPM AC-Random
-    AC-Terminal AC-VanillaArray AC-Vector-Fancy accelerate-bignum
-    accelerate-blas accelerate-fourier-benchmark accelerate-typelits
-    accentuateus access-time access-token-provider accuerr ace
-    acid-state-dist acid-state-tls ACME acme-all-monad acme-cadre
-    acme-cofunctor acme-colosson acme-comonad acme-cutegirl
+    _3d-graphics-examples _3dmodels _4Blocks _if _type _with a50
+    abc-puzzle abcBridge abeson ABList abnf AbortT-monadstf
+    abstract-deque-tests abt AC-Boolean AC-BuildPlatform AC-Colour
+    AC-EasyRaster-GTK AC-HalfInteger ac-machine-conduit AC-MiniTest
+    AC-PPM AC-Random AC-Terminal AC-VanillaArray AC-Vector-Fancy
+    accelerate-bignum accelerate-blas accelerate-fourier-benchmark
+    accelerate-typelits accentuateus access-time access-token-provider
+    accuerr ace acid-state-dist acid-state-tls ACME acme-all-monad
+    acme-cadre acme-cofunctor acme-colosson acme-comonad acme-cutegirl
     acme-default acme-flipping-tables acme-functors acme-grawlix
     acme-hq9plus acme-http acme-inator acme-io acme-iot
     acme-kitchen-sink acme-lolcat acme-lookofdisapproval
@@ -2491,7 +2492,7 @@ mkDerivation {
     iap-verifier iban ibus-hs IcoGrid icon-fonts iconv-typed
     ide-backend-rts ide-backend-server ideas-math idempotent
     identicon-style-squares identifiers idna2008 IDynamic
-    ieee-utils-tempfix ieee754-parser iException if iff IFS ig ige
+    ieee-utils-tempfix ieee754-parser iException iff IFS ig ige
     ige-mac-integration igraph igrf ihaskell-aeson ihaskell-basic
     ihaskell-charts ihaskell-diagrams ihaskell-display ihaskell-gnuplot
     ihaskell-hatex ihaskell-hvega ihaskell-inline-r
@@ -3152,7 +3153,7 @@ mkDerivation {
     twentefp-eventloop-trees twentefp-graphs twentefp-rosetree
     twentefp-trees twhs twidge twilight-stm twilio twill twiml twisty
     twitter twitter-enumerator twitter-feed Twofish tx txt2rtf txtblk
-    TYB tyfam-witnesses typalyze type type-assertions type-booleans
+    TYB tyfam-witnesses typalyze type-assertions type-booleans
     type-cache type-combinators-singletons type-equality-check
     type-indexed-queues type-int type-interpreter type-level-bst
     type-level-integers type-level-kv-list type-level-numbers type-map
@@ -3233,7 +3234,7 @@ mkDerivation {
     WikimediaParser wikipedia4epub wild-bind-task-x11 wilton-ffi
     Win32-console Win32-dhcp-server Win32-extras Win32-junction-point
     Win32-notify Win32-security Win32-services-wrapper Win32-shortcut
-    windns windowslive winio Wired wires wiring with with-index
+    windns windowslive winio Wired wires wiring with-index
     with-location withdependencies witty wizard wkt wkt-geom
     wl-pprint-ansiterm wl-pprint-console WL500gPControl wlc-hs WMSigner
     woffex wol woot word word-trie word-vector word12 wordcloud

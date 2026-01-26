@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text ];
   homepage = "http://github.com/kowainik/shortcut-links";
   description = "Link shortcuts for use in text markup";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

@@ -23,5 +23,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/ngua/do-spaces-hs";
   description = "DigitalOcean Spaces API bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

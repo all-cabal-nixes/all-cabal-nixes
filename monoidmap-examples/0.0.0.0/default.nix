@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base containers hspec QuickCheck ];
   testToolDepends = [ hspec-discover ];
   description = "Examples for monoidmap";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

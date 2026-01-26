@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring text-short ];
   homepage = "https://github.com/andrewthad/unlifted";
   description = "Unlifted and levity-polymorphic types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

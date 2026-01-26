@@ -13,5 +13,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "Types and optics for manipulating Amazon Resource Names (ARNs)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

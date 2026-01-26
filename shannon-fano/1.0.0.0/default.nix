@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/bolt12/shannon-fano";
   description = "Shannon-fano compression algorithm in Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "shannon-fano";
 }

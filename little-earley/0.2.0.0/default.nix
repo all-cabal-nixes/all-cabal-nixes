@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers mtl ];
   testHaskellDepends = [ base containers mtl tasty tasty-hunit ];
   description = "Simple implementation of Earley parsing";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     base doctest lexer-applicative regex-applicative
   ];
   description = "Parsing library with unbiased choice and support for embedding arbitrary monad";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

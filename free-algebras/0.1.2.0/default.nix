@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/coot/free-algebras#readme";
   description = "Free algebras";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

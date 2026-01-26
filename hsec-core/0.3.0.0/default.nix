@@ -12,5 +12,5 @@ mkDerivation {
     base Cabal-syntax cvss tasty tasty-hunit text
   ];
   description = "Core package representing Haskell advisories";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

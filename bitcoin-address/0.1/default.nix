@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/k0001/hs-bitcoin-address";
   description = "Bitcoin address generation and rendering. Parsing coming soon.";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

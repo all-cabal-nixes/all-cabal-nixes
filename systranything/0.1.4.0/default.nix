@@ -25,6 +25,6 @@ mkDerivation {
   testToolDepends = [ tasty-autocollect ];
   homepage = "https://github.com/jecaro/systranything";
   description = "Let you put anything in the system tray";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "systranything";
 }

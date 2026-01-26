@@ -16,6 +16,6 @@ mkDerivation {
   testHaskellDepends = [ base github hspec text ];
   homepage = "https://github.com/kowainik/hit-on";
   description = "Haskell Git Helper Tool";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "hit";
 }

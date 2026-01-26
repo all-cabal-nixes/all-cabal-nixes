@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/syocy/xorshift-plus";
   description = "Simple implementation of xorshift+ PRNG";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

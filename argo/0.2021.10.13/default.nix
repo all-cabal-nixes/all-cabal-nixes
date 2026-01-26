@@ -17,6 +17,6 @@ mkDerivation {
     array base bytestring deepseq tasty-bench text
   ];
   description = "Parse and render JSON";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "argo";
 }

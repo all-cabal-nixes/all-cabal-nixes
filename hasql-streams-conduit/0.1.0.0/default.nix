@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andremarianiello/hasql-streams";
   description = "Stream Hasql queries with Conduit";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

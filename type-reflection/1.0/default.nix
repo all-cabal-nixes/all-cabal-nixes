@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://github.com/goldfirere/type-reflection";
   description = "Support functions to work with type representations";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

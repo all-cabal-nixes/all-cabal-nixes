@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/QuickCheck-GenT";
   description = "A GenT monad transformer for QuickCheck library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

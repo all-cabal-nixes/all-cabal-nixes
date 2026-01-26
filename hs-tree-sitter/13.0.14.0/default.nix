@@ -12,5 +12,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "High-level bindings for tree-sitter";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
 }

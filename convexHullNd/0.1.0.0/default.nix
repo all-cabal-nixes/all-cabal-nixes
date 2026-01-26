@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/stla/convexHullNd#readme";
   description = "Convex hull";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

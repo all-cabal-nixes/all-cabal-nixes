@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base exceptions free mtl transformers ];
   testHaskellDepends = [ base ];
   description = "Lawful list and set monad transformers based on free monads";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

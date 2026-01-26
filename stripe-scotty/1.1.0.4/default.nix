@@ -10,5 +10,5 @@ mkDerivation {
     stripe-signature text
   ];
   description = "Listen for Stripe webhook events with Scotty";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

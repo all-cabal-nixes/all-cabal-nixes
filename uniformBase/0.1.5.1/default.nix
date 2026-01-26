@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/github.com:andrewufrank/uniformBase.git#readme";
   description = "A uniform base to build apps on";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

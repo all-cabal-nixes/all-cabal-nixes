@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base template-haskell ];
   homepage = "https://github.com/nikita-volkov/template-haskell-compat-v0208";
   description = "A backwards compatibility layer for Template Haskell newer than 2.8";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

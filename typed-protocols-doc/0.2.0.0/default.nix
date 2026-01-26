@@ -24,6 +24,6 @@ mkDerivation {
     text typed-protocols
   ];
   description = "Derive documentation from typed-protocols source code";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "typed-protocols-doc-demo";
 }

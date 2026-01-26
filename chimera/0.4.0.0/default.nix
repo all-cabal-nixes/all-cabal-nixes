@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Bodigrim/chimera#readme";
   description = "Lazy infinite streams with O(1) indexing and applications for memoization";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

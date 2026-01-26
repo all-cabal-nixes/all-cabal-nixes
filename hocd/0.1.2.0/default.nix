@@ -16,6 +16,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/DistRap/hocd";
   description = "OpenOCD Haskell interface";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hocd-read-mem";
 }

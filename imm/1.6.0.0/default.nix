@@ -37,5 +37,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0ral/imm";
   description = "Execute arbitrary callbacks for each element of RSS/Atom feeds";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

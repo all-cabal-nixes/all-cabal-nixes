@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/blackheaven/poolboy";
   description = "Simple work queue for bounded concurrency (effectful wrapper)";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

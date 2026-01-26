@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "072g7a9b2sp0vc3g48xqbrxfis1rizqakz0b8064hs0cbgj3xkgn";
   libraryHaskellDepends = [ base template-haskell ];
   description = "The 'Lift' typeclass";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

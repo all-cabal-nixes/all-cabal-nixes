@@ -26,5 +26,5 @@ mkDerivation {
     base criterion process random text time vector
   ];
   description = "A fast, safe, and intuitive DataFrame library";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

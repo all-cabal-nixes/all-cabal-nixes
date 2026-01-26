@@ -9,5 +9,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ fftw fftwFloat ];
   homepage = "https://hub.darcs.net/thielema/fftw-ffi/";
   description = "Low-level interface to FFTW (Fast Fourier Transform)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

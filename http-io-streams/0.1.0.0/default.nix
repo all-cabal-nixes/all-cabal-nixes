@@ -15,5 +15,5 @@ mkDerivation {
     network network-uri openssl-streams text transformers
   ];
   description = "HTTP client based on io-streams";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

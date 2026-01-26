@@ -9,5 +9,5 @@ mkDerivation {
     base base16-bytestring base64-bytestring bytestring text
   ];
   description = "Binary-to-text encodings (e.g. base64)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

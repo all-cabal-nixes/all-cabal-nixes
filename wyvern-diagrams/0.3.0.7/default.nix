@@ -18,6 +18,6 @@ mkDerivation {
   testHaskellDepends = [ base containers diagrams-lib HUnit ];
   homepage = "https://github.com/PiotrJustyna/wyvern";
   description = "Simple flowchart diagrams. Inspired by DRAKON.";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "wyvern-diagrams";
 }

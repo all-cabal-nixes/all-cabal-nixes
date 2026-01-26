@@ -21,6 +21,6 @@ mkDerivation {
   executableHaskellDepends = [ aeson base filepath text ];
   homepage = "https://mpickering.github.io/eventlog2html";
   description = "Visualise an eventlog";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "eventlog2html";
 }

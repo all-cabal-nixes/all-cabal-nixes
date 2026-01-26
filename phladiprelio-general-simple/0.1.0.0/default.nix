@@ -13,5 +13,5 @@ mkDerivation {
     phonetic-languages-phonetics-basics rhythmic-sequences
   ];
   description = "A generalized functionality of PhLADiPreLiO for different languages that uses hash algorithms";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

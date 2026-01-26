@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/kquick/mywork";
   description = "Tool to keep track of what you have been working on and where";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
   mainProgram = "mywork";
 }

@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/cabal-fixes#readme";
   description = "Fix for cabal files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "cabal-fix";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     http-types memory text
   ];
   description = "Types related to implementation of a Tahoe-LAFS Great Black Swamp server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

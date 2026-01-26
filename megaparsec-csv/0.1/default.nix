@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base megaparsec ];
   homepage = "https://github.com/noahmartinwilliams/megaparsec-csv#readme";
   description = "A megaparsec library for CSV files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

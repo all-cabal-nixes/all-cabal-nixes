@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1r0as5s5a0xv2pcpxj1a1snxc3kdq1crh6hfy7y5n9d5xm010svn";
   libraryHaskellDepends = [ base ];
   description = "swap and assoc: Symmetric and Semigroupy Bifunctors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base directory process tasty tasty-hunit ];
   description = "Case splitting plugin";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

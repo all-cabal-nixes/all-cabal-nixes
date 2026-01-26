@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kim/opentracing";
   description = "Zipkin V2 backend for OpenTracing";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

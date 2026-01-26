@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/DistRap/emhell";
   description = "Embedded shell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mordae/ehlo#readme";
   description = "Minimalistic SMTP client for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

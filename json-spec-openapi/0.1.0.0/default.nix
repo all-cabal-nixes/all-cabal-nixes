@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/json-spec-openapi";
   description = "json-spec-openapi";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

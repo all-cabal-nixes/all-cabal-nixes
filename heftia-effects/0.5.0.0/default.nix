@@ -33,5 +33,5 @@ mkDerivation {
     unliftio
   ];
   description = "higher-order algebraic effects done right";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

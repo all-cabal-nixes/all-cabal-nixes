@@ -21,5 +21,5 @@ mkDerivation {
     tasty-hunit text vector
   ];
   description = "Servant bindings to Anthropic's Claude API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

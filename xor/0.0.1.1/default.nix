@@ -16,5 +16,5 @@ mkDerivation {
     base bytestring criterion ghc-byteorder
   ];
   description = "Efficient XOR masking";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Fuuzetsu/parse-gcstats";
   description = "Parse machine-readable GHC GC stats";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

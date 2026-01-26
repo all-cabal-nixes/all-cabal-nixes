@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/danielrolls/byte-count-reader#readme";
   description = "Read strings describing a number of bytes like 2Kb and 0.5 MiB";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

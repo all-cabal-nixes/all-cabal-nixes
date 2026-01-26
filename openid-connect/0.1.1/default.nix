@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pjones/openid-connect";
   description = "An OpenID Connect library that does all the heavy lifting for you";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

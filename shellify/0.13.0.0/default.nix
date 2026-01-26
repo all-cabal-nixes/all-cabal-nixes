@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base raw-strings-qq text ];
   testHaskellDepends = [ base hspec hspec-core raw-strings-qq text ];
   description = "A tool for generating shell.nix files";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "nix-shellify";
 }

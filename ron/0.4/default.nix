@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq ];
   homepage = "https://github.com/ff-notes/ron";
   description = "RON, RON-RDT, and RON-Schema";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

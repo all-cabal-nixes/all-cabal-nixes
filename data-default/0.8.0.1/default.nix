@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ];
   testHaskellDepends = [ base containers mtl ];
   description = "A class for types with a default value";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/isovector/nspace#readme";
   description = "Efficient, infinite-precision 2D and 3D spatial containers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

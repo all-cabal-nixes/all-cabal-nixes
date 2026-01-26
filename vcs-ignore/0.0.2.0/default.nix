@@ -21,6 +21,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/vaclavsvejcar/vcs-ignore";
   description = "Library for handling files ignored by VCS systems";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ignore";
 }

@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/purenix-org/purenix";
   description = "Nix backend for PureScript. Transpile PureScript code to Nix.";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "purenix";
 }

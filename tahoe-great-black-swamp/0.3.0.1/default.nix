@@ -39,5 +39,5 @@ mkDerivation {
   ];
   homepage = "https://whetstone.private.storage/PrivateStorage/tahoe-great-black-swamp";
   description = "An implementation of the \"Great Black Swamp\" LAFS protocol";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -42,5 +42,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://gitlab.haskell.org/haskell/ghcup-hs";
   description = "ghc toolchain installer";
-  license = lib.licenses.lgpl3Only;
+  license = lib.licensesSpdx."LGPL-3.0-only";
 }

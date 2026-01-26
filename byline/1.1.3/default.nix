@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pjones/byline";
   description = "Library for creating command-line interfaces (colors, menus, etc.)";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

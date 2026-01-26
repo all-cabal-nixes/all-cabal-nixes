@@ -30,6 +30,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/well-typed/haskell-debugger";
   description = "A step-through machine-interface debugger for GHC Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hdb";
 }

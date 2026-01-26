@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/stripe";
   description = "Use the Stripe API via Wreq";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

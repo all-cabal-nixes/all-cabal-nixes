@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/larskuhtz/hostaddress";
   description = "Network Host Addresses";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

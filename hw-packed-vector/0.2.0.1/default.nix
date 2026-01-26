@@ -26,6 +26,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-packed-vector#readme";
   description = "Packed Vector";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hw-packed-vector";
 }

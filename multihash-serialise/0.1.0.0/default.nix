@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base cryptonite hedgehog serialise ];
   homepage = "https://github.com/oscoin/ipfs";
   description = "CBOR encoding of multihashes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

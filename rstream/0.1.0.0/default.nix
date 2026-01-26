@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc-prim ];
   homepage = "https://github.com/chessai/rstream";
   description = "stream-fusion framework from vector";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

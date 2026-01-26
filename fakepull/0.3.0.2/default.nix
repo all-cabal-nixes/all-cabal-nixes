@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base exceptions hspec mtl QuickCheck ];
   homepage = "https://github.com/igrep/haskell-fakepull#readme";
   description = "Monad to pull from fake stream-like objects";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

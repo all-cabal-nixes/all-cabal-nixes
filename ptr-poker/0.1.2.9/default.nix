@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ gauge rerebase ];
   homepage = "https://github.com/nikita-volkov/ptr-poker";
   description = "Pointer poking action construction and composition toolkit";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

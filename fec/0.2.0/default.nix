@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tahoe-lafs/zfec";
   description = "Forward error correction of ByteStrings";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
   mainProgram = "benchmark-zfec";
 }

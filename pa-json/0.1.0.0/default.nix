@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/possehl-analytics/pa-hackage";
   description = "Our JSON parsers/encoders";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

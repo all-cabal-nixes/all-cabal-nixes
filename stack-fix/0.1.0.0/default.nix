@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base options text turtle ];
   homepage = "https://github.com/razvan-panda/haskell-stack-fix";
   description = "Console program used to fix Stack build errors automatically";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "stack-fix";
 }

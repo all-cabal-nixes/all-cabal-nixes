@@ -8,5 +8,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq QuickCheck ];
   homepage = "https://github.com/bolt12/laop";
   description = "Matrix programming library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

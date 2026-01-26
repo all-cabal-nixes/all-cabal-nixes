@@ -12,5 +12,5 @@ mkDerivation {
     array base containers QuickCheck tasty tasty-quickcheck text vector
   ];
   description = "In-memory full text search engine";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

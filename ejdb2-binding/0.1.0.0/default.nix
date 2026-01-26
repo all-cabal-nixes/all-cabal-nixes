@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/cescobaz/ejdb2haskell#readme";
   description = "Binding to EJDB2 C library, an embedded JSON noSQL database";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

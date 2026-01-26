@@ -10,5 +10,5 @@ mkDerivation {
     transformers unix
   ];
   description = "Parse files conforming to the xdg desktop entry spec";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

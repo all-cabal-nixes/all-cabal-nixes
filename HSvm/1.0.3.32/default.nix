@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1kwg7asvnrhvafkgd4yi2zbr54a625ia8qrjn32h6sp7rknz74n3";
   libraryHaskellDepends = [ base containers ];
   description = "Haskell Bindings for libsvm";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion random vector ];
   homepage = "https://sr.ht/~brendanrbrown/random-cycle";
   description = "Uniform draws of partitions and cycle-partitions, with thinning";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

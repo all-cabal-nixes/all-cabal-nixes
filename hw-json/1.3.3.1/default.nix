@@ -40,6 +40,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "http://github.com/haskell-works/hw-json#readme";
   description = "Memory efficient JSON parser";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hw-json";
 }

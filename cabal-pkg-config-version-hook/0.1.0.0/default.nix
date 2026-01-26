@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base Cabal lens process ];
   homepage = "https://github.com/hercules-ci/hercules-ci-agent/tree/master/cabal-pkg-config-version-hook#readme";
   description = "Make Cabal aware of pkg-config package versions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

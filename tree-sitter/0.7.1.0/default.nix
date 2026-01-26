@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog ];
   homepage = "http://github.com/tree-sitter/haskell-tree-sitter#readme";
   description = "Unstable bindings for the tree-sitter parsing library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

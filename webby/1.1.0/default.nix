@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/donatello/webby";
   description = "A super-simple web server framework";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

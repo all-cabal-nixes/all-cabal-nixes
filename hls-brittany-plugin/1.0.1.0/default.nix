@@ -13,5 +13,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base filepath hls-test-utils ];
   description = "Integration with the Brittany code formatter";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
 }

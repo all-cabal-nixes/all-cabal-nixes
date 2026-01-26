@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/shapr/kudzu";
   description = "coverage driven random testing framework";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "kudzu";
 }

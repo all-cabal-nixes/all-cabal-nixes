@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ZHaskell/z-botan";
   description = "Crypto for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
     base bytestring criterion deepseq SHA weigh
   ];
   description = "The SHA-256 and HMAC-SHA256 algorithms";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

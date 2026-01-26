@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/hercules-ci/arion#readme";
   description = "Run docker-compose with help from Nix/NixOS";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "arion";
 }

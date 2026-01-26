@@ -11,5 +11,5 @@ mkDerivation {
     polysemy-test prelate ribosome-host
   ];
   description = "Test tools for Ribosome";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

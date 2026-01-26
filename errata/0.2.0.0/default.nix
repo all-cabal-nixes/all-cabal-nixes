@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base containers text ];
   homepage = "https://github.com/1Computer1/errata";
   description = "Source code error pretty printing";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "errata-example";
 }

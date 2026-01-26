@@ -31,6 +31,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/mpickering/hie-bios";
   description = "Set up a GHC API session";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hie-bios";
 }

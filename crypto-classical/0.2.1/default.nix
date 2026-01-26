@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring microlens QuickCheck ];
   homepage = "https://github.com/fosskers/crypto-classical";
   description = "An educational tool for studying classical cryptography schemes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

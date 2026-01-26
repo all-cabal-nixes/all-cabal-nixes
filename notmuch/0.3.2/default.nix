@@ -14,5 +14,5 @@ mkDerivation {
   libraryToolDepends = [ c2hs ];
   homepage = "https://github.com/purebred-mua/hs-notmuch";
   description = "Haskell binding to Notmuch, the mail indexer";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

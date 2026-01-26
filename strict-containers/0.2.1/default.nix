@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskellari/strict-containers";
   description = "Strict containers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

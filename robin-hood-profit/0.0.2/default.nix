@@ -23,6 +23,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "http://github.com/yaitskov/RobinHood-pr0fit";
   description = "Calculate per instrument profit from Robin-Hood activity report";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "rhprofit";
 }

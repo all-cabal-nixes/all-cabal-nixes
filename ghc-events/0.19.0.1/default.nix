@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base bytestring containers ];
   testHaskellDepends = [ base ];
   description = "Library and tool for parsing .eventlog files from GHC";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ghc-events";
 }

@@ -64,6 +64,6 @@ mkDerivation {
   doCheck = false;
   homepage = "http://www.purescript.org/";
   description = "PureScript Programming Language Compiler";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "purs";
 }

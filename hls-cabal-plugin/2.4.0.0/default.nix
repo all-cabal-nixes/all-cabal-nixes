@@ -20,5 +20,5 @@ mkDerivation {
     text-rope transformers
   ];
   description = "Cabal integration plugin with Haskell Language Server";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

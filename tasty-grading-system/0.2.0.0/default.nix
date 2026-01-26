@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fendor/tasty-grading-system";
   description = "Grade your tasty-testsuite";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

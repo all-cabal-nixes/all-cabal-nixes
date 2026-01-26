@@ -9,5 +9,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring text unliftio ];
   homepage = "https://github.com/dpwiz/kb-text-shape#readme";
   description = "Unicode segmentation and shaping using kb_text_shape";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

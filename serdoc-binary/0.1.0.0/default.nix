@@ -11,5 +11,5 @@ mkDerivation {
     time
   ];
   description = "`binary` backend for `serdoc`";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -23,5 +23,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/Tritlo/mcp";
   description = "A Haskell implementation of the Model Context Protocol (MCP)";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

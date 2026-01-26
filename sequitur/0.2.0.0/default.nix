@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base containers criterion QuickCheck ];
   homepage = "https://github.com/msakai/haskell-sequitur#readme";
   description = "Grammar-based compression algorithms SEQUITUR";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

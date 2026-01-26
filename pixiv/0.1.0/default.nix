@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/The-closed-eye-of-love/pixiv";
   description = "Pixiv API binding based on servant-client";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

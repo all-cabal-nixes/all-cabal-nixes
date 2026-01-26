@@ -10,5 +10,5 @@ mkDerivation {
     jose lens text time wreq
   ];
   description = "implements ACME clients (rfc-8555)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

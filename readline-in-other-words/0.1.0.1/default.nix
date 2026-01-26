@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/lehmacdj/readline-in-other-words#readme";
   description = "Readline effect for in-other-words";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
   mainProgram = "echo-repl";
 }

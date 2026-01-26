@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/utdemir/nix-tree";
   description = "Interactively browse a Nix store paths dependencies";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "nix-tree";
 }

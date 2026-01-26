@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/LaurentRDC/hakyll-images#readme";
   description = "Hakyll utilities to work with images";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

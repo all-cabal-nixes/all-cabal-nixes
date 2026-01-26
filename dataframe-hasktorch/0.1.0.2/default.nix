@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base dataframe hasktorch vector ];
   testHaskellDepends = [ base ];
   description = "Converts between dataframes and hasktorch tensors";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

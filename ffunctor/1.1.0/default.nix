@@ -15,5 +15,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "FFunctor typeclass";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

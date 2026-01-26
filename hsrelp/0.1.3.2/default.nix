@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/verrens/hsrelp";
   description = "RELP (Reliable Event Logging Protocol) server implementation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

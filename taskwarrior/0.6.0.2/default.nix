@@ -18,5 +18,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/maralorn/haskell-taskwarrior";
   description = "Types and aeson instances for taskwarrior tasks";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

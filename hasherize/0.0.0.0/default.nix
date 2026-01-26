@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/hasherize";
   description = "Hash digests for files and directories";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "hasherize";
 }

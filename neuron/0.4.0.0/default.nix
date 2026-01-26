@@ -35,6 +35,6 @@ mkDerivation {
   ];
   homepage = "https://neuron.zettel.page";
   description = "Haskell meets Zettelkasten, for your plain-text delight";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "neuron";
 }

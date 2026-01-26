@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/j-mueller/ghci-websockets";
   description = "A websocket server that survives GHCi reloads";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

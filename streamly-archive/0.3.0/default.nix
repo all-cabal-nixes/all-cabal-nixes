@@ -20,5 +20,5 @@ mkDerivation {
   testSystemDepends = [ archive ];
   homepage = "https://github.com/shlok/streamly-archive#readme";
   description = "Stream data from archives using the streamly library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

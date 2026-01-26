@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/exordium/church#readme";
   description = "Automatically convert Generic instances to and from church representations";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

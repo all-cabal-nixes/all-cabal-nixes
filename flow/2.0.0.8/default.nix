@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base HUnit ];
   description = "Write more understandable Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

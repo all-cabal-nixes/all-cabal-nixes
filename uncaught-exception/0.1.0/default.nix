@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/serokell/uncaught-exception";
   description = "Customize uncaught exception handling";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "uncaught-exception-demo";
 }

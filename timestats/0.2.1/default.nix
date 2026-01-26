@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base mtl text ];
   homepage = "https://github.com/tweag/timestats";
   description = "A library for profiling time in Haskell applications";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

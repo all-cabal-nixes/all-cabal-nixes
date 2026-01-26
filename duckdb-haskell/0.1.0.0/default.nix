@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit vector ];
   homepage = "https://github.com/sighingnow/duckdb-haskell";
   description = "Haskell bindings for duckdb";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/disjoint-containers";
   description = "Disjoint containers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

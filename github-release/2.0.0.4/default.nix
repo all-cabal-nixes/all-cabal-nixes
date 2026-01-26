@@ -17,6 +17,6 @@ mkDerivation {
     http-types mime-types optparse-generic text unordered-containers
   ];
   description = "Upload files to GitHub releases";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "github-release";
 }

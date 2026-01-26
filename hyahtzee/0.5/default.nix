@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base containers HUnit random ];
   homepage = "http://github.com/DamienCassou/HYahtzee";
   description = "A Yahtzee game implementation in Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hyahtzee";
 }

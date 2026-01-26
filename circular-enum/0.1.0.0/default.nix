@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/memowe/circular-enum";
   description = "Make bounded enum types circular";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

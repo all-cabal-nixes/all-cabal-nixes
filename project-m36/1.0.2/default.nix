@@ -71,5 +71,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/agentm/project-m36";
   description = "Relational Algebra Engine";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

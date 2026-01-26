@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc-prim ralist semigroupoids ];
   homepage = "http://github.com/cartazio/resin";
   description = "High performance variable binders";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

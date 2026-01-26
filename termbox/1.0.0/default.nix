@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ki termbox-bindings-hs ];
   homepage = "https://github.com/termbox/termbox-haskell";
   description = "termbox";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

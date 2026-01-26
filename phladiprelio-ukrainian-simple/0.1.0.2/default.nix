@@ -14,6 +14,6 @@ mkDerivation {
     ukrainian-phonetics-basic-array
   ];
   description = "A PhLADiPreLiO implementation for Ukrainian that uses hashes";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "phladiprelioUkr";
 }

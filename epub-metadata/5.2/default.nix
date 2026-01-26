@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/dino-/epub-metadata#readme";
   description = "Library for parsing epub document metadata";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
   mainProgram = "epub-metadata-example";
 }

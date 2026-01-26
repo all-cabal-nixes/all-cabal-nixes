@@ -13,5 +13,5 @@ mkDerivation {
     attoparsec base bytestring hspec postgresql-libpq postgresql-simple
   ];
   description = "A simple interval type for PostgreSQL";
-  license = lib.licenses.bsd0;
+  license = lib.licensesSpdx."0BSD";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     base bytestring hedis hspec hspec-tmp-proc text tmp-proc
   ];
   description = "Shows how to run redis as a tmp proc";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

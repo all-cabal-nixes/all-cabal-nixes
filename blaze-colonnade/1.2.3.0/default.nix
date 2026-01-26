@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/blaze-colonnade";
   description = "blaze-html backend for colonnade";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/typeclasses/ascii-char";
   description = "A Char type representing an ASCII character";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

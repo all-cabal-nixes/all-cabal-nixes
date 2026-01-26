@@ -19,5 +19,5 @@ mkDerivation {
   testToolDepends = [ happy ];
   homepage = "http://www.purescript.org/";
   description = "PureScript Programming Language Concrete Syntax Tree";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

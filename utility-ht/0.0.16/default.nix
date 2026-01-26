@@ -10,5 +10,5 @@ mkDerivation {
     base doctest-exitcode-stdio doctest-lib QuickCheck
   ];
   description = "Various small helper functions for Lists, Maybes, Tuples, Functions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

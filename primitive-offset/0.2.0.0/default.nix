@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base primitive ];
   homepage = "https://github.com/andrewthad/primitive-offset";
   description = "Types for offsets into unboxed arrays";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

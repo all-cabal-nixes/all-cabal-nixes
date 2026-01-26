@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base freer-base-classes ftcqueue ];
   homepage = "https://github.com/YoshikuniJujo/higher-order-freer-monad#readme";
   description = "This package is used by package yaftee";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

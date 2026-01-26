@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "http://tidalcycles.org/";
   description = "Ableton Link integration for Tidal";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "linktest";
 }

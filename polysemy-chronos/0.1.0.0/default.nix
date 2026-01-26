@@ -15,5 +15,5 @@ mkDerivation {
     polysemy-test polysemy-time tasty tasty-hedgehog text
   ];
   description = "Polysemy effect for chronos";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

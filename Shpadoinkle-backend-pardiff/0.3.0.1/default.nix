@@ -12,5 +12,5 @@ mkDerivation {
     unliftio
   ];
   description = "A Virtual Dom in pure Haskell, based on Html as an Alignable Functor";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

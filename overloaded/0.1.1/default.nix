@@ -15,5 +15,5 @@ mkDerivation {
     singleton-bool sop-core symbols tasty tasty-hunit text time vec
   ];
   description = "Overloaded pragmas as a plugin";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
     transformers-base wai warp
   ];
   description = "Grab bag of eventuo11y-enriched functionality";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, convertible, deepseq, friday, lib
-, libdevil, transformers, vector
+{ mkDerivation, base, bytestring, convertible, deepseq, friday, IL
+, lib, transformers, vector
 }:
 mkDerivation {
   pname = "friday-devil";
@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring convertible deepseq friday transformers vector
   ];
-  librarySystemDepends = [ libdevil ];
+  librarySystemDepends = [ IL ];
   homepage = "https://github.com/RaphaelJ/friday-devil";
   description = "Uses the DevIL C library to read and write images from and to files and memory buffers";
   license = lib.licenses.lgpl3Only;

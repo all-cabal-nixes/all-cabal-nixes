@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring entropy ip primitive ];
   homepage = "https://github.com/andrewthad/sockets";
   description = "High-level network sockets";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

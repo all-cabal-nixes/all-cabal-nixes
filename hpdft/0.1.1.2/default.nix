@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/k16shikano/hpdft";
   description = "A tool for looking through PDF file using Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "hpdft";
 }

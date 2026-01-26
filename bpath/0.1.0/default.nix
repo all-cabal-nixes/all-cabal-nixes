@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/poscat0x04/bpath";
   description = "A minimal typed unix path library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

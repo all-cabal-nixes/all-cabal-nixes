@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/array-chunks";
   description = "Lists of chunks";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

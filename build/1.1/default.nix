@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base containers extra mtl transformers ];
   homepage = "https://github.com/snowleopard/build";
   description = "Build Systems à la Carte";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/cdsmith/HMock";
   description = "A flexible mock framework for testing effectful code";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

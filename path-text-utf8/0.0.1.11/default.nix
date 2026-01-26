@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/path-text-utf8";
   description = "Read and write UTF-8 text files";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "10fbbygp1w79h8spmcdwz56vl0gw761rfvb731fhmsvm35390jd9";
   libraryHaskellDepends = [ base containers network stm text ];
   description = "Instant StatsD in Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

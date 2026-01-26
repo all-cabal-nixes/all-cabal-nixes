@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tclem/twirp-haskell#readme";
   description = "Haskell twirp foundations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

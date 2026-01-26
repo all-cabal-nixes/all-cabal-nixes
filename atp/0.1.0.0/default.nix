@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/aztek/atp";
   description = "Interface to automated theorem provers";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base text ];
   description = "A library for interacting with various generative AI LLMs";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

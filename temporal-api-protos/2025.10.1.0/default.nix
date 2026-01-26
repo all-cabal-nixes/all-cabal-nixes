@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [
     base proto-lens-protobuf-types proto-lens-runtime
   ];
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

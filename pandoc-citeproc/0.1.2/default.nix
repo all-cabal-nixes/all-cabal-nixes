@@ -23,7 +23,6 @@ mkDerivation {
   testHaskellDepends = [
     aeson aeson-pretty base bytestring Diff pandoc pandoc-types process
   ];
-  doCheck = false;
   description = "Supports using pandoc with citeproc";
   license = lib.licenses.bsd3;
 }

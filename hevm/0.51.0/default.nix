@@ -54,6 +54,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/dapphub/dapptools";
   description = "Ethereum virtual machine evaluator";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "hevm";
 }

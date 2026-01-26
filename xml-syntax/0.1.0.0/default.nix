@@ -14,5 +14,5 @@ mkDerivation {
     base byteslice bytestring primitive tasty tasty-hunit
   ];
   description = "Parse XML from bytes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

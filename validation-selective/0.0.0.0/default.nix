@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/validation-selective";
   description = "Lighweight pure data validation based on Applicative and Selective functors";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

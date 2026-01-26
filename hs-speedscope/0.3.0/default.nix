@@ -13,6 +13,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base ];
   description = "Convert an eventlog into the speedscope json format";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hs-speedscope";
 }

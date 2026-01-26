@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-nix/hnix-store";
   description = "Remote hnix store";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

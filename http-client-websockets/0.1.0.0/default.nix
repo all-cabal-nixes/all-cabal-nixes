@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/amesgen/http-client-websockets";
   description = "Glue code for http-client and websockets";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

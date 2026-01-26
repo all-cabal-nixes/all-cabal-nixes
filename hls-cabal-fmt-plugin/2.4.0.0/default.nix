@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base directory filepath hls-test-utils ];
   description = "Integration with the cabal-fmt code formatter";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

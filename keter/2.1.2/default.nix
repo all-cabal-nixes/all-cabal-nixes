@@ -34,6 +34,6 @@ mkDerivation {
   ];
   homepage = "http://www.yesodweb.com/";
   description = "Web application deployment manager, focusing on Haskell web frameworks";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "keter";
 }

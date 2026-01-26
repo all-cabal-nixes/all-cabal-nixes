@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Functions to partially satisfy tensor signatures";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

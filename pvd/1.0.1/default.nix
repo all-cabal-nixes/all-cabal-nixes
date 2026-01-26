@@ -1,5 +1,5 @@
 { mkDerivation, array, base, Codec-Image-DevIL, containers
-, haskell98, lib, libdevil, mtl, network, X11
+, haskell98, IL, lib, mtl, network, X11
 }:
 mkDerivation {
   pname = "pvd";
@@ -10,7 +10,7 @@ mkDerivation {
   executableHaskellDepends = [
     array base Codec-Image-DevIL containers haskell98 mtl network X11
   ];
-  executableSystemDepends = [ libdevil ];
+  executableSystemDepends = [ IL ];
   homepage = "http://code.haskell.org/pvd";
   description = "A photo viewer daemon application with remote controlling abilities";
   license = lib.licenses.bsd3;

@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ki termbox ];
   homepage = "https://github.com/awkward-squad/termbox";
   description = "termbox + The Elm Architecture";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

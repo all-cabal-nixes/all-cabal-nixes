@@ -15,5 +15,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base tasty-bench transformers ];
   homepage = "https://github.com/fused-effects/fused-effects";
   description = "A fast, flexible, fused effect system";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

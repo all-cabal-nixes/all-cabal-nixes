@@ -15,5 +15,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/serokell/hsblst#readme";
   description = "Haskell bindings to BLST";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

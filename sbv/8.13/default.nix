@@ -28,5 +28,5 @@ mkDerivation {
   ];
   homepage = "http://leventerkok.github.com/sbv/";
   description = "SMT Based Verification: Symbolic Haskell theorem prover using SMT solving";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

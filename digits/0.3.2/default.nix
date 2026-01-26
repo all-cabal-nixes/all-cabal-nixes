@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base QuickCheck ];
   testHaskellDepends = [ base QuickCheck ];
   description = "Converts integers to lists of digits and back";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

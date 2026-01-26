@@ -14,5 +14,5 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base warp ];
   description = "Minion wrappers for wai-extra";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

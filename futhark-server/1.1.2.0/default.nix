@@ -10,5 +10,5 @@ mkDerivation {
     text
   ];
   description = "Client implementation of the Futhark server protocol";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

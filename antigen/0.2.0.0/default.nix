@@ -15,5 +15,5 @@ mkDerivation {
     base criterion QuickCheck quickcheck-transformer
   ];
   description = "Negatable QuickCheck generators";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/latex-svg#readme";
   description = "Use actual LaTeX to render formulae inside Hakyll pages";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

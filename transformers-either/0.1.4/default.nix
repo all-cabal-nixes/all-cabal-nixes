@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base exceptions text transformers ];
   homepage = "http://github.com/tmcgilchrist/transformers-either/";
   description = "An Either monad transformer";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
     unpacked-maybe-text
   ];
   description = "Serialization of Elasticsearch requests and responses";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://hackage.haskell.org/package/word-notes-datatype";
   description = "General datatypes for music creation for one instrument";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

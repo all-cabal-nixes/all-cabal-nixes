@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/th-lego";
   description = "Template Haskell construction utilities";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/schoettl/bank-holiday-germany#readme";
   description = "German bank holidays and public holidays";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

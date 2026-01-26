@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/summoner";
   description = "Tool for scaffolding fully configured batteries-included production-level Haskell projects";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "summon";
 }

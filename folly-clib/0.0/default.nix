@@ -1,5 +1,5 @@
 { mkDerivation, boost, boost_filesystem, boost_program_options, fmt
-, lib, libglog, libunwind, openssl, snappy
+, glog, lib, libunwind, openssl, snappy
 }:
 mkDerivation {
   pname = "folly-clib";
@@ -8,9 +8,9 @@ mkDerivation {
   librarySystemDepends = [
     boost boost_filesystem boost_program_options
   ];
-  libraryPkgconfigDepends = [ fmt libglog libunwind openssl snappy ];
+  libraryPkgconfigDepends = [ fmt glog libunwind openssl snappy ];
   doHaddock = false;
   homepage = "https://github.com/facebook/folly";
   description = "The folly C++ library from Meta";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

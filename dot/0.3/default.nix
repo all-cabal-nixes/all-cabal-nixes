@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text ];
   homepage = "https://github.com/andrewthad/dot";
   description = "Datatypes and encoding for graphviz dot files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

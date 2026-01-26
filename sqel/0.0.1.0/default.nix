@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://git.tryp.io/tek/sqel";
   description = "Guided derivation for Hasql statements";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

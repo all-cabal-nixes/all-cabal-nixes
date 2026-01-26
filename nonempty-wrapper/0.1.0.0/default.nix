@@ -8,5 +8,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/blackheaven/nonempty-wrapper/nonempty-wrapper";
   description = "Create NonEmpty version of any container";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

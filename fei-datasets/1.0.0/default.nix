@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/pierric/fei-datasets";
   description = "Some datasets";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

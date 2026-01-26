@@ -15,5 +15,5 @@ mkDerivation {
     base bytestring criterion deepseq primitive weigh
   ];
   description = "Primitive Script support";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

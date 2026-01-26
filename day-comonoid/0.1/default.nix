@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base comonad kan-extensions ];
   homepage = "https://github.com/viercc/functor-monad/tree/main/day-comonoid";
   description = "A comonoid w.r.t. Day";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

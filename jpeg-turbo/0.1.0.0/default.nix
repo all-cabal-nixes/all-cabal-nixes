@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "FFI bindings to libjpeg-turbo";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

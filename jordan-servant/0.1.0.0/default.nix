@@ -16,5 +16,5 @@ mkDerivation {
     servant text transformers
   ];
   description = "Servant Combinators for Jordan";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

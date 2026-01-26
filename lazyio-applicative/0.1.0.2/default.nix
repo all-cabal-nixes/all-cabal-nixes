@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0lyqkvkd6b45d6x9l4k01di8fgd6wdd641i9rzgshz3rbpd6y9c5";
   libraryHaskellDepends = [ base ];
   description = "LazyIO applicative for asymptotic performance";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

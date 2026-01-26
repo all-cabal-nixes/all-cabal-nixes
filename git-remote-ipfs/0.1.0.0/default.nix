@@ -26,6 +26,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/oscoin/ipfs";
   description = "Git remote helper to store git objects on IPFS";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "git-remote-ipfs";
 }

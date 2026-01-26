@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base bytestring filepath hspec ];
   description = "JSON Feed";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

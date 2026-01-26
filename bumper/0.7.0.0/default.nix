@@ -12,6 +12,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/ulysses4ever/bumper";
   description = "Automatically bump package versions, also transitively";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "bumper";
 }

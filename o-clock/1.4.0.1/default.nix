@@ -17,6 +17,6 @@ mkDerivation {
   testToolDepends = [ doctest markdown-unlit ];
   homepage = "https://github.com/serokell/o-clock";
   description = "Type-safe time library";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "play-o-clock";
 }

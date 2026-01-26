@@ -18,6 +18,6 @@ mkDerivation {
   executableHaskellDepends = [ base elynx-tools ];
   homepage = "https://github.com/dschrempf/elynx#readme";
   description = "Handle phylogenetic trees";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "tlynx";
 }

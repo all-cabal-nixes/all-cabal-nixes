@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/polysemy-time#readme";
   description = "Polysemy effects for time";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

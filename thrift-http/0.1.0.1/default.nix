@@ -22,5 +22,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/facebookincubator/hsthrift";
   description = "Support for Thrift-over-HTTP server and client";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

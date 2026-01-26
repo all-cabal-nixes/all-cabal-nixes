@@ -23,6 +23,6 @@ mkDerivation {
     temporary
   ];
   description = "Generates a references DB from .hie files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hiedb";
 }

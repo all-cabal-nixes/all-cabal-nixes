@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/haskell-works/example-haskell-project";
   description = "Example Haskell Project";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "example-haskell-project";
 }

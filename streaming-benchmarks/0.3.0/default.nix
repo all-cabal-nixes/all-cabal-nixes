@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://streamly.composewell.com";
   description = "Measures and compares the performance of streaming libraries";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

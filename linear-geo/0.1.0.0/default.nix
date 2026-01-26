@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog linear reflection ];
   homepage = "https://github.com/TravisWhitaker/linear-geo";
   description = "Geographic coordinates, built on the linear package";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

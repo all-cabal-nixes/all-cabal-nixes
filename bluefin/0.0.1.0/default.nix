@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1lgjq54g16h00mr3aj5af6g4x5s81ys5j8q5606i2al832j2mj1x";
   libraryHaskellDepends = [ bluefin-internal ];
   description = "The Bluefin effect system";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

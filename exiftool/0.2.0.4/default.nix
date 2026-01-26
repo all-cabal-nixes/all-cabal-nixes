@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/marhop/exiftool-haskell";
   description = "Haskell bindings to ExifTool";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

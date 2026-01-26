@@ -13,5 +13,5 @@ mkDerivation {
     stm-containers text transformers unordered-containers
   ];
   description = "GHC plugin for open telemetry";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

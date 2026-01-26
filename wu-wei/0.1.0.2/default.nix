@@ -10,6 +10,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/fuzz/wu-wei";
   description = "Unimportant Unix adminstration tool";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "pao";
 }

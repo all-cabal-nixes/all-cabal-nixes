@@ -16,6 +16,6 @@ mkDerivation {
     base http-client http-client-tls monad-logger text
   ];
   description = "Library for checking for weak/compromised passwords";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "readme";
 }

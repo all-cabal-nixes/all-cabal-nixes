@@ -15,5 +15,5 @@ mkDerivation {
   benchmarkSystemDepends = [ openssl ];
   homepage = "https://github.com/larskuhtz/hs-hashes";
   description = "Hash functions";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

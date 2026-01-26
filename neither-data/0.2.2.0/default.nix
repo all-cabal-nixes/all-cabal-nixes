@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/schuelermine/neither-data";
   description = "The Neither datatype";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

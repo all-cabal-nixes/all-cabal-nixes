@@ -8,5 +8,5 @@ mkDerivation {
   testHaskellDepends = [ base hslua-core tasty tasty-lua ];
   homepage = "https://hslua.org/";
   description = "Opinionated, but extensible Lua list type";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

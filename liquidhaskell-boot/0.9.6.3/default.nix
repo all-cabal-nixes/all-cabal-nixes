@@ -27,5 +27,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ucsd-progsys/liquidhaskell";
   description = "Liquid Types for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

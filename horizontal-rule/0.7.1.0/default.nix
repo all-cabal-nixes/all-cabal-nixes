@@ -14,6 +14,6 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://github.com/ExtremaIS/hr-haskell#readme";
   description = "horizontal rule for the terminal";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "hr";
 }

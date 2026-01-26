@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/quantification#readme";
   description = "Rage against the quantification - integration with Aeson";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

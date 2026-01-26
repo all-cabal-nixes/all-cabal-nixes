@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/merijn/broadcast-chan";
   description = "Pipes-based parallel streaming code for broadcast-chan";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

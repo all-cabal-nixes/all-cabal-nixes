@@ -8,5 +8,5 @@ mkDerivation {
   testHaskellDepends = [ ascii-case ascii-char base hspec ];
   homepage = "https://github.com/typeclasses/ascii-caseless";
   description = "ASCII character without an upper/lower case distinction";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

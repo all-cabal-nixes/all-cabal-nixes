@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base time ];
   homepage = "http://github.com/paulrzcz/hquantlib-time.git";
   description = "HQuantLib Time is a business calendar functions extracted from HQuantLib";
-  license = lib.licenses.lgpl3Plus;
+  license = lib.licensesSpdx."LGPL-3.0-or-later";
 }

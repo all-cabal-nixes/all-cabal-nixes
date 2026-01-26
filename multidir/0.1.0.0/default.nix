@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jcranch/multidir#readme";
   description = "Simple tool for running commands in multiple directories";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "muld";
 }

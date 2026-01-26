@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jtnuttall/heph/tree/main/heph-sparse-set#readme";
   description = "Really fast mutable sparse sets";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

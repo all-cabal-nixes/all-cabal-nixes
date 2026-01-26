@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, deepseq, digest, hashable, lib
-, libxxhash, murmur-hash, QuickCheck, tasty, tasty-bench
-, tasty-quickcheck, text
+, murmur-hash, QuickCheck, tasty, tasty-bench, tasty-quickcheck
+, text, xxHash
 }:
 mkDerivation {
   pname = "xxhash-ffi";
@@ -9,7 +9,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "07mc7rllnf3hgnqnywzmjpafmrpr4jdbvj4iwifz72n5c2marr1z";
   libraryHaskellDepends = [ base bytestring hashable text ];
-  libraryPkgconfigDepends = [ libxxhash ];
+  libraryPkgconfigDepends = [ xxHash ];
   testHaskellDepends = [
     base bytestring hashable QuickCheck tasty tasty-quickcheck text
   ];
@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-haskey/xxhash-ffi#readme";
   description = "Bindings and high-level helpers for xxHash";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   testToolDepends = [ hspec-discover ];
   description = "Provides a generic way to construct values from environment variables";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -34,10 +34,6 @@ mkDerivation {
     test-framework test-framework-hunit test-framework-quickcheck2 text
   ];
   benchmarkHaskellDepends = [ base criterion syb ];
-  postInstall = ''
-    mkdir -p $out/share
-    mv $data/*/*/man $out/share/
-  '';
   homepage = "http://johnmacfarlane.net/pandoc";
   description = "Conversion between markup formats";
   license = "GPL";

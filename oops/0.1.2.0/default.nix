@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "https://www.github.com/haskell-works/oops";
   description = "Combinators for handling errors of many types in a composable way";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

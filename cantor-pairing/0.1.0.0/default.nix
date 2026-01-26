@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/identicalsnowflake/cantor-pairing";
   description = "Convert data to and from a natural number representation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

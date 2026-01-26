@@ -18,5 +18,5 @@ mkDerivation {
     quickcheck-classes-base
   ];
   description = "A collection of common reusable types and components";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
     text
   ];
   description = "Minion openapi3 support";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

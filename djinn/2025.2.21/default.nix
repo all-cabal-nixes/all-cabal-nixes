@@ -11,6 +11,6 @@ mkDerivation {
     array base containers haskeline mtl pretty
   ];
   description = "Generate Haskell code from a type";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "djinn";
 }

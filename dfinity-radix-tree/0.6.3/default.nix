@@ -30,6 +30,6 @@ mkDerivation {
   ];
   homepage = "https://dfinity.org";
   description = "A generic data integrity layer";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "dfinity-radix-tree-example";
 }

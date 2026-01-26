@@ -1,4 +1,4 @@
-{ mkDerivation, 3d-graphics-examples, 3dmodels, 4Blocks, ABList
+{ mkDerivation, _3d-graphics-examples, _3dmodels, _4Blocks, ABList
 , AC-Angle, AC-Boolean, AC-BuildPlatform, AC-Colour
 , AC-EasyRaster-GTK, AC-HalfInteger, lib
 }:
@@ -9,7 +9,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "1cnjkp2ayiwy9mggpndcnxhic90il257i2gbh6bqjb3r6zc3a78i";
   libraryHaskellDepends = [
-    3d-graphics-examples 3dmodels 4Blocks ABList AC-Angle AC-Boolean
+    _3d-graphics-examples _3dmodels _4Blocks ABList AC-Angle AC-Boolean
     AC-BuildPlatform AC-Colour AC-EasyRaster-GTK AC-HalfInteger
   ];
   description = "Everything";

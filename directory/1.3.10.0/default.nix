@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base file-io filepath time unix ];
   testHaskellDepends = [ base filepath time unix ];
   description = "Platform-agnostic library for filesystem operations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-http";
   description = "Http utilities";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

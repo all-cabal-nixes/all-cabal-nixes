@@ -40,6 +40,6 @@ mkDerivation {
   '';
   homepage = "http://www.haskell.org/cabal/";
   description = "The command-line interface for Cabal and Hackage";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "cabal";
 }

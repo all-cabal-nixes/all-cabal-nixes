@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-game/aeson-tiled";
   description = "Aeson instances for the Tiled map editor";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

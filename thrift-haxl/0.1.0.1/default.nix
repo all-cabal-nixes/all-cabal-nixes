@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/facebookincubator/hsthrift";
   description = "Support for using Haxl with Thrift services";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

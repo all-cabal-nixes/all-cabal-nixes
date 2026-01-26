@@ -17,5 +17,5 @@ mkDerivation {
     base bytestring deepseq filepath tasty-bench
   ];
   description = "Haskell implementation of tiktoken";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

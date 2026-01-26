@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "e09fdb9cace7f2d4b9252e626c76327c0750cb96a583260f0ce6978439a1eb46";
   libraryHaskellDepends = [ adjunctions base deepseq lens mtl ];
   description = "A library for writing predicates and transformations over predicates in Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

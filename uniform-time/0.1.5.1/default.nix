@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/github.com:andrewufrank/uniform-time.git#readme";
   description = "Time in the uniform framework";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

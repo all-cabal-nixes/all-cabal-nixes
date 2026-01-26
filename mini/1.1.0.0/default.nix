@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://gitlab.com/vicwall/mini";
   description = "Minimal essentials";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

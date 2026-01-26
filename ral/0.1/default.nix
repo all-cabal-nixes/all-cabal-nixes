@@ -15,5 +15,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion vector ];
   homepage = "https://github.com/phadej/vec";
   description = "Random access lists";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

@@ -16,6 +16,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/packetloop/arbor-monad-logger#readme";
   description = "Simple logging library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "arbor-monad-logger-example";
 }

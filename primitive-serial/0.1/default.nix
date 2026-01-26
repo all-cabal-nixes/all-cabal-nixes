@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring cpu ];
   homepage = "https://github.com/AshleyYakeley/primitive-serial";
   description = "Serialisation of primitive types";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

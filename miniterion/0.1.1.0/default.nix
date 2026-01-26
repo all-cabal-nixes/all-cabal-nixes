@@ -9,5 +9,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base ];
   homepage = "https://github.com/8c6794b6/miniterion";
   description = "Simple and lightweight benchmark utilities";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -9,5 +9,5 @@ mkDerivation {
     base servant servant-queryparam-core servant-server text
   ];
   description = "Server support for servant-queryparam-core";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

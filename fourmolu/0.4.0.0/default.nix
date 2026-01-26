@@ -28,6 +28,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/parsonsmatt/fourmolu";
   description = "A formatter for Haskell source code";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "fourmolu";
 }

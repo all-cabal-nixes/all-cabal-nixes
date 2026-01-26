@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base deepseq random tasty-bench ];
   homepage = "https://github.com/haskell/bytestring";
   description = "Fast, compact, strict and lazy byte strings with a list interface";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

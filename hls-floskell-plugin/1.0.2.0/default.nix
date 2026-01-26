@@ -6,5 +6,5 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "1jcbj57am5rcmgb943fpbiiwvzm2r1gypa0hm0mr0whxnln3a1sw";
   description = "Integration with the Floskell code formatter";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   executableSystemDepends = [ SDL2_mixer ];
   executablePkgconfigDepends = [ SDL2_mixer ];
   description = "Haskell bindings to SDL2_mixer";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

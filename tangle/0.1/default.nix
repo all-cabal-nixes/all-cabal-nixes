@@ -11,5 +11,5 @@ mkDerivation {
     barbies base containers lens transformers
   ];
   description = "Heterogenous memoisation monad";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/meooow25/parser-regex";
   description = "Regex based parsers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sellout/yaya#readme";
   description = "Hedgehog testing support for the Yaya recursion scheme library";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

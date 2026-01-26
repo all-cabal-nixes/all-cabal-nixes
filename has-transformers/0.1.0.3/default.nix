@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/turion/has-transformers";
   description = "This library 'Has' transformers";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

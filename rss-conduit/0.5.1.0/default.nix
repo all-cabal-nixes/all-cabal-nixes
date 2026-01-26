@@ -24,5 +24,5 @@ mkDerivation {
     xml-types
   ];
   description = "Streaming parser/renderer for the RSS standard";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

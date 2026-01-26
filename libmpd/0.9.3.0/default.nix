@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/vimus/libmpd-haskell#readme";
   description = "An MPD client library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -18,5 +18,5 @@ mkDerivation {
     hls-test-utils text
   ];
   description = "Retrie integration plugin for Haskell Language Server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

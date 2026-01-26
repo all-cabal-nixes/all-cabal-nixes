@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "5ad3a9d1ddf215858392cd1e740829ca05c59f5709b08cdefddfac5589923634";
   libraryHaskellDepends = [ base free stm time-domain transformers ];
   description = "A new, simple, composable concurrency abstraction";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

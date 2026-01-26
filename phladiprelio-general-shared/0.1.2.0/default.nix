@@ -7,5 +7,5 @@ mkDerivation {
     base phonetic-languages-phonetics-basics
   ];
   description = "A shared by different general implementations of the PhLADiPreLiO functionality";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

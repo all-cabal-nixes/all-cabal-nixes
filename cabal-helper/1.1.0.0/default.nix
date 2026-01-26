@@ -25,5 +25,5 @@ mkDerivation {
   ];
   doCheck = false;
   description = "Give Haskell development tools access to Cabal project environment";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

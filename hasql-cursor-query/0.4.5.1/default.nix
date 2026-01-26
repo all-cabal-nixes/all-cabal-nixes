@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ foldl hasql rebase tasty tasty-hunit ];
   homepage = "https://github.com/nikita-volkov/hasql-cursor-query";
   description = "A declarative abstraction over PostgreSQL Cursor";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

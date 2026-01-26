@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/mchav/snappy-hs";
   description = "Snappy compression library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "snappy-hs";
 }

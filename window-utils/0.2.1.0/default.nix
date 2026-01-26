@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring JuicyPixels text vector X11
   ];
   description = "OS window icon/name utilities";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

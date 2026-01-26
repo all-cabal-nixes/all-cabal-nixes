@@ -18,5 +18,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion ];
   homepage = "http://www.haskus.org/system";
   description = "Haskus binary format manipulation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

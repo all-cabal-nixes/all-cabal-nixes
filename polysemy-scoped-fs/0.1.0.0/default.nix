@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/hisaket/polysemy-scoped-fs";
   description = "Well-typed filesystem operation effects";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

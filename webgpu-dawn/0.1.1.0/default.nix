@@ -21,5 +21,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/junjihashimoto/webgpu-dawn";
   description = "Haskell bindings to WebGPU Dawn for GPU computing and graphics";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

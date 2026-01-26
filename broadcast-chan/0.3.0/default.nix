@@ -19,5 +19,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/merijn/broadcast-chan";
   description = "Closable, fair, single-wakeup channel type that avoids 0 reader space leaks";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

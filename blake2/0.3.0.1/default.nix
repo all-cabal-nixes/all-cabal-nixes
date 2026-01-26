@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring criterion ];
   homepage = "https://github.com/haskell-cryptography/blake2";
   description = "A library providing BLAKE2";
-  license = lib.licenses.unlicense;
+  license = lib.licensesSpdx."Unlicense";
 }

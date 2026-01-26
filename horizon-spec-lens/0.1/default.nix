@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base horizon-spec lens ];
   homepage = "https://horizon-haskell.net";
   description = "Horizon Stable Package Set Lenses";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

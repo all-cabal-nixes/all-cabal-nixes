@@ -16,5 +16,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/samahri/TodoistSDK";
   description = "Unofficial Haskell SDK for the Todoist REST API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

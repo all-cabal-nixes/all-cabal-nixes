@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base directory hspec QuickCheck tls ];
   homepage = "https://github.com/adetokunbo/test-certs#readme";
   description = "create temporary SSL certificates in tests";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

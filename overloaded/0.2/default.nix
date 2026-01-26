@@ -18,5 +18,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Overloaded pragmas as a plugin";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

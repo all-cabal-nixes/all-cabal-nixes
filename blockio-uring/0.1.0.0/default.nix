@@ -18,5 +18,5 @@ mkDerivation {
   ];
   benchmarkPkgconfigDepends = [ liburing ];
   description = "Perform batches of asynchronous disk IO operations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

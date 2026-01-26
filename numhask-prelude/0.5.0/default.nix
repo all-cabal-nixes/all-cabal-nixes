@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ doctest ];
   homepage = "https://github.com/tonyday567/numhask#readme";
   description = "A numeric prelude";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

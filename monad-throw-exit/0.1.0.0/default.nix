@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec QuickCheck typed-process ];
   homepage = "https://github.com/igrep/monad-throw-exit";
   description = "Functions to exit the program anywhere in MonadThrow monads";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

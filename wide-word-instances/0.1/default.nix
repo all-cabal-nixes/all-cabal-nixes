@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base binary serialise wide-word ];
   homepage = "https://github.com/infinity0/wide-word-instances";
   description = "Instances for wide-word";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

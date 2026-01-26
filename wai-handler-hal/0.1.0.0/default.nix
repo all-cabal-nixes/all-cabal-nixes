@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/bellroy/wai-handler-hal";
   description = "Wrap WAI applications to run on AWS Lambda";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

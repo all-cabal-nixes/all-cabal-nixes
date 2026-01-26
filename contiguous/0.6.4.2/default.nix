@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base random random-shuffle weigh ];
   homepage = "https://github.com/byteverse/contiguous";
   description = "Unified interface for primitive arrays";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest hspec template-haskell ];
   homepage = "https://github.com/junjihashimoto/th-cas";
   description = "Compile-time CAS(Computer Algebra System)";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

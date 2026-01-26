@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bin fin optics-core ral ];
   homepage = "https://github.com/phadej/vec";
   description = "Length-indexed random access lists: optics utilities";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

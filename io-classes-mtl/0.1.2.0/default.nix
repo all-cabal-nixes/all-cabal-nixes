@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0zyg6vjl2wik8k8dswp5q08y39ajly8iisy18c94p24wi0xq1nkm";
   libraryHaskellDepends = [ array base io-classes mtl si-timers ];
   description = "Experimental MTL instances for io-classes";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

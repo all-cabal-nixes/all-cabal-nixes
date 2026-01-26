@@ -14,5 +14,5 @@ mkDerivation {
     transformers
   ];
   description = "Hedgehog Generators for clash-lib";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

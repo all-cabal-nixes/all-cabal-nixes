@@ -22,6 +22,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/alexbiehl/sqlc-hs";
   description = "Generate type-safe Haskell code from SQL via https://github.com/sqlc-dev/sqlc.";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "sqlc-hs";
 }

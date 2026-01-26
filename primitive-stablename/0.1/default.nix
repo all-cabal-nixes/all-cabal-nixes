@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base primitive ];
   homepage = "https://github.com/chessai/primitive-stablename";
   description = "primitive operations on StableNames";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

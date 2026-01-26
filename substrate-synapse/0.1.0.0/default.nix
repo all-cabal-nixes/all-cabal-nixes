@@ -22,6 +22,6 @@ mkDerivation {
   ];
   testHaskellDepends = [ base hspec process text ];
   description = "Algebraic CLI for Plexus - coalgebraic schema navigation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "synapse";
 }

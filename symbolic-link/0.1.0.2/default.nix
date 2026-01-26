@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base directory unix yaml ];
   homepage = "https://github.com/fuzz/symbolic-link";
   description = "Symlink tools";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "symlink";
 }

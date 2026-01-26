@@ -15,6 +15,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq vector ];
   homepage = "https://github.com/aztecs-hs/aztecs";
   description = "A modular game engine and Entity-Component-System (ECS) for Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ecs";
 }

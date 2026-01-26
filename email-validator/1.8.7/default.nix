@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://michael.orlitzky.com/code/email-validator.xhtml";
   description = "Perform basic syntax and deliverability checks on email addresses";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "email-validator";
 }

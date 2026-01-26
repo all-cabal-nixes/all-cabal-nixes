@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base HUnit text unordered-containers ];
   homepage = "https://codeberg.org/sena/gemoire";
   description = "yet another static gemlog generator";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

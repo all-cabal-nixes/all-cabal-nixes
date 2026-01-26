@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ghc ];
   testHaskellDepends = [ base ];
   description = "Deriving without spelling out \"deriving\"";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

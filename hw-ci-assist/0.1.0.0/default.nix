@@ -16,6 +16,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/haskell-works/hw-ci-assist";
   description = "CI Assistant for Haskell projects";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hw-ci-assist";
 }

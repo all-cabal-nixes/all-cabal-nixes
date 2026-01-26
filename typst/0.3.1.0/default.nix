@@ -21,5 +21,5 @@ mkDerivation {
     text time
   ];
   description = "Parsing and evaluating typst syntax";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

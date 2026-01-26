@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base HUnit ];
   homepage = "https://codeberg.org/dneaves/antelude";
   description = "Yet another alternative Prelude for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

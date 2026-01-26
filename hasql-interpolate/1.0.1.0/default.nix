@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/awkward-squad/hasql-interpolate";
   description = "QuasiQuoter that supports expression interpolation for hasql";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

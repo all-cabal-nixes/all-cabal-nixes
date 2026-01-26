@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ attoparsec base bytestring text time ];
   homepage = "https://github.com/nikita-volkov/attoparsec-time";
   description = "Attoparsec parsers of time";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

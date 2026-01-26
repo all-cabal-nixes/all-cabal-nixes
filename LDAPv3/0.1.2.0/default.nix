@@ -16,5 +16,5 @@ mkDerivation {
     tasty-quickcheck text text-short
   ];
   description = "Lightweight Directory Access Protocol (LDAP) version 3";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

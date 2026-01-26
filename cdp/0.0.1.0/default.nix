@@ -28,5 +28,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/arsalan0c/cdp-hs#readme";
   description = "A library for the Chrome Devtools Protocol (CDP)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

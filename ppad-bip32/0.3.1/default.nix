@@ -18,5 +18,5 @@ mkDerivation {
     array base bytestring criterion deepseq ppad-fixed ppad-secp256k1
   ];
   description = "BIP32 hierarchical deterministic wallets";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

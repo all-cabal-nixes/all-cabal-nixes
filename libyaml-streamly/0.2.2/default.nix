@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hasufell/streamly-yaml#readme";
   description = "Low-level, streaming YAML interface via streamly";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hamishmack/vado";
   description = "Runs commands on remote machines using ssh";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

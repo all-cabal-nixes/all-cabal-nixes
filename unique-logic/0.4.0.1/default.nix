@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/unique-logic/";
   description = "Solve simple simultaneous equations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

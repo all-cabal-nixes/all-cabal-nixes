@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/hasql-cursor-transaction";
   description = "An abstraction for simultaneous fetching from multiple PostgreSQL cursors";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

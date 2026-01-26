@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ array base pretty syb ];
   libraryToolDepends = [ happy ];
   description = "Support for manipulating Haskell source code";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

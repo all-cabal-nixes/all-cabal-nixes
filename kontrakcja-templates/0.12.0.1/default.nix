@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/scrive/kontrakcja-templates";
   description = "Utilities for working with many HStringTemplate templates from files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

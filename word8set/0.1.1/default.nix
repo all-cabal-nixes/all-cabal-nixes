@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/word8set";
   description = "Word8 set";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

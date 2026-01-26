@@ -8,5 +8,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion text ];
   homepage = "https://github.com/brendanhay/text-manipulate";
   description = "Case conversion, word boundary manipulation, and textual subjugation";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

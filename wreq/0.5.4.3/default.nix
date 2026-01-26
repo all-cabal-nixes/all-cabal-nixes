@@ -33,5 +33,5 @@ mkDerivation {
   ];
   homepage = "http://www.serpentine.com/wreq";
   description = "An easy-to-use HTTP client library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

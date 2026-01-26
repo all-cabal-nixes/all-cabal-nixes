@@ -32,5 +32,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/berberman/arch-hs";
   description = "Distribute hackage packages to archlinux";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

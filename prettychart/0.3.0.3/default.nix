@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/prettychart#readme";
   description = "Pretty print charts from ghci";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "prettychart-watch";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskus.org";
   description = "Haskus web";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

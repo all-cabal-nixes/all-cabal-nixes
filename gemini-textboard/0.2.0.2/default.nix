@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://sr.ht/~fgaz/haskell-gemini/";
   description = "A barebones textboard for the Gemini protocol";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "gemini-textboard";
 }

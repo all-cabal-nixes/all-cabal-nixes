@@ -10,5 +10,5 @@ mkDerivation {
     prelate random sqel
   ];
   description = "Account management with Servant and Polysemy";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

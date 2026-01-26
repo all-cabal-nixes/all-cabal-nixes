@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring text-short ];
   homepage = "https://github.com/byteverse/unpacked-maybe-text";
   description = "optional text that unpacks well";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

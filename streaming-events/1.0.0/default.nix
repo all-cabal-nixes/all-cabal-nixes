@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kadena-io/streaming-events";
   description = "Client-side consumption of a ServerEvent";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

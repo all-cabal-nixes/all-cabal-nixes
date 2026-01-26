@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskell.org/cabal/";
   description = "The solver component of cabal-install";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

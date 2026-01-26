@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base groups ];
   homepage = "https://github.com/sheaf/groups-generic";
   description = "Generically derive Group instances";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

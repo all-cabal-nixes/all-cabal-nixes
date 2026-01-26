@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/intricate/paseto-haskell";
   description = "Platform-Agnostic Security Tokens";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

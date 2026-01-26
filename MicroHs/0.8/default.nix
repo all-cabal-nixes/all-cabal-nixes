@@ -11,6 +11,6 @@ mkDerivation {
     base containers deepseq directory ghc-prim mtl pretty process time
   ];
   description = "A compiler for a subset of Haskell";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "mhs";
 }

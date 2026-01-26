@@ -26,6 +26,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/brendanhay/ede";
   description = "Templating language with similar syntax and features to Liquid or Jinja2";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "ede";
 }

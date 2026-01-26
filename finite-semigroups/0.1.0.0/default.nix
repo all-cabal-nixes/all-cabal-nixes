@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base containers HUnit ];
   homepage = "https://github.com/vvulpes0/finite-semigroups";
   description = "Operations and classification for finite semigroups";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

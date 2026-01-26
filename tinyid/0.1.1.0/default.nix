@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring entropy ];
   homepage = "https://github.com/freepuppies/tinyid";
   description = "A secure URL-friendly string ID generator";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -17,6 +17,6 @@ mkDerivation {
     streaming-commons text wai-extra warp warp-tls
   ];
   description = "a minimalistic DNS-authoritative server";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "microdns";
 }

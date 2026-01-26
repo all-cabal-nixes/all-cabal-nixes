@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/berberman/nvfetcher";
   description = "Generate nix sources expr for the latest version of packages";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "nvfetcher";
 }

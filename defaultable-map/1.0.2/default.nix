@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0dncpans6gwzpfx71lq36hf8viqw5f50vhh91k116lkgnxc5fzn9";
   libraryHaskellDepends = [ base containers deepseq semigroupoids ];
   description = "Applicative maps";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

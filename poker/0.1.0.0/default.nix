@@ -17,6 +17,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge ];
   homepage = "https://github.com/ghais/poker#readme";
   description = "Texas holdem hand evaluation and simulation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "poker-exe";
 }

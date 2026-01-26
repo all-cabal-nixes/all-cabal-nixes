@@ -11,5 +11,5 @@ mkDerivation {
     generic-lens hw-aeson hw-ip lens mtl text thyme unliftio-core
   ];
   description = "Metadata types for Albedo Scanners";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

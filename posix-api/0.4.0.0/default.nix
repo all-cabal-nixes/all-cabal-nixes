@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/posix-api";
   description = "posix bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

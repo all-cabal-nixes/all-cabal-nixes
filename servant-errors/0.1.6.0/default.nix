@@ -18,5 +18,5 @@ mkDerivation {
   testToolDepends = [ markdown-unlit ];
   homepage = "https://github.com/epicallan/servant-errors";
   description = "Servant Errors wai-middlware";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

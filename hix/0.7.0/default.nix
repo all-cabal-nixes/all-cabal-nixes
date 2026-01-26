@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://git.tryp.io/tek/hix";
   description = "Haskell/Nix development build tools";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
   mainProgram = "hix";
 }

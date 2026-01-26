@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/cutsea110/monadic-recursion-schemes.git";
   description = "Recursion Schemes for Monadic version";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/months";
   description = "Month, YearMonth, Quarter, YearQuarter types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

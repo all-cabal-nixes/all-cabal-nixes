@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base pandoc pandoc-types ];
   homepage = "https://github.com/mhwombat/pandoc-select-code";
   description = "Pandoc filter to extract only the code blocks";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "pandoc-select-code";
 }

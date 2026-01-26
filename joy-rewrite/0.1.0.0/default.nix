@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/johannes-riecken/joy-rewrite";
   description = "Transform Joy code using conditional rewrite rules";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

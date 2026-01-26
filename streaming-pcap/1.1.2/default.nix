@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fosskers/streaming-pcap";
   description = "Stream packets via libpcap";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -35,6 +35,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/morphismtech/squeal";
   description = "Squeal PostgreSQL Library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "example";
 }

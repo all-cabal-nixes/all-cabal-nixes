@@ -26,5 +26,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mlabs-haskell/opc-xml-da-client";
   description = "OPC XML-DA Client";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

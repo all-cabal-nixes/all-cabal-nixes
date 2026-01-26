@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/pmiddend/cbf-hs";
   description = "Bindings to read Crystallographic Binary Files (mostly from detectors)";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "cbf-bench-binary";
 }

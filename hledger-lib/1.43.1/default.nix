@@ -34,5 +34,5 @@ mkDerivation {
   ];
   homepage = "http://hledger.org";
   description = "A library providing the core functionality of hledger";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

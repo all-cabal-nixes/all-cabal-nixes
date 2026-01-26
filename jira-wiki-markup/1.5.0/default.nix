@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base parsec tasty tasty-hunit text ];
   homepage = "https://github.com/tarleb/jira-wiki-markup";
   description = "Handle Jira wiki markup";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "jira-wiki-markup";
 }

@@ -16,5 +16,5 @@ mkDerivation {
     aeson base containers QuickCheck quickcheck-instances text
   ];
   description = "Tracable multi-source config management";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ ghc-prim microbase ];
   homepage = "https://github.com/daig/prim#readme";
   description = "An ergonomic but conservative interface to ghc-prim";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

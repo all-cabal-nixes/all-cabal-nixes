@@ -13,5 +13,5 @@ mkDerivation {
     tasty tasty-bench tasty-hunit text transformers
   ];
   description = "Traverse data types via generics, acting on multiple types simultaneously";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

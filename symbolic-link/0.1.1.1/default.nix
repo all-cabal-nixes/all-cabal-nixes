@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit unix ];
   homepage = "https://github.com/fuzz/symbolic-link";
   description = "Symlink functions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

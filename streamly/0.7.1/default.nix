@@ -26,5 +26,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/composewell/streamly";
   description = "Beautiful Streaming, Concurrent and Reactive Composition";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

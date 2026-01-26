@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/freizl/hoauth2";
   description = "OAuth2 Identity Providers";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

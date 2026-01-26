@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base commandert text unordered-containers ];
   homepage = "https://github.com/SamuelSchlesinger/commander-cli";
   description = "A command line argument/option parser library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fpringle/effectful-postgresql";
   description = "effectful support for mid-level PostgreSQL operations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
     base bytestring criterion ppad-base16
   ];
   description = "A pure AEAD-ChaCha20-Poly1305 construction";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

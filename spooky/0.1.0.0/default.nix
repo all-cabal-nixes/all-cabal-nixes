@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0j9jsbn4f73fb1a5rp1qzw4jdh6n3mmlky16pvxw2gnz8kcficng";
   libraryHaskellDepends = [ base ];
   description = "Unified API for phantom typed newtypes and type aliases";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

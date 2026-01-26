@@ -11,5 +11,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq ];
   homepage = "http://github.com/blackheaven/yarl";
   description = "Yet another recrds libraries";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/larskuhtz/cuckoo";
   description = "Haskell Implementation of Cuckoo Filters";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

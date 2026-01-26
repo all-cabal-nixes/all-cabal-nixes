@@ -16,5 +16,5 @@ mkDerivation {
     tasty-hunit
   ];
   description = "Bindings to the igraph C library (v0.8.0).";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

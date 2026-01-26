@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "http://hub.darcs.net/thielema/cabal-flatpak/";
   description = "Generate a FlatPak manifest from a Cabal package description";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "cabal-flatpak";
 }

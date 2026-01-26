@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "http://clash-lang.org/";
   description = "Derive KnownNat constraints from other KnownNat constraints";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

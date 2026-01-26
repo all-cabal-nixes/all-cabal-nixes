@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://sr.ht/~fgaz/haskell-gemini/";
   description = "A simple Happstack-style Gemini router";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

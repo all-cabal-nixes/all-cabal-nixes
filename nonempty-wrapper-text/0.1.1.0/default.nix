@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring nonempty-wrapper text ];
   homepage = "http://github.com/blackheaven/nonempty-wrapper/nonempty-wrapper-text";
   description = "'NonEmpty' wrappers for text";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

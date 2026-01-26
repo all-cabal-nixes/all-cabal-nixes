@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base parsec ];
   homepage = "https://github.com/BernardoGomesNegri/ValveValueKeyvalue";
   description = "A Valve Value-keyvalue parser for Haskell made with Parsec";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

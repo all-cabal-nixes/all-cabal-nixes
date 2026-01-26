@@ -17,6 +17,6 @@ mkDerivation {
     base bytestring containers exceptions filepath hspec transformers
   ];
   description = "Formats package descriptions";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "cabal-gild";
 }

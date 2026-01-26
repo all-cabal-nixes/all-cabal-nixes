@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base stm ];
   homepage = "https://github.com/typeclasses/var-monad";
   description = "The VarMonad typeclass, generalizing types of references";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

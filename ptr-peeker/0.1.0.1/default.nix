@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/ptr-peeker";
   description = "High-performance composable binary data deserializers";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

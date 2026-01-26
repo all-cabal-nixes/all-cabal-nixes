@@ -15,5 +15,5 @@ mkDerivation {
     transformers utility-ht
   ];
   description = "Topologically sort cabal packages";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

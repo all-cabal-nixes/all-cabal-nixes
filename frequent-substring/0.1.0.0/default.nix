@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/mherzl/frequent-substring#readme";
   description = "Identifies and replaces frequent subsequences in long strings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "frequent-substring-exe";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/membrain";
   description = "Type-safe memory units";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

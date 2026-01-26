@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "8f1dcea72dff60cd9d361cb4d9736e2c0386c690e16ee8fd6d0f197cef449c71";
   libraryHaskellDepends = [ base bytestring containers text ];
   description = "Custom debug visualization instances for @haskell-debugger@";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fumieval/free-game";
   description = "Create games for free";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

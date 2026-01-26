@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hasufell/lzma-static";
   description = "LZMA/XZ compression and decompression";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

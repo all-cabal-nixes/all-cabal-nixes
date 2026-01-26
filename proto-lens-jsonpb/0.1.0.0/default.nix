@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tclem/proto-lens-jsonpb#readme";
   description = "JSON protobuf encoding for proto-lens";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "example";
 }

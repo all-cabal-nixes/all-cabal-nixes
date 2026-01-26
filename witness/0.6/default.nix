@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base constraints countable ];
   homepage = "https://github.com/AshleyYakeley/witness";
   description = "values that witness types";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

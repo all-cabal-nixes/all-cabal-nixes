@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-Z/z-data";
   description = "Array, vector and text";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

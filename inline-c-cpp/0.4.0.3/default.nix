@@ -13,5 +13,5 @@ mkDerivation {
     vector
   ];
   description = "Lets you embed C++ code into Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

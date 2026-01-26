@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/minad/persist";
   description = "Minimal serialization library with focus on performance";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

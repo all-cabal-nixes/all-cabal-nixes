@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://oss.xkcd.com";
   description = "Parse machines streams with attoparsec parsers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

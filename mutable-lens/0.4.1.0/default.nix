@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base extra primitive ];
   homepage = "https://github.com/infinity0/hs-mutable-lens";
   description = "Interoperate mutable references with regular lens";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

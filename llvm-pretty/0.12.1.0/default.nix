@@ -16,5 +16,5 @@ mkDerivation {
     base pretty tasty tasty-hunit template-haskell text
   ];
   description = "A pretty printing library inspired by the llvm binding";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

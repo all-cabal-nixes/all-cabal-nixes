@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/dburke/swish";
   description = "A semantic web toolkit";
-  license = lib.licenses.lgpl21Plus;
+  license = lib.licensesSpdx."LGPL-2.1-or-later";
   mainProgram = "Swish";
 }

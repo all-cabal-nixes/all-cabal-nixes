@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kim/opentracing";
   description = "Jaeger backend for OpenTracing";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

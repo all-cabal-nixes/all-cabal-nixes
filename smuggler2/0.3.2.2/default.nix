@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jrp2014/smuggler2";
   description = "GHC Source Plugin that helps to minimise imports and generate explicit exports";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "play-smuggler2";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/morphismtech/distributors#readme";
   description = "Distributors - Unifying Parsers, Printers & Grammars";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

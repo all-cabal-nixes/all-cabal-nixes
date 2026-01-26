@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "226ea003c7e279eb10306e196c3131dff193b25803114a2d477f46fd69658922";
   libraryHaskellDepends = [ ghc-internal ghc-prim ];
   description = "Core data structures and operations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

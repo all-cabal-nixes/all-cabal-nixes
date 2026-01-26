@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ ascii-char base hspec ];
   homepage = "https://github.com/typeclasses/ascii-case";
   description = "ASCII letter case";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

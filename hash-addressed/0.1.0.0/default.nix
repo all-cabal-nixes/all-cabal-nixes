@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/hash-addressed";
   description = "Hash-addressed file storage";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

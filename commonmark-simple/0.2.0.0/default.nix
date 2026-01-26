@@ -12,5 +12,5 @@ mkDerivation {
     yaml
   ];
   description = "Simple interface to commonmark-hs for parsing real-world Markdown";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

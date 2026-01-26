@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/gpu-vulkan-middle-khr-surface-glfw#readme";
   description = "medium wrapper for GLFW surface for the Vulkan API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "gpu-vulkan-middle-khr-surface-glfw-exe";
 }

@@ -10,6 +10,6 @@ mkDerivation {
   executableHaskellDepends = [ base directory filepath ];
   homepage = "http://www.github.com/goldfirere/singletons";
   description = "Code generator for the singletons-base test suite";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "singletons-base-code-generator";
 }

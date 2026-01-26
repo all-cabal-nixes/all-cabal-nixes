@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/obsidiansystems/monoid-map";
   description = "Newtype wrapper around 'Data.Map.Monoidal.MonoidalMap' that has a correct 'Group' instance.";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

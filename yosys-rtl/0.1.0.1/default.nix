@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/standardsemiconductor/yosys-rtl";
   description = "Yosys RTL Intermediate Language";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

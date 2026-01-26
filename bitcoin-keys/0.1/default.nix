@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/k0001/hs-bitcoin-keys";
   description = "Bitcoin keys";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

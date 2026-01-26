@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/quickcheck-classes#readme";
   description = "QuickCheck common typeclasses";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

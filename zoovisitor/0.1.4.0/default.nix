@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec uuid Z-Data ];
   homepage = "https://github.com/ZHaskell/zoovisitor";
   description = "A haskell binding to Apache Zookeeper C library(mt) using Haskell Z project";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

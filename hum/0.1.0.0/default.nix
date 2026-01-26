@@ -26,6 +26,6 @@ mkDerivation {
     vty witherable-class
   ];
   description = "A TUI MPD client, inspired by ncmpcpp";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
   mainProgram = "hum";
 }

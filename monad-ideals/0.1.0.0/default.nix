@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base comonad ];
   homepage = "https://github.com/viercc/monad-ideals";
   description = "Ideal Monads and coproduct of them";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

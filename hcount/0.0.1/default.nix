@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/hcount#readme";
   description = "Haskell name counts";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hcount";
 }

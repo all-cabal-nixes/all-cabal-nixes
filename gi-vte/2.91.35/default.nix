@@ -1,7 +1,7 @@
 { mkDerivation, base, bytestring, Cabal, containers, gi-atk
 , gi-cairo, gi-gdk3, gi-gdkpixbuf, gi-gio, gi-glib, gi-gobject
 , gi-gtk3, gi-pango, haskell-gi, haskell-gi-base
-, haskell-gi-overloading, lib, text, transformers, vte_291
+, haskell-gi-overloading, lib, text, transformers, vte
 }:
 mkDerivation {
   pname = "gi-vte";
@@ -16,7 +16,7 @@ mkDerivation {
     gi-gio gi-glib gi-gobject gi-gtk3 gi-pango haskell-gi
     haskell-gi-base haskell-gi-overloading text transformers
   ];
-  libraryPkgconfigDepends = [ vte_291 ];
+  libraryPkgconfigDepends = [ vte ];
   homepage = "https://github.com/haskell-gi/haskell-gi";
   description = "Vte bindings";
   license = lib.licenses.lgpl21Only;

@@ -11,5 +11,5 @@ mkDerivation {
     tasty-quickcheck utf8-string
   ];
   description = "A fast, non-backtracking parser for the redis RESP3 protocol";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

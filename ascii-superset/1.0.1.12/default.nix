@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ ascii-char base hedgehog text ];
   homepage = "https://github.com/typeclasses/ascii";
   description = "Representing ASCII with refined supersets";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

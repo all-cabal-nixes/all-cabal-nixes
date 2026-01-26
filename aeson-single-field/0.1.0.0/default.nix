@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ aeson base HUnit markdown-unlit ];
   testToolDepends = [ markdown-unlit ];
   description = "Conveniently wrap a single value in a record when encoding to and from JSON";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

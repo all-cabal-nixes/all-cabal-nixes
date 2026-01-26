@@ -31,5 +31,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion protolude ];
   homepage = "https://github.com/ad-si/TaskLite#readme";
   description = "CLI task / todo list manager with SQLite backend";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

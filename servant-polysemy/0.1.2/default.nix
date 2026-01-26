@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/AJChapman/servant-polysemy#readme";
   description = "Utilities for using servant in a polysemy stack";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

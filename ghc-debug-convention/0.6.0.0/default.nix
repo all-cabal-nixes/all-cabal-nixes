@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "a94ee7768a3834490a1a6829e558627ea7c1d8f563e7ff8592d360403b769247";
   libraryHaskellDepends = [ base directory filepath ];
   description = "Definitions needed by ghc-debug-stub and ghc-debug-common";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

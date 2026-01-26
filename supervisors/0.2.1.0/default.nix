@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/zenhack/haskell-supervisors";
   description = "Monitor groups of threads with non-hierarchical lifetimes";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

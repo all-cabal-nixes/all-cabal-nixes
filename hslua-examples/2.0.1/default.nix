@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Examples of how to combine Haskell and Lua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

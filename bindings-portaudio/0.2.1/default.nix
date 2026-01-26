@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bindings-DSL vector ];
   libraryPkgconfigDepends = [ portaudio ];
   description = "Low-level bindings to portaudio library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

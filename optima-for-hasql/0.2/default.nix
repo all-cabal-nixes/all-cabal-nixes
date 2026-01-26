@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/optima-for-hasql";
   description = "Command-line arguments parsing for Hasql";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

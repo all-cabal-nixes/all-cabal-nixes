@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "http://www.mathstat.dal.ca/~selinger/superdoc/";
   description = "Additional documentation markup and Unicode support";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "superdoc-armor";
 }

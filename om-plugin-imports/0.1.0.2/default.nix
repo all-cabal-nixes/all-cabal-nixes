@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base containers ghc ];
   homepage = "https://github.com/owensmurray/om-plugin-imports";
   description = "Plugin-based import warnings";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "om-import-warnings-test";
 }

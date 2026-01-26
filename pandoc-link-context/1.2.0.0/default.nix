@@ -8,5 +8,5 @@ mkDerivation {
     base containers pandoc-types relude text
   ];
   description = "Extract \"contextual links\" from Pandoc";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0mbbzn2qxr09p4wml2mdwnr46srn89kj0azw2xhxdhn6pzsh7j7b";
   libraryHaskellDepends = [ array base io-classes stm ];
   description = "Strict STM interface polymorphic over stm implementation";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

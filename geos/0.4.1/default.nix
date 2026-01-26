@@ -14,5 +14,5 @@ mkDerivation {
   ];
   testSystemDepends = [ geos ];
   description = "Bindings for GEOS";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

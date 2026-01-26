@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base primitive ];
   homepage = "https://github.com/haskell-primitive/primitive-unaligned";
   description = "Unaligned access to primitive arrays";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

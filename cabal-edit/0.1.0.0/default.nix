@@ -15,6 +15,6 @@ mkDerivation {
     optparse-applicative process store time
   ];
   description = "Cabal utility";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "cabal-edit";
 }

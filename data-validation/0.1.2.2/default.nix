@@ -12,5 +12,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/alasconnect/data-validation";
   description = "A library for creating type safe validations";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

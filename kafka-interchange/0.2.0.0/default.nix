@@ -21,5 +21,5 @@ mkDerivation {
     tasty-golden tasty-hunit text wide-word
   ];
   description = "Serialization for kafka wire protocol";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

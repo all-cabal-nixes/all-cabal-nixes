@@ -13,6 +13,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/waddlaw/haskell-stack-trace-plugin";
   description = "haskell-stack-trace-plugin";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "example";
 }

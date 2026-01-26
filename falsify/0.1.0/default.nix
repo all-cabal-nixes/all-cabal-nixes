@@ -18,5 +18,5 @@ mkDerivation {
     base containers data-default QuickCheck selective tasty tasty-hunit
   ];
   description = "Property-based testing with internal integrated shrinking";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

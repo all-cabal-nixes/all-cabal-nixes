@@ -14,6 +14,6 @@ mkDerivation {
     base criterion deepseq directory filepath strict
   ];
   description = "Finding palindromes in strings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "palindromes";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "0l8l5lf7ghd8i2kxlsv45yrc0lrcs7l8mqa1mz4mkwi1qs529m50";
   description = "Stan integration plugin with Haskell Language Server";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

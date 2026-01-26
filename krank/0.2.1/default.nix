@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/guibou/krank";
   description = "Krank checks your code source comments for important markers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "krank";
 }

@@ -28,6 +28,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/kadena-io/chainweb-mining-client";
   description = "Mining Client for Kadena Chainweb";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "chainweb-mining-client";
 }

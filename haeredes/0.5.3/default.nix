@@ -13,6 +13,6 @@ mkDerivation {
   testHaskellDepends = [ base doctest filemanip process ];
   homepage = "http://michael.orlitzky.com/code/haeredes.xhtml";
   description = "Confirm delegation of NS and MX records";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "haeredes";
 }

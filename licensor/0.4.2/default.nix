@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://licensor.jpvillaisaza.co/";
   description = "A license compatibility helper";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "licensor";
 }

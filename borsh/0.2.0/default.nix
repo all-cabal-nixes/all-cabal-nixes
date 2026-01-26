@@ -16,5 +16,5 @@ mkDerivation {
     text wide-word
   ];
   description = "Implementation of BORSH serialisation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

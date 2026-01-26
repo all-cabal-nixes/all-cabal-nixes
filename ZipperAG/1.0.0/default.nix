@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base syb syz ];
   homepage = "www.di.uminho.pt/~prmartins";
   description = "An implementation of Attribute Grammars using Functional Zippers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

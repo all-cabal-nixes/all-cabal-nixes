@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0ral/hextream";
   description = "Streaming-friendly XML parsers";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

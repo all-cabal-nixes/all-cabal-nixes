@@ -29,6 +29,6 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "Hackage and Portage integration tool";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "hackport";
 }

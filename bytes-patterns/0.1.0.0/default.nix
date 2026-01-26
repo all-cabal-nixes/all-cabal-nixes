@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base byteslice tasty tasty-hunit ];
   homepage = "https://github.com/byteverse/bytes-patterns";
   description = "Template haskell macro for casing on Bytes";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

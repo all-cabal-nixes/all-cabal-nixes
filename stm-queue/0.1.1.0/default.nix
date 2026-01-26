@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ async base hspec stm ];
   homepage = "https://github.com/SamuelSchlesinger/stm-queue";
   description = "An implementation of a real-time concurrent queue";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

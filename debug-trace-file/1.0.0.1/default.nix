@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base directory tasty tasty-golden ];
   description = "Like Debug.Trace but writing to files.";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chessai/language-asn.git";
   description = "ASN.1 encoding and decoding";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

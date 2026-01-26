@@ -12,5 +12,5 @@ mkDerivation {
     base bytestring containers HUnit text time transformers
   ];
   description = "Convert values from one type into another";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

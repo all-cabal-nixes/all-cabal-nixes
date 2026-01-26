@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base tasty-bench ];
   homepage = "https://github.com/pgujjula/primecount-haskell#readme";
   description = "Bindings to the primecount library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

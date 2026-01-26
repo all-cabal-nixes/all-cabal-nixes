@@ -13,5 +13,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Churros: Channel/Arrow based streaming computation library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

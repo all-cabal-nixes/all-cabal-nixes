@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/berberman/uusi";
   description = "Tweak dependencies in .cabal files";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

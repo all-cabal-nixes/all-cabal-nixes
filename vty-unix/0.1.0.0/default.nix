@@ -18,6 +18,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ ansi-terminal base vty ];
   description = "Unix backend for Vty";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "vty-unix-build-width-table";
 }

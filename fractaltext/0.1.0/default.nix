@@ -18,5 +18,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/0y2k/fractaltext-haskell";
   description = "Reference implementation of FractalText";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

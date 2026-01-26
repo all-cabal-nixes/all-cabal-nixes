@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/input-output-hk/cicero-api#readme";
   description = "API bindings to IOHK's Cicero job scheduler";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "cicero-cli";
 }

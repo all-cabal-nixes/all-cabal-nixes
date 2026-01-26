@@ -12,6 +12,6 @@ mkDerivation {
   testHaskellDepends = [ base mtl QuickCheck ];
   homepage = "https://github.com/kaBeech/tensort";
   description = "Tunable sorting for responsive robustness and beyond";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "tensort";
 }

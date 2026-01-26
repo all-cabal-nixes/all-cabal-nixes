@@ -23,5 +23,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ gauge rerebase ];
   homepage = "https://github.com/nikita-volkov/hasql";
   description = "An efficient PostgreSQL driver with a flexible mapping API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/sheaf/if-instance";
   description = "Branch on whether a constraint is satisfied";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

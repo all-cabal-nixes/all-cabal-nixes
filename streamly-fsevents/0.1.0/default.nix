@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://streamly.composewell.com";
   description = "File system event notification API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

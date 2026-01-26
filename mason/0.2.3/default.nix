@@ -9,5 +9,5 @@ mkDerivation {
     array base bytestring ghc-prim integer-gmp network text
   ];
   description = "Fast and extensible bytestring builder";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

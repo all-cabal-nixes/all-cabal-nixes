@@ -21,6 +21,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/DistRap/data-svd";
   description = "SVD (System view description) file handling";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "pretty-svd";
 }

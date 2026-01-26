@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-kubernetes";
   description = "om-kubernetes";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -31,5 +31,5 @@ mkDerivation {
   ];
   homepage = "https://fstaals.net/software/hgeometry";
   description = "Geometric Algorithms, Data structures, and Data types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec stm stm-delay unliftio ];
   homepage = "https://github.com/parsonsmatt/timeout-snooze#readme";
   description = "Efficient timeout with reset";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

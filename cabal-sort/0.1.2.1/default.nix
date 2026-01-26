@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/cabal-sort/";
   description = "Topologically sort cabal packages";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://wrengr.org/software/hackage.html";
   description = "Efficiently parse and produce common integral and fractional numbers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

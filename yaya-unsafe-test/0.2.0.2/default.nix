@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sellout/yaya#readme";
   description = "Test suites for `yaya-unsafe`";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

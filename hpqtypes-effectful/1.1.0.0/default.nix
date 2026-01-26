@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-effectful/hpqtypes-effectful";
   description = "Adaptation of the hpqtypes library for the effectful ecosystem";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

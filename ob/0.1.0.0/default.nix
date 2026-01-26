@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/srid/imako";
   description = "Live in-memory sync of Obsidian Markdown notes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

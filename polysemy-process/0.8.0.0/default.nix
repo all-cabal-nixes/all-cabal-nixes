@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/polysemy-conc#readme";
   description = "Polysemy Effects for System Processes";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

@@ -9,5 +9,5 @@ mkDerivation {
     base deepseq hashable prettyprinter sayable text
   ];
   description = "A parameterized named text type and associated functionality";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

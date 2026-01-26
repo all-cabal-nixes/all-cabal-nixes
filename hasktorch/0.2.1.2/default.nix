@@ -39,5 +39,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Haskell bindings to libtorch, supporting both typed and untyped tensors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

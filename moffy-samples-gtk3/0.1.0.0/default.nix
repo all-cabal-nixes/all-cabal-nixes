@@ -11,6 +11,6 @@ mkDerivation {
   testHaskellDepends = [ base moffy-samples moffy-samples-gtk3-run ];
   homepage = "https://github.com/YoshikuniJujo/moffy-samples-gtk3#readme";
   description = "Sample executables of moffy - GTK3 version";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "moffy_samples_gtk3";
 }

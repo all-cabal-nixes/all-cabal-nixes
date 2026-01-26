@@ -10,5 +10,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "A Haskell client for RQlite";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

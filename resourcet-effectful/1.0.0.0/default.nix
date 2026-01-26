@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1w3zij2aj3q06r2773d964pv20ix5n70hf15kawzsd6sadbwymz3";
   libraryHaskellDepends = [ base effectful-core resourcet ];
   description = "Adaptation of the resourcet library for the effectful ecosystem";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

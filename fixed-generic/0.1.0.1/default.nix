@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ghc-internal ];
   homepage = "https://github.com/YoshikuniJujo/fixed-generic#readme";
   description = "Fixed-point number build on generic integral number";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -15,6 +15,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/kquick/brick-panes";
   description = "Panes library for Brick providing composition and isolation for TUI apps";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
   mainProgram = "mywork-example";
 }

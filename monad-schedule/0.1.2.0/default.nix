@@ -12,5 +12,5 @@ mkDerivation {
     test-framework-quickcheck2 transformers
   ];
   description = "A new, simple, composable concurrency abstraction";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

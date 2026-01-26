@@ -15,5 +15,5 @@ mkDerivation {
     base bytestring criterion ppad-sha256
   ];
   description = "HMAC-based deterministic random bit generator";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

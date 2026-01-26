@@ -13,6 +13,6 @@ mkDerivation {
   executableHaskellDepends = [ base directory pandoc-types ];
   homepage = "https://codeberg.org/mhwombat/pandoc-include-plus";
   description = "Pandoc filter to include files, with image path and heading level adjustment";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "pandoc-include-plus";
 }

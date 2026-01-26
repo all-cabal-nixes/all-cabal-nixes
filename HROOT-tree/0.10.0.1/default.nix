@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://wavewave.github.io/HROOT";
   description = "Haskell binding to ROOT Tree modules";
-  license = lib.licenses.lgpl21Plus;
+  license = lib.licensesSpdx."LGPL-2.1-or-later";
 }

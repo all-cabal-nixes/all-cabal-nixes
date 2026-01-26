@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tkvogt/tree-edit-distance#readme";
   description = "Tree Edit Distance to determine the similarity between two trees";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "tree-edit-distance-exe";
 }

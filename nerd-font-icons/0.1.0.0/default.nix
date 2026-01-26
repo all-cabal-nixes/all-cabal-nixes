@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/ccntrq/nerd-fonts-icons-hs";
   description = "Nerd Font Icons for use in haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

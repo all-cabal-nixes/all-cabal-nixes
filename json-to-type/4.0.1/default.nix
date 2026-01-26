@@ -29,6 +29,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jappeace/json-to-type.git#readme";
   description = "Automatic type declaration for JSON input data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "json-to-type";
 }

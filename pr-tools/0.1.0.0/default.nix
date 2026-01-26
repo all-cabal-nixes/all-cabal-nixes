@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mihaigiurgeanu/pr-tools";
   description = "Decentralized git pull request and code review flows";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

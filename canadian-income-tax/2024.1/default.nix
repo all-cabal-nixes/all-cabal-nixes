@@ -30,5 +30,5 @@ mkDerivation {
     rank2classes tasty tasty-golden tasty-hedgehog text time
   ];
   description = "Canadian income tax calculation";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

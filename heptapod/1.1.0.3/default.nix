@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit time uuid-types ];
   benchmarkHaskellDepends = [ base tasty-bench uuid ];
   description = "Generate UUIDv7 values";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

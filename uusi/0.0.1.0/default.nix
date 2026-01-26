@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/berberman/uusi";
   description = "Remove all version constraints of dependencies in .cabal file";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "uusi";
 }

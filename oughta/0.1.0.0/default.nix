@@ -13,5 +13,5 @@ mkDerivation {
     text
   ];
   description = "A library to test programs that output text";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

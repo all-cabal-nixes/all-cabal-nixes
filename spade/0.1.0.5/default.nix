@@ -36,6 +36,6 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "A simple programming and debugging environment";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "spade";
 }

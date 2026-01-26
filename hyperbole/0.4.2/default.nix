@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/seanhess/hyperbole";
   description = "Interactive HTML apps using type-safe serverside Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

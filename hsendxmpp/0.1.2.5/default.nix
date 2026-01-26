@@ -12,6 +12,6 @@ mkDerivation {
     text
   ];
   description = "sendxmpp clone, sending XMPP messages via CLI";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "hsendxmpp";
 }

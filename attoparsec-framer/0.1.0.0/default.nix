@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/adetokunbo/attoparsec-framer#readme";
   description = "Use Attoparsec to parse framed protocol bytestreams";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base contiguous vector ];
   description = "A contiguous growable array type";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

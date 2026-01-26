@@ -38,6 +38,6 @@ mkDerivation {
     base criterion lens linear mtl random text
   ];
   description = "2D resource gathering game with programmable robots";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "swarm";
 }

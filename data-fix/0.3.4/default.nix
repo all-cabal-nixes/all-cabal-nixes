@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base deepseq hashable ];
   homepage = "https://github.com/spell-music/data-fix";
   description = "Fixpoint data types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

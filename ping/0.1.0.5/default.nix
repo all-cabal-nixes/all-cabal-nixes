@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/ping";
   description = "icmp echo requests";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -21,5 +21,5 @@ mkDerivation {
     text time vector what4 xml yaml
   ];
   description = "Simple top-level library for Crucible Simulation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

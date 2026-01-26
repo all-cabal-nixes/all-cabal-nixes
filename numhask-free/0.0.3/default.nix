@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest numhask ];
   homepage = "https://github.com/tonyday567/numhask-free#readme";
   description = "numerical free algebras";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Type classes for HsLua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

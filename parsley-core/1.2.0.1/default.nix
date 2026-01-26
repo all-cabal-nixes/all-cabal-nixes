@@ -16,5 +16,5 @@ mkDerivation {
   libraryToolDepends = [ cpphs ];
   homepage = "https://github.com/j-mie6/ParsleyHaskell/tree/master/parsley-core";
   description = "A fast parser combinator library backed by Typed Template Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

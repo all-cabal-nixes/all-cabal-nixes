@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-cryptography/libsodium-bindings";
   description = "Cryptography for the casual user";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

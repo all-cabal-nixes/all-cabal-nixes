@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base text ];
   homepage = "https://bitbucket.org/dpwiz/xml-conduit-writer";
   description = "Warm and fuzzy creation of XML documents";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

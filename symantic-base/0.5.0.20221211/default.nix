@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://git.sourcephile.fr/haskell/symantic-base";
   description = "Basic symantic combinators for Embedded Domain-Specific Languages (EDSL)";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

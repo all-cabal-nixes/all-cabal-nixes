@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/metrix-ai/vector-extras";
   description = "Utilities for the \"vector\" library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

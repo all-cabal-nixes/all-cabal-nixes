@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base polysemy polysemy-test tasty time ];
   description = "Polysemy Effect for Time";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

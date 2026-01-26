@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base effectful tasty tasty-hunit ];
   homepage = "https://github.com/haskell-effectful/typed-process-effectful#readme";
   description = "A binding of the typed-process library for the effectful effect system";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

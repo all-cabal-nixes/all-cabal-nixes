@@ -15,6 +15,6 @@ mkDerivation {
   libraryToolDepends = [ proto-lens-protoc ];
   executableHaskellDepends = [ base grapesy ];
   description = "grapesy-etcd - GRPC interface to etcd";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "grapesy-etc-example";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "JSX-like but for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

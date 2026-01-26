@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base unix ];
   homepage = "https://github.com/chessai/gw";
   description = "ghcWithPackages cmdline util";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "gw";
 }

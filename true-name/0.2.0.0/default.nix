@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base containers template-haskell time ];
   homepage = "https://github.com/haskell-github-trust/true-name";
   description = "Template Haskell hack to violate module abstractions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

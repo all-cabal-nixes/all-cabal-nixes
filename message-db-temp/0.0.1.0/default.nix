@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Disco-Dave/message-db";
   description = "Temporary message-db for integration testing";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

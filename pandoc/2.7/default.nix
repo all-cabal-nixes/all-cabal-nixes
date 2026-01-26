@@ -41,10 +41,6 @@ mkDerivation {
   benchmarkHaskellDepends = [
     base bytestring containers criterion mtl text time weigh
   ];
-  postInstall = ''
-    mkdir -p $out/share/man/man1
-    mv "man/"*.1 $out/share/man/man1/
-  '';
   homepage = "https://pandoc.org";
   description = "Conversion between markup formats";
   license = lib.licenses.gpl2Only;

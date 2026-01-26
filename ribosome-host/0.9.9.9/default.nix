@@ -22,5 +22,5 @@ mkDerivation {
     polysemy-test prelate tasty
   ];
   description = "Neovim plugin host for Polysemy";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

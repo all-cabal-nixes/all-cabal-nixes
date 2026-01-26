@@ -19,6 +19,6 @@ mkDerivation {
     HsYAML http-client http-client-tls text
   ];
   description = "Convert stack projects to cabal.project + cabal.project.freeze";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "stack2cabal";
 }

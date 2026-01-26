@@ -16,5 +16,5 @@ mkDerivation {
     tasty tasty-golden
   ];
   description = "Types and serialization for HTTP";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

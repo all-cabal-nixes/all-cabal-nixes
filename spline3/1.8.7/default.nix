@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://michael.orlitzky.com/code/spline3.xhtml";
   description = "Parallel implementation of the Sorokina/Zeilfelder spline scheme";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "spline3";
 }

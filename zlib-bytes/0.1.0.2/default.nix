@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/zlib-bytes";
   description = "zlib compression bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

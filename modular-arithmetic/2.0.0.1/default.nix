@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest typelits-witnesses ];
   homepage = "https://github.com/TikhonJelvis/modular-arithmetic";
   description = "A type for integers modulo some constant";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

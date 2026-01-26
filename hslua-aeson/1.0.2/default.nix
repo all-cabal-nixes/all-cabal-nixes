@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tarleb/hslua-aeson#readme";
   description = "Allow aeson data types to be used with lua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

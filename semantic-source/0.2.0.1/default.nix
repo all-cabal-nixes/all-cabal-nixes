@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/github/semantic/tree/master/semantic-source#readme";
   description = "Types and functionality for working with source code";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

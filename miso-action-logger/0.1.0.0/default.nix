@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base ghcjs-base miso ];
   homepage = "https://github.com/Lermex/miso-action-logger";
   description = "Miso state transition logger";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

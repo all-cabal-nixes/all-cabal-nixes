@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/NicolasT/lawful-classes";
   description = "Hedgehog support for lawful-classes";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

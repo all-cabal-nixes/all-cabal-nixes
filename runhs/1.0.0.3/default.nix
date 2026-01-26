@@ -10,6 +10,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/friedbrice/runhs#readme";
   description = "Stack wrapper for single-file Haskell programs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "runhs-exe";
 }

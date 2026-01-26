@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ criterion rerebase ];
   homepage = "https://github.com/nikita-volkov/text-builder";
   description = "Efficient strict text builder";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

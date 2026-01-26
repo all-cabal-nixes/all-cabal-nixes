@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base containers ghc yaml ];
   homepage = "https://github.com/goosedb/import-style-plugin";
   description = "Helps maintain consistency of imports";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

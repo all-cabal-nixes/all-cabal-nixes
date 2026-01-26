@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/lysxia/hakyll-alectryon";
   description = "Hakyll extension for rendering Coq code using Alectryon";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

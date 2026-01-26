@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-works/tasty-discover";
   description = "Test discovery for the tasty framework";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "tasty-discover";
 }

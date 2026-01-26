@@ -18,6 +18,6 @@ mkDerivation {
     optparse-applicative rank2classes tar text transformers
   ];
   description = "Canadian income tax calculation";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "complete-canadian-taxes";
 }

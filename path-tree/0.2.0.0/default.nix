@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "14a5qq0yhmf1x5lmw2rdzv312i9w3wjg0q582y3w79wrqdid99sr";
   libraryHaskellDepends = [ base containers relude ];
   description = "`Data.Tree` for file paths";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -1,6 +1,6 @@
-{ mkDerivation, ansi-terminal, assert, assertions, base, bytestring
-, cassava, data-default, filepath, lib, old-locale, parsec
-, safecopy, strptime, time
+{ mkDerivation, _assert, ansi-terminal, assertions, base
+, bytestring, cassava, data-default, filepath, lib, old-locale
+, parsec, safecopy, strptime, time
 }:
 mkDerivation {
   pname = "clippings";
@@ -10,7 +10,7 @@ mkDerivation {
   isExecutable = true;
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
-    ansi-terminal assert base data-default old-locale parsec strptime
+    _assert ansi-terminal base data-default old-locale parsec strptime
     time
   ];
   executableHaskellDepends = [

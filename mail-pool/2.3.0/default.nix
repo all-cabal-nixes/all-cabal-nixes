@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base mime-mail optparse-applicative ];
   homepage = "https://github.com/jappeace/email-pool#readme";
   description = "Preconfigured email connection pool on top of smtp";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "exe";
 }

@@ -16,5 +16,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "A parameterized named text type and associated functionality";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

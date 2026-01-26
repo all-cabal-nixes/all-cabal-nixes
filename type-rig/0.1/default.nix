@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base invariant ];
   homepage = "https://github.com/AshleyYakeley/type-rig#readme";
   description = "Classes for the rig (sums and products) of types";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

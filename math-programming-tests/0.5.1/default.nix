@@ -11,5 +11,5 @@ mkDerivation {
     microlens-th mtl QuickCheck random text
   ];
   description = "Utility functions for testing implementations of the math-programming library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

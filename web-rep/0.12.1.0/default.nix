@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/numhask#readme";
   description = "representations of a web page";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "web-rep-example";
 }

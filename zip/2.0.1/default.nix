@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/mrkkrp/zip";
   description = "Operations on zip archives";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "haskell-zip-app";
 }

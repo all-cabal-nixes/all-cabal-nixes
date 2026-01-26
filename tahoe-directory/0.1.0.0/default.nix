@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://whetstone.private.storage/PrivateStorage/tahoe-directory";
   description = "Tahoe-LAFS directory-like abstraction for collections of data objects";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

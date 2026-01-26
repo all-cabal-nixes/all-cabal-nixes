@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ghc ghc-tcplugin-api ];
   testHaskellDepends = [ base tasty tasty-hunit tasty-quickcheck ];
   description = "Plugin to faciliate type-level let";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

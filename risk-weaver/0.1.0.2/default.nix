@@ -20,5 +20,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "A DSL for Risk-oriented Object Detection Requirements";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

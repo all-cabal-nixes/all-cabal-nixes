@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/emilypi/base64";
   description = "RFC 4648-compliant padded and unpadded base64 and base64url encodings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

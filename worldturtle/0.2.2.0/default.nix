@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/aneilmac/worldturtle-haskell#readme";
   description = "LOGO-like Turtle graphics with a monadic interface";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

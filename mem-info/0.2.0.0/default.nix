@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/adetokunbo/mem-info#readme";
   description = "Print the core memory usage of programs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "printmem";
 }

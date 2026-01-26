@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/hs-i";
   description = "Haskell interval types. Bounds checking.";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

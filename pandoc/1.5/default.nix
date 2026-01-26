@@ -18,10 +18,6 @@ mkDerivation {
     HTTP mtl network old-time parsec pretty process syb texmath
     utf8-string xhtml xml zip-archive
   ];
-  postInstall = ''
-    mkdir -p $out/share
-    mv $data/*/*/man $out/share/
-  '';
   homepage = "http://johnmacfarlane.net/pandoc";
   description = "Conversion between markup formats";
   license = "GPL";

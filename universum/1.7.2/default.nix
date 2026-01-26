@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/serokell/universum";
   description = "Custom prelude used in Serokell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

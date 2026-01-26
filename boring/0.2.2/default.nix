@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base tagged transformers ];
   homepage = "https://github.com/phadej/boring";
   description = "Boring and Absurd types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

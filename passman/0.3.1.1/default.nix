@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/jlamothe/passman";
   description = "a simple password manager";
-  license = lib.licenses.lgpl3Plus;
+  license = lib.licensesSpdx."LGPL-3.0-or-later";
   mainProgram = "passman";
 }

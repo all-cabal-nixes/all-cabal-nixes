@@ -15,5 +15,5 @@ mkDerivation {
   testToolDepends = [ markdown-unlit ];
   homepage = "https://github.com/alexpeits/harg";
   description = "Haskell program configuration from multiple sources";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

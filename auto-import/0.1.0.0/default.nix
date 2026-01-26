@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base directory process tasty tasty-hunit ];
   description = "Automatically add import statements";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

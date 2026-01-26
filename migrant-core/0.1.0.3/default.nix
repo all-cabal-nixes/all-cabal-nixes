@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tdammers/migrant";
   description = "Semi-automatic database schema migrations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

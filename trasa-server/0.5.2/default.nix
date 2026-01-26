@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-trasa/trasa";
   description = "Type safe web server";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

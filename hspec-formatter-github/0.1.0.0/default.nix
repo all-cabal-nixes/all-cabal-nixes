@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec hspec-api hspec-core ];
   homepage = "https://github.com/MercuryTechnologies/hspec-formatter-github#readme";
   description = "A Formatter for hspec that provides Github Actions Annotations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-text/text-display#readme";
   description = "A typeclass for user-facing output";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

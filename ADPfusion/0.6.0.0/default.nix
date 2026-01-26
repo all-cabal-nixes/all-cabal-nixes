@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/choener/ADPfusion";
   description = "Efficient, high-level dynamic programming";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

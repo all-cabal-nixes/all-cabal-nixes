@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/pjones/vimeta";
   description = "Frontend for video metadata tagging tools";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
   mainProgram = "vimeta";
 }

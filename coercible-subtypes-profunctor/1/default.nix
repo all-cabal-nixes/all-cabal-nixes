@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base coercible-subtypes profunctors ];
   homepage = "https://github.com/viercc/coercible-subtypes";
   description = "Combine profunctors with coercible-subtypes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

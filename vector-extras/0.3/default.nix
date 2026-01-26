@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base vector ];
   homepage = "https://github.com/nikita-volkov/vector-extras";
   description = "Utilities for the \"vector\" library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

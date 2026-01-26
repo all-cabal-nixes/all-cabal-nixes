@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://github.com/LaurentRDC/tasty-flaky";
   description = "Handle flaky Tasty-based tests";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring ];
   testHaskellDepends = [ base bytestring hspec ];
   description = "Blosc (numerical compression library) bindings for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

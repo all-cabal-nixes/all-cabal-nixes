@@ -14,5 +14,5 @@ mkDerivation {
     base foldl Frames random text vector vinyl
   ];
   description = "Frames wrapper for map-reduce-folds and some extra folds helpers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

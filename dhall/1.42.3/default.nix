@@ -76,6 +76,6 @@ mkDerivation {
   ];
   doCheck = false;
   description = "A configuration language guaranteed to terminate";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "dhall";
 }

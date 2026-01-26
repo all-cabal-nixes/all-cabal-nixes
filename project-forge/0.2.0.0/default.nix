@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ aeson base filepath tasty tasty-hunit ];
   description = "A project initialization library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

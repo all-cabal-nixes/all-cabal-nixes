@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hedgehog ];
   homepage = "https://github.com/intricate/xtea-haskell";
   description = "XTEA (eXtended Tiny Encryption Algorithm)";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

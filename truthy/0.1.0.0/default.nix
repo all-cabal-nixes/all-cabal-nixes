@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/schuelermine/truthy";
   description = "Generalized booleans and truthy values";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

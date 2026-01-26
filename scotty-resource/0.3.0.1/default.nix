@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/scotty-resource";
   description = "A Better way of modeling web resources";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

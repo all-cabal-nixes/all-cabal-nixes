@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, c2hs, clang, filepath, hashable
-, lib, mtl, ncurses, resourcet, text, time, transformers
+{ mkDerivation, base, bytestring, c2hs, filepath, hashable, lib
+, libclang, mtl, ncurses, resourcet, text, time, transformers
 , transformers-base, vector
 }:
 mkDerivation {
@@ -10,7 +10,7 @@ mkDerivation {
     base bytestring filepath hashable mtl resourcet text time
     transformers transformers-base vector
   ];
-  librarySystemDepends = [ clang ];
+  librarySystemDepends = [ libclang ];
   libraryPkgconfigDepends = [ ncurses ];
   libraryToolDepends = [ c2hs ];
   homepage = "https://github.com/chetant/LibClang";

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/larskuhtz/tasty-json";
   description = "JSON reporter for the tasty testing framework";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

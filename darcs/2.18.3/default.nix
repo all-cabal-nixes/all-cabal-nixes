@@ -47,6 +47,6 @@ mkDerivation {
   '';
   homepage = "http://darcs.net/";
   description = "a distributed, interactive, smart revision control system";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
   mainProgram = "darcs";
 }

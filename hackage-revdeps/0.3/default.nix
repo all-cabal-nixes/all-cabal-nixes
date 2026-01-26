@@ -17,5 +17,5 @@ mkDerivation {
     filepath optparse-applicative time
   ];
   description = "List Hackage reverse dependencies";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

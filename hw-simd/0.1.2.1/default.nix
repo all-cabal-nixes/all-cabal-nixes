@@ -29,5 +29,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-works/hw-simd#readme";
   description = "SIMD library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

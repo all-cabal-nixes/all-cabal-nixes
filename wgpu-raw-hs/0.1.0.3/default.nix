@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "e3e19828da6d05e96b13f2fe54ccdd3e97999d4c2c93b772927b9474dba53e4a";
   libraryHaskellDepends = [ base GLFW-b unix ];
   description = "WGPU Raw";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

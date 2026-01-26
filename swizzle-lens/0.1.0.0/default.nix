@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ base swizzle swizzle-set template-haskell ];
   homepage = "https://github.com/YoshikuniJujo/swizzle-lens#readme";
   description = "Swizzle lens functions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

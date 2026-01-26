@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "http://haskell-distributed.github.com";
   description = "Unit tests for Network.Transport implementations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

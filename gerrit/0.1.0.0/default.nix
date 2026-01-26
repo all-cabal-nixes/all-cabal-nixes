@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/softwarefactory-project/gerrit-haskell#readme";
   description = "A gerrit client library";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

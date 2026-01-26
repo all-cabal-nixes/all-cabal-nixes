@@ -21,6 +21,6 @@ mkDerivation {
   executableSystemDepends = [ mxnet ];
   executableToolDepends = [ c2hs ];
   description = "FFI to MXNet";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "mxnet-op-gen";
 }

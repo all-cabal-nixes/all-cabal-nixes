@@ -21,5 +21,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "higher-order effects done right";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

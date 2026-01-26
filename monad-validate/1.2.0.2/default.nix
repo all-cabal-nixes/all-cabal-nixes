@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/lexi-lambda/monad-validate";
   description = "A monad transformer for data validation";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/daig/haddock-cheatsheet#readme";
   description = "A documentation-only package exemplifying haddock markup features";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -30,5 +30,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   benchmarkHaskellDepends = [ base gauge opentelemetry ];
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

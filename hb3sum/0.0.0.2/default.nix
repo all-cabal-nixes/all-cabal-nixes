@@ -7,6 +7,6 @@ mkDerivation {
   isExecutable = true;
   executableHaskellDepends = [ base blake3 bytestring mmap ];
   description = "A command line tool to compute BLAKE3 hashes";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "hb3sum";
 }

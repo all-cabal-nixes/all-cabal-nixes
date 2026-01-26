@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers QuickCheck splitmix ];
   homepage = "https://github.com/nikita-volkov/quickcheck-extras";
   description = "Extra utilities for QuickCheck";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

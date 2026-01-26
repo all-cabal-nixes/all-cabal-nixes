@@ -31,6 +31,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/dzen-dhall/dzen-dhall#readme";
   description = "Configure dzen2 bars in Dhall language";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "dzen-dhall";
 }

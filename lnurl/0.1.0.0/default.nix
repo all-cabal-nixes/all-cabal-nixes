@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/GambolingPangolin/lnurl";
   description = "Support for developing against the LNURL protocol";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

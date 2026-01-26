@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/AJChapman/formatting/blob/master/README.md";
   description = "Combinator-based type-safe formatting (like printf() or FORMAT)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -21,6 +21,6 @@ mkDerivation {
     base directory process reflex reflex-process temporary
   ];
   description = "A GHCi widget library for use in reflex applications";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "reflex-ghci";
 }

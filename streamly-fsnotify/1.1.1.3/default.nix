@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/georgefst/streamly-fsnotify";
   description = "Folder watching as a Streamly stream";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

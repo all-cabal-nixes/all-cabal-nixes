@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base mtl ];
   homepage = "https://github.com/SamuelSchlesinger/mtl-uplift";
   description = "Lift substacks of monad transformer stacks";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

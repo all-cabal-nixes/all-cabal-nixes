@@ -8,5 +8,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base containers gauge util ];
   homepage = "https://github.com/strake/Set.hs";
   description = "See README for more info";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

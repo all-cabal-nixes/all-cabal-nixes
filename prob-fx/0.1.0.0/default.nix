@@ -19,6 +19,6 @@ mkDerivation {
   executableHaskellDepends = [ base extensible lens ];
   homepage = "https://github.com/min-nguyen/prob-fx/tree/0.1.0.0";
   description = "A library for modular probabilistic modelling";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "examples";
 }

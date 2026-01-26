@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://functionalley.com/BishBosh/bishbosh.html";
   description = "Plays chess";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

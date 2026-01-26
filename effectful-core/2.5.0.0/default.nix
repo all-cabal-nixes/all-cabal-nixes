@@ -11,5 +11,5 @@ mkDerivation {
     strict-mutable-base transformers-base unliftio-core
   ];
   description = "An easy to use, performant extensible effects library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

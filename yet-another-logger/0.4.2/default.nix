@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/alephcloud/hs-yet-another-logger";
   description = "Yet Another Logger";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "example";
 }

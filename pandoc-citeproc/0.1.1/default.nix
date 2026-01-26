@@ -22,7 +22,6 @@ mkDerivation {
   testHaskellDepends = [
     aeson aeson-pretty base Diff pandoc-types process utf8-string
   ];
-  doCheck = false;
   description = "Supports using pandoc with citeproc";
   license = lib.licenses.bsd3;
 }

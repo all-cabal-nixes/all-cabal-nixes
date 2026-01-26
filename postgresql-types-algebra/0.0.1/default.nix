@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/postgresql-types-algebra";
   description = "Type classes for PostgreSQL type mappings";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

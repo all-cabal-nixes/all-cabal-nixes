@@ -32,6 +32,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/moleike/haskell-jsonnet#readme";
   description = "Jsonnet implementaton in pure Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hs-jsonnet";
 }

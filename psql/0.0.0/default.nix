@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/vapourismo/psql";
   description = "PostgreSQL client";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

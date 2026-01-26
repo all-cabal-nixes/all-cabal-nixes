@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ primitive ];
   homepage = "https://github.com/haskell-primitive/primitive-convenience";
   description = "convenience class for PrimMonad m/PrimState m";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

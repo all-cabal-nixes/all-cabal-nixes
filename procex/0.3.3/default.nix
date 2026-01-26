@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ async base bytestring hspec unix ];
   description = "Ergonomic process launching with extreme flexibility and speed";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

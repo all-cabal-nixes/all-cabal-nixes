@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base tasty-bench ];
   homepage = "https://github.com/minoki/haskell-floating-point#readme";
   description = "IEEE 754-2019 compliant operations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

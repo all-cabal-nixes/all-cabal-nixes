@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/arbor/arbor-monad-counter#readme";
   description = "Counter library for submitting metrics to a backend such as datadog";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -37,5 +37,5 @@ mkDerivation {
     splitmix text unordered-containers
   ];
   description = "Native Haskell implementation of the gRPC framework";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

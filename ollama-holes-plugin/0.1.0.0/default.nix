@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc ollama-haskell text ];
   homepage = "https://github.com/Tritlo/OllamaHoles";
   description = "A typed-hole plugin that uses LLMs via Ollama to generate valid hole-fits";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

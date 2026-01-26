@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest-parallel ];
   homepage = "https://github.com/tonyday567/harpie-numhask#readme";
   description = "numhask shim for harpie";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

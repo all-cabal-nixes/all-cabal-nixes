@@ -12,6 +12,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/dschrempf/elynx#readme";
   description = "Validate and (optionally) redo ELynx analyses";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "elynx";
 }

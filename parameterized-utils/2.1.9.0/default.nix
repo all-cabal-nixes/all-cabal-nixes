@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/GaloisInc/parameterized-utils";
   description = "Classes and data structures for working with data-kind indexed types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

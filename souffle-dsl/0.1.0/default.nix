@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/luc-tielen/souffle-dsl#README.md";
   description = "Haskell EDSL for Souffle";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

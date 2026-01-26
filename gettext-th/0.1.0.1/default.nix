@@ -10,5 +10,5 @@ mkDerivation {
     text
   ];
   description = "gettext-th can internationalise a haskell program without runtime dependencies";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
     utility-ht
   ];
   description = "Linear Programming basic definitions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

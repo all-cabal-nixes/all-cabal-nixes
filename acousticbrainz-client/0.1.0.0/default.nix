@@ -17,5 +17,5 @@ mkDerivation {
     relude tasty tasty-golden text
   ];
   description = "AcousticBrainz API client";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/igrep/typesafe-precure#readme";
   description = "Type-safe transformations and purifications of PreCures (Japanese Battle Heroine)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

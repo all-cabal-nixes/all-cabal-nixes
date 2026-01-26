@@ -16,6 +16,6 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ghc PyF template-haskell ];
   description = "A \"noDSL\" approach to mixing shell scripting with Haskell programs using Template Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "thsh";
 }

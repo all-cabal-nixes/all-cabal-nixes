@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskell.org/haskellwiki/Sox";
   description = "Play, write, read, convert audio signals using Sox";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

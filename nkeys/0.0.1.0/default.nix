@@ -15,6 +15,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/autodidaddict/nkeys-hs";
   description = "Nkeys ed25519 encoding for use with NATS";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "nkeys-exe";
 }

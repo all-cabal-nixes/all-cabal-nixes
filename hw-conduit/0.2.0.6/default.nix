@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-conduit#readme";
   description = "Conduits for tokenizing streams";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

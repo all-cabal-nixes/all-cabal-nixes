@@ -8,5 +8,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover ];
   homepage = "https://github.com/kakkun61/either-result";
   description = "‘Result a’ is a wrapper of ‘Either String a’";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

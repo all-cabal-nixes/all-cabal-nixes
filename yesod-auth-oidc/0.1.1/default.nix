@@ -42,6 +42,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/SupercedeTech/yesod-auth-oidc";
   description = "A yesod-auth plugin for multi-tenant SSO via OpenID Connect";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "yesod-auth-oidc-test";
 }

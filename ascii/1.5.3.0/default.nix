@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/ascii";
   description = "The ASCII character set and encoding";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

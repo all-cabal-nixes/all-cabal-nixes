@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base data-accessor enumset ];
   homepage = "http://code.haskell.org/cpuid/";
   description = "Binding for the cpuid machine instruction on x86 compatible processors";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

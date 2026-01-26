@@ -15,5 +15,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   testToolDepends = [ tasty-discover ];
   description = "A basic framework for effect systems based on effects represented by GADTs";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

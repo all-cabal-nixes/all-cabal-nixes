@@ -23,6 +23,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "http://allureofthestars.com";
   description = "Near-future Sci-Fi roguelike and tactical squad combat game";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "Allure";
 }

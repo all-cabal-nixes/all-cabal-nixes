@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/monus#readme";
   description = "a 'Monus' is a commutative monoid that allows a notion of substraction";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sergv/prettyprinter-combinators";
   description = "Some useful combinators for the prettyprinter package";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

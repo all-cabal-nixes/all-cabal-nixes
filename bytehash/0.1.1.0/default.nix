@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/bytehash";
   description = "Universal hashing of bytes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -32,6 +32,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/deepflowinc/guardian#readme";
   description = "The border guardian for your package dependencies";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "guardian";
 }

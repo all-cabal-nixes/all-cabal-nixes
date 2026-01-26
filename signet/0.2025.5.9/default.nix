@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty ];
   doHaddock = false;
   description = "Standard Webhooks";
-  license = lib.licenses.bsd0;
+  license = lib.licensesSpdx."0BSD";
 }

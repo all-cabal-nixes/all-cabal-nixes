@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/snowleopard/alga";
   description = "A library for algebraic graph construction and transformation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

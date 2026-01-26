@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fosskers/aura";
   description = "Access metadata from the Arch Linux User Repository";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

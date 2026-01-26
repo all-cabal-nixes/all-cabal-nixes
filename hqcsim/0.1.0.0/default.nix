@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base hmatrix random ];
   homepage = "https://github.com/sebastianardelean/hqcsim#readme";
   description = "A library for simulating quantum circuits";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hqcsim-exe";
 }

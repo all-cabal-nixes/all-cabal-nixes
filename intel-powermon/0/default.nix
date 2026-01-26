@@ -7,6 +7,6 @@ mkDerivation {
   isExecutable = true;
   executableHaskellDepends = [ base posix-timer streaming unix ];
   description = "Poll modern Intel/AMD CPU power consumption on Linux via RAPL";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
   mainProgram = "intel-powermon";
 }

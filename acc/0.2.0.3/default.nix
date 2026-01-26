@@ -14,5 +14,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ criterion rerebase ];
   homepage = "https://github.com/nikita-volkov/acc";
   description = "Sequence optimized for monoidal construction and folding";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

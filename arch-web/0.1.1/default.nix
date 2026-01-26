@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/berberman/arch-web";
   description = "Arch Linux official and AUR web interface binding";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

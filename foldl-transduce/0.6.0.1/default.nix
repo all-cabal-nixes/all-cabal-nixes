@@ -20,5 +20,5 @@ mkDerivation {
     base criterion foldl lens-family-core
   ];
   description = "Transducers for foldl folds";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/thma/devanagari-transliterations#readme";
   description = "Conversion between Devanagari Unicode, Harvard-Kyoto, IAST and ISO15919";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

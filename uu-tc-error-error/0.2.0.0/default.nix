@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/rdnz/uu-tc-error-error";
   description = "utilities for parse errors";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

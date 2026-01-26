@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/haskell-language-server#readme";
   description = "Haskell Language Server internal graph API";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

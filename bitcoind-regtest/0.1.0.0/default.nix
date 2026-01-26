@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/GambolingPangolin/bitcoind-rpc";
   description = "A library for working with bitcoin-core regtest networks";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

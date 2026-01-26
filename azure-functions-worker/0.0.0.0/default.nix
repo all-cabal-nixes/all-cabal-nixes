@@ -21,5 +21,5 @@ mkDerivation {
   libraryToolDepends = [ proto-lens-protoc ];
   testHaskellDepends = [ base ];
   description = "Azure Functions Worker";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

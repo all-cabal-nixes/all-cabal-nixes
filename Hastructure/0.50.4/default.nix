@@ -47,6 +47,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/yellowbean/Hastructure#readme";
   description = "Cashflow modeling library for structured finance";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "Hastructure-exe";
 }

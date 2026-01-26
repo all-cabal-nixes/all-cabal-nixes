@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base some template-haskell universe-base ];
   homepage = "https://github.com/dmwit/universe";
   description = "Universe instances for Some from some";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

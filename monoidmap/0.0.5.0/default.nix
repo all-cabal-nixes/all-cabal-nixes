@@ -10,5 +10,5 @@ mkDerivation {
     nothunks
   ];
   description = "Monoidal map type";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

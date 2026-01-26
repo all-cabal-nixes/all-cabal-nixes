@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://notabug.org/sheaf/finitary-optics";
   description = "Prisms and Isos between finitary types";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

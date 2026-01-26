@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base gamma tasty tasty-hunit ];
   homepage = "https://github.com/stla/BesselJ#readme";
   description = "Bessel J-function";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

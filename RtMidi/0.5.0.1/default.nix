@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit vector ];
   homepage = "https://github.com/riottracker/RtMidi";
   description = "Haskell wrapper for RtMidi, the lightweight, cross-platform MIDI I/O library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -1,4 +1,4 @@
-{ mkDerivation, assert, base, containers, data-default, deepseq
+{ mkDerivation, _assert, base, containers, data-default, deepseq
 , either, lens, lib, mtl, QuickCheck, semigroups, template-haskell
 , th-lift, th-printf, transformers
 }:
@@ -9,7 +9,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "0f8px9rf0d6bz0hm52iw5v89ada7jgj5lydpsr6x542hbq953wz3";
   libraryHaskellDepends = [
-    assert base containers data-default deepseq either lens mtl
+    _assert base containers data-default deepseq either lens mtl
     QuickCheck semigroups template-haskell th-lift th-printf
     transformers
   ];

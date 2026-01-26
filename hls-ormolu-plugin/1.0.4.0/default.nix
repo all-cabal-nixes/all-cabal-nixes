@@ -6,5 +6,5 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "0lxa57wjziil1ng3cjyiab11zw08pks68c3dm25sv2kw83w3479l";
   description = "Integration with the Ormolu code formatter";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "http://erebosprotocol.net";
   description = "Decentralized messaging and synchronization";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "erebos";
 }

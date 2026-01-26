@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pandoc/pandoc-lua-marshal";
   description = "Use pandoc types in Lua";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

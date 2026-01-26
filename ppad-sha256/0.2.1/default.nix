@@ -11,5 +11,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base bytestring criterion SHA ];
   description = "The SHA-256 and HMAC-SHA256 algorithms";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

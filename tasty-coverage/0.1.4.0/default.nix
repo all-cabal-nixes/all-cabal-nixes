@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers filepath hpc tasty ];
   homepage = "https://github.com/BinderDavid/tasty-coverage";
   description = "Ingredient for tasty which generates per-test coverage reports";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

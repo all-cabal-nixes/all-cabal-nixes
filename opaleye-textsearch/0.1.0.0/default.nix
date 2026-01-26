@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base opaleye ];
   testHaskellDepends = [ base ];
   description = "Text search utilities for Opaleye";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

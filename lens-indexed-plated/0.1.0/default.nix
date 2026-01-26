@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lens ];
   homepage = "https://github.com/nicuveo/lens-indexed-plated";
   description = "Indexed version of Plated";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

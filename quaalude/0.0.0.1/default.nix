@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/typeclasses/quaalude";
   description = "Extremely minimal prelude";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

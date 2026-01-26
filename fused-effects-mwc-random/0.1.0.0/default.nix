@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base fused-effects-random gauge ];
   homepage = "https://github.com/fused-effects/fused-effects-mwc-random";
   description = "High-quality random number generation as an effect";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

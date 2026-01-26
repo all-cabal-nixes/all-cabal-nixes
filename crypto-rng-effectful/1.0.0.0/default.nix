@@ -14,5 +14,5 @@ mkDerivation {
     base bytestring crypto-rng effectful-core tasty tasty-hunit
   ];
   description = "Adaptation of the crypto-rng library for the effectful ecosystem";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

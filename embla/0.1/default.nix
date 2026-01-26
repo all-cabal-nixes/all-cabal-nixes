@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base chronos ];
   homepage = "https://github.com/chessai/embla";
   description = "execute actions periodically while avoiding drift";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/goolord/word-array/";
   description = "treat integral types as arrays of smaller integral types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

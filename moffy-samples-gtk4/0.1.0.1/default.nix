@@ -13,6 +13,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/YoshikuniJujo/moffy-samples-gtk4#readme";
   description = "Sample executables of moffy - GTK4 version";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "moffy_samples_gtk4";
 }

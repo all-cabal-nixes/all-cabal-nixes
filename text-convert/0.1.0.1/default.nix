@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec QuickCheck text ];
   homepage = "https://github.com/friedbrice/text-convert#readme";
   description = "Convert between various textual representations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

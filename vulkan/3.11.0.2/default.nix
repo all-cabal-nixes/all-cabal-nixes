@@ -14,5 +14,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/expipiplus1/vulkan#readme";
   description = "Bindings to the Vulkan graphics API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

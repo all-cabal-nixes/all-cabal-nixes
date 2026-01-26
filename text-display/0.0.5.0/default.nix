@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://hackage.haskell.org/package/text-display-0.0.5.0/docs/doc/book/Introduction.html";
   description = "A typeclass for user-facing output";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

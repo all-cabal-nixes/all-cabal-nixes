@@ -30,6 +30,6 @@ mkDerivation {
     wide-word
   ];
   description = "Data structures and algorithms";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
   mainProgram = "example-lazy-segtree";
 }

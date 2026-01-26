@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/edemko/nanopass";
   description = "Create compilers using small passes and many intermediate representations";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "dumb-nanopass-example";
 }

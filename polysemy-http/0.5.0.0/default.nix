@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/polysemy-http#readme";
   description = "Polysemy Effects for HTTP clients";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

@@ -25,6 +25,6 @@ mkDerivation {
     vector
   ];
   description = "Jinja templates for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "ginger2";
 }

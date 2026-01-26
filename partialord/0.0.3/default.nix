@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base containers hspec ];
   homepage = "https://github.com/jcranch/partialord#readme";
   description = "Data structure supporting partial orders";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

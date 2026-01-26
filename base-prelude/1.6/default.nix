@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/nikita-volkov/base-prelude";
   description = "Featureful preludes formed solely from the \"base\" package";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

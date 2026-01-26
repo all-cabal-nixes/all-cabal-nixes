@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://hub.darcs.net/thielema/doctest-lib/";
   description = "Parts of doctest exposed as library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

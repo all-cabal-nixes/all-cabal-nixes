@@ -14,5 +14,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring tasty-bench text ];
   homepage = "https://github.com/phadej/integer-conversion";
   description = "Conversion from strings to Integer";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

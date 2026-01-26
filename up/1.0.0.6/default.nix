@@ -12,6 +12,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/thomaseding/up";
   description = "Command-line tool to generate paths for moving upward in a file system";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "up";
 }

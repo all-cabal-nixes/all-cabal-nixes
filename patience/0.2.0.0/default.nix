@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "122844f1bb633382658989595eb0ce5aa102973c9d77a7bfbcbd6e676e347c4a";
   libraryHaskellDepends = [ base containers ];
   description = "Patience diff and longest increasing subsequence";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

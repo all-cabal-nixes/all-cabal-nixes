@@ -13,5 +13,5 @@ mkDerivation {
     template-haskell text
   ];
   description = "Linear core validates optimizations wrt linearity";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

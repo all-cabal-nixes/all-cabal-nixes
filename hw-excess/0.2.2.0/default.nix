@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-excess#readme";
   description = "Excess";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

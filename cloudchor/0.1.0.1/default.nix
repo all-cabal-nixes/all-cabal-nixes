@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/aionescu/cloudchor";
   description = "Lightweight and efficient choreographic programming for cloud services";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

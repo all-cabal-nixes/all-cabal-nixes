@@ -19,5 +19,5 @@ mkDerivation {
     unordered-containers vector
   ];
   description = "Recover run-time type information from the GHC heap";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

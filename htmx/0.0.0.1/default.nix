@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lucid servant text ];
   testHaskellDepends = [ base lucid servant text ];
   description = "Use htmx with various haskell libraries";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

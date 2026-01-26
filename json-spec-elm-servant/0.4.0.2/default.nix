@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/json-spec-elm-servant";
   description = "Generated elm code for servant APIs";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

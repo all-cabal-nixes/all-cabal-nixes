@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ cereal cereal-text domain rerebase ];
   homepage = "https://github.com/nikita-volkov/domain-cereal";
   description = "Integration of domain with cereal";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

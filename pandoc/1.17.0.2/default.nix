@@ -39,11 +39,6 @@ mkDerivation {
     test-framework-quickcheck2 text zip-archive
   ];
   benchmarkHaskellDepends = [ base criterion syb ];
-  doCheck = false;
-  postInstall = ''
-    mkdir -p $out/share
-    mv $data/*/*/man $out/share/
-  '';
   homepage = "http://pandoc.org";
   description = "Conversion between markup formats";
   license = "GPL";

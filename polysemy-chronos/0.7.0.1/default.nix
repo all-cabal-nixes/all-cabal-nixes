@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/polysemy-time#readme";
   description = "A Polysemy effect for Chronos";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

@@ -13,5 +13,5 @@ mkDerivation {
     uniform-strings uniform-time unix zlib
   ];
   description = "Uniform file handling operations";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

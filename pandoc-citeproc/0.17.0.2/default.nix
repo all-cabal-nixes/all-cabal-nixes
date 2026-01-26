@@ -27,7 +27,6 @@ mkDerivation {
     aeson base bytestring containers directory filepath mtl pandoc
     pandoc-types process temporary text yaml
   ];
-  doCheck = false;
   homepage = "https://github.com/jgm/pandoc-citeproc";
   description = "Supports using pandoc with citeproc";
   license = lib.licenses.bsd3;

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ array base ];
   homepage = "https://wrengr.org/software/hackage.html";
   description = "Log-domain floating point numbers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

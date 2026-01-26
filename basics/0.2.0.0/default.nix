@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/basics";
   description = "Modules for primitive types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

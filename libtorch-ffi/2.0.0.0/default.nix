@@ -18,5 +18,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec safe-exceptions ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "test out alternative options for ffi interface to libtorch 2.x";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

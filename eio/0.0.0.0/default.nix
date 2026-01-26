@@ -10,6 +10,6 @@ mkDerivation {
   executableToolDepends = [ markdown-unlit ];
   homepage = "https://github.com/kowainik/eio";
   description = "IO with Exceptions tracked on the type-level";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "readme";
 }

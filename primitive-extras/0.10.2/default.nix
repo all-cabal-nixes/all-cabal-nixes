@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/primitive-extras";
   description = "Extras for the \"primitive\" library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

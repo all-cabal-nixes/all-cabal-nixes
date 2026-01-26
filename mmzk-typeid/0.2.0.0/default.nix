@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/MMZK1526/mmzk-typeid";
   description = "A TypeID implementation for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

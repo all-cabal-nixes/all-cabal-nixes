@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ array base ];
   homepage = "https://github.com/jwaldmann/satchmo";
   description = "SAT encoding monad";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

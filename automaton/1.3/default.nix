@@ -16,5 +16,5 @@ mkDerivation {
     these transformers
   ];
   description = "Effectful streams and automata in initial encoding";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

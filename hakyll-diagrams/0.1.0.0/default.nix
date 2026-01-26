@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/renatoGarcia/hakyll-diagrams";
   description = "A Hakyll plugin for rendering diagrams figures from embedded Haskell code";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc syb ];
   homepage = "https://github.com/composewell/fusion-plugin";
   description = "GHC plugin to make stream fusion more predictable";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

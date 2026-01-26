@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ hspec rerebase ];
   homepage = "https://github.com/nikita-volkov/theatre-dev";
   description = "Minimalistic actor library experiments";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/box#readme";
   description = "boxes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ attoparsec base bytestring ];
   homepage = "https://github.com/owensmurray/http-grammar";
   description = "Attoparsec-based parsers for the RFC-2616 HTTP grammar rules";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base criterion io-classes ];
   description = "A pure simulator for monadic concurrency with STM";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base raw-strings-qq ];
   description = "Automatically generate status for typed-session";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

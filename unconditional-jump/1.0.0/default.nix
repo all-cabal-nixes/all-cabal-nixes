@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base int-supply ];
   homepage = "https://github.com/awkward-squad/unconditional-jump";
   description = "Unconditional jumps";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

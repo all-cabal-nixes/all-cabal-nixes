@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0v0788jlmz3g6hrz91j97hhjs8fljbs6hivbcp725lqb437lp49s";
   libraryHaskellDepends = [ base envy hedis scientific time ];
   homepage = "https://github.com/igrep/hedis-envy#readme";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

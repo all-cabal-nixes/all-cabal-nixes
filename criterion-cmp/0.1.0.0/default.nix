@@ -12,6 +12,6 @@ mkDerivation {
     optparse-applicative vector
   ];
   description = "A simple tool for comparing in Criterion benchmark results";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "criterion-cmp";
 }

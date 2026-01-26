@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base template-haskell ];
   homepage = "https://github.com/YoshikuniJujo/swizzle-set#readme";
   description = "Swizzle set functions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

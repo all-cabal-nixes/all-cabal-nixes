@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Oleksandr-Zhabenko/keter-rate-limiting-plugin";
   description = "Simple Keter rate limiting plugin";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

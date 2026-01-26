@@ -14,6 +14,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/shinzui/hasql-effectful";
   description = "Effectful bindings for hasql";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "hasql-effectful-example";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base byteslice gauge primitive ];
   homepage = "https://github.com/layer-3-communications/palo-alto-syslog";
   description = "Parse syslog traffic from PAN-OS";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

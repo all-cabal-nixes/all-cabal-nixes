@@ -29,5 +29,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://fstaals.net/software/hgeometry";
   description = "Reading and Writing ipe7 files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

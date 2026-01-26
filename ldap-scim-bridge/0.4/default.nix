@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/fisx/ldap-scim-bridge";
   description = "See README for synopsis";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "ldap-scim-bridge";
 }

@@ -29,6 +29,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/stackbuilders/stache";
   description = "Mustache templates for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "stache";
 }

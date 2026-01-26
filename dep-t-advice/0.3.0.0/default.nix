@@ -11,5 +11,5 @@ mkDerivation {
     template-haskell transformers
   ];
   description = "Giving good advice to functions in a DepT environment";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

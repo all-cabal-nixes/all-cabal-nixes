@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base primitive primitive-unaligned ];
   homepage = "https://github.com/k355l3r-5yndr0m3/derive-prim";
   description = "Derive Prim and PrimUnaligned";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1rx55yc51xaarcyj8mgrdn6pmr8ri2n962h813dy5vc1pj49g8yz";
   libraryHaskellDepends = [ ghc-bignum ghc-prim rts ];
   description = "Basic libraries";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

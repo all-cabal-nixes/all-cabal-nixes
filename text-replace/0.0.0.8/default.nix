@@ -12,6 +12,6 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog neat-interpolation text ];
   homepage = "https://github.com/chris-martin/text-replace";
   description = "Simple text replacements from a list of search/replace pairs";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "text-replace";
 }

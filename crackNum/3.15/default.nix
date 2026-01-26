@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/LeventErkok/CrackNum";
   description = "Crack various integer and floating-point data formats";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "crackNum";
 }

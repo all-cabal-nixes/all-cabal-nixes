@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/lsp";
   description = "Haskell library for the Microsoft Language Server Protocol, data types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

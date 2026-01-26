@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/AshleyYakeley/countable";
   description = "Countable, Searchable, Finite, Empty classes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

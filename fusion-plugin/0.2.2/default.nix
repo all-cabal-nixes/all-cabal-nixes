@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/composewell/fusion-plugin";
   description = "GHC plugin to make stream fusion more predictable";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

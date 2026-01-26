@@ -10,5 +10,5 @@ mkDerivation {
     uniform-strings
   ];
   description = "Time in the uniform framework";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

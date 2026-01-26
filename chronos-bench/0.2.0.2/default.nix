@@ -16,6 +16,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base ];
   homepage = "https://github.com/knupfer/chronos";
   description = "Benchmarking tool with focus on comparing results";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "chronos";
 }

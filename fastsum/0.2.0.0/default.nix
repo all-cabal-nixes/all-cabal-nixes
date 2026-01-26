@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/patrickt/fastsum#readme";
   description = "A fast open-union type suitable for 100+ contained alternatives";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

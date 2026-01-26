@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/json-spec";
   description = "Type-level JSON specification";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

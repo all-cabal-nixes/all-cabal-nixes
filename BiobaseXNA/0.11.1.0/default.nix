@@ -36,6 +36,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/choener/BiobaseXNA";
   description = "Efficient RNA/DNA/Protein Primary/Secondary Structure";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "SubOptDistance";
 }

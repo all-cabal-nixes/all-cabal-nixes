@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/alt-romes/haskell-swift";
   description = "Cabal hooks for producing an XCFramework from a Haskell library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -28,6 +28,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/sheyll/unliftio-messagebox#readme";
   description = "Fast and robust message queues for concurrent processes";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
   mainProgram = "unliftio-messagebox-memleak-test";
 }

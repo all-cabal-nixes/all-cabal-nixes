@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ array base containers ];
   homepage = "http://github.com/runarorama/fuzzyfind/";
   description = "Fuzzy text matching";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

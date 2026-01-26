@@ -15,6 +15,6 @@ mkDerivation {
   ];
   libraryToolDepends = [ alex BNFC happy ];
   description = "LALR(1) parsetable generator and interpreter";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "lr-demo";
 }

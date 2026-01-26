@@ -13,5 +13,5 @@ mkDerivation {
     async base directory process tasty tasty-hunit
   ];
   description = "GHC plugin that writes errors to a file for use with quickfix";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

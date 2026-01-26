@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/lehmacdj/polysemy-readline#readme";
   description = "Readline effect for polysemy";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
   mainProgram = "echo-repl";
 }

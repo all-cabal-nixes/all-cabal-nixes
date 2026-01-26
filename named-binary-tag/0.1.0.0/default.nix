@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base cereal tasty tasty-quickcheck text ];
   homepage = "https://github.com/davidgarland/named-binary-tag";
   description = "NBT (named binary tag) serialization and deserialization";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

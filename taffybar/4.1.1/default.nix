@@ -48,6 +48,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "http://github.com/taffybar/taffybar";
   description = "A desktop bar similar to xmobar, but with more GUI";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "taffybar";
 }

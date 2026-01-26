@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "c751141c64aab252ca452ae28860425fee71ca6c3fbdda3b51edd7357142bd78";
   libraryHaskellDepends = [ base numeric-prelude test-invariant ];
   description = "Pointless functions and a simplistic zero and monoid";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

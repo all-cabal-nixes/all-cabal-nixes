@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "260336560551f5db4ed857acef0efabb31b20a94178cda8b32d8a83ce1fdec2c";
   libraryHaskellDepends = [ base containers ghc hlint stm ];
   description = "HLint as a GHC source plugin";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

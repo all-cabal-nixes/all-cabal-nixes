@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base binary bytestring ];
   homepage = "http://code.haskell.org/~thielema/iff/";
   description = "Constructing and dissecting IFF files";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

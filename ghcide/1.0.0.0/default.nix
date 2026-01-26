@@ -58,5 +58,5 @@ mkDerivation {
   benchmarkToolDepends = [ hp2pretty implicit-hie ];
   homepage = "https://github.com/haskell/ghcide#readme";
   description = "The core of an IDE";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

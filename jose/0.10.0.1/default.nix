@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/frasertweedale/hs-jose";
   description = "JSON Object Signing and Encryption (JOSE) and JSON Web Token (JWT) library";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

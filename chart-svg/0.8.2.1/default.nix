@@ -17,5 +17,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest-parallel ];
   homepage = "https://github.com/tonyday567/chart-svg#readme";
   description = "Charting library targetting SVGs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

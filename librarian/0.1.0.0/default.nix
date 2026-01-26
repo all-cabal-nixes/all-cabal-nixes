@@ -19,6 +19,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/blackheaven/librarian";
   description = "Move/rename according a set of rules";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
   mainProgram = "librarian";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec text ];
   homepage = "https://gitlab.com/ngua/ipa-hs/-/blob/master/README.org";
   description = "Internal Phonetic Alphabet (IPA)";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

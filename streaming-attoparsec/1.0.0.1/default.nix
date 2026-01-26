@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-streaming/streaming-attoparsec";
   description = "Attoparsec integration for the streaming ecosystem";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

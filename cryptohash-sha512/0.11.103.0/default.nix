@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring criterion ];
   homepage = "https://github.com/haskell-hvr/cryptohash-sha512";
   description = "Fast, pure and practical SHA-512 implementation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

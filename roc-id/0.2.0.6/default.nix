@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jonathanknowles/roc-id#readme";
   description = "Implementation of the ROC (Taiwan) National ID standard";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

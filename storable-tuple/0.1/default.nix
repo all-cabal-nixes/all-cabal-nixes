@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "http://code.haskell.org/~thielema/storable-tuple/";
   description = "Storable instance for pairs and triples";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

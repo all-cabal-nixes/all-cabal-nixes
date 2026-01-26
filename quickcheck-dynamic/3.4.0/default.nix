@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/input-output-hk/quickcheck-dynamic#readme";
   description = "A library for stateful property-based testing";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

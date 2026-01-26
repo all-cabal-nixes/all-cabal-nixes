@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/georgefst/lifx-lan";
   description = "LIFX LAN API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

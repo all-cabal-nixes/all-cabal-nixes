@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/AnthonySuper/jordan";
   description = "OpenAPI schemas for Jordan-Powered Servant APIs";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

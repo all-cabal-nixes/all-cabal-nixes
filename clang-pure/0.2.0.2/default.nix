@@ -1,6 +1,6 @@
-{ mkDerivation, base, bytestring, clang, containers, contravariant
-, inline-c, lib, microlens, microlens-contra, singletons, stm
-, template-haskell, vector
+{ mkDerivation, base, bytestring, containers, contravariant
+, inline-c, lib, libclang, microlens, microlens-contra, singletons
+, stm, template-haskell, vector
 }:
 mkDerivation {
   pname = "clang-pure";
@@ -12,7 +12,7 @@ mkDerivation {
     base bytestring containers contravariant inline-c microlens
     microlens-contra singletons stm template-haskell vector
   ];
-  librarySystemDepends = [ clang ];
+  librarySystemDepends = [ libclang ];
   description = "Pure C++ code analysis with libclang";
   license = lib.licenses.asl20;
 }

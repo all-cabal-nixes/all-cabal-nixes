@@ -23,5 +23,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/junjihashimoto/intelli-monad";
   description = "Auto-generated API bindings for openai";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

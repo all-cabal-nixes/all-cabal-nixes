@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog numhask numhask-prelude ];
   homepage = "https://github.com/tonyday567/numhask#readme";
   description = "Laws and tests for numhask";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

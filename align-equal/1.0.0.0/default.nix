@@ -8,6 +8,6 @@ mkDerivation {
   libraryHaskellDepends = [ base safe text ];
   executableHaskellDepends = [ base text ];
   description = "Aligns text prefixes before '=' for consistent formatting";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "align-equal";
 }

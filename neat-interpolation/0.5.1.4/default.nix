@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ rerebase tasty tasty-hunit ];
   homepage = "https://github.com/nikita-volkov/neat-interpolation";
   description = "Quasiquoter for neat and simple multiline text interpolation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

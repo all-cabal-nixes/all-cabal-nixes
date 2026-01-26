@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc-internal ghc-prim ];
   homepage = "https://www.haskell.org/ghc/";
   description = "Experimental features of GHC's standard library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

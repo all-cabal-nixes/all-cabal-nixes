@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base extensible ];
   homepage = "https://github.com/fumieval/extensible";
   description = "Operational-based extensible effect library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

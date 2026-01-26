@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://streamly.composewell.com";
   description = "Statistical measures for finite or infinite data streams";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -13,6 +13,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base warp ];
   description = "Minion JWT support";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "minion-jwt-example";
 }

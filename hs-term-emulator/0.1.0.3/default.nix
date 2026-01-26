@@ -17,5 +17,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion ];
   homepage = "https://github.com/bitc/hs-term-emulator";
   description = "Terminal Emulator written in 100% Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

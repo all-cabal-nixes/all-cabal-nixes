@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/hasql-th";
   description = "Template Haskell utilities for Hasql";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

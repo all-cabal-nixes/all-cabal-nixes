@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chessai/arraylist";
   description = "Memory-efficient ArrayList implementation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

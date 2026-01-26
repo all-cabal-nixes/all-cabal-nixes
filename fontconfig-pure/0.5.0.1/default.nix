@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://www.freedesktop.org/wiki/Software/fontconfig/";
   description = "Resolves font descriptions to font libraries, including ones installed on your freedesktop (Linux or BSD system)";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "fontconfig-pure";
 }

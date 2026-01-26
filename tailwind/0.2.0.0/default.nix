@@ -22,6 +22,6 @@ mkDerivation {
     optparse-applicative parser-combinators relude with-utf8
   ];
   description = "Tailwind wrapped in Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "tailwind-run";
 }

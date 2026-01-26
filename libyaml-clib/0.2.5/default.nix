@@ -6,5 +6,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/hasufell/streamly-yaml#readme";
   description = "libyaml clibs";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

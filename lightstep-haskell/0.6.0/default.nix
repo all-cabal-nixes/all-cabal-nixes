@@ -26,6 +26,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/ethercrow/lightstep-haskell#readme";
   description = "LightStep OpenTracing client library";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "lightstep-haskell-stress-test";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion JuicyPixels ];
   homepage = "https://github.com/mrkkrp/JuicyPixels-extra";
   description = "Efficiently scale, crop, flip images with JuicyPixels";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

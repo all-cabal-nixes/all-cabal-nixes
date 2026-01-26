@@ -14,5 +14,5 @@ mkDerivation {
     tasty tasty-hspec tasty-hunit tasty-quickcheck text
   ];
   description = "Low-level Botan bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -7,5 +7,5 @@ mkDerivation {
     aeson base http-conduit http-types text
   ];
   description = "Haskell bindings for the llama.cpp llama-server";
-  license = lib.licenses.agpl3Only;
+  license = lib.licensesSpdx."AGPL-3.0-only";
 }

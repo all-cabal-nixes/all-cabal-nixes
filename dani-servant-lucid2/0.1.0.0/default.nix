@@ -12,5 +12,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/danidiaz/dani-servant-lucid2";
   description = "Servant support for lucid2";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

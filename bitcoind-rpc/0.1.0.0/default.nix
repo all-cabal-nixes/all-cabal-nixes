@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/GambolingPangolin/bitcoind-rpc";
   description = "A streamlined interface to bitcoin core using Haskoin types and Servant";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

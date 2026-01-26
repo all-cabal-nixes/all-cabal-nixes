@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring cryptohash-sha256 HUnit ];
   homepage = "https://github.com/phadej/minicurl";
   description = "Minimal bindings to libcurl";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

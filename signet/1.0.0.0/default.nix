@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base heck tasty tasty-hunit transformers ];
   description = "Standard Webhooks";
-  license = lib.licenses.bsd0;
+  license = lib.licensesSpdx."0BSD";
 }

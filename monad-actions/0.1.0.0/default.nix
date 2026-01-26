@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/noiioiu/monad-actions";
   description = "Left or right actions of a monad on a functor";
-  license = lib.licenses.lgpl2Plus;
+  license = lib.licensesSpdx."LGPL-2.0-or-later";
 }

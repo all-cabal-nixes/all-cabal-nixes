@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec servant text ];
   homepage = "https://github.com/tfausak/lackey#readme";
   description = "Generate Ruby clients from Servant APIs";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

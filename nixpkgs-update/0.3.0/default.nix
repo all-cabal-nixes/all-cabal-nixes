@@ -48,6 +48,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/ryantm/nixpkgs-update#readme";
   description = "Tool for semi-automatic updating of nixpkgs repository";
-  license = lib.licenses.cc0;
+  license = lib.licensesSpdx."CC0-1.0";
   mainProgram = "nixpkgs-update";
 }

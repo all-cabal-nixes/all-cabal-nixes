@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/awakesecurity/spectacle";
   description = "Embedded specification language & model checker in Haskell";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

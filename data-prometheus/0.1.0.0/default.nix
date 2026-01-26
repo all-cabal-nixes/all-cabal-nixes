@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sorki/data-prometheus";
   description = "Prometheus metrics text format";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

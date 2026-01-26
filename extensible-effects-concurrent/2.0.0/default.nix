@@ -29,5 +29,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sheyll/extensible-effects-concurrent#readme";
   description = "Message passing concurrency as extensible-effect";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

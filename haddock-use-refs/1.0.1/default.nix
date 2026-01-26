@@ -15,5 +15,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/yaitskov/haddock-use-refs";
   description = "Eliminate warnings for names referred in Haddock only";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

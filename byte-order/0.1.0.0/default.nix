@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base primitive ];
   homepage = "https://github.com/andrewthad/byte-order";
   description = "Portable big-endian and little-endian conversions";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

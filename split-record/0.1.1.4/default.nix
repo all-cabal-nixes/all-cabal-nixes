@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "http://code.haskell.org/~thielema/split-record/";
   description = "Split a big audio file into pieces at positions of silence";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "split-record";
 }

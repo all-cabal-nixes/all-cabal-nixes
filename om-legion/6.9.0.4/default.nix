@@ -28,5 +28,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-legion";
   description = "Legion Framework";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

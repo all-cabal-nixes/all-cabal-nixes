@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base hashable HUnit text ];
   homepage = "https://github.com/glguy/irc-core";
   description = "IRC core library for glirc";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

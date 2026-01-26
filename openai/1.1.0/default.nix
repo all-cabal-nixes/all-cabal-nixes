@@ -20,6 +20,6 @@ mkDerivation {
     tasty-hunit text
   ];
   description = "Servant bindings to OpenAI";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "openai-example";
 }

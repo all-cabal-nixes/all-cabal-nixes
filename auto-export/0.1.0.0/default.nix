@@ -12,5 +12,5 @@ mkDerivation {
     base directory ghc process tasty tasty-hunit
   ];
   description = "Automatically add things to module export list";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

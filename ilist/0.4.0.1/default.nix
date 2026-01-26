@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/kowainik/ilist";
   description = "Optimised list functions for doing index-related things";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

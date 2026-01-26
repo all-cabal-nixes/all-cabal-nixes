@@ -16,6 +16,6 @@ mkDerivation {
   executableHaskellDepends = [ base text ];
   testHaskellDepends = [ base tasty tasty-hunit text vector ];
   description = "Servant bindings to Pinecone";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "pinecone-example";
 }

@@ -1,18 +1,16 @@
 { mkDerivation, aeson, ansi-terminal, array, ascii-progress, async
 , attoparsec, base, binary, boxes, bytestring, cereal, cmdargs
-, containers, deepseq, directory, fgl, filepath, git, hashable
-, intern, lens-family, lib, megaparsec, mtl, nettools
-, optparse-applicative, parallel, parser-combinators, pretty
-, process, rest-rewrite, smtlib-backends, smtlib-backends-process
-, stm, store, syb, tagged, tasty, tasty-ant-xml, tasty-hunit
-, tasty-quickcheck, tasty-rerun, text, transformers, typed-process
-, unordered-containers, vector, z3
+, containers, deepseq, directory, fgl, filepath, hashable, intern
+, lens-family, lib, megaparsec, mtl, optparse-applicative, parallel
+, parser-combinators, pretty, process, rest-rewrite
+, smtlib-backends, smtlib-backends-process, stm, store, syb, tagged
+, tasty, tasty-ant-xml, tasty-hunit, tasty-quickcheck, tasty-rerun
+, text, transformers, typed-process, unordered-containers, vector
 }:
 mkDerivation {
   pname = "liquid-fixpoint";
   version = "0.9.6.3";
   sha256 = "955cae3d235403cbc8fae564d215da227633bdb1ba33dbfc7eecaecb0b3d396e";
-  configureFlags = [ "-fbuild-external" ];
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
@@ -30,10 +28,8 @@ mkDerivation {
     tasty-hunit tasty-quickcheck tasty-rerun text transformers
     typed-process unordered-containers
   ];
-  testSystemDepends = [ git nettools z3 ];
-  doCheck = false;
   homepage = "https://github.com/ucsd-progsys/liquid-fixpoint#readme";
   description = "Predicate Abstraction-based Horn-Clause/Implication Constraint Solver";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "fixpoint";
 }

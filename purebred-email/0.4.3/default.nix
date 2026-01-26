@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/purebred-mua/purebred-email";
   description = "types and parser for email messages (including MIME)";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

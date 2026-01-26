@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog semigroups vector ];
   homepage = "https://github.com/emilypi/nonempty-vector";
   description = "Non-empty vectors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

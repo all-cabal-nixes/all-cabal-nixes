@@ -11,6 +11,6 @@ mkDerivation {
   testHaskellDepends = [ base template-haskell ];
   homepage = "https://github.com/YoshikuniJujo/yj-sandbox#readme";
   description = "try hackage";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "yj-sandbox-exe";
 }

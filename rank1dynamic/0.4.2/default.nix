@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "http://haskell-distributed.github.com";
   description = "Like Data.Dynamic/Data.Typeable but with support for rank-1 polymorphic types";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

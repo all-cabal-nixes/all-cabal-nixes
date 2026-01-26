@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/cornea#readme";
   description = "classy optical monadic state";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

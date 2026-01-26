@@ -11,5 +11,5 @@ mkDerivation {
     megaparsec string-conversions template-haskell text
   ];
   description = "JSX-like but for Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

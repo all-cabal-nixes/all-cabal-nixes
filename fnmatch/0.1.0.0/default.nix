@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec ];
   benchmarkHaskellDepends = [ base bytestring criterion ];
   description = "fnmatch C wrapper";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

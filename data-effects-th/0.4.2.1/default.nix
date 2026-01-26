@@ -16,5 +16,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "Template Haskell utilities for the data-effects library";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

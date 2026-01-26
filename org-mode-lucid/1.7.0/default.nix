@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fosskers/org-mode";
   description = "Lucid integration for org-mode";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -25,5 +25,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "A SDL2-based graphics library, batteries-included";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

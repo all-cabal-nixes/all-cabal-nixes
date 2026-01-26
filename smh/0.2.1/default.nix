@@ -14,6 +14,6 @@ mkDerivation {
   testHaskellDepends = [ base extra process tasty tasty-hunit text ];
   doHaddock = false;
   description = "String manipulation tool written in haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "smh";
 }

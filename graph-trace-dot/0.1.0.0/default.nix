@@ -14,6 +14,6 @@ mkDerivation {
     attoparsec base bytestring containers directory
   ];
   description = "Converts a graph-trace log into a DOT file for use with Graphviz";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "graph-trace-dot";
 }

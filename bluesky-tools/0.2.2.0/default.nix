@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base text ];
   description = "Tools for interacting with Bluesky / AT Protocol";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

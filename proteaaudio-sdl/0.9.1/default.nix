@@ -10,5 +10,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ SDL2 ];
   libraryToolDepends = [ c2hs ];
   description = "Simple audio library for SDL";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

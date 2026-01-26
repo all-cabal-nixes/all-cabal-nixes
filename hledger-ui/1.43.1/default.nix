@@ -21,6 +21,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "http://hledger.org";
   description = "Terminal interface for the hledger accounting system";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
   mainProgram = "hledger-ui";
 }

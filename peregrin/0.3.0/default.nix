@@ -11,5 +11,5 @@ mkDerivation {
     transformers
   ];
   description = "Database migration support for use in other libraries";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -11,6 +11,6 @@ mkDerivation {
   executableHaskellDepends = [ base criterion deepseq ];
   homepage = "http://github.com/runarorama/fuzzyfind/";
   description = "Fuzzy text matching";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "bench";
 }

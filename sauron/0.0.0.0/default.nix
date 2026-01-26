@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/chshersh/sauron";
   description = "The eye that watches everything you did on Twitter";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "sauron";
 }

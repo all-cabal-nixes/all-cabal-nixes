@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fused-effects/fused-effects-random";
   description = "Random number generation for fused-effects";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

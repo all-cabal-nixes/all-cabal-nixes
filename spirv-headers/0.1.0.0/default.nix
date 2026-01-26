@@ -7,5 +7,5 @@ mkDerivation {
   isExecutable = true;
   libraryHaskellDepends = [ aeson base containers text ];
   description = "Types and generator for SPIR-V JSON spec";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "05ghv8acp0gr86wlxsmjd0x6jaj981213ggg629hb78a95119f2q";
   libraryHaskellDepends = [ base enumset utility-ht ];
   description = "Bindings to poll.h";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

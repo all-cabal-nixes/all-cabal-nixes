@@ -16,6 +16,6 @@ mkDerivation {
   testHaskellDepends = [ base fb-stubs hspec hspec-contrib HUnit ];
   homepage = "https://github.com/facebookincubator/hsthrift";
   description = "Convert C++ type signatures to their mangled form";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "mangle";
 }

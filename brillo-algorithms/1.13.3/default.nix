@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base brillo containers ghc-prim ];
   homepage = "https://github.com/ad-si/Brillo";
   description = "Data structures and algorithms for working with 2D graphics";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

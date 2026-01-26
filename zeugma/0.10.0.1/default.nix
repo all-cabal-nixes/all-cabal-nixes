@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/incipit#readme";
   description = "Polysemy effects for testing";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

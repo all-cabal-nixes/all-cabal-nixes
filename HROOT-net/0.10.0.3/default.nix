@@ -12,5 +12,5 @@ mkDerivation {
   librarySystemDepends = [ RHTTP ];
   homepage = "https://wavewave.github.io/HROOT";
   description = "Haskell binding to ROOT Net modules";
-  license = lib.licenses.lgpl21Plus;
+  license = lib.licensesSpdx."LGPL-2.1-or-later";
 }

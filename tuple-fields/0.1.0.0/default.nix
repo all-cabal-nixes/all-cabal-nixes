@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://github.com/BinderDavid/tuple-fields";
   description = "Access tuple fields using record dot syntax";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "gen-source";
 }

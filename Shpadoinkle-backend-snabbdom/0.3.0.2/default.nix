@@ -11,5 +11,5 @@ mkDerivation {
     monad-control mtl Shpadoinkle text transformers-base unliftio
   ];
   description = "Use the high-performance Snabbdom virtual dom library written in JavaScript";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

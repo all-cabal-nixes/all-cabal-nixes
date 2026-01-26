@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base pandoc-types ];
   homepage = "https://github.com/mhwombat/pandoc-logic-proof";
   description = "A pandoc filter that provides a Markdown extension for logic proofs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "pandoc-logic-proof";
 }

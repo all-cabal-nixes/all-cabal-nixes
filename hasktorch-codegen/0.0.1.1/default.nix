@@ -24,6 +24,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Code generation tools for Hasktorch";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "ht-codegen";
 }

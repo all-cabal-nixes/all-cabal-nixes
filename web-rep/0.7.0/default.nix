@@ -22,6 +22,6 @@ mkDerivation {
     base doctest lens lucid numhask tasty tasty-hspec text
   ];
   description = "representations of a web page";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "rep-example";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/HeinrichApfelmus/hyper-haskell";
   description = "Display instances for the HyperHaskell graphical Haskell interpreter";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

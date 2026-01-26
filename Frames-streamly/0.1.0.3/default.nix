@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/adamConnerSax/Frames-streamly#readme";
   description = "A streamly layer for Frames I/O";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

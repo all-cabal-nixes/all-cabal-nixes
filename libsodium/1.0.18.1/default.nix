@@ -13,5 +13,5 @@ mkDerivation {
   testPkgconfigDepends = [ libsodium ];
   homepage = "https://github.com/k0001/hs-libsodium";
   description = "Low-level bindings to the libsodium C library";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/bellroy/servant-activeresource";
   description = "Servant endpoints compatible with Rails's ActiveResources";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -17,5 +17,5 @@ mkDerivation {
     template-haskell transformers
   ];
   description = "Efficient compilation for large records, linear in the size of the record";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

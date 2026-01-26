@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring cassava hspec mtl vector ];
   testSystemDepends = [ geos ];
   description = "Bindings for GEOS";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

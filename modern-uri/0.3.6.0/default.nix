@@ -23,5 +23,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mrkkrp/modern-uri";
   description = "Modern library for working with URIs";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

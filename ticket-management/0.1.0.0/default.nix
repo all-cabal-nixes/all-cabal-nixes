@@ -14,6 +14,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base QuickCheck text ];
   description = "A basic implementation of a personal ticket management system";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "ticket-manager";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     base base-compat exceptions jsaddle lens text transformers
   ];
   description = "DOM library that uses jsaddle to support both GHCJS and GHC";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

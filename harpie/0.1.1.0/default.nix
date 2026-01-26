@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest-parallel ];
   homepage = "https://github.com/tonyday567/harpie#readme";
   description = "Haskell array programming";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

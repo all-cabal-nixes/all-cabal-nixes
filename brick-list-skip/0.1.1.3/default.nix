@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base brick containers microlens vector ];
   homepage = "https://codeberg.org/amano.kenji/brick-list-skip";
   description = "Skip a certain kind of items when moving in brick list";
-  license = lib.licenses.bsd0;
+  license = lib.licensesSpdx."0BSD";
 }

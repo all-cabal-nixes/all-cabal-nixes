@@ -7,5 +7,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl stm stm-queue transformers ];
   testHaskellDepends = [ base hspec mtl stm stm-queue ];
   description = "A simplistic actor model based on STM";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

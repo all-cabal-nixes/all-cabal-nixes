@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base concurrency hspec ];
   homepage = "https://github.com/vapourismo/simpoole";
   description = "Simple pool";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

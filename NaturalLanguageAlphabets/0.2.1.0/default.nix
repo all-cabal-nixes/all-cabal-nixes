@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/choener/NaturalLanguageAlphabets";
   description = "Simple scoring schemes for word alignments";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

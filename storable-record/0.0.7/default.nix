@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "http://code.haskell.org/~thielema/storable-record/";
   description = "Elegant definition of Storable instances for records";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

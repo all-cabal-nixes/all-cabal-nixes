@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec hspec-discover ];
   testToolDepends = [ hspec-discover ];
   description = "Bindings to Facebook's Yoga layout library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

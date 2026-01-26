@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base filepath hspec os-string text ];
   homepage = "https://github.com/federicotdn/gitignore-ospath";
   description = "Library for reading .gitignore files and filtering paths.";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

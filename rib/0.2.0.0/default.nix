@@ -15,5 +15,5 @@ mkDerivation {
     wai wai-app-static wai-extra warp
   ];
   homepage = "https://github.com/srid/rib#readme";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

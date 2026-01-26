@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base directory parsec ];
   homepage = "https://github.com/jwaldmann/flat-tex";
   description = "flatten a latex multi-file latex document and remove all comments";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
   mainProgram = "flat-tex";
 }

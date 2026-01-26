@@ -17,5 +17,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring containers hspec ];
   homepage = "https://github.com/Matthew-Mosior/hs-samtools";
   description = "Read and write SAM, BAM, and CRAM files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

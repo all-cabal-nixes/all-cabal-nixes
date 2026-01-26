@@ -15,5 +15,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/bristolpl/intensional-datatys#readme";
   description = "A GHC Core plugin for intensional datatype refinement checking";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

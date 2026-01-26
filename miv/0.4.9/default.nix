@@ -19,6 +19,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/itchyny/miv";
   description = "Vim plugin manager written in Haskell";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "miv";
 }

@@ -24,5 +24,5 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://clash-lang.org/";
   description = "CAES Language for Synchronous Hardware";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

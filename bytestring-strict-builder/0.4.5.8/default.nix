@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ criterion rerebase ];
   homepage = "https://github.com/nikita-volkov/bytestring-strict-builder";
   description = "An efficient strict bytestring builder";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

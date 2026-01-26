@@ -11,5 +11,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/typeclasses/options/";
   description = "Powerful and easy command-line option parser";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

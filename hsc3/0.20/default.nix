@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "http://rohandrape.net/t/hsc3";
   description = "Haskell SuperCollider";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/arbor/arbor-lru-cache#readme";
   description = "LRU cache based on STM";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

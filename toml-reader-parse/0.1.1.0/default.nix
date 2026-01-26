@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sergv/toml-reader-parse";
   description = "Alternative parser for TOML values produced by the toml-reader package";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

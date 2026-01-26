@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ChrisPenner/lens-filesystem";
   description = "Lens interface for your filesystem; still a bit experimental";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

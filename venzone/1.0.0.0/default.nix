@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "none yet";
   description = "ASCII platform-adventure game";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

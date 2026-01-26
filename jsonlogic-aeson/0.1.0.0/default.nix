@@ -14,5 +14,5 @@ mkDerivation {
     base containers hedgehog jsonlogic tasty tasty-hedgehog tasty-hunit
   ];
   description = "JsonLogic Aeson Support";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

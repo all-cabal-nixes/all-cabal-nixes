@@ -31,6 +31,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/sthenauth/zxcvbn-hs";
   description = "Password strength estimation based on zxcvbn";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "zxcvbn-example";
 }

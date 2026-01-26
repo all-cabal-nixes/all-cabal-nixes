@@ -11,5 +11,5 @@ mkDerivation {
   ];
   libraryToolDepends = [ proto-lens-protoc ];
   description = "proto-lens-etcd - protobuffer lenses for etcd provided by protoc-lens-protoc";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

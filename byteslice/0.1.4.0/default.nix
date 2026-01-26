@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/byteslice";
   description = "Slicing managed and unmanaged memory";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

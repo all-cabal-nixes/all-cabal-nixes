@@ -21,5 +21,5 @@ mkDerivation {
   testHaskellDepends = [ aeson base tasty tasty-hunit text ];
   homepage = "https://github.com/414owen/simfin";
   description = "A library to fetch and parse financial data from the SimFin(+) API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

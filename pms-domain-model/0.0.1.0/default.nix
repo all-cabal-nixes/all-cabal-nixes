@@ -16,5 +16,5 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "pms-domain-model";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

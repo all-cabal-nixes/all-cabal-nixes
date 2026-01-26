@@ -30,5 +30,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover markdown-unlit ];
   homepage = "http://docs.servant.dev/";
   description = "Automatic derivation of querying functions for servant";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Arthi-chaud/haskell-ffprobe#readme";
   description = "Haskell bindings for ffprobe";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

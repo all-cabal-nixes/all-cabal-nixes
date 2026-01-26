@@ -24,5 +24,5 @@ mkDerivation {
   doCheck = false;
   homepage = "https://github.com/haskell/text";
   description = "An efficient packed Unicode text type";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

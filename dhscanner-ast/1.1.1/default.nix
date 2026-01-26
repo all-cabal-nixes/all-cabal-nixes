@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck random ];
   homepage = "https://github.com/OrenGitHub/dhscanner";
   description = "abstract syntax tree for multiple programming languages";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

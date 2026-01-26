@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/yav/haskell-lexer";
   description = "A fully compliant Haskell 98 lexer";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

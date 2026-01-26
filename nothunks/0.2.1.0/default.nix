@@ -14,5 +14,5 @@ mkDerivation {
     base containers ghc-prim hedgehog random stm tasty tasty-hedgehog
   ];
   description = "Examine values for unexpected thunks";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

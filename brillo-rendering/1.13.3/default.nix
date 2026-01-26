@@ -9,5 +9,5 @@ mkDerivation {
     base bmp bytestring containers OpenGL vector
   ];
   description = "Brillo picture data types and rendering functions";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

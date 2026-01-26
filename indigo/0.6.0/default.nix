@@ -33,6 +33,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://indigo-lang.gitlab.io/";
   description = "Convenient imperative eDSL over Lorentz";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "indigo";
 }

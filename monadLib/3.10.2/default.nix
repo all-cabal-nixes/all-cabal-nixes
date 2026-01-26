@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "http://wiki.github.com/yav/monadlib";
   description = "A collection of monad transformers";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

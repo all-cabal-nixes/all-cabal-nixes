@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog hspec hw-hspec-hedgehog ];
   homepage = "https://github.com/arbor/antiope#readme";
   description = "Please see the README on Github at <https://github.com/arbor/antiope#readme>";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

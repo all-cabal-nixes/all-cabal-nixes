@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/chronos";
   description = "A high-performance time library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

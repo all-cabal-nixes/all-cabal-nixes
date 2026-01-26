@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ base containers hspec MemoTrie ];
   homepage = "https://github.com/DavidLlorens/HyloDP";
   description = "A package for solving dynamic programming problems in Haskell";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

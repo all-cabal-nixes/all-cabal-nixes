@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/DeltaQ-SD/deltaq";
   description = "Framework for ∆Q System Development";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

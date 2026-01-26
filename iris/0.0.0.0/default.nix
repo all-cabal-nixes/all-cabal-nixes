@@ -16,6 +16,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec text ];
   homepage = "https://github.com/chshersh/iris";
   description = "Haskell CLI framework";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
   mainProgram = "iris-example";
 }

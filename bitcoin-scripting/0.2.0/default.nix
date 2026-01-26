@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/bitnomial/bitcoin-scripting";
   description = "Resources for working with miniscript, and script descriptors";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

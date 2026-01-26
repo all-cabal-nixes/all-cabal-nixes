@@ -31,5 +31,5 @@ mkDerivation {
   ];
   homepage = "https://nibzdil.org/";
   description = "Immutaball platformer game";
-  license = lib.licenses.bsd0;
+  license = lib.licensesSpdx."0BSD";
 }

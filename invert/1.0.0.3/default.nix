@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/invert";
   description = "Automatically generate a function’s inverse";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

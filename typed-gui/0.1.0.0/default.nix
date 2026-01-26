@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "GUI framework based on typed-fsm";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

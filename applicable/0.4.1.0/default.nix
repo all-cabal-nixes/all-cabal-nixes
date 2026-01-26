@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/schuelermine/applicable";
   description = "A class for things that can be applied";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

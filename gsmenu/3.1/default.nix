@@ -12,6 +12,6 @@ mkDerivation {
   ];
   homepage = "http://sigkill.dk/programs/gsmenu";
   description = "A visual generic menu";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "gsmenu";
 }

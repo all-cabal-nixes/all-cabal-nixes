@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec megaparsec ];
   homepage = "https://github.com/isaacvando/cooklang-hs";
   description = "Parser for the Cook markup language";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "cooklang-hs";
 }

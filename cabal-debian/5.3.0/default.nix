@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/clinty/cabal-debian";
   description = "Create a Debianization for a Cabal package";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "cabal-debian";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base fused-effects optics-core ];
   homepage = "https://github.com/fused-effects/fused-effects-optics";
   description = "Bridge between the optics and fused-effects ecosystems";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

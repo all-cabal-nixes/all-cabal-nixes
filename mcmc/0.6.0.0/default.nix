@@ -20,5 +20,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion microlens mwc-random ];
   homepage = "https://github.com/dschrempf/mcmc#readme";
   description = "Sample from a posterior using Markov chain Monte Carlo";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

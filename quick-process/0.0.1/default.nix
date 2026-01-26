@@ -35,5 +35,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "http://github.com/yaitskov/quick-process";
   description = "Run external processes verified at compilation/installation";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

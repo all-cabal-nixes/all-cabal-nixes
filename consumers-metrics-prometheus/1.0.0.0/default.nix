@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/scrive/consumers";
   description = "Prometheus metrics for the consumers library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

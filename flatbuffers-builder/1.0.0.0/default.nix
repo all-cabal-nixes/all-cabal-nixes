@@ -17,5 +17,5 @@ mkDerivation {
     bytestring primitive tasty tasty-golden text
   ];
   description = "Flatbuffers encoding based on a syntax tree";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

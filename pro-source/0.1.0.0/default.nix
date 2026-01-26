@@ -15,5 +15,5 @@ mkDerivation {
     tasty-quickcheck text vector
   ];
   description = "Utilities for tracking source locations";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/poscat0x04/exh";
   description = "A library for crawling exhentai";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

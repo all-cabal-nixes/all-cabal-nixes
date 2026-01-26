@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base vinyl ];
   homepage = "https://github.com/Solonarv/record-sugar#readme";
   description = "Syntax sugar for vinyl records using overloaded labels";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

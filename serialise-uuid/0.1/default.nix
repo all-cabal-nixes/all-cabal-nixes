@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/k0001/serialise-uuid";
   description = "Encode and decode UUID values in CBOR using uuid-types, cborg and serialise";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

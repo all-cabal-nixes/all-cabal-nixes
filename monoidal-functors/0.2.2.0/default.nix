@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/solomon-b/monoidal-functors";
   description = "Monoidal Functors Library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "co-log";
 }

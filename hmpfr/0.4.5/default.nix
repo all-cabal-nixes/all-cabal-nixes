@@ -8,5 +8,5 @@ mkDerivation {
   librarySystemDepends = [ mpfr ];
   homepage = "https://github.com/michalkonecny/hmpfr";
   description = "Haskell binding to the MPFR library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

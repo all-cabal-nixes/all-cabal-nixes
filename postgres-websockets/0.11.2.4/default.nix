@@ -27,6 +27,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/diogob/postgres-websockets#readme";
   description = "Middleware to map LISTEN/NOTIFY messages to Websockets";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "postgres-websockets";
 }

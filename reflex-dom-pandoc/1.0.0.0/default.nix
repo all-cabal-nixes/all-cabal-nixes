@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/srid/reflex-dom-pandoc#readme";
   description = "Render Pandoc documents to HTML using reflex-dom";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

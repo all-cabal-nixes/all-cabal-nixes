@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/pipes-aeson";
   description = "Encode and decode JSON streams using Aeson and Pipes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/gbataille/gitHUD#readme";
   description = "Heads up, and you see your GIT context";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

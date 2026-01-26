@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ rebase ];
   homepage = "https://github.com/nikita-volkov/rerebase";
   description = "Reexports from \"base\" with a bunch of other standard libraries";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

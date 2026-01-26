@@ -45,6 +45,6 @@ mkDerivation {
     base containers lens linear mtl random tasty-bench text
   ];
   description = "2D resource gathering game with programmable robots";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "swarm";
 }

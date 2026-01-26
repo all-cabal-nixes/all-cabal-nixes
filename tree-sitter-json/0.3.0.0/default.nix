@@ -8,5 +8,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/tree-sitter/haskell-tree-sitter/tree/master/tree-sitter-json";
   description = "Tree-sitter grammar/parser for JSON";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

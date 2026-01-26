@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/sacha-sokoloski/goal";
   description = "The basic geometric type system of Goal";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

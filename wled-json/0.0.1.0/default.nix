@@ -15,6 +15,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/alaendle/wled-json#readme";
   description = "Convenient interface for interacting with WLED devices";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "wled-json-exe";
 }

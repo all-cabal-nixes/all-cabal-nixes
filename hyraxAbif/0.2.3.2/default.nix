@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/hyraxbio/hyraxAbif/#readme";
   description = "Modules for parsing, generating and manipulating AB1 files";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hyraxAbif-exe";
 }

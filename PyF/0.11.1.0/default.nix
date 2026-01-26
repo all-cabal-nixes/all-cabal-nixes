@@ -14,5 +14,5 @@ mkDerivation {
     template-haskell temporary text time
   ];
   description = "Quasiquotations for a python like interpolated string formatter";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

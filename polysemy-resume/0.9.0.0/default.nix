@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/polysemy-resume#readme";
   description = "Polysemy error tracking";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

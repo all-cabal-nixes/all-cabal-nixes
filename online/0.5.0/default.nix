@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest tasty ];
   homepage = "https://github.com/tonyday567/online#readme";
   description = "online statistics";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

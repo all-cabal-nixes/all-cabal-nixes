@@ -11,5 +11,5 @@ mkDerivation {
     aeson base bytestring HsYAML mtl text vector
   ];
   description = "JSON to YAML Adapter";
-  license = lib.licenses.gpl2Plus;
+  license = lib.licensesSpdx."GPL-2.0-or-later";
 }

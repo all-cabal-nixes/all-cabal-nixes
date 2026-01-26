@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mrkkrp/req-conduit";
   description = "Conduit helpers for the req HTTP client library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

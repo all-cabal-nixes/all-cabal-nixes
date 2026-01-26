@@ -21,5 +21,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/haskell/vector";
   description = "Efficient Arrays";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

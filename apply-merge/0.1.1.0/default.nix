@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pgujjula/apply-merge#readme";
   description = "Lift a binary, non-decreasing function onto ordered lists and order the output";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

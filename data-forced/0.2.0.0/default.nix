@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base containers HUnit ];
   homepage = "https://github.com/RubenAstudillo/data-forced";
   description = "Specify that lifted values were forced to WHNF or NF";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec HUnit lucid ];
   homepage = "https://git.sr.ht/~rycee/lucid-aria";
   description = "Provides ARIA attributes for Lucid templates";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

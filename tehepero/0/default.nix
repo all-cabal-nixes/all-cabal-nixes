@@ -9,5 +9,5 @@ mkDerivation {
     base exceptions fallible prettyprinter prettyprinter-ansi-terminal
   ];
   description = "Prettier error";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

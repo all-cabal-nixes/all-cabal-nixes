@@ -24,7 +24,6 @@ mkDerivation {
     aeson aeson-pretty base bytestring Diff directory filepath pandoc
     pandoc-types process yaml
   ];
-  doCheck = false;
   description = "Supports using pandoc with citeproc";
   license = lib.licenses.bsd3;
 }

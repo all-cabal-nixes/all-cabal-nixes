@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/scrive/happstack-static-routing";
   description = "Support for static URL routing with overlap detection for Happstack";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

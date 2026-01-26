@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/withflint/monorepo";
   description = "Generate Elm datatype definitions, encoders and decoders from Haskell datatypes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "generate-test-app-code";
 }

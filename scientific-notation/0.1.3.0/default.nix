@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/scientific-notation";
   description = "Scientific notation intended for tokenization";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

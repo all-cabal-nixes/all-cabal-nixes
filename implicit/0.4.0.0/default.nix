@@ -25,5 +25,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion linear parsec ];
   homepage = "http://implicitcad.org/";
   description = "A math-inspired programmatic 2D & 3D CAD system";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

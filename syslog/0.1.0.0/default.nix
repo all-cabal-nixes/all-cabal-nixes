@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base byteslice primitive ];
   homepage = "https://github.com/byteverse/syslog";
   description = "Decode RFC 3164 and RFC 5424 syslog message formats";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

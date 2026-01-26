@@ -12,6 +12,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/minoki/haskell-cpu-features";
   description = "A library to detect CPU features";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "cpu-features-demo";
 }

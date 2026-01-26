@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base polysemy req ];
   homepage = "https://github.com/morrowm/polysemy-req";
   description = "Polysemy effect for req";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base HUnit ];
   description = "Semantic version numbers and constraints";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

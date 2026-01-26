@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/fosskers/versions";
   description = "Types and parsers for software version numbers";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

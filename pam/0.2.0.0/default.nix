@@ -10,5 +10,5 @@ mkDerivation {
   libraryToolDepends = [ c2hs ];
   homepage = "https://github.com/oscar-h64/pam-haskell";
   description = "Haskell binding for C PAM API";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ attoparsec base bytestring text ];
   homepage = "https://github.com/typeclasses/attoparsec-run";
   description = "Conveniently run Attoparsec parsers";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring ghc-prim hspec ];
   testToolDepends = [ hspec-discover ];
   description = "Unicode";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base primitive unix ];
   homepage = "https://github.com/k355l3r-5yndr0m3/netw";
   description = "Binding to C socket API operating on bytearrays";
-  license = lib.licenses.gpl3Plus;
+  license = lib.licensesSpdx."GPL-3.0-or-later";
 }

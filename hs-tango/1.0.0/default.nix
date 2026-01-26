@@ -9,5 +9,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base text ];
   homepage = "https://github.com/pmiddend/hs-tango";
   description = "Bindings to the Tango Controls system";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "http://haskell-distributed.github.com";
   description = "Compositional, type-safe, polymorphic static values and closures";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

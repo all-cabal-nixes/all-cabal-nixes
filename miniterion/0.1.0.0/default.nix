@@ -8,5 +8,5 @@ mkDerivation {
   testHaskellDepends = [ base directory tasty tasty-hunit ];
   benchmarkHaskellDepends = [ base ];
   description = "Simple and lightweight benchmark utilities";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

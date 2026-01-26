@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/owensmurray/generic-enumeration";
   description = "Generically derived enumerations";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

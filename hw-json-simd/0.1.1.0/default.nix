@@ -21,6 +21,6 @@ mkDerivation {
   testToolDepends = [ doctest-discover ];
   homepage = "https://github.com/haskell-works/hw-json-simd#readme";
   description = "SIMD-based JSON semi-indexer";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "hw-json-simd";
 }

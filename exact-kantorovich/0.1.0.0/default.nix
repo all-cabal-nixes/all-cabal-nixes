@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base containers tasty tasty-hunit ];
   homepage = "https://github.com/stla/exact-kantorovich#readme";
   description = "Exact Kantorovich distance between finite probability measures";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

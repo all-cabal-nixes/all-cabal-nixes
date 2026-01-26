@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring sized-wrapper text ];
   homepage = "http://github.com/blackheaven/sized-wrapper/sized-wrapper-text";
   description = "'Sized' wrappers for text";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base chell HUnit ];
   homepage = "https://github.com/typeclasses/chell";
   description = "HUnit support for the Chell testing library";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

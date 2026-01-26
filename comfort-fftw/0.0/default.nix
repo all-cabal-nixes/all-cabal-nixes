@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/comfort-fftw/";
   description = "High-level interface to FFTW (Fast Fourier Transform) based on comfort-array";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

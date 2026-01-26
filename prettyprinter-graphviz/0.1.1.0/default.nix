@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base graphviz prettyprinter text ];
   homepage = "https://github.com/georgefst/prettyprinter-graphviz";
   description = "a prettyprinter backend for graphviz";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

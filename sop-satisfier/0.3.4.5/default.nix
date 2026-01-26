@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers transformers ];
   testHaskellDepends = [ base tasty tasty-hunit ];
   description = "Check satisfiability of expressions on natural numbers";
-  license = lib.licenses.bsd2;
+  license = lib.licensesSpdx."BSD-2-Clause";
 }

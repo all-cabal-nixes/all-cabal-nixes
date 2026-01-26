@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base servant ];
   homepage = "https://github.com/GambolingPangolin/servant-jsonrpc";
   description = "JSON-RPC messages and endpoints";
-  license = lib.licenses.isc;
+  license = lib.licensesSpdx."ISC";
 }

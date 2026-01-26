@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base base-orphans deepseq time ];
   testHaskellDepends = [ base deepseq HUnit ];
   description = "Compatibility package for time";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

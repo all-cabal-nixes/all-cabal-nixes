@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base filepath hls-test-utils ];
   description = "Integration with the Floskell code formatter";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

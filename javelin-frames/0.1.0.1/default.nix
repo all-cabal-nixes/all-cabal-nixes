@@ -14,5 +14,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base criterion deepseq vector ];
   description = "Type-safe data frames based on higher-kinded types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

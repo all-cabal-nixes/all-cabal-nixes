@@ -25,5 +25,5 @@ mkDerivation {
     polysemy-plugin polysemy-RandomFu random-fu random-source text
   ];
   description = "a minimal Rmarkdown sort-of-thing for haskell, by way of Pandoc";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

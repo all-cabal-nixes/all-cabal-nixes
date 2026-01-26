@@ -21,6 +21,6 @@ mkDerivation {
   testHaskellDepends = [ base doctest-parallel ];
   homepage = "https://github.com/tonyday567/mealy#readme";
   description = "Mealy machines for processing time-series and ordered data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "mealy-perf";
 }

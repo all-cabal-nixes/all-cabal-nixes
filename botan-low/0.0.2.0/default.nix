@@ -15,5 +15,5 @@ mkDerivation {
     base botan-bindings bytestring crypton tasty-bench
   ];
   description = "Low-level Botan bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

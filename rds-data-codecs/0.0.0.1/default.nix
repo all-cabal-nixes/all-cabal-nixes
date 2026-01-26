@@ -26,6 +26,6 @@ mkDerivation {
   testToolDepends = [ doctest-discover tasty-discover ];
   homepage = "http://github.com/haskell-works/rds-data-codecs#readme";
   description = "Codecs for use with AWS rds-data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "rds-data-codecs";
 }

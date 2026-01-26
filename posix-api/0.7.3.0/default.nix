@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base primitive tasty tasty-hunit ];
   homepage = "https://github.com/byteverse/posix-api";
   description = "posix bindings";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sjoerdvisscher/unfoldable";
   description = "Class of data structures that can be unfolded";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

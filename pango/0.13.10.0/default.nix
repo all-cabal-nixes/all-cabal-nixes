@@ -16,5 +16,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ pango ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Pango text rendering engine";
-  license = lib.licenses.lgpl21Only;
+  license = lib.licensesSpdx."LGPL-2.1-only";
 }

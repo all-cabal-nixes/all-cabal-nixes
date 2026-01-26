@@ -15,5 +15,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring deepseq tasty-bench ];
   homepage = "https://github.com/haskell/filepath/blob/master/README.md";
   description = "Library for manipulating FilePaths in a cross platform way";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

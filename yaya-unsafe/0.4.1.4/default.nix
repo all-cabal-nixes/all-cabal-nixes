@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest hedgehog yaya yaya-hedgehog ];
   homepage = "https://github.com/sellout/yaya#readme";
   description = "Non-total extensions to the Yaya recursion scheme library";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
 }

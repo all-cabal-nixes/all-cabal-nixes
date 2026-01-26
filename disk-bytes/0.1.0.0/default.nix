@@ -11,5 +11,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring text ];
   homepage = "https://github.com/HeinrichApfelmus/disk-bytes";
   description = "On-disk storage, but referentially transparent";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

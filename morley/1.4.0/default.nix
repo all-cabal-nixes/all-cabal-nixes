@@ -48,6 +48,6 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/morley-framework/morley";
   description = "Developer tools for the Michelson Language";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
   mainProgram = "morley";
 }

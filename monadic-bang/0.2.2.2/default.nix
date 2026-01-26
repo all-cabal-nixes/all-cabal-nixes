@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base ghc ghc-boot ghc-paths transformers ];
   homepage = "https://github.com/JakobBruenker/monadic-bang";
   description = "GHC plugin to desugar ! into do-notation";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

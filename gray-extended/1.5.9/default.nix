@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mhwombat/gray-extended";
   description = "Gray encoding schemes";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

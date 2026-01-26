@@ -23,6 +23,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/input-output-hk/bech32";
   description = "Implementation of the Bech32 cryptocurrency address format (BIP 0173)";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
   mainProgram = "bech32";
 }

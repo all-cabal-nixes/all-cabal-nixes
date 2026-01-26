@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://oss.xkcd.com/";
   description = "Application level triggered, and edge triggered event multiqueues";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

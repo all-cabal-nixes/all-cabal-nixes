@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://git.tryp.io/tek/incipit";
   description = "A Prelude for Polysemy";
-  license = "BSD-2-Clause-Patent";
+  license = lib.licensesSpdx."BSD-2-Clause-Patent";
 }

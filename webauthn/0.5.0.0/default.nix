@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tweag/webauthn";
   description = "Relying party (server) implementation of the WebAuthn 2 specification";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

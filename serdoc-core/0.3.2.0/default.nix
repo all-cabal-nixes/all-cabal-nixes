@@ -12,5 +12,5 @@ mkDerivation {
     base bytestring mtl tasty tasty-quickcheck
   ];
   description = "Generated documentation of serialization formats";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

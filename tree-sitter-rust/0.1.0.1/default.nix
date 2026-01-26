@@ -7,5 +7,5 @@ mkDerivation {
   libraryHaskellDepends = [ base tree-sitter ];
   homepage = "https://github.com/tree-sitter/haskell-tree-sitter/tree/master/tree-sitter-rust";
   description = "Tree-sitter grammar/parser for Rust";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

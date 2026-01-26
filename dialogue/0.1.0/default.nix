@@ -11,6 +11,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/AliasQli/dialogue#readme";
   description = "I/O in Haskell Report 1.2";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "examples";
 }

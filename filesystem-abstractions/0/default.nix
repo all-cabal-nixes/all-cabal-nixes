@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://oss.xkcd.com/";
   description = "A shared set of abstractions and types for representing filessytem data";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

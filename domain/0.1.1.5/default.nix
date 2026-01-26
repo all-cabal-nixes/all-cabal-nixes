@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/domain";
   description = "Codegen helping you define domain models";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

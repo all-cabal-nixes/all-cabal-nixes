@@ -13,5 +13,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/yaitskov/th-lock";
   description = "Serialize compilation of modules with TH code modifing shared state";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/k0001/hs-slip32";
   description = "SLIP-0032: Extended serialization format for BIP-32 wallets";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }

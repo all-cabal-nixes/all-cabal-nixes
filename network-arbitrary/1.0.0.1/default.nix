@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/alunduil/network-arbitrary";
   description = "Arbitrary Instances for Network Types";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

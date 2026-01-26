@@ -20,6 +20,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://argonaut-constellation.org/";
   description = "Parse webforms & render to interactive hypertext";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
   mainProgram = "bureaucromancy";
 }

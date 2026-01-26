@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/adetokunbo/web-cookiejar#readme";
   description = "Parsing/printing of persistent web cookies";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

@@ -32,6 +32,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Airsequel/AirGQL";
   description = "Automatically generate a GraphQL API for an SQLite database";
-  license = lib.licenses.agpl3Plus;
+  license = lib.licensesSpdx."AGPL-3.0-or-later";
   mainProgram = "airgql";
 }

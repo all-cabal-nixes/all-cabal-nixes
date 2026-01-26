@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chessai/snmp.git";
   description = "SNMP protocol library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

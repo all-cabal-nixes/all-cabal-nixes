@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskell.org/haskellwiki/Synthesizer";
   description = "Control synthesizer effects via ALSA/MIDI";
-  license = lib.licenses.gpl3Only;
+  license = lib.licensesSpdx."GPL-3.0-only";
 }

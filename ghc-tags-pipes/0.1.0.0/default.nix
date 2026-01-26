@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/coot/ghc-tags-plugin#readme";
   description = "Streaming interface for ghc-tags-core";
-  license = lib.licenses.mpl20;
+  license = lib.licensesSpdx."MPL-2.0";
 }

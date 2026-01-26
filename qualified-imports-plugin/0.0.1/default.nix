@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base text ];
   homepage = "https://github.com/utdemir/qualified-imports-plugin";
   description = "GHC plugin to automatically insert qualified imports";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

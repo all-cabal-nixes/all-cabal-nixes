@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base template-haskell ];
   testHaskellDepends = [ base ];
   description = "A memoization library";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

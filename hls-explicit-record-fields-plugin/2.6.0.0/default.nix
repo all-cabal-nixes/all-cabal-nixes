@@ -14,5 +14,5 @@ mkDerivation {
     base filepath hls-test-utils lsp-test text
   ];
   description = "Explicit record fields plugin for Haskell Language Server";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

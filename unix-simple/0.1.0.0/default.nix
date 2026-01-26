@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring zenhack-prelude ];
   homepage = "https://github.com/zenhack/haskell-unix-simple";
   description = "Straightforward bindings to the posix API";
-  license = lib.licenses.mit;
+  license = lib.licensesSpdx."MIT";
 }

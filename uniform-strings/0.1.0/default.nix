@@ -11,5 +11,5 @@ mkDerivation {
     snap-core split text text-icu uniform-algebras
   ];
   description = "Manipulate and convert strings of characters uniformly and consistently";
-  license = lib.licenses.gpl2Only;
+  license = lib.licensesSpdx."GPL-2.0-only";
 }

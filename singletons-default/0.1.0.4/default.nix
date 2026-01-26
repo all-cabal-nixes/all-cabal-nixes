@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/morphismtech/singletons-default#readme";
   description = "An optional type with type level default";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
 }

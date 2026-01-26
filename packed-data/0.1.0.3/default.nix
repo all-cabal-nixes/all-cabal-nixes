@@ -22,6 +22,6 @@ mkDerivation {
     listsafe mtl optparse-applicative process scientific split vector
   ];
   homepage = "https://github.com/Arthi-chaud/packed-haskell#readme";
-  license = lib.licenses.bsd3;
+  license = lib.licensesSpdx."BSD-3-Clause";
   mainProgram = "examples";
 }

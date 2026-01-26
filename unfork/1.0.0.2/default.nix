@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ async base safe-exceptions stm ];
   homepage = "https://github.com/typeclasses/unfork";
   description = "Make any action thread safe";
-  license = lib.licenses.asl20;
+  license = lib.licensesSpdx."Apache-2.0";
 }
