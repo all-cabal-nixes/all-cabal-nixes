@@ -6,6 +6,8 @@ mkDerivation {
   pname = "rails-session";
   version = "0.1.0.0";
   sha256 = "e897b191410818f2cb2b85985e547b87b250727cf23dc2a7d9effd5c28fdc2da";
+  revision = "1";
+  editedCabalFile = "04iknin84yjb9524zd2pmgv3hsw0gfl1fk7sw72v0ajp657ji0ih";
   libraryHaskellDepends = [
     base base-compat base64-bytestring bytestring cryptonite http-types
     pbkdf ruby-marshal string-conv vector
