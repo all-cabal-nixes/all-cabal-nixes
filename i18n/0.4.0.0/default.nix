@@ -5,8 +5,8 @@ mkDerivation {
   pname = "i18n";
   version = "0.4.0.0";
   sha256 = "7e0df375883fb3428b0cd20aac1163ea38de80fd3499ec3007979b36fe2f93fa";
-  revision = "3";
-  editedCabalFile = "0c63zpgfjiqini4lqaamwvyk90p5mapasb1aabcj7l8glids2djn";
+  revision = "4";
+  editedCabalFile = "1id3zbrvclg0zhblfrcqv32zczq3vg5bwxfacll3vh8minx1sjsb";
   libraryHaskellDepends = [
     base containers directory filepath mtl parsec text transformers
   ];
