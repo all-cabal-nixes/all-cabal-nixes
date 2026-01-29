@@ -14,6 +14,8 @@ mkDerivation {
   pname = "cryptol";
   version = "3.5.0";
   sha256 = "7341c026ef83b18d2c784cfedb37003f74d1560605cd9c3107b5b6fc31fb2f84";
+  revision = "1";
+  editedCabalFile = "169lminzlpq2m0mkr76ljf8gjlix1rjf6q7jivria6a44629v1qy";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
