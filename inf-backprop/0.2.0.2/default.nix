@@ -9,6 +9,8 @@ mkDerivation {
   pname = "inf-backprop";
   version = "0.2.0.2";
   sha256 = "cc71526e7b15cf918b9fc04e1446c1e623993016aeeeae957174b44724c95a5b";
+  revision = "1";
+  editedCabalFile = "0b85vsjhkjyjfn7ja68vdl0q9jb10mq1cnv06agkpvm4bmrbrl4q";
   libraryHaskellDepends = [
     base combinatorial comonad composition data-fix deepseq extra
     finite-typelits fixed-vector ghc-prim hashable
