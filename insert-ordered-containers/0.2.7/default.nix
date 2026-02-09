@@ -7,6 +7,8 @@ mkDerivation {
   pname = "insert-ordered-containers";
   version = "0.2.7";
   sha256 = "77edbb1b76e6598aeb05f0711942976432b52178cbfd2a62f4a87f3baf623617";
+  revision = "1";
+  editedCabalFile = "10f32dvybzasf9lr887bccjxaypnvqwb9k1fdjvig5abdqcvvs29";
   libraryHaskellDepends = [
     aeson base deepseq hashable indexed-traversable lens optics-core
     optics-extra semigroupoids text transformers unordered-containers

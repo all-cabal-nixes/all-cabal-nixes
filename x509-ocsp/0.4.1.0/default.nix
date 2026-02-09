@@ -6,6 +6,8 @@ mkDerivation {
   pname = "x509-ocsp";
   version = "0.4.1.0";
   sha256 = "4c0ae8eacb1503fa609f86eb8cbd4d5302f8eb89e984e7eeacceaac45e7c0ffb";
+  revision = "2";
+  editedCabalFile = "16cf25p890qrpgpnnll222iywv9wv1mf389v5x4dw7qzz41n3cy3";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base bytestring cryptohash-sha1 crypton-asn1-encoding
