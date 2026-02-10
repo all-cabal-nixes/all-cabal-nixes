@@ -6,6 +6,8 @@ mkDerivation {
   pname = "scrappy-template";
   version = "0.1.0.0";
   sha256 = "dc09059f1accab5bddff3ba607f792fb0c851c03041d3f225f5d1a15de9e8cde";
+  revision = "1";
+  editedCabalFile = "1gv9i9n4f6asv5hn1qwrzhmbjhbdy6anbyijl1cn4v0pqi7jc0hd";
   libraryHaskellDepends = [
     aeson base bytestring containers lens modern-uri network-uri parsec
     parser-combinators scrappy-core text transformers

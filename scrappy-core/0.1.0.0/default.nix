@@ -6,8 +6,8 @@ mkDerivation {
   pname = "scrappy-core";
   version = "0.1.0.0";
   sha256 = "88d4e405f76cebaef6e19712105a0f9c0bb35d89c1af005cf0565bcc31e0b63d";
-  revision = "1";
-  editedCabalFile = "1djvpg2rl6z2ccbzccbsnxch4na8rhiqbi5glqkqxlydjh29m5fv";
+  revision = "3";
+  editedCabalFile = "0z73983b2d9nh4bzpgs2k7xii8y3np14aprvjjms6n5r0bxv1nam";
   libraryHaskellDepends = [
     aeson base bytestring containers directory filepath lens modern-uri
     network-uri parsec parser-combinators text transformers

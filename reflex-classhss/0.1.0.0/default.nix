@@ -5,6 +5,8 @@ mkDerivation {
   pname = "reflex-classhss";
   version = "0.1.0.0";
   sha256 = "237301dc26e8088edb7b58d2c61d0835bca4063d90758a84cfb8bf2cdfabb673";
+  revision = "1";
+  editedCabalFile = "0y6ima3jars538xmyhnpsafja960f2q6gcnilfrn2qw8nvx8w8m8";
   libraryHaskellDepends = [
     base ClasshSS containers data-default lens reflex-dom-core
     template-haskell text

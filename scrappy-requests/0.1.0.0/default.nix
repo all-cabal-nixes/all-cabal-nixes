@@ -7,6 +7,8 @@ mkDerivation {
   pname = "scrappy-requests";
   version = "0.1.0.0";
   sha256 = "b419e1285fd90fadf018ced65c235080708d4fe504b910f60c1ac2a445930b66";
+  revision = "1";
+  editedCabalFile = "0xmwhqi68gddlvh9gj2gbqr7967av6mzkmycwgj3y138icsvv6wx";
   libraryHaskellDepends = [
     aeson base bytestring containers directory exceptions http-client
     http-client-tls http-types lens modern-uri mtl network-uri parsec

@@ -5,6 +5,8 @@ mkDerivation {
   pname = "ClasshSS";
   version = "0.2.0.0";
   sha256 = "8b8697acc144aaf98e808d517c1a298562f355ed4761ee3a9958aaf28d685cec";
+  revision = "2";
+  editedCabalFile = "0ajjcv29yglk4c28g0daz31ir9gmmbj1d0s4l9cbqx5y3win3w50";
   libraryHaskellDepends = [
     base data-default lens template-haskell text
   ];
