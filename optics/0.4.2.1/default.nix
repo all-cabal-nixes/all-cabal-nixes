@@ -8,8 +8,8 @@ mkDerivation {
   pname = "optics";
   version = "0.4.2.1";
   sha256 = "e653d86aba75454fac21ab2f4220e895ad7f6e06889bc08d3f6522de4f7c5f6b";
-  revision = "1";
-  editedCabalFile = "1qq3a7laqhs2xc3jpvh2vys620vvl24l6pskm6pc754553xhzzcz";
+  revision = "3";
+  editedCabalFile = "0a7di79v746gf9l5nkm6i1aamjb4z7bqcjr2xikf8ylsq3yz0454";
   libraryHaskellDepends = [
     array base containers mtl optics-core optics-extra optics-th
     transformers

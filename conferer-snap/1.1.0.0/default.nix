@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "conferer-snap";
-  version = "1.0.0.0";
-  sha256 = "19a546f55c9e98e9cfad27c2cdee986fddff78507f9a665985653859d639ff95";
-  revision = "5";
-  editedCabalFile = "13jwklpdxdc50kcqkkggvzp28y44d0c847rrh48wg0wza5cabc82";
+  version = "1.1.0.0";
+  sha256 = "e495eeec35f762bbc4c2d60337704e9538914f99d02b3929ebb7cf01f562aa98";
   libraryHaskellDepends = [
     base conferer snap-core snap-server text
   ];

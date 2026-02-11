@@ -6,8 +6,8 @@ mkDerivation {
   pname = "optics-extra";
   version = "0.4.2.1";
   sha256 = "7e23a7a325e3448354614d3d958279c9ac2fdd0831ceee2808830e7a962fca41";
-  revision = "4";
-  editedCabalFile = "0ravf8rwqdaqkbpc8vh566snh52mmpxwqxvp8bzk85a4cyi509sd";
+  revision = "5";
+  editedCabalFile = "1jnszx2lspvwr121mdxka4kjxh99q03hzf2cvfzw19qpvrgj2g68";
   libraryHaskellDepends = [
     array base bytestring containers hashable indexed-profunctors
     indexed-traversable-instances mtl optics-core text transformers
