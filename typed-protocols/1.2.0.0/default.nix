@@ -6,6 +6,8 @@ mkDerivation {
   pname = "typed-protocols";
   version = "1.2.0.0";
   sha256 = "e1693c315f606d266ec42129550e3d1899696cf60117d89802976f34490dbceb";
+  revision = "2";
+  editedCabalFile = "1hacq8s04g3jmm7q31008ab0xlf560byji66030xgplzcd34dc4g";
   libraryHaskellDepends = [
     base bytestring contra-tracer deepseq io-classes network QuickCheck
     serialise singletons

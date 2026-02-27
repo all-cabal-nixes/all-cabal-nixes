@@ -6,6 +6,8 @@ mkDerivation {
   pname = "utc";
   version = "0.2.0.1";
   sha256 = "b0ecedcb32c552a4a5bcbc0d634b6b2dd1cc40a269edc4790d7082bda56cde6e";
+  revision = "1";
+  editedCabalFile = "0qsz2b3ksqx2083yzaav8kds9pl9fmwlqp4j7yf3apr7vpg1gmm3";
   libraryHaskellDepends = [
     attoparsec base bytestring clock exceptions text
   ];

@@ -5,6 +5,8 @@ mkDerivation {
   pname = "timestamp";
   version = "0.1";
   sha256 = "95c258dfd689efe6338947e8d99f525b08517cad73f41ccda672cc3b61f834a5";
+  revision = "1";
+  editedCabalFile = "1pjrglnnjwncknr7zyys99qv7w4gjdd3z7n11qi0pdpf974fgbga";
   libraryHaskellDepends = [
     base cereal generic-random hashable QuickCheck time
   ];

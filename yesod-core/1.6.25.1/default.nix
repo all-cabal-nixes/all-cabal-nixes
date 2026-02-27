@@ -12,8 +12,8 @@ mkDerivation {
   pname = "yesod-core";
   version = "1.6.25.1";
   sha256 = "ac3151a7410ca5ee81fcfd46a79de786680295a428f1ab682610b84030770c45";
-  revision = "1";
-  editedCabalFile = "1k5xwklxxx3l4lc0ddfq6q8805wx86dfhf571vn4r5na3awcx4d4";
+  revision = "2";
+  editedCabalFile = "0x7yx621wlzbcrkphq9zlw4h8mcjvnvcvdbm7ywj7vd44j0x038d";
   libraryHaskellDepends = [
     aeson attoparsec-aeson auto-update base blaze-html blaze-markup
     bytestring case-insensitive cereal clientsession conduit

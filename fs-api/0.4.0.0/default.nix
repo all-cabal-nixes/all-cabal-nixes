@@ -6,6 +6,8 @@ mkDerivation {
   pname = "fs-api";
   version = "0.4.0.0";
   sha256 = "b5018aaf7c037cbcfedc425f97f2c9e7baf71dbf8f0d7d8b77a252f718e989ab";
+  revision = "1";
+  editedCabalFile = "1k4s6y38q6in1sc5yddwm94shprpybihvibv0pm0rvdddnjwx735";
   libraryHaskellDepends = [
     base bytestring containers deepseq digest directory filepath
     io-classes primitive safe-wild-cards text unix unix-bytestring

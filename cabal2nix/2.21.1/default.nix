@@ -9,6 +9,8 @@ mkDerivation {
   pname = "cabal2nix";
   version = "2.21.1";
   sha256 = "da3d4454d58421f1e7973c536967c19f45ce655b1d04d782480943c34bb413b4";
+  revision = "1";
+  editedCabalFile = "00wwz0b2960y36y5g4p1ys8c8xxac1zha042wlf74siwhn8893py";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

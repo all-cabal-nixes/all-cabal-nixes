@@ -7,8 +7,8 @@ mkDerivation {
   pname = "io-sim";
   version = "1.8.0.1";
   sha256 = "b6c0d5f2f5803b63ee945837e06c576ad09db732e950aacdd91c5843689060f7";
-  revision = "1";
-  editedCabalFile = "0nklr4xvw6c7rqhdcr0ylkalqpvqahngkbp96kghfxyyr5f5rvp6";
+  revision = "2";
+  editedCabalFile = "07imaicc7nhhxm7pj2c064i3ssj9rcmv4ij0mwcgyxl5c34klf83";
   libraryHaskellDepends = [
     base containers deepseq exceptions hashable io-classes nothunks
     parallel primitive psqueues QuickCheck quiet time
