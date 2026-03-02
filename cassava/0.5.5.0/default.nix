@@ -8,6 +8,8 @@ mkDerivation {
   pname = "cassava";
   version = "0.5.5.0";
   sha256 = "772655a43605854320baee2befbc4fe1cf4635650bfcb55d5d15a037123d8ce5";
+  revision = "1";
+  editedCabalFile = "12d4zbpm1xm2zs3mshwas295n1ab970354x89ciy8smddjn8i5sm";
   configureFlags = [ "-f-bytestring--lt-0_10_4" ];
   libraryHaskellDepends = [
     array attoparsec base bytestring containers deepseq hashable Only

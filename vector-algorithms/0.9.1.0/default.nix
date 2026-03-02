@@ -5,6 +5,8 @@ mkDerivation {
   pname = "vector-algorithms";
   version = "0.9.1.0";
   sha256 = "d2b674676802670d8a682b357da6b6b5741b4a33b191f0ffe5f2b2bc40558eb2";
+  revision = "1";
+  editedCabalFile = "0bakvl54qag5m13ilrqxcv3wdrnb57c76vjmlh3a5v1sk3zgxv5k";
   libraryHaskellDepends = [
     base bitvec bytestring primitive vector
   ];
