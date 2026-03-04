@@ -6,6 +6,8 @@ mkDerivation {
   pname = "resource-registry";
   version = "0.2.0.0";
   sha256 = "2d54381cec1c6c362ae073a1e19280be32b1aa50db540bf7c1a5bcd97cda7baa";
+  revision = "1";
+  editedCabalFile = "075wvcr7h9fhyxjmgnkpr8l7akk8dw3v5xhd0i6m4w14qmy2na76";
   libraryHaskellDepends = [
     base bimap containers io-classes mtl nothunks
   ];
