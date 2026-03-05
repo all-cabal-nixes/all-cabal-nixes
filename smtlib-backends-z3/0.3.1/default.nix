@@ -5,8 +5,8 @@ mkDerivation {
   pname = "smtlib-backends-z3";
   version = "0.3.1";
   sha256 = "beb57f0e9aa1f30a80e883f0b30efab7da9b22b8cbbc8314410c2f86a1a3f2d5";
-  revision = "3";
-  editedCabalFile = "1h31rj7r524wpd4wljgbyjrkk3fpi1l73n6dxbnf0psh3k8hak10";
+  revision = "4";
+  editedCabalFile = "1j41d4hrxlxhadl1z74r6a4ifvcsm174wkmz2b50ivxsgikxcvbd";
   libraryHaskellDepends = [ base bytestring smtlib-backends ];
   librarySystemDepends = [ gomp z3 ];
   testHaskellDepends = [
