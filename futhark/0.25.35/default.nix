@@ -16,6 +16,8 @@ mkDerivation {
   pname = "futhark";
   version = "0.25.35";
   sha256 = "ba801cbccf1e5a4cb92a52af7f20fbed2a650cfc434495a0366e10609989bdda";
+  revision = "1";
+  editedCabalFile = "1g9bbk94dx8n0k70yrpxd54bxf19m0ycjpx6x9g7g49bmlj40gd2";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
