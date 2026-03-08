@@ -7,6 +7,8 @@ mkDerivation {
   pname = "crypton-x509-validation";
   version = "1.6.12";
   sha256 = "0e60b7e237a4fd5e7e6e7200018c7947314292ef63751cbb51877836ebe650f6";
+  revision = "1";
+  editedCabalFile = "155b2sbz5cjmglikxqcdgak0f2b07mg3hkbknqcv2c4c9a21pzqb";
   libraryHaskellDepends = [
     asn1-encoding asn1-types base bytestring containers crypton
     crypton-x509 crypton-x509-store data-default-class hourglass memory

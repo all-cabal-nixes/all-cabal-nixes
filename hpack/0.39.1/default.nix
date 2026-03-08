@@ -9,6 +9,8 @@ mkDerivation {
   pname = "hpack";
   version = "0.39.1";
   sha256 = "99c2d4b30312e37eff87a9faf311f38bfa06af96d8301d9595cd908338232baf";
+  revision = "1";
+  editedCabalFile = "1z7qrcfimfjannf1s89p8ff4ri34b2ycmrd63cvqla2x3rbbq2q2";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

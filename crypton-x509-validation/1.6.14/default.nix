@@ -7,6 +7,8 @@ mkDerivation {
   pname = "crypton-x509-validation";
   version = "1.6.14";
   sha256 = "ed0e394127db59d66a0a8e4bde28fa0b8cc67cc9a810793b54a58e96df4c601d";
+  revision = "1";
+  editedCabalFile = "0dvb732qpfn1bkpv6qmv7jj5k4v09wi9zfndxbzid8dsqqz39b63";
   libraryHaskellDepends = [
     asn1-encoding asn1-types base bytestring containers crypton
     crypton-x509 crypton-x509-store data-default hourglass iproute

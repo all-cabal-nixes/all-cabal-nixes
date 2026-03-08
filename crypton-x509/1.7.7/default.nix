@@ -6,6 +6,8 @@ mkDerivation {
   pname = "crypton-x509";
   version = "1.7.7";
   sha256 = "efece48c8c4adfee209979c2967037d90e6ba1b7b4e7bb1081d1d4cd93daf382";
+  revision = "1";
+  editedCabalFile = "08ipy4qfz8w9kb7n3aig4psfjfaxl4brnkncbz34cbfmvsijgql9";
   libraryHaskellDepends = [
     asn1-encoding asn1-parse asn1-types base bytestring containers
     crypton hourglass memory pem transformers

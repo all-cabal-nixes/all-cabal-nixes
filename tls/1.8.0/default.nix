@@ -8,6 +8,8 @@ mkDerivation {
   pname = "tls";
   version = "1.8.0";
   sha256 = "4a8486df3f1bd865753e7ac5f89bb252401fb91c8350226285e1075a78919808";
+  revision = "1";
+  editedCabalFile = "1i7cr6c43ij4k16255l4n3ny2i6yr99hm2qwqnhmwxnbklydh0nz";
   libraryHaskellDepends = [
     asn1-encoding asn1-types async base bytestring cereal crypton
     crypton-x509 crypton-x509-store crypton-x509-validation

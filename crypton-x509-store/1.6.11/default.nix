@@ -6,6 +6,8 @@ mkDerivation {
   pname = "crypton-x509-store";
   version = "1.6.11";
   sha256 = "03a991cc1241873435761b379eed94a4e899e0c4804df1719ea5b281903b781f";
+  revision = "1";
+  editedCabalFile = "02cjsx9pijk2wlhk2i977dr1ak647yywl71fcw1b6j54k1swafm6";
   libraryHaskellDepends = [
     asn1-encoding asn1-types base bytestring containers crypton
     crypton-x509 directory filepath mtl pem

@@ -8,8 +8,8 @@ mkDerivation {
   pname = "network-transport-quic";
   version = "0.1.0";
   sha256 = "8abd2574ec7ac94ad213fad640e39bc93924331b3e520857950aa759679e5876";
-  revision = "1";
-  editedCabalFile = "08mhz18j0fzw084d3y808fxks7zd7n54bgp11ygn13pi5nklmixr";
+  revision = "2";
+  editedCabalFile = "05a3k2ma18lyqw1kb4iqkmd8516yc9z5j96wyif8zg60qdivx6z5";
   libraryHaskellDepends = [
     async base binary bytestring containers microlens-platform network
     network-transport quic stm tls tls-session-manager
