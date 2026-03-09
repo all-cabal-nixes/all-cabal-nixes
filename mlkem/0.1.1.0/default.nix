@@ -6,6 +6,8 @@ mkDerivation {
   pname = "mlkem";
   version = "0.1.1.0";
   sha256 = "34dbf3b5e5d98cdc9cd63aeebabd41299e8f11381f9930223be9e0a83d6ee7d0";
+  revision = "1";
+  editedCabalFile = "18nzz4gg1cb2275k3qqfi3y9d05kfm9fqh4z4aarliv6hbs0nvvd";
   libraryHaskellDepends = [
     base basement cryptonite deepseq memory
   ];

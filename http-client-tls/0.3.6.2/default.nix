@@ -7,6 +7,8 @@ mkDerivation {
   pname = "http-client-tls";
   version = "0.3.6.2";
   sha256 = "28438ebeee2b97b2354c9cf6d3cb1fb73ac7ebc6cb1f4d54aedf10980394aba6";
+  revision = "1";
+  editedCabalFile = "0g89fma4ks04krvcryh6hxrfjr7zcb7kff07w9lwcl9m8g5c1vd5";
   libraryHaskellDepends = [
     base bytestring case-insensitive containers crypton
     crypton-connection data-default-class exceptions http-client
