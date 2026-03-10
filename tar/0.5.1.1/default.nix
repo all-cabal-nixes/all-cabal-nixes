@@ -6,8 +6,8 @@ mkDerivation {
   pname = "tar";
   version = "0.5.1.1";
   sha256 = "b384449f62b2b0aa3e6d2cb1004b8060b01f21ec93e7b63e7af6d8fad8a9f1de";
-  revision = "10";
-  editedCabalFile = "1qfnvdy71kfm0l7dslv44p1glqylxxh9f6fbn41z5ai7yczdvxda";
+  revision = "11";
+  editedCabalFile = "1lbi2dziglin1syh3l0752pbjs8g90vmc7qq7j8p8783q9r0b4gy";
   libraryHaskellDepends = [
     array base bytestring containers deepseq directory filepath time
   ];
