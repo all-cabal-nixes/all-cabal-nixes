@@ -12,8 +12,8 @@ mkDerivation {
   pname = "hakyll";
   version = "4.16.7.1";
   sha256 = "fe02ab0daee0bc0cde21b1f15990408ebc2adbf1e6018071d5cf0e6abc2a8fa3";
-  revision = "2";
-  editedCabalFile = "0np2dbk623dk6a2ws0va4asdzf0ads4hkqrcsjdp3840wzlchppb";
+  revision = "3";
+  editedCabalFile = "185panz8k3wqiy1hpzaa9p38v1n7vwcj2r6ij2pwqs7qrrwqr6dw";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
