@@ -10,6 +10,8 @@ mkDerivation {
   pname = "http-conduit";
   version = "2.3.9.1";
   sha256 = "13046d15ecd2332a5b80c8a34a6a1b6b8eecefce9d5c57e3413312b8c11641af";
+  revision = "1";
+  editedCabalFile = "0sfw10xzgds4l62mx8akn873zkgpj0byqywiysjl68qplcnillkc";
   libraryHaskellDepends = [
     aeson attoparsec attoparsec-aeson base bytestring conduit
     conduit-extra http-client http-client-tls http-types mtl resourcet
