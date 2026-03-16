@@ -8,6 +8,8 @@ mkDerivation {
   pname = "sigmacord";
   version = "1.0.0";
   sha256 = "9025ba51805cc29f0e4461673fd0eaca74f53ff5f4312647b723757d5619db78";
+  revision = "2";
+  editedCabalFile = "0sy4sgrf6435fkffjf4012n8kfsp4jas136c1k690s0qw0bqq163";
   libraryHaskellDepends = [
     aeson async base base64-bytestring bytestring containers
     data-default emoji http-api-data http-client iso8601-time
