@@ -10,8 +10,8 @@ mkDerivation {
   pname = "req";
   version = "3.13.4";
   sha256 = "f37fc48d15fb63a6edc546403eaa261310258d72737b42c02ea39d95049d0069";
-  revision = "7";
-  editedCabalFile = "0m0ba98f0fykda9258m8xr2g7gx9l251gj3csipyrk52m1kb53lx";
+  revision = "8";
+  editedCabalFile = "0jb09p3kxvnkpn9s3am2kwaz4z4hx461ixlp79fkhcpfzakziis0";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     aeson authenticate-oauth base blaze-builder bytestring
