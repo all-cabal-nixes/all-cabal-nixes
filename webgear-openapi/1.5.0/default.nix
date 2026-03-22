@@ -6,6 +6,8 @@ mkDerivation {
   pname = "webgear-openapi";
   version = "1.5.0";
   sha256 = "26ca9d7cfe0fe1e97c3f91b44235dffcabd2ae5c9f8caae06148edb05683bc2a";
+  revision = "1";
+  editedCabalFile = "1zgpwzqgxj690qgyasxybzl5s7hy4zs2ihnsq9xmh6ylp0h95cf3";
   libraryHaskellDepends = [
     arrows base http-media http-types insert-ordered-containers lens
     mtl openapi3 text webgear-core

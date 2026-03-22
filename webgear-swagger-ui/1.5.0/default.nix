@@ -5,6 +5,8 @@ mkDerivation {
   pname = "webgear-swagger-ui";
   version = "1.5.0";
   sha256 = "b1ff34ea5175ba58c7e12682e601520bd90bbea7ee19be660e312da311cd8a0a";
+  revision = "1";
+  editedCabalFile = "1b6rarcx1my050nr51p73wak9d4jqkyjv46apnidzl58czj602bc";
   libraryHaskellDepends = [
     base bytestring file-embed http-types text wai-app-static
     webgear-core

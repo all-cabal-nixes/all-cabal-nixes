@@ -5,6 +5,8 @@ mkDerivation {
   pname = "webgear-swagger";
   version = "1.5.0";
   sha256 = "eef2bc84d808bd8230bc02ce979eb7c6f53e40e48e17a10c15403aec0d28ed6d";
+  revision = "1";
+  editedCabalFile = "1lb6q57drmixijnkq4hzn27y4xshn5ls8i06cqs2qhkkj7gcjsf3";
   libraryHaskellDepends = [
     arrows base http-types insert-ordered-containers lens mtl swagger2
     text webgear-core

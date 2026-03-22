@@ -6,6 +6,8 @@ mkDerivation {
   pname = "Cabal-syntax";
   version = "3.16.0.0";
   sha256 = "f45bd417052f4638787871957380365aab5cabfc7b110ec52df4e445c656809f";
+  revision = "1";
+  editedCabalFile = "0blwhl445nx8c7z7m8jxskywiw1vwfgmgjgxy7bgf95zrrndgcwv";
   libraryHaskellDepends = [
     array base binary bytestring containers deepseq directory filepath
     mtl parsec pretty text time transformers
