@@ -8,8 +8,8 @@ mkDerivation {
   pname = "hledger-iadd";
   version = "1.3.22";
   sha256 = "9bf249c381428f6851b1656275c29b9fd02e41c4e42d642a7af356889f3cfb1c";
-  revision = "2";
-  editedCabalFile = "0jnczff457f3n4sgz16iiyfsdhr2dhxdvxpb3dls24n7452vf2mw";
+  revision = "3";
+  editedCabalFile = "12naq27zzkjzal2xpn6xkgc4xaymxmzbhgc84cw5xv5ka91n15j3";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
