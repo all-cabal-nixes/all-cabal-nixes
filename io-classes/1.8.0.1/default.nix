@@ -6,8 +6,8 @@ mkDerivation {
   pname = "io-classes";
   version = "1.8.0.1";
   sha256 = "b12df6bc63238a83fc1e3250475bb89affa6ca640332f10a77280a7a39d07047";
-  revision = "1";
-  editedCabalFile = "1z2zsnmvxkbn5y34c2saih6n51rhm40dw01k0dhx3jb2sphhs6mh";
+  revision = "2";
+  editedCabalFile = "1dr505iid77fgx0fihc1kgvn0vmsax3400k9c9ia828ayxkzrhrv";
   libraryHaskellDepends = [
     array async base bytestring deepseq ghc-internal nothunks primitive
     QuickCheck stm time

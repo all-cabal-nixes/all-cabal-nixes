@@ -6,6 +6,8 @@ mkDerivation {
   pname = "nothunks";
   version = "0.2.1.1";
   sha256 = "cca7983daf5dea23fdf413c207c43b8e08e8b6cf067b386a94ee6561f8511cda";
+  revision = "2";
+  editedCabalFile = "1w3q2npqcjn9f6w81bp98s3hwgx66yqp8zkjw4w333jvj6gyw05b";
   libraryHaskellDepends = [
     base bytestring containers ghc-heap stm text time vector
     wherefrom-compat

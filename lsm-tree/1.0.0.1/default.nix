@@ -15,6 +15,8 @@ mkDerivation {
   pname = "lsm-tree";
   version = "1.0.0.1";
   sha256 = "707f2a7e0e61bffbe375e9e413e2c9f7890c7ceea915ce4fdc9afa14093ffcac";
+  revision = "1";
+  editedCabalFile = "0afrhwz2x7046554cdi4bkw747057pv06hdyz4vsnqwr369a0fnh";
   libraryHaskellDepends = [
     base binary bitvec blockio bloomfilter-blocked bytestring cborg
     containers contra-tracer crc32c data-elevator deepseq filepath
