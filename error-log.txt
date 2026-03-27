@@ -6,16 +6,16 @@ failed when running cabal2nix on ../all-cabal-hashes/shibuya-core/0.1.0.0/shibuy
 $ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal
 error: failed to open archive: Unrecognized archive format
 $ nix-prefetch-url ../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal
-warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 331 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 500 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 1116 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 2446 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 259 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 620 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 1074 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 2152 ms
 error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6)
 $ nix-prefetch-url --unpack ../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal
-warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 305 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 515 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 1280 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 2301 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 279 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 584 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 1346 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6); retrying in 2294 ms
 error: unable to download '../all-cabal-hashes/shibuya-core/0.1.0.0/shibuya-core.cabal': Couldn't resolve host name (6)
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
@@ -34,16 +34,16 @@ failed when running cabal2nix on ../all-cabal-hashes/shibuya-metrics/0.1.0.0/shi
 $ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal
 error: failed to open archive: Unrecognized archive format
 $ nix-prefetch-url ../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal
-warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 279 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 653 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 1057 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 2809 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 259 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 705 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 1265 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 2385 ms
 error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6)
 $ nix-prefetch-url --unpack ../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal
-warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 342 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 674 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 1296 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 2520 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 321 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 613 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 1364 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6); retrying in 2270 ms
 error: unable to download '../all-cabal-hashes/shibuya-metrics/0.1.0.0/shibuya-metrics.cabal': Couldn't resolve host name (6)
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
@@ -62,16 +62,16 @@ failed when running cabal2nix on ../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.
 $ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal
 error: failed to open archive: Unrecognized archive format
 $ nix-prefetch-url ../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal
-warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 302 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 610 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 1000 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 2260 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 286 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 682 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 1273 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 2022 ms
 error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6)
 $ nix-prefetch-url --unpack ../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal
-warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 261 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 592 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 1055 ms
-warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 2619 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 264 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 683 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 1187 ms
+warning: error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6); retrying in 2127 ms
 error: unable to download '../all-cabal-hashes/shibuya-pgmq-adapter/0.1.0.0/shibuya-pgmq-adapter.cabal': Couldn't resolve host name (6)
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
@@ -90,16 +90,16 @@ failed when running cabal2nix on ../all-cabal-hashes/type-fold/0.1.0.0/type-fold
 $ nix-prefetch-url --unpack file:///home/runner/work/all-cabal-nixes/all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal
 error: failed to open archive: Unrecognized archive format
 $ nix-prefetch-url ../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal
-warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 286 ms
-warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 585 ms
-warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 1085 ms
-warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 2215 ms
+warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 336 ms
+warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 633 ms
+warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 1207 ms
+warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 2518 ms
 error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6)
 $ nix-prefetch-url --unpack ../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal
-warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 268 ms
-warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 688 ms
-warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 1126 ms
-warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 2298 ms
+warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 259 ms
+warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 579 ms
+warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 1179 ms
+warning: error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6); retrying in 2087 ms
 error: unable to download '../all-cabal-hashes/type-fold/0.1.0.0/type-fold.cabal': Couldn't resolve host name (6)
 ** need a revision for VCS when the hash is given. skipping.
 ** need a revision for VCS when the hash is given. skipping.
