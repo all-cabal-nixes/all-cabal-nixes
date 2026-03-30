@@ -6,6 +6,8 @@ mkDerivation {
   pname = "proto-lens-protobuf-types";
   version = "0.7.2.2";
   sha256 = "646a3eb722e03e485980161b85433cf4c4d5e0fee5bbf01dcd7e69a6376f11cc";
+  revision = "1";
+  editedCabalFile = "1hbylr6fxbds3mnsn6984bzwrkf3306bz0ps0yp7khi6r42mflp1";
   setupHaskellDepends = [ base Cabal proto-lens-setup ];
   libraryHaskellDepends = [
     base lens-family proto-lens proto-lens-runtime text

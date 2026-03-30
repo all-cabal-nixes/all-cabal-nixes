@@ -7,6 +7,8 @@ mkDerivation {
   pname = "prometheus-client";
   version = "1.1.0";
   sha256 = "7da537f479f4982b89ed7e898df6ce73f7351f621add6960adb36905c8d72cb9";
+  revision = "1";
+  editedCabalFile = "1ywam88jdc35mqhrj2q1mk5xgy0a15yh9hgilhvb7mhdzjwvr538";
   libraryHaskellDepends = [
     atomic-primops base bytestring clock containers data-sketches
     deepseq exceptions mtl primitive stm text transformers

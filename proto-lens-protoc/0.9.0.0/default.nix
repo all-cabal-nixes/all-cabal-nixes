@@ -6,6 +6,8 @@ mkDerivation {
   pname = "proto-lens-protoc";
   version = "0.9.0.0";
   sha256 = "ace68b9b546cfb32b7b68a5e7731634093aaa8e2fe15053515cfa76fffe4ec1c";
+  revision = "1";
+  editedCabalFile = "18n9zbxj01dqm2jsxw4apxngmd20wqbg83hakzbaaa0f1d43i8fv";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base filepath ];

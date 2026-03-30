@@ -7,8 +7,8 @@ mkDerivation {
   pname = "tz";
   version = "0.1.3.6";
   sha256 = "8d55e1950d6a32749d329831b1421765c7df94198c26b7821cd24453cc7416ef";
-  revision = "9";
-  editedCabalFile = "0a2i820w6zpf0vi4ammi4jsq80h072abd5czsxjmisjkwz2rrajp";
+  revision = "10";
+  editedCabalFile = "113bkiafhsadq056yzj96xfp3x6zjk1r5p0v7jl3ck56q259nzw3";
   libraryHaskellDepends = [
     base binary bytestring containers data-default deepseq
     template-haskell time tzdata vector

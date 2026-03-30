@@ -5,6 +5,8 @@ mkDerivation {
   pname = "tzdata";
   version = "0.2.20250115.0";
   sha256 = "a3289c96d557a119b1fc2b175399a69ddb5313d6be3249311573d76773b23ac1";
+  revision = "1";
+  editedCabalFile = "1dwdvsn34sf9y66ply1vh6cs1j9mz4q60nmwiq66nhmlixk9rnjx";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base bytestring containers deepseq vector

@@ -9,6 +9,8 @@ mkDerivation {
   pname = "hedgehog-extras";
   version = "0.10.1.0";
   sha256 = "df9f55c9342bd28fd7f83dcfe890d50e9895ade41efa675156bc2012820ea512";
+  revision = "1";
+  editedCabalFile = "0rz162nj37v6472favc9rimczg3s6f54arwgjcxflz4qdna8d67p";
   libraryHaskellDepends = [
     aeson aeson-pretty async base bytestring containers deepseq Diff
     directory exceptions filepath hedgehog http-conduit lifted-async

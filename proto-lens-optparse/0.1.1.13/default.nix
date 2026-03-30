@@ -4,6 +4,8 @@ mkDerivation {
   pname = "proto-lens-optparse";
   version = "0.1.1.13";
   sha256 = "b1a6465e1ed315e164f489a183504af4ed2a3621ff0ddd351c863dd43ea83ded";
+  revision = "1";
+  editedCabalFile = "0ykpfvyprm91pram9k52wwb158h0p7fk1ra78rsyjjrvq74zaijp";
   libraryHaskellDepends = [
     base optparse-applicative proto-lens text
   ];

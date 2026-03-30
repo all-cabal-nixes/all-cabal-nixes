@@ -7,6 +7,8 @@ mkDerivation {
   pname = "proto-lens";
   version = "0.7.1.6";
   sha256 = "bd1daee1e6e3981e9bc6de63260c6a20cb22cf22e893f58a2cd803693dce5c8e";
+  revision = "1";
+  editedCabalFile = "1rcrlmh2svn6fg5x0jcn51nd732ihs14fj3q880ip9scl7yiwks0";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base bytestring containers deepseq ghc-prim lens-family parsec
