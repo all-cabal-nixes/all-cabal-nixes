@@ -1,19 +1,17 @@
 { mkDerivation, base, bytestring, conduit, conduit-combinators
-, conduit-extra, crypton, exceptions, lib, memory, resourcet, tasty
+, conduit-extra, crypton, exceptions, lib, ram, resourcet, tasty
 , tasty-hunit, tasty-quickcheck, transformers
 }:
 mkDerivation {
   pname = "crypton-conduit";
-  version = "0.2.3";
-  sha256 = "9e5e45f9b5115ef9a55f292e28d9d7910bd8e4c8f7f92ae3b434ec76d5ff71ce";
-  revision = "1";
-  editedCabalFile = "0czvkgb8lr7w23fyz1skajz7dcwh0xylnw4cvgs4ixpz96f109y8";
+  version = "0.3.0";
+  sha256 = "d8e233efc4f2a96574e0275cf0f4190e7b8a6fac7e8cd0ce85b324af9504273e";
   libraryHaskellDepends = [
-    base bytestring conduit conduit-extra crypton exceptions memory
+    base bytestring conduit conduit-extra crypton exceptions ram
     resourcet transformers
   ];
   testHaskellDepends = [
-    base bytestring conduit conduit-combinators crypton memory tasty
+    base bytestring conduit conduit-combinators crypton ram tasty
     tasty-hunit tasty-quickcheck
   ];
   homepage = "https://github.com/psibi/crypton-conduit";
