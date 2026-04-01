@@ -5,6 +5,8 @@ mkDerivation {
   pname = "tls-session-manager";
   version = "0.1.0";
   sha256 = "29a71456f8d33a1c2236b52dd8031f09d80912617cc5f0073d951c98136fbd1e";
+  revision = "1";
+  editedCabalFile = "1m2lv0fqznizwiv9kkrybvih9g1dfahbs8l9cvy5knhiv2jkdfnm";
   libraryHaskellDepends = [
     auto-update base bytestring clock crypto-token psqueues ram
     serialise tls

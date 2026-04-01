@@ -5,6 +5,8 @@ mkDerivation {
   pname = "timezone-olson";
   version = "0.2.1";
   sha256 = "ac551c2765dff82073958d19d4548b0c5ad88a83d2a5a7859c51a8af0741c581";
+  revision = "1";
+  editedCabalFile = "07xqp89p7w1a54irxnvmzfw9lcqvwiw60ypxkiwxvawfncvnadg0";
   libraryHaskellDepends = [
     base binary bytestring extensible-exceptions time timezone-series
   ];
