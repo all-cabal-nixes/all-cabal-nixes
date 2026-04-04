@@ -7,6 +7,8 @@ mkDerivation {
   pname = "http2-tls";
   version = "0.5.3";
   sha256 = "a890f29743b7c46aa94d2bafd3ff630e03fc6f94ab4bcb162671403334b590ab";
+  revision = "1";
+  editedCabalFile = "1iiisrk3sr97zzbzimfr4b3dcjmvpacfdj72y49hq4m47pc174hk";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

@@ -7,6 +7,8 @@ mkDerivation {
   pname = "crucible-syntax";
   version = "0.5.0.0";
   sha256 = "ab44a5ea23b6988b27c1417eab2cd184e3171ef77206619de681a16ada116021";
+  revision = "1";
+  editedCabalFile = "141mjylrq9j2k6qpaa01g4ngdidd57cmwy70d016d7wxckb3n3hs";
   libraryHaskellDepends = [
     base bv-sized containers crucible lens megaparsec mtl
     parameterized-utils prettyprinter text transformers vector what4

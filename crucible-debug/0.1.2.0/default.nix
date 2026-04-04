@@ -7,6 +7,8 @@ mkDerivation {
   pname = "crucible-debug";
   version = "0.1.2.0";
   sha256 = "6afd3e35b7c7cad2b3f832fc382602d57c98ab389fc91c2d5a1e468dc45c6b44";
+  revision = "1";
+  editedCabalFile = "17x1lwjfwh97lm9r9halx3jx447gvqjfynxfvv6ndy1brp0xq2px";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
