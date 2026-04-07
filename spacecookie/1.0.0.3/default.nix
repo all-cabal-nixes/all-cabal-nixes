@@ -8,6 +8,8 @@ mkDerivation {
   pname = "spacecookie";
   version = "1.0.0.3";
   sha256 = "a0471d772e7fc218df62121067eb1749f14d3c298113d0993c47cc26045effcf";
+  revision = "1";
+  editedCabalFile = "1krm92mx5dwcisfjqdyi93ffbdn7apr6gvd2mpczm2bw9gllyhc7";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
