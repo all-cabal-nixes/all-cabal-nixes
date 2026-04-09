@@ -6,8 +6,8 @@ mkDerivation {
   pname = "package-version";
   version = "0.1.0.0";
   sha256 = "04653aa44ccd212b524f27a14a17c65c14c8842360c90ebda51e102702e139e4";
-  revision = "8";
-  editedCabalFile = "1mh0sqr90n2ml1plxvvm99xark8fh48pbg720rd9cw9xn5ridrdl";
+  revision = "9";
+  editedCabalFile = "0ks2wp7h11zv7a3rslaqw0b9bmzfr84azlsg01ad7vsfyv5q3vdb";
   libraryHaskellDepends = [
     base deepseq prettyprinter safe-exceptions template-haskell text
   ];

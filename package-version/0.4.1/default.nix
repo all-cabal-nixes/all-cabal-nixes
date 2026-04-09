@@ -5,6 +5,8 @@ mkDerivation {
   pname = "package-version";
   version = "0.4.1";
   sha256 = "ac90380d53d41f36e6a1dbf88586290e7bc824b85a3a0d310bd75f30b930d984";
+  revision = "1";
+  editedCabalFile = "0y8zp2nxjsjq90q5b035g6r5k2p4gynh1wjgx7mz14kgh9qcfskm";
   libraryHaskellDepends = [
     base bytestring deepseq template-haskell text
   ];
