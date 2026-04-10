@@ -11,6 +11,8 @@ mkDerivation {
   pname = "ngx-export-tools-extra";
   version = "1.2.12";
   sha256 = "2e8848d1583e687d6f53fa5ce67bd2cf400a1292bdcfd318fdd73aeda9bfc95f";
+  revision = "1";
+  editedCabalFile = "0mai2bp4a9cpizwh19ipnjvm3pih7m45ml092z0344mmza810lwj";
   libraryHaskellDepends = [
     aeson array async base base64 binary bytestring case-insensitive
     containers ede enclosed-exceptions hashable http-client

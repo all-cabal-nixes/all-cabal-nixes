@@ -6,6 +6,8 @@ mkDerivation {
   pname = "gitrev-typed";
   version = "0.1";
   sha256 = "414ba2c15602c9ebcec64f65fd06e6f3ba03194f77b24f0ae25f1c035f1b619c";
+  revision = "1";
+  editedCabalFile = "1x6z2ij43kzr94fnxy5gjrs0nd4wdi9i54c41mq7yy1v9qyv6fib";
   libraryHaskellDepends = [
     base directory exceptions file-io filepath os-string process
     template-haskell text
