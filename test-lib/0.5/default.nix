@@ -5,6 +5,8 @@ mkDerivation {
   pname = "test-lib";
   version = "0.5";
   sha256 = "22dd623aaf5e2c5fae3c74968724f52fa786d15df1810002c592e682173688e1";
+  revision = "1";
+  editedCabalFile = "1jb3id1pah5zpxjhl7kwa21qv5j8y8lz6zsxcd896vxyqkwbmvhw";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
