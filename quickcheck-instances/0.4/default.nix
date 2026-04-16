@@ -8,6 +8,8 @@ mkDerivation {
   pname = "quickcheck-instances";
   version = "0.4";
   sha256 = "fb28fe2fce4e99c0a1d20ed15f6d6ecd56241c16e1a8e99ea166ea90e96727f3";
+  revision = "2";
+  editedCabalFile = "1a92kzr8i8gb9klvnzv5af5wvqbxcq76w36xz25d082arfl9dlks";
   libraryHaskellDepends = [
     array base bytestring case-insensitive data-fix hashable
     integer-logarithms old-time QuickCheck scientific splitmix strict

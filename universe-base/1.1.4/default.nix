@@ -5,8 +5,8 @@ mkDerivation {
   pname = "universe-base";
   version = "1.1.4";
   sha256 = "aee5589f372927dc3fa66e0cf4e284b89235c0aa3793ded744885ab717f41e98";
-  revision = "1";
-  editedCabalFile = "04kxm2s2gc6g4q4227avyibzx57v9wn9wwglhmwsqzjsv9f3l84a";
+  revision = "2";
+  editedCabalFile = "076r1kbvnw1jdg71gjq84i5bqk3a66fs9h78c00r6hbc59m6c9c9";
   libraryHaskellDepends = [ base containers tagged transformers ];
   testHaskellDepends = [ base containers QuickCheck ];
   homepage = "https://github.com/dmwit/universe";
