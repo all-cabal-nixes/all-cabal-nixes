@@ -6,6 +6,8 @@ mkDerivation {
   pname = "warp-tls";
   version = "3.4.6";
   sha256 = "480e80e3dd5cced00491ab0dfb18ef303f59ce149bb766727861f9a68f15b354";
+  revision = "1";
+  editedCabalFile = "18lx1s8nziscmqwhmzn6lpknbnqscir4krd3g44n4cdsxcys67i7";
   libraryHaskellDepends = [
     base bytestring data-default-class network recv streaming-commons
     tls tls-session-manager unliftio wai warp

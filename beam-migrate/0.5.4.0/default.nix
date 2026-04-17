@@ -7,6 +7,8 @@ mkDerivation {
   pname = "beam-migrate";
   version = "0.5.4.0";
   sha256 = "a813ccfc092bb2ce21a348aea38fb308fcff4ecfe93f011648f195237fe9aae6";
+  revision = "1";
+  editedCabalFile = "01dhnhjf6hfk3fn4kaawjp49a4dpkz28kawlxffc0zp7fdfyx8qf";
   libraryHaskellDepends = [
     aeson base beam-core bytestring containers deepseq dependent-map
     dependent-sum free hashable haskell-src-exts microlens mtl parallel

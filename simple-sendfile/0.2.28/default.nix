@@ -5,8 +5,8 @@ mkDerivation {
   pname = "simple-sendfile";
   version = "0.2.28";
   sha256 = "a9800b79d41c3896181c93b3805135440bca31b5524a33303b7e32aa1bb29870";
-  revision = "2";
-  editedCabalFile = "16pyj7b4i1dzpzqbarzjamcjdyiy8j6lh5vf1ggchx69x44dqcr3";
+  revision = "3";
+  editedCabalFile = "1nz2866hrm1j7ldqi9syszzynfl7w85mlc3mr6pg93bgghipm1yi";
   libraryHaskellDepends = [ base bytestring network unix ];
   testHaskellDepends = [
     base bytestring conduit conduit-extra directory hspec HUnit network
