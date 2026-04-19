@@ -6,6 +6,8 @@ mkDerivation {
   pname = "streamly-statistics";
   version = "0.2.0";
   sha256 = "d4b19b06f3617da33fb5d12429590741b4af1d9c433bdb4660fa49885a39fd0a";
+  revision = "1";
+  editedCabalFile = "19xgh5n4wq583y9aqgkfbqx4459dhbxyd2yyb4hyynakzgkksaph";
   libraryHaskellDepends = [
     base containers deque mwc-random random streamly-core
   ];

@@ -5,6 +5,8 @@ mkDerivation {
   pname = "nonempty-vector";
   version = "0.2.4";
   sha256 = "e32d9efb7862507e76e3f6876c67c980da9a5b4d743e07d424159868ae471c67";
+  revision = "1";
+  editedCabalFile = "14yhzlaxyn7npxsjg1a3f7r7m1qrb7ymrp7zv71sfkcyhbdd7j9n";
   libraryHaskellDepends = [ base deepseq primitive vector ];
   testHaskellDepends = [
     base QuickCheck tasty tasty-quickcheck vector

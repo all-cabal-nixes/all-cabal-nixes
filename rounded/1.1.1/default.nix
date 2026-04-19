@@ -5,6 +5,8 @@ mkDerivation {
   pname = "rounded";
   version = "1.1.1";
   sha256 = "047ecf98f8d529162d76eae403b89ca863b0805f581dad659f7e34ab775c7e34";
+  revision = "1";
+  editedCabalFile = "100cy7plffwydn65a6k65gjss0sgiksqq9643wx93k53yjcqysq0";
   libraryHaskellDepends = [
     base ghc-prim hgmp long-double reflection
   ];
