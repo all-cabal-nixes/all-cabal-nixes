@@ -6,6 +6,8 @@ mkDerivation {
   pname = "bytesmith";
   version = "0.3.14.0";
   sha256 = "dcccc8ee1813f45e107832f01e5608a5d92e379aefb8296c86279117be9efbc4";
+  revision = "1";
+  editedCabalFile = "119aznaijiawsn8qxwj8jga4mglhahjws5dlgmq4bgdy0qggzwfs";
   libraryHaskellDepends = [
     base byteslice bytestring contiguous natural-arithmetic primitive
     text text-short wide-word

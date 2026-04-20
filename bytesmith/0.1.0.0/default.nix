@@ -3,6 +3,8 @@ mkDerivation {
   pname = "bytesmith";
   version = "0.1.0.0";
   sha256 = "a4669ebd0e487df91df1b41a45eb9ae35c0e25a7c64165511e2883503cd442ca";
+  revision = "1";
+  editedCabalFile = "0cf2crd0j9jjnfy59wwvy9fbqrmwywp3ligkwbz2p498ycp77wj9";
   libraryHaskellDepends = [ base byteslice primitive ];
   testHaskellDepends = [ base byteslice primitive ];
   homepage = "https://github.com/andrewthad/bytesmith";
