@@ -12,6 +12,8 @@ mkDerivation {
   pname = "cuddle";
   version = "1.5.0.0";
   sha256 = "db042d5a0df0f2be691af80b7e4902b613b065bc52e1d1f1091f0c6a0b0bf6dc";
+  revision = "1";
+  editedCabalFile = "0l4jpbswndz9n631yh4mjypp82nhs9jzzlbkig39s3rz9jfs0mrm";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;

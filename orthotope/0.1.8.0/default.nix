@@ -5,6 +5,8 @@ mkDerivation {
   pname = "orthotope";
   version = "0.1.8.0";
   sha256 = "ff59d912512a4339b1419d32c7df2f7ed45ba9179635f0bc9560fc6d369a310e";
+  revision = "1";
+  editedCabalFile = "1fcnv7zjqcyb30nnf08pqak8wjacyzqpppijp2axl01v63nkma6s";
   libraryHaskellDepends = [
     base deepseq dlist pretty QuickCheck vector
   ];

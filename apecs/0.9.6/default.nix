@@ -5,6 +5,8 @@ mkDerivation {
   pname = "apecs";
   version = "0.9.6";
   sha256 = "cdfc81fce9a167eea105dc03d10646df5150eb5b659092d8841599c90660f7b6";
+  revision = "2";
+  editedCabalFile = "039yayc6iycfxxqr9b0afpfjq0vz1lw7hdwjxzmbqdvm06xmnkhr";
   libraryHaskellDepends = [
     array base containers exceptions mtl template-haskell unliftio-core
     vector
