@@ -6,8 +6,8 @@ mkDerivation {
   pname = "bench-show";
   version = "0.3.2";
   sha256 = "528cd8963be89a4f38e7d0c55c496e0fa4c84029976c17a5f78d94264ee91fb8";
-  revision = "2";
-  editedCabalFile = "0cr695fg7cppfv84ji5dgz591ha757882xxyyr72q59cjcy5cllf";
+  revision = "3";
+  editedCabalFile = "1w9mrarmf1wwi7w5dyfixizgy0qnz8rjnb2ingdiicvn164nbry1";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
