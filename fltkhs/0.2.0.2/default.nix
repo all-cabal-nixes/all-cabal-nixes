@@ -1,5 +1,5 @@
-{ mkDerivation, base, bytestring, c2hs, directory, filepath, fltk14
-, lib, libGL, libGLU, mtl, parsec, process
+{ mkDerivation, base, bytestring, c2hs, directory, filepath
+, fltk_1_4, lib, libGL, libGLU, mtl, parsec, process
 }:
 mkDerivation {
   pname = "fltkhs";
@@ -9,7 +9,7 @@ mkDerivation {
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base bytestring ];
-  librarySystemDepends = [ fltk14 ];
+  librarySystemDepends = [ fltk_1_4 ];
   libraryPkgconfigDepends = [ libGL libGLU ];
   libraryToolDepends = [ c2hs ];
   executableHaskellDepends = [

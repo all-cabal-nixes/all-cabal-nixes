@@ -1,4 +1,4 @@
-{ mkDerivation, base, haskell98, lib, libXft, utf8-string, X11 }:
+{ mkDerivation, base, haskell98, lib, libxft, utf8-string, X11 }:
 mkDerivation {
   pname = "X11-xft";
   version = "0.3";
@@ -6,7 +6,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "1dg6wszyjhzwwbkmpcgyb36ah2xsjclkwi9njglx6rylay1pvqr9";
   libraryHaskellDepends = [ base haskell98 utf8-string X11 ];
-  libraryPkgconfigDepends = [ libXft ];
+  libraryPkgconfigDepends = [ libxft ];
   description = "Bindings to the Xft, X Free Type interface library, and some Xrender parts";
   license = "LGPL";
 }

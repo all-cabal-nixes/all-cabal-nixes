@@ -1,5 +1,5 @@
-{ mkDerivation, base, lib, libX11, libXext, libXinerama, libXrender
-, libXScrnSaver
+{ mkDerivation, base, lib, libx11, libxext, libxinerama, libxrender
+, libxscrnsaver
 }:
 mkDerivation {
   pname = "X11";
@@ -9,7 +9,7 @@ mkDerivation {
   editedCabalFile = "0wm3ldx5hlxn9jkixbkiw8gcqzv71yq0sp6rmbwhqzj4i144fncc";
   libraryHaskellDepends = [ base ];
   librarySystemDepends = [
-    libX11 libXext libXinerama libXrender libXScrnSaver
+    libx11 libxext libxinerama libxrender libxscrnsaver
   ];
   description = "A binding to the X11 graphics library";
   license = lib.licenses.bsd3;

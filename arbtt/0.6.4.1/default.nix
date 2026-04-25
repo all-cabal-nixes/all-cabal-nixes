@@ -1,5 +1,5 @@
 { mkDerivation, base, binary, bytestring, containers, deepseq
-, directory, filepath, lib, libXScrnSaver, mtl, old-locale, parsec
+, directory, filepath, lib, libxscrnsaver, mtl, old-locale, parsec
 , pcre-light, strict, time, unix, utf8-string, X11
 }:
 mkDerivation {
@@ -12,7 +12,7 @@ mkDerivation {
     base binary bytestring containers deepseq directory filepath mtl
     old-locale parsec pcre-light strict time unix utf8-string X11
   ];
-  executableSystemDepends = [ libXScrnSaver ];
+  executableSystemDepends = [ libxscrnsaver ];
   homepage = "http://www.joachim-breitner.de/projects#arbtt";
   description = "Automatic Rule-Based Time Tracker";
   license = "GPL";

@@ -1,5 +1,5 @@
 { mkDerivation, array, attoparsec, base, bytestring, containers
-, lib, libXft, mtl, parsec, permute, process, regex-pcre, setlocale
+, lib, libxft, mtl, parsec, permute, process, regex-pcre, setlocale
 , text, unix, utf8-string, X11, X11-rm, x11-xim, X11-xshape, xext
 }:
 mkDerivation {
@@ -13,13 +13,13 @@ mkDerivation {
     process regex-pcre setlocale text unix utf8-string X11 X11-rm
     x11-xim X11-xshape
   ];
-  libraryPkgconfigDepends = [ libXft xext ];
+  libraryPkgconfigDepends = [ libxft xext ];
   executableHaskellDepends = [
     array attoparsec base bytestring containers mtl parsec permute
     process regex-pcre setlocale text unix utf8-string X11 X11-rm
     x11-xim X11-xshape
   ];
-  executablePkgconfigDepends = [ libXft xext ];
+  executablePkgconfigDepends = [ libxft xext ];
   homepage = "http://sigkill.dk/programs/sindre";
   description = "A programming language for simple GUIs";
   license = lib.licensesSpdx."BSD-3-Clause";

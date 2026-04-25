@@ -1,6 +1,6 @@
 { mkDerivation, base, base16-bytestring, binary, bytestring
-, cryptohash-md5, directory, exceptions, hashable, lib, libX11
-, libXau, libXScrnSaver, microlens, microlens-mtl, protolude, text
+, cryptohash-md5, directory, exceptions, hashable, lib, libx11
+, libxau, libxscrnsaver, microlens, microlens-mtl, protolude, text
 , tomland, unix, vector, wordexp, X11, xcb, xdmcp
 }:
 mkDerivation {
@@ -15,7 +15,7 @@ mkDerivation {
     unix vector wordexp X11
   ];
   executablePkgconfigDepends = [
-    libX11 libXau libXScrnSaver xcb xdmcp
+    libx11 libxau libxscrnsaver xcb xdmcp
   ];
   homepage = "https://github.com/erebe/greenclip#readme";
   description = "Simple clipboard manager to be integrated with rofi";

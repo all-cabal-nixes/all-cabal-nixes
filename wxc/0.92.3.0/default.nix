@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, Cabal, directory, filepath, lib
-, libGL, libX11, process, split, wxdirect, wxGTK
+, libGL, libx11, process, split, wxdirect, wxGTK
 }:
 mkDerivation {
   pname = "wxc";
@@ -11,7 +11,7 @@ mkDerivation {
     base bytestring Cabal directory filepath process split
   ];
   libraryHaskellDepends = [ base split wxdirect ];
-  librarySystemDepends = [ libGL libX11 ];
+  librarySystemDepends = [ libGL libx11 ];
   libraryPkgconfigDepends = [ wxGTK ];
   doHaddock = false;
   postInstall = "cp -v dist/build/libwxc.so.0.92.3.0 $out/lib/libwxc.so";

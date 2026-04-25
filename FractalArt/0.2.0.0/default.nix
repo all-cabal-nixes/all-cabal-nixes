@@ -1,4 +1,4 @@
-{ mkDerivation, base, directory, filepath, JuicyPixels, lib, libX11
+{ mkDerivation, base, directory, filepath, JuicyPixels, lib, libx11
 , mwc-random, primitive, random, vector
 }:
 mkDerivation {
@@ -13,7 +13,7 @@ mkDerivation {
     base directory filepath JuicyPixels mwc-random primitive random
     vector
   ];
-  executableSystemDepends = [ libX11 ];
+  executableSystemDepends = [ libx11 ];
   homepage = "https://github.com/TomSmeets/FractalArt";
   description = "Generates colorful wallpapers";
   license = lib.licenses.mit;

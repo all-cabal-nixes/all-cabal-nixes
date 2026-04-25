@@ -2,7 +2,7 @@
 , bytestring, cairo, cereal, configurator, containers
 , coroutine-object, dbus, Diff, directory, dyre, either, errors
 , filepath, fsnotify, gd, gtk, hoodle-builder, hoodle-parser
-, hoodle-render, hoodle-types, lens, lib, libX11, libXi
+, hoodle-render, hoodle-types, lens, lib, libx11, libxi
 , monad-loops, mtl, network, network-info, network-simple
 , old-locale, pango, poppler, process, pureMD5, stm, strict
 , svgcairo, system-filepath, template-haskell, text, time
@@ -22,7 +22,7 @@ mkDerivation {
     pureMD5 stm strict svgcairo system-filepath template-haskell text
     time transformers transformers-free uuid xournal-parser
   ];
-  librarySystemDepends = [ libX11 libXi ];
+  librarySystemDepends = [ libx11 libxi ];
   homepage = "http://ianwookim.org/hoodle";
   description = "Core library for hoodle";
   license = lib.licenses.gpl3Only;

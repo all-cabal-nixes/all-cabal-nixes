@@ -1,6 +1,6 @@
-{ mkDerivation, base, bindings-DSL, HUnit, lib, libGL, libX11
-, libXcursor, libXext, libXfixes, libXi, libXinerama, libXrandr
-, libXxf86vm, template-haskell, test-framework
+{ mkDerivation, base, bindings-DSL, HUnit, lib, libGL, libx11
+, libxcursor, libxext, libxfixes, libxi, libxinerama, libxrandr
+, libxxf86vm, template-haskell, test-framework
 , test-framework-hunit
 }:
 mkDerivation {
@@ -11,8 +11,8 @@ mkDerivation {
   editedCabalFile = "18ydnh2g0779v2sgprmr39rdfy5bwginqi3yhygqgmn1m1zfs5fj";
   libraryHaskellDepends = [ base bindings-DSL template-haskell ];
   librarySystemDepends = [
-    libGL libX11 libXcursor libXext libXfixes libXi libXinerama
-    libXrandr libXxf86vm
+    libGL libx11 libxcursor libxext libxfixes libxi libxinerama
+    libxrandr libxxf86vm
   ];
   testHaskellDepends = [
     base HUnit test-framework test-framework-hunit

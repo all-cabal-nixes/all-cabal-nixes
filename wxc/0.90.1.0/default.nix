@@ -1,10 +1,10 @@
-{ mkDerivation, base, lib, libGL, libX11, wxdirect, wxGTK }:
+{ mkDerivation, base, lib, libGL, libx11, wxdirect, wxGTK }:
 mkDerivation {
   pname = "wxc";
   version = "0.90.1.0";
   sha256 = "4a28700963fc2fdacca063c19cead30ace15be42cbc65c3ee4127363fb4561c8";
   libraryHaskellDepends = [ base wxdirect ];
-  librarySystemDepends = [ libGL libX11 ];
+  librarySystemDepends = [ libGL libx11 ];
   libraryPkgconfigDepends = [ wxGTK ];
   doHaddock = false;
   postInstall = "cp -v dist/build/libwxc.so.0.90.1.0 $out/lib/libwxc.so";

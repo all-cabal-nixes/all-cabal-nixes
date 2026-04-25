@@ -1,4 +1,4 @@
-{ mkDerivation, base, base-unicode-symbols, lib, libXinerama, X11
+{ mkDerivation, base, base-unicode-symbols, lib, libxinerama, X11
 }:
 mkDerivation {
   pname = "place-cursor-at";
@@ -7,7 +7,7 @@ mkDerivation {
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [ base base-unicode-symbols X11 ];
-  executableSystemDepends = [ libXinerama ];
+  executableSystemDepends = [ libxinerama ];
   homepage = "https://github.com/unclechu/place-cursor-at#readme";
   description = "A utility for X11 that moves the mouse cursor using the keyboard";
   license = lib.licenses.gpl3Only;

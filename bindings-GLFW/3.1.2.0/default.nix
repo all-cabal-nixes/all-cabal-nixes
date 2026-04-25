@@ -1,6 +1,6 @@
-{ mkDerivation, base, bindings-DSL, HUnit, lib, libGL, libX11
-, libXcursor, libXext, libXfixes, libXi, libXinerama, libXrandr
-, libXxf86vm, template-haskell, test-framework
+{ mkDerivation, base, bindings-DSL, HUnit, lib, libGL, libx11
+, libxcursor, libxext, libxfixes, libxi, libxinerama, libxrandr
+, libxxf86vm, template-haskell, test-framework
 , test-framework-hunit
 }:
 mkDerivation {
@@ -9,8 +9,8 @@ mkDerivation {
   sha256 = "8ed860cea817a213f4972d68860c48ca81377d4fcd488dee29677ff02c2d4ea1";
   libraryHaskellDepends = [ base bindings-DSL template-haskell ];
   librarySystemDepends = [
-    libGL libX11 libXcursor libXext libXfixes libXi libXinerama
-    libXrandr libXxf86vm
+    libGL libx11 libxcursor libxext libxfixes libxi libxinerama
+    libxrandr libxxf86vm
   ];
   testHaskellDepends = [
     base HUnit test-framework test-framework-hunit

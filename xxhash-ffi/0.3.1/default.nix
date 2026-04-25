@@ -1,12 +1,12 @@
 { mkDerivation, base, bytestring, digest, hashable, lib, QuickCheck
-, tasty, tasty-bench, tasty-quickcheck, text, xxHash
+, tasty, tasty-bench, tasty-quickcheck, text, xxhash
 }:
 mkDerivation {
   pname = "xxhash-ffi";
   version = "0.3.1";
   sha256 = "a5527d525e31a2d3de17b6fffd7e5fdc2194987d1c6df82fcfa2ff605be8b4ed";
   libraryHaskellDepends = [ base bytestring hashable text ];
-  libraryPkgconfigDepends = [ xxHash ];
+  libraryPkgconfigDepends = [ xxhash ];
   testHaskellDepends = [
     base bytestring hashable QuickCheck tasty tasty-quickcheck text
   ];

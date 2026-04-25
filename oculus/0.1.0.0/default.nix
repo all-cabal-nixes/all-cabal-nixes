@@ -1,4 +1,4 @@
-{ mkDerivation, base, either, lib, libGL, libX11, libXinerama
+{ mkDerivation, base, either, lib, libGL, libx11, libxinerama
 , monads-tf, ovr, systemd, transformers, vect-floating
 }:
 mkDerivation {
@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base either monads-tf transformers vect-floating
   ];
-  librarySystemDepends = [ libGL libX11 libXinerama ovr systemd ];
+  librarySystemDepends = [ libGL libx11 libxinerama ovr systemd ];
   homepage = "http://github.com/cpdurham/oculus";
   description = "Oculus Rift ffi providing head tracking data";
   license = lib.licenses.bsd3;

@@ -1,5 +1,5 @@
-{ mkDerivation, array, base, containers, directory, lib, libX11
-, libXext, old-time, parallel, process, random, time, unix
+{ mkDerivation, array, base, containers, directory, lib, libx11
+, libxext, old-time, parallel, process, random, time, unix
 }:
 mkDerivation {
   pname = "fudgets";
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base containers directory old-time process time unix
   ];
-  librarySystemDepends = [ libX11 libXext ];
+  librarySystemDepends = [ libx11 libxext ];
   executableHaskellDepends = [ array base old-time parallel random ];
   homepage = "https://www.altocumulus.org/Fudgets/";
   description = "The Fudgets Library";

@@ -14,7 +14,7 @@
 , STMonadTrans, tar, tasty, tasty-hunit, template-haskell
 , temporary, text, text-show, thrift-haxl, thrift-http, thrift-lib
 , time, transformers, unix, unordered-containers, uri-encode
-, utf8-string, uuid, vector, vector-algorithms, wai, warp, xxHash
+, utf8-string, uuid, vector, vector-algorithms, wai, warp, xxhash
 , yaml
 }:
 mkDerivation {
@@ -41,7 +41,7 @@ mkDerivation {
   ];
   librarySystemDepends = [ atomic ];
   libraryPkgconfigDepends = [
-    fmt gflags glog icu libfolly libunwind rocksdb xxHash
+    fmt gflags glog icu libfolly libunwind rocksdb xxhash
   ];
   libraryToolDepends = [ alex happy ];
   executableHaskellDepends = [

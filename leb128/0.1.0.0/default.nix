@@ -6,8 +6,8 @@ mkDerivation {
   pname = "leb128";
   version = "0.1.0.0";
   sha256 = "67729c09a291fe4792119bb95a39a684bd7baf72965fcabf85fc041c64fbfd24";
-  revision = "2";
-  editedCabalFile = "12qilpvx1sr1k1k5qsvpk8j678gvkhdzxbkdh6yhkb5w6hg4jzph";
+  revision = "3";
+  editedCabalFile = "0nhn6m6a20rgxspcvqlbzmlg3ajc77lpjzi92wyigdvynylxfx0m";
   libraryHaskellDepends = [ base bytestring ghc-prim transformers ];
   testHaskellDepends = [
     base bytestring QuickCheck test-framework

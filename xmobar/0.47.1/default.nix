@@ -2,7 +2,7 @@
 , bytestring, cairo, colour, containers, dbus, directory
 , extensible-exceptions, filepath, gauge, hinotify, hspec
 , http-client-tls, http-conduit, http-types, iwlib, lib, libmpd
-, libXpm, libXrandr, libXrender, mtl, old-locale, pango, parsec
+, libxpm, libxrandr, libxrender, mtl, old-locale, pango, parsec
 , parsec-numbers, process, regex-compat, stm, temporary, time
 , timezone-olson, timezone-series, transformers, unix, utf8-string
 , wirelesstools, X11, X11-xft
@@ -28,7 +28,7 @@ mkDerivation {
     X11-xft
   ];
   librarySystemDepends = [
-    libXpm libXrandr libXrender wirelesstools
+    libxpm libxrandr libxrender wirelesstools
   ];
   executableHaskellDepends = [
     async base containers directory filepath parsec unix X11

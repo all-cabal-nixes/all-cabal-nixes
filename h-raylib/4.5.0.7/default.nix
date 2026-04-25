@@ -1,5 +1,5 @@
-{ mkDerivation, base, c, lib, libGL, libX11, libXcursor, libXi
-, libXinerama, libXrandr
+{ mkDerivation, base, c, lib, libGL, libx11, libxcursor, libxi
+, libxinerama, libxrandr
 }:
 mkDerivation {
   pname = "h-raylib";
@@ -7,7 +7,7 @@ mkDerivation {
   sha256 = "42b628b7ba6f5f3ec01e7fcaeec613c655b326113ba9d5f22adc907b24a460d8";
   libraryHaskellDepends = [ base ];
   librarySystemDepends = [
-    c libGL libX11 libXcursor libXi libXinerama libXrandr
+    c libGL libx11 libxcursor libxi libxinerama libxrandr
   ];
   description = "Raylib bindings for Haskell";
   license = lib.licensesSpdx."Apache-2.0";

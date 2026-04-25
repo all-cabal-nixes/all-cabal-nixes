@@ -1,5 +1,5 @@
 { mkDerivation, base, glib, gtk, gtk2, gtk2hs-buildtools, gtkglext
-, lib, libGLU, libICE, libSM, libXmu, libXt, pango
+, lib, libGLU, libice, libsm, libxmu, libxt, pango
 }:
 mkDerivation {
   pname = "gtkglext";
@@ -7,7 +7,7 @@ mkDerivation {
   sha256 = "13424d5f80e0ba22f2caf233f5a68a07635f6f77c4f48e6fe3fab28216a30af6";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [ base glib gtk pango ];
-  librarySystemDepends = [ gtk2 libGLU libICE libSM libXmu libXt ];
+  librarySystemDepends = [ gtk2 libGLU libice libsm libxmu libxt ];
   libraryPkgconfigDepends = [ gtkglext ];
   libraryToolDepends = [ gtk2hs-buildtools ];
   homepage = "http://projects.haskell.org/gtk2hs/";

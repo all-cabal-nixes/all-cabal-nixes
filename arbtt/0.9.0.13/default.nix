@@ -1,6 +1,6 @@
 { mkDerivation, aeson, array, base, binary, bytestring
 , bytestring-progress, containers, deepseq, directory, filepath
-, lib, libXScrnSaver, parsec, pcre-light, process-extras, strict
+, lib, libxscrnsaver, parsec, pcre-light, process-extras, strict
 , tasty, tasty-golden, tasty-hunit, terminal-progress-bar, time
 , transformers, unix, utf8-string, X11
 }:
@@ -15,7 +15,7 @@ mkDerivation {
     deepseq directory filepath parsec pcre-light strict
     terminal-progress-bar time transformers unix utf8-string X11
   ];
-  executableSystemDepends = [ libXScrnSaver ];
+  executableSystemDepends = [ libxscrnsaver ];
   testHaskellDepends = [
     base binary bytestring containers deepseq directory parsec
     pcre-light process-extras tasty tasty-golden tasty-hunit time

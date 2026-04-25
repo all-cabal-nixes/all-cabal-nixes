@@ -1,5 +1,5 @@
 { mkDerivation, base, containers, data-default, deepseq, directory
-, filepath, finite-typelits, hspec, lib, libX11, libXrandr
+, filepath, finite-typelits, hspec, lib, libx11, libxrandr
 , lifted-base, monad-control, mtl, process, QuickCheck, text, time
 , transformers, transformers-base, unix, X11
 }:
@@ -14,7 +14,7 @@ mkDerivation {
     finite-typelits lifted-base monad-control mtl process text time
     transformers transformers-base unix X11
   ];
-  librarySystemDepends = [ libX11 libXrandr ];
+  librarySystemDepends = [ libx11 libxrandr ];
   executableHaskellDepends = [ base ];
   testHaskellDepends = [
     base data-default deepseq hspec mtl QuickCheck time

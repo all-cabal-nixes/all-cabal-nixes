@@ -1,4 +1,4 @@
-{ mkDerivation, base, lib, libGL, libGLU, libX11, libXrandr }:
+{ mkDerivation, base, lib, libGL, libGLU, libx11, libxrandr }:
 mkDerivation {
   pname = "GLFW-b";
   version = "0.0.2.9";
@@ -6,7 +6,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "1w90r9x4cygwppl8s9m0s84bbfjmwxqqgmb72yd9gi8v5pg4nb7y";
   libraryHaskellDepends = [ base ];
-  librarySystemDepends = [ libGL libGLU libX11 libXrandr ];
+  librarySystemDepends = [ libGL libGLU libx11 libxrandr ];
   description = "GLFW bindings";
   license = lib.licenses.bsd3;
 }

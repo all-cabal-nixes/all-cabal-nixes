@@ -5,6 +5,8 @@ mkDerivation {
   pname = "exception-transformers";
   version = "0.4.0.12";
   sha256 = "9374d590cfea7d27cf6e06f2d80c0520496e0a53da002abade315c0ad1c91487";
+  revision = "1";
+  editedCabalFile = "1xr67h3grrxgyl9zblafxrf186kqqdrz4nannalhrjxb8j0lz9z3";
   libraryHaskellDepends = [
     base fail transformers transformers-compat
   ];

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, c2hs, Cabal, directory, filepath
-, fltk14, lib, libGL, libGLU, mtl, OpenGLRaw, parsec, text
+, fltk_1_4, lib, libGL, libGLU, mtl, OpenGLRaw, parsec, text
 }:
 mkDerivation {
   pname = "fltkhs";
@@ -10,7 +10,7 @@ mkDerivation {
   isExecutable = true;
   setupHaskellDepends = [ base Cabal directory filepath ];
   libraryHaskellDepends = [ base bytestring text ];
-  librarySystemDepends = [ fltk14 ];
+  librarySystemDepends = [ fltk_1_4 ];
   libraryPkgconfigDepends = [ libGL libGLU ];
   libraryToolDepends = [ c2hs ];
   executableHaskellDepends = [

@@ -3,7 +3,7 @@
 , cereal, configurator, containers, coroutine-object, Diff
 , directory, either, errors, filepath, fsnotify, gd, gtk
 , handa-gdata, hoodle-builder, hoodle-parser, hoodle-publish
-, hoodle-render, hoodle-types, http-types, lens, lib, libX11, libXi
+, hoodle-render, hoodle-types, http-types, lens, lib, libx11, libxi
 , monad-loops, mtl, network-uri, old-locale, pango, poppler
 , process, pureMD5, stm, strict, svgcairo, system-filepath
 , template-haskell, text, time, transformers, transformers-free
@@ -25,7 +25,7 @@ mkDerivation {
     transformers-free unordered-containers uuid vector websockets
     xournal-parser
   ];
-  librarySystemDepends = [ libX11 libXi ];
+  librarySystemDepends = [ libx11 libxi ];
   homepage = "http://ianwookim.org/hoodle";
   description = "Core library for hoodle";
   license = lib.licenses.bsd3;

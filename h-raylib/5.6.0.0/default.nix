@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, c, containers, lens, lib, libGL
-, libX11, libXcursor, libXext, libXi, libXinerama, libXrandr
+, libx11, libxcursor, libxext, libxi, libxinerama, libxrandr
 , linear, template-haskell, text
 }:
 mkDerivation {
@@ -13,7 +13,7 @@ mkDerivation {
     base bytestring containers lens linear template-haskell text
   ];
   librarySystemDepends = [
-    c libGL libX11 libXcursor libXext libXi libXinerama libXrandr
+    c libGL libx11 libxcursor libxext libxi libxinerama libxrandr
   ];
   description = "Raylib bindings for Haskell";
   license = lib.licensesSpdx."Apache-2.0";

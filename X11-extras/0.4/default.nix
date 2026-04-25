@@ -1,4 +1,4 @@
-{ mkDerivation, base, lib, libX11, X11 }:
+{ mkDerivation, base, lib, libx11, X11 }:
 mkDerivation {
   pname = "X11-extras";
   version = "0.4";
@@ -6,7 +6,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "0g7zmmnfz2bkhsk8r7jyrw1s3kdpjz9yichjcgp48kgvs6n1bczp";
   libraryHaskellDepends = [ base X11 ];
-  librarySystemDepends = [ libX11 ];
+  librarySystemDepends = [ libx11 ];
   description = "Missing bindings to the X11 graphics library";
   license = lib.licenses.bsd3;
 }

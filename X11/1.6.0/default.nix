@@ -1,5 +1,5 @@
-{ mkDerivation, base, lib, libX11, libXext, libXinerama, libXrandr
-, libXrender, libXScrnSaver, syb
+{ mkDerivation, base, lib, libx11, libxext, libxinerama, libxrandr
+, libxrender, libxscrnsaver, syb
 }:
 mkDerivation {
   pname = "X11";
@@ -9,7 +9,7 @@ mkDerivation {
   editedCabalFile = "1x2bmk5jdh3p3y9aj8lcczxwmxlkiykn3l63ksg3w2yhvw2agafm";
   libraryHaskellDepends = [ base syb ];
   librarySystemDepends = [
-    libX11 libXext libXinerama libXrandr libXrender libXScrnSaver
+    libx11 libxext libxinerama libxrandr libxrender libxscrnsaver
   ];
   homepage = "https://github.com/haskell-pkg-janitors/X11";
   description = "A binding to the X11 graphics library";

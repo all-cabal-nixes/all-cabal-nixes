@@ -1,4 +1,4 @@
-{ mkDerivation, base, lib, libGL, libX11, libXext, libXfixes
+{ mkDerivation, base, lib, libGL, libx11, libxext, libxfixes
 , OpenGL
 }:
 mkDerivation {
@@ -6,7 +6,7 @@ mkDerivation {
   version = "0.5.1.0";
   sha256 = "750e185955ec3671d38ee5b54d3c2e8c3a7fbf6d23fcb6bb572f798278390da4";
   libraryHaskellDepends = [ base OpenGL ];
-  librarySystemDepends = [ libGL libX11 libXext libXfixes ];
+  librarySystemDepends = [ libGL libx11 libxext libxfixes ];
   homepage = "http://haskell.org/haskellwiki/GLFW";
   description = "A Haskell binding for GLFW";
   license = lib.licenses.bsd3;

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, c2hs, containers, freetype, glew
-, hspec, inline-c, lib, libGL, libGLU, libX11, QuickCheck, text
+, hspec, inline-c, lib, libGL, libGLU, libx11, QuickCheck, text
 , vector
 }:
 mkDerivation {
@@ -11,7 +11,7 @@ mkDerivation {
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base bytestring containers text vector ];
-  librarySystemDepends = [ glew libGL libGLU libX11 ];
+  librarySystemDepends = [ glew libGL libGLU libx11 ];
   libraryPkgconfigDepends = [ freetype glew ];
   libraryToolDepends = [ c2hs ];
   testHaskellDepends = [ base containers hspec inline-c QuickCheck ];

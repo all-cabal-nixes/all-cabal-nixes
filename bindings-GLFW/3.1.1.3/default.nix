@@ -1,6 +1,6 @@
-{ mkDerivation, base, bindings-DSL, HUnit, lib, libGL, libX11
-, libXcursor, libXext, libXfixes, libXi, libXinerama, libXrandr
-, libXxf86vm, test-framework, test-framework-hunit
+{ mkDerivation, base, bindings-DSL, HUnit, lib, libGL, libx11
+, libxcursor, libxext, libxfixes, libxi, libxinerama, libxrandr
+, libxxf86vm, test-framework, test-framework-hunit
 }:
 mkDerivation {
   pname = "bindings-GLFW";
@@ -8,8 +8,8 @@ mkDerivation {
   sha256 = "5f04d667fc0a84c745aeb8edf6747199e6bb54f3df80cc8f66e31588faa7f05f";
   libraryHaskellDepends = [ base bindings-DSL ];
   librarySystemDepends = [
-    libGL libX11 libXcursor libXext libXfixes libXi libXinerama
-    libXrandr libXxf86vm
+    libGL libx11 libxcursor libxext libxfixes libxi libxinerama
+    libxrandr libxxf86vm
   ];
   testHaskellDepends = [
     base HUnit test-framework test-framework-hunit

@@ -1,6 +1,6 @@
 { mkDerivation, alsa-core, alsa-mixer, base, bytestring, containers
 , dbus, directory, filepath, hinotify, hspec, HTTP, http-conduit
-, http-types, iwlib, lib, libmpd, libXpm, libXrandr, libXrender
+, http-types, iwlib, lib, libmpd, libxpm, libxrandr, libxrender
 , mtl, old-locale, parsec, parsec-numbers, process, regex-compat
 , stm, time, timezone-olson, timezone-series, transformers, unix
 , utf8-string, wirelesstools, X11, X11-xft
@@ -25,7 +25,7 @@ mkDerivation {
     X11-xft
   ];
   executableSystemDepends = [
-    libXpm libXrandr libXrender wirelesstools
+    libxpm libxrandr libxrender wirelesstools
   ];
   testHaskellDepends = [
     base bytestring containers directory filepath hspec mtl old-locale

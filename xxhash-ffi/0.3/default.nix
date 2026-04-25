@@ -1,6 +1,6 @@
 { mkDerivation, base, bytestring, deepseq, digest, hashable, lib
 , murmur-hash, QuickCheck, tasty, tasty-bench, tasty-quickcheck
-, text, xxHash
+, text, xxhash
 }:
 mkDerivation {
   pname = "xxhash-ffi";
@@ -9,7 +9,7 @@ mkDerivation {
   revision = "1";
   editedCabalFile = "07mc7rllnf3hgnqnywzmjpafmrpr4jdbvj4iwifz72n5c2marr1z";
   libraryHaskellDepends = [ base bytestring hashable text ];
-  libraryPkgconfigDepends = [ xxHash ];
+  libraryPkgconfigDepends = [ xxhash ];
   testHaskellDepends = [
     base bytestring hashable QuickCheck tasty tasty-quickcheck text
   ];

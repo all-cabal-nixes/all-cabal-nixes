@@ -1,5 +1,5 @@
 { mkDerivation, alsa-core, alsa-mixer, base, bytestring, containers
-, dbus, directory, filepath, hinotify, HTTP, lib, libmpd, libXrandr
+, dbus, directory, filepath, hinotify, HTTP, lib, libmpd, libxrandr
 , mtl, old-locale, parsec, process, regex-compat, stm, time
 , timezone-olson, timezone-series, unix, utf8-string, wirelesstools
 , X11, X11-xft
@@ -22,7 +22,7 @@ mkDerivation {
     regex-compat stm time timezone-olson timezone-series unix
     utf8-string X11 X11-xft
   ];
-  executableSystemDepends = [ libXrandr wirelesstools ];
+  executableSystemDepends = [ libxrandr wirelesstools ];
   homepage = "http://xmobar.org";
   description = "A Minimalistic Text Based Status Bar";
   license = lib.licenses.bsd3;

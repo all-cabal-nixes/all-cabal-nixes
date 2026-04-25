@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, hg3dsdl2050, HGamer3D-Data, lib
-, libX11, SDL2, utf8-string
+, libx11, SDL2, utf8-string
 }:
 mkDerivation {
   pname = "HGamer3D-SDL2-Binding";
@@ -8,7 +8,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring HGamer3D-Data utf8-string
   ];
-  librarySystemDepends = [ hg3dsdl2050 libX11 SDL2 ];
+  librarySystemDepends = [ hg3dsdl2050 libx11 SDL2 ];
   homepage = "http://www.hgamer3d.org";
   description = "SDL2 Binding for HGamer3D";
   license = "unknown";

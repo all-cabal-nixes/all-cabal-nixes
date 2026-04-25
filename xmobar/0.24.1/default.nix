@@ -1,6 +1,6 @@
 { mkDerivation, alsa-core, alsa-mixer, base, bytestring, containers
 , dbus, directory, filepath, hinotify, HTTP, http-conduit
-, http-types, lib, libmpd, libXpm, libXrandr, libXrender, mtl
+, http-types, lib, libmpd, libxpm, libxrandr, libxrender, mtl
 , old-locale, parsec, process, regex-compat, stm, time
 , timezone-olson, timezone-series, transformers, unix, utf8-string
 , wirelesstools, X11, X11-xft
@@ -24,7 +24,7 @@ mkDerivation {
     timezone-series transformers unix utf8-string X11 X11-xft
   ];
   executableSystemDepends = [
-    libXpm libXrandr libXrender wirelesstools
+    libxpm libxrandr libxrender wirelesstools
   ];
   homepage = "http://xmobar.org";
   description = "A Minimalistic Text Based Status Bar";

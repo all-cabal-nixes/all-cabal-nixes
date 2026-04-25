@@ -1,7 +1,7 @@
 { mkDerivation, alsa-core, alsa-mixer, async, base, bytestring
 , containers, dbus, directory, extensible-exceptions, filepath
 , hinotify, hspec, HTTP, http-conduit, http-types, iwlib, lib
-, libmpd, libXpm, libXrandr, libXrender, mtl, old-locale, parsec
+, libmpd, libxpm, libxrandr, libxrender, mtl, old-locale, parsec
 , parsec-numbers, process, regex-compat, stm, temporary, time
 , timezone-olson, timezone-series, transformers, unix, utf8-string
 , wirelesstools, X11, X11-xft
@@ -26,7 +26,7 @@ mkDerivation {
     transformers unix utf8-string X11 X11-xft
   ];
   librarySystemDepends = [
-    libXpm libXrandr libXrender wirelesstools
+    libxpm libxrandr libxrender wirelesstools
   ];
   executableHaskellDepends = [
     async base containers directory filepath parsec unix X11

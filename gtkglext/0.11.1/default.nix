@@ -1,6 +1,6 @@
 { mkDerivation, array, base, cairo, containers, glib, gtk, gtk2
-, gtk2hs-buildtools, gtkglext, haskell98, lib, libGLU, libICE
-, libSM, libXmu, libXt, mtl, pango
+, gtk2hs-buildtools, gtkglext, haskell98, lib, libGLU, libice
+, libsm, libxmu, libxt, mtl, pango
 }:
 mkDerivation {
   pname = "gtkglext";
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     array base cairo containers glib gtk haskell98 mtl pango
   ];
-  librarySystemDepends = [ gtk2 libGLU libICE libSM libXmu libXt ];
+  librarySystemDepends = [ gtk2 libGLU libice libsm libxmu libxt ];
   libraryPkgconfigDepends = [ gtkglext ];
   libraryToolDepends = [ gtk2hs-buildtools ];
   homepage = "http://www.haskell.org/gtk2hs/";
