@@ -6,6 +6,8 @@ mkDerivation {
   pname = "ekg";
   version = "0.4.1.2";
   sha256 = "5ffa4c06dfec38fd0f546e836fa8be9e99dd9d00d70790d76eeb63eb3ae226cc";
+  revision = "1";
+  editedCabalFile = "0zq486mw3dpjrg0l3zf3266r3cqf4zhpds9sygc3sf1lj6bib66z";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     aeson base bytestring ekg-core ekg-json filepath network snap-core
