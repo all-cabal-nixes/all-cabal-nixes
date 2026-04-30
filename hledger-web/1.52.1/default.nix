@@ -12,6 +12,8 @@ mkDerivation {
   pname = "hledger-web";
   version = "1.52.1";
   sha256 = "e395222becb1f400fca727275e579bb2ee263da1f92b031dca05b13ba5948a55";
+  revision = "1";
+  editedCabalFile = "0nlzfpzsgbrrgavj4inz39lbpi0c90g34rqi55mgxkcfba31x24j";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

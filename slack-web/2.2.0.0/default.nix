@@ -13,6 +13,8 @@ mkDerivation {
   pname = "slack-web";
   version = "2.2.0.0";
   sha256 = "4566e5af09111db9839ff09ff91849018b243b48c0353ae5566825441c4ce5db";
+  revision = "1";
+  editedCabalFile = "1bf6gvgysih25c56xpci8bzgairw2jzr1fz5z3529ilinq599zkc";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
