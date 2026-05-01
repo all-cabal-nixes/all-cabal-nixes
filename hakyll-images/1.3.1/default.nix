@@ -4,10 +4,8 @@
 }:
 mkDerivation {
   pname = "hakyll-images";
-  version = "1.3.0";
-  sha256 = "fe2ac554872a63855cf864684f1cb7dddb6f5c92f70ffa96277c62f7e9872f65";
-  revision = "1";
-  editedCabalFile = "064cxxaxk4jikjs1njyzndfpqxw1bbrxihpzrfs9sxprjgxi1mvi";
+  version = "1.3.1";
+  sha256 = "a4f55f08b10671795beab1e3d8496651e3c0a08799d26f36b6357480753e85a8";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base binary bytestring hakyll JuicyPixels JuicyPixels-extra vector

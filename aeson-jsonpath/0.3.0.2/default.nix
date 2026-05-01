@@ -5,8 +5,8 @@ mkDerivation {
   pname = "aeson-jsonpath";
   version = "0.3.0.2";
   sha256 = "7432f66a81ed1aed05f7517404fcf4f97bfc65d67aac9fbc416cbd06914c067d";
-  revision = "1";
-  editedCabalFile = "19hvg97zmqjm4m4jdr6p6722pfzh7zjaa54qdzyiv2jsvkn76pbz";
+  revision = "2";
+  editedCabalFile = "0pnd8dfwd1yzmcs9bz203p5pjcp60v84qjf17jnn0q60kjbq5mk6";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     aeson base parsec scientific template-haskell text vector
