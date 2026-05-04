@@ -6,6 +6,8 @@ mkDerivation {
   pname = "beam-core";
   version = "0.11.0.0";
   sha256 = "06dd8bab4eada66ec2c5f59e031097b20a4b8ddf4c7ba04aa4fd46f302e79116";
+  revision = "1";
+  editedCabalFile = "1vbw2x1j2ibn59nf6agz0jqqh4056b24fnlggg86vdj3vs67yrc2";
   libraryHaskellDepends = [
     aeson base bytestring containers dlist free ghc-prim hashable
     microlens mtl network-uri scientific tagged text time vector
