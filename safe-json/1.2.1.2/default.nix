@@ -5,10 +5,8 @@
 }:
 mkDerivation {
   pname = "safe-json";
-  version = "1.2.1.1";
-  sha256 = "e481d79bd3678d656608d587cb3b037132fe22245829ab3b84002dc9fdd0b519";
-  revision = "2";
-  editedCabalFile = "1z9gdamnlig6ih27nqja5xxrhfywgg7n1gz4ykyp8h0lf1sp9pcz";
+  version = "1.2.1.2";
+  sha256 = "25bc7fd19a65f4820649ce8494133b7abccea4db301e32eea2622b698e91c569";
   libraryHaskellDepends = [
     aeson base bytestring containers dlist hashable scientific tasty
     tasty-hunit tasty-quickcheck text time unordered-containers

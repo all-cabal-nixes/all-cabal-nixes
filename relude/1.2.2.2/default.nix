@@ -6,8 +6,8 @@ mkDerivation {
   pname = "relude";
   version = "1.2.2.2";
   sha256 = "91eda82d135af2f15fa9adf050f35e22bb01710192cdede9fb8ce8d8145dc5a0";
-  revision = "2";
-  editedCabalFile = "0mv37443g7ipz9ndkcsq4ad0jlimxffjzrwprhlpiijj3jkb48dk";
+  revision = "3";
+  editedCabalFile = "1zbx1xm4qdhjriyrdbyqflkymvpa9aafjb4jck61w5kmvjqqxplc";
   libraryHaskellDepends = [
     base bytestring containers deepseq ghc-prim hashable mtl stm text
     transformers unordered-containers

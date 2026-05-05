@@ -5,8 +5,8 @@ mkDerivation {
   pname = "validation-selective";
   version = "0.2.0.0";
   sha256 = "9a884e97e6a64f2cacadec8d5ea7e8ba7562d0c8fa9ab7cd5c34055eaec64987";
-  revision = "7";
-  editedCabalFile = "0yd0imzv9h7mq8h6q6rhn341hn6qi4fgi4y3yswrqjfwchr7as4i";
+  revision = "8";
+  editedCabalFile = "12a7f1lp6149lng4a5ws4y7jbqs277g0n7gy0365aq2dzvn021yg";
   libraryHaskellDepends = [ base deepseq selective ];
   testHaskellDepends = [
     base doctest hedgehog hspec hspec-hedgehog selective text

@@ -9,8 +9,8 @@ mkDerivation {
   pname = "wai-extra";
   version = "3.1.12";
   sha256 = "36b4c9f6b0b41780258fffab6d90407354d67936f55f911e9fabe5ab0580cfc4";
-  revision = "1";
-  editedCabalFile = "132d0lbn02cbizxbfhnj53qbqy2vq366bvxrg29i2s60c3d2ksqz";
+  revision = "2";
+  editedCabalFile = "0by3q79mzfb15gdi54354pa32amc003xv3wdabm6rawpv6ca52sb";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
