@@ -5,6 +5,8 @@ mkDerivation {
   pname = "liquid-parallel";
   version = "3.2.2.0.3";
   sha256 = "8bfadef9cc0ddb6e99367d398b58f42335ef700dd2b36aaa4a2daa5a18526406";
+  revision = "1";
+  editedCabalFile = "12p612xhwrf0x6a2px6ln474dg3krfgi43dczrri6d2icfl7drsa";
   setupHaskellDepends = [ base Cabal liquidhaskell-boot ];
   libraryHaskellDepends = [ base liquidhaskell parallel ];
   homepage = "https://github.com/ucsd-progsys/liquidhaskell";

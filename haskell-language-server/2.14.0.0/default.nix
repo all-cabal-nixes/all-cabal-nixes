@@ -19,6 +19,8 @@ mkDerivation {
   pname = "haskell-language-server";
   version = "2.14.0.0";
   sha256 = "f454cc1e6977e13969c2ca4bcb79ba16dc014a790769c0d53841064e89a79e0e";
+  revision = "1";
+  editedCabalFile = "00wicxg7i8pcgc9p1zd1z5igbp7djz7aj2lhl8qb78h0llwdqk63";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
