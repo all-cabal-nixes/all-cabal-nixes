@@ -8,6 +8,8 @@ mkDerivation {
   pname = "sexp-grammar";
   version = "2.3.4.2";
   sha256 = "dc8efcf56dd0561138cfadc5532271584b9768d08921d26d54d1dad61a6371dd";
+  revision = "1";
+  editedCabalFile = "1qq5hzz6agp27k4254bq7g7jpgz5aimkls2ncrhfxs2hm189bq39";
   libraryHaskellDepends = [
     array base bytestring containers data-fix deepseq
     invertible-grammar prettyprinter recursion-schemes scientific
