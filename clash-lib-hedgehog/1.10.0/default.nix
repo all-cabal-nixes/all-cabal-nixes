@@ -7,6 +7,8 @@ mkDerivation {
   pname = "clash-lib-hedgehog";
   version = "1.10.0";
   sha256 = "8e7eca2abc2260c0c8e74ebb664690c36467f31bbc596cf2985c3bba26ceec1c";
+  revision = "1";
+  editedCabalFile = "0h2yaslrw4dfb1d4v876y7kh2sqc36d2fr7lwsf8v2w5ymy4j2km";
   libraryHaskellDepends = [
     base clash-lib containers data-binary-ieee754 fakedata ghc
     ghc-typelits-knownnat ghc-typelits-natnormalise hedgehog
