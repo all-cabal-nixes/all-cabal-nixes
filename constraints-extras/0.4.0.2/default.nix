@@ -3,6 +3,8 @@ mkDerivation {
   pname = "constraints-extras";
   version = "0.4.0.2";
   sha256 = "cc7fdb2625f1baeb16501176d8e2eb6da16a3448f2f0a37e188289c503cb482c";
+  revision = "1";
+  editedCabalFile = "0iqip860a6gzkiypagxq2sqfi54brybrblmzi4cvd0s1sc0bd5d7";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base constraints template-haskell ];
