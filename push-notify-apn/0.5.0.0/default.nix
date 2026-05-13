@@ -8,6 +8,8 @@ mkDerivation {
   pname = "push-notify-apn";
   version = "0.5.0.0";
   sha256 = "819877f9fde6fea6f4d2f7cb6104631cb3dd2d2542588aaba707e8deb93a1389";
+  revision = "1";
+  editedCabalFile = "0ydqn7jgkzvx5gva3id4f1frpsa1p3y57zn9qwyscrwi5sap3706";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

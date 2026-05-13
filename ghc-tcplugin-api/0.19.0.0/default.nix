@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "ghc-tcplugin-api";
-  version = "0.18.2.1";
-  sha256 = "3219ee2b58e95369763bfc8e681fc2416e95c6aa5a5fed6cd1fcaa54da89bcda";
-  revision = "2";
-  editedCabalFile = "1hpr137hgkvndkcdxbaklrh93ykjh03fl758kcg9slcza3jhi25b";
+  version = "0.19.0.0";
+  sha256 = "6e8e6a7a5b24637c0b4dcdeea1d7f553f8fde2b55baadd54c09cfb4f84792e90";
   libraryHaskellDepends = [
     array base containers ghc template-haskell transformers
   ];
