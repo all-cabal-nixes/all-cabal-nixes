@@ -9,6 +9,8 @@ mkDerivation {
   pname = "tree-diff";
   version = "0.3.5";
   sha256 = "0cb455bcbde04d07632fe9e864f110e3aa82c9d46f8121b6a2f2cfebdc1f7f14";
+  revision = "1";
+  editedCabalFile = "1rpda3prcai41qsj8i3j4rbf6kmnj40qdy59f9ns3lfkc5k2xhsg";
   libraryHaskellDepends = [
     aeson ansi-terminal ansi-wl-pprint base bytestring containers
     deepseq hashable parsec parsers pretty primitive QuickCheck

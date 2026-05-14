@@ -7,10 +7,8 @@
 }:
 mkDerivation {
   pname = "tree-diff";
-  version = "0.4";
-  sha256 = "ac53e08f2c5c2e1b8de12747b5a3b83e7ce90df96c55865308a5411463ffebf0";
-  revision = "1";
-  editedCabalFile = "058dy42drms7sphwfd3mn1k6vygcc8rz6x5hc9xqmv4wzz48qrjy";
+  version = "0.4.1";
+  sha256 = "6c385ea8ba577013756f134a0bbffb5370c3a25b046d01113e0ec963dfc7830b";
   libraryHaskellDepends = [
     aeson ansi-terminal base bytestring containers deepseq hashable
     parsec parsers pretty prettyprinter prettyprinter-ansi-terminal

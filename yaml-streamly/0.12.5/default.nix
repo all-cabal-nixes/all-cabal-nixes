@@ -9,6 +9,8 @@ mkDerivation {
   pname = "yaml-streamly";
   version = "0.12.5";
   sha256 = "3ff2b5a377c98ee2db605f8c05ba72a6f325847e40f1d0f4ef56a312275e6f3e";
+  revision = "1";
+  editedCabalFile = "0dmgn4qvszm6j7vxknjc2q9c4jsbiy04qy4z516y9jwfn2jggmkc";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

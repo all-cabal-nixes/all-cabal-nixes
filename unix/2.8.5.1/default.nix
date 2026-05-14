@@ -5,6 +5,8 @@ mkDerivation {
   pname = "unix";
   version = "2.8.5.1";
   sha256 = "5ab6c346aef2eb9bf80b4d29ca7e22063fc23e52fd69fbc4d18a9f98b154e424";
+  revision = "1";
+  editedCabalFile = "05q4811zgjbadqq01i3h1p101hfi77gwhj58ih09bs0dmbm05n47";
   libraryHaskellDepends = [ base bytestring filepath time ];
   testHaskellDepends = [
     base bytestring filepath tasty tasty-hunit tasty-quickcheck
