@@ -9,6 +9,8 @@ mkDerivation {
   pname = "beam-postgres";
   version = "0.6.1.0";
   sha256 = "30db671cc63a858d6b4f0bf7da0513b783506926706c87d9a9ebc8f935300162";
+  revision = "1";
+  editedCabalFile = "04d2w983gw1s6kljc3bgm79kfffy8fvam1lcfs05acf41yr2m3rq";
   libraryHaskellDepends = [
     aeson attoparsec base beam-core beam-migrate bytestring
     case-insensitive conduit free hashable lifted-base monad-control
