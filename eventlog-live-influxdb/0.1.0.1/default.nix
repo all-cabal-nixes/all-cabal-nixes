@@ -15,6 +15,6 @@ mkDerivation {
     lens-family machines optparse-applicative text
   ];
   description = "Stream eventlog data into InfluxDB";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "eventlog-live-influxdb";
 }

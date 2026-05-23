@@ -18,5 +18,5 @@ mkDerivation {
     base criterion deepseq QuickCheck quickcheck-transformer text
   ];
   description = "Fault injection for QuickCheck";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

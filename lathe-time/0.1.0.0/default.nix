@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring lathe time ];
   testHaskellDepends = [ base bytestring hspec lathe time ];
   description = "lathe + time";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
     time vector zlib zstd
   ];
   description = "Parquet reader and writer for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tbidne/gitrev-typed";
   description = "Compile git revision info into Haskell projects";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

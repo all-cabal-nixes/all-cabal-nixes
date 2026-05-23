@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/topagentnetwork/pgmq-hs";
   description = "Effectful effects for PGMQ (PostgreSQL Message Queue)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

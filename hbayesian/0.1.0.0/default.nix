@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/overshiki/hbayesian";
   description = "Composable Bayesian inference in Haskell on StableHLO/XLA";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

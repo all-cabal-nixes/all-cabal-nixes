@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ hspec quickcheck-classes rerebase ];
   doHaddock = false;
   description = "Flexible and simple path manipulation library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

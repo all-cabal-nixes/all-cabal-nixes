@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ domain rerebase ];
   homepage = "https://github.com/nikita-volkov/domain-optics";
   description = "Integration of domain with optics";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

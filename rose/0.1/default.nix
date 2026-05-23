@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck quickcheck-classes ];
   homepage = "https://github.com/chessai/rose";
   description = "rose trees";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

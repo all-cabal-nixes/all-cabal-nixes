@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/LeventErkok/sbvPlugin";
   description = "Formally prove properties of Haskell programs using SBV/SMT";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

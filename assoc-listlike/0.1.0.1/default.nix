@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base contravariant hedgehog ListLike ];
   homepage = "https://github.com/typeclasses/assoc-list";
   description = "Association lists (list-like collections of tuples)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

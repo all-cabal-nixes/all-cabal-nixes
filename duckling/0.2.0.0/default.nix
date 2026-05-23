@@ -27,5 +27,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/facebook/duckling#readme";
   description = "A Haskell library for parsing text into structured data";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

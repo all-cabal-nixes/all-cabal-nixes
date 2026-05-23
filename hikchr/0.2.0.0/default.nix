@@ -15,6 +15,6 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec text ];
   homepage = "https://github.com/ad-si/Hikchr#readme";
   description = "Haskell wrapper for Pikchr, a PIC-like markup language for diagrams";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hikchr";
 }

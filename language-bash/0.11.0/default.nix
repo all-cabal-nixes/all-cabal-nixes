@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/knrafto/language-bash/";
   description = "Parsing and pretty-printing Bash shell scripts";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

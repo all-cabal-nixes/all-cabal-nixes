@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring text ];
   homepage = "https://github.com/awkward-squad/park-bench";
   description = "A quick-and-dirty, low-friction benchmark tool with immediate feedback";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

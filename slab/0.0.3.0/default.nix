@@ -27,6 +27,6 @@ mkDerivation {
   ];
   homepage = "https://slab-lang.org";
   description = "A programmable markup language to generate HTML";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
   mainProgram = "slab";
 }

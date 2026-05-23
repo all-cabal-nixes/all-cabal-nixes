@@ -27,5 +27,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/alanz/lsp";
   description = "Haskell library for the Microsoft Language Server Protocol";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

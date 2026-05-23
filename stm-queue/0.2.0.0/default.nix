@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/SamuelSchlesinger/stm-queue";
   description = "An implementation of a real-time concurrent queue";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

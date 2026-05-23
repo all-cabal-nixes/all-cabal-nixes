@@ -9,5 +9,5 @@ mkDerivation {
     base bytebuild byteslice natural-arithmetic posix-api primitive
   ];
   description = "Fast logging";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

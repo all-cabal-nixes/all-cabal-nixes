@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ners/lsp-client/blob/master/README.md";
   description = "Haskell library for Language Server Protocol clients";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

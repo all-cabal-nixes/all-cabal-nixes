@@ -16,5 +16,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest ];
   homepage = "https://github.com/sellout/yaya#readme";
   description = "Total recursion schemes";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

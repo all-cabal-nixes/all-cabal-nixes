@@ -13,6 +13,6 @@ mkDerivation {
     base directory filepath process tasty tasty-hunit temporary
   ];
   description = "Haskell source code minifier for LLM token reduction";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "hsmin";
 }

@@ -23,5 +23,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/set-cover/";
   description = "Solve exact set cover problems like Sudoku, 8 Queens, Soma Cube, Tetris Cube";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

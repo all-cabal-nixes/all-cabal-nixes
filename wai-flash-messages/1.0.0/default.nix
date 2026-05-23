@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring cereal cereal-text text vault wai wai-session
   ];
   description = "Flash messages for wai apps";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

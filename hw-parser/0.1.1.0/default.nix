@@ -17,5 +17,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "http://github.com/haskell-works/hw-parser#readme";
   description = "Simple parser support";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

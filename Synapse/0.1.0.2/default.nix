@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base easyplot HUnit random ];
   homepage = "https://github.com/JktuJQ/Synapse";
   description = "Synapse is a machine learning library written in pure Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

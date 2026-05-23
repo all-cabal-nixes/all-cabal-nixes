@@ -9,5 +9,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ libucl ];
   testHaskellDepends = [ base containers ];
   description = "Datatype and parser for the Universal Configuration Language (UCL) using libucl";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

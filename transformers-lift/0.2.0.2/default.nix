@@ -7,5 +7,5 @@ mkDerivation {
     base transformers writer-cps-transformers
   ];
   description = "Ad-hoc type classes for lifting";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

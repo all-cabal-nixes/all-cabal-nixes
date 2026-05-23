@@ -8,5 +8,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/gregorycollins/hashtables";
   description = "Mutable hash tables in the ST monad";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

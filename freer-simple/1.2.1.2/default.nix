@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/lexi-lambda/freer-simple";
   description = "A friendly effect system for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "freer-simple-examples";
 }

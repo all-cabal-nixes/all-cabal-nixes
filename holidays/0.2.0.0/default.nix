@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/danielc777888/holidays";
   description = "Library for country public holidays";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

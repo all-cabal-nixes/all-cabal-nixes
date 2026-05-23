@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/chiasma#readme";
   description = "A tmux client for Polysemy";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

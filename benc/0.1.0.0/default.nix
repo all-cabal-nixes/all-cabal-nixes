@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/meooow25/benc";
   description = "Bencode encoding and decoding library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

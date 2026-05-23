@@ -14,6 +14,6 @@ mkDerivation {
     with-utf8
   ];
   description = "No frills releasing to Hackage";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "hackage-publish";
 }

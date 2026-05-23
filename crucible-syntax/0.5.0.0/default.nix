@@ -18,5 +18,5 @@ mkDerivation {
     parameterized-utils tasty tasty-golden tasty-hunit text what4
   ];
   description = "A syntax for reading and writing Crucible control-flow graphs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

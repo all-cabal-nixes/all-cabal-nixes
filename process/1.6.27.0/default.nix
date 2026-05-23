@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "ee9ef426d33560f3d06b237fbb8156c530c6b265cca8ef0c63abadb12769b693";
   libraryHaskellDepends = [ base deepseq directory filepath unix ];
   description = "Process libraries";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

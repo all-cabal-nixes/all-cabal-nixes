@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://wavewave.github.io/HROOT";
   description = "Haskell binding to ROOT Hist modules";
-  license = lib.licensesSpdx."LGPL-2.1-or-later";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-2.1-or-later";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Tritlo/duckdb-haskell";
   description = "Haskell FFI bindings for DuckDB";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

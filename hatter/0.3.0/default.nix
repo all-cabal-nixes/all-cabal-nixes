@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jappeace/hatter#readme";
   description = "Native IOS and Android applications in haskell!";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

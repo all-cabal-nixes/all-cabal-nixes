@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ rerebase tasty tasty-quickcheck ];
   homepage = "https://github.com/nikita-volkov/strict-list";
   description = "Strict linked list with stack-safe operations";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

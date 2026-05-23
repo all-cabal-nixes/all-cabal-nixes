@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base supply-chain-core ];
   homepage = "https://github.com/typeclasses/supply-chain";
   description = "Composable request-response pipelines";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -5,6 +5,8 @@ mkDerivation {
   pname = "parser-combinators-tests";
   version = "1.3.1";
   sha256 = "fbe174f7abfb3c52822b5c1d779ccc8d9a6404e72d72b40e71d1a15ac6ac63f6";
+  revision = "1";
+  editedCabalFile = "0ddbl466ddi7wgsmvv4klsqi0vwhp8s2g5qcv4ml2asi4jxbql6h";
   isLibrary = false;
   isExecutable = false;
   testHaskellDepends = [
@@ -14,5 +16,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/mrkkrp/parser-combinators";
   description = "Test suite of parser-combinators";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

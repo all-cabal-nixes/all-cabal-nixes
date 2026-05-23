@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base effectful hspec mtl validation ];
   homepage = "https://github.com/mastratisi/railroad";
   description = "A railway oriented mini-DSL for unified error handling";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

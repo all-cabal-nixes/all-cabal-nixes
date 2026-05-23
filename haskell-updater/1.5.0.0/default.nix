@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/gentoo-haskell/haskell-updater#readme";
   description = "Rebuild Haskell dependencies in Gentoo";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "haskell-updater";
 }

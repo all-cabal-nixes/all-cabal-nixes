@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl profunctors ];
   homepage = "https://github.com/mroman42/vitrea";
   description = "Profunctor optics via the profunctor representation theorem";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

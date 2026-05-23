@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://streamly.composewell.com";
   description = "Streamly compatibility with filepath package";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

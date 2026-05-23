@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base deepseq random tasty-bench ];
   homepage = "https://github.com/lspitzner/pqueue";
   description = "Reliable, persistent, fast priority queues";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

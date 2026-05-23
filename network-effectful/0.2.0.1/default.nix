@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring effectful-core network ];
   homepage = "https://github.com/Cajunvoodoo/network-effectful#readme";
   description = "Adaptation of the network library for the effectful ecosystem";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

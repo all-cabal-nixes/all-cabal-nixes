@@ -13,5 +13,5 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base HUnit megaparsec mtl ];
   description = "A parser combinator library for STIM quantum circuit files";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

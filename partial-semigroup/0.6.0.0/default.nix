@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog ];
   homepage = "https://github.com/typeclasses/partial-semigroup";
   description = "A partial binary associative operator";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -7,6 +7,6 @@ mkDerivation {
   isExecutable = true;
   executableHaskellDepends = [ base PortMidi ];
   description = "PortMidi utilities";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "portmidi-list-devices";
 }

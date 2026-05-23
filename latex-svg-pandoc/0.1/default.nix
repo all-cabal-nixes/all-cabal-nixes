@@ -14,6 +14,6 @@ mkDerivation {
   executableHaskellDepends = [ base latex-svg-image pandoc-types ];
   homepage = "http://github.com/phadej/latex-svg#readme";
   description = "Render LaTeX formulae in pandoc documents to images with an actual LaTeX";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "latex-svg-filter";
 }

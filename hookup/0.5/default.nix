@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/glguy/irc-core";
   description = "Abstraction over creating network connections with SOCKS5 and TLS";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

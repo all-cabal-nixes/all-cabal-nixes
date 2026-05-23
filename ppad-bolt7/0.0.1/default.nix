@@ -17,5 +17,5 @@ mkDerivation {
     base bytestring criterion deepseq ppad-bolt1 weigh
   ];
   description = "Routing gossip per BOLT #7";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -6,8 +6,8 @@ mkDerivation {
   pname = "megaparsec-tests";
   version = "9.7.0";
   sha256 = "61dd6c65f451748ccbe4b257482599b7f264379361ebec6a75d952e484f95c9e";
-  revision = "5";
-  editedCabalFile = "0hp2b0y95g1a2ydyk077idpzyd65bvxjd7qfpsjx90pahbf9d63s";
+  revision = "6";
+  editedCabalFile = "0qw2c04nl687z4wp7qby8kv1lw63vyz9jcxazzmnw4lzwapsizqp";
   libraryHaskellDepends = [
     base bytestring containers hspec hspec-megaparsec megaparsec mtl
     QuickCheck text transformers
@@ -19,5 +19,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/mrkkrp/megaparsec";
   description = "Test utilities and the test suite of Megaparsec";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

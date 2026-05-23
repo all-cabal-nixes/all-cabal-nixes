@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   doHaddock = false;
   description = "Converter to convert from .lhs to .md and vice versa.";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "lhsc";
 }

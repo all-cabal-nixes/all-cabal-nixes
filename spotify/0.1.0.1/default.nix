@@ -30,6 +30,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/georgefst/spotify";
   description = "Spotify Web API";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "examples";
 }

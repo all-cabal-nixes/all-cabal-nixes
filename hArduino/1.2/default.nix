@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "http://leventerkok.github.com/hArduino";
   description = "Control your Arduino board from Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

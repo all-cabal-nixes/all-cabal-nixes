@@ -17,5 +17,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ libjack2 ];
   homepage = "http://www.haskell.org/haskellwiki/JACK";
   description = "Bindings for the JACK Audio Connection Kit";
-  license = lib.licensesSpdx."GPL-2.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-only";
 }

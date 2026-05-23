@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/moffy#readme";
   description = "Monadic Functional Reactive Programming";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

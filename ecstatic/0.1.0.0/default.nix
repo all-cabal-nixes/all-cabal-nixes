@@ -8,6 +8,6 @@ mkDerivation {
   libraryHaskellDepends = [ base directory process ];
   executableHaskellDepends = [ base ];
   description = "Build \"as static as possible\" executable on Linux";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "ecstatic";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/georgefst/evdev";
   description = "Bridge for working with evdev and streamly";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

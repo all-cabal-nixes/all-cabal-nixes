@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/dschrempf/pava#readme";
   description = "Greatest convex majorants and least concave minorants";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec template-haskell ];
   homepage = "https://github.com/gtollini/io-embed#readme";
   description = "Use Template Haskell to embed the result of an IO computation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

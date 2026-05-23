@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck tasty tasty-quickcheck ];
   benchmarkHaskellDepends = [ base criterion ];
   description = "A native implementation of matrix operations";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

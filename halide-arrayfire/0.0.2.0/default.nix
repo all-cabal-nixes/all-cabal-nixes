@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ arrayfire base halide-haskell hspec ];
   homepage = "https://github.com/twesterhout/halide-haskell";
   description = "Integration between Halide and ArrayFire";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

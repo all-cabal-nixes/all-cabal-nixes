@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chessai/eigen";
   description = "Eigen C++ library (linear algebra: matrices, sparse matrices, vectors, numerical solvers)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

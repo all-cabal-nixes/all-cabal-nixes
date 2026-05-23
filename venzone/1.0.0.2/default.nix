@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "http://ariis.it/static/articles/venzone/page.html";
   description = "ASCII platform-adventure game";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "venzone";
 }

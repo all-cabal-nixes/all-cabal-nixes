@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jgm/unicode-collation";
   description = "Haskell implementation of the Unicode Collation Algorithm";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

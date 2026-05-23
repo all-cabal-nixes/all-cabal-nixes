@@ -14,5 +14,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/konn/path-tagged#readme";
   description = "A wrapper around the @path@ library, tagged with semantic name";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

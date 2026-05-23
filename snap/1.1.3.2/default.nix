@@ -32,5 +32,5 @@ mkDerivation {
   ];
   homepage = "http://snapframework.com/";
   description = "Top-level package for the Snap Web Framework";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

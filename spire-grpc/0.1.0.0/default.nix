@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "gRPC wire protocol for spire services";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

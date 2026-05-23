@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/cachix/stamina.hs";
   description = "Retries for humans";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "readme";
 }

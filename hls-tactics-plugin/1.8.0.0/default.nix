@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "84aabc0041264aa3114af65a16b67bf824edfb6192a717f1f362eba19b7c7d1a";
   homepage = "https://haskellwingman.dev";
   description = "Wingman plugin for Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

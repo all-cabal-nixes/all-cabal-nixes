@@ -16,5 +16,5 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base directory path sydtest ];
   description = "Generate nix expressions from horizon-spec definitions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

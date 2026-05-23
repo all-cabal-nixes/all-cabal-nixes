@@ -7,5 +7,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/exordium/impl#readme";
   description = "Framework for defaulting superclasses";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

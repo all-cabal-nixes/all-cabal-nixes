@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring ];
   homepage = "https://github.com/YoshikuniJujo/bitarray-bs#readme";
   description = "Bit array based on ByteString";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

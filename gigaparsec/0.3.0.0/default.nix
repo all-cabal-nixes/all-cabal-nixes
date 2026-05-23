@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base deepseq gauge ];
   homepage = "https://github.com/j-mie6/gigaparsec";
   description = "Refreshed parsec-style library for compatibility with Scala parsley";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/md5";
   description = "MD5 Hash";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

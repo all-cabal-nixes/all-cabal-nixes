@@ -6,6 +6,8 @@ mkDerivation {
   pname = "persistent-pagination";
   version = "0.1.1.2";
   sha256 = "b0b89b80516702da271d18e9e8d5785b5ce531b0bfe6b3a83e537199094be89a";
+  revision = "1";
+  editedCabalFile = "05nsc0fiiv1g6222b48mgzqgl85xq2yrsg0spk12367qr73g9dhy";
   libraryHaskellDepends = [
     base conduit esqueleto foldl microlens mtl persistent
   ];

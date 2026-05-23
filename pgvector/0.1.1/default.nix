@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base postgresql-simple ];
   homepage = "https://github.com/pgvector/pgvector-haskell";
   description = "pgvector support for Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

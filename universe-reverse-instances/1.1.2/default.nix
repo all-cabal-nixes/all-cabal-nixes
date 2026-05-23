@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers universe-base ];
   homepage = "https://github.com/dmwit/universe";
   description = "Instances of standard classes that are made possible by enumerations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

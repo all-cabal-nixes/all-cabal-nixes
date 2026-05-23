@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.utc.fr/gsabbagh/FiniteCategories";
   description = "Finite categories and usual categorical constructions on them";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

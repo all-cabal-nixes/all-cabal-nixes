@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/quantification#readme";
   description = "Rage against the quantification";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

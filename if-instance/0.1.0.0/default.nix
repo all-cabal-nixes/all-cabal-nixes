@@ -8,5 +8,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/sheaf/if-instance";
   description = "Branch on whether a constraint is satisfied";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

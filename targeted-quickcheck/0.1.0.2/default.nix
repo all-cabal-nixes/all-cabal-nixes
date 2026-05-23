@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base containers hspec QuickCheck ];
   homepage = "https://github.com/pbv/targeted-quickcheck/";
   description = "Targeted generators for QuickCheck";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

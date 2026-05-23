@@ -15,6 +15,6 @@ mkDerivation {
   ];
   testHaskellDepends = [ base bytestring hspec hspec-core text ];
   description = "Manage the application of templates to custom yaml";
-  license = lib.licensesSpdx."GPL-2.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-only";
   mainProgram = "specup";
 }

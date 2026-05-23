@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "6b8354d0e0137de3cf33d8e5271db233515347ffdf0bf50a434c163547e8fde8";
   libraryHaskellDepends = [ base directory ghc time ];
   description = "Dump the ghc flags during compilation";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

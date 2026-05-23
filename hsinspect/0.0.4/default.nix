@@ -14,6 +14,6 @@ mkDerivation {
     base containers directory ghc ghc-boot ghc-paths time
   ];
   description = "Inspect Haskell source files";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "hsinspect";
 }

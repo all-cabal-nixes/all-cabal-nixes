@@ -18,5 +18,5 @@ mkDerivation {
   testToolDepends = [ alex ];
   homepage = "https://github.com/phadej/sasha";
   description = "A staged lexer generator";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

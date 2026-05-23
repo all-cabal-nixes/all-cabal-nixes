@@ -26,5 +26,5 @@ mkDerivation {
     tasty tasty-expected-failure tasty-hunit tasty-rerun text text-rope
   ];
   description = "Exactprint refactorings for Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

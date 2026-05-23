@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring Diff tasty tasty-golden ];
   homepage = "https://github.com/tonyday567/markup-parse#readme";
   description = "A markup parser";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

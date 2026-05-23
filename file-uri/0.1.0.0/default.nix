@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring tasty tasty-hunit ];
   benchmarkHaskellDepends = [ base tasty-bench ];
   description = "File URI parsing";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

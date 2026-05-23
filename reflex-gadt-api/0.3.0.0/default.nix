@@ -17,6 +17,6 @@ mkDerivation {
     reflex-dom-core text time
   ];
   description = "Interact with a GADT API in your reflex-dom application";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "readme";
 }

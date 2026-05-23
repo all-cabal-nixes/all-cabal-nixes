@@ -18,5 +18,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/arbor/arbor-monad-metric#readme";
   description = "Core metric library for publishing metrics";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

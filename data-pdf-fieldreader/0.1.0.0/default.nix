@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ScottSedgwick/Data.Pdf.FieldReader";
   description = "Read PDF form fields";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "pdfreader";
 }

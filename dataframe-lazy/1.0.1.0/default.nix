@@ -13,5 +13,5 @@ mkDerivation {
     dataframe-parsing directory filepath Glob stm temporary text vector
   ];
   description = "Lazy query engine for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

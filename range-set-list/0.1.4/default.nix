@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/range-set-list#readme";
   description = "Memory efficient sets with ranges of elements";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

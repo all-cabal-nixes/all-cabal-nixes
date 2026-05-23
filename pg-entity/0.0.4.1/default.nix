@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://tchoutri.github.io/pg-entity";
   description = "A pleasant PostgreSQL layer";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl poly-rec requirements ];
   testHaskellDepends = [ base poly-rec requirements ];
   description = "First-class Attribute Grammars implemented using type-level programming";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
 }

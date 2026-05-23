@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jappeace/haskell-unwitch-project#readme";
   description = "converts between primitives";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

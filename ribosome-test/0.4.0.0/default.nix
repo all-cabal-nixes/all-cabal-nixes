@@ -31,5 +31,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/ribosome#readme";
   description = "test helpers for ribosome";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/yaitskov/add-dependent-file";
   description = "Safer TH addDependentFile wrapper";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

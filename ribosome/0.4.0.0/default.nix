@@ -28,5 +28,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/ribosome#readme";
   description = "api extensions for nvim-hs";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

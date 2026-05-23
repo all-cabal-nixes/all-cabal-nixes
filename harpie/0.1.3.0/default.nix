@@ -18,6 +18,6 @@ mkDerivation {
   testHaskellDepends = [ base doctest-parallel ];
   homepage = "https://github.com/tonyday567/harpie#readme";
   description = "Haskell array programming";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "harpie-bug-issue1";
 }

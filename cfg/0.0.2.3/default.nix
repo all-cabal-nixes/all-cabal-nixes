@@ -19,5 +19,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/JonathanLorimer/cfg#readme";
   description = "Type directed application configuration parsing and accessors";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

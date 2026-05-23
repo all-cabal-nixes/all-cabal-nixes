@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest numhask-prelude ];
   homepage = "https://github.com/tonyday567/online-csv#readme";
   description = "See readme.md";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://haskell-distributed.github.io/";
   description = "Cloud Haskell: Erlang-style concurrency in Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

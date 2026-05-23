@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base containers gigaparsec hspec text ];
   homepage = "https://github.com/MMZK1526/mmzk-env";
   description = "Read environment variables into a user-defined data type";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

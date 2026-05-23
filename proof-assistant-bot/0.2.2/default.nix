@@ -16,6 +16,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/swamp-agr/proof-assistant-bot/";
   description = "Telegram bot for proof assistants";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "proof-assistant-bot";
 }

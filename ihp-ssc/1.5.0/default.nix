@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://ihp.digitallyinduced.com/";
   description = "Server Side Components for IHP";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

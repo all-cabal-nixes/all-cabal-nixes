@@ -39,6 +39,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "http://github.com/yaitskov/a-piece-of-flake";
   description = "Nix flake repository for everyone";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "a-piece-of-flake";
 }

@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/nomeata/cabal-plan-bounds";
   description = "Derives cabal bounds from build plans";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
   mainProgram = "cabal-plan-bounds";
 }

@@ -11,6 +11,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/UnaryPlus/unique";
   description = "Esoteric programming language where each number can only appear once";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "unique";
 }

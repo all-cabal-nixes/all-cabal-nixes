@@ -17,6 +17,6 @@ mkDerivation {
     filepath HDBC HDBC-sqlite3 MissingH tasty tasty-hunit
   ];
   description = "Count mailboxes in a SQL database";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "mailbox-count";
 }

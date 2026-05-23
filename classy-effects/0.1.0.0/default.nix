@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   testToolDepends = [ tasty-discover ];
   description = "An interface for a handler-independent, typeclass-based effect system";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

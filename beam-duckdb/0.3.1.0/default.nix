@@ -18,5 +18,5 @@ mkDerivation {
     tasty-hedgehog tasty-hunit temporary text time uuid-types
   ];
   description = "DuckDB backend for Beam";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

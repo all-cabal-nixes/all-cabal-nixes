@@ -11,5 +11,5 @@ mkDerivation {
     dataframe-parsing template-haskell text vector
   ];
   description = "Record-based Template Haskell splices for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

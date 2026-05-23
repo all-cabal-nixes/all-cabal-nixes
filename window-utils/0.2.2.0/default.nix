@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/georgefst/window-utils";
   description = "OS window icon/name utilities";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

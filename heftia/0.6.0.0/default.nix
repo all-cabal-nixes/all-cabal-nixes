@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   testToolDepends = [ tasty-discover ];
   description = "higher-order algebraic effects done right";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

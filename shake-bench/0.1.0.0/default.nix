@@ -10,5 +10,5 @@ mkDerivation {
     extra filepath shake text
   ];
   description = "Build rules for historical benchmarking";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

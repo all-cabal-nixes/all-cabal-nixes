@@ -24,5 +24,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "Effectful effects for hw-kafka-client";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

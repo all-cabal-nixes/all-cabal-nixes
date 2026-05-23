@@ -17,6 +17,6 @@ mkDerivation {
     Kawaii-Parser lens mtl process transformers
   ];
   description = "A simple music library that can generate Lilypond and MIDI files";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "Aoide";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ad-si/Brillo";
   description = "Examples using the Brillo library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

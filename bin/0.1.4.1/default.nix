@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/vec";
   description = "Bin: binary natural numbers";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
 }

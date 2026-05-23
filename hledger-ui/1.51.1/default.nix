@@ -23,6 +23,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "http://hledger.org";
   description = "Terminal interface for the hledger accounting system";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "hledger-ui";
 }

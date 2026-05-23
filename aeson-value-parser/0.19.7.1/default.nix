@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sannsyn/aeson-value-parser";
   description = "API for parsing \"aeson\" JSON tree into Haskell types";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

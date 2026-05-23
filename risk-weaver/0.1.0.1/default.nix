@@ -16,6 +16,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base ];
   description = "A DSL for Risk-oriented Object Detection Requirements";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "risk-weaver-exe";
 }

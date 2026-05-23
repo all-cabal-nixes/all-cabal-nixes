@@ -17,5 +17,5 @@ mkDerivation {
     tasty-hunit text
   ];
   description = "Cabal integration plugin with Haskell Language Server";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

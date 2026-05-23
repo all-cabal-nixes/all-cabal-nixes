@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "http://docs.servant.dev/";
   description = "Servant Stream support for pipes";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

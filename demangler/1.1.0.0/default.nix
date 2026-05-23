@@ -17,6 +17,6 @@ mkDerivation {
     transformers
   ];
   description = "Demangler for C++ mangled names";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "demangle";
 }

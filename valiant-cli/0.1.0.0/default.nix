@@ -22,6 +22,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/joshburgess/valiant";
   description = "Compile-time checked SQL for Haskell: CLI tool";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "valiant";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base ];
   description = "Propagate HasCallStack with constraints";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jamesthompson/dvv";
   description = "Dotted Version Vectors (DVV)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

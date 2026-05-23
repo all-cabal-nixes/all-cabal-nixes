@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sheyll/newtype-zoo";
   description = "Newtype Wrapper Zoo";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

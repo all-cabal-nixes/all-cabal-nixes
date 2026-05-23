@@ -13,5 +13,5 @@ mkDerivation {
     JuicyPixels lens linear mtl scientific text transformers vector xml
   ];
   description = "SVG file loader and serializer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

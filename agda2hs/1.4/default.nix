@@ -15,6 +15,6 @@ mkDerivation {
     unordered-containers yaml
   ];
   description = "Compiling Agda code to readable Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "agda2hs";
 }

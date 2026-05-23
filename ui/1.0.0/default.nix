@@ -8,6 +8,6 @@ mkDerivation {
   libraryHaskellDepends = [ base vector ];
   executableHaskellDepends = [ base ];
   description = "Minimalistic console UI (getLine), arrow key support (edit, browse cmd history)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "example";
 }

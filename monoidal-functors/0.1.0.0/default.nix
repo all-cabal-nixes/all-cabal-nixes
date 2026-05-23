@@ -10,5 +10,5 @@ mkDerivation {
     tagged these
   ];
   homepage = "http://github.com/ssbothwell/monoidal-functors";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

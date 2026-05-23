@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mordae/snack#readme";
   description = "Strict ByteString Parser Combinator";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

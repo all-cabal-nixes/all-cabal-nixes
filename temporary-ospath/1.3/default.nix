@@ -13,5 +13,5 @@ mkDerivation {
     base directory file-io filepath os-string tasty tasty-hunit unix
   ];
   description = "Portable temporary file and directory support";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

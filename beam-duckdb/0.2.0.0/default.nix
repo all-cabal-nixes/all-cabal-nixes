@@ -17,5 +17,5 @@ mkDerivation {
     tasty-hunit text time
   ];
   description = "DuckDB backend for Beam";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/odanoburu/hs-conllu";
   description = "Conllu validating parser and utils";
-  license = lib.licensesSpdx."LGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-3.0-only";
   mainProgram = "hs-conllu";
 }

@@ -16,5 +16,5 @@ mkDerivation {
     sop-core tasty tasty-hunit tasty-quickcheck
   ];
   description = "Generic programming API for large-records and large-anon";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

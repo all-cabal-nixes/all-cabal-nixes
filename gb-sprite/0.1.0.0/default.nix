@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring vector ];
   homepage = "https://github.com/Gondola-Bros-Entertainment/gb-sprite";
   description = "Procedural 2D sprite and VFX generation for GB games";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

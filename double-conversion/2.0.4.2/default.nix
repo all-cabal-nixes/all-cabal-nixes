@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/double-conversion";
   description = "Fast conversion between single and double precision floating point and text";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

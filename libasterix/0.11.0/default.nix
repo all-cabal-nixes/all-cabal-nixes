@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/zoranbosnjak/asterix-libs/tree/main/libs/haskell";
   description = "Asterix data processing library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

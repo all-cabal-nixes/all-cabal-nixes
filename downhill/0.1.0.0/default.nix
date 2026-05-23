@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit vector-space ];
   homepage = "https://andriusstank.github.io/downhill/";
   description = "Reverse mode automatic differentiation";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

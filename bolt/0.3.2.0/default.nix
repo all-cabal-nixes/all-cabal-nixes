@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/bflyblue/bolt#readme";
   description = "Bolt driver for Neo4j";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

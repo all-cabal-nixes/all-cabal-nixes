@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base deepseq hashable ];
   testHaskellDepends = [ base tasty tasty-hunit ];
   description = "A binding to the libBF library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

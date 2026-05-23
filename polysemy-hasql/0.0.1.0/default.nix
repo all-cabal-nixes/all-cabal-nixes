@@ -17,5 +17,5 @@ mkDerivation {
     polysemy-plugin polysemy-test prelate sqel tasty uuid vector zeugma
   ];
   description = "Polysemy effects for databases";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

@@ -17,5 +17,5 @@ mkDerivation {
     transformers unix unordered-containers
   ];
   description = "Parser combinators statically optimized and staged via typed meta-programming";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

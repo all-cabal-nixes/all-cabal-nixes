@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/xquantxz/nekos-best.hs";
   description = "Unofficial nekos.best API wrapper";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

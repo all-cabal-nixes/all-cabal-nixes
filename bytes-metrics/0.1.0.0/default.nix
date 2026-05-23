@@ -14,5 +14,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base byteslice gauge random ];
   homepage = "https://github.com/byteverse/bytes-metrics";
   description = "Calculate string metrics on Bytes efficiently";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

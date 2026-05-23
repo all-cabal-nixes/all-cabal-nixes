@@ -19,6 +19,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base tasty tasty-bench ];
   homepage = "https://github.com/threeeyedgod/grfn#readme";
   description = "Uniformly-random pre-factored numbers (Kalai)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "grfn-exe";
 }

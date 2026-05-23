@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/patrickt/flexible-numeric-parsers";
   description = "Flexible numeric parsers for real-world programming languages";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

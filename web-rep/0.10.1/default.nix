@@ -21,6 +21,6 @@ mkDerivation {
     base box lucid optics-core optparse-applicative text
   ];
   description = "representations of a web page";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "web-rep-example";
 }

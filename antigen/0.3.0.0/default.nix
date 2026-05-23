@@ -17,5 +17,5 @@ mkDerivation {
     base criterion QuickCheck quickcheck-transformer
   ];
   description = "Fault injection for QuickCheck";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

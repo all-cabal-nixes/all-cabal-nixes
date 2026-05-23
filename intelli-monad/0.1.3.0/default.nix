@@ -28,5 +28,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/junjihashimoto/intelli-monad";
   description = "Type level prompt with LLMs via louter";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/dmjio/miso";
   description = "A tasty Haskell front-end web framework";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/nikita-volkov/xml-types-content";
   description = "Utilities for dealing with Content-values of \"xml-types\"";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   testSystemDepends = [ z3 ];
   homepage = "https://github.com/ucsd-progsys/liquidhaskell";
   description = "Liquid Types for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

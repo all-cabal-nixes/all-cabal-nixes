@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ff-notes/ron";
   description = "RON Storage";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/obsidiansystems/dependent-map";
   description = "Dependent finite maps (partial dependent products)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

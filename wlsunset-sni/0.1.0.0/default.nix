@@ -14,6 +14,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base hslogger optparse-applicative ];
   description = "StatusNotifierItem tray icon for controlling wlsunset";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "wlsunset-sni";
 }

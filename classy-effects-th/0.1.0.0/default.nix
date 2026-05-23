@@ -15,5 +15,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "Automatic compliance with the classy-effects protocols";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

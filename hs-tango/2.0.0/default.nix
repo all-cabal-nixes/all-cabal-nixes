@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pmiddend/hs-tango";
   description = "Bindings to the Tango Controls system";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

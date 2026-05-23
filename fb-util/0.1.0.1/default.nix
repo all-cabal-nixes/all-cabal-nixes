@@ -36,5 +36,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/facebookincubator/hsthrift";
   description = "Various utility libraries";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

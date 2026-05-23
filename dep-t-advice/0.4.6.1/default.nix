@@ -16,5 +16,5 @@ mkDerivation {
     transformers
   ];
   description = "Giving good advice to functions in a DepT environment";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/github.com:andrewufrank/uniform-strings.git#readme";
   description = "Manipulate and convert strings of characters uniformly and consistently";
-  license = lib.licensesSpdx."GPL-2.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-only";
 }

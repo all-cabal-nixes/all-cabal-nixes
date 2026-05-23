@@ -23,5 +23,5 @@ mkDerivation {
     zeugma
   ];
   description = "Account management with Servant and Polysemy";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

@@ -27,6 +27,6 @@ mkDerivation {
     text transformers
   ];
   description = "Parse and render JSON";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "argo";
 }

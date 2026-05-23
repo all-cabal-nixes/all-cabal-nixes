@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/brendanhay/amazonka";
   description = "Amazon Cognito Identity Provider SDK";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

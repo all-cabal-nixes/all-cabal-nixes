@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ attoparsec base bytestring hspec text ];
   homepage = "https://github.com/gtollini/wkt-types#readme";
   description = "A library for working with .wkt files.";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,6 +13,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base lens minilight mtl ];
   description = "A binding library of minilight for Lua langauge";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "example";
 }

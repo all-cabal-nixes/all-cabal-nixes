@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/dschrempf/elynx#readme";
   description = "Tools for ELynx";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

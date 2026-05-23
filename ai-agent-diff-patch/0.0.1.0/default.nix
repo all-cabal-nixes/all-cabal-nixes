@@ -23,5 +23,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/phoityne/ai-agent-diff-patch";
   description = "Unified diff generation and fuzzy patch application for AI agents";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

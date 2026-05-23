@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "http://repetae.net/computer/frisby/";
   description = "Linear time composable parser for PEG grammars";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

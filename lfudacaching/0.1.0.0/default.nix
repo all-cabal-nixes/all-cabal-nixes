@@ -15,6 +15,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base tasty-bench ];
   homepage = "https://github.com/philippedev101/lfudacache#readme";
   description = "Pure LFUDA, GDSF, and LFU cache implementations";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "lfuda-demo";
 }

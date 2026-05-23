@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/small-bytearray-builder";
   description = "Serialize to a small byte arrays";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base fourmolu miso text ];
   description = "Convert HTML to miso View syntax";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

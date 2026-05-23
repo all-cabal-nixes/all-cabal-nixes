@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "16kfqbv941xwzxgcapvh2ak7qbcb32diiwpcj5a48hq84flccd73";
   libraryHaskellDepends = [ base containers ];
   description = "Commutative semigroups";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -20,5 +20,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytehash compact criterion text ];
   homepage = "https://github.com/byteverse/country";
   description = "Country data type and functions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

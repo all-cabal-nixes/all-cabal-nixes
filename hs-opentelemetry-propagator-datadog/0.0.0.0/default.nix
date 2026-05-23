@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/iand675/hs-opentelemetry";
   description = "Datadog Propagator for OpenTelemetry";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

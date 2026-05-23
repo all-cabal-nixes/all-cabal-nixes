@@ -17,5 +17,5 @@ mkDerivation {
   libraryToolDepends = [ c2hs ];
   homepage = "https://github.com/georgefst/evdev";
   description = "Bindings to libevdev";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

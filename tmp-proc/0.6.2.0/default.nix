@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/adetokunbo/tmp-proc/tree/master/tmp-proc#tmp-proc";
   description = "Run 'tmp' processes in integration tests";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

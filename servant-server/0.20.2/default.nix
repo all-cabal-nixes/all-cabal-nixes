@@ -31,6 +31,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://docs.servant.dev/";
   description = "A family of combinators for defining webservices APIs and serving them";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "greet";
 }

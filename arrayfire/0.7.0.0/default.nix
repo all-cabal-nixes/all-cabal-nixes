@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/arrayfire/arrayfire-haskell";
   description = "Haskell bindings to the ArrayFire general-purpose GPU library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

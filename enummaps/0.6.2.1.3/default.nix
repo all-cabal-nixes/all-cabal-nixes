@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "d9e400f8a4402a4c69ba716d285ea73c7b0594748d82d0325b0d86478502264e";
   libraryHaskellDepends = [ base containers deepseq ];
   description = "Enum wrappers for IntMap and IntSet";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/AnthonySuper/jordan";
   description = "Servant Client Instances for Jordan Servant Types";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

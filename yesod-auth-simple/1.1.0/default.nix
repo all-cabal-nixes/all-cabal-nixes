@@ -34,6 +34,6 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "Traditional email/pass auth for Yesod";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "yesod-auth-simple-test";
 }

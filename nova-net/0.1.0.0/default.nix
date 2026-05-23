@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring criterion deepseq ];
   homepage = "https://github.com/Novavero-AI/nova-net";
   description = "General-purpose reliable UDP with C99 hot path and Haskell protocol logic";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

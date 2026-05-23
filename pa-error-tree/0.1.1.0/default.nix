@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers pa-prelude ];
   homepage = "https://github.com/possehl-analytics/pa-hackage";
   description = "Collect a tree of errors and pretty-print";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

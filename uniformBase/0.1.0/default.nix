@@ -10,5 +10,5 @@ mkDerivation {
     uniform-time
   ];
   description = "A uniform base to build apps on";
-  license = lib.licensesSpdx."GPL-2.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-only";
 }

@@ -18,6 +18,6 @@ mkDerivation {
   testHaskellDepends = [ aeson base bytestring tasty tasty-hunit ];
   homepage = "https://github.com/softwarefactory-project/zuul-haskell#readme";
   description = "A zuul client library";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "zuul-cli";
 }

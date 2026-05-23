@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover proto-lens-protoc ];
   homepage = "https://git.sr.ht/~rhizomic/pg-query";
   description = "Parse PostgreSQL DDL and DML: Haskell bindings for libpg_query";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

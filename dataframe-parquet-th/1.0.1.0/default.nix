@@ -11,5 +11,5 @@ mkDerivation {
     directory filepath Glob template-haskell text
   ];
   description = "Parquet-file-based Template Haskell splices for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

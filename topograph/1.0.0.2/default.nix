@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/topograph";
   description = "Directed acyclic graphs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

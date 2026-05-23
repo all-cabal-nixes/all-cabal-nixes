@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://hackage.haskell.org/package/network-simple-wss";
   description = "Simple interface to TLS secured WebSockets";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

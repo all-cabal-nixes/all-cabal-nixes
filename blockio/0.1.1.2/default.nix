@@ -16,5 +16,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Perform batches of disk I/O operations";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

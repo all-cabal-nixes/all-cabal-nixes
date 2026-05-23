@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/strict-list";
   description = "Strict linked list";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

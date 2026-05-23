@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base halide-haskell hspec JuicyPixels ];
   homepage = "https://github.com/twesterhout/halide-haskell";
   description = "Integration between Halide and JuicyPixels";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

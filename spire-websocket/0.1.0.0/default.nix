@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "Linear session-typed WebSocket protocols for spire";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/lyokha/x509-ocsp";
   description = "Basic X509 OCSP implementation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

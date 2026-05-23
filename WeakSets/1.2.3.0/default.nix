@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://gitlab.utc.fr/gsabbagh/sets";
   description = "Simple set types. Useful to create sets of arbitrary types and nested sets.";
-  license = lib.licensesSpdx."LGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-3.0-or-later";
 }

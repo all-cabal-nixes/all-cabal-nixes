@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base containers hspec HUnit libressl ];
   homepage = "https://github.com/cartazio/libressl-hs";
   description = "libtls bindings";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

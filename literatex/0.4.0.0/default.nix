@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ExtremaIS/literatex-haskell#readme";
   description = "transform literate source code to Markdown";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "literatex";
 }

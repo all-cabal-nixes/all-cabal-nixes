@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1jcn5b4i0qns9r79q62dvvaisbcj0y7ig6kbylwr4mi130gzjwpg";
   libraryHaskellDepends = [ base haskell-src-meta template-haskell ];
   description = "String Interpolation of Haskell expressions using #{expr} syntax";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

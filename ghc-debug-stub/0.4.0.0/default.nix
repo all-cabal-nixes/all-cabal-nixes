@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.haskell.org/ghc/ghc-debug";
   description = "Functions for instrumenting your application so the heap can be analysed with ghc-debug-common";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

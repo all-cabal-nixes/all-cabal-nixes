@@ -13,5 +13,5 @@ mkDerivation {
     text time
   ];
   description = "JSON Feed";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

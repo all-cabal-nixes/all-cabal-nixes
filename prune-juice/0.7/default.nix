@@ -27,6 +27,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/dfithian/prune-juice#readme";
   description = "Prune unused Haskell dependencies";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "prune-juice";
 }

@@ -31,5 +31,5 @@ mkDerivation {
     polysemy tasty-bench time unbounded-delays unliftio
   ];
   description = "higher-order effects done right";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

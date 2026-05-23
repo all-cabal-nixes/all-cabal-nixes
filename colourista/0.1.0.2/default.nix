@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec text ];
   homepage = "https://github.com/kowainik/colourista";
   description = "Convenient interface for printing colourful messages";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

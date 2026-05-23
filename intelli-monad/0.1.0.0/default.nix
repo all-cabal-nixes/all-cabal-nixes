@@ -22,5 +22,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "Type level prompt with openai";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

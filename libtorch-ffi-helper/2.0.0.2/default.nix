@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Helpers for integrating libtorch-ffi with Hasktorch";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

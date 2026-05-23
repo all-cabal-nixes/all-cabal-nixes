@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/polysemy-log#readme";
   description = "Polysemy Effects for Logging";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

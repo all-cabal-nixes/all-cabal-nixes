@@ -23,6 +23,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/haskell-works/hw-mquery#readme";
   description = "Monadic query DSL";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hw-mquery-example";
 }

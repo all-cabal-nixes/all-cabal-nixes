@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/doctest-exitcode-stdio/";
   description = "Run doctest's in a Cabal.Test.exitcode-stdio environment";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

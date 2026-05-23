@@ -17,5 +17,5 @@ mkDerivation {
     polysemy-test prelate sqel tasty
   ];
   description = "Test utilities for polysemy-hasql";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

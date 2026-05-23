@@ -19,6 +19,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/mniip/cabal-matrix";
   description = "Matrix builds for cabal";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "cabal-matrix";
 }

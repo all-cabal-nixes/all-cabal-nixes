@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/jcranch/mantissa#readme";
   description = "Reals in the interval [0,1), as machine words";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

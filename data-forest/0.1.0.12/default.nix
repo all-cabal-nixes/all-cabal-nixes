@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/typeclasses/data-forest";
   description = "A simple multi-way tree data structure";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

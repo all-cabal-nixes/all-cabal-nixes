@@ -23,5 +23,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover markdown-unlit ];
   homepage = "https://github.com/haskell-servant/servant/tree/master/servant-auth#readme";
   description = "servant-server/servant-auth compatibility";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

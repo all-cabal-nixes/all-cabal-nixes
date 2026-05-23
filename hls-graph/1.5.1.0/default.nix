@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/haskell-language-server#readme";
   description = "Haskell Language Server internal graph API";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

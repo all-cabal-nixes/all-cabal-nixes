@@ -6,5 +6,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/hasufell/lzma-static";
   description = "LZMA/XZ clibs";
-  license = lib.licensesSpdx."0BSD";
+  license = lib.meta.getLicenseFromSpdxId "0BSD";
 }

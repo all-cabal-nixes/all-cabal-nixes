@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/aloussase/aws-academy-grade-exporter-hs";
   description = "Export grades from AWS Academy to different formats";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "aws-academy-grade-exporter";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bluefin random ];
   homepage = "https://github.com/tomjaguarpaw/bluefin";
   description = "The Bluefin effect system, random generators";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

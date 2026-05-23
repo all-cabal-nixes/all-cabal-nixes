@@ -17,5 +17,5 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "JSON support for monoidmap";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

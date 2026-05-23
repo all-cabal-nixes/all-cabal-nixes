@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://ymonad.org";
   description = "The Wayland Yutani-Monad";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

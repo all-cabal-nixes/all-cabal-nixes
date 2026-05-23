@@ -8,6 +8,6 @@ mkDerivation {
   libraryHaskellDepends = [ base GLFW-b unix ];
   executableHaskellDepends = [ base GLFW-b ];
   description = "WGPU Raw";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "triangle";
 }

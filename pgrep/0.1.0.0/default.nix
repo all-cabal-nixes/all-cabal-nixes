@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Ace-Interview-Prep/pgrep";
   description = "grep-like CLI using Parsec parsers instead of regex";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "pgrep";
 }

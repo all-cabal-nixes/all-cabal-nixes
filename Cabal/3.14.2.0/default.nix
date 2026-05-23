@@ -16,5 +16,5 @@ mkDerivation {
   doCheck = false;
   homepage = "http://www.haskell.org/cabal/";
   description = "A framework for packaging Haskell software";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

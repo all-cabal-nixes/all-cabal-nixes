@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/shinzui/pgmq-hs";
   description = "PGMQ schema migrations without PostgreSQL extension";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base http-types ihp wai zip-archive ];
   homepage = "https://ihp.digitallyinduced.com/";
   description = "Support for making ZIP archives with IHP";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

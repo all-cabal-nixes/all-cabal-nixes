@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0n7ba0gwaxpsknb5kxpis7ji9172xvim63di83gl63avp0sjdwd5";
   libraryHaskellDepends = [ base containers ghc-prim rts ];
   description = "Functions for walking GHC's heap";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
     base fin QuickCheck tasty tasty-hunit tasty-quickcheck vec
   ];
   description = "Pure implementation of tensors, for use in tests";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

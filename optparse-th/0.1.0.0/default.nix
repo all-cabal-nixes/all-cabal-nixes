@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/MercuryTechnologies/optparse-th#readme";
   description = "Like `optparse-generic`, but with `TemplateHaskell` for faster builds";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

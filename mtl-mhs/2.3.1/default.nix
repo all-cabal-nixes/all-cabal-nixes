@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base transformers ];
   homepage = "http://github.com/augustss/mtl-mhs";
   description = "Monad classes for transformers, using functional dependencies";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

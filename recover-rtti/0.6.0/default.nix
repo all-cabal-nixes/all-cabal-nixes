@@ -16,5 +16,5 @@ mkDerivation {
     vector
   ];
   description = "Recover run-time type information from the GHC heap";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

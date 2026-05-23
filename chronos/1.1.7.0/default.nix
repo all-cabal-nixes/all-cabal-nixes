@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/chronos";
   description = "A high-performance time library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

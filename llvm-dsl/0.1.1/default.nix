@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://wiki.haskell.org/LLVM";
   description = "Support for writing an EDSL with LLVM-JIT as target";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

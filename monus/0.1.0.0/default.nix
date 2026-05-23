@@ -10,5 +10,5 @@ mkDerivation {
     base containers smallcheck tasty tasty-quickcheck tasty-smallcheck
   ];
   homepage = "https://github.com/andrewthad/monus#readme";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

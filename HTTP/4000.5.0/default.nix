@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/HTTP";
   description = "A library for client-side HTTP";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/stm-hamt";
   description = "STM-specialised Hash Array Mapped Trie";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

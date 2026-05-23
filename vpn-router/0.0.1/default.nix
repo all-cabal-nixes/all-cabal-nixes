@@ -25,6 +25,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "http://github.com/yaitskov/vpn-router";
   description = "Switch VPN with web interface for LAN";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "vpn-router";
 }

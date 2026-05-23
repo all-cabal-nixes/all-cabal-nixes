@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "http://haskell-distributed.github.com";
   description = "Like Data.Dynamic/Data.Typeable but with support for rank-1 polymorphic types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

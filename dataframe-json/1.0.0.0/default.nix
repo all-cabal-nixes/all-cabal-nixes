@@ -10,5 +10,5 @@ mkDerivation {
     dataframe-operations scientific text vector
   ];
   description = "JSON reader and writer for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

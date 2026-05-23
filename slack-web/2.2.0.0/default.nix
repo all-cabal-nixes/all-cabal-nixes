@@ -34,5 +34,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/MercuryTechnologies/slack-web";
   description = "Bindings for the Slack web API";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

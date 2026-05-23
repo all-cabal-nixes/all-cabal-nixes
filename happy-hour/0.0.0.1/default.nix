@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base Chart Chart-diagrams ];
   homepage = "https://typeclasses.github.io/happy-hour/";
   description = "Generate simple okay-looking bar plots without much effort";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

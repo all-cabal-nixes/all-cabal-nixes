@@ -71,5 +71,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/facebookincubator/Glean";
   description = "A system for collecting, deriving and working with facts about source code";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

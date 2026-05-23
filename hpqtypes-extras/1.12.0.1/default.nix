@@ -22,5 +22,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base deepseq tasty-bench ];
   homepage = "https://github.com/scrive/hpqtypes-extras";
   description = "Extra utilities for hpqtypes library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

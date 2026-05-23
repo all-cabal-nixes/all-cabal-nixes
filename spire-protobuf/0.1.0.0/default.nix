@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "Minimal Protocol Buffers for Haskell, no codegen";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck ];
   homepage = "https://github.com/sw17ch/data-clist";
   description = "Simple functional ring type";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

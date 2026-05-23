@@ -10,5 +10,5 @@ mkDerivation {
     pandoc-types relude xmlhtml
   ];
   description = "Extra heist functionality";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

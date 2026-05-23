@@ -16,5 +16,5 @@ mkDerivation {
     witherable
   ];
   homepage = "https://github.com/morphismtech/distributors#readme";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

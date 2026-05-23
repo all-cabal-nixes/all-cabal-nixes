@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base time ];
   testHaskellDepends = [ base ];
   description = "Reasonably robust sorting in O(n log n) time";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "tensort";
 }

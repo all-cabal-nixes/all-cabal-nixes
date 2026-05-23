@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/fixed-length/";
   description = "Lists with statically known length based on non-empty package";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

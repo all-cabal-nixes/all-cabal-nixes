@@ -8,5 +8,5 @@ mkDerivation {
     base containers ghc-internal ghc-prim rts
   ];
   description = "Functions for walking GHC's heap";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

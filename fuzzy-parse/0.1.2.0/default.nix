@@ -14,5 +14,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/hexresearch/fuzzy-parse";
   description = "Tools for processing unstructured text data";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

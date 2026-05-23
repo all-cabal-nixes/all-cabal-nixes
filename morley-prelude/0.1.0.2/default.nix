@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base-noprelude universum ];
   homepage = "https://gitlab.com/camlcase-dev/morley";
   description = "A custom prelude used in Morley";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

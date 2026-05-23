@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ barbies base split template-haskell ];
   testHaskellDepends = [ barbies base ];
   description = "Create strippable HKD via TH";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

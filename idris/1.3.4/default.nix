@@ -39,5 +39,5 @@ mkDerivation {
   ];
   homepage = "https://www.idris-lang.org/";
   description = "Functional Programming Language with Dependent Types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

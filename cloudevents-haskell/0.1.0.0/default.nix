@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/freckle/cloudevents-haskell#readme";
   description = "Unofficial Haskell SDK for the CloudEvents specification";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

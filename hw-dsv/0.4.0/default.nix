@@ -35,6 +35,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-works/hw-dsv#readme";
   description = "Unbelievably fast streaming DSV file parser";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hw-dsv";
 }

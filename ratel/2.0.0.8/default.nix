@@ -15,5 +15,5 @@ mkDerivation {
     http-client http-client-tls http-types uuid
   ];
   description = "Notify Honeybadger about exceptions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

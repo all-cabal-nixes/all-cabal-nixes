@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring tasty tasty-hunit ];
   homepage = "https://github.com/aaronallen8455/pinned-warnings#readme";
   description = "Preserve warnings in a GHCi session";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

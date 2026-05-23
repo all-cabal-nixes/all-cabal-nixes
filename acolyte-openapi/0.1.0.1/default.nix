@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ acolyte-core aeson base bytestring text ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "OpenAPI 3.1 spec generation from acolyte API types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

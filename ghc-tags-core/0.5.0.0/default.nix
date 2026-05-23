@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/coot/ghc-tags-plugin#readme";
   description = "a library to work with tags created from Haskell parsed tree";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

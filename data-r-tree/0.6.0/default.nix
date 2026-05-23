@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sebastian-philipp/r-tree";
   description = "R-Tree is a spatial data structure similar to Quadtrees or B-Trees";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

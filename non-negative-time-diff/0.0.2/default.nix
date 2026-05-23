@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/yaitskov/non-negative-time-diff";
   description = "type safe diffUTCTime";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

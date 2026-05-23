@@ -15,5 +15,5 @@ mkDerivation {
     temporary
   ];
   description = "Library for lockstep-style testing with 'quickcheck-dynamic'";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base filepath hls-test-utils text ];
   description = "HLS Plugin to expand TemplateHaskell Splices and QuasiQuotes";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

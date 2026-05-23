@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/fosskers/microlens-aeson/";
   description = "Law-abiding lenses for Aeson, using microlens";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

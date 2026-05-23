@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base optparse-generic ];
   homepage = "https://github.com/tonyday567/box-socket#readme";
   description = "Box websockets";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "box-socket";
 }

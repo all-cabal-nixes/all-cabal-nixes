@@ -23,5 +23,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "foldl wrappers for map-reduce";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

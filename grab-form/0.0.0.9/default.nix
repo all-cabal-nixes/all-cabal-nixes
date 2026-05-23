@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base containers grab hedgehog text ];
   homepage = "https://github.com/typeclasses/grab";
   description = "Applicative parsers for form parameter lists";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "http://rohandrape.net/t/hosc";
   description = "Haskell Open Sound Control";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
 }

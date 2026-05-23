@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/iteratee/cql/";
   description = "Cassandra CQL binary protocol";
-  license = lib.licensesSpdx."0BSD";
+  license = lib.meta.getLicenseFromSpdxId "0BSD";
 }

@@ -1,6 +1,6 @@
 { mkDerivation, async, base, bytestring, containers, deepseq
 , formatting, hspec, lib, optparse-applicative, parsec, QuickCheck
-, semigroups, template-haskell, text, time, transformers, unixODBC
+, semigroups, template-haskell, text, time, transformers, unixodbc
 , unliftio-core, weigh
 }:
 mkDerivation {
@@ -13,7 +13,7 @@ mkDerivation {
     async base bytestring containers deepseq formatting parsec
     semigroups template-haskell text time transformers unliftio-core
   ];
-  librarySystemDepends = [ unixODBC ];
+  librarySystemDepends = [ unixodbc ];
   executableHaskellDepends = [
     base bytestring optparse-applicative text
   ];

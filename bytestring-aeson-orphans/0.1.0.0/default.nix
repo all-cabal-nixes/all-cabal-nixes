@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/obsidiansystems/bytestring-aeson-orphans";
   description = "Aeson instances for ByteString, using base 64 encoding";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://code.devalot.com/sthenauth/zxcvbn-dvorak";
   description = "Password strength estimation based on zxcvbn";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

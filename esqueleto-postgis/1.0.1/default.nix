@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jappeace/esqueleto-postgis#readme";
   description = "postgis bindings for esqueleto";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

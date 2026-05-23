@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/agda/fix-whitespace";
   description = "Fixes whitespace issues";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "fix-whitespace";
 }

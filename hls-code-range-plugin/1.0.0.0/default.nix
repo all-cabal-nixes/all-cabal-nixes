@@ -16,5 +16,5 @@ mkDerivation {
     lsp-test tasty-hunit text transformers vector
   ];
   description = "HLS Plugin to support smart selection range";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

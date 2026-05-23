@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://andriusstank.github.io/downhill/";
   description = "Reverse mode automatic differentiation";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   librarySystemDepends = [ libsodium ];
   homepage = "https://github.com/haskell-cryptography/libsodium-bindings";
   description = "FFI bindings to libsodium";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

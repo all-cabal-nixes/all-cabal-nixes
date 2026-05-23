@@ -11,5 +11,5 @@ mkDerivation {
     base containers template-haskell th-desugar void
   ];
   description = "Proof assistant for Haskell using DataKinds & PolyKinds";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

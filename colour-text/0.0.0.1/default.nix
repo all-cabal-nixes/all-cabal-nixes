@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/colour-text";
   description = "Print and parse colors";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

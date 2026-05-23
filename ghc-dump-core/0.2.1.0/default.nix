@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring directory filepath ghc serialise text
   ];
   description = "An AST and compiler plugin for dumping GHC's Core representation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ async base tasty tasty-hunit ];
   homepage = "https://github.com/NicolasT/landlock-hs";
   description = "Integrate libpsx with the GHC RTS";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

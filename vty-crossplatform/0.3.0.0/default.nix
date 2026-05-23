@@ -9,5 +9,5 @@ mkDerivation {
   isExecutable = true;
   libraryHaskellDepends = [ base vty vty-unix ];
   description = "Cross-platform support for Vty";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

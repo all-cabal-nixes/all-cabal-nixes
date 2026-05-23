@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "1kj9jzs7l12k22mv7yfscrqwdgk515pgaa2z7ka9bqyma7j4w78b";
   libraryHaskellDepends = [ base infinite-list ];
   description = "Zip lists with Traversables";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

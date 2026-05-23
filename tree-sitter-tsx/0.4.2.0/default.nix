@@ -17,5 +17,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/tree-sitter/haskell-tree-sitter/tree/master/tree-sitter-tsx";
   description = "Tree-sitter grammar/parser for TSX";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,6 +13,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/runarorama/fuzzyfind/";
   description = "Fuzzy text matching";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "bench";
 }

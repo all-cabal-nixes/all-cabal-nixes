@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/dino-/hsinstall#readme";
   description = "Install Haskell software";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
   mainProgram = "hsinstall";
 }

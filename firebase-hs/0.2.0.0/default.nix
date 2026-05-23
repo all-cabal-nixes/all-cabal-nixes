@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Gondola-Bros-Entertainment/firebase-hs";
   description = "Firebase Auth, Firestore, and Servant integration for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/mrkkrp/cue-sheet";
   description = "Support for construction, rendering, and parsing of CUE sheets";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

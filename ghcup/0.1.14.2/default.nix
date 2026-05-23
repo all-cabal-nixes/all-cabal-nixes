@@ -48,5 +48,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.haskell.org/haskell/ghcup-hs";
   description = "ghc toolchain installer";
-  license = lib.licensesSpdx."LGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-3.0-only";
 }

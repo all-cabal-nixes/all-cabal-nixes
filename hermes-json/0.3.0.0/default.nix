@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/velveteer/hermes";
   description = "Fast JSON decoding via simdjson C++ bindings";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

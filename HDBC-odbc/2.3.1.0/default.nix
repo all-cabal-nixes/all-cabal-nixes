@@ -1,4 +1,4 @@
-{ mkDerivation, base, bytestring, HDBC, lib, mtl, time, unixODBC
+{ mkDerivation, base, bytestring, HDBC, lib, mtl, time, unixodbc
 , utf8-string
 }:
 mkDerivation {
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring HDBC mtl time utf8-string
   ];
-  librarySystemDepends = [ unixODBC ];
+  librarySystemDepends = [ unixodbc ];
   homepage = "http://software.complete.org/hdbc-odbc";
   description = "ODBC driver for HDBC";
   license = lib.licenses.bsd3;

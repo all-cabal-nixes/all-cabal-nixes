@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/ocramz/ghc-plugin-core-of-name";
   description = "Print the Core representation of a binding with a GHC plugin";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "core-of-name";
 }

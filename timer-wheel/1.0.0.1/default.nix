@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base ki random tasty-bench ];
   homepage = "https://github.com/awkward-squad/timer-wheel";
   description = "A timer wheel";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

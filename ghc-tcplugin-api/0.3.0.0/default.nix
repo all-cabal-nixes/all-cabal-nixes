@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ghc transformers ];
   homepage = "https://github.com/sheaf/ghc-tcplugin-api";
   description = "An API for type-checker plugins";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     base binary bytestring hspec QuickCheck random
   ];
   description = "That rabbit's got a vicious streak a mile wide!";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

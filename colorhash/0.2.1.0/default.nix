@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base colour hashable ];
   homepage = "https://github.com/hapytex/colorhash#readme";
   description = "Generate a color for a hashable object";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

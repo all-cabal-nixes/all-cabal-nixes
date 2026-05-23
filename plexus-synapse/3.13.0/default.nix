@@ -27,6 +27,6 @@ mkDerivation {
     plexus-protocol process text vector websockets
   ];
   description = "Schema-driven CLI for Plexus RPC servers";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "synapse";
 }

@@ -17,5 +17,5 @@ mkDerivation {
     base bytestring criterion deepseq weigh
   ];
   description = "Minimal Bitcoin transaction primitives";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

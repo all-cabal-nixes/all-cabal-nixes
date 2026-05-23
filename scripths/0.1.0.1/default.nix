@@ -12,6 +12,6 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit text ];
   homepage = "https://www.datahaskell.org/";
   description = "GHCi scripts for standalone execution and Markdown documentation";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "scripths";
 }

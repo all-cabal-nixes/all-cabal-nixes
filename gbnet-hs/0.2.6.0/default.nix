@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring criterion deepseq ];
   homepage = "https://github.com/Gondola-Bros-Entertainment/gbnet-hs";
   description = "Transport-level networking library with zero-copy Storable serialization";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

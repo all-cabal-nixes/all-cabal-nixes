@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://https://gitlab.com/sheaf/metabrush/-/tree/master/brush-stroking";
   description = "Brush strokes document model and renderer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

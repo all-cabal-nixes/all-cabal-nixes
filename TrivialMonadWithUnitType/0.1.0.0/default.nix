@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "06dzrj9ksla1x108rbcf716zbgmwv2pjc4d5ng504bn7q4vhvs6l";
   libraryHaskellDepends = [ base ];
   description = "Trivial monad with Unit type";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

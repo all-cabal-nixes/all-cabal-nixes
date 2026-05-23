@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-elm";
   description = "Haskell utilities for building embedded Elm programs";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

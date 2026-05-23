@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base Cabal inspection-testing ];
   homepage = "https://github.com/sheaf/generic-labels";
   description = "Generically extract and replace collections of record fields";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

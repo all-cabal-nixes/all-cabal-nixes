@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/aztecs-hs/aztecs";
   description = "A modular game engine and Entity-Component-System (ECS) for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

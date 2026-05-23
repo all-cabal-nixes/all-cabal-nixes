@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers pretty text ];
   homepage = "https://github.com/fpringle/postgresql-operation-counting";
   description = "Track and render a tally of which PostgreSQL operations have been performed";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

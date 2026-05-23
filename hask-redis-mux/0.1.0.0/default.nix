@@ -17,5 +17,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/sspeaks/redis-client";
   description = "A RESP protocol implementation and multiplexed Redis client library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

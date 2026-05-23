@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/base62";
   description = "Base62 encoding and decoding";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

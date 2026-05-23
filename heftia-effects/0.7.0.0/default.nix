@@ -29,5 +29,5 @@ mkDerivation {
     time unbounded-delays unix unliftio
   ];
   description = "higher-order algebraic effects done right";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

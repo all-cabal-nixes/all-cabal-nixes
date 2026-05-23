@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/shinzui/hasql-effectful";
   description = "Effectful bindings for hasql";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

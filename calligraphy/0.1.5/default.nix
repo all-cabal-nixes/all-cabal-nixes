@@ -16,6 +16,6 @@ mkDerivation {
   testHaskellDepends = [ base containers hspec HUnit QuickCheck ];
   homepage = "https://github.com/jonascarpay/calligraphy#readme";
   description = "HIE-based Haskell call graph and source code visualizer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "calligraphy";
 }

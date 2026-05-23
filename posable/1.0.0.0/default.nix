@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Riscky/posable";
   description = "A product-of-sums generics library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://www.freedesktop.org/wiki/Software/fontconfig/";
   description = "Queries your system (Linux/BSD/etc) font database";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "fontconfig-pure";
 }

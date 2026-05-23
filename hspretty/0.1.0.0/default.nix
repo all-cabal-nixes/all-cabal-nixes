@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base doctest ];
   description = "My opinionated Haskell project formatter";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hspretty";
 }

@@ -18,5 +18,5 @@ mkDerivation {
     process template-haskell temporary text
   ];
   description = "Quasiquotations for a python like interpolated string formater";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

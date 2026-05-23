@@ -14,5 +14,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Perform HTTP Requests";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

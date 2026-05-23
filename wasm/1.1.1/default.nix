@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https:github.com/SPY/haskell-wasm";
   description = "WebAssembly Language Toolkit and Interpreter";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base directory tasty tasty-hunit ];
   homepage = "https://github.com/agentm/cow";
   description = "Cross-platform file copy-on-write";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

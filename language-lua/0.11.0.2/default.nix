@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/glguy/language-lua";
   description = "Lua parser and pretty-printer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

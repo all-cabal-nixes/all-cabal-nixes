@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/choener/FormalGrammars";
   description = "(Context-free) grammars in formal language theory";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
 }

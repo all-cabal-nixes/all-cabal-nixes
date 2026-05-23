@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/infinity0/hs-schedule";
   description = "Pure deterministic scheduled computations";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

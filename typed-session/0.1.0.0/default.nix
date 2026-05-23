@@ -11,5 +11,5 @@ mkDerivation {
     io-sim random
   ];
   description = "typed session framework";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

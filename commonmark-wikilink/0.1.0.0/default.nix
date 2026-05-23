@@ -11,5 +11,5 @@ mkDerivation {
     pandoc-types parsec relude uri-encode url-slug
   ];
   description = "Obsidian-friendly commonmark wikilink parser";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

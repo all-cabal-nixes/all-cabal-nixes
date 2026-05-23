@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec QuickCheck quickcheck-classes ];
   homepage = "https://github.com/jonathanknowles/hspec-quickcheck-classes";
   description = "Integration between Hspec and quickcheck-classes";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

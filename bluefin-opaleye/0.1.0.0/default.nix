@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fpringle/bluefin-postgresql";
   description = "bluefin support for high-level PostgreSQL operations via Opaleye";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

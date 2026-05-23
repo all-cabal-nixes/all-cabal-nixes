@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base fused-effects hspec microlens ];
   homepage = "https://github.com/fused-effects/fused-effects-lens#readme";
   description = "Monadic lens combinators for fused-effects";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

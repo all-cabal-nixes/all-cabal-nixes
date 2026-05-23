@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base tasty tasty-hunit ];
   description = "A compatibility layer for GHC's 'wherefrom' function";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

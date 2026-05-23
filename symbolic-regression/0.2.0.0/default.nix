@@ -19,5 +19,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/DataHaskell/symbolic-regression";
   description = "Symbolic Regression in Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

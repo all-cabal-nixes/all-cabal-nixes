@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ async base hspec uuid Z-Data ];
   homepage = "https://github.com/ZHaskell/zoovisitor";
   description = "A haskell binding to Apache Zookeeper C library(mt) using Haskell Z project";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/zliu41/min-max-pqueue";
   description = "Double-ended priority queues";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

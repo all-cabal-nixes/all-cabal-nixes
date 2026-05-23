@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://dennis.felsing.org/ghc-vis";
   description = "Live visualization of data structures in GHCi";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

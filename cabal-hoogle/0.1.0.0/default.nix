@@ -19,6 +19,6 @@ mkDerivation {
   testHaskellDepends = [ base silently tasty tasty-hunit ];
   testToolDepends = [ hoogle tasty-discover ];
   description = "generate hoogle database for cabal project and dependencies";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "cabal-hoogle";
 }

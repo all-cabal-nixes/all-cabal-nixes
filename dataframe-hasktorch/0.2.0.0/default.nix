@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "Converts between dataframes and hasktorch tensors";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

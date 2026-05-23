@@ -12,5 +12,5 @@ mkDerivation {
     bytestring-builder text
   ];
   description = "RFC4648 Binary-to-text encodings (e.g. base64)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

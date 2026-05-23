@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pjones/cassava-streams";
   description = "io-streams interface for the cassava CSV library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

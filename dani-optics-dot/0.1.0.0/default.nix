@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base optics-core ];
   testHaskellDepends = [ base optics-core ];
   description = "Use @OverloadedRecordDot@ for nested optics access";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

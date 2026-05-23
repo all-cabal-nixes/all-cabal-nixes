@@ -13,5 +13,5 @@ mkDerivation {
     base containers hspec template-haskell time
   ];
   description = "TOML 1.0.0 parser";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

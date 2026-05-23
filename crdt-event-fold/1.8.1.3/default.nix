@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/crdt-event-fold";
   description = "Garbage collected event folding CRDT";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

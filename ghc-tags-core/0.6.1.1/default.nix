@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/coot/ghc-tags-plugin#readme";
   description = "CTags and ETags from Haskell syntax tree";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

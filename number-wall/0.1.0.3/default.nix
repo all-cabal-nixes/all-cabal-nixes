@@ -10,5 +10,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base tasty-bench ];
   homepage = "https://github.com/UnaryPlus/number-wall";
   description = "Create number walls and save them as images";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

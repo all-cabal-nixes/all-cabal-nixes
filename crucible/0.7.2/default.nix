@@ -20,5 +20,5 @@ mkDerivation {
     tasty tasty-hspec tasty-hunit tasty-quickcheck what4
   ];
   description = "Crucible is a library for language-agnostic symbolic simulation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

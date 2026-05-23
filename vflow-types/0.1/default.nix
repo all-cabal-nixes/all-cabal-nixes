@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chessai/vflow-types";
   description = "types for ingesting vflow data with aeson";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

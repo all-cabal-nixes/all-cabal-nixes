@@ -22,5 +22,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring QuickCheck ];
   homepage = "https://github.com/haskellari/qc-instances";
   description = "Common quickcheck instances";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

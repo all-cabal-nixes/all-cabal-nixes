@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ async contravariant-extras hasql rerebase ];
   homepage = "https://github.com/nikita-volkov/hasql-transaction";
   description = "Composable abstraction over retryable transactions for Hasql";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -17,5 +17,5 @@ mkDerivation {
     text
   ];
   description = "Abstract interface for the file system";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

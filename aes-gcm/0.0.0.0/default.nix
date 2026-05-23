@@ -11,5 +11,5 @@ mkDerivation {
     base base16-bytestring bytestring tasty tasty-hunit
   ];
   description = "AES Galois/Counter Mode (GCM) AEAD Cipher";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
 }

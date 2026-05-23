@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec transformers unliftio ];
   homepage = "https://git.mangoiv.com/mangoiv/scoped-codensity";
   description = "CPS resource allocation but as a Monad and completely safe";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

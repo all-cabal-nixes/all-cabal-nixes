@@ -29,6 +29,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/fosskers/aura";
   description = "A secure package manager for Arch Linux and the AUR";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "aura";
 }

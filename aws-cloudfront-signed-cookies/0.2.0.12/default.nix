@@ -20,6 +20,6 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog neat-interpolation ];
   homepage = "https://github.com/typeclasses/aws-cloudfront-signed-cookies";
   description = "Generate signed cookies for AWS CloudFront";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "aws-cloudfront-signed-cookies";
 }

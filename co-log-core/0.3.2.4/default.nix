@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest Glob ];
   homepage = "https://github.com/co-log/co-log-core";
   description = "Composable Contravariant Comonadic Logging Library";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

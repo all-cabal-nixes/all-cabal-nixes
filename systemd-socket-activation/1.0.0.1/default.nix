@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/systemd-socket-activation";
   description = "Let systemd bind the server's socket for you";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

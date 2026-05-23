@@ -23,5 +23,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/haskell-nix/hnix-store";
   description = "Core types used for interacting with the Nix store";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

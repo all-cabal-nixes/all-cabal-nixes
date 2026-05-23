@@ -7,5 +7,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ libversion ];
   homepage = "https://github.com/poscat0x04/libversion";
   description = "Haskell binding to libversion";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

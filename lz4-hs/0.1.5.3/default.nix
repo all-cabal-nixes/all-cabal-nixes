@@ -12,5 +12,5 @@ mkDerivation {
     base bytestring criterion filepath temporary
   ];
   description = "lz4 bindings for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

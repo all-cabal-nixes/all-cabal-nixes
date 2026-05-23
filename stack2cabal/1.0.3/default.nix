@@ -14,6 +14,6 @@ mkDerivation {
     stackage-to-hackage text
   ];
   description = "Convert stack projects to cabal.project + cabal.project.freeze";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "stack2cabal";
 }

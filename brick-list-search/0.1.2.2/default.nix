@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base brick containers microlens vector ];
   homepage = "https://codeberg.org/amano.kenji/brick-list-search";
   description = "Search forward or backward for certain kinds of items in brick list";
-  license = lib.licensesSpdx."0BSD";
+  license = lib.meta.getLicenseFromSpdxId "0BSD";
 }

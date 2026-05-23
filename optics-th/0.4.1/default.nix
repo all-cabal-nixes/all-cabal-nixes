@@ -13,5 +13,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base optics-core tagged ];
   description = "Optics construction using TemplateHaskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

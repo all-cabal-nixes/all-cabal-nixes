@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Ace-Interview-Prep/scrappy";
   description = "html pattern matching library and high-level interface concurrent requests lib for webscraping";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

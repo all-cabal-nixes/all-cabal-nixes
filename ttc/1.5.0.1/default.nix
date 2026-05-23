@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ExtremaIS/ttc-haskell/tree/main/ttc#readme";
   description = "Textual Type Classes";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

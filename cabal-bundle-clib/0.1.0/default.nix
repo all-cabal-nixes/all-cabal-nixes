@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/isumif/cabal-bundle-clib";
   description = "Bundling C/C++ projects in Cabal package made easy";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

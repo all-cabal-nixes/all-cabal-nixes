@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ gogol-core ];
   homepage = "https://github.com/brendanhay/gogol";
   description = "Google Cloud Identity SDK";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

@@ -33,6 +33,6 @@ mkDerivation {
   ];
   homepage = "https://futhark-lang.org";
   description = "An optimising compiler for a functional, array-oriented language";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
   mainProgram = "futhark";
 }

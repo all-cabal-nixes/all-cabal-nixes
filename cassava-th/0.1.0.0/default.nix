@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/MercuryTechnologies/cassava-th#readme";
   description = "`TemplateHaskell` helpers for `cassava`";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

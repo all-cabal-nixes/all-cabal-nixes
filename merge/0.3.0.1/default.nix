@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base profunctors ];
   testHaskellDepends = [ base ];
   description = "A functor for consistent merging of information";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

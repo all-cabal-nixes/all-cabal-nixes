@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/stbuehler/haskell-nettle";
   description = "safe nettle binding";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

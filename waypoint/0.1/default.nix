@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/hs-waypoint";
   description = "Bidirectional URL path, URL query string and HTTP headers codecs";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

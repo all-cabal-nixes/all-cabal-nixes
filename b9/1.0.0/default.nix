@@ -32,6 +32,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/sheyll/b9-vm-image-builder";
   description = "A tool and library for building virtual machine images";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "b9c";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hedgehog ];
   homepage = "https://github.com/chessai/hedgehog-generic";
   description = "GHC Generics automatically derived hedgehog generators";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

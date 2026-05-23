@@ -10,5 +10,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base containers criterion ];
   homepage = "https://github.com/jacklc3/algebraic-edge-graphs";
   description = "A library for algebraic edge-graph construction and transformation";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

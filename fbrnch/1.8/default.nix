@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/juhp/fbrnch";
   description = "Fedora packager tool to build package branches";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
   mainProgram = "fbrnch";
 }

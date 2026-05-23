@@ -11,5 +11,5 @@ mkDerivation {
     split text text-icu uniform-algebras
   ];
   description = "Manipulate and convert strings of characters uniformly and consistently";
-  license = lib.licensesSpdx."GPL-2.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-only";
 }

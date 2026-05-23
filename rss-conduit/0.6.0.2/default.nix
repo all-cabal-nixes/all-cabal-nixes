@@ -26,5 +26,5 @@ mkDerivation {
     tasty-quickcheck text time uri-bytestring xml-conduit xml-types
   ];
   description = "Streaming parser/renderer for the RSS standard";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

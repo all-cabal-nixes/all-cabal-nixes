@@ -15,6 +15,6 @@ mkDerivation {
     proto-lens random text unordered-containers
   ];
   description = "Stream eventlog data to the OpenTelemetry Collector";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "eventlog-live-otelcol";
 }

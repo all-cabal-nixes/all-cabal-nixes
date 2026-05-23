@@ -12,5 +12,5 @@ mkDerivation {
     apecs apecs-physics base brillo brillo-rendering containers linear
   ];
   description = "Apecs' gloss package, but adapted for brillo";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

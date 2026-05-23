@@ -14,5 +14,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/kadena-io/pact-time";
   description = "Time Library for Pact";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

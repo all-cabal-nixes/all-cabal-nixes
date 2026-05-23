@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://git.tryp.io/tek/polysemy-conc";
   description = "Polysemy effects for concurrency";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

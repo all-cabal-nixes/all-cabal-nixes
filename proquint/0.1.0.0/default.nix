@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit tasty-quickcheck ];
   homepage = "https://sr.ht/~fgaz/haskell-proquint";
   description = "Proquints: Identifiers that are Readable, Spellable, and Pronounceable";
-  license = lib.licensesSpdx."EUPL-1.2";
+  license = lib.meta.getLicenseFromSpdxId "EUPL-1.2";
 }

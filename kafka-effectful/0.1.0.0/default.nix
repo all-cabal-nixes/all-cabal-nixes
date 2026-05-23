@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring containers effectful-core hw-kafka-client text
   ];
   description = "Effectful effects for hw-kafka-client";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

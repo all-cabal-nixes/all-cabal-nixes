@@ -13,5 +13,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ libyaml ];
   homepage = "https://github.com/hasufell/streamly-yaml#readme";
   description = "Low-level, streaming YAML interface via streamly";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

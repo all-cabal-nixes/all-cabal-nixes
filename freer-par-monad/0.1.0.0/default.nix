@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/YoshikuniJujo/freer-par-monad#readme";
   description = "Freer par monad";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

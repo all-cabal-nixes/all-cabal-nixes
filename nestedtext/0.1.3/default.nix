@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/0y2k/nestedtext-haskell";
   description = "NestedText: A Human Friendly Data Format";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

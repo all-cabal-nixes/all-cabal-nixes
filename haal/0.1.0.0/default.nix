@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/steve-anunknown/haal#readme";
   description = "A Haskell library for Active Automata Learning";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

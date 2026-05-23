@@ -12,5 +12,5 @@ mkDerivation {
     base hspec prettyprinter tasty tasty-ant-xml tasty-hspec text
   ];
   description = "Data structures, classes and operators for constructing context-adjusted pretty output";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

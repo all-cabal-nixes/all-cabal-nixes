@@ -15,5 +15,5 @@ mkDerivation {
   ];
   libraryToolDepends = [ proto-lens-protoc ];
   description = "Flink stateful functions SDK";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

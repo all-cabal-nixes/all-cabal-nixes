@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers haal ];
   homepage = "https://github.com/steve-anunknown/haal#readme";
   description = "Pre-built Mealy automaton models for haal";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

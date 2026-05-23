@@ -16,5 +16,5 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "Extra data types for postgresql-simple";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

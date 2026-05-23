@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chrbauer/gettext-th";
   description = "gettext-th can internationalise a haskell program without runtime dependencies";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

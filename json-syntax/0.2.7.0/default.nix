@@ -26,5 +26,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/json-syntax";
   description = "High-performance JSON parser and encoder";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

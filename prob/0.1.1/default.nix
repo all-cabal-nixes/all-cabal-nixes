@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/cdsmith/prob";
   description = "Discrete probability monad";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/binary-parser";
   description = "An efficient but limited parser API specialised to bytestrings";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

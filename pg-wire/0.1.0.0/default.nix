@@ -21,5 +21,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/joshburgess/valiant";
   description = "Pure Haskell PostgreSQL wire protocol driver";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

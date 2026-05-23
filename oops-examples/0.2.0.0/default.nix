@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://www.github.com/haskell-works/oops";
   description = "Oops examples";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

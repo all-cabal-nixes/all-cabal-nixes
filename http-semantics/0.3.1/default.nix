@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kazu-yamamoto/http-semantics";
   description = "HTTP semantics library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

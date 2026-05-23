@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://github.com/byteverse/array-builder";
   description = "Builders for arrays";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

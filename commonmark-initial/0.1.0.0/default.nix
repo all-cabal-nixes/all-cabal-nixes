@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/henrytill/commonmark-initial";
   description = "An initial encoding of the CommonMark language";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

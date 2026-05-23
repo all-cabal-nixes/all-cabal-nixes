@@ -14,5 +14,5 @@ mkDerivation {
   testToolDepends = [ doctest ];
   homepage = "https://gitlab.com/tonymorris/associative";
   description = "Partial Semigroup and Semigroup operations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

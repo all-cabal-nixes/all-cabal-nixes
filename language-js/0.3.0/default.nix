@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base parsec ];
   testHaskellDepends = [ base hspec parsec ];
   description = "javascript parser for es6 and es7";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

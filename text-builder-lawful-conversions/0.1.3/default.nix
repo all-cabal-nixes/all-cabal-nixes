@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/text-builder-lawful-conversions";
   description = "Orphan instances of \"lawful-conversions\" for \"text-builder\"";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

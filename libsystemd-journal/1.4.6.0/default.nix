@@ -16,5 +16,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ systemd ];
   homepage = "https://github.com/ocharles/libsystemd-journal";
   description = "Haskell bindings to libsystemd-journal";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

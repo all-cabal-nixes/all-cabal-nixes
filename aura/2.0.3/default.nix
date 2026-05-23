@@ -36,6 +36,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/aurapm/aura";
   description = "A secure package manager for Arch Linux and the AUR, written in Haskell";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "aura";
 }

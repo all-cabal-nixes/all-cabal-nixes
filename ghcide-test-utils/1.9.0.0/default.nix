@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/haskell-language-server/tree/master/ghcide#readme";
   description = "Test utils for ghcide";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

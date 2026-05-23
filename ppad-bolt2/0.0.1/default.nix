@@ -15,5 +15,5 @@ mkDerivation {
     base bytestring criterion deepseq ppad-bolt1 weigh
   ];
   description = "Peer protocol per BOLT #2";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

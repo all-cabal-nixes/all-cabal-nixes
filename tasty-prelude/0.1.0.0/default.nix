@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/coot/tasty-prelude";
   description = "Unopinionated top-level entry point to tasty ecosystem";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

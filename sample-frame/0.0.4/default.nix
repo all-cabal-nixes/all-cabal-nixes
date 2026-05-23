@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base QuickCheck storable-record ];
   homepage = "http://www.haskell.org/haskellwiki/Synthesizer";
   description = "Handling of samples in an (audio) signal";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

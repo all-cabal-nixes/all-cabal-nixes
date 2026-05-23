@@ -24,6 +24,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/alunduil/template.hs";
   description = "You can use template.hs to create a new Haskell GitHub repository.";
-  license = lib.licensesSpdx."Unlicense";
+  license = lib.meta.getLicenseFromSpdxId "Unlicense";
   mainProgram = "initialise";
 }

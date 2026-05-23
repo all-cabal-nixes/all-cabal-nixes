@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ghc-prim ];
   homepage = "https://github.com/cutsea110/aop-prelude.git";
   description = "prelude for Algebra of Programming";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

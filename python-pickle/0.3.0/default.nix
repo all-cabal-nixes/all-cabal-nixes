@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/noteed/python-pickle";
   description = "Serialization/deserialization using Python Pickle format";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "pickle";
 }

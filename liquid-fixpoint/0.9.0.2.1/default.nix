@@ -28,6 +28,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ucsd-progsys/liquid-fixpoint#readme";
   description = "Predicate Abstraction-based Horn-Clause/Implication Constraint Solver";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "fixpoint";
 }

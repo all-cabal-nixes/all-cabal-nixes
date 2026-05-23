@@ -19,5 +19,5 @@ mkDerivation {
     containers filepath optparse-applicative time
   ];
   description = "List Hackage reverse dependencies";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -7,6 +7,6 @@ mkDerivation {
   isExecutable = true;
   executableHaskellDepends = [ base ];
   description = "The classic game of Hangman";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "Hangman";
 }

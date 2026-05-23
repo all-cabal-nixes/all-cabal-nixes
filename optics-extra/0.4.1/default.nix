@@ -12,5 +12,5 @@ mkDerivation {
     unordered-containers vector
   ];
   description = "Extra utilities and instances for optics-core";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

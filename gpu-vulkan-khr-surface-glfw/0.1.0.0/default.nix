@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/gpu-vulkan-khr-surface-glfw#readme";
   description = "GLFW surface for Vulkan";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

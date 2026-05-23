@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/yaftee-conduit-bytestring#readme";
   description = "Yaftee Conduit tools for ByteString";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/comfort-blas/";
   description = "Numerical Basic Linear Algebra using BLAS";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

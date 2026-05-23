@@ -8,5 +8,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge logict ];
   homepage = "https://github.com/strake/util-logict.hs";
   description = "See README for more info";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

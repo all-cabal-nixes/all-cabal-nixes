@@ -10,5 +10,5 @@ mkDerivation {
     template-haskell transformers
   ];
   description = "Trace the call graph of a program";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

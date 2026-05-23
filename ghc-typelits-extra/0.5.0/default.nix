@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "http://www.clash-lang.org/";
   description = "Additional type-level operations on GHC.TypeLits.Nat";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

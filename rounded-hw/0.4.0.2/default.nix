@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/minoki/haskell-floating-point#readme";
   description = "Directed rounding for built-in floating types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -19,6 +19,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/y-taka-23/thank-you-stars";
   description = "Give your dependencies stars on GitHub!";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "thank-you-stars";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sebastian-philipp/r-tree";
   description = "R-/R*-trees";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

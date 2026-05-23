@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base fresnel fused-effects ];
   homepage = "https://github.com/fresnel/fresnel";
   description = "fresnel/fused-effects integration";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,6 +13,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/1Computer1/errata";
   description = "Source code error pretty printing";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "errata-example";
 }

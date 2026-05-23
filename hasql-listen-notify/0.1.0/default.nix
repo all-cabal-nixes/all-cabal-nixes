@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/awkward-squad/hasql-listen-notify";
   description = "LISTEN/NOTIFY with hasql";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

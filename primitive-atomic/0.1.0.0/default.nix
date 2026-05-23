@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base primitive ];
   homepage = "https://github.com/andrewthad/primitive-atomic";
   description = "Wrappers for primops around atomic operations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

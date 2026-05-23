@@ -22,5 +22,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://hub.darcs.net/thielema/hmm-lapack";
   description = "Hidden Markov Models using LAPACK primitives";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

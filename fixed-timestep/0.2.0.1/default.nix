@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ async base clock time ];
   homepage = "https://github.com/Solonarv/fixed-timestep#README";
   description = "Pure Haskell library to repeat an action at a specific frequency";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

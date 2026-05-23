@@ -10,5 +10,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion data-default groups ];
   homepage = "https://github.com/AliceRixte/lr-acts#readme";
   description = "Left and right actions, semidirect products and torsors";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -29,6 +29,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Swordlash/haskell-halogen";
   description = "Haskell port of purescript-halogen library";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "halogen-core-prototype";
 }

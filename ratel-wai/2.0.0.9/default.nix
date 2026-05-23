@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring case-insensitive containers http-client ratel wai
   ];
   description = "Notify Honeybadger about exceptions via a WAI middleware";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

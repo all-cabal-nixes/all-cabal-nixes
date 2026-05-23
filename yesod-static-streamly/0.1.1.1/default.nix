@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "A streamly-based library providing performance-focused alternatives for functionality found in yesod-static";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

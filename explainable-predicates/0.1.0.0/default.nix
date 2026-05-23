@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/cdsmith/explainable-predicates";
   description = "Predicates that can explain themselves";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

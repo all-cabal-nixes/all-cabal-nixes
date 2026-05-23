@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/dschrempf/elynx#readme";
   description = "Handle phylogenetic trees";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

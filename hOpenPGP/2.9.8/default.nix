@@ -41,5 +41,5 @@ mkDerivation {
   ];
   homepage = "https://salsa.debian.org/clint/hOpenPGP";
   description = "native Haskell implementation of OpenPGP (RFC4880)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

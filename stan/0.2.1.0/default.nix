@@ -30,6 +30,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/kowainik/stan";
   description = "Haskell STatic ANalyser";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
   mainProgram = "stan";
 }

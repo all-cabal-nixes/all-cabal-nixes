@@ -11,6 +11,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base ];
   description = "A binding to the libBF library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "bf-test";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/DPella/mcp";
   description = "A Servant-based Model Context Protocol (MCP) server for Haskell";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

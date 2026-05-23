@@ -9,5 +9,5 @@ mkDerivation {
     base dependent-map dependent-sum mtl singletons-base
   ];
   description = "A framework for strongly typed FSM";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -10,6 +10,6 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck random ];
   homepage = "https://github.com/kwanghoon/GenSmsPdu";
   description = "Automatic SMS message generator";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "GenSmsPdu";
 }

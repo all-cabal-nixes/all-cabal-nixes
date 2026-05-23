@@ -9,5 +9,5 @@ mkDerivation {
   librarySystemDepends = [ extism ];
   testHaskellDepends = [ base bytestring HUnit ];
   description = "Extism bindings";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

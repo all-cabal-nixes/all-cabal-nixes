@@ -20,6 +20,6 @@ mkDerivation {
     ghc-events http-client http-types opentelemetry opentelemetry-extra
     splitmix text typed-process unordered-containers
   ];
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "eventlog-to-lightstep";
 }

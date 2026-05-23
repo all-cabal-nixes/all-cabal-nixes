@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/haskell-works/hw-hedgehog#readme";
   description = "Extra hedgehog functionality";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

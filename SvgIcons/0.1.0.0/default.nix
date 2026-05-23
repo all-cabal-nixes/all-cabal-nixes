@@ -15,6 +15,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/RamiroPastor/SvgIcons";
   description = "Svg Icons and more";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "SvgIcons-exe";
 }

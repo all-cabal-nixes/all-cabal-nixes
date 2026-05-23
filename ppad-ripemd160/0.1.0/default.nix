@@ -11,5 +11,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base bytestring criterion SHA ];
   description = "The RIPEMD-160 hashing algorithm";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

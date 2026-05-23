@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/effectfully/prettyprinter-configurable";
   description = "Configurable pretty-printing";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sergv/htoml-parse";
   description = "Parse TOML values produced by htoml-megaparsec package";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

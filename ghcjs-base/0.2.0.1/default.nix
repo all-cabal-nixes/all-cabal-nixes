@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/ghcjs/ghcjs-base";
   description = "base library for GHCJS";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

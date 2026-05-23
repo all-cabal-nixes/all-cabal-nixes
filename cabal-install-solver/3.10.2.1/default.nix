@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskell.org/cabal/";
   description = "The command-line interface for Cabal and Hackage";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "http://github.com/haskell-works/hw-int#readme";
   description = "Additional facilities for Integers";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

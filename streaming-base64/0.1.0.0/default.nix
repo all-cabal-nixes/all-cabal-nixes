@@ -14,5 +14,5 @@ mkDerivation {
     base streaming-bytestring tasty tasty-hunit
   ];
   description = "Streaming conversion from/to base64";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

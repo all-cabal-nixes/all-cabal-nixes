@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base JuicyPixels time ];
   homepage = "https://github.com/phadej/JuicyPixels-scale-dct#readme";
   description = "Scale JuicyPixels images with DCT";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

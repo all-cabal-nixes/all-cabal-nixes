@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base primitive wide-word ];
   homepage = "https://github.com/byteverse/byte-order";
   description = "Portable big-endian and little-endian conversions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

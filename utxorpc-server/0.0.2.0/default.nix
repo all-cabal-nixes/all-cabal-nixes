@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/utxorpc/haskell-sdk#readme";
   description = "An SDK for UTxO RPC services";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "server-example";
 }

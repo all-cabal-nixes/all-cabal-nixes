@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base containers tasty tasty-hunit ];
   homepage = "https://github.com/nebasuke/CarneadesDSL";
   description = "An implementation and DSL for the Carneades argumentation model";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

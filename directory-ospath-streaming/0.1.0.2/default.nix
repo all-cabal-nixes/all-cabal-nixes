@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sergv/directory-ospath-streaming";
   description = "Stream directory entries in constant memory in vanilla IO";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

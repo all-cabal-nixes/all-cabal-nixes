@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/pierric/fei-cocoapi";
   description = "Cocodataset with cocoapi";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "imageutils";
 }

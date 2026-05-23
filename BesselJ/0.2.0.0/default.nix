@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base gamma tasty tasty-hunit ];
   homepage = "https://github.com/stla/BesselJ#readme";
   description = "Bessel J-function, Anger J-function, Weber E-function, and Anger-Weber function";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

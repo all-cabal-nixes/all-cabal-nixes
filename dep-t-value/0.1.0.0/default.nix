@@ -15,5 +15,5 @@ mkDerivation {
     tasty tasty-hunit text transformers unliftio-core
   ];
   description = "Pair resources files with types within your program";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

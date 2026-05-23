@@ -15,5 +15,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ system-glib ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to GIO";
-  license = lib.licensesSpdx."LGPL-2.1-only";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-2.1-only";
 }

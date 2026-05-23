@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "https://github.com/kakkun61/barbies-layered";
   description = "Barbies with layered clothes";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

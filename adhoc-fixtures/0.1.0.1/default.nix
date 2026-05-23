@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/blackheaven/adhoc-fixtures/adhoc-fixtures";
   description = "Manage fine grained fixtures";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

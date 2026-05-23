@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jappeace/postgresql-migration-persistent#readme";
   description = "A PostgreSQL persistent schema migration utility";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

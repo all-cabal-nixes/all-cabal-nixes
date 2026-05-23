@@ -19,5 +19,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/holmusk/servant-hmac-auth";
   description = "Servant authentication with HMAC";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

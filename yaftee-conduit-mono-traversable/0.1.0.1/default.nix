@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/yaftee-conduit-mono-traversable#readme";
   description = "Mono traversable tools for Yaftee Conduit";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

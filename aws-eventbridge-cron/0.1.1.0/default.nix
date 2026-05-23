@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kushagarr/aws-eventbridge-cron#readme";
   description = "AWS EventBridge cron, rate, and one-time parser with scheduler";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

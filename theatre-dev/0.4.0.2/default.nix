@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ async hspec QuickCheck rerebase ];
   homepage = "https://github.com/nikita-volkov/theatre-dev";
   description = "Minimalistic actor library experiments";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

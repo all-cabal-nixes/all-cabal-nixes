@@ -26,6 +26,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/konn/cabal-scaffold#readme";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "cabal-scaffold";
 }

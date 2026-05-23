@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ikollipara/yesod-vite";
   description = "An integration of vitejs with Yesod";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

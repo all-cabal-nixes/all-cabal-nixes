@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://oss.xkcd.com/";
   description = "A basic newsletter implimentation, using various backends";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "newsletter-server";
 }

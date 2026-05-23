@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/aloussase/wai-problem-details";
   description = "Problem details middleware for WAI";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

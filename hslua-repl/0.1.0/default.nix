@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Isocline-based Lua REPL";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

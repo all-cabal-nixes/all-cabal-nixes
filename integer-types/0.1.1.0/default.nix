@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/integer-types";
   description = "Integer, Natural, and Positive";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

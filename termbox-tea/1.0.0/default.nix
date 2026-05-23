@@ -10,5 +10,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ki termbox ];
   homepage = "https://github.com/awkward-squad/termbox";
   description = "termbox + The Elm Architecture";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

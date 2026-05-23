@@ -10,5 +10,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "http://github.com/composewell/unicode-data";
   description = "Access Unicode character database";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

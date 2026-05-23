@@ -16,6 +16,6 @@ mkDerivation {
   ];
   testHaskellDepends = [ base bytestring hspec random text ];
   homepage = "https://git.sr.ht/~vonfry/yiyd";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "yiyd";
 }

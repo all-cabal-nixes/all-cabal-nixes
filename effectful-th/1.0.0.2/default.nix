@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base effectful-core ];
   description = "Template Haskell utilities for the effectful library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

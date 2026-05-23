@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/clinty/debian-haskell";
   description = "Modules for working with the Debian package system";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

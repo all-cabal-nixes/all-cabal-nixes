@@ -19,6 +19,6 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "String manipulation tool written in haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "smh";
 }

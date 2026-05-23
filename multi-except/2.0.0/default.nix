@@ -8,5 +8,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/414owen/multi-except";
   description = "Multiple Exceptions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "HTTP-specific middleware layers built on spire";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

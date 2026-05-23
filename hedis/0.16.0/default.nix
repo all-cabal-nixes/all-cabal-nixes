@@ -21,5 +21,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base mtl time ];
   homepage = "https://github.com/informatikr/hedis";
   description = "Client library for the Redis datastore: supports full command set, pipelining";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

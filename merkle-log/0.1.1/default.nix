@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kadena-io/merkle-log";
   description = "Merkle Tree Logs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

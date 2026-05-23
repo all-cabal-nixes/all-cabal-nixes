@@ -7,5 +7,5 @@ mkDerivation {
   librarySystemDepends = [ unac ];
   testHaskellDepends = [ base hspec ];
   description = "Bindings for libunac(3)";
-  license = lib.licensesSpdx."Unlicense";
+  license = lib.meta.getLicenseFromSpdxId "Unlicense";
 }

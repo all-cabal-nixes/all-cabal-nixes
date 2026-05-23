@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://github.com/shlevy/shlevy/tree/master/abstractly-keyed-implicits";
   description = "Manage the implicit parameter namespace dynamically at compile time";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/TravisWhitaker/uhd-hs";
   description = "Interface with Ettus USRP SDRs";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

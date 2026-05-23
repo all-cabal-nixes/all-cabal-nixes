@@ -15,5 +15,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://codeberg.org/Aster89/xnobar";
   description = "Text-based notification server for XMobar";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

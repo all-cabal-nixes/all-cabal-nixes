@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/sternenseemann/spacecookie";
   description = "Gopher server library and daemon";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "spacecookie";
 }

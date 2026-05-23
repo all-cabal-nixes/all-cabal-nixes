@@ -13,5 +13,5 @@ mkDerivation {
     ghc-stack-profiler-core ghc-trace-events stm text
   ];
   description = "RTS Callstack profiler for GHC";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

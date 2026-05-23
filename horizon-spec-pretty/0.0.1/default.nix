@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://horizon-haskell.net";
   description = "Horizon Stable Package Set Pretty Printer";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

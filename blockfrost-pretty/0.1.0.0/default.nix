@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/blockfrost/blockfrost-haskell";
   description = "blockfrost.io pretty-printing utilities";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

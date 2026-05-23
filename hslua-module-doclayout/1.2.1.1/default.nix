@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hslua/hslua-module-doclayout";
   description = "Lua module wrapping Text.DocLayout.";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

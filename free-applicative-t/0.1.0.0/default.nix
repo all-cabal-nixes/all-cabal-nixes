@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog transformers ];
   homepage = "https://github.com/viercc/functor-monad/tree/main/free-applicative-t";
   description = "Free Applicative Transformer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

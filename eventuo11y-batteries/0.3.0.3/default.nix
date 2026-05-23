@@ -17,5 +17,5 @@ mkDerivation {
     unliftio-core wai warp
   ];
   description = "Grab bag of eventuo11y-enriched functionality";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

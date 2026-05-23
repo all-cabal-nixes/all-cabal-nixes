@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/brendanhay/amazonka";
   description = "Amazon Kinesis Video WebRTC Storage SDK";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

@@ -8,5 +8,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/blackheaven/sized-wrapper/sized-wrapper";
   description = "Create a Sized version of any container";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

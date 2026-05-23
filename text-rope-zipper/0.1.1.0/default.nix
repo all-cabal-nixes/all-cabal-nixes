@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec QuickCheck text text-rope ];
   homepage = "https://github.com/ners/text-rope-zipper/blob/master/README.md";
   description = "2D text zipper based on text-rope";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

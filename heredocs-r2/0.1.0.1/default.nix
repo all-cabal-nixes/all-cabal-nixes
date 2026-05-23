@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec text ];
   homepage = "https://github.com/t-sasaki915/heredocs-r2#readme";
   description = "Heredocument on Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

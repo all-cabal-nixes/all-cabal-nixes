@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://notabug.org/koz.ross/finitary";
   description = "A better, more type-safe Enum";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

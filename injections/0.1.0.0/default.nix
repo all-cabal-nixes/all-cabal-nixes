@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ttuegel/injections";
   description = "Canonical categorical conversions (injections and projections)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

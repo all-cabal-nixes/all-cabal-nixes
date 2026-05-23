@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ array base constraints ];
   testHaskellDepends = [ array base constraints ];
   description = "Build SMC morphisms using linear types";
-  license = lib.licensesSpdx."LGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-3.0-or-later";
 }

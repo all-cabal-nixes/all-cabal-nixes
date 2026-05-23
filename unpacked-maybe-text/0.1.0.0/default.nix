@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring text-short ];
   homepage = "https://github.com/andrewthad/unpacked-maybe-text";
   description = "optional text that unpacks well";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

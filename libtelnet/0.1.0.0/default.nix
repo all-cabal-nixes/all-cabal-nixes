@@ -9,5 +9,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ libtelnet ];
   homepage = "https://git.sr.ht/~jack/libtelnet-haskell";
   description = "Bindings to libtelnet";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

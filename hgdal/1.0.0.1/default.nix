@@ -11,5 +11,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ gdal ];
   homepage = "https://wavewave.github.io/hgdal";
   description = "Haskell binding to the GDAL library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

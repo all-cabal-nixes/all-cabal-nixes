@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://hackage.haskell.org/package/intermediate-structures";
   description = "Some simple functions to deal with transformations from structures to other ones, basically lists";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

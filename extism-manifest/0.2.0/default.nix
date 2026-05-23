@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "8441e2ed820ee99bb91fad2e98d0a183ed2610d115b804c467adaec312491ae6";
   libraryHaskellDepends = [ base base64-bytestring bytestring json ];
   description = "Extism manifest bindings";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

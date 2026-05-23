@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/choener/BiobaseENA";
   description = "European Nucleotide Archive data";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

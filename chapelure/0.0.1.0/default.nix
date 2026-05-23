@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-chapelure/chapelure#readme";
   description = "A diagnostics library for Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

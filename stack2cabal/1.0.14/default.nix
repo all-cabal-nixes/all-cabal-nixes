@@ -20,6 +20,6 @@ mkDerivation {
     http-client-tls optparse-applicative process safe temporary text
   ];
   description = "Convert stack projects to cabal.project + cabal.project.freeze";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "stack2cabal";
 }

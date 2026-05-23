@@ -13,5 +13,5 @@ mkDerivation {
     base bytestring criterion deepseq weigh
   ];
   description = "Feature flags per BOLT #9";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

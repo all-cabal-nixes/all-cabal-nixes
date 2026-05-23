@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/sha1";
   description = "SHA-1 Hash";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

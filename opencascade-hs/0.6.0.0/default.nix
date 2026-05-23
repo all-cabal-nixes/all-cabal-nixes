@@ -7,5 +7,5 @@ mkDerivation {
   librarySystemDepends = [ opencascade-occt ];
   homepage = "https://github.com/joe-warren/opencascade-hs#readme";
   description = "Thin Wrapper for the OpenCASCADE CAD Kernel";
-  license = lib.licensesSpdx."LGPL-2.1-only";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-2.1-only";
 }

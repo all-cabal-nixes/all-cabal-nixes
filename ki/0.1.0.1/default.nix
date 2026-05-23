@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base concurrency dejafu stm ];
   homepage = "https://github.com/mitchellwrosen/ki";
   description = "A lightweight, structured concurrency library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

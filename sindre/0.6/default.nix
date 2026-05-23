@@ -22,6 +22,6 @@ mkDerivation {
   executablePkgconfigDepends = [ libxft xext ];
   homepage = "http://sigkill.dk/programs/sindre";
   description = "A programming language for simple GUIs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "sindre";
 }

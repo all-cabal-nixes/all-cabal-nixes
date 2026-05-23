@@ -12,5 +12,5 @@ mkDerivation {
     unliftio with-utf8
   ];
   description = "Union mount filesystem paths into Haskell datastructures";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

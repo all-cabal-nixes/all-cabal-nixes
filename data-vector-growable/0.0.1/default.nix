@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ async base vector ];
   description = "Dynamic growable resizable mutable generic vector";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

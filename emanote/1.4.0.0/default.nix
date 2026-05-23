@@ -60,6 +60,6 @@ mkDerivation {
   ];
   homepage = "https://emanote.srid.ca";
   description = "Emanate a structured view of your plain-text notes";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "emanote";
 }

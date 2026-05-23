@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-rankselect-base#readme";
   description = "Rank-select base";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

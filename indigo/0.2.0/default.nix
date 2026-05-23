@@ -19,5 +19,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://indigo-lang.gitlab.io/";
   description = "Convenient imperative eDSL over Lorentz";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

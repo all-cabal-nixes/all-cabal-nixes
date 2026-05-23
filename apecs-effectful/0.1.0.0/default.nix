@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ apecs base effectful-core vector ];
   homepage = "https://github.com/typedbyte/apecs-effectful";
   description = "Adaptation of the apecs library for the effectful ecosystem";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

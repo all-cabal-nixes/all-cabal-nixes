@@ -14,5 +14,5 @@ mkDerivation {
     polysemy-time relude tasty tasty-hedgehog text
   ];
   description = "Polysemy-time Interpreters for Chronos";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

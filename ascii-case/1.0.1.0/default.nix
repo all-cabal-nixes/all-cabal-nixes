@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ ascii-char base ];
   homepage = "https://github.com/typeclasses/ascii";
   description = "ASCII letter case";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jgm/commonmark-hs";
   description = "Pure Haskell commonmark parser";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

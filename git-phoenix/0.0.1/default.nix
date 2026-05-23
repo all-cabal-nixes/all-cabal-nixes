@@ -29,6 +29,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "http://github.com/yaitskov/git-phoenix";
   description = "Recover Git repositories from disk recovery tool output (photorec)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "git-phoenix";
 }

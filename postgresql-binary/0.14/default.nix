@@ -20,5 +20,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ criterion rerebase ];
   homepage = "https://github.com/nikita-volkov/postgresql-binary";
   description = "Encoders and decoders for the PostgreSQL's binary format";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

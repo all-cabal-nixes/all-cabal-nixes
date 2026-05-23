@@ -36,6 +36,6 @@ mkDerivation {
   ];
   homepage = "http://www.yesodweb.com/";
   description = "Web application deployment manager, focusing on Haskell web frameworks. It mitigates downtime.";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "keter";
 }

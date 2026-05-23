@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/chrbauer/reflex-dom-ionic";
   description = "Compatible highlevel Wigdets for some Ionic Input Components";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

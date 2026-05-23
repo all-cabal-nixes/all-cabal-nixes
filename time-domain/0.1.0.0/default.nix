@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base time ];
   homepage = "https://github.com/turion/time-domain/";
   description = "A library for time domains and durations";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

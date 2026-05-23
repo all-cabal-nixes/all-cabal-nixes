@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base GLFW-b sdl2 unix ];
   libraryPkgconfigDepends = [ SDL2 ];
   description = "WGPU Raw";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

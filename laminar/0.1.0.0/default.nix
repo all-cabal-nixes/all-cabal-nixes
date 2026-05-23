@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ async base containers random text ];
   testHaskellDepends = [ base tasty tasty-hunit ];
   description = "Run dependent IO actions asynchronously";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/freizl/hoauth2";
   description = "Tutorial for using hoauth2";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

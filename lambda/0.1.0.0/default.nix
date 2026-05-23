@@ -8,6 +8,6 @@ mkDerivation {
   executableHaskellDepends = [ base containers mtl parsec text ];
   homepage = "https://github.com/UnaryPlus/lambda";
   description = "Interpreters for lambda calculus, calculus of constructions, and more";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "lambda";
 }

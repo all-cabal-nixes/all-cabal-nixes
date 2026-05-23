@@ -24,6 +24,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/agra-uni-bremen/libriscv";
   description = "A versatile, flexible and executable formal model for the RISC-V architecture";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "riscv-tiny";
 }

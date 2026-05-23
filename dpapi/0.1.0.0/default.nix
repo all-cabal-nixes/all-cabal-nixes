@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/Hex052/haskell-dpapi";
   description = "Windows DPAPI bindings";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

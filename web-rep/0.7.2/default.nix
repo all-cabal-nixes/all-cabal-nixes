@@ -23,6 +23,6 @@ mkDerivation {
     base doctest lens lucid numhask tasty tasty-hspec text
   ];
   description = "representations of a web page";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "rep-example";
 }

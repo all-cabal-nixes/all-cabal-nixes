@@ -27,6 +27,6 @@ mkDerivation {
   ];
   homepage = "http://www.yesodweb.com/book/persistent";
   description = "A pure haskell backend for the persistent library using MySQL database server";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "persistent-mysql-pure-example";
 }

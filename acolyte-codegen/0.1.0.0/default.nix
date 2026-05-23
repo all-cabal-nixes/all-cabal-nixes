@@ -14,6 +14,6 @@ mkDerivation {
   testHaskellDepends = [ aeson base bytestring hedgehog text ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "Generate acolyte API types from OpenAPI/Swagger specs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "acolyte-codegen";
 }

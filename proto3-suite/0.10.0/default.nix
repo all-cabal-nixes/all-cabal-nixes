@@ -37,5 +37,5 @@ mkDerivation {
     tasty-quickcheck text text-short transformers turtle vector
   ];
   description = "A higher-level API to the proto3-wire library";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

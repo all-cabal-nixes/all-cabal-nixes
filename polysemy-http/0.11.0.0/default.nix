@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://git.tryp.io/tek/polysemy-http";
   description = "Polysemy effects for HTTP clients";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

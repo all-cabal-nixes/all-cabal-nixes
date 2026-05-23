@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/chemical-equation";
   description = "Balance chemical equations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "balance-chemical-equation";
 }

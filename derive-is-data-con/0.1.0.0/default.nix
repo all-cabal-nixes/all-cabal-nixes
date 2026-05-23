@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base HUnit ];
   homepage = "https://github.com/HaskellZhangSong/derive-is-data-con#readme";
   description = "This package generates data constructor predicate functions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

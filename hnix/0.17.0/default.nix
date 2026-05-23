@@ -49,6 +49,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-nix/hnix#readme";
   description = "Haskell implementation of the Nix language";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hnix";
 }

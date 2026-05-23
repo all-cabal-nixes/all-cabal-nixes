@@ -19,5 +19,5 @@ mkDerivation {
     tasty-hunit text what4
   ];
   description = "An implementation of symbolic I/O primitives for Crucible";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

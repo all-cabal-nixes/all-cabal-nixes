@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Holmusk/servant-docs-simple";
   description = "Generate documentation via TypeRep for Servant API";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

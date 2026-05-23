@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/iand675/sofetch#readme";
   description = "A low-boilerplate Haxl-like data fetching library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

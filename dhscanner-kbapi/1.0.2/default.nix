@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/OrenGitHub/dhscanner";
   description = "query language api for dhscanner knowledge base";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "json-schema-creator";
 }

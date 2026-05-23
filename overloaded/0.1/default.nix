@@ -15,5 +15,5 @@ mkDerivation {
     symbols tasty tasty-hunit text vec
   ];
   description = "Overloaded pragmas as a plugin";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

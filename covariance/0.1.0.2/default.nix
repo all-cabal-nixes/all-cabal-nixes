@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hmatrix tasty tasty-hunit ];
   homepage = "https://github.com/dschrempf/covariance";
   description = "Well-conditioned estimation of large-dimensional covariance matrices";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

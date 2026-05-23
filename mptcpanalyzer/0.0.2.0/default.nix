@@ -40,6 +40,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/teto/quantum";
   description = "A Multipath TCP analyzer";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "mptcpanalyzer";
 }

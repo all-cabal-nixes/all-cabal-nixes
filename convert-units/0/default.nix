@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion template-haskell ];
   homepage = "https://github.com/AliceRixte/convert-units#readme";
   description = "Arithmetic and type checked conversions between units";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

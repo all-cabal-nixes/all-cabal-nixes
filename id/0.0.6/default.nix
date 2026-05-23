@@ -14,5 +14,5 @@ mkDerivation {
   testToolDepends = [ doctest ];
   homepage = "https://gitlab.com/system-f/code/id";
   description = "Id (f a) and BiId (p (s a) (t b)) data types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

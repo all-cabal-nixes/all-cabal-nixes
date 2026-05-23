@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/mdgabriel/backstop.git";
   description = "Backstop a target directory by source directories";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "backstop";
 }

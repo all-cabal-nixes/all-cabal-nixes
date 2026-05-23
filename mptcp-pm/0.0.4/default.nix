@@ -27,6 +27,6 @@ mkDerivation {
   testHaskellDepends = [ base HUnit ip text ];
   homepage = "https://github.com/teto/netlink_pm";
   description = "A Multipath TCP path manager";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "mptcp-manager";
 }

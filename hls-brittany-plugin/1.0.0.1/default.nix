@@ -14,5 +14,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base bytestring hls-test-utils text ];
   description = "Integration with the Brittany code formatter";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

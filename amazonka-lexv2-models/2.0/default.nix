@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/brendanhay/amazonka";
   description = "Amazon Lex Model Building V2 SDK";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

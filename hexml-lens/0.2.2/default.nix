@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/pepeiborra/hexml-lens#readme";
   description = "Lenses for the hexml package";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -7,6 +7,6 @@ mkDerivation {
   isExecutable = true;
   executableHaskellDepends = [ base optparse-applicative ];
   description = "Attempt to pretty-print any input";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "friendly";
 }

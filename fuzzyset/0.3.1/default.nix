@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/laserpants/fuzzyset-haskell#readme";
   description = "Fuzzy set data structure for approximate string matching";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

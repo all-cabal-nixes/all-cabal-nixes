@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/exon#readme";
   description = "Monoidal Quasiquote Interpolation";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

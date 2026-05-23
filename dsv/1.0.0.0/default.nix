@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/dsv";
   description = "DSV (delimiter-separated values)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base exceptions stm time ];
   testHaskellDepends = [ base tasty tasty-hunit ];
   description = "A simple library to cache IO actions";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

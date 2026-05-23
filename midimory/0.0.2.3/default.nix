@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "http://www.youtube.com/watch?v=cOlR73h2uII";
   description = "A Memory-like (Concentration, Pairs, ...) game for tones";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "midimory";
 }

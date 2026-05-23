@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/PaulJohnson/geodetics";
   description = "Terrestrial coordinate systems and geodetic calculations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

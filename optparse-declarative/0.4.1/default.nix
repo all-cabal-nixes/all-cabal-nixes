@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl ];
   homepage = "https://github.com/tanakh/optparse-declarative";
   description = "Declarative command line option parser";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

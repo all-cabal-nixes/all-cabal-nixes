@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-fork";
   description = "Concurrency utilities";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

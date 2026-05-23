@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/blockfrost/blockfrost-haskell";
   description = "API definitions for blockfrost.io";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

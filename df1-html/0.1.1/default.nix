@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/di";
   description = "Render and parse df1 logs as HTML";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

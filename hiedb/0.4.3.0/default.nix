@@ -22,6 +22,6 @@ mkDerivation {
     base directory filepath ghc ghc-paths hspec process temporary
   ];
   description = "Generates a references DB from .hie files";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hiedb";
 }

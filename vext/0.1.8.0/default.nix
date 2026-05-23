@@ -14,5 +14,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Array library monomorphized with backpack";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

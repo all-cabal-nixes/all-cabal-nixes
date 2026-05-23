@@ -42,5 +42,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "http://github.com/haskell-works/succinct#readme";
   description = "Memory efficient JSON parser";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/pierric/fei-nn";
   description = "Train a neural network with MXNet in Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

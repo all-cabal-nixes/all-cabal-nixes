@@ -9,5 +9,5 @@ mkDerivation {
     base dataframe-core dataframe-csv dataframe-th template-haskell
   ];
   description = "CSV-file-based Template Haskell splices for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

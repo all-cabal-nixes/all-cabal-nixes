@@ -18,6 +18,6 @@ mkDerivation {
     filepattern hspec temporary transformers
   ];
   description = "Formats package descriptions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "cabal-gild";
 }

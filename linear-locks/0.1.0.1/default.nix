@@ -17,5 +17,5 @@ mkDerivation {
   testToolDepends = [ sydtest-discover ];
   homepage = "https://github.com/dcastro/linear-locks#readme";
   description = "Locking primitives free of deadlocks";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

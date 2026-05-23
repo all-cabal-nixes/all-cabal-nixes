@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/hasql-implicits";
   description = "Implicit definitions for Hasql, such as default codecs for standard types";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

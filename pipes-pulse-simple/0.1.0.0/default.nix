@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/TristanCacqueray/pipes-pulse-simple#readme";
   description = "Pipes for pulse-simple audio";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

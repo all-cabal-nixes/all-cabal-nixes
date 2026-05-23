@@ -22,6 +22,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/tweag/ormolu";
   description = "A formatter for Haskell source code";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "ormolu";
 }

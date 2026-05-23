@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/srid/rib#readme";
   description = "Static site generator based on Shake";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

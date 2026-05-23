@@ -32,5 +32,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/hs-sq";
   description = "High-level SQLite client";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

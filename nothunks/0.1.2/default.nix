@@ -15,5 +15,5 @@ mkDerivation {
     base containers ghc-prim hedgehog random stm tasty tasty-hedgehog
   ];
   description = "Examine values for unexpected thunks";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

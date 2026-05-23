@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base directory parsec random unix ];
   homepage = "http://www.volker-wysk.de/hsshellscript/";
   description = "Using Haskell for Unix shell scripting tasks";
-  license = lib.licensesSpdx."LGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-3.0-or-later";
 }

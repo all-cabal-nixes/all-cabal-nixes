@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mhwombat/creatur";
   description = "Framework for artificial life experiments";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

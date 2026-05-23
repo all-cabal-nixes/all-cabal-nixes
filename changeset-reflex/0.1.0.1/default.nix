@@ -9,5 +9,5 @@ mkDerivation {
     base changeset containers dependent-map monoid-extras reflex some
   ];
   description = "Stateful monad transformer based on monoidal actions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

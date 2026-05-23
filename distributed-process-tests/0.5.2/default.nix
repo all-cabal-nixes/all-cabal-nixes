@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base network-transport-inmemory tasty ];
   homepage = "http://github.com/haskell-distributed/distributed-process/tree/master/distributed-process-tests";
   description = "Tests and test support tools for distributed-process";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

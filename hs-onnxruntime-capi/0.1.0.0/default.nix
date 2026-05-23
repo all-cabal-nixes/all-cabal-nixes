@@ -12,5 +12,5 @@ mkDerivation {
   ];
   libraryPkgconfigDepends = [ libonnxruntime ];
   description = "Low-level bindings for ONNX Runtime";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
 }

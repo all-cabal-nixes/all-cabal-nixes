@@ -39,6 +39,6 @@ mkDerivation {
     random string-qq text tree-diff
   ];
   description = "CDDL Generator and test utilities";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "cuddle";
 }

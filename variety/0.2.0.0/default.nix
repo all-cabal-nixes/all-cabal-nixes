@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base HUnit QuickCheck ];
   homepage = "https://github.com/nbos/variety";
   description = "integer arithmetic codes";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

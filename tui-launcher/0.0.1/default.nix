@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/TharkunAB/tui-launcher";
   description = "Small Brick-based terminal launcher";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "tui-launcher";
 }

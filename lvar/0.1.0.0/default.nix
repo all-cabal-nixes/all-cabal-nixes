@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers relude stm ];
   homepage = "https://github.com/srid/lvar";
   description = "TMVar that can be listened to";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

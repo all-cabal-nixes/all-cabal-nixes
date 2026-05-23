@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/metrix-ai/cereal-unordered-containers";
   description = "Integration of \"cereal\" and \"unordered-containers\"";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://sr.ht/~fgaz/qbe-hs";
   description = "Types and prettyprinter for the IL of the QBE compiler backend";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

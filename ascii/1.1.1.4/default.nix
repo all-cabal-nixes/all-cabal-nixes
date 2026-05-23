@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog text ];
   homepage = "https://github.com/typeclasses/ascii";
   description = "The ASCII character set and encoding";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

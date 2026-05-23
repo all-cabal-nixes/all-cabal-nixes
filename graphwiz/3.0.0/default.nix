@@ -22,6 +22,6 @@ mkDerivation {
   testToolDepends = [ tasty-autocollect ];
   homepage = "https://github.com/nicuveo/graphwiz#readme";
   description = "Monadic DOT graph builder DSL";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "example";
 }

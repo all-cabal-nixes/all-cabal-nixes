@@ -15,5 +15,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   homepage = "https://github.com/theam/aws-lambda-haskell-runtime#readme";
   description = "Haskell runtime for AWS Lambda";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

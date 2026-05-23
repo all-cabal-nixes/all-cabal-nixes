@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/headed-megaparsec";
   description = "More informative parser";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

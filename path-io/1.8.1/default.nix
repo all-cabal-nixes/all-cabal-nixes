@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mrkkrp/path-io";
   description = "Interface to ‘directory’ package for users of ‘path’";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

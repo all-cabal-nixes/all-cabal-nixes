@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Novavero-AI/nova-nix";
   description = "Windows-native Nix implementation in pure Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "nova-nix";
 }

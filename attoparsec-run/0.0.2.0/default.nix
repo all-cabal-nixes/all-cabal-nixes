@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ attoparsec base bytestring hspec mtl text ];
   homepage = "https://github.com/typeclasses/attoparsec-run";
   description = "Conveniently run Attoparsec parsers";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

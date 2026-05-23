@@ -17,5 +17,5 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "Composable resource management and dependency injection";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

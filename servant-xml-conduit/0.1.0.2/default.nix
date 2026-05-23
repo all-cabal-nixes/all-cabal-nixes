@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.iscpif.fr/gargantext/servant-xml-conduit";
   description = "Servant XML content-type with support for xml-conduit";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

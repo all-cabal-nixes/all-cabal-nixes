@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "http://haskell-distributed.github.com";
   description = "TCP instantiation of Network.Transport";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/seanhess/atomic-css";
   description = "Type-safe, composable CSS utility functions. Inspired by Tailwindcss and Elm-UI";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

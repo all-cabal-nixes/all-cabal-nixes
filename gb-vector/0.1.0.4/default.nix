@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base directory text ];
   homepage = "https://github.com/Gondola-Bros-Entertainment/gb-vector";
   description = "Pure Haskell SVG generation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

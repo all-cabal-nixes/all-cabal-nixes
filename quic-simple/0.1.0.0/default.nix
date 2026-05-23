@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ async base bytestring stm ];
   description = "Quick-start wrappers for QUIC";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

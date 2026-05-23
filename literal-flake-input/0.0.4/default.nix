@@ -27,5 +27,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "http://github.com/yaitskov/literal-flake-input";
   description = "Web service converting URLs into archived nix attrsets";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

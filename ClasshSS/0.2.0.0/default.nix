@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/augyg/ClasshSS";
   description = "Typified Tailwind for Rapid Development";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base generics-sop profunctors vector ];
   testHaskellDepends = [ base generics-sop ];
   description = "An implementation of extensible products and sums";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

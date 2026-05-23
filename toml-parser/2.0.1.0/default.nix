@@ -19,5 +19,5 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover markdown-unlit ];
   description = "TOML 1.0.0 parser";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

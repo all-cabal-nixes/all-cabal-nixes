@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/goosedb/typist";
   description = "Typelevel printf";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

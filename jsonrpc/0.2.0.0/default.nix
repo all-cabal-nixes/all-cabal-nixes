@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ aeson base hspec ];
   homepage = "https://github.com/DPella/jsonrpc";
   description = "JSON-RPC 2.0 types and type classes for Haskell";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

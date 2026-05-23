@@ -21,5 +21,5 @@ mkDerivation {
   benchmarkPkgconfigDepends = [ zlib ];
   doHaddock = false;
   description = "A NATS client library written in Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

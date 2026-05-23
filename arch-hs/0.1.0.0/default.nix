@@ -26,5 +26,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/berberman/arch-hs";
   description = "A program generating PKGBUILD for hackage packages";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

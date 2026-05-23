@@ -38,5 +38,5 @@ mkDerivation {
   ];
   homepage = "http://snapframework.com/";
   description = "An Haskell template system supporting both HTML5 and XML";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

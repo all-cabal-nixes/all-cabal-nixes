@@ -18,6 +18,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base optparse-generic ];
   description = "representations of a web page";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "web-rep-example";
 }

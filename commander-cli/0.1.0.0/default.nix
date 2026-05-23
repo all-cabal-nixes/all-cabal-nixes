@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base mtl text ];
   homepage = "https://github.com/SamuelSchlesinger/commander-cli";
   description = "A command line argument/option parser library built around a monadic metaphor";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "commander-cli";
 }

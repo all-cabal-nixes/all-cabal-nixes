@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base transformers ];
   homepage = "https://github.com/thomaseding/monadacme";
   description = "The Acme and AcmeT monads";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

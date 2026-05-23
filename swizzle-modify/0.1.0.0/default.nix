@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ base swizzle swizzle-set template-haskell ];
   homepage = "https://github.com/YoshikuniJujo/swizzle-modify#readme";
   description = "Swizzle modify functions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

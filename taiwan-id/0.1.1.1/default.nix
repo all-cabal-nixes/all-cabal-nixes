@@ -22,6 +22,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/jonathanknowles/taiwan-id#readme";
   description = "Library and CLI for working with ID numbers issued in Taiwan";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "taiwan-id";
 }

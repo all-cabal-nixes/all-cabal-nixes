@@ -29,6 +29,6 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/krakrjak/restman#readme";
   description = "Web request TUI program";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
   mainProgram = "restman";
 }

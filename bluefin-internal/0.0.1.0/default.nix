@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "The Bluefin effect system, internals";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

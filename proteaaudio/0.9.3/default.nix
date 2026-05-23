@@ -12,5 +12,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ libpulse libpulse-simple ];
   libraryToolDepends = [ c2hs ];
   description = "Simple audio library for Windows, Linux, OSX";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeable/libphonenumber/";
   description = "Parsing, formatting, and validating international phone numbers";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

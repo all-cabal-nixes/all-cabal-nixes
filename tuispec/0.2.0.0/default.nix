@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Tritlo/tuispec";
   description = "Playwright-like black-box testing for terminal UIs over PTY";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "tuispec";
 }

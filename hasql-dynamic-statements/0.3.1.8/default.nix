@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ hasql rerebase tasty tasty-hunit ];
   homepage = "https://github.com/nikita-volkov/hasql-dynamic-statements";
   description = "Toolkit for constructing Hasql statements dynamically";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

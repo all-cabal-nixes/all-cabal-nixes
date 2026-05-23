@@ -12,5 +12,5 @@ mkDerivation {
     base megaparsec tasty tasty-hunit text time
   ];
   homepage = "https://github.com/fosskers/org-mode";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

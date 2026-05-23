@@ -12,6 +12,6 @@ mkDerivation {
     process time
   ];
   description = "A compiler for a subset of Haskell";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "mhs";
 }

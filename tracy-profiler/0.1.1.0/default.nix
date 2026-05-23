@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base random text unliftio-core ];
   homepage = "https://github.com/haskell-game/tracy-profiler#readme";
   description = "Haskell bindings for Tracy frame profiler";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

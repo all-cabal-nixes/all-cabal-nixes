@@ -27,5 +27,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/choener/BiobaseTypes";
   description = "Collection of types for bioinformatics";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

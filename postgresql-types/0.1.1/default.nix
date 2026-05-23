@@ -26,5 +26,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/nikita-volkov/postgresql-types";
   description = "Precise PostgreSQL types representation and driver-agnostic codecs";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

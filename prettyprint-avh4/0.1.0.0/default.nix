@@ -8,5 +8,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://codeberg.org/avh4/prettyprint-avh4";
   description = "API for prettyprinting custom syntax trees (extracted from elm-format)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

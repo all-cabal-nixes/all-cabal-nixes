@@ -15,6 +15,6 @@ mkDerivation {
   executableHaskellDepends = [ base relude ];
   homepage = "https://github.com/chshersh/dr-cabal";
   description = "See README for more info";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
   mainProgram = "dr-cabal";
 }

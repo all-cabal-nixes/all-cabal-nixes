@@ -11,5 +11,5 @@ mkDerivation {
     template-haskell
   ];
   description = "Generic vectors with statically known size";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

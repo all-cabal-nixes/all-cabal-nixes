@@ -15,5 +15,5 @@ mkDerivation {
     template-haskell text
   ];
   description = "Construction of context-adjusted pretty output";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

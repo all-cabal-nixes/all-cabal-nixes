@@ -15,5 +15,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Live processing of eventlog data";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
 }

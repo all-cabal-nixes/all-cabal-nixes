@@ -28,5 +28,5 @@ mkDerivation {
   executableToolDepends = [ alex happy ];
   homepage = "https://salsa.debian.org/clint/hOpenPGP-tools";
   description = "hOpenPGP-based command-line tools";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

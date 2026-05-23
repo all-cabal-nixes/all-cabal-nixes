@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ejconlon/libremidi-haskell#readme";
   description = "libremidi bindings for haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "libremidi-exe";
 }

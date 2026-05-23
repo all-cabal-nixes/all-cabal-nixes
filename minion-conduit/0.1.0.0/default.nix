@@ -12,6 +12,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base warp ];
   description = "Minion conduit support";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "minion-conduit-example";
 }

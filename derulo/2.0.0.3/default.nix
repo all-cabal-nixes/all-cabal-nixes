@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base HUnit ];
   description = "Parse and render JSON simply";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "derulo";
 }

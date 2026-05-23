@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/polysemy-log#readme";
   description = "Di Adapters for Polysemy-Log";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ aeson base tasty tasty-hunit text vector ];
   homepage = "https://github.com/DPella/jsonschema";
   description = "JSON Schema derivation and validation";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

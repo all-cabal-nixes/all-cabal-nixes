@@ -15,5 +15,5 @@ mkDerivation {
   testHaskellDepends = [ hedgehog rerebase tasty tasty-hunit ];
   homepage = "https://github.com/nikita-volkov/postgresql-syntax";
   description = "PostgreSQL AST parsing and rendering";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

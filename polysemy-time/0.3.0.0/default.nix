@@ -12,5 +12,5 @@ mkDerivation {
     base incipit-core polysemy-test tasty time
   ];
   description = "Polysemy Effect for Time";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

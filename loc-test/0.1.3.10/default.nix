@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers hedgehog loc ];
   homepage = "https://github.com/typeclasses/loc";
   description = "Test-related utilities related to the /loc/ package";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

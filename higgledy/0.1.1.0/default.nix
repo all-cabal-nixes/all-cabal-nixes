@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest hspec lens QuickCheck ];
   homepage = "https://github.com/i-am-tom/higgledy";
   description = "Partial types as a type constructor";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

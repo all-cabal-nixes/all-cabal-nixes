@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/moffy-samples-gtk4-run#readme";
   description = "Package to run moffy samples - Gtk4 version";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

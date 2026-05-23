@@ -39,5 +39,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/iand675/wireform-";
   description = "Protocol Buffers (proto2/proto3) with IDL parser, code generation, JSON mapping";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

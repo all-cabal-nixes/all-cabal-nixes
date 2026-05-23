@@ -24,6 +24,6 @@ mkDerivation {
     quickcheck-instances tasty tasty-hunit tasty-quickcheck text vector
   ];
   description = "Jinja templates for Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "ginger2";
 }

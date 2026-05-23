@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base stm tasty tasty-hunit ];
   homepage = "https://github.com/awkward-squad/ki";
   description = "A lightweight structured concurrency library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

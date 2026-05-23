@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/vector-binary-instances";
   description = "Instances of Data.Binary for vector";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

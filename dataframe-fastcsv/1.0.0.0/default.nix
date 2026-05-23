@@ -13,5 +13,5 @@ mkDerivation {
     base containers dataframe directory HUnit QuickCheck text vector
   ];
   description = "SIMD-accelerated CSV reader for the dataframe library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

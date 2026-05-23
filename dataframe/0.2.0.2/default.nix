@@ -22,6 +22,6 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base criterion random text vector ];
   description = "An intuitive, dynamically-typed DataFrame library";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "dataframe";
 }

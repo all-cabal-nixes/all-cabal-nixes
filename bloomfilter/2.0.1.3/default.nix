@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-pkg-janitors/bloomfilter";
   description = "Pure and impure Bloom Filter implementations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

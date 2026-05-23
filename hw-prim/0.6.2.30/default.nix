@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-prim#readme";
   description = "Primitive functions and data types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring directory hspec microlens ];
   homepage = "https://github.com/yutotakano/opus";
   description = "Bindings to libopus for the Opus audio codec";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

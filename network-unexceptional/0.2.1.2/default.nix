@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/network-unexceptional";
   description = "Network functions that do not throw exceptions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

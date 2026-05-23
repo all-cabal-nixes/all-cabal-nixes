@@ -17,5 +17,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Instantiations of http-exchange";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

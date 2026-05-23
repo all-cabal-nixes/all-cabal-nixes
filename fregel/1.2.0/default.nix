@@ -10,6 +10,6 @@ mkDerivation {
   executableToolDepends = [ alex happy ];
   homepage = "https://ipl.cs.uec.ac.jp/~iwasaki/Fregel";
   description = "A functional DSL for vertex-centric large-scale graph processing";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "fregel";
 }

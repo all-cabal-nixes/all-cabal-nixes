@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/array-chunks";
   description = "Lists of chunks";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

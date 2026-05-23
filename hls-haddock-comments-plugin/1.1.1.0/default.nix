@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0gk4pjq3csh7h5asg7d5hb9yjz9pzh8q8fzv2hq1gjvzwjzrfibi";
   homepage = "https://github.com/haskell/haskell-language-server";
   description = "Haddock comments plugin for Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

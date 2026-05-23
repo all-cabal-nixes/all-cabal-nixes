@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/numhask-space#readme";
   description = "Numerical spaces";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -19,5 +19,5 @@ mkDerivation {
     split terminal-size text time vector what4 xml yaml
   ];
   description = "Simple top-level library for Crucible Simulation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

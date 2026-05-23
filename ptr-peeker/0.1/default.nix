@@ -15,5 +15,5 @@ mkDerivation {
     cereal criterion rerebase store tasty-hunit
   ];
   description = "High-performance composable binary data deserializers";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

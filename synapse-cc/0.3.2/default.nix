@@ -23,6 +23,6 @@ mkDerivation {
     text
   ];
   description = "Unified compiler toolchain for Plexus backends";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "synapse-cc";
 }

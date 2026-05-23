@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base directory filepath process ];
   homepage = "https://visq.github.io/language-c/";
   description = "Analysis and generation of C code";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

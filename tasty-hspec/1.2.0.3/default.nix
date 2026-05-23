@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mitchellwrosen/tasty-hspec";
   description = "Hspec support for the Tasty test framework";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base clash-prelude ];
   homepage = "https://github.com/cchalmers/circuit-notation";
   description = "Source plugin for manipulating circuits in Clash using arrow notation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

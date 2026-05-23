@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec mtl ];
   homepage = "https://github.com/SamuelSchlesinger/commandert";
   description = "A monad for commanders";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

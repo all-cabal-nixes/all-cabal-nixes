@@ -23,5 +23,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/NicholasMason-Apps/cadence#readme";
   description = "An ECS-based 2D game framework";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

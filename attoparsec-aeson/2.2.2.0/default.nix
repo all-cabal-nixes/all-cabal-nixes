@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/aeson";
   description = "Parsing of aeson's Value with attoparsec";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

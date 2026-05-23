@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [ base doctest ];
   description = "A safe interface for Const summarization";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

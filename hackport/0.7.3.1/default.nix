@@ -35,6 +35,6 @@ mkDerivation {
   testToolDepends = [ cabal-install doctest hspec-discover ];
   doHaddock = false;
   description = "Hackage and Portage integration tool";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "hackport";
 }

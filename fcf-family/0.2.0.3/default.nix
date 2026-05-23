@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base first-class-families ];
   homepage = "https://gitlab.com/lysxia/fcf-family";
   description = "Family of families: featherweight defunctionalization";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

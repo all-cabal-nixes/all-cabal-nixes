@@ -8,5 +8,5 @@ mkDerivation {
   testHaskellDepends = [ base effectful-core stm tasty tasty-hunit ];
   homepage = "https://github.com/typedbyte/resource-effectful";
   description = "A region-based resource effect for the effectful ecosystem";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

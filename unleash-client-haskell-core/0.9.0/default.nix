@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/finn-no/unleash-client-haskell-core";
   description = "Unleash feature toggle client core";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

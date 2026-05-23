@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/hasql-postgresql-types";
   description = "Integration of \"hasql\" with \"postgresql-types\"";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

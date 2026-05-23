@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base bluefin tasty tasty-hunit ];
   benchmarkHaskellDepends = [ base bluefin tasty-bench ];
   description = "Algebraic effects and named handlers in Bluefin";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base pandoc-types ];
   homepage = "https://github.com/mhwombat/pandoc-columns";
   description = "A pandoc filter that provides a Markdown extension for columns";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "pandoc-columns";
 }

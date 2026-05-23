@@ -18,6 +18,6 @@ mkDerivation {
     base bytestring directory process tasty tasty-golden temporary text
   ];
   description = "Bump snapshots in stack.yaml files";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "stacker";
 }

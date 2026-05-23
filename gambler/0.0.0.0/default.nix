@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   benchmarkHaskellDepends = [ base criterion ];
   description = "Composable, streaming, and efficient left folds";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

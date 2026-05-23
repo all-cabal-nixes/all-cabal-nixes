@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base filepath hspec temporary unix ];
   homepage = "https://github.com/taffybar/xdg-desktop-entry";
   description = "Parse files conforming to the xdg desktop entry spec";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

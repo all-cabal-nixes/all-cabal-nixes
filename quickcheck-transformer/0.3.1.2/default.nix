@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base QuickCheck random transformers ];
   homepage = "https://hub.darcs.net/thielema/quickcheck-transformer/";
   description = "A GenT monad transformer for QuickCheck library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/dmwit/universe";
   description = "A class for finite and recursively enumerable types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

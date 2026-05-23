@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base hspec vector ];
   description = "A tasty enhancement to cassava for easy csv exporting";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

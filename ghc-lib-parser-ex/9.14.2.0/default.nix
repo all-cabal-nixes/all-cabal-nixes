@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/shayne-fletcher/ghc-lib-parser-ex#readme";
   description = "Programming with GHC parse trees";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "ghc-lib-parser-ex-build-tool";
 }

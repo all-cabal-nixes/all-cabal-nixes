@@ -20,6 +20,6 @@ mkDerivation {
     tasty
   ];
   description = "CLI for Ribosome";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
   mainProgram = "ribosome";
 }

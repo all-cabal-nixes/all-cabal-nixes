@@ -11,5 +11,5 @@ mkDerivation {
     http-client-tls http-types template-haskell text time transformers
   ];
   description = "A client for the Strava V3 API";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

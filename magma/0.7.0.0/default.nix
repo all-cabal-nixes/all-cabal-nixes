@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base ghc-prim ];
   homepage = "https://github.com/cutsea110/magma";
   description = "magma is an algebraic structure";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

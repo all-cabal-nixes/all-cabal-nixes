@@ -37,6 +37,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://dojang.dev/";
   description = "A cross-platform dotfiles manager";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "dojang";
 }

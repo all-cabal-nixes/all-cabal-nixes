@@ -27,5 +27,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://oss.xkcd.com/";
   description = "Find the alpha emoji";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base cmark-gfm hspec lens text ];
   homepage = "https://github.com/ingun37/cmark-gfm-lens";
   description = "Collection of Lens for cmark-gfm with minimal dependencies";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

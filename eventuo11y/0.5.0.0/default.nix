@@ -10,5 +10,5 @@ mkDerivation {
     unliftio-core
   ];
   description = "An event-oriented observability library";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

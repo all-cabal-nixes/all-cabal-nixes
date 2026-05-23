@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring filepath unix ];
   homepage = "https://github.com/hasufell/file-io";
   description = "Basic file IO operations via 'OsPath'";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base byteslice primitive ];
   homepage = "https://github.com/andrewthad/bytesmith";
   description = "Nonresumable byte parser";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -27,6 +27,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/shinzui/notion-client";
   description = "Type-safe Haskell client for the Notion API";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "notion-client-example";
 }

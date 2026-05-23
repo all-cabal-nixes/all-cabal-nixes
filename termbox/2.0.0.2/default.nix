@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base termbox-bindings-hs ];
   homepage = "https://github.com/awkward-squad/termbox";
   description = "termbox";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

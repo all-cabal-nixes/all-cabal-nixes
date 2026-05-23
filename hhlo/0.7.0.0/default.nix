@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/overshiki/hhlo";
   description = "Haskell Frontend for StableHLO — type-safe ML inference on CPU and GPU";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "hhlo-demo";
 }

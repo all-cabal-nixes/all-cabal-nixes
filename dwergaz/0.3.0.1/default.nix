@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/henrytill/dwergaz";
   description = "A minimal testing library";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

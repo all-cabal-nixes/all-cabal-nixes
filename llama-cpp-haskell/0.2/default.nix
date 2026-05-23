@@ -17,6 +17,6 @@ mkDerivation {
     http-conduit http-types optparse-generic text
   ];
   description = "Haskell bindings for the llama.cpp llama-server and a simple CLI";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "llamacall";
 }

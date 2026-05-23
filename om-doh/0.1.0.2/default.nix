@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-doh";
   description = "om-doh";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

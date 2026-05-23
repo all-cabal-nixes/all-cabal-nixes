@@ -75,6 +75,6 @@ mkDerivation {
   '';
   homepage = "http://haskellstack.org";
   description = "The Haskell Tool Stack";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "stack";
 }

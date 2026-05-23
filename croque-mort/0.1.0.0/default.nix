@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/blackheaven/croque-mort";
   description = "Dead simple broken links checker on local HTML folders";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
   mainProgram = "croque-mort";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/srid/opencode-haskell";
   description = "Haskell client library for OpenCode server API";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

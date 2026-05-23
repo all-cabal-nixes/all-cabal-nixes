@@ -26,6 +26,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-dump#readme";
   description = "File Dump";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hw-dump";
 }

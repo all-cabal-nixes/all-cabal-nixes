@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "13fa5ded250ef66f726c10eeec93fa430623d9048363777e8e30188039fc525a";
   libraryHaskellDepends = [ ghc-bignum ghc-prim rts ];
   description = "Basic libraries";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

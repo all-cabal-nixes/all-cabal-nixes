@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base primitive ];
   homepage = "https://github.com/andrewthad/primitive-checked#readme";
   description = "primitive functions with bounds-checking";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

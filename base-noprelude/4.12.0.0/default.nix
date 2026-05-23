@@ -7,5 +7,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/hvr/base-noprelude";
   description = "\"base\" package sans \"Prelude\" module";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

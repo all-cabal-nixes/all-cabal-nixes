@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base generics-sop tagged tasty ];
   testHaskellDepends = [ base tasty ];
   description = "A lightweight enumeration-based property testing library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

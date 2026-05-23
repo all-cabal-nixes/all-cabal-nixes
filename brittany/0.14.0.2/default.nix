@@ -30,6 +30,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/lspitzner/brittany/";
   description = "Haskell source code formatter";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "brittany";
 }

@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-all#readme";
   description = "Demo library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

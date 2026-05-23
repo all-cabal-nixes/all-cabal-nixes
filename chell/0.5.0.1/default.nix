@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/chell";
   description = "A simple and intuitive library for automated testing";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

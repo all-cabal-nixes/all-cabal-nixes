@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit type-reflection ];
   homepage = "https://github.com/goldfirere/runtime-instances";
   description = "Look up class instances at runtime";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring transformers ];
   homepage = "https://github.com/ncfavier/knob";
   description = "Memory-backed handles";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -15,5 +15,5 @@ mkDerivation {
     record-dot-preprocessor record-hasfield text
   ];
   description = "Unleash feature toggle client core";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

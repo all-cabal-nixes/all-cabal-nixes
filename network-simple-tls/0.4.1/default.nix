@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://hackage.haskell.org/package/network-simple-tls";
   description = "Simple interface to TLS secured network sockets";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

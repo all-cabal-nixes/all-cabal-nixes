@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/filepath/blob/master/README.md";
   description = "Library for manipulating FilePaths in a cross platform way";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

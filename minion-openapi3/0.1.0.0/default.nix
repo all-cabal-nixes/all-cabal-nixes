@@ -14,5 +14,5 @@ mkDerivation {
     template-haskell text
   ];
   description = "Minion openapi3 support";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/finn-no/unleash-client-haskell";
   description = "Unleash feature toggle client";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "example";
 }

@@ -20,5 +20,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/sergv/vector-quicksort";
   description = "Fast and flexible quicksort implementation for mutable vectors";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

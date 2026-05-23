@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/byte-containers";
   description = "Sets and maps with 8-bit words for keys";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text tomland trial ];
   homepage = "https://github.com/kowainik/trial";
   description = "Trial helper functions for tomland";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

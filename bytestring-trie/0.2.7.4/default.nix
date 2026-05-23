@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://wrengr.org/software/hackage.html";
   description = "An efficient finite map from bytestrings to values";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -18,6 +18,6 @@ mkDerivation {
   ];
   testHaskellDepends = [ async base ];
   description = "Analyze and visualize event logs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "ghc-events-analyze";
 }

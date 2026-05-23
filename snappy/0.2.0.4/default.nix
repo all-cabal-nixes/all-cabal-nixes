@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "http://framagit.org/ljdarj/snappy";
   description = "Fast Haskell bindings to Google’s Snappy compression library";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

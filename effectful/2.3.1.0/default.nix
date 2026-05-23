@@ -18,5 +18,5 @@ mkDerivation {
     async base tasty-bench text unix unliftio
   ];
   description = "An easy to use, performant extensible effects library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

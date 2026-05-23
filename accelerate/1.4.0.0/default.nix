@@ -26,5 +26,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest ];
   homepage = "https://github.com/AccelerateHS/accelerate/";
   description = "An embedded language for accelerated array processing";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

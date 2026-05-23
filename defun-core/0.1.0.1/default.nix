@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "0yxr234dk6rmx910ripxpfh1s8rs9ivszzcg1n07xa4b032gl85q";
   libraryHaskellDepends = [ base ];
   description = "Defunctionalization helpers: core definitions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

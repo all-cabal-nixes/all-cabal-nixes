@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/Arthi-chaud/type-machine#readme";
   description = "Type-level functions for record types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "vector-example";
 }

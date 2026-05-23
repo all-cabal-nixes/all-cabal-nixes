@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fpringle/effectful-postgresql";
   description = "effectful support for high-level PostgreSQL operations via Opaleye";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

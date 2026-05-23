@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-haskey/xxhash-ffi#readme";
   description = "Bindings and high-level helpers for xxHash";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

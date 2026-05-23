@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base mtl tasty tasty-hunit witness ];
   homepage = "https://github.com/AshleyYakeley/open-witness";
   description = "open witnesses";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

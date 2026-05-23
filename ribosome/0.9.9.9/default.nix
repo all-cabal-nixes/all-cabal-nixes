@@ -17,5 +17,5 @@ mkDerivation {
     ribosome-host-test tasty
   ];
   description = "Neovim plugin framework for Polysemy";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

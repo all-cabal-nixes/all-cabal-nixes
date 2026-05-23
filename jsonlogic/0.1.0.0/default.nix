@@ -10,5 +10,5 @@ mkDerivation {
     base containers hedgehog tasty tasty-hedgehog tasty-hunit
   ];
   description = "JsonLogic Evaluation";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

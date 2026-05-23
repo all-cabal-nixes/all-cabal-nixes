@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-nix/hnix-store";
   description = "Core effects for interacting with the Nix store";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

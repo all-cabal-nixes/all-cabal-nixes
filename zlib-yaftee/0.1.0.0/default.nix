@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/zlib-yaftee#readme";
   description = "Zlib wrapper built on Yaftee";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

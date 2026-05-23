@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jmcarthur/stable-heap";
   description = "Purely functional stable heaps (fair priority queues)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

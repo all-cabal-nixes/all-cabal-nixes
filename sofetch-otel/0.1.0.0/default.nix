@@ -10,5 +10,5 @@ mkDerivation {
     base hs-opentelemetry-api hspec sofetch unordered-containers
   ];
   homepage = "https://github.com/iand675/sofetch#readme";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base QuickCheck quickcheck-classes ];
   homepage = "https://github.com/andrewthad/unpacked-maybe-numeric#readme";
   description = "maybes of numeric values with fewer indirections";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

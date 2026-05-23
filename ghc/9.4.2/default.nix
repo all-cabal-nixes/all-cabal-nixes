@@ -17,5 +17,5 @@ mkDerivation {
   libraryToolDepends = [ alex deriveConstants genprimopcode happy ];
   homepage = "http://www.haskell.org/ghc/";
   description = "The GHC API";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

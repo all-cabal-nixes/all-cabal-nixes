@@ -14,5 +14,5 @@ mkDerivation {
     base hspec QuickCheck statistics text time vector
   ];
   description = "Golden testing framework for performance benchmarks";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

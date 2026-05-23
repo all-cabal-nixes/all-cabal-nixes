@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ aeson base tasty tasty-quickcheck ];
   homepage = "https://gitlab.iscpif.fr/gargantext/haskell-bee";
   description = "A lightweight library for asynchronous job workers with multiple broker backends";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/flip111/haskell-socket-unix#readme";
   description = "Unix domain sockets";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

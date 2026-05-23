@@ -10,5 +10,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion weigh ];
   homepage = "https://github.com/mrkkrp/assignment";
   description = "A solution to the assignment problem";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

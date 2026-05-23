@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base containers mtl old-locale ];
   description = "A class for types with a default value";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

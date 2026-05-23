@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/swamp-agr/lambdabot-telegram-plugins#readme";
   description = "Lambdabot for Telegram";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
   mainProgram = "telegram-lambdabot";
 }

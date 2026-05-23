@@ -11,5 +11,5 @@ mkDerivation {
     template-haskell th-compat
   ];
   description = "a library to build and work with heterogeneous, type level indexed rose trees";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

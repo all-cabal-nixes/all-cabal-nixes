@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base sop-core tasty tasty-hunit ];
   doHaddock = false;
   description = "Extensible records and variants indexed by a type-level Red-Black tree";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

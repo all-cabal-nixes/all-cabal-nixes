@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://hackage.haskell.org/package/pg-entity/src/docs/book/index.html";
   description = "A pleasant PostgreSQL layer";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

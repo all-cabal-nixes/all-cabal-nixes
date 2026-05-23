@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base dlist mtl pandoc-types text ];
   homepage = "https://github.com/414owen/pandoc-builder-monadic";
   description = "A monadic DSL for building pandoc documents";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

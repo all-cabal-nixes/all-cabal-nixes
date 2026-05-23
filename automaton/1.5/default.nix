@@ -22,5 +22,5 @@ mkDerivation {
     these transformers
   ];
   description = "Effectful streams and automata in coalgebraic encoding";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

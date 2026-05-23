@@ -12,5 +12,5 @@ mkDerivation {
     text time
   ];
   description = "A flexible logging system utilizing the `monad-effect` effect system";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

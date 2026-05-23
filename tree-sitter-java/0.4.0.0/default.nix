@@ -8,5 +8,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/tree-sitter/haskell-tree-sitter/tree/master/tree-sitter-java";
   description = "Tree-sitter grammar/parser for Java";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

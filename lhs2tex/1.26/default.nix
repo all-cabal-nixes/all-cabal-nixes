@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/kosmikus/lhs2tex";
   description = "Preprocessor for typesetting Haskell sources with LaTeX";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
   mainProgram = "lhs2TeX";
 }

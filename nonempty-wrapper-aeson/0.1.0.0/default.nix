@@ -13,5 +13,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/blackheaven/nonempty-wrapper/nonempty-wrapper-aeson";
   description = "aeson instances for 'NonEmpty'";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

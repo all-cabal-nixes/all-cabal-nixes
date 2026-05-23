@@ -11,6 +11,6 @@ mkDerivation {
   executableHaskellDepends = [ base co-log-core polysemy ];
   homepage = "https://github.com/kowainik/co-log";
   description = "Composable Contravariant Comonadic Logging Library";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
   mainProgram = "play-colog-poly";
 }

@@ -21,5 +21,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec hspec-expectations ];
   homepage = "https://github.com/github.com/ghais#readme";
   description = "Quantitative Library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

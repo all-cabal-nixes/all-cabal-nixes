@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base scientific text vector ];
   homepage = "https://github.com/nikita-volkov/aeson-unqualified-ast";
   description = "Aliases to \"aeson\" AST making it importable unqualified";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aztecs base containers linear ];
   homepage = "https://github.com/matthunz/aztecs";
   description = "Transform components for Aztecs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

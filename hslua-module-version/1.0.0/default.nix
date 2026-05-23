@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hslua/hslua-module-version";
   description = "Lua module to work with version specifiers";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

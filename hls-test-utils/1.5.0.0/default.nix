@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/haskell-language-server#readme";
   description = "Utilities used in the tests of Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

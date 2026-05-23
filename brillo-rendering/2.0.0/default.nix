@@ -9,5 +9,5 @@ mkDerivation {
     base bmp bytestring containers freetype2 GLFW-b OpenGL text
   ];
   description = "Brillo picture data types and rendering functions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

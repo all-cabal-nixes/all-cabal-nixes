@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Lev135/tokenizer";
   description = "Check uniqueness and tokenize safely";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

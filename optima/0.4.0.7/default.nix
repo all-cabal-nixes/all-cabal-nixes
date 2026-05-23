@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ attoparsec-data rerebase ];
   homepage = "https://github.com/metrix-ai/optima";
   description = "Simple command line interface arguments parser";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

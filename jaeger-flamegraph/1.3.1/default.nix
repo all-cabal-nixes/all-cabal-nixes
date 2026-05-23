@@ -17,6 +17,6 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "Generate flamegraphs from Jaeger .json dumps.";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "jaeger-flamegraph";
 }

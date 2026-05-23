@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base opentracing text ];
   homepage = "https://github.com/kim/opentracing";
   description = "Zipkin OpenTracing Backend Commons";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/alt-romes/hegg";
   description = "Fast equality saturation in Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

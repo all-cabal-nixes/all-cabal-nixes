@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/MercuryTechnologies/tls-sslkeylogfile#readme";
   description = "SSLKEYLOGFILE support for Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

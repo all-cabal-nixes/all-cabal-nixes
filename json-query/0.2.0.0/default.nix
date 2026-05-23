@@ -17,5 +17,5 @@ mkDerivation {
     neat-interpolation primitive tasty tasty-hunit text text-short
   ];
   description = "Kitchen sink for querying JSON";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
     base bytestring criterion deepseq ppad-base16 weigh
   ];
   description = "A fast Poly1305 MAC";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

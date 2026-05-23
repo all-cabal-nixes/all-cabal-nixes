@@ -13,5 +13,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ nix ];
   homepage = "https://docs.hercules-ci.com";
   description = "Haskell bindings for Nix's libstore";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

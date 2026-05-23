@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/drdilyor/cpmonad";
   description = "Competitive programming problemsetting toolchain";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

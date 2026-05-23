@@ -7,5 +7,5 @@ mkDerivation {
     base bytestring JuicyPixels text vector
   ];
   description = "Turning images into text using Braille font";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

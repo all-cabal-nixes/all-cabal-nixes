@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/bitnomial/bitcoind-rpc";
   description = "A library for working with bitcoin-core regtest networks";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "bitcoind-rpc-explorer";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.utc.fr/gsabbagh/FiniteCategoriesGraphViz";
   description = "Transform objects of the package FiniteCategories into graphs using GraphViz";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

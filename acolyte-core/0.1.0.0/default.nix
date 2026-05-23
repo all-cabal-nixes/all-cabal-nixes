@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base text ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "Type-level API specification for acolyte";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

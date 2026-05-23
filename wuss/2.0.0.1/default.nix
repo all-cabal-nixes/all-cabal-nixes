@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring connection network websockets
   ];
   description = "Secure WebSocket (WSS) clients";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

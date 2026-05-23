@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/metrix-ai/deferred-folds";
   description = "Abstractions over deferred folds";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

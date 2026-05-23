@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Tasty helpers to test HsLua";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

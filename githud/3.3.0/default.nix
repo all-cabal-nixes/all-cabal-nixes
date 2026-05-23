@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/gbataille/gitHUD#readme";
   description = "Heads up, and you see your GIT context";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

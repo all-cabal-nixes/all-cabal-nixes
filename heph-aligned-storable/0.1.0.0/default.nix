@@ -18,5 +18,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/jtnuttall/heph/tree/main/heph-aligned-storable#readme";
   description = "Generically derive Storable instances suitable for CPU-GPU transfer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

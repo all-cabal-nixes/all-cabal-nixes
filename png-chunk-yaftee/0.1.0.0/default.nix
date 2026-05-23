@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/png-chunk-yaftee#readme";
   description = "PNG's chunk codec on Yaftee";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

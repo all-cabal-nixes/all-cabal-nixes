@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/paulrzcz/hquantlib.git";
   description = "HQuantLib is a port of essencial parts of QuantLib to Haskell";
-  license = lib.licensesSpdx."LGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-3.0-only";
   mainProgram = "mctest";
 }

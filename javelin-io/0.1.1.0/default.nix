@@ -17,5 +17,5 @@ mkDerivation {
     temporary vector
   ];
   description = "IO operations for the `javelin` package";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

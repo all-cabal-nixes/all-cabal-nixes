@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/AliceRixte/ghci4luatex#readme";
   description = "A GHCi session in LaTeX";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "ghci4luatex";
 }

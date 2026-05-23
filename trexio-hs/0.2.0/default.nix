@@ -21,5 +21,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/TREX-CoE/trexio-hs";
   description = "Bindings to the TREXIO library for wave function data";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

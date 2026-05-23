@@ -14,5 +14,5 @@ mkDerivation {
     tasty-quickcheck text
   ];
   description = "Definition and serialisation instances for Futhark manifests";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

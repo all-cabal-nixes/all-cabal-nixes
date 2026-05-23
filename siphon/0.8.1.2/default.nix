@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrewthad/colonnade#readme";
   description = "Encode and decode CSV files";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

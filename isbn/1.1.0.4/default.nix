@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec QuickCheck text ];
   homepage = "https://github.com/charukiewicz/hs-isbn";
   description = "ISBN Validation and Manipulation";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

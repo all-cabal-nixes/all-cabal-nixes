@@ -7,6 +7,6 @@ mkDerivation {
   isExecutable = true;
   executableHaskellDepends = [ base optparse-applicative ];
   description = "Generate flamegraphs from ghc RTS .prof files";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "prof-flamegraph";
 }

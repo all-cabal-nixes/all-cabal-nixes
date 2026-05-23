@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/haskell-language-server/hls-exactprint-utils";
   description = "Common utilities to interaction between ghc-exactprint and HLS plugins";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

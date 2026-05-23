@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://gitlab.com/k0001/singlethongs";
   description = "Like singletons, but much smaller";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

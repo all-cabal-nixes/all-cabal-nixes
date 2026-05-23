@@ -11,5 +11,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq ];
   homepage = "http://github.com/blackheaven/yarl";
   description = "Yet another records libraries";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

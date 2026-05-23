@@ -31,6 +31,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/helic#readme";
   description = "Clipboard Manager";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
   mainProgram = "hel";
 }

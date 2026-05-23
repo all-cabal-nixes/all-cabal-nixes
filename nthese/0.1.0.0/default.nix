@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "da3f9d91c202f1b12a48950804e09ae13a4978f6fb32a18a3efa0369113f4bc5";
   libraryHaskellDepends = [ base semialign sop-core these ];
   description = "A heterogeneous, n-ary generalisation of These";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

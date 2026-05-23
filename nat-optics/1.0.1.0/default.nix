@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec optics-core text ];
   homepage = "https://github.com/typeclasses/nat-optics";
   description = "Refinement types for natural numbers with an optics interface";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

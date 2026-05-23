@@ -10,5 +10,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "Commonly useful symantics for Embedded Domain-Specific Languages (EDSL)";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://www.manuelbaerenz.de/#computerscience";
   description = "General purpose live coding framework";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

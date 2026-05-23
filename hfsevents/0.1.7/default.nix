@@ -6,6 +6,6 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring cereal mtl text ];
   homepage = "http://github.com/luite/hfsevents";
   description = "File/folder watching for OS X";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   platforms = lib.platforms.darwin;
 }

@@ -1,5 +1,5 @@
 { mkDerivation, base, bytestring, concurrent-extra, HDBC, lib, mtl
-, time, unixODBC, utf8-string
+, time, unixodbc, utf8-string
 }:
 mkDerivation {
   pname = "HDBC-odbc";
@@ -10,7 +10,7 @@ mkDerivation {
   libraryHaskellDepends = [
     base bytestring concurrent-extra HDBC mtl time utf8-string
   ];
-  librarySystemDepends = [ unixODBC ];
+  librarySystemDepends = [ unixodbc ];
   homepage = "https://github.com/hdbc/hdbc-odbc";
   description = "ODBC driver for HDBC";
   license = lib.licenses.bsd3;

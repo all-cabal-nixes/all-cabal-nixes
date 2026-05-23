@@ -18,5 +18,5 @@ mkDerivation {
     base bytestring criterion deepseq weigh
   ];
   description = "BOLT4 (onion routing) for Lightning Network";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

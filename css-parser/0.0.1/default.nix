@@ -23,6 +23,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/yaitskov/css-parser";
   description = "pure CSS parser/printer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "css-parser";
 }

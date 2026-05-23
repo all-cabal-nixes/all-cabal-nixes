@@ -15,5 +15,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/mauriciofierrom/dialogflow-fulfillment";
   description = "A Dialogflow Fulfillment library for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

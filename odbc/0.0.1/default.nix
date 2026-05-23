@@ -1,6 +1,6 @@
 { mkDerivation, async, base, bytestring, containers, deepseq
 , formatting, hspec, lib, optparse-applicative, QuickCheck, text
-, time, unixODBC, unliftio-core, weigh
+, time, unixodbc, unliftio-core, weigh
 }:
 mkDerivation {
   pname = "odbc";
@@ -12,7 +12,7 @@ mkDerivation {
     async base bytestring containers deepseq formatting text time
     unliftio-core
   ];
-  librarySystemDepends = [ unixODBC ];
+  librarySystemDepends = [ unixodbc ];
   executableHaskellDepends = [
     base bytestring optparse-applicative text
   ];

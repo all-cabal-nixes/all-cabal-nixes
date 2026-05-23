@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/ascii";
   description = "ASCII representations of numbers";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

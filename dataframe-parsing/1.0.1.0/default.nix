@@ -10,5 +10,5 @@ mkDerivation {
     dataframe-core text time
   ];
   description = "Shared text/binary parsing helpers for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

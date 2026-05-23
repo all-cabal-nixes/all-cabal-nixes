@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/shinzui/hw-kafka-streamly";
   description = "Streamly bindings for hw-kafka-client";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

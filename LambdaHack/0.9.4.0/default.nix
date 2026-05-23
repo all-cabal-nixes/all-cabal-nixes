@@ -26,6 +26,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://lambdahack.github.io";
   description = "A game engine library for tactical squad ASCII roguelike dungeon crawlers";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "LambdaHack";
 }

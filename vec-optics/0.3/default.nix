@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base fin optics-core vec ];
   homepage = "https://github.com/phadej/vec";
   description = "Vec: length-indexed (sized) list: optics support";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

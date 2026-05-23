@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base hspec ];
   description = "Sparse vector data structures";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "sparse-vector";
 }

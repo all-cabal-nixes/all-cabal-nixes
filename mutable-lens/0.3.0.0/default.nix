@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/infinity0/hs-mutable-lens";
   description = "Interoperate mutable references with regular lens";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

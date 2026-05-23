@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "http://hub.darcs.net/gh/htab";
   description = "Tableau based theorem prover for hybrid logics";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "htab";
 }

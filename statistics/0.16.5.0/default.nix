@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/statistics";
   description = "A library of statistical types, data, and functions";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

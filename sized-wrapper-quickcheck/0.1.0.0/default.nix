@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base QuickCheck sized-wrapper ];
   homepage = "http://github.com/blackheaven/sized-wrapper/sized-wrapper-quickcheck";
   description = "QuickCheck instance for 'Sized'";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

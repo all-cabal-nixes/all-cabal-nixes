@@ -25,5 +25,5 @@ mkDerivation {
   testToolDepends = [ hlint ];
   homepage = "https://github.com/ncaq/himari";
   description = "A standard library for Haskell as an alternative to rio";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

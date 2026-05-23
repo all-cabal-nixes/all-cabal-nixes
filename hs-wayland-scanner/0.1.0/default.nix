@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/andrea_rossato/hs-wayland-scanner";
   description = "Haskell implementation of the Wayland Message Definition Language";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hws";
 }

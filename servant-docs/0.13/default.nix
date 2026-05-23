@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "http://docs.servant.dev/";
   description = "generate API docs for your servant webservice";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "greet-docs";
 }

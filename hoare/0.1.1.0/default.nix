@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "a0ee73b18bdb00eecf26d3db73731173ee9e94b745cb0dc419666f2215cbc321";
   libraryHaskellDepends = [ async base deepseq stm ];
   description = "Simple tools for communicating sequential processes";
-  license = lib.licensesSpdx."Zlib";
+  license = lib.meta.getLicenseFromSpdxId "Zlib";
 }

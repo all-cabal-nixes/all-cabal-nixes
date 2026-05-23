@@ -12,5 +12,5 @@ mkDerivation {
     text time websockets
   ];
   description = "Plexus RPC protocol types and client";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

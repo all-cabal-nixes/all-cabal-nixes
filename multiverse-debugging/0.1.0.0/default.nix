@@ -8,6 +8,6 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ];
   executableHaskellDepends = [ base containers ];
   testHaskellDepends = [ base containers ];
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "multiverse-debugging-exe";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Abstract syntax for writing documents";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/zenhack/haskell-ocap";
   description = "Object capability based IO";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

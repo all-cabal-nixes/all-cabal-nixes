@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://haskell-distributed.github.io";
   description = "Network abstraction layer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

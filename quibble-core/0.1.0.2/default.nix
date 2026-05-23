@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/williamyaoh/quibble/blob/cleanroom/README.md";
   description = "Convenient SQL query language for Haskell (but only for single tables)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

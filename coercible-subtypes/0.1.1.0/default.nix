@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base profunctors ];
   homepage = "https://github.com/viercc/coercible-subtypes";
   description = "Coercible but only in one direction";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

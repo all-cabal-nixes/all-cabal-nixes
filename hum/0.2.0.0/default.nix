@@ -27,6 +27,6 @@ mkDerivation {
     transformers vector vty witherable
   ];
   description = "A TUI MPD client, inspired by ncmpcpp";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
   mainProgram = "hum";
 }

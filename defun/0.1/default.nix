@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ defun-bool defun-core defun-sop ];
   testHaskellDepends = [ base sop-core ];
   description = "Defunctionalization helpers";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

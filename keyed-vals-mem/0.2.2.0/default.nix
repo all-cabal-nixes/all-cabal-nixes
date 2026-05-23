@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec keyed-vals-hspec-tests ];
   homepage = "https://github.com/adetokunbo/keyed-vals#readme";
   description = "Implements a keyed-vals Handle using in-process memory";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

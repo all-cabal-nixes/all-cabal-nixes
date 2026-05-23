@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base binary containers cropty merge text ];
   description = "An implementation of a trust chain";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

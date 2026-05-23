@@ -8,5 +8,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/goertzenator/s2n-tls-ffi";
   description = "Low-level FFI bindings to the s2n-tls library";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

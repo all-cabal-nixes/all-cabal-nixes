@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ async base process ];
   homepage = "https://github.com/haskell-pkg-janitors/filelock";
   description = "Portable interface to file locking (flock / LockFileEx)";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base parsec text vector ];
   homepage = "https://github.com/UnaryPlus/ca-patterns";
   description = "Manipulate patterns in cellular automata, create and parse RLE files";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

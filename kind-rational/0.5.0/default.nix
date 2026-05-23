@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/k0001/hs-kind";
   description = "Type-level rationals. Like KnownNat, but for rationals.";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

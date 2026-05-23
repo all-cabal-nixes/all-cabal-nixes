@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/SupercedeTech/yesod-middleware-csp";
   description = "A middleware for building CSP headers on the fly";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

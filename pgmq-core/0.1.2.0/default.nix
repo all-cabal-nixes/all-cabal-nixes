@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base template-haskell text time ];
   homepage = "https://github.com/topagentnetwork/pgmq-hs";
   description = "Core types for pgmq-hs, a Haskell client for PGMQ";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

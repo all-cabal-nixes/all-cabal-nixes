@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/bellroy/tasty-golden-extra";
   description = "Additional golden test helpers for the tasty-golden package";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

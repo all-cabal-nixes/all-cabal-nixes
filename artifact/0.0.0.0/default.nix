@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base bytestring containers text ];
   homepage = "https://gitlab.com/leifmetcalf/artifact#readme";
   description = "Basic types and instances for Valve's Artifact Card-set API";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

@@ -26,5 +26,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base extra lsp process ];
   homepage = "https://github.com/haskell/lsp/blob/master/lsp-test/README.md";
   description = "Functional test framework for LSP servers";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

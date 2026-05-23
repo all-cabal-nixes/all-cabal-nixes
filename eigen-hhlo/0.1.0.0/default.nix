@@ -12,6 +12,6 @@ mkDerivation {
   testHaskellDepends = [ base hhlo tasty tasty-hunit text vector ];
   homepage = "https://github.com/overshiki/eigen-hhlo";
   description = "Dense linear algebra on HHLO (SVD, QR, eigenvalue, Cholesky, LU)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "eigen-hhlo";
 }

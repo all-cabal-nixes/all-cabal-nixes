@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec stm ];
   homepage = "https://github.com/SamuelSchlesinger/stm-incremental";
   description = "A library for constructing incremental computations";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

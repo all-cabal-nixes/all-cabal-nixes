@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base megaparsec tasty tasty-hunit text ];
   homepage = "https://github.com/fosskers/org-mode";
   description = "Parser for Emacs org-mode files";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

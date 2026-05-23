@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ async base bytestring hspec unix ];
   description = "Ergonomic process launching with extreme flexibility and speed";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

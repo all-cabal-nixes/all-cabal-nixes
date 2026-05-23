@@ -26,5 +26,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/frasertweedale/hs-jose";
   description = "Javascript Object Signing and Encryption and JSON Web Token library";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

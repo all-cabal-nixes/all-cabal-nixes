@@ -30,5 +30,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/clash-lang/clash-protocols";
   description = "a battery-included library for (dataflow) protocols";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

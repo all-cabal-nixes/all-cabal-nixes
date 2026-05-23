@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring process temporary text wai-extra
   ];
   description = "ImageMagick preprocessing for IHP file uploads";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

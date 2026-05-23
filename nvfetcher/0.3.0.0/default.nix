@@ -24,6 +24,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/berberman/nvfetcher";
   description = "Generate nix sources expr for the latest version of packages";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "nvfetcher";
 }

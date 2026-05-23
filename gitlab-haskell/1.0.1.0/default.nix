@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/robstewart57/gitlab-haskell";
   description = "A Haskell library for the GitLab web API";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

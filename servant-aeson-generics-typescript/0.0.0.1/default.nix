@@ -21,6 +21,6 @@ mkDerivation {
     string-interpolate text time warp
   ];
   description = "Generates a TypeScript client for Servant APIs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "tests";
 }

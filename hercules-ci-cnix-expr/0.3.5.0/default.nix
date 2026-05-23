@@ -26,5 +26,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://docs.hercules-ci.com";
   description = "Bindings for the Nix evaluator";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

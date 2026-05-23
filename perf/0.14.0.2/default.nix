@@ -20,6 +20,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base ];
   homepage = "https://github.com/tonyday567/perf#readme";
   description = "Performance methods and monad";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "perf-explore";
 }

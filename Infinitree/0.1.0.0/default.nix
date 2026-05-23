@@ -15,5 +15,5 @@ mkDerivation {
     random
   ];
   description = "Infinitely deep trees for lazy stateless memoization";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

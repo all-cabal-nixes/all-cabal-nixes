@@ -20,5 +20,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "An efficient CPU-based multidimensional array (tensor) library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

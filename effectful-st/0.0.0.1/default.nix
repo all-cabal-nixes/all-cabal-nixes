@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base effectful-core primitive ];
   homepage = "https://sr.ht/~qrpnxz/effectful-st/";
   description = "`ST`-style mutation for `effectful`";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

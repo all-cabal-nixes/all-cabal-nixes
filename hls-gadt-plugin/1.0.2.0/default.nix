@@ -18,5 +18,5 @@ mkDerivation {
     base filepath hls-test-utils lens lsp lsp-test text
   ];
   description = "Convert to GADT syntax plugin";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

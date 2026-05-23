@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "3db403e8786596ca71dad156f5dc2e7dee0abd82e95f01155b1264f8c48a9c5e";
   libraryHaskellDepends = [ base containers hashable monoidmap ];
   description = "Hashing support for monoidmap";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

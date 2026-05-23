@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/jlamothe/gemcap";
   description = "a simple Gemini capsule (server)";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

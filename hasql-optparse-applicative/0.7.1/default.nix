@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sannsyn/hasql-optparse-applicative";
   description = "\"optparse-applicative\" parsers for \"hasql\"";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

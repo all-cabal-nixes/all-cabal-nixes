@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mrkkrp/identicon";
   description = "Flexible generation of identicons";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

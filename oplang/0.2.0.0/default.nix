@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/aionescu/oplang#readme";
   description = "Compiler for OpLang, an esoteric programming language";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "oplang";
 }

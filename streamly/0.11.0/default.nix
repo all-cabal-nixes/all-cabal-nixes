@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://streamly.composewell.com";
   description = "Streaming data pipelines with declarative concurrency";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

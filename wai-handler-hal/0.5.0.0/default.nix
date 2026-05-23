@@ -19,5 +19,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "http://github.com/bellroy/wai-handler-hal";
   description = "Wrap WAI applications to run on AWS Lambda";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base text ];
   homepage = "https://github.com/owensmurray/om-show";
   description = "Utilities for showing string-like things";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

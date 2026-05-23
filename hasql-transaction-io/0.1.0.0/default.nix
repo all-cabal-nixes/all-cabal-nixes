@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andremarianiello/hasql-transaction-io";
   description = "Perform IO actions during transactions for Hasql";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

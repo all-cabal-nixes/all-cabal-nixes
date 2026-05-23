@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-unordered-containers/hashable";
   description = "A class for types that can be converted to a hash value";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

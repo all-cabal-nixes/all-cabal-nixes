@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers parsec text time ];
   testHaskellDepends = [ base hspec parsec QuickCheck time ];
   description = "Handle POSIX cron schedules";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

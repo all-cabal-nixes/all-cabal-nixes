@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/louispan/javascript-stub#readme";
   description = "Allow GHCJS projects to compile under GHC and develop using intero";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

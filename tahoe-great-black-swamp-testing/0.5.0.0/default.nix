@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/tahoe-lafs/tahoe-great-black-swamp-testing";
   description = "An HSpec for Great Black Swamp storage backends";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

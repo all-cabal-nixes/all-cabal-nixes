@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/haskell-tdigest#readme";
   description = "On-line accumulation of rank-based statistics";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

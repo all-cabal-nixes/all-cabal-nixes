@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/utxorpc/utxorpc-client#readme";
   description = "An SDK for clients of the UTxO RPC specification";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

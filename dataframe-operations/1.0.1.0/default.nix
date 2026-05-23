@@ -11,5 +11,5 @@ mkDerivation {
     regex-tdfa text time unordered-containers vector vector-algorithms
   ];
   description = "Column operations, expression DSL, and statistics for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/snapframework/xmlhtml";
   description = "XML parser and renderer with HTML 5 quirks mode";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl transformers ];
   homepage = "https://github.com/mrkkrp/tagged-identity";
   description = "Trivial monad transformer that allows identical monad stacks to have different types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

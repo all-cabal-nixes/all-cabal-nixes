@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/isomorphism-class";
   description = "Lawful typeclasses for conversion between types";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

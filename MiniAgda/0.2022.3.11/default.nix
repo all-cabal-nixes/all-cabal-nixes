@@ -18,6 +18,6 @@ mkDerivation {
   testToolDepends = [ goldplate ];
   homepage = "http://www.cse.chalmers.se/~abela/miniagda/";
   description = "A toy dependently typed programming language with type-based termination";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "miniagda";
 }

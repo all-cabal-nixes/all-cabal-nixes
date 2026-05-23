@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ async base ];
   description = "Concurrent logging";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

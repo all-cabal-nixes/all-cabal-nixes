@@ -16,6 +16,6 @@ mkDerivation {
     QuickCheck random split string-interpolate text time
   ];
   description = "Generates TypeScript definitions that match Generic Aeson encodings";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "tests";
 }

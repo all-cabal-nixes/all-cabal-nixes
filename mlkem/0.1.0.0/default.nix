@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/ocheron/hs-mlkem#readme";
   description = "Module-Lattice-based Key-Encapsulation Mechanism";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

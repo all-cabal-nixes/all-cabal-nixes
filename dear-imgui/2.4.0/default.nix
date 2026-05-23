@@ -19,5 +19,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ glew SDL2 ];
   doHaddock = false;
   description = "Haskell bindings for Dear ImGui";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

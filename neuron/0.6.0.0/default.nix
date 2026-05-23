@@ -47,6 +47,6 @@ mkDerivation {
   ];
   homepage = "https://neuron.zettel.page";
   description = "Future-proof system for plain-text notes";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "neuron";
 }

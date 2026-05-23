@@ -34,6 +34,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/hercules-ci/hercules-ci-agent#readme";
   description = "Hercules CI API definition with Servant";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "hercules-gen-swagger";
 }

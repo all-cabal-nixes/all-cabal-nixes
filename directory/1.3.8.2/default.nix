@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base filepath time unix ];
   testHaskellDepends = [ base filepath time unix ];
   description = "Platform-agnostic library for filesystem operations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     base containers QuickCheck tasty tasty-quickcheck text transformers
   ];
   description = "Equiprobable draw from publicly verifiable random data";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

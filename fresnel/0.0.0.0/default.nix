@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fresnel/fresnel";
   description = "high-powered optics in a small package";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

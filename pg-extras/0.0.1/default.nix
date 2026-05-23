@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base HUnit text ];
   description = "PostgreSQL database performance insights";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

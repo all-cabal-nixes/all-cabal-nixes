@@ -58,5 +58,5 @@ mkDerivation {
   ];
   homepage = "https://docs.hercules-ci.com";
   description = "Runs Continuous Integration tasks on your machines";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

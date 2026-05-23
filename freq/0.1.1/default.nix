@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring containers gauge ];
   homepage = "https://github.com/chessai/freq";
   description = "Are you ready to get freaky?";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

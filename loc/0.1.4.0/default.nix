@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/loc";
   description = "Types representing line and column positions and ranges in text files";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

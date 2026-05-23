@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/PPKFS/bearlibterminal-hs";
   description = "Low-level Haskell bindings to the BearLibTerminal graphics library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "omni";
 }

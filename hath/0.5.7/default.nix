@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "http://michael.orlitzky.com/code/hath.xhtml";
   description = "Hath manipulates network blocks in CIDR notation";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "hath";
 }

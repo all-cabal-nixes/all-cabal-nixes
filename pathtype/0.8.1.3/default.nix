@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/pathtype/";
   description = "Type-safe replacement for System.FilePath etc";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

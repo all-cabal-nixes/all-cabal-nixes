@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/lapack-hmatrix/";
   description = "Conversion of objects between 'lapack' and 'hmatrix'";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

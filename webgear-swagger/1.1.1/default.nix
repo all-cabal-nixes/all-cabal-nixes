@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-webgear/webgear#readme";
   description = "Composable, type-safe library to build HTTP API servers";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

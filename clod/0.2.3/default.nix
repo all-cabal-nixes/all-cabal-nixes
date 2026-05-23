@@ -25,5 +25,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fuzz/clod";
   description = "Project file manager for Claude AI integrations";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

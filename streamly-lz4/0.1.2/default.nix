@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base directory gauge streamly ];
   homepage = "https://github.com/composewell/streamly-lz4";
   description = "Streamly combinators for LZ4 compression";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

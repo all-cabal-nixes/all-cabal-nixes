@@ -13,5 +13,5 @@ mkDerivation {
     tasty-hunit
   ];
   description = "Effectful integration for link-canonical";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

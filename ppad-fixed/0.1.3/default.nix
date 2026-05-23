@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit tasty-quickcheck ];
   benchmarkHaskellDepends = [ base criterion deepseq weigh ];
   description = "Large fixed-width words and constant-time arithmetic";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

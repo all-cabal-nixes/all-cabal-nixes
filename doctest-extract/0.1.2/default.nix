@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/doctest-extract/";
   description = "Alternative doctest implementation that extracts comments to modules";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "doctest-extract-0.1";
 }

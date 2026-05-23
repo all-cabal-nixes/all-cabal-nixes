@@ -20,5 +20,5 @@ mkDerivation {
     aeson base directory extra filepath hls-test-utils lens lsp-types
   ];
   description = "Eval plugin for Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/byteverse/http-exchange";
   description = "Perform HTTP Requests";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

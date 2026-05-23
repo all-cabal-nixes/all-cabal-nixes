@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/amesgen/dhall-recursive-adt";
   description = "Convert recursive ADTs from and to Dhall";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

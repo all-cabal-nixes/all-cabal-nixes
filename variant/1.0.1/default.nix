@@ -14,5 +14,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq QuickCheck ];
   homepage = "https://www.haskus.org";
   description = "Variant and EADT";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

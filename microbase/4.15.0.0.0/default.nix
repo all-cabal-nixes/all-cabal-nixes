@@ -7,5 +7,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/daig/microbase#readme";
   description = "A minimal base to work around GHC bugs";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

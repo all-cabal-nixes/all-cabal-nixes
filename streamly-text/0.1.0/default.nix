@@ -10,5 +10,5 @@ mkDerivation {
     base hspec quickcheck-instances random streamly-core temporary text
   ];
   description = "Library for streamly and text interoperation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

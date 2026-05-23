@@ -8,5 +8,5 @@ mkDerivation {
     base eventuo11y hs-opentelemetry-api text
   ];
   description = "OpenTelemetry-based rendering for eventuo11y";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

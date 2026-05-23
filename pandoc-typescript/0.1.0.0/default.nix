@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/srid/imako/tree/master/backend/pandoc-typescript";
   description = "TypeScript type generation for Pandoc AST types";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base mtl transformers ];
   homepage = "https://github.com/Lev135/bidirectional-instances";
   description = "Make instance constraints bidirectional";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

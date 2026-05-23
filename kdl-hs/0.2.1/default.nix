@@ -13,5 +13,5 @@ mkDerivation {
   testToolDepends = [ skeletest ];
   homepage = "https://github.com/brandonchinn178/kdl-hs#readme";
   description = "KDL language parser and API";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

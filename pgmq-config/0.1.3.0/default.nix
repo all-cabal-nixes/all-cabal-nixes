@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/shinzui/pgmq-hs";
   description = "Declarative queue configuration for PGMQ (PostgreSQL Message Queue)";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

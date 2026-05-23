@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lens opentracing text wai ];
   homepage = "https://github.com/kim/opentracing";
   description = "Middleware adding OpenTracing tracing for WAI applications";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

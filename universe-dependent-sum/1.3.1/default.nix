@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base universe-some ];
   homepage = "https://github.com/dmwit/universe";
   description = "Universe instances for types from dependent-sum";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

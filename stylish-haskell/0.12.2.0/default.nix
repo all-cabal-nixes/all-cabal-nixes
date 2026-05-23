@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jaspervdj/stylish-haskell";
   description = "Haskell code prettifier";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "stylish-haskell";
 }

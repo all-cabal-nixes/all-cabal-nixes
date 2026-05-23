@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/guibou/krank";
   description = "Krank checks issue tracker link status in your source code";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "krank";
 }

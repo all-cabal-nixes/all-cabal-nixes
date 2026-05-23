@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "http://jakewheat.github.io/simple-sql-parser/latest";
   description = "A parser for SQL";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

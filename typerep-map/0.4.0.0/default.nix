@@ -19,5 +19,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/kowainik/typerep-map";
   description = "Efficient implementation of a dependent map with types as keys";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

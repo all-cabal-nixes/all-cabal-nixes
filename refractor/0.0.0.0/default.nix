@@ -8,5 +8,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge ];
   homepage = "https://github.com/strake/refractor.hs";
   description = "See README for more info";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

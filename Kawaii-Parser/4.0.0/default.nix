@@ -8,5 +8,5 @@ mkDerivation {
     base containers directory mtl transformers
   ];
   description = "A simple parsing library and some additional utilities";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

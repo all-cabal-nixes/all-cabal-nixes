@@ -15,5 +15,5 @@ mkDerivation {
     base extra filepath hls-test-utils lens lsp-types row-types text
   ];
   description = "Explicit imports plugin for Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

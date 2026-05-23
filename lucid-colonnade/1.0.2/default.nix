@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base colonnade lucid text vector ];
   homepage = "https://github.com/byteverse/lucid-colonnade";
   description = "Helper functions for using lucid with colonnade";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

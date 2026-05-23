@@ -12,5 +12,5 @@ mkDerivation {
     aeson aeson-pretty base bytestring Diff tasty tasty-hunit
   ];
   description = "API for creating grafana dashboards represented as json";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

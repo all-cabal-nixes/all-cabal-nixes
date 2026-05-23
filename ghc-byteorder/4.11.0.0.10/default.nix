@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   doHaddock = false;
   description = "\"GHC.ByteOrder\" API Compatibility Layer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

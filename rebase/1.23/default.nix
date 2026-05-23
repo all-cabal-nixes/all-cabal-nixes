@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/rebase";
   description = "A more progressive alternative to the \"base\" package";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

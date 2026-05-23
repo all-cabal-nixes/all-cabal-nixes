@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "0d7004c312c6c3dedd98333290dac91b6155322b55566ff89ee9111556c00d02";
   libraryHaskellDepends = [ base changeset time ];
   description = "Stateful monad transformer based on monoidal actions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

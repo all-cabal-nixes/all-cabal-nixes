@@ -10,5 +10,5 @@ mkDerivation {
     text th-compat time uuid
   ];
   description = "aeson-based rendering for eventuo11y";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

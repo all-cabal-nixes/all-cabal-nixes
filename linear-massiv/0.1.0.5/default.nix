@@ -17,5 +17,5 @@ mkDerivation {
     base criterion deepseq hmatrix linear massiv vector
   ];
   description = "Type-safe numerical linear algebra backed by massiv arrays";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

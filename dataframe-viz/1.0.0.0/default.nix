@@ -11,5 +11,5 @@ mkDerivation {
     directory granite process random temporary text vector
   ];
   description = "Visualisation/plotting helpers for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -50,5 +50,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/msakai/toysolver/";
   description = "Assorted decision procedures for SAT, SMT, Max-SAT, PB, MIP, etc";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

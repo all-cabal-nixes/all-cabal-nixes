@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/juhp/fontwhich";
   description = "Determine fonts used to render text";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "fontwhich";
 }

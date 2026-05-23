@@ -26,6 +26,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base time ];
   homepage = "https://github.com/objectionary/phino#readme";
   description = "Command-Line Manipulator of 𝜑-Calculus Expressions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "phino";
 }

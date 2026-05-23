@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.iscpif.fr/gargantext/haskell-pgmq";
   description = "Haskell interface for Tembo's PGMQ PostgreSQL extension";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

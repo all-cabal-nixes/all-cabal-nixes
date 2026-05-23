@@ -5,5 +5,5 @@ mkDerivation {
   sha256 = "b936ec96248e7f5470d72ae1975db03b8dba502998817222902f4f0fdb49687e";
   libraryHaskellDepends = [ base binary bytestring text ];
   description = "Control command protocol for eventlog-socket";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
     base ghc ghc-paths template-haskell transformers
   ];
   description = "detect mismatches between compile-time and run-time versions of the ghc api";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

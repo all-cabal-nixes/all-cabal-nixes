@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base containers doctest mtl ];
   homepage = "https://github.com/rampion/tree-traversals";
   description = "Functions and newtype wrappers for traversing Trees";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

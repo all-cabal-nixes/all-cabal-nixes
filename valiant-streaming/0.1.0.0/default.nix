@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/joshburgess/valiant";
   description = "Streaming adapter for valiant (streaming library)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

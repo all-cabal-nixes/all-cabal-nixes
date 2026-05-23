@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mhwombat/grid";
   description = "Tools for working with regular grids (graphs, lattices)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

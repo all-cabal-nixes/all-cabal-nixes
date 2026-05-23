@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ bluefin-internal ];
   homepage = "https://github.com/tomjaguarpaw/bluefin";
   description = "The Bluefin effect system";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

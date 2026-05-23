@@ -13,5 +13,5 @@ mkDerivation {
     attoparsec base bytestring criterion text
   ];
   description = "DNS name parsing and pattern matching utilities";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

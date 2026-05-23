@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.haskell.org/ghc/ghc-debug";
   description = "Connect to a socket created by ghc-debug-stub and analyse the heap of the debuggee program";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

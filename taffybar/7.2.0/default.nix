@@ -57,5 +57,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/taffybar/taffybar";
   description = "A desktop bar similar to xmobar, but with more GUI";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

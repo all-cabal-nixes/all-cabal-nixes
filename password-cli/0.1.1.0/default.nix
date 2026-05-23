@@ -12,6 +12,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/cdepillabout/password/tree/master/password-cli#readme";
   description = "use password from your CLI";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "password-cli";
 }

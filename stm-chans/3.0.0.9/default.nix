@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base stm ];
   homepage = "https://wrengr.org/software/hackage.html";
   description = "Additional types of channels for STM";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

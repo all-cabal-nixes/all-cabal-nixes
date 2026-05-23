@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteally/hedgehog-gen";
   description = "Customizable Gen for ADT using Generics";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

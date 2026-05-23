@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/bruderj15/servant-hateoas";
   description = "HATEOAS extension for servant";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

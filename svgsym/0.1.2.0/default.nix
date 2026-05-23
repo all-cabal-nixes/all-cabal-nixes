@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "https://git.sr.ht/~rycee/svgsym";
   description = "A tool to prune unused symbols from icon SVG files";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "svgsym";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://hslua.org/";
   description = "Allow aeson data types to be used with Lua";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

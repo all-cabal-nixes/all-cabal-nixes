@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/meooow25/suffix";
   description = "Suffix arrays and friends";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/bgamari/build-env";
   description = "Compute, fetch and install Cabal build plans into a local environment";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "build-env";
 }

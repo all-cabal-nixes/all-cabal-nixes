@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hedgehog partial-semigroup ];
   homepage = "https://github.com/typeclasses/partial-semigroup-hedgehog";
   description = "Property testing for partial semigroups using Hedgehog";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

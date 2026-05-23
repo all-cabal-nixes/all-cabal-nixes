@@ -44,6 +44,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/tweag/monad-bayes#readme";
   description = "A library for probabilistic programming";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "example";
 }

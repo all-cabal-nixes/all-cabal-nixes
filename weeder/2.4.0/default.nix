@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/ocharles/weeder#readme";
   description = "Detect dead code";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "weeder";
 }

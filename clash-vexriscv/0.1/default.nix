@@ -26,5 +26,5 @@ mkDerivation {
     template-haskell
   ];
   description = "VexRiscv CPU core for use in Clash designs";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

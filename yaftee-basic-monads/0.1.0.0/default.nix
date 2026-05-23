@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/yaftee-basic-monads#readme";
   description = "Basic monads implemented on Yaftee";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

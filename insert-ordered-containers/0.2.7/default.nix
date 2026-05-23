@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/erikd/insert-ordered-containers#readme";
   description = "Associative containers retaining insertion order for traversals";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

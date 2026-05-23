@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/phadej/zinza";
   description = "Typed templates with jinja like syntax";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
 }

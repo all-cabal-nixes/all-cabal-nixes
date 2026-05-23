@@ -17,5 +17,5 @@ mkDerivation {
     text-short
   ];
   description = "ASN.1 BER Encode and Decode";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

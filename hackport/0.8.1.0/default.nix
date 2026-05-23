@@ -37,6 +37,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/gentoo-haskell/hackport#readme";
   description = "Hackage and Portage integration tool";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "hackport";
 }

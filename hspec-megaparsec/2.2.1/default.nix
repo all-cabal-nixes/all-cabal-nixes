@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec megaparsec ];
   homepage = "https://github.com/mrkkrp/hspec-megaparsec";
   description = "Utility functions for testing Megaparsec parsers with Hspec";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

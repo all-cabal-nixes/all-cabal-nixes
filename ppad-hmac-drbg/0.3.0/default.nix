@@ -16,5 +16,5 @@ mkDerivation {
     base bytestring criterion deepseq weigh
   ];
   description = "HMAC-based deterministic random bit generator";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base transformers ];
   homepage = "https://github.com/typeclasses/monads-tf";
   description = "Monad classes, using type families";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

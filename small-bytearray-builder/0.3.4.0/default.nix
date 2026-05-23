@@ -7,5 +7,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/byteverse/small-bytearray-builder-compat";
   description = "Serialize to bytes";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

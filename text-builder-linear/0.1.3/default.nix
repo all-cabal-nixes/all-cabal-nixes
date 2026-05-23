@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Bodigrim/linear-builder";
   description = "Builder for Text and ByteString based on linear types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

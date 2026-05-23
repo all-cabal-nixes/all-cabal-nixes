@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://horizon-haskell.net";
   description = "Horizon Stable Package Set Type Definitions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "horizon-spec-tests";
 }

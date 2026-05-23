@@ -11,5 +11,5 @@ mkDerivation {
     aeson base relude text unicode-transforms uri-encode
   ];
   description = "Encoding and decoding of URL slugs";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

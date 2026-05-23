@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/LSLeary/heterogeneous-comparison";
   description = "Comparison of distinctly typed values with evidence capture";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

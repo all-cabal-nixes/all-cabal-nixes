@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring directory ];
   homepage = "https://github.com/Gondola-Bros-Entertainment/gb-sprite";
   description = "Pure Haskell 2D raster graphics engine";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

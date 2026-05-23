@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/anfelor/creditmonad#readme";
   description = "Reasoning about amortized time complexity";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "creditmonad";
 }

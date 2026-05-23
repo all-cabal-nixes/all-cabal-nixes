@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base hasql hspec QuickCheck text ];
   description = "Temporary PostgreSQL databases for testing";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

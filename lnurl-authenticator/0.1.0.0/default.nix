@@ -17,6 +17,6 @@ mkDerivation {
   executableHaskellDepends = [ base Clipboard optparse-applicative ];
   homepage = "https://github.com/GambolingPangolin/lnurl";
   description = "A command line tool to manage LNURL auth identities";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "lnurl-authenticator";
 }

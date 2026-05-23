@@ -20,5 +20,5 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   description = "Property-based testing powered by Hypothesis";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

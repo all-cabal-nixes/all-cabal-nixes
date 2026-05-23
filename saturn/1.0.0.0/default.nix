@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec ];
   doHaddock = false;
   description = "Handle POSIX cron schedules";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

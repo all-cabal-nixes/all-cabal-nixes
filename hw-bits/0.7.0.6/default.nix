@@ -19,5 +19,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion vector ];
   homepage = "http://github.com/haskell-works/hw-bits#readme";
   description = "Bit manipulation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

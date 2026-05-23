@@ -12,5 +12,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base criterion deepseq primitive ];
   description = "Determine the size of runtime data structures";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

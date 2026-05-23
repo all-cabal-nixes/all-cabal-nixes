@@ -40,6 +40,6 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/zenhack/haskell-capnp";
   description = "Cap'n Proto for Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "capnpc-haskell";
 }

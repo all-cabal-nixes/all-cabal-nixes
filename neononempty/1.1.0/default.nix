@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog ];
   homepage = "https://github.com/414owen/neononempty";
   description = "NonEmpty lists that look [more, like, this]";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

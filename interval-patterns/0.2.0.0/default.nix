@@ -13,5 +13,5 @@ mkDerivation {
     time time-compat
   ];
   homepage = "https://github.com/mixphix/interval-patterns";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

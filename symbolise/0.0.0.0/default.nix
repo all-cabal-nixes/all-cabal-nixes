@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base youProbablyWantSymbolizeWithAZ ];
   homepage = "https://github.com/Qqwy/haskell-symbolize#readme";
   description = "You want Symbolize with a Z";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

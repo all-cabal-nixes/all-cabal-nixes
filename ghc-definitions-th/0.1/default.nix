@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base constraints ghc template-haskell ];
   homepage = "https://github.com/YellPika/ghc-definitions-th";
   description = "Automatically generate GHC API counterparts to Haskell declarations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

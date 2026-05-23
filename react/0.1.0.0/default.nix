@@ -9,5 +9,5 @@ mkDerivation {
     base containers jsaddle jsaddle-warp mtl template-haskell text
   ];
   description = "Create React components in Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

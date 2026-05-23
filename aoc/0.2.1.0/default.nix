@@ -9,5 +9,5 @@ mkDerivation {
     base containers hashable heap unordered-containers
   ];
   description = "Utility functions commonly used while solving Advent of Code puzzles";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

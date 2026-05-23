@@ -9,5 +9,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/typeclasses/pretty-html";
   description = "Produce nice human-readable HTML";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

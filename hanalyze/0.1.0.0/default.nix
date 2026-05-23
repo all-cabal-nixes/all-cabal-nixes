@@ -27,5 +27,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/frenzieddoll/hanalyze";
   description = "A general-purpose statistical analysis, optimization and visualization toolkit";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/gdeest/elmental";
   description = "Generate Elm datatype definitions, encoders and decoders from Haskell datatypes";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "generate-test-app-code";
 }

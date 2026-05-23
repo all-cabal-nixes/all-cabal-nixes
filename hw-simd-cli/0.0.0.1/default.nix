@@ -25,6 +25,6 @@ mkDerivation {
   testToolDepends = [ doctest-discover ];
   homepage = "https://github.com/haskell-works/hw-simd-cli#readme";
   description = "SIMD library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hw-simd";
 }

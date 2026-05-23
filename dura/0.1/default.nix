@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring directory filepath ];
   homepage = "https://github.com/chessai/dura";
   description = "durable/atomic file system writes (from rio package)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

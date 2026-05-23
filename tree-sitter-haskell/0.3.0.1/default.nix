@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base tree-sitter ];
   homepage = "https://github.com/tree-sitter/haskell-tree-sitter/tree/master/tree-sitter-haskell";
   description = "Tree-sitter grammar/parser for Haskell (with GHC extensions)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

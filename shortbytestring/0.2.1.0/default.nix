@@ -18,5 +18,5 @@ mkDerivation {
     base bytestring deepseq random tasty-bench
   ];
   description = "Additional ShortByteString API";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

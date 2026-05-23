@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ base ];
   description = "Monadic Mealy machines with Arrow, ArrowChoice, and ArrowLoop";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "mealy-arrow-example";
 }

@@ -7,5 +7,5 @@ mkDerivation {
     base exceptions grapesy proto-lens-etcd
   ];
   description = "grapesy-etcd - GRPC interface to etcd";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

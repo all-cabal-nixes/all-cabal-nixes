@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest numhask ];
   homepage = "https://github.com/tonyday567/numhask-array#readme";
   description = "n-dimensional arrays";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

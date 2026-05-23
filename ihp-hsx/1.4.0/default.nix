@@ -15,5 +15,5 @@ mkDerivation {
     template-haskell text
   ];
   description = "JSX-like but for Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

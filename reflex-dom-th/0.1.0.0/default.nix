@@ -15,5 +15,5 @@ mkDerivation {
     tasty-hspec
   ];
   description = "reflex-dom-th transpiles HTML templates to haskell code for @reflex-dom@";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -11,5 +11,5 @@ mkDerivation {
     aeson base bytestring tasty tasty-hunit text
   ];
   description = "Haskell bindings to the CozoDB C API";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

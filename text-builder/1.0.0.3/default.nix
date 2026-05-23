@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/text-builder";
   description = "Efficient and flexible strict text builder";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

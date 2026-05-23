@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-nix/hnix-store";
   description = "Remote hnix store";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

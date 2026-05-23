@@ -28,6 +28,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/mdgabriel/scidb-hquery.git";
   description = "Haskell query for SciDB via shim";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "hquery";
 }

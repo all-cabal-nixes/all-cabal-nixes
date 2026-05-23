@@ -14,5 +14,5 @@ mkDerivation {
     base directory ghc process tasty tasty-hunit
   ];
   description = "Extract code segment to top level function";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

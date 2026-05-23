@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hedgehog http-types text ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "Backend-agnostic HTTP request and response types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

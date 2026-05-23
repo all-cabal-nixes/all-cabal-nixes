@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/hslua/hslua";
   description = "Write tests in Lua, integrate into tasty";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

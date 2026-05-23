@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/emilypi/base16";
   description = "Fast RFC 4648-compliant Base16 encoding";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

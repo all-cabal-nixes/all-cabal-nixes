@@ -30,5 +30,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/choener/PrimitiveArray";
   description = "Efficient multidimensional arrays";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

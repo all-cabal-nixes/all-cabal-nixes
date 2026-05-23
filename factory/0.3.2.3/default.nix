@@ -20,6 +20,6 @@ mkDerivation {
   ];
   homepage = "https://functionalley.com/Factory/factory.html";
   description = "Rational arithmetic in an irrational world";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "factory";
 }

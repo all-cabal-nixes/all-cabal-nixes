@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/ad-si/Brillo";
   description = "Painless 2D vector graphics, animations, and simulations powered by GLFW";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

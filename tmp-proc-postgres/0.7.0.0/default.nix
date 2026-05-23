@@ -13,5 +13,5 @@ mkDerivation {
     tmp-proc
   ];
   description = "Launch a PostgreSQL database in docker using tmp-proc";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

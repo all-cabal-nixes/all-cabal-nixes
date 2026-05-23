@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://ema.srid.ca/";
   description = "Useful route types for Ema";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
 }

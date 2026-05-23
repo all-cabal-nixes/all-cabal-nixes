@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "http://www.haskell.org/haskellwiki/Spreadsheet";
   description = "Read and write spreadsheets from and to CSV files in a lazy way";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

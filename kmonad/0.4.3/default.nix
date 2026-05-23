@@ -16,6 +16,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec rio ];
   testToolDepends = [ hspec-discover ];
   description = "Advanced keyboard remapping utility";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "kmonad";
 }

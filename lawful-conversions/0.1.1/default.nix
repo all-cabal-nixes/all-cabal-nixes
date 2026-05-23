@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/lawful-conversions";
   description = "Lawful typeclasses for bidirectional conversion between types";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

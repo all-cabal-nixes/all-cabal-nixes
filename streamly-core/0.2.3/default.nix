@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://streamly.composewell.com";
   description = "Streaming, parsers, arrays, serialization and more";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

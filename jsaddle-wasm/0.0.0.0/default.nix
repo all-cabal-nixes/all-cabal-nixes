@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base jsaddle ];
   homepage = "https://github.com/amesgen/jsaddle-wasm";
   description = "Run JSaddle @JSM@ with the GHC WASM backend";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

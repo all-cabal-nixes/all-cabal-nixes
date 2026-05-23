@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/odr/pg-schema/tree/master/pg-schema#readme";
   description = "Type-level definition of database schema and safe DML for PostgreSQL";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "test-gen";
 }

@@ -17,6 +17,6 @@ mkDerivation {
     unordered-containers vty vty-crossplatform
   ];
   description = "A simple TUI using ghc-debug";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "ghc-debug-brick";
 }

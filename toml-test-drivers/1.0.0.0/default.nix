@@ -12,5 +12,5 @@ mkDerivation {
     prettyprinter-ansi-terminal text toml-parser
   ];
   description = "toml-parser test drivers";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

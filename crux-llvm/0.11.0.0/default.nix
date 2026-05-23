@@ -33,5 +33,5 @@ mkDerivation {
     tasty tasty-hunit tasty-sugar text versions what4
   ];
   description = "A verification tool for C programs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

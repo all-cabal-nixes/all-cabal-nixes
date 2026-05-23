@@ -16,5 +16,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ async base criterion ];
   homepage = "https://github.com/donatello/wai-token-bucket-ratelimiter";
   description = "A request rate limiting middleware using token buckets";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

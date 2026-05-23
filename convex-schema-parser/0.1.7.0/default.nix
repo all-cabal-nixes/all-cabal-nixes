@@ -19,6 +19,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/parsonosai/convex-schema-parser";
   description = "A type-safe client generator for Convex for both Rust and Python";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "convex-schema-parser";
 }

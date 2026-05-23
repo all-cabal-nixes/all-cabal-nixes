@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-plugin-imports";
   description = "Plugin-based explicit import generation";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

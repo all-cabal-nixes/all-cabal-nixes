@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/sordina/churros";
   description = "Channel/Arrow based streaming computation library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

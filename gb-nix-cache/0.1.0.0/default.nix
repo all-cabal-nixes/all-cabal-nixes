@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Gondola-Bros-Entertainment/gb-nix-cache";
   description = "Pure Nix binary cache protocol library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

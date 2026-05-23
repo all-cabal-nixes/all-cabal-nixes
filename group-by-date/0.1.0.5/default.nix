@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/group-by-date/";
   description = "Shell command for grouping files by dates into folders";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "group-by-date";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     base bluefin tasty tasty-bench tasty-hunit
   ];
   description = "Algebraic effects and named handlers in Bluefin";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

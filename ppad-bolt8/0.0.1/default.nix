@@ -17,5 +17,5 @@ mkDerivation {
     base bytestring criterion deepseq weigh
   ];
   description = "Encrypted and authenticated transport per BOLT #8";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

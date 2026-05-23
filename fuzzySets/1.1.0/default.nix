@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base HUnit tasty tasty-hunit ];
   homepage = "https://github.com/luckyluke66/L-Sets";
   description = "A Haskell library for working with fuzzy sets and fuzzy relations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

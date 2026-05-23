@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/jlamothe/csv-sip";
   description = "extracts data from a CSV file";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

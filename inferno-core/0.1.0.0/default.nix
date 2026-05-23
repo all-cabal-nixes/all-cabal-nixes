@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/plow-technologies/inferno.git#readme";
   description = "A statically-typed functional scripting language";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

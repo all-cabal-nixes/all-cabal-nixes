@@ -7,5 +7,5 @@ mkDerivation {
   isExecutable = true;
   libraryHaskellDepends = [ base h-raylib ];
   description = "Haskell bindings for rlImGui";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

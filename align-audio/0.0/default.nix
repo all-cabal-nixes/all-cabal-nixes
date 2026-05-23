@@ -16,6 +16,6 @@ mkDerivation {
     storablevector Stream synthesizer-core utility-ht
   ];
   description = "Find relative time displacement of two recordings of the same music";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "align-audio";
 }

@@ -9,5 +9,5 @@ mkDerivation {
     base containers transformers unbound-generics
   ];
   description = "Unification based on unbound-generics";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

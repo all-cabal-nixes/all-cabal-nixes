@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base typerep-map ];
   homepage = "https://ihp.digitallyinduced.com/";
   description = "Minimal typed context container for IHP";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

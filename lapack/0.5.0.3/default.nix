@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://hub.darcs.net/thielema/lapack/";
   description = "Numerical Linear Algebra using LAPACK";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

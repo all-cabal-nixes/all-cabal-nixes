@@ -19,6 +19,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/bottom-software-foundation/bottom-hs";
   description = "Encoding and decoding for the Bottom spec";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "bottom";
 }

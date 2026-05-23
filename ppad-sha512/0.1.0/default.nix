@@ -11,5 +11,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base bytestring criterion SHA ];
   description = "The SHA-512 and HMAC-SHA512 algorithms";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

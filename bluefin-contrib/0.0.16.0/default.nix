@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bluefin ];
   homepage = "https://github.com/tomjaguarpaw/bluefin";
   description = "The Bluefin effect system, user contributions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

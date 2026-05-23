@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base hspray tasty tasty-hunit ];
   homepage = "https://github.com/stla/pcubature#readme";
   description = "Integration over convex polytopes";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
 }

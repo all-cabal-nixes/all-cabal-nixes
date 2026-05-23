@@ -28,6 +28,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion deepseq text ];
   doHaddock = false;
   description = "Functional, expression-oriented data processing language";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "ja";
 }

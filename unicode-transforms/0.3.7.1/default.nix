@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/composewell/unicode-transforms";
   description = "Unicode normalization";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

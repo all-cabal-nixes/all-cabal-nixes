@@ -28,5 +28,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://gitlab.com/sheaf/metabrush/-/tree/master/brush-strokes";
   description = "Toolkit for Bézier curves and brush stroking";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

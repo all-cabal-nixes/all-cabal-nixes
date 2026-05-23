@@ -21,6 +21,6 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/overshiki/symplectic-chp";
   description = "CHP Clifford simulator using symplectic geometry";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "symplectic-chp";
 }

@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/vertexclique/reduxwise";
   description = "Static analysis tool for Rust embedded systems complexity";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "reduxwise-exe";
 }

@@ -21,5 +21,5 @@ mkDerivation {
     text transformers unliftio-core
   ];
   description = "Giving good advice to functions in records-of-functions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

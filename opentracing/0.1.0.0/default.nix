@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kim/opentracing";
   description = "OpenTracing for Haskell";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

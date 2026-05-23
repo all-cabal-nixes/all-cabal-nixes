@@ -15,5 +15,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/nikita-volkov/hasql-dynamic-statements";
   description = "Hasql extension for dynamic construction of statements";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

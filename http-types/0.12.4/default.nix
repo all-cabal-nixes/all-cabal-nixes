@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Vlix/http-types";
   description = "Generic HTTP types for Haskell (for both client and server code)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

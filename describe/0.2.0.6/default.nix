@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/riugabachi/describe";
   description = "Combinators for describing binary data structures";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

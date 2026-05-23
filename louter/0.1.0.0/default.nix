@@ -24,5 +24,5 @@ mkDerivation {
     aeson base bytestring hspec QuickCheck text unordered-containers
   ];
   description = "Multi-protocol LLM router and client library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

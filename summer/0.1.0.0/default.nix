@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base vector ];
   testHaskellDepends = [ base ];
   description = "An implementation of extensible products and sums";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

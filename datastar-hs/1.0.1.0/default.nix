@@ -19,5 +19,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/starfederation/datastar-haskell";
   description = "Haskell bindings for Datastar";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

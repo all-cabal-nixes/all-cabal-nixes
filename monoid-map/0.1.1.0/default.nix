@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/obsidiansystems/monoid-map";
   description = "A monoidal map with the right group instance";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

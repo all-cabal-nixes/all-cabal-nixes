@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ doctest ];
   homepage = "https://github.com/system-f/natural";
   description = "Natural number";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

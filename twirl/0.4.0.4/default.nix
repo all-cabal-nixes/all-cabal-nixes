@@ -17,6 +17,6 @@ mkDerivation {
     sdl2-image sdl2-mixer sdl2-ttf text time transformers vector
   ];
   description = "Simple 2D Game Engine";
-  license = lib.licensesSpdx."Zlib";
+  license = lib.meta.getLicenseFromSpdxId "Zlib";
   mainProgram = "example";
 }

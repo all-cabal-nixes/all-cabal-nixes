@@ -18,5 +18,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/nikita-volkov/iri";
   description = "RFC-based resource identifier library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

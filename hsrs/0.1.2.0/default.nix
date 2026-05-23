@@ -8,5 +8,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/harmont-dev/hsrs";
   description = "Runtime support for hsrs-generated Haskell FFI bindings";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

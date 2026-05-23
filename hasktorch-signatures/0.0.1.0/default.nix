@@ -20,5 +20,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Backpack signatures for Tensor operations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

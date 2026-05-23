@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/lz4-bytes";
   description = "Bindings to LZ4";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

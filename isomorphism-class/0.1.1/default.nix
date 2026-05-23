@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/isomorphism-class";
   description = "Isomorphism typeclass solving the conversion problem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

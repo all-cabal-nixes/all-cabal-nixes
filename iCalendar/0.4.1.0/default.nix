@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/chrra/iCalendar";
   description = "iCalendar data types, parser, and printer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

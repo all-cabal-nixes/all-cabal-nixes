@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring ];
   homepage = "https://github.com/bkomuves/bitstring";
   description = "Lazy bit strings";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

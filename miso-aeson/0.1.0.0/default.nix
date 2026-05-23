@@ -9,5 +9,5 @@ mkDerivation {
     aeson base containers miso scientific unordered-containers vector
   ];
   description = "JSON conversion library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

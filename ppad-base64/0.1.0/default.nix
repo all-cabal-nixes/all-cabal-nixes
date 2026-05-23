@@ -14,5 +14,5 @@ mkDerivation {
     base base64 base64-bytestring bytestring criterion weigh
   ];
   description = "Fast base64 encoding and decoding on bytestrings";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/tree-sitter/tree-sitter-haskell#readme";
   description = "Tree-sitter grammar/parser for Haskell (with GHC extensions)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

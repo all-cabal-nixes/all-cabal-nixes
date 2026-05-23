@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base utf8-string X11 ];
   libraryPkgconfigDepends = [ libxft ];
   description = "Bindings to the Xft and some Xrender parts";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

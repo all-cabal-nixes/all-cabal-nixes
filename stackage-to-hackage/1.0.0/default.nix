@@ -16,6 +16,6 @@ mkDerivation {
     text
   ];
   description = "Convert stack.yaml to cabal.project + cabal.project.freeze";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "stackage-to-hackage";
 }

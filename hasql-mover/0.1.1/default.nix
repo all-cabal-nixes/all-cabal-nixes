@@ -13,5 +13,5 @@ mkDerivation {
     resourcet sop-core template-haskell text time transformers
   ];
   description = "Hasql migrations library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

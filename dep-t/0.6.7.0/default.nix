@@ -13,5 +13,5 @@ mkDerivation {
     unliftio-core
   ];
   description = "Dependency injection for records-of-functions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

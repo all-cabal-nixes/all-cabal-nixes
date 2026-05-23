@@ -16,5 +16,5 @@ mkDerivation {
     base bytestring criterion deepseq weigh
   ];
   description = "Bitcoin transaction formats per BOLT #3";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

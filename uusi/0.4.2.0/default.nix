@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base Cabal HUnit text ];
   homepage = "https://github.com/berberman/uusi";
   description = "Tweak .cabal files";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

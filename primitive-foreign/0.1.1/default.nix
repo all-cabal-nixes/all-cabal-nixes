@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base primitive QuickCheck ];
   homepage = "https://github.com/haskell-primitive/primitive-ffi";
   description = "using the `Prim` interface for the FFI";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "http://hakon.gylterud.net/programming/applicative-logic.html";
   description = "Generalized logic operations for Applicative and Alternative functors";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

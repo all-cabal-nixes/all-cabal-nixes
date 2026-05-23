@@ -9,5 +9,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Core types for Hasktorch backpack signatures";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

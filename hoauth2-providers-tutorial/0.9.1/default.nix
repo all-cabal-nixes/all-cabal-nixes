@@ -14,6 +14,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base ];
   description = "Tutorial for the hoauth2-providers module";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "hoauth2-providers-tutorial";
 }

@@ -12,6 +12,6 @@ mkDerivation {
     base hnetcdf Naperian NaperianExample split
   ];
   description = "Instances of NcStore for hypercuboids";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "Main";
 }

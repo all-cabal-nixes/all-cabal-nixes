@@ -12,5 +12,5 @@ mkDerivation {
     base monoid-extras mtl tasty tasty-hunit transformers witherable
   ];
   description = "Stateful monad transformer based on monoidal actions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec megaparsec temporary text ];
   homepage = "https://git.sr.ht/~mariusl/haskell-scfg";
   description = "SCFG parser for Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

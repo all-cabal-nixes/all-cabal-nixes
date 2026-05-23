@@ -25,5 +25,5 @@ mkDerivation {
     base bytestring criterion tar temporary
   ];
   description = "Haskell interface to libarchive";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

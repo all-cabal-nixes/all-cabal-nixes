@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base optparse-applicative time ];
   testHaskellDepends = [ base process regex-tdfa tasty tasty-hunit ];
   description = "Easily build and run haskell code to solve AoC problems";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ opendht-c ];
   libraryToolDepends = [ c2hs ];
   description = "Haskell bindings for OpenDHT";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

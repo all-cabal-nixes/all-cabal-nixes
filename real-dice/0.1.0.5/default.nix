@@ -11,6 +11,6 @@ mkDerivation {
   testHaskellDepends = [ base extra mtl primes QuickCheck ];
   homepage = "https://github.com/kaBeech/real-dice";
   description = "Random number generation based on physical media touched by humans";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "real-dice";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/FlogFr/poseidon";
   description = "Simple extensible library to run SQL file against PostgreSQL database";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

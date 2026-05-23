@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base-prelude HTF mmorph mtl-prelude ];
   homepage = "https://github.com/nikita-volkov/list-t";
   description = "ListT done right";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

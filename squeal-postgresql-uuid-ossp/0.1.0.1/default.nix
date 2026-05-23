@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base squeal-postgresql ];
   homepage = "https://github.com/morphismtech/squeal/uuid-ossp";
   description = "UUID OSSP extension for Squeal";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

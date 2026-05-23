@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/noiioiu/monad-actions";
   description = "Actions of monads on functors";
-  license = lib.licensesSpdx."LGPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-2.0-or-later";
 }

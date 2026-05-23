@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tek/chiasma#readme";
   description = "Testing tools for chiasma";
-  license = lib.licensesSpdx."BSD-2-Clause-Patent";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause-Patent";
 }

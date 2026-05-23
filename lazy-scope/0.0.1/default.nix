@@ -17,5 +17,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "http://github.com/yaitskov/scoped-handle";
   description = "Alternative lazy ByteString and ST-like IO Handle";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

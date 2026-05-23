@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/NicolasT/lawful-classes";
   description = "QuickCheck support for lawful-classes";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

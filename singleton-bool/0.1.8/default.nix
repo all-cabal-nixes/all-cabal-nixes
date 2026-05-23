@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base boring dec deepseq some ];
   homepage = "https://github.com/phadej/singleton-bool#readme";
   description = "Type level booleans";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

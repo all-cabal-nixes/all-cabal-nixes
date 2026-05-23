@@ -20,6 +20,6 @@ mkDerivation {
   ];
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/parsonsmatt/hspec-discover-discover#readme";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hspec-discover-discover";
 }

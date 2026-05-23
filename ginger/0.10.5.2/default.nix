@@ -29,6 +29,6 @@ mkDerivation {
   ];
   homepage = "https://ginger.tobiasdammers.nl/";
   description = "An implementation of the Jinja2 template language in Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "ginger";
 }

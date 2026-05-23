@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/joshburgess/valiant";
   description = "Compile-time checked SQL for Haskell, runtime library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

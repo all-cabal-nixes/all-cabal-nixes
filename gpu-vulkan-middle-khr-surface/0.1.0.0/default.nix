@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/gpu-vulkan-middle-khr-surface#readme";
   description = "medium wrapper for VK_KHR_surface extension of the Vulkan API";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

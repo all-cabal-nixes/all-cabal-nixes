@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring mtl ];
   homepage = "https://github.com/typedrat/marshal-contt";
   description = "A ContT-based wrapper for Haskell-to-C marshalling functions";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

@@ -14,5 +14,5 @@ mkDerivation {
     unordered-containers
   ];
   description = "OpenTelemetry instrumentation for persistent-mysql";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

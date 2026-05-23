@@ -19,5 +19,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge primitive ];
   homepage = "https://github.com/byteverse/bytesmith";
   description = "Nonresumable byte parser";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

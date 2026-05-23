@@ -17,5 +17,5 @@ mkDerivation {
   testSystemDepends = [ lmdb ];
   homepage = "https://github.com/shlok/streamly-lmdb";
   description = "Stream data to or from LMDB databases using the streamly library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -9,5 +9,5 @@ mkDerivation {
     base bytestring containers random text time vector
   ];
   description = "Core data structures for the dataframe library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

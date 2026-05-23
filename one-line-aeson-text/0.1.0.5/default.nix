@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ aeson base text ];
   homepage = "https://github.com/typeclasses/one-line-aeson-text";
   description = "Pretty-printing short Aeson values as text";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

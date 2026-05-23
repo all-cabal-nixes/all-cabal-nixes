@@ -8,6 +8,6 @@ mkDerivation {
   libraryHaskellDepends = [ base Cabal-syntax directory filepath ];
   executableHaskellDepends = [ base ];
   description = "Automatically re-export modules";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "autoexporter";
 }

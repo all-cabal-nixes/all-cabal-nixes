@@ -10,5 +10,5 @@ mkDerivation {
     transformers
   ];
   description = "Exception-safe resource management in more monads";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base template-haskell ];
   homepage = "https://github.com/YellPika/closed-classes";
   description = "Closed type class declarations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

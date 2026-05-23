@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "https://github.com/haskell-works/hw-aeson#readme";
   description = "Convenience functions for Aeson";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

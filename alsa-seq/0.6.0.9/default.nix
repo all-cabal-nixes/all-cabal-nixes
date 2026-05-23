@@ -17,5 +17,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ alsa-lib ];
   homepage = "http://www.haskell.org/haskellwiki/ALSA";
   description = "Binding to the ALSA Library API (MIDI sequencer)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

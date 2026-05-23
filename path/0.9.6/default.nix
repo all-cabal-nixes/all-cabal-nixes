@@ -19,5 +19,5 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "Support for well-typed paths";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/yaml-unscrambler";
   description = "Flexible declarative YAML parsing toolkit";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

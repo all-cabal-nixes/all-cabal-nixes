@@ -26,6 +26,6 @@ mkDerivation {
     vector
   ];
   description = "Schema-driven CLI for Plexus RPC servers";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "synapse";
 }

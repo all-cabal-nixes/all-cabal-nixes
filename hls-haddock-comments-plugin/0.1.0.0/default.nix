@@ -13,5 +13,5 @@ mkDerivation {
     hls-plugin-api text unordered-containers
   ];
   description = "Haddock comments plugin for Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog ];
   homepage = "https://github.com/chris-martin/multi-instance";
   description = "Typeclasses augmented with a phantom type parameter";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

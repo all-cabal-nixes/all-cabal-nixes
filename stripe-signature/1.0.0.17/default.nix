@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/stripe";
   description = "Verification of Stripe webhook signatures";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

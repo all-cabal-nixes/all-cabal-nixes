@@ -26,5 +26,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tweag/linear-base#README";
   description = "Standard library for linear types";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

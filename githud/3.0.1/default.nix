@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/gbataille/gitHUD#readme";
   description = "More efficient replacement to the great git-radar";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

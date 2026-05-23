@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base-noprelude integer-gmp semirings ];
   homepage = "https://github.com/chessai/fib";
   description = "fibonacci algebra";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

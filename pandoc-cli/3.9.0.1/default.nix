@@ -13,6 +13,6 @@ mkDerivation {
   ];
   homepage = "https://pandoc.org";
   description = "Conversion between documentation formats";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
   mainProgram = "pandoc";
 }

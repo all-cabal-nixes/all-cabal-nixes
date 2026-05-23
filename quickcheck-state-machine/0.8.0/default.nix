@@ -32,5 +32,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/stevana/quickcheck-state-machine#readme";
   description = "Test monadic programs using state machine based models";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

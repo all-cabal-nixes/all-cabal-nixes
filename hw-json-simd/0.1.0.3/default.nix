@@ -15,6 +15,6 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hw-prim lens vector ];
   homepage = "https://github.com/haskell-works/hw-json-simd#readme";
   description = "SIMD-based JSON semi-indexer";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hw-json-simd";
 }

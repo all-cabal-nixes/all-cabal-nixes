@@ -14,5 +14,5 @@ mkDerivation {
   ];
   libraryToolDepends = [ alex happy ];
   description = "a live coding language for playing with nested functions of time";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
 }

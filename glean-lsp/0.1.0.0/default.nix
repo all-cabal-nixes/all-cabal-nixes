@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/facebookincubator/Glean";
   description = "Generic Glean-based LSP Server";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "glean-lsp";
 }

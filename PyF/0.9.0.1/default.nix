@@ -19,5 +19,5 @@ mkDerivation {
   ];
   testToolDepends = [ python3 ];
   description = "Quasiquotations for a python like interpolated string formater";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

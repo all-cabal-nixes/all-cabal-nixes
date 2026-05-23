@@ -13,5 +13,5 @@ mkDerivation {
   libraryPkgconfigDepends = [ gtk2 ];
   homepage = "http://projects.haskell.org/gtk2hs/";
   description = "Binding to the Gtk+ graphical user interface library";
-  license = lib.licensesSpdx."LGPL-2.1-only";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-2.1-only";
 }

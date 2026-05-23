@@ -7,5 +7,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl stm stm-queue transformers ];
   testHaskellDepends = [ base hspec mtl stm stm-queue ];
   description = "See the README";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

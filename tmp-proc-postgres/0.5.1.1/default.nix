@@ -13,5 +13,5 @@ mkDerivation {
     tmp-proc
   ];
   description = "Shows how to run a PostgreSQL database as a tmp proc";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

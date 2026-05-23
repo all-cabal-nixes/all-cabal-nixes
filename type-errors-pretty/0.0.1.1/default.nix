@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest Glob ];
   homepage = "https://github.com/chshersh/type-errors-pretty";
   description = "Combinators for writing pretty type errors easily";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

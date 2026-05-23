@@ -17,6 +17,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring tasty-bench ];
   homepage = "https://scrod.fyi";
   description = "Worse Haskell documentation";
-  license = lib.licensesSpdx."0BSD";
+  license = lib.meta.getLicenseFromSpdxId "0BSD";
   mainProgram = "scrod";
 }

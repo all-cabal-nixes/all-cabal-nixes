@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base fcf-family ];
   homepage = "https://gitlab.com/lysxia/fcf-family";
   description = "Family-of-families instances for base";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/Matthew-Mosior/gloss-raster-massiv";
   description = "Massiv-based alternative for gloss-raster";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/andrevdm/verset#readme";
   description = "Small alternative prelude";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

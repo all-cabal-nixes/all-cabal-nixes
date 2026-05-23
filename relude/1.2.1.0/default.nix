@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/relude";
   description = "Safe, performant, user-friendly and lightweight Haskell Standard Library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

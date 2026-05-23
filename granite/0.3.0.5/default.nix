@@ -11,6 +11,6 @@ mkDerivation {
   testHaskellDepends = [ base hspec QuickCheck text ];
   testToolDepends = [ hspec-discover ];
   description = "Easy terminal plotting";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "granite";
 }

@@ -19,5 +19,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://argonaut-constellation.org/";
   description = "Text layout engine built on top of HarfBuzz";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
 }

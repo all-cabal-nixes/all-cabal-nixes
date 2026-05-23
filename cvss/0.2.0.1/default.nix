@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text ];
   testHaskellDepends = [ base tasty tasty-hunit text ];
   description = "Common Vulnerability Scoring System";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/aztecs-hs/aztecs-sdl";
   description = "A type-safe and friendly Entity-Component-System (ECS) for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

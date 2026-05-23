@@ -28,6 +28,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/sheyll/rio-process-pool#readme";
   description = "A library for process pools coupled with asynchronous message queues";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
   mainProgram = "rio-process-pool-memleak-test";
 }

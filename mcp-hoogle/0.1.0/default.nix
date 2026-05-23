@@ -14,6 +14,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jappeace/mcp-hoogle#readme";
   description = "MCP server exposing Hoogle search over local project dependencies";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "mcp-hoogle";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell/haskell-language-server/hls-plugin-api";
   description = "Haskell Language Server API for plugin communication";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

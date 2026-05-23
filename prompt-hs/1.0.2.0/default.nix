@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base microlens terminal text ];
   homepage = "https://github.com/notquiteamonad/prompt-hs";
   description = "A user-friendly, dependently-typed library for asking your users questions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

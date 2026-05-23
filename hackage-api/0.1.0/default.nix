@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base http-client-tls servant-client ];
   homepage = "https://github.com/poscat0x04/hackage-api";
   description = "An API binding to Hackage API";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

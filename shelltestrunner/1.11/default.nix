@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/simonmichael/shelltestrunner";
   description = "Easy, repeatable testing of CLI programs/commands";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "shelltest";
 }

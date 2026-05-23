@@ -16,5 +16,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base mtl tasty-bench ];
   description = "A simple, yet powerful extensible effects library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

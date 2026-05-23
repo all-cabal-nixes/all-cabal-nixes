@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base witherable ];
   homepage = "https://github.com/chowells79/lens-witherable";
   description = "lens-compatible tools for working with witherable";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

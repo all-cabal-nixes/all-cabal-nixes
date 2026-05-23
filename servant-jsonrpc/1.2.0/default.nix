@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ aeson base http-media servant text ];
   homepage = "https://github.com/bitnomial/servant-jsonrpc";
   description = "JSON-RPC messages and endpoints";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bifunctors ];
   testHaskellDepends = [ base bifunctors ];
   description = "Easy type-level lists with term-level membership proofs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base ];
   homepage = "https://github.com/iand675/thread-utils#readme";
   description = "Garbage-collected thread local storage";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/goertzenator/s2n-tls";
   description = "High-level Haskell bindings to s2n-tls";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

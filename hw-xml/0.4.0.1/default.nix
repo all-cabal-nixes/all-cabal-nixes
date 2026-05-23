@@ -34,6 +34,6 @@ mkDerivation {
   ];
   homepage = "http://github.com/haskell-works/hw-xml#readme";
   description = "Conduits for tokenizing streams";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hw-xml";
 }

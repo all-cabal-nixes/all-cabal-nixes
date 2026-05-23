@@ -11,5 +11,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/mastarija/valor#readme";
   description = "Simple and powerful data validation";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

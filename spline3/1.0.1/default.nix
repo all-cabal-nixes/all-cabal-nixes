@@ -17,6 +17,6 @@ mkDerivation {
   ];
   homepage = "http://michael.orlitzky.com/code/spline3.xhtml";
   description = "A parallel implementation of the Sorokina/Zeilfelder spline scheme";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "spline3";
 }

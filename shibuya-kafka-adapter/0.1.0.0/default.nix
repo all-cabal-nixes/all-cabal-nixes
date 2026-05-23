@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/shinzui/shibuya-kafka-adapter";
   description = "Kafka adapter for the Shibuya queue processing framework";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

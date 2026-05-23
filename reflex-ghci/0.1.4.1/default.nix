@@ -22,6 +22,6 @@ mkDerivation {
     ref-tf reflex reflex-process reflex-vty temporary text
   ];
   description = "A GHCi widget library for use in reflex applications";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "reflex-ghci";
 }

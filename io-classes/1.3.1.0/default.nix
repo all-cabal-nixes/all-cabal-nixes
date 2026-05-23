@@ -10,5 +10,5 @@ mkDerivation {
     array async base bytestring mtl stm time
   ];
   description = "Type classes for concurrency with STM, ST and timing";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

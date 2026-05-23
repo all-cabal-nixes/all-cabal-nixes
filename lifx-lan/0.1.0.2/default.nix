@@ -10,5 +10,5 @@ mkDerivation {
     network random safe text time
   ];
   description = "LIFX LAN API";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

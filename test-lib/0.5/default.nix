@@ -15,6 +15,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base simple-get-opt ];
   description = "A library to make a quick test-runner script";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
   mainProgram = "test-runner";
 }

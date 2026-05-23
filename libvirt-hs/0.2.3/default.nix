@@ -8,5 +8,5 @@ mkDerivation {
   libraryToolDepends = [ cpphs ];
   homepage = "https://github.com/portnov/libvirt-hs";
   description = "FFI bindings to libvirt virtualization API (http://libvirt.org)";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers indexed-traversable ];
   homepage = "https://github.com/githubuser/hcdt#readme";
   description = "2d Delaunay triangulation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

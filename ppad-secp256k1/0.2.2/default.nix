@@ -17,5 +17,5 @@ mkDerivation {
     base base16-bytestring bytestring criterion deepseq weigh
   ];
   description = "Schnorr signatures & ECDSA on the elliptic curve secp256k1";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

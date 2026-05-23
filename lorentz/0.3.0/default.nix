@@ -28,5 +28,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://gitlab.com/morley-framework/morley";
   description = "EDSL for the Michelson Language";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

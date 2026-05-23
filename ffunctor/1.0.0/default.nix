@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "19lgjlrilfpxiz4va3hmv73d47srmsimgx3yixfqdi3lw8wp3805";
   libraryHaskellDepends = [ base ];
   description = "FFunctor typeclass";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

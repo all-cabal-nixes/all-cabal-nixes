@@ -11,5 +11,5 @@ mkDerivation {
     base containers some template-haskell transformers
   ];
   description = "Implicit (recursive) let insertion";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

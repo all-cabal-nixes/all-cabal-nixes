@@ -22,5 +22,5 @@ mkDerivation {
     split tasty tasty-hunit tasty-th template-haskell text time
   ];
   description = "Typed waveforms for Clash using the Surfer waveform viewer";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

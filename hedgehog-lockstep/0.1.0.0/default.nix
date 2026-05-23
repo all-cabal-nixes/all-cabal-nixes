@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ barbies base containers hedgehog mtl ];
   homepage = "https://github.com/joshburgess/hedgehog-lockstep";
   description = "Lockstep-style stateful property testing for Hedgehog";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     aeson base bytestring containers text vector zstd
   ];
   description = "Types and parser for the MSDF atlas layout";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

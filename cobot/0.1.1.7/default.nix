@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/biocad/cobot#readme";
   description = "Computational biology toolkit to collaborate with researchers in constructive protein engineering";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

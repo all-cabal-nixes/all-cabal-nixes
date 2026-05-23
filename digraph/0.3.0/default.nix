@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base fgl hashable massiv QuickCheck ];
   homepage = "https://github.com/kadena-io/digraph";
   description = "Directed Graphs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

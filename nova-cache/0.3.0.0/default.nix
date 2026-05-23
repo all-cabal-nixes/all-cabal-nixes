@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Novavero-AI/nova-cache";
   description = "Pure Nix binary cache protocol library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

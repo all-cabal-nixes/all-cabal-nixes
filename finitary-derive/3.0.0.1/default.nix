@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://notabug.org/sheaf/finitary-derive";
   description = "Flexible and easy deriving of type classes for finitary types";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

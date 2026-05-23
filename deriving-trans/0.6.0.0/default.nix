@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/jumper149/deriving-trans";
   description = "Derive instances for monad transformer stacks";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

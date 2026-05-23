@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lens parsec regex-tdfa text ];
   homepage = "https://github.com/t-sasaki915/ConsoleAsk#readme";
   description = "Simple CLI user input library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

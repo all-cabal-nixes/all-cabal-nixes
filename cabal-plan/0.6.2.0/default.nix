@@ -23,6 +23,6 @@ mkDerivation {
     semialign singleton-bool text these topograph transformers vector
   ];
   description = "Library and utility for processing cabal's plan.json file";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
   mainProgram = "cabal-plan";
 }

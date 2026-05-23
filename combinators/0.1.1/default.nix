@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl ];
   homepage = "https://github.com/nikita-volkov/combinators";
   description = "Collection of combinators over standard typeclasses";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

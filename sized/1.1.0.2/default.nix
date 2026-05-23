@@ -22,5 +22,5 @@ mkDerivation {
     th-lift type-natural vector
   ];
   description = "Sized sequence data-types";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

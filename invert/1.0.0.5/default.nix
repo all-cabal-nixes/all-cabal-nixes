@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/invert";
   description = "Automatically generate a function’s inverse";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

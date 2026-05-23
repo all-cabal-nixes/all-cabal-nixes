@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base-prelude hasql hspec ];
   homepage = "https://github.com/avanov/hasql-resource-pool";
   description = "A pool of connections for Hasql based on resource-pool";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

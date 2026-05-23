@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/treeowl/traverse-code";
   description = "General data structure lifting for Template Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

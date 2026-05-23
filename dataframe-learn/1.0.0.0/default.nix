@@ -9,5 +9,5 @@ mkDerivation {
     base containers dataframe-core dataframe-operations text vector
   ];
   description = "Decision trees and feature synthesis for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

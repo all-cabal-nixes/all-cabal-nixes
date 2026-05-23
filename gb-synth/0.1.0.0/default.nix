@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring ];
   homepage = "https://github.com/Gondola-Bros-Entertainment/gb-synth";
   description = "Procedural music sequencer for GB games";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

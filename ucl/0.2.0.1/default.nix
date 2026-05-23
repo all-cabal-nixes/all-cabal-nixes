@@ -10,5 +10,5 @@ mkDerivation {
   testHaskellDepends = [ base containers ];
   homepage = "https://sr.ht/~fgaz/haskell-ucl/";
   description = "Datatype and parser for the Universal Configuration Language (UCL) using libucl";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

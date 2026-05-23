@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/text-builder-core";
   description = "Internals of \"text-builder\"";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

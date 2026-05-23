@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/luc-tielen/souffle-haskell#README.md";
   description = "Souffle Datalog bindings for Haskell";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

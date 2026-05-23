@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/hex-text";
   description = "ByteString-Text hexidecimal conversions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

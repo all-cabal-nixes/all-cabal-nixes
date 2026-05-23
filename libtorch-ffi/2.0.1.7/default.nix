@@ -21,5 +21,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec safe-exceptions ];
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Haskell bindings for PyTorch";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

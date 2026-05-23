@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/possehl-analytics/pa-hackage";
   description = "“Vertical” parsing of values";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

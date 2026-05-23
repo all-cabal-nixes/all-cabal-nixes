@@ -14,6 +14,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base ];
   description = "Upload files to GitHub releases";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "github-release";
 }

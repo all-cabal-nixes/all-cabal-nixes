@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/bitnomial/bitcoind-rpc";
   description = "A streamlined interface to bitcoin core using Haskoin types and Servant";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

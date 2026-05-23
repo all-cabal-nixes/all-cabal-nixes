@@ -15,5 +15,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/identicalsnowflake/popkey";
   description = "Static key-value storage backed by poppy";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

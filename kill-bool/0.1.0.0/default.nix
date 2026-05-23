@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec hspec-core ];
   homepage = "https://github.com/blackheaven/kill-bool";
   description = "Boolean strong typing";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

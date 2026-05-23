@@ -14,5 +14,5 @@ mkDerivation {
     template-haskell unordered-containers
   ];
   description = "Check that datatypes are deep strict using Template Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

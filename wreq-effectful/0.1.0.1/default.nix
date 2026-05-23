@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "Adaptation of the wreq library for the effectful ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

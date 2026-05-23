@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/GambolingPangolin/servant-jsonrpc";
   description = "JSON-RPC servant servers";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

@@ -15,6 +15,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jecaro/systranything";
   description = "Let you put anything in the system tray";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "systranything";
 }

@@ -9,5 +9,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/theatre";
   description = "Minimalistic actor library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

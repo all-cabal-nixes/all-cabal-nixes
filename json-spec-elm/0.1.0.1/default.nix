@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/json-spec-elm";
   description = "Elm code generate for `json-spec`";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

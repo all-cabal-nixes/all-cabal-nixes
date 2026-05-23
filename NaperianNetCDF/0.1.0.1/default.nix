@@ -8,6 +8,6 @@ mkDerivation {
   libraryHaskellDepends = [ base hnetcdf Naperian vector ];
   executableHaskellDepends = [ base hnetcdf Naperian split ];
   description = "Instances of NcStore for hypercuboids";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "Main";
 }

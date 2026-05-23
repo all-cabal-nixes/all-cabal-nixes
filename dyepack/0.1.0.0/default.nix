@@ -9,5 +9,5 @@ mkDerivation {
   isExecutable = true;
   libraryHaskellDepends = [ base generics-sop ];
   description = "Programatically identify space leaks in your program";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

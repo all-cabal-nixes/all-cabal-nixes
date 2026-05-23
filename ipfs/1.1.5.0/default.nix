@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/fission-suite/ipfs-haskell#readme";
   description = "Access IPFS locally and remotely";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/igrep/haskell-fakefs#readme";
   description = "Extensible fake file system for testing";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-webgear/webgear#readme";
   description = "Host swagger UI based on WebGear API specifications";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

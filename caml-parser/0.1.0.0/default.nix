@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/overshiki/caml-parser";
   description = "An extensible parser-combinator library for Caml-Light";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

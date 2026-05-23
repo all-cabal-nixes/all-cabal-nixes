@@ -15,5 +15,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion random ];
   doHaddock = false;
   description = "Fast, compact Bloom filters";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

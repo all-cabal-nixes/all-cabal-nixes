@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/ldr709/haskell-fplll";
   description = "Haskell bindings to <https://fplll.github.io/fplll/ fplll>";
-  license = lib.licensesSpdx."LGPL-2.1-or-later";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-2.1-or-later";
 }

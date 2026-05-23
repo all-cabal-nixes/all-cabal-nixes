@@ -19,5 +19,5 @@ mkDerivation {
   ];
   homepage = "http://github.com/jappeace/llvm-party/";
   description = "General purpose LLVM bindings";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

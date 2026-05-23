@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/thomaseding/lambda-options";
   description = "Declarative command-line parser using type-driven pattern matching";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

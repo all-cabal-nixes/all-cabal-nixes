@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-effectful/typed-process-effectful#readme";
   description = "A binding of the @typed-process@ library for the @effectful@ effect system";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

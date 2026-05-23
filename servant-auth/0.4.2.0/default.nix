@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-servant/servant/tree/master/servant-auth#readme";
   description = "Authentication combinators for servant";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

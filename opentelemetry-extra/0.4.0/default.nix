@@ -27,5 +27,5 @@ mkDerivation {
     unordered-containers
   ];
   testToolDepends = [ tasty-discover ];
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

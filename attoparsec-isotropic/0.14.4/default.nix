@@ -26,5 +26,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/yaitskov/attoparsec-isotropic";
   description = "right-to-left parser backward compatible with attoparsec";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -17,5 +17,5 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog hspec hw-hspec-hedgehog ];
   homepage = "https://github.com/haskell-works/hw-kafka-avro#readme";
   description = "Avro support for Kafka infrastructure";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

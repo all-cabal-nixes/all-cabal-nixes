@@ -13,5 +13,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge util ];
   homepage = "https://github.com/strake/lex-applicative.hs";
   description = "See README for more info";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

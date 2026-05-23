@@ -21,5 +21,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/dschrempf/mcmc#readme";
   description = "Sample from a posterior using Markov chain Monte Carlo";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

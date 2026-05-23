@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base binary ];
   homepage = "https://github.com/oscoin/ipfs";
   description = "VarInt encoding/decoding via Data.Binary";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

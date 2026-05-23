@@ -14,5 +14,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/tree-sitter/haskell-tree-sitter/tree/master/tree-sitter-python";
   description = "Tree-sitter grammar/parser for Python";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

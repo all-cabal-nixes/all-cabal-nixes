@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base transformers ];
   homepage = "https://github.com/metrix-ai/acquire";
   description = "Abstraction over management of resources";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

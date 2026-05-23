@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring memory QuickCheck tasty ];
   homepage = "https://github.com/jappeace/ram";
   description = "memory and related abstraction stuff";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

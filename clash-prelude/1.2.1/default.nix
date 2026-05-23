@@ -31,5 +31,5 @@ mkDerivation {
   ];
   homepage = "https://clash-lang.org/";
   description = "CAES Language for Synchronous Hardware - Prelude library";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

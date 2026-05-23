@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/sweirich/rebound";
   description = "A variable binding library based on well-scoped de Bruijn indices";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

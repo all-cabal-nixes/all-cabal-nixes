@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/alexpeits/harg";
   description = "Haskell program configuration using higher kinded data";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

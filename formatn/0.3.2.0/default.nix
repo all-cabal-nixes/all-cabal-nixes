@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest-parallel QuickCheck ];
   homepage = "https://github.com/tonyday567/formatn#readme";
   description = "Formatting of doubles";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

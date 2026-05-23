@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base lucid prettyprinter text ];
   homepage = "https://github.com/georgefst/prettyprinter-lucid";
   description = "A prettyprinter backend for lucid";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

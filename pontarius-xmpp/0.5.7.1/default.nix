@@ -45,5 +45,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/l29ah/pontarius-xmpp/";
   description = "An XMPP client library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

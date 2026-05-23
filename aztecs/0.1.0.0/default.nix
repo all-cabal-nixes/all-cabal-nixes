@@ -9,6 +9,6 @@ mkDerivation {
   testHaskellDepends = [ base ];
   benchmarkHaskellDepends = [ base criterion ];
   description = "A type-safe and friendly ECS for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "ecs";
 }

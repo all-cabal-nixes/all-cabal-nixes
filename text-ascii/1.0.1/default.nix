@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kozross/text-ascii";
   description = "ASCII string and character processing";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers minisat unliftio-core ];
   testHaskellDepends = [ base containers ];
   description = "A high-level wrapper over minisat";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

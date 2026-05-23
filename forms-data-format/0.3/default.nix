@@ -16,5 +16,5 @@ mkDerivation {
     base bytestring directory optparse-applicative text
   ];
   description = "Parse and serialize FDF, the Forms Data Format";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

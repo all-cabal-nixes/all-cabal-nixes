@@ -13,5 +13,5 @@ mkDerivation {
     http-client-tls http-types parsec scrappy-core text transformers
   ];
   description = "Typified interactions with LLMs";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

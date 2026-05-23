@@ -11,5 +11,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring hspec text wai ];
   homepage = "https://github.com/carlohamalainen/datastar-hs";
   description = "Haskell bindings for Datastar";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

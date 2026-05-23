@@ -17,5 +17,5 @@ mkDerivation {
     base bytestring criterion deepseq ppad-bolt3 ppad-tx weigh
   ];
   description = "On-chain transaction handling per BOLT #5";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

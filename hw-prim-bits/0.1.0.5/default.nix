@@ -18,6 +18,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion vector ];
   homepage = "https://github.com/githubuser/hw-prim-bits#readme";
   description = "Primitive support for bit manipulation";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hw-prim-bits-exe";
 }

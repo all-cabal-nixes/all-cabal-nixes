@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers indexed-traversable ];
   homepage = "https://github.com/mixphix/deep-map";
   description = "Deeply-nested, multiple key type maps";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

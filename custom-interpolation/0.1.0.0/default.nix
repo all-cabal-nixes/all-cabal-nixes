@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base template-haskell ];
   homepage = "https://github.com/ruby0b/custom-interpolation";
   description = "Customizable string interpolation quasiquoters";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

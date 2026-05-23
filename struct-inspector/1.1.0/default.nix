@@ -13,6 +13,6 @@ mkDerivation {
     multi-except optparse-applicative pretty process utf8-string
   ];
   description = "Inspect the padding and size of C data declarations and their fields";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "struct-inspector";
 }

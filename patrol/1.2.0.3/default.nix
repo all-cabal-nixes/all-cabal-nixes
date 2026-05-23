@@ -15,5 +15,5 @@ mkDerivation {
     http-client http-types network-uri text time uuid
   ];
   description = "Sentry SDK";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

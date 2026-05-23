@@ -16,6 +16,6 @@ mkDerivation {
   executableToolDepends = [ alex happy ];
   homepage = "https://github.com/zachjs/sv2v";
   description = "SystemVerilog to Verilog conversion";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "sv2v";
 }

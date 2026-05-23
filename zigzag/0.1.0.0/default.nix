@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit tasty-quickcheck ];
   homepage = "https://github.com/byteverse/zigzag";
   description = "Zigzag encoding of integers into unsigned integers";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

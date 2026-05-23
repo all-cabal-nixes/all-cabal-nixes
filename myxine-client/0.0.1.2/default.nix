@@ -17,5 +17,5 @@ mkDerivation {
   testHaskellDepends = [ bytestring text ];
   homepage = "https://github.com/kwf/myxine";
   description = "A Haskell client for the Myxine GUI server";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

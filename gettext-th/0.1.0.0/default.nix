@@ -10,5 +10,5 @@ mkDerivation {
     text
   ];
   description = "gettext-th can internationlise a haskell program with gettext at compile time without runtime dependencies";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

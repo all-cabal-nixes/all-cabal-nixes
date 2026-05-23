@@ -14,6 +14,6 @@ mkDerivation {
     base bytestring tagsoup unicode-show utf8-string
   ];
   description = "Black magic tagsoup";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "tagstew";
 }

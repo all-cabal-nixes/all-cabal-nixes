@@ -10,5 +10,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base bytestring containers hspec text ];
   description = "Convert values from one type into another";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/marcin-rzeznicki/stackcollapse-ghc";
   description = "Program to fold GHC prof files into flamegraph input";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "stackcollapse-ghc";
 }

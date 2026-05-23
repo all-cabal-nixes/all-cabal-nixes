@@ -11,5 +11,5 @@ mkDerivation {
   ];
   testToolDepends = [ sydtest-discover ];
   description = "Generic and easy to use haskell bitfields";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -9,6 +9,6 @@ mkDerivation {
   testHaskellDepends = [ base filepath haddock-test ];
   homepage = "http://www.haskell.org/haddock/";
   description = "A documentation-generation tool for Haskell libraries";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "haddock";
 }

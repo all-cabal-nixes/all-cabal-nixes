@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base primitive ];
   homepage = "https://github.com/andrewthad/byteslice";
   description = "Slicing ByteArray and MutableByteArray";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

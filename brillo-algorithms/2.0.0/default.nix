@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base brillo ];
   homepage = "https://github.com/ad-si/Brillo";
   description = "Data structures and algorithms for working with 2D graphics";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

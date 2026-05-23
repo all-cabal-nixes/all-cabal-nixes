@@ -11,5 +11,5 @@ mkDerivation {
     stm streaming text time websockets
   ];
   description = "Plexus protocol types and client for Substrate";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

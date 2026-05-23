@@ -17,5 +17,5 @@ mkDerivation {
     websockets
   ];
   description = "Interface for JavaScript that works with GHCJS and GHC";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

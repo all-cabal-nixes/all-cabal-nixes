@@ -32,5 +32,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/haskell-works/avro#readme";
   description = "Avro serialization support for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

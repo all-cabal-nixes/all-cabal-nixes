@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/YoshikuniJujo/zlib-core#readme";
   description = "Thin wrapper for zlib";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

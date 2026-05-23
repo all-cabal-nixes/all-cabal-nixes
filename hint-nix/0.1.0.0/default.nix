@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base hint include-env relude ];
   homepage = "https://github.com/juspay/vira";
   description = "Helper for using hint with Nix package databases";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

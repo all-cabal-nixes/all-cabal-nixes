@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/nikita-volkov/vector-builder";
   description = "Vector builder";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

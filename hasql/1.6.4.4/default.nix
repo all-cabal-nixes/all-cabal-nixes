@@ -24,5 +24,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/nikita-volkov/hasql";
   description = "An efficient PostgreSQL driver with a flexible mapping API";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -30,5 +30,5 @@ mkDerivation {
   ];
   benchmarkHaskellDepends = [ base criterion process random ];
   description = "A fast, safe, and intuitive DataFrame library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

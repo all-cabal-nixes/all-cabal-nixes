@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec hspec-core time ];
   homepage = "https://github.com/blackheaven/antikythera";
   description = "Simple job/task/event scheduler/cronjob";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

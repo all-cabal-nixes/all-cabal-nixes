@@ -18,5 +18,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base containers criterion ral vector ];
   homepage = "https://github.com/phadej/skew-list";
   description = "Random access lists: skew binary";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

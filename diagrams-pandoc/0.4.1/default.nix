@@ -25,6 +25,6 @@ mkDerivation {
     tasty tasty-golden text
   ];
   description = "A Pandoc filter to express diagrams inline using the Haskell EDSL _Diagrams_";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "diagrams-pandoc";
 }

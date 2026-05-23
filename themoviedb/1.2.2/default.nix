@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/pjones/themoviedb";
   description = "Haskell API bindings for http://themoviedb.org";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "tmdb";
 }

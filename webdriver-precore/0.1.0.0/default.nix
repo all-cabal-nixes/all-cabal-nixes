@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://github.com/pyrethrum/webdriver-precore#readme";
   description = "A typed wrapper for W3C WebDriver protocol. A base for other libraries.";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

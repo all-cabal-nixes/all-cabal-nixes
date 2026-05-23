@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base primitive ];
   homepage = "https://sr.ht/~qrpnxz/primitive-primvar/";
   description = "Unboxed variables for `Prim` values";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

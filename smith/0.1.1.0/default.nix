@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytesmith primitive ];
   homepage = "https://github.com/andrewthad/smith";
   description = "Parse arrays of tokens";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

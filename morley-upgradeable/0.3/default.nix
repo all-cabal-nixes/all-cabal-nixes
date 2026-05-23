@@ -28,6 +28,6 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://gitlab.com/morley-framework/morley-upgradeable";
   description = "Upgradeability infrastructure based on Morley";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "morley-ustore-reader";
 }

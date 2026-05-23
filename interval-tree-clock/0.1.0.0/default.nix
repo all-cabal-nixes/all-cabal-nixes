@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec QuickCheck ];
   homepage = "https://github.com/arnemileswinter/itc";
   description = "Interval Tree Clocks";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

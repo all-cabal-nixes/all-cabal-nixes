@@ -12,5 +12,5 @@ mkDerivation {
     unordered-containers vector
   ];
   description = "JSON to YAML Adapter";
-  license = lib.licensesSpdx."GPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-or-later";
 }

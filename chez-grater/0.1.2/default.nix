@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/dfithian/chez-grater";
   description = "Parse and scrape recipe blogs";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "chez-grater";
 }

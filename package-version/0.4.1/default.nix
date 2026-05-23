@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tbidne/package-version/";
   description = "A package for retrieving a package's version number";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

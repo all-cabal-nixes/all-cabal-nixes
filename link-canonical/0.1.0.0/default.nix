@@ -15,5 +15,5 @@ mkDerivation {
     base containers http-types modern-uri mtl tasty tasty-hunit text
   ];
   description = "URL canonicalization library for semantic link identity";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

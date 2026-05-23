@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/harpie-numhask#readme";
   description = "numhask shim for harpie";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

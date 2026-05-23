@@ -11,5 +11,5 @@ mkDerivation {
   librarySystemDepends = [ LLVM ];
   homepage = "http://haskell.org/haskellwiki/LLVM";
   description = "FFI bindings to the LLVM compiler toolkit";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

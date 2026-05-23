@@ -13,6 +13,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base criterion ];
   homepage = "https://github.com/matthunz/aztecs";
   description = "A type-safe and friendly Entity-Component-System (ECS) for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "ecs";
 }

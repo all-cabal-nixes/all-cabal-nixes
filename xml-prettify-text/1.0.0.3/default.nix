@@ -19,6 +19,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge protolude ];
   homepage = "https://github.com/MrcJkb/xml-prettify-text";
   description = "XML pretty printer";
-  license = lib.licensesSpdx."GPL-2.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-2.0-only";
   mainProgram = "xml-prettify";
 }

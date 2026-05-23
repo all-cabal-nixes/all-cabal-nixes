@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/mealy#readme";
   description = "Mealy machines for processing time-series and ordered data";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "mealy-perf";
 }

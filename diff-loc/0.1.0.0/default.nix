@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base fingertree show-combinators ];
   homepage = "https://gitlab.com/lysxia/diff-loc";
   description = "Map file locations across diffs";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/GambolingPangolin/macaroon-shop";
   description = "A toolkit for working with macaroons";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

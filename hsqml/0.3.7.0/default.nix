@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "http://www.gekkou.co.uk/software/hsqml/";
   description = "Haskell binding for Qt Quick";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

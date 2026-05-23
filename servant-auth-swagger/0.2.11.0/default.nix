@@ -17,5 +17,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/haskell-servant/servant/tree/master/servant-auth#readme";
   description = "servant-swagger/servant-auth compatibility";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

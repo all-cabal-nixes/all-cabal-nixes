@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring primitive text ];
   testHaskellDepends = [ base bytestring hspec primitive random ];
   description = "Pure incremental byte parser";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
     hedgehog string-interpolate text
   ];
   description = "Hedgehog Generators for clash-prelude";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

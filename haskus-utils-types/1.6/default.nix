@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base doctest ];
   homepage = "https://www.haskus.org";
   description = "Haskus types utility modules";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

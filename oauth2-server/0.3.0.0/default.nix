@@ -24,5 +24,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/DPella/oauth2-server";
   description = "OAuth 2.1 authorization server implementation";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

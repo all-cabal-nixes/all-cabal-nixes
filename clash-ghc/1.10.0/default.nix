@@ -25,5 +25,5 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://clash-lang.org/";
   description = "Clash: a functional hardware description language - GHC frontend";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

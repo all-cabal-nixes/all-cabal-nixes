@@ -6,5 +6,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://www.symas.com/mdb";
   description = "Lightning Memory-Mapped Database";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

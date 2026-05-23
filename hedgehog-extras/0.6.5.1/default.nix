@@ -24,5 +24,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "Supplemental library for hedgehog";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

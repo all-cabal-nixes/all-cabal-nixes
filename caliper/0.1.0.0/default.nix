@@ -21,6 +21,6 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "A time tracker that is way too precise";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "caliper";
 }

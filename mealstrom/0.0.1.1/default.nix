@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/linearray/mealstrom";
   description = "Manipulate FSMs and store them in PostgreSQL";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

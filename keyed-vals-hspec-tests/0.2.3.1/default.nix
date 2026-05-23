@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/adetokunbo/keyed-vals#readme";
   description = "Validate a keyed-vals Handle";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

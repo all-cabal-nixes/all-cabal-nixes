@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/tonyday567/numhask#readme";
   description = "numeric classes";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

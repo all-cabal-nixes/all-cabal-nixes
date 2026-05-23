@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base effectful-core log-base text time ];
   testHaskellDepends = [ aeson base effectful-core log-base text ];
   description = "Adaptation of the log library for the effectful ecosystem";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

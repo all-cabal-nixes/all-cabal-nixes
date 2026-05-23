@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "http://github.com/blackheaven/pure-sum/pure-sum-aeson";
   description = "Derive fromString/toString-like for pure sum types (aeson instances)";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

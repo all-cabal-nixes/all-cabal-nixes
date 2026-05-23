@@ -19,5 +19,5 @@ mkDerivation {
   testHaskellDepends = [ base lens QuickCheck template-haskell ];
   homepage = "https://github.com/fumieval/extensible";
   description = "Extensible, efficient, optics-friendly data types and effects";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

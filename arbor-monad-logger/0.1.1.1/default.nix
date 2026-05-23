@@ -17,6 +17,6 @@ mkDerivation {
   testHaskellDepends = [ base hedgehog hspec hw-hspec-hedgehog ];
   homepage = "https://github.com/packetloop/arbor-monad-logger#readme";
   description = "Simple logging library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "arbor-monad-logger-example";
 }

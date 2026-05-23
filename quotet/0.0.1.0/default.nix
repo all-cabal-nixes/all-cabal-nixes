@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl template-haskell th-compat ];
   homepage = "https://github.com/amesgen/quotet";
   description = "Monad transformer for Quote from template-haskell";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
 }

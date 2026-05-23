@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://git.hut.sourcephile.fr/~julm/symantic-document";
   description = "Symantics combinators for generating documents";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

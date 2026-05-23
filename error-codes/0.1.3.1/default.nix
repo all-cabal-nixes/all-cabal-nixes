@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base ];
   homepage = "https://github.com/byteverse/error-codes";
   description = "Error code functions";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

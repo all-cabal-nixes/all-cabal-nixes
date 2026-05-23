@@ -18,6 +18,6 @@ mkDerivation {
   executablePkgconfigDepends = [ ncurses ];
   homepage = "https://mbays.sdf.org/fov/";
   description = "A terminal broughlike game about manipulating vision";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
   mainProgram = "fearOfView";
 }

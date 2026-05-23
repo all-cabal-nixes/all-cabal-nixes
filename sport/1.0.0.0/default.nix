@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   testHaskellDepends = [ async base bytestring stm ];
   description = "UNIX serial port";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "sport";
 }

@@ -11,5 +11,5 @@ mkDerivation {
     ghc-boot-th unix
   ];
   description = "Shared functionality between GHC and its boot libraries";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/aztek/tptp";
   description = "A parser and a pretty printer for the TPTP language";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
 }

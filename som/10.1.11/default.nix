@@ -12,5 +12,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/mhwombat/som";
   description = "Self-Organising Maps";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -12,5 +12,5 @@ mkDerivation {
     base io-sim nothunks QuickCheck tasty tasty-quickcheck
   ];
   description = "Strict MVars for IO and IOSim";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/juhp/select-rpms";
   description = "Select a subset of RPM packages";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

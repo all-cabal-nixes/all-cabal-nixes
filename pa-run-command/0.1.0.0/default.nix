@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/possehl-analytics/pa-hackage";
   description = "Helper functions for spawning subprocesses";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/philippedev101/purekell#readme";
   description = "Bidirectional Haskell/PureScript expression translator";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

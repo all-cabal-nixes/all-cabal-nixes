@@ -7,5 +7,5 @@ mkDerivation {
     base bytestring entropy time uuid-types
   ];
   description = "Generate UUIDv7 values";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

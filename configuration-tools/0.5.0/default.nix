@@ -26,5 +26,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/alephcloud/hs-configuration-tools";
   description = "Tools for specifying and parsing configurations";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base blaze-html deepseq text ];
   homepage = "https://github.com/HeinrichApfelmus/hyper-haskell";
   description = "Display class for the HyperHaskell graphical Haskell interpreter";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

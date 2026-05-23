@@ -12,5 +12,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base bytestring criterion ];
   homepage = "https://github.com/leptonyu/crc32c#readme";
   description = "crc32c";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

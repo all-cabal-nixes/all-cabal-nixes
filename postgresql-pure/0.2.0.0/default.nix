@@ -44,5 +44,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/iij-ii/postgresql-pure#readme";
   description = "pure Haskell PostgreSQL driver";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/utxorpc/spec#readme";
   description = "Generated code for a gRPC interface for UTxO Blockchains";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

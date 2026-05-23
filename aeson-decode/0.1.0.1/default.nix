@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/aeson-decode";
   description = "Easy functions for converting from Aeson.Value";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

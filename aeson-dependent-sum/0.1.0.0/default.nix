@@ -16,5 +16,5 @@ mkDerivation {
   testToolDepends = [ tasty-discover ];
   homepage = "https://sr.ht/~jack/aeson-dependent-sum";
   description = "JSON encoding/decoding for dependent-sum";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/augyg/ClasshSS";
   description = "ClasshSS defined element builders for Reflex";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

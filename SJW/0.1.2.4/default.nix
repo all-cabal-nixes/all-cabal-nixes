@@ -19,6 +19,6 @@ mkDerivation {
   benchmarkHaskellDepends = [ base directory filepath random time ];
   homepage = "https://git.marvid.fr/Tissevert/SJW";
   description = "The Simple Javascript Wrench";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "sjw";
 }

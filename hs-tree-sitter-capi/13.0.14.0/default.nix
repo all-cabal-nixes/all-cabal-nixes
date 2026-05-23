@@ -12,5 +12,5 @@ mkDerivation {
     base base-compat-constptr tasty tasty-hunit tree-sitter-while
   ];
   description = "Low-level bindings for tree-sitter";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
 }

@@ -7,5 +7,5 @@ mkDerivation {
   testHaskellDepends = [ base generic-lens inspection-testing ];
   homepage = "https://github.com/monadfix/named";
   description = "Named parameters (keyword arguments) for Haskell";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -12,6 +12,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ base co-log ];
   description = "Simple enhancements for logging with co-log";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
   mainProgram = "co-log-simple";
 }

@@ -20,5 +20,5 @@ mkDerivation {
     lsp-test template-haskell text text-rope
   ];
   description = "Call hierarchy plugin for Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

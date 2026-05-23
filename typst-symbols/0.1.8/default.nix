@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text ];
   homepage = "https://github.com/jgm/typst-symbols";
   description = "Symbol and emoji lookup for typst language";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

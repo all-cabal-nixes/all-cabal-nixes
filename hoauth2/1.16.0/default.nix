@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/freizl/hoauth2";
   description = "Haskell OAuth2 authentication client";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

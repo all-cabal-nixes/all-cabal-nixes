@@ -10,5 +10,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/sol/simdutf-haskell#readme";
   description = "A Haskell interface to simdutf";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

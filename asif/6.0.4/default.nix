@@ -37,6 +37,6 @@ mkDerivation {
   testToolDepends = [ doctest-discover hspec-discover ];
   homepage = "https://github.com/arbor/asif#readme";
   description = "Library for creating and querying segmented feeds";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "asif";
 }

@@ -17,6 +17,6 @@ mkDerivation {
   executableHaskellDepends = [ aeson base lens lens-aeson text ];
   homepage = "https://github.com/phadej/aws-lambda-haskell-runtime";
   description = "Haskell on AWS Lambda Runtime API";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "example-lambda";
 }

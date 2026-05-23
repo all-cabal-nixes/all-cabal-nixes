@@ -16,5 +16,5 @@ mkDerivation {
     text time
   ];
   description = "Parser for Org Mode documents";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
 }

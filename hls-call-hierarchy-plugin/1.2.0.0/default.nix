@@ -17,5 +17,5 @@ mkDerivation {
     hls-test-utils lens lsp lsp-test text
   ];
   description = "Call hierarchy plugin for Haskell Language Server";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -20,5 +20,5 @@ mkDerivation {
   ];
   testToolDepends = [ tasty-discover ];
   description = "Data type representing a piecewise-constant function over time";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

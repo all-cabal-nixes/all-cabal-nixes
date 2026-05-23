@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers exceptions ghc ];
   testHaskellDepends = [ base exceptions ghc hspec ];
   description = "Automatically import modules";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

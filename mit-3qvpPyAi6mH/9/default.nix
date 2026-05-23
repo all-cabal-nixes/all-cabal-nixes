@@ -14,6 +14,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/mitchellwrosen/mit";
   description = "A git wrapper with a streamlined UX";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "mit";
 }

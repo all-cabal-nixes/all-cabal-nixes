@@ -20,5 +20,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/arbor/arbor-monad-metric-datadog#readme";
   description = "Metric library backend for datadog";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

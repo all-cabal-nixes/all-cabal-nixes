@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/json-query";
   description = "Kitchen sink for querying JSON";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

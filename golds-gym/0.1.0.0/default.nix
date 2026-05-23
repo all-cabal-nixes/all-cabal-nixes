@@ -12,5 +12,5 @@ mkDerivation {
   ];
   testHaskellDepends = [ base hspec ];
   description = "Golden testing framework for performance benchmarks";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

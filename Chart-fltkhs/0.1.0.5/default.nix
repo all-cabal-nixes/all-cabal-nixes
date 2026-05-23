@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/oswald2/Chart-fltkhs";
   description = "A backend for the Chart library for FLTKHS";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

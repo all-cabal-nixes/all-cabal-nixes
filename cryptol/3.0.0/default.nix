@@ -36,5 +36,5 @@ mkDerivation {
   ];
   homepage = "http://www.cryptol.net/";
   description = "Cryptol: The Language of Cryptography";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

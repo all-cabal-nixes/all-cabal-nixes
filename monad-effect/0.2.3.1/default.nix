@@ -19,5 +19,5 @@ mkDerivation {
     polysemy tasty-bench text unix
   ];
   description = "A fast and lightweight effect system";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base base-prelude ];
   testHaskellDepends = [ base base-prelude ];
   description = "A Future type that is interruptible anytime and exportable to C/C++";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

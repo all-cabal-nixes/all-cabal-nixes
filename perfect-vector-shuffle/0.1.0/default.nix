@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/Boarders/perfect-vector-shuffle";
   description = "Library for performing vector shuffles";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

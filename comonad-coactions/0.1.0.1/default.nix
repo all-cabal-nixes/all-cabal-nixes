@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/noiioiu/comonad-coactions";
   description = "Coactions of comonads on functors";
-  license = lib.licensesSpdx."LGPL-2.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "LGPL-2.0-or-later";
 }

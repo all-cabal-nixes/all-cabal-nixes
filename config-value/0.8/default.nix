@@ -12,5 +12,5 @@ mkDerivation {
   testHaskellDepends = [ base text ];
   homepage = "https://github.com/glguy/config-value";
   description = "Simple, layout-based value language similar to YAML or JSON";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

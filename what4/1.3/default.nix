@@ -37,6 +37,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/GaloisInc/what4";
   description = "Solver-agnostic symbolic values support for issuing queries";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "quickstart";
 }

@@ -10,5 +10,5 @@ mkDerivation {
     base tasty tasty-expected-failure tasty-hunit
   ];
   description = "Simple focus mechanism for tasty";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

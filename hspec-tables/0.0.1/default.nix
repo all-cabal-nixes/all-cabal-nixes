@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base hspec hspec-core ];
   homepage = "https://github.com/marcin-rzeznicki/hspec-tables";
   description = "Table-driven (by-example) HSpec tests";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

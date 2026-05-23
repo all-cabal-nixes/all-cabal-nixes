@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://www.caraus.tech/projects/pub-graphql-spice";
   description = "GraphQL with batteries";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

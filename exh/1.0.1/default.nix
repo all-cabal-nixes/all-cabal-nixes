@@ -20,5 +20,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/The-closed-eye-of-love/exh";
   description = "A library for crawling exhentai";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

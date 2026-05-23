@@ -35,6 +35,6 @@ mkDerivation {
   ];
   doHaddock = false;
   description = "System for verifying the correctness of generated Copilot programs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "verify-examples";
 }

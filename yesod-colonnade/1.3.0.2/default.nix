@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/byteverse/yesod-colonnade";
   description = "Helper functions for using yesod with colonnade";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

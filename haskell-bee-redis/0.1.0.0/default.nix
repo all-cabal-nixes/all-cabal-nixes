@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://gitlab.iscpif.fr/gargantext/haskell-bee";
   description = "Redis broker implementation for haskell-bee";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

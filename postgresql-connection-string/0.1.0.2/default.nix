@@ -16,5 +16,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/nikita-volkov/postgresql-connection-string";
   description = "PostgreSQL connection string type, parser and builder";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

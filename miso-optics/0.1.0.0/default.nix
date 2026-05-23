@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base miso optics ];
   homepage = "https://github.com/haskell-miso/miso-optics";
   description = "An adaptor package for using miso with optics";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

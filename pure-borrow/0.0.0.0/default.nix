@@ -32,5 +32,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/SoftwareFoundationGroupAtKyotoU/pure-borrow";
   description = "Rust-style borrowing in Linear Haskell with purity";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

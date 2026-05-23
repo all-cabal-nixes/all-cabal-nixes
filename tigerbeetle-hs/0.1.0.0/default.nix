@@ -17,6 +17,6 @@ mkDerivation {
   testSystemDepends = [ tb_client ];
   homepage = "https://github.com/agentultra/tigerbeetle-hs#README";
   description = "A Haskell client library for Tigerbeetle database";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "tigerbeetle-hs";
 }

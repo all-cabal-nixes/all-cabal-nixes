@@ -15,5 +15,5 @@ mkDerivation {
   libraryToolDepends = [ alex ];
   homepage = "http://www.haskell.org/cabal/";
   description = "A library for working with .cabal files";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

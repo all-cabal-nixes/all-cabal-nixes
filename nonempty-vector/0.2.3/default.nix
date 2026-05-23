@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/emilypi/nonempty-vector";
   description = "Non-empty vectors";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

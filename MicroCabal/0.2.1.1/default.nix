@@ -7,6 +7,6 @@ mkDerivation {
   isExecutable = true;
   executableHaskellDepends = [ base directory process ];
   description = "A partial Cabal replacement";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "mcabal";
 }

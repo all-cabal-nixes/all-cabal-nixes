@@ -16,6 +16,6 @@ mkDerivation {
   ];
   testHaskellDepends = [ base containers filepath hspec text ];
   description = "Check for unused code in an Agda project";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "agda-unused";
 }

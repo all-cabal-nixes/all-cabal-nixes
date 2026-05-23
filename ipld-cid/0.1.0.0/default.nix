@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/oscoin/ipfs";
   description = "IPLD Content-IDentifiers <https://github.com/ipld/cid>";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

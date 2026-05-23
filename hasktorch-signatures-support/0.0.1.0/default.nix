@@ -11,5 +11,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/hasktorch/hasktorch#readme";
   description = "Signatures for support tensors in hasktorch";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

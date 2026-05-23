@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base exceptions unix ];
   homepage = "https://gitlab.haskell.org/ghc/semaphore-compat";
   description = "Cross-platform abstraction for system semaphores";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -20,5 +20,5 @@ mkDerivation {
     strict-stm tasty tasty-hunit tasty-quickcheck temporary text
   ];
   description = "Simulated file systems";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

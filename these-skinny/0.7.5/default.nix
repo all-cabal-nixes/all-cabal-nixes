@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base deepseq ghc-prim ];
   homepage = "https://github.com/chessai/these-skinny";
   description = "A fork of the 'these' package without the dependency bloat";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -13,5 +13,5 @@ mkDerivation {
     utf8-string vector vty Win32
   ];
   description = "Windows backend for Vty";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

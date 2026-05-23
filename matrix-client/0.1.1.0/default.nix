@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/softwarefactory-project/matrix-client-haskell#readme";
   description = "A matrix client library";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

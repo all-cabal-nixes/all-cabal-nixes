@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/AJChapman/co-log-polysemy-formatting#readme";
   description = "A Polysemy logging effect for high quality (unstructured) logs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "example";
 }

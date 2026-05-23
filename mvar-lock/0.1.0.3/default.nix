@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base safe-exceptions ];
   homepage = "https://github.com/chris-martin/mvar-lock";
   description = "A trivial lock based on MVar";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -26,6 +26,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/cdepillabout/cloudy";
   description = "CLI tool to easily spin up and control compute instances in various cloud environments";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "cloudy";
 }

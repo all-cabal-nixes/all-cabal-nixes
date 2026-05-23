@@ -14,5 +14,5 @@ mkDerivation {
     text vector
   ];
   description = "Lazy query engine for the dataframe ecosystem";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -13,5 +13,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/silky/tasty-cache";
   description = "Tasty ingredient that skips unchanged tests using GHC HIE files";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

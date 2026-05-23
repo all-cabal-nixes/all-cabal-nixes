@@ -25,6 +25,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/poscat0x04/hinit";
   description = "Generic project initialization tool";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hi";
 }

@@ -26,6 +26,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jappeace/snelstart-import#readme";
   description = "Import to snelstart";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "snelstart-import";
 }

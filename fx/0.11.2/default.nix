@@ -12,5 +12,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://github.com/nikita-volkov/fx";
   description = "Modular effectful computations with explicit environments and errors";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

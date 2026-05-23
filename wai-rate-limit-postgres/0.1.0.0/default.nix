@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/donatello/wai-rate-limit-postgres";
   description = "See README for more info";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

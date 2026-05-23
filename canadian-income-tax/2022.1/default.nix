@@ -17,6 +17,6 @@ mkDerivation {
     text transformers
   ];
   description = "Canadian income tax calculation";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "complete-canadian-t1-form";
 }

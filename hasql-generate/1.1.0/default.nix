@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://code.dneaves.com/dneaves/hasql-generate";
   description = "Compile-time PostgreSQL data generation for hasql";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

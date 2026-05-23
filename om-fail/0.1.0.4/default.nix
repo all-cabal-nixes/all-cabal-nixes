@@ -10,5 +10,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/owensmurray/om-fail";
   description = "Monad transformer providing MonadFail";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

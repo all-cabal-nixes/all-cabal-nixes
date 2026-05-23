@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base deepseq ];
   homepage = "https://github.com/arybczak/strict-mutable";
   description = "Strict variants of mutable data types from base";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

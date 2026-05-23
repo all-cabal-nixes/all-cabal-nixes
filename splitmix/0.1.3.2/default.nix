@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base deepseq ];
   testHaskellDepends = [ base HUnit template-haskell ];
   description = "Fast Splittable PRNG";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

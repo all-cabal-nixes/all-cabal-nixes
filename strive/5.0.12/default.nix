@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring markdown-unlit time ];
   testToolDepends = [ markdown-unlit ];
   description = "A client for the Strava V3 API";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

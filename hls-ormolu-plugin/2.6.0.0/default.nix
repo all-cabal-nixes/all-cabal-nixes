@@ -16,5 +16,5 @@ mkDerivation {
   ];
   testToolDepends = [ ormolu ];
   description = "Integration with the Ormolu code formatter";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

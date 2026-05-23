@@ -14,5 +14,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/gspia/fcf-containers";
   description = "Data structures and algorithms for first-class-families";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

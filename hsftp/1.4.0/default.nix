@@ -22,6 +22,6 @@ mkDerivation {
   ];
   homepage = "https://iocrafts.github.io/hsftp/";
   description = "A SFTP client tool for secure file transfer operations";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "hsftp";
 }

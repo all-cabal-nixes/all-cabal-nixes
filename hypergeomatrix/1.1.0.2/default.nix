@@ -9,5 +9,5 @@ mkDerivation {
   testHaskellDepends = [ base tasty tasty-hunit ];
   homepage = "https://github.com/stla/hypergeomatrix#readme";
   description = "Hypergeometric function of a matrix argument";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

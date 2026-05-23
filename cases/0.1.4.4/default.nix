@@ -10,5 +10,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ criterion rerebase ];
   homepage = "https://github.com/nikita-volkov/cases";
   description = "A converter for spinal, snake and camel cases";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

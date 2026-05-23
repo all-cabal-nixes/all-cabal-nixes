@@ -13,5 +13,5 @@ mkDerivation {
     tasty-quickcheck
   ];
   description = "A writer-biased RAW lock";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

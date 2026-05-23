@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base containers ];
   testHaskellDepends = [ base containers hedgehog ];
   description = "(C)oncurrent (M)onoidal (F)olds";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

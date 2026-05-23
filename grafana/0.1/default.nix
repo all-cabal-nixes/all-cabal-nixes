@@ -7,5 +7,5 @@ mkDerivation {
     aeson aeson-pretty base bytestring text
   ];
   description = "grafana datatypes for dashboards";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

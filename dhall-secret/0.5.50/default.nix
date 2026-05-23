@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/jcouyang/dhall-secret";
   description = "Encrypt Decrypt Dhall expressions";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "dhall-secret";
 }

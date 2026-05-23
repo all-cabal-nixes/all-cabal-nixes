@@ -16,6 +16,6 @@ mkDerivation {
   executableHaskellDepends = [ base ];
   homepage = "https://github.com/bitc/hs-term-emulator";
   description = "Terminal Emulator written in Haskell, SDL2 Backend";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "hs-sdl-term-emulator";
 }

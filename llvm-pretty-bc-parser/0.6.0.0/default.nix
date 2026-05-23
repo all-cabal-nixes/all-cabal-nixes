@@ -27,6 +27,6 @@ mkDerivation {
     tasty-sugar terminal-size text transformers tree-diff versions
   ];
   description = "LLVM bitcode parsing library";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "llvm-disasm";
 }

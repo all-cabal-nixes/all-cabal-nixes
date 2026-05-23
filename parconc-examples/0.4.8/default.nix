@@ -23,5 +23,5 @@ mkDerivation {
   executableToolDepends = [ alex happy ];
   homepage = "http://github.com/simonmar/parconc-examples";
   description = "Examples to accompany the book \"Parallel and Concurrent Programming in Haskell\"";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

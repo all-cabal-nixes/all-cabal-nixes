@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring ];
   libraryPkgconfigDepends = [ zlib ];
   description = "CRC32 and Adler32 hashes for bytestrings";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base binary deepseq template-haskell ];
   testHaskellDepends = [ base tasty tasty-hunit text ];
   description = "Symbol on term level";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

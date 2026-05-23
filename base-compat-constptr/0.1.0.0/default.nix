@@ -7,5 +7,5 @@ mkDerivation {
   editedCabalFile = "03x7hrd4xv9xa0v72srn19v402nwws93n7jgakliabfshacd4pp3";
   libraryHaskellDepends = [ base ];
   description = "Backport of 'Foreign.C.ConstPtr'";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
 }

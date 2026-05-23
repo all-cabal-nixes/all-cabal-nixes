@@ -11,5 +11,5 @@ mkDerivation {
     base bytestring directory random tasty tasty-hunit
   ];
   description = "High-level bindings to bz3";
-  license = lib.licensesSpdx."AGPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-or-later";
 }

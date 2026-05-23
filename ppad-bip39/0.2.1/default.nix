@@ -19,5 +19,5 @@ mkDerivation {
     array base bytestring criterion deepseq
   ];
   description = "BIP39 mnemonic codes";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

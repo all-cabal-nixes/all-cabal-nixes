@@ -10,6 +10,6 @@ mkDerivation {
   libraryHaskellDepends = [ base mtl parsec random random-fu ];
   executableHaskellDepends = [ base mtl parsec random random-fu ];
   description = "Simplistic D&D style dice-rolling system";
-  license = lib.licensesSpdx."Unlicense";
+  license = lib.meta.getLicenseFromSpdxId "Unlicense";
   mainProgram = "dice";
 }

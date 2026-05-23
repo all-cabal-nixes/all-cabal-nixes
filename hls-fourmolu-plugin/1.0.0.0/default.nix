@@ -17,5 +17,5 @@ mkDerivation {
     lsp-types text unordered-containers
   ];
   description = "Integration with the Fourmolu code formatter";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

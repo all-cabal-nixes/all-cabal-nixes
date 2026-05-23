@@ -9,6 +9,6 @@ mkDerivation {
   executableHaskellDepends = [ base random text ];
   testHaskellDepends = [ base ];
   description = "Easy terminal plotting";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "granite";
 }

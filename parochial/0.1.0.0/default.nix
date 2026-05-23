@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://gitlab.com/filterfish/parochial";
   description = "Help Manage project specific documentation";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "parochial";
 }

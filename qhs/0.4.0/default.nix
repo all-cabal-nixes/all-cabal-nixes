@@ -17,6 +17,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/itchyny/qhs";
   description = "Command line tool qhs, SQL queries on CSV and TSV files";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
   mainProgram = "qhs";
 }

@@ -10,5 +10,5 @@ mkDerivation {
   benchmarkHaskellDepends = [ base gauge hs-functors ];
   homepage = "https://github.com/strake/adjunction.hs";
   description = "See README for more info";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

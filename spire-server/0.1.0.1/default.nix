@@ -18,5 +18,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/joshburgess/acolyte";
   description = "Spire-native HTTP/1.1 + HTTP/2 server, no WAI dependency";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

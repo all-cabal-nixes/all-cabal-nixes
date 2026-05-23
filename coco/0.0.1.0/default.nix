@@ -11,5 +11,5 @@ mkDerivation {
   ];
   homepage = "https://codeberg.org/czech/coco";
   description = "compatible conversions";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

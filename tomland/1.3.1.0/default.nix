@@ -26,5 +26,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/kowainik/tomland";
   description = "Bidirectional TOML serialization";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

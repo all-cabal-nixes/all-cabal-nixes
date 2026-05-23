@@ -20,5 +20,5 @@ mkDerivation {
     fin parsec vec
   ];
   description = "Regular-expressions extended with fixpoints for context-free powers";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

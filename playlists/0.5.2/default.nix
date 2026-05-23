@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/pjones/playlists";
   description = "Library and executable for working with playlist files";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "playlist";
 }

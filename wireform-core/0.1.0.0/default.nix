@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base bytestring ghc-prim text vector ];
   homepage = "https://github.com/iand675/wireform-";
   description = "Shared FFI primitives for wireform format packages";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

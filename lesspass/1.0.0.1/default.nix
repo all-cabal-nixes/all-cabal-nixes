@@ -9,6 +9,6 @@ mkDerivation {
   executableSystemDepends = [ openssl ];
   homepage = "https://sourceforge.net/projects/lesspass/";
   description = "The Stateless Password Manager";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "lesspass";
 }

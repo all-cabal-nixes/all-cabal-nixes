@@ -21,6 +21,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/typeclasses/hash-addressed-cli";
   description = "Hash-addressed file storage app";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
   mainProgram = "hash-addressed";
 }

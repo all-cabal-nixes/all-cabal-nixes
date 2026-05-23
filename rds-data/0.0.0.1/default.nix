@@ -36,6 +36,6 @@ mkDerivation {
   doHaddock = false;
   homepage = "http://github.com/haskell-works/rds-data#readme";
   description = "Codecs for use with AWS rds-data";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "rds-data";
 }

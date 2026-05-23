@@ -22,6 +22,6 @@ mkDerivation {
     temporary
   ];
   description = "Extend Cabal build-depends from the command line";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "cabal-add";
 }

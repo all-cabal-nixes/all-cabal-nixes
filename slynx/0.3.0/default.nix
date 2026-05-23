@@ -17,6 +17,6 @@ mkDerivation {
   executableHaskellDepends = [ base elynx-seq elynx-tools ];
   homepage = "https://github.com/dschrempf/elynx#readme";
   description = "Handle molecular sequences";
-  license = lib.licensesSpdx."GPL-3.0-or-later";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-or-later";
   mainProgram = "slynx";
 }

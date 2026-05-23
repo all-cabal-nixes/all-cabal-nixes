@@ -16,6 +16,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/nebasuke/CarneadesIntoDung";
   description = "A translation from the Carneades argumentation model into Dung's AFs";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "caell";
 }

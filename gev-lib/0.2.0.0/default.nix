@@ -10,5 +10,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/HaeckGabriel/gev-lib-Haskell";
   description = "The family of Extreme Value Distributions";
-  license = lib.licensesSpdx."ISC";
+  license = lib.meta.getLicenseFromSpdxId "ISC";
 }

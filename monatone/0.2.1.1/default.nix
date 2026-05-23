@@ -23,6 +23,6 @@ mkDerivation {
   ];
   homepage = "https://github.com/rembo10/monatone";
   description = "Pure Haskell library for audio metadata parsing and writing";
-  license = lib.licensesSpdx."GPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "GPL-3.0-only";
   mainProgram = "monatone";
 }

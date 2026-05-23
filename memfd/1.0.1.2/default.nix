@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base transformers ];
   homepage = "https://github.com/typeclasses/memfd";
   description = "Open temporary anonymous Linux file handles";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

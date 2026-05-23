@@ -26,6 +26,6 @@ mkDerivation {
     vector-algorithms wide-word
   ];
   description = "Data structures and algorithms";
-  license = lib.licensesSpdx."CC0-1.0";
+  license = lib.meta.getLicenseFromSpdxId "CC0-1.0";
   mainProgram = "example-lazy-segtree";
 }

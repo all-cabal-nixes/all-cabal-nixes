@@ -6,5 +6,5 @@ mkDerivation {
   libraryHaskellDepends = [ base prettyprinter ];
   homepage = "https://github.com/robrix/silkscreen";
   description = "Prettyprinting transformers";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

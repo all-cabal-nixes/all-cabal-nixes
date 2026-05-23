@@ -14,5 +14,5 @@ mkDerivation {
     base base16 base16-bytestring bytestring criterion weigh
   ];
   description = "Pure base16 encoding and decoding on bytestrings";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -18,6 +18,6 @@ mkDerivation {
   ];
   homepage = "http://michael.orlitzky.com/code/email-validator.xhtml";
   description = "Perform basic syntax and deliverability checks on email addresses";
-  license = lib.licensesSpdx."AGPL-3.0-only";
+  license = lib.meta.getLicenseFromSpdxId "AGPL-3.0-only";
   mainProgram = "email-validator";
 }

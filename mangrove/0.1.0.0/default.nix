@@ -16,5 +16,5 @@ mkDerivation {
   ];
   homepage = "https://ag.eitilt.life/willow";
   description = "A parser for web documents according to the HTML5 specification";
-  license = lib.licensesSpdx."MPL-2.0";
+  license = lib.meta.getLicenseFromSpdxId "MPL-2.0";
 }

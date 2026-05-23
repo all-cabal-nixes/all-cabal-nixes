@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base ];
   homepage = "https://gitlab.com/isd/custom-haskell-prelude";
   description = "@zenhack's personal custom prelude";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

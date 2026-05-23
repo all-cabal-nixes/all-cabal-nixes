@@ -15,5 +15,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/DigitalBrains1/prettyprinter-interp";
   description = "Efficient interpolation for Prettyprinter";
-  license = lib.licensesSpdx."BSD-2-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-2-Clause";
 }

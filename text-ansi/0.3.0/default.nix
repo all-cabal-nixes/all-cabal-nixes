@@ -8,5 +8,5 @@ mkDerivation {
   libraryHaskellDepends = [ base text text-builder-linear ];
   homepage = "https://github.com/awkward-squad/text-ansi";
   description = "Text styling for ANSI terminals";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

@@ -16,6 +16,6 @@ mkDerivation {
   ];
   executableHaskellDepends = [ ansi-terminal base vty ];
   description = "Unix backend for Vty";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "vty-unix-build-width-table";
 }

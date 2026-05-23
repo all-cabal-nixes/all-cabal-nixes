@@ -13,5 +13,5 @@ mkDerivation {
   testToolDepends = [ hspec-discover ];
   homepage = "https://gitlab.com/thematten/heap-console";
   description = "interactively inspect Haskell values at runtime";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

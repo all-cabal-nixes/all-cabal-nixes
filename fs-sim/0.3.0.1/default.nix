@@ -22,5 +22,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/input-output-hk/fs-sim";
   description = "Simulated file systems";
-  license = lib.licensesSpdx."Apache-2.0";
+  license = lib.meta.getLicenseFromSpdxId "Apache-2.0";
 }

@@ -18,6 +18,6 @@ mkDerivation {
   ];
   testHaskellDepends = [ base ];
   description = "Command-line utility for working with zettelkast files";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "zettelkast";
 }

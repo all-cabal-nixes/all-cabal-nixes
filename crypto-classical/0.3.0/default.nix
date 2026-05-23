@@ -13,5 +13,5 @@ mkDerivation {
   testHaskellDepends = [ base bytestring QuickCheck ];
   homepage = "https://github.com/fosskers/crypto-classical";
   description = "An educational tool for studying classical cryptography schemes";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }

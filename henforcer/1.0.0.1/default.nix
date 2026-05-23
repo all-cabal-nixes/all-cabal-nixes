@@ -16,5 +16,5 @@ mkDerivation {
   doHaddock = false;
   homepage = "https://github.com/flipstone/henforcer#readme";
   description = "GHC plugin to enforce user specified rules on code";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -8,5 +8,5 @@ mkDerivation {
     aeson base binary clock time transformers
   ];
   description = "Misc. time utilites";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

@@ -18,5 +18,5 @@ mkDerivation {
   testHaskellDepends = [ base brick hspec time vty ];
   homepage = "https://github.com/ldgrp/brick-calendar";
   description = "Calendar widget for the Brick TUI library";
-  license = lib.licensesSpdx."MIT";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
 }

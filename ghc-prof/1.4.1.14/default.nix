@@ -17,5 +17,5 @@ mkDerivation {
   ];
   homepage = "https://github.com/maoe/ghc-prof";
   description = "Library for parsing GHC time and allocation profiling reports";
-  license = lib.licensesSpdx."BSD-3-Clause";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
 }
