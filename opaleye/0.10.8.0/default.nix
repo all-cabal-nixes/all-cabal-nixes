@@ -9,6 +9,8 @@ mkDerivation {
   pname = "opaleye";
   version = "0.10.8.0";
   sha256 = "f9be887c7c10c35b25faf3e8f5144b574b071f507f40b3696b700aa1e16ea7fb";
+  revision = "1";
+  editedCabalFile = "1mbiigvcfl9p28qrjd7186c6zfvym6dw6g5dd6735n57klvvzdqi";
   libraryHaskellDepends = [
     aeson base base16-bytestring bytestring case-insensitive
     contravariant postgresql-simple pretty product-profunctors

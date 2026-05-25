@@ -8,6 +8,8 @@ mkDerivation {
   pname = "pg-entity";
   version = "0.0.6.0";
   sha256 = "4e9ca502e686a7f00c0db7daf2674ccecc8ada7e4257425264b3de05f58d201c";
+  revision = "1";
+  editedCabalFile = "0ln1rq25vjn2qmzdxdcyvyalk6gpxfx0pz5aw6b41lynnwbxslh3";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
