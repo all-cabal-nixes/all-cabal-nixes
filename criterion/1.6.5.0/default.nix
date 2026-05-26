@@ -11,6 +11,8 @@ mkDerivation {
   pname = "criterion";
   version = "1.6.5.0";
   sha256 = "d613d80c91b40058e90b7ee11c4bb27ca73aae27da4885d03237fd156408e038";
+  revision = "1";
+  editedCabalFile = "0kd2jjkysyw7gycm9wijai097bbhgvi342wqj5sc2gcj0bc78jrx";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;

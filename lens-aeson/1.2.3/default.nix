@@ -5,8 +5,8 @@ mkDerivation {
   pname = "lens-aeson";
   version = "1.2.3";
   sha256 = "7bbc6affe248c84dfda13576636ecb52e575ee0e796d8c29a76a28c3ad424c01";
-  revision = "2";
-  editedCabalFile = "1mw2ijrdkkpazgnfb1msahgf1dlygrcl2i3hi4g7vqf8b95knwss";
+  revision = "3";
+  editedCabalFile = "1zrqhm3sazzj3sbzh8jpg3v35i6ngvh395lb7mfpglbc8zj4ri3d";
   libraryHaskellDepends = [
     aeson base bytestring lens scientific text text-short
     unordered-containers vector

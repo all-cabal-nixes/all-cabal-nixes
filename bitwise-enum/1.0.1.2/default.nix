@@ -6,8 +6,8 @@ mkDerivation {
   pname = "bitwise-enum";
   version = "1.0.1.2";
   sha256 = "bddb5fa03c9be6c70ab65f2fa53860718517fc8c2bbbe5b00e3d3b97c5026497";
-  revision = "1";
-  editedCabalFile = "19nyczwz2srvzfxb0g43ap9h1bhyzvsissh73zgql6vaxrpv9x7j";
+  revision = "2";
+  editedCabalFile = "16q8p4k74gkb2xpnhrj0z1rachp4aa893f95i9a83gjaql3q9zfb";
   libraryHaskellDepends = [
     aeson array base deepseq mono-traversable vector
   ];

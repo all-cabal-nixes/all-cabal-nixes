@@ -7,6 +7,8 @@ mkDerivation {
   pname = "safe-json";
   version = "1.2.1.2";
   sha256 = "25bc7fd19a65f4820649ce8494133b7abccea4db301e32eea2622b698e91c569";
+  revision = "1";
+  editedCabalFile = "0387z5spd53c5zh9rrd1kn2bw0gzhax16ldar68dm7852g8i2k61";
   libraryHaskellDepends = [
     aeson base bytestring containers dlist hashable scientific tasty
     tasty-hunit tasty-quickcheck text time unordered-containers
