@@ -5,8 +5,8 @@ mkDerivation {
   pname = "xz";
   version = "5.6.3";
   sha256 = "8db07def30ef270504a64dc3acfb068f464f91546864a9a62741cd75eb028594";
-  revision = "2";
-  editedCabalFile = "192ik7g7afjpzkvsh4wfkvg98c6b1zdysvzpk9byqp1m0k0zipka";
+  revision = "3";
+  editedCabalFile = "0n35plgw6r88xv1fh8fv5qih2y6vhvp8w5qqaibaxyf4gl2gh0f0";
   libraryHaskellDepends = [ base bytestring ];
   libraryPkgconfigDepends = [ xz ];
   testHaskellDepends = [
