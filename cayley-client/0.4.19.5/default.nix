@@ -6,6 +6,8 @@ mkDerivation {
   pname = "cayley-client";
   version = "0.4.19.5";
   sha256 = "d80d972071fc58963702e9fce891e0fb0c11b7a720699ae47b47027485c07a3a";
+  revision = "1";
+  editedCabalFile = "0jwwxmi8yc91fb0cjk0xh2mzrjhadnzpcyfi35w7izh3b0knivl5";
   libraryHaskellDepends = [
     aeson attoparsec base binary exceptions http-client lens lens-aeson
     mtl text vector

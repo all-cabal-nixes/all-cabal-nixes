@@ -7,6 +7,8 @@ mkDerivation {
   pname = "gothic";
   version = "0.1.8.5";
   sha256 = "e64b3dd0cfe16c69bba304f56a29530b94290bf87dfe3b1e255bd8c1a3fdd5c8";
+  revision = "1";
+  editedCabalFile = "1grg3q95yay2aqdi064c117mx15ny9s2ilzbwpqk1bsihxzvcfvb";
   libraryHaskellDepends = [
     aeson base bytestring crypton-connection exceptions hashable
     http-client http-client-tls http-conduit http-types lens lens-aeson
