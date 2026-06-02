@@ -8,6 +8,8 @@ mkDerivation {
   pname = "country";
   version = "0.2.5.0";
   sha256 = "04a1d6d52110e20437331e8e8446c1f96f287e2b7d45cbaa34e05d2186dbb2a4";
+  revision = "1";
+  editedCabalFile = "0xk4qj03vjycvi50fcnxjpqpl95gadxfnpils4bcmxifhagvgcgj";
   libraryHaskellDepends = [
     aeson attoparsec base bytebuild bytehash byteslice bytestring
     contiguous deepseq hashable primitive primitive-unlifted scientific
