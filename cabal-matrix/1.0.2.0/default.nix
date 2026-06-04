@@ -8,6 +8,8 @@ mkDerivation {
   pname = "cabal-matrix";
   version = "1.0.2.0";
   sha256 = "6366673ef05637b3ccfbeb0d8712811e68476113db38ca034457be2d065ca3b5";
+  revision = "1";
+  editedCabalFile = "0z3iji8p9bp7ly8ga6rx7zwj7ah3ccjffwiwwrq0yknvmw5v3jws";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
