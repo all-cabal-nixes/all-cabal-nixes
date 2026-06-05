@@ -4,6 +4,8 @@ mkDerivation {
   pname = "optparse-applicative-cmdline-util";
   version = "0.2.1";
   sha256 = "3000a0696d47d4fb4c8d40d44b1368eb1e7b8f1352b8bb14aa8e29cc6cafd850";
+  revision = "1";
+  editedCabalFile = "07p0flx6k16xpsm8057n8giimv45di1kymfdp6fk5m8nj6nllk45";
   libraryHaskellDepends = [
     attoparsec base optparse-applicative text
   ];

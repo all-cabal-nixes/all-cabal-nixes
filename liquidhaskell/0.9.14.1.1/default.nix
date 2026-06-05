@@ -3,10 +3,8 @@
 }:
 mkDerivation {
   pname = "liquidhaskell";
-  version = "0.9.14.1";
-  sha256 = "bfaa6d2ab4c3d16da7288ee2d306aefc7e6b74f09484914cccdfa99b4c62283f";
-  revision = "1";
-  editedCabalFile = "0w90my9qd8qsyba6yqb4l6gkis230wniqjsq2s4qaqvbl0m81wka";
+  version = "0.9.14.1.1";
+  sha256 = "e23569bf6ae7f9bf5c180fc04b362244e433351feecf0b587b6801ca8c0a1032";
   setupHaskellDepends = [ base Cabal liquidhaskell-boot ];
   libraryHaskellDepends = [
     base bytestring containers ghc-prim liquidhaskell-boot

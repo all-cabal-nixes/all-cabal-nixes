@@ -8,6 +8,8 @@ mkDerivation {
   pname = "hnix-store-nar";
   version = "0.1.1.0";
   sha256 = "171f93d51687032af14ab607e21e3bb0a745b0f34a3315f0fef5d6f6f61ae099";
+  revision = "1";
+  editedCabalFile = "135sdfmi5idg2bkis4z7zc0r6dk8wafpigz6q12l497rb5p6465h";
   libraryHaskellDepends = [
     algebraic-graphs base bytestring case-insensitive cereal containers
     directory filepath lifted-base monad-control mtl text unix
