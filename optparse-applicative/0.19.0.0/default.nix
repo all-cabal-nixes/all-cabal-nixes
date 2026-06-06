@@ -6,6 +6,8 @@ mkDerivation {
   pname = "optparse-applicative";
   version = "0.19.0.0";
   sha256 = "cf16aeefd821730c7738447fa7c6b7ada7ca1c9cc25400d64ef283294d345871";
+  revision = "1";
+  editedCabalFile = "1hvcdhc7m9f3qh70cqhrjf0qszyv0dj8fvl2i3fpr3s9ybdwn7ac";
   libraryHaskellDepends = [
     base prettyprinter prettyprinter-ansi-terminal process text
     transformers

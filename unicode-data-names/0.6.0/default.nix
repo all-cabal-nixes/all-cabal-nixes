@@ -5,6 +5,8 @@ mkDerivation {
   pname = "unicode-data-names";
   version = "0.6.0";
   sha256 = "134810fbf9767cb05ab6b3eaa60e5d445e2b18a71e713590d9a84e00c2e22237";
+  revision = "1";
+  editedCabalFile = "1bxa7s4alyad88gmlp8cz9i301p0ij4l4n07948l028bjil7r218";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base unicode-data ];
