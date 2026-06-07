@@ -7,6 +7,8 @@ mkDerivation {
   pname = "jose";
   version = "0.11";
   sha256 = "2974e73d899208dccbb18cac889acceaebb7439e43046ac32c9c702e49f70b40";
+  revision = "1";
+  editedCabalFile = "1xyvlfzb7lnfwhh49cws7477v8l5ayg6860pl2mkyxwaxvbhkb4k";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

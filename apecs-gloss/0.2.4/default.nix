@@ -5,6 +5,8 @@ mkDerivation {
   pname = "apecs-gloss";
   version = "0.2.4";
   sha256 = "6720963044f61f53ac0320457b8c51ed336d622e3815a5d6a7db88b794f58a37";
+  revision = "1";
+  editedCabalFile = "1380w15brydr06gfks4cr5vg40ma99bv32vn0m2cg40g3jhwpaq4";
   libraryHaskellDepends = [
     apecs apecs-physics base containers gloss linear
   ];

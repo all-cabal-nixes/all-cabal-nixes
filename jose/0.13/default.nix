@@ -1,20 +1,18 @@
 { mkDerivation, aeson, base, base64-bytestring, bytestring, concise
 , containers, crypton, crypton-x509, hedgehog, hspec, lens, lib
-, memory, monad-time, mtl, network-uri, pem, tasty, tasty-hedgehog
+, monad-time, mtl, network-uri, pem, ram, tasty, tasty-hedgehog
 , tasty-hspec, template-haskell, text, time
 }:
 mkDerivation {
   pname = "jose";
-  version = "0.12";
-  sha256 = "a9b08fb36a1a8d6cd4a13ee908e5942309e12cd941c8471708fcc14d4d1655f3";
-  revision = "1";
-  editedCabalFile = "102hcfli41kys96qw3dczj53jkv54d1kqxciw5rqwk1xpzp275h9";
+  version = "0.13";
+  sha256 = "3ae226ba3058eaf0c0031845969d8dd7ea163bef4d34e8355fc09a5723575f59";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
     aeson base base64-bytestring bytestring concise containers crypton
-    crypton-x509 lens memory monad-time mtl network-uri
-    template-haskell text time
+    crypton-x509 lens monad-time mtl network-uri ram template-haskell
+    text time
   ];
   testHaskellDepends = [
     aeson base base64-bytestring bytestring concise containers crypton
