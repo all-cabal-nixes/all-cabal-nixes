@@ -10,6 +10,8 @@ mkDerivation {
   pname = "dataframe";
   version = "2.1.0.2";
   sha256 = "bc7466ac8014028beb896527f1aca0d1c43d8d76b18e76cbca8a6bccbe814c6f";
+  revision = "1";
+  editedCabalFile = "1zsrrbfwcdlyxfifdas9gmhh8xbl0xcqrd3mx4l1i3p8agj10jfy";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
