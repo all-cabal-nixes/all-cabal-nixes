@@ -6,6 +6,8 @@ mkDerivation {
   pname = "xmonad-contrib";
   version = "0.18.2";
   sha256 = "2d83efa441110d35d02ddc286c04f7661d94c18e167a815ef7a2578b2a636a4d";
+  revision = "1";
+  editedCabalFile = "0yfl413sxiql49b1xp0yi09cq3svzr9g5ds69pdjxsa7r7hfbhh3";
   libraryHaskellDepends = [
     base bytestring containers deepseq directory filepath mtl process
     random time transformers unix utf8-string X11 X11-xft xmonad

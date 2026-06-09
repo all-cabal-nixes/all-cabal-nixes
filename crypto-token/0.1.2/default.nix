@@ -5,6 +5,8 @@ mkDerivation {
   pname = "crypto-token";
   version = "0.1.2";
   sha256 = "f597208acc42ac1a68b968a4006f5c6cde9358dca5ee8ca989fe73633785b7a3";
+  revision = "1";
+  editedCabalFile = "1ff8m0ajmxgy0fp8lr0anbzliags0nwixianxarlg66cmmp6mfgs";
   libraryHaskellDepends = [
     array base bytestring crypton memory network-byte-order
   ];

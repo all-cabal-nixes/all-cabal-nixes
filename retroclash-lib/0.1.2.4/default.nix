@@ -6,10 +6,8 @@
 }:
 mkDerivation {
   pname = "retroclash-lib";
-  version = "0.1.2.3";
-  sha256 = "e7cde7eace85daf48c9c23e95a09d225180481257a510a77a29650d76867bb33";
-  revision = "1";
-  editedCabalFile = "0b1zm9y1gmjggx3qw9shbhsiwi9mbiwkyqi0gnj9v5az393z623s";
+  version = "0.1.2.4";
+  sha256 = "a2c68335778a4c93f6bf45b53ab9e18b275b6a2a7d4bed7e372e9c89264fb0ff";
   libraryHaskellDepends = [
     barbies base clash-ghc clash-lib clash-prelude containers
     ghc-typelits-extra ghc-typelits-knownnat ghc-typelits-natnormalise
