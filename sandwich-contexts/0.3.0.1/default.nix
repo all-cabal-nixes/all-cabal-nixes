@@ -9,6 +9,8 @@ mkDerivation {
   pname = "sandwich-contexts";
   version = "0.3.0.1";
   sha256 = "535e6326928ddf0c78bb63d16a95b8fb3026138e8060811c475d1b6f4212ab00";
+  revision = "1";
+  editedCabalFile = "04kikrh8kxddb913lg1w6r9lm29fvcq6al9ngvbkj7rnjadl9382";
   libraryHaskellDepends = [
     aeson base conduit conduit-extra containers crypton-connection
     data-default exceptions filepath HTTP http-client http-conduit

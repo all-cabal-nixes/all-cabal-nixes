@@ -7,8 +7,8 @@ mkDerivation {
   pname = "graphql-spice";
   version = "1.0.7.0";
   sha256 = "60f05ab616cc98acae6818a8991334eb3e64c553f80b3c0931323dc42a216f38";
-  revision = "1";
-  editedCabalFile = "0dk5zlx77mfd8dmc62cd35jg2k2mpq2hh90772awvf016ki8xdcf";
+  revision = "2";
+  editedCabalFile = "1vn0b2spy4nic9xw78hw3gvabhpivd5ihbkd7zr17hv090hhzix2";
   libraryHaskellDepends = [
     aeson base conduit containers exceptions graphql hspec-expectations
     megaparsec scientific template-haskell text time transformers

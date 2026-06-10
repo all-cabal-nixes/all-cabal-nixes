@@ -10,6 +10,8 @@ mkDerivation {
   pname = "sandwich-webdriver";
   version = "0.1.0.5";
   sha256 = "1e29073ab4ad69a8475fd2b973028c16adde2d45311297f9820f0e4762d06a84";
+  revision = "1";
+  editedCabalFile = "0y8d94ffifzpki1ymkrpmdxy6vp4yssz7bibgb4bp8ndmd25vdg1";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

@@ -5,6 +5,8 @@ mkDerivation {
   pname = "cached-io";
   version = "1.4.0.0";
   sha256 = "a5ce26a4a650d23c6cc0c968b57a7cd91b73cc221a265204c4b9325e74c3ce92";
+  revision = "1";
+  editedCabalFile = "093hgq3d3vnv5v0s0pazjb4x17ih91snigy6w1qwwdh4jqzm1q84";
   libraryHaskellDepends = [ base exceptions stm time ];
   testHaskellDepends = [ base tasty tasty-hunit transformers ];
   description = "A simple library to cache IO actions";

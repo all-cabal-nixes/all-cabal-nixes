@@ -5,6 +5,8 @@ mkDerivation {
   pname = "parsec";
   version = "3.1.18.0";
   sha256 = "402f9f133a71462678f9c257934f504f55e441d70c54a73ee70582182450d0af";
+  revision = "1";
+  editedCabalFile = "1ajpd2nn6ph3zrzbkwp877zv8772pqashbwqf714mhgl9jbcp818";
   libraryHaskellDepends = [ base bytestring mtl text ];
   testHaskellDepends = [ base deepseq mtl tasty tasty-hunit ];
   homepage = "https://github.com/haskell/parsec";

@@ -7,6 +7,8 @@ mkDerivation {
   pname = "graphql";
   version = "1.5.0.2";
   sha256 = "2b6ec9e85db488c6fbfb5a9cdf5ff36d66952b0f8c576746a3d3f4bc7c90f072";
+  revision = "1";
+  editedCabalFile = "1x6zvnmmxnp40z24y9af7473vibyl740fyigzvrgbmjp7vxq9ing";
   libraryHaskellDepends = [
     base conduit containers exceptions megaparsec parser-combinators
     text transformers unordered-containers vector

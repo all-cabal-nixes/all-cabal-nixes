@@ -10,6 +10,8 @@ mkDerivation {
   pname = "sandwich-webdriver";
   version = "0.4.0.1";
   sha256 = "3b0a9566bb0d2eda56f2e2e75fd8e53e2fc9de5e8f195820fb8912eb37bf51e0";
+  revision = "1";
+  editedCabalFile = "1jkvk43jbrhi01bpsbx5salvaa5iwdcb6539crdiy43bw62qkgl2";
   libraryHaskellDepends = [
     aeson base bytestring containers data-default directory exceptions
     filepath http-client http-client-tls http-conduit http-types

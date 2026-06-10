@@ -10,6 +10,8 @@ mkDerivation {
   pname = "sandwich-contexts-kubernetes";
   version = "0.1.1.0";
   sha256 = "dffd226e6faf13ff36085d2a3c5309e7dff306851357e97666114ddb1376e201";
+  revision = "1";
+  editedCabalFile = "01cj2bjz1lppw3kni8gm5l3bsccz2jh6x1m0dlb23wsvg43hv0vm";
   libraryHaskellDepends = [
     aeson base bytestring containers exceptions filepath http-client
     kubernetes-api kubernetes-api-client lens lens-aeson minio-hs
