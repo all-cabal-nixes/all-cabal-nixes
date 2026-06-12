@@ -7,8 +7,8 @@ mkDerivation {
   pname = "hw-prim";
   version = "0.6.3.2";
   sha256 = "1fa05fdc46c72ed4b28aabcee69695ce810d451bbd263fbe75f94b179e20441d";
-  revision = "3";
-  editedCabalFile = "0q3bmdmwxh1xqwril6bxv8p67ys0p1znlvzis3akkvyiiddixs4w";
+  revision = "4";
+  editedCabalFile = "0i32bn58q3agnjznp6ca42rc6gnydwlad4adqzs7raidvshiy5dp";
   libraryHaskellDepends = [
     base bytestring deepseq ghc-prim mmap transformers unliftio-core
     vector

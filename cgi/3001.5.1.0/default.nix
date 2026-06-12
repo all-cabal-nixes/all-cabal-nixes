@@ -5,6 +5,8 @@ mkDerivation {
   pname = "cgi";
   version = "3001.5.1.0";
   sha256 = "a0e6f4cc9a29c50cbd9ebe767d2b0f8c61cef22fd192e73a20c30825dd0eea58";
+  revision = "2";
+  editedCabalFile = "0ydn7ypblrix15aby63dsh8p9znz4jj24krcz42zsp0br18q838l";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

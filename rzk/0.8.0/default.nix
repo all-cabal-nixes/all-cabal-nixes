@@ -8,6 +8,8 @@ mkDerivation {
   pname = "rzk";
   version = "0.8.0";
   sha256 = "2ddec0ce7eb9c6c6da3f0d57eb34fdb9a535ab1bef6347b3e8c44855c939607c";
+  revision = "1";
+  editedCabalFile = "08b1jzxlik0mqgv63qmndbn716yqy5bqdxh481k8zz3d4gpr84gg";
   isLibrary = true;
   isExecutable = true;
   setupHaskellDepends = [ base Cabal process ];

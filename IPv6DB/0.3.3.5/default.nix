@@ -6,6 +6,8 @@ mkDerivation {
   pname = "IPv6DB";
   version = "0.3.3.5";
   sha256 = "9e6b64a88905f81c799cf63ca369d9772787a57fd24621ba38ea6079f14c2bff";
+  revision = "1";
+  editedCabalFile = "1zfiipyx4bljinzq252w33x2hjh3wyrs4mnf2hwndfnvncig1r7h";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ aeson base IPv6Addr text vector ];
