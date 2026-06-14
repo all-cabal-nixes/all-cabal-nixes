@@ -6,6 +6,8 @@ mkDerivation {
   pname = "hw-aeson";
   version = "0.1.9.0";
   sha256 = "525adba1ef786d160dc10070e88dbab642e1eeb054a86d0706ae85cff58cca4a";
+  revision = "1";
+  editedCabalFile = "05x2g2gcz689kqnr4n88vnvjhvqkj68kmf5i3frzmapmc1ifz4jy";
   libraryHaskellDepends = [
     aeson base bytestring containers hashable text text-short
     unordered-containers
