@@ -6,6 +6,8 @@ mkDerivation {
   pname = "unclogging";
   version = "0.1.0.3";
   sha256 = "ac54c98e2fcbe26917077c2be4bdea4ad34118de42090cf452aca7909952c5c7";
+  revision = "1";
+  editedCabalFile = "00qjrw2nl6sdiksa3h7r7gm2rnvsrblfkdxq1k3qxn5xalcgxfaj";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

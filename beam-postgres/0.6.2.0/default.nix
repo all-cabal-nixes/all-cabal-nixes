@@ -1,0 +1,27 @@
+{ mkDerivation, aeson, attoparsec, base, beam-core, beam-migrate
+, bytestring, case-insensitive, conduit, free, hashable, hedgehog
+, lib, lifted-base, monad-control, mtl, network-uri
+, postgresql-libpq, postgresql-simple, scientific, tagged, tasty
+, tasty-hunit, testcontainers, text, time, transformers-base
+, unordered-containers, uuid, uuid-types, vector
+}:
+mkDerivation {
+  pname = "beam-postgres";
+  version = "0.6.2.0";
+  sha256 = "d64d54fe4a37900c2eab78a3e71ae2b4151309d3e58c9615136391fa978a9a34";
+  libraryHaskellDepends = [
+    aeson attoparsec base beam-core beam-migrate bytestring
+    case-insensitive conduit free hashable lifted-base monad-control
+    mtl network-uri postgresql-libpq postgresql-simple scientific
+    tagged text time transformers-base unordered-containers uuid-types
+    vector
+  ];
+  testHaskellDepends = [
+    aeson base beam-core beam-migrate bytestring hedgehog
+    postgresql-simple tasty tasty-hunit testcontainers text time uuid
+    vector
+  ];
+  homepage = "https://haskell-beam.github.io/beam/user-guide/backends/beam-postgres";
+  description = "Connection layer between beam and postgres";
+  license = lib.licenses.mit;
+}
