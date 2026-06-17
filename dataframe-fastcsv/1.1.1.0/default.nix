@@ -7,6 +7,8 @@ mkDerivation {
   pname = "dataframe-fastcsv";
   version = "1.1.1.0";
   sha256 = "806ed41fc177aaf45b9af094dec24e5cbb3cbeb809e9b057f30b040fa792674c";
+  revision = "2";
+  editedCabalFile = "02f09j78p194ifmgzpyqf2lipmk3w4fv6hvmsxcpri63vcq3q299";
   libraryHaskellDepends = [
     base bytestring containers dataframe-core dataframe-csv
     dataframe-operations dataframe-parsing mmap text time vector

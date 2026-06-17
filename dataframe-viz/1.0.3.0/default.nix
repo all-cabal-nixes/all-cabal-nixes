@@ -5,6 +5,8 @@ mkDerivation {
   pname = "dataframe-viz";
   version = "1.0.3.0";
   sha256 = "7b07782bf036a934fd319187c75fa39f3141e28445e7e7b765645271db96365d";
+  revision = "1";
+  editedCabalFile = "1rbmmsqyiz956g1frw6y7sh4p30j9zfw1f8gqrcljlhij6vrcgk6";
   libraryHaskellDepends = [
     aeson base containers dataframe-core directory granite process
     random text vector

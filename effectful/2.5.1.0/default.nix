@@ -7,6 +7,8 @@ mkDerivation {
   pname = "effectful";
   version = "2.5.1.0";
   sha256 = "de8132586d779b416ff4a5f15c9db902b75a74c010decd1f5a693a35f58b0e10";
+  revision = "1";
+  editedCabalFile = "0lc1syxp2zlm0r4wn59vh7d2g7cydfgxrb96lsb93kr5xi0m1gf5";
   libraryHaskellDepends = [
     async base bytestring directory effectful-core process stm
     strict-mutable-base time unliftio

@@ -6,6 +6,8 @@ mkDerivation {
   pname = "dataframe-th";
   version = "1.0.1.2";
   sha256 = "6ab36fad4d16e7c6f824e6477d92721276984a7e845a8d40274d79953f613c1e";
+  revision = "1";
+  editedCabalFile = "1yvni0lln0iag0w759ndp9998cgdixmliw1azwa23ghx9sq1xdlm";
   libraryHaskellDepends = [
     base containers dataframe-core dataframe-operations
     dataframe-parsing template-haskell text vector

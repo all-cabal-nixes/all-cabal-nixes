@@ -4,10 +4,8 @@
 }:
 mkDerivation {
   pname = "dataframe-parsing";
-  version = "1.0.2.0";
-  sha256 = "514dd7595ca80bea8fec96d385aac6ff26dda842a22a185b1d93ab960a91059c";
-  revision = "1";
-  editedCabalFile = "1nga9p4ihb49gc7p6ip6g40xpsbifi91n8mqrfh0ypg7bbf89b9m";
+  version = "1.0.2.1";
+  sha256 = "3ffe6e98000bb1f186acd3821abc4237f031f12f981554a598966c2838751a10";
   libraryHaskellDepends = [
     attoparsec base bytestring bytestring-lexing containers
     dataframe-core text time vector
