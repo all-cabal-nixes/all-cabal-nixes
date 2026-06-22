@@ -9,8 +9,8 @@ mkDerivation {
   pname = "servant-quickcheck";
   version = "0.1.1.0";
   sha256 = "1a2390d6bb4296c03d8256cb6eca8a977699d2bea370487fafc93db63ae6ee43";
-  revision = "2";
-  editedCabalFile = "1gxbwicayab51avfn5phxbhd4r03l1qadblwkswxkv56b7qlb6av";
+  revision = "3";
+  editedCabalFile = "07dm7v8hd54mynqan3sh2iaa78x85n8mfv51fp6350dadim6s75y";
   libraryHaskellDepends = [
     aeson base base-compat-batteries bytestring case-insensitive clock
     data-default-class hspec http-client http-media http-types mtl
