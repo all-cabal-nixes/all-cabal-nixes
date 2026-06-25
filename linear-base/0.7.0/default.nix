@@ -9,6 +9,8 @@ mkDerivation {
   pname = "linear-base";
   version = "0.7.0";
   sha256 = "2d3df0603050ae8249574e7d88e7eee836cd94669411888c08b488fbbc17e014";
+  revision = "1";
+  editedCabalFile = "16sfqa1y23ffmrh001zg8lmplv01x9f39s01p3h0pa7yvbq2p8jx";
   libraryHaskellDepends = [
     base bytestring containers ghc-bignum ghc-prim hashable
     linear-generics primitive storable-tuple text transformers vector
