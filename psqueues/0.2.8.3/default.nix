@@ -6,8 +6,8 @@ mkDerivation {
   pname = "psqueues";
   version = "0.2.8.3";
   sha256 = "10bcbe9aeb3ca00d72e86d940cf91b021b83f908885375120d4d51d0240ad076";
-  revision = "1";
-  editedCabalFile = "1rwal4h38m7ai0i25jm5r66rkb23fyxl9sdn6rsfd0ralv2f6fn4";
+  revision = "2";
+  editedCabalFile = "00hii480f8051pk3al07hyzz3b5kf7w8xbri5n2lwd2akms9iqgn";
   libraryHaskellDepends = [ base deepseq hashable ];
   testHaskellDepends = [
     base deepseq hashable HUnit QuickCheck tagged tasty tasty-hunit
