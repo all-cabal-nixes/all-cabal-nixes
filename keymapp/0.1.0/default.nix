@@ -6,6 +6,8 @@ mkDerivation {
   pname = "keymapp";
   version = "0.1.0";
   sha256 = "5cf77bd9d16432a815f5abfa5d31bc5d46818b1ddbf0e7f9d8ca5f865ca6836f";
+  revision = "1";
+  editedCabalFile = "1s3kc39vzabzv1km7zgsqf6q22mm55qzwqdmblinp2rx3mz9sknw";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
@@ -16,7 +18,7 @@ mkDerivation {
     base colour directory exceptions grapesy mtl optparse-applicative
     prettyprinter proto-lens proto-lens-runtime text unliftio-core
   ];
-  homepage = "https://github.com/fpringle/keymapp";
+  homepage = "https://github.com/fpringle/haskell-keymapp";
   description = "gRPC client for the Keymapp API";
   license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
   mainProgram = "keymapp";
