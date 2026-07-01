@@ -6,6 +6,8 @@ mkDerivation {
   pname = "recover-rtti";
   version = "0.6.1";
   sha256 = "a0b3adb9a1d60cec76c3eff9bff313ff320bc7486f01f1772798b300b3418884";
+  revision = "1";
+  editedCabalFile = "0xqy651xk5f4d8wjlnqsjhnv8gg73di0zl2liqzr8vrkjxnf6yyz";
   libraryHaskellDepends = [
     aeson base bytestring containers ghc-heap mtl primitive sop-core
     stm text unordered-containers vector
