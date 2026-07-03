@@ -5,6 +5,8 @@ mkDerivation {
   pname = "idna2008";
   version = "1.0.0.1";
   sha256 = "d6bf359a671971ac5e039c3d620c8580d0a76f0d534e4255b4e9cc2ae79a426b";
+  revision = "1";
+  editedCabalFile = "10q4zmsbz086ry17rjya5c3vnjmrk6biwi4ynpf2sizqy0x9id6j";
   libraryHaskellDepends = [
     base bytestring primitive template-haskell text
   ];
