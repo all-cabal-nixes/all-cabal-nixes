@@ -9,6 +9,8 @@ mkDerivation {
   pname = "servant-swagger";
   version = "1.2.3";
   sha256 = "01a469217f0bf91ab7aebc1417bd5906d1b8b5b28a391fbf976d24b7d06586df";
+  revision = "1";
+  editedCabalFile = "1lxswgcrwcfiwzga3w0zvx58hdhkgaivrwgx0g5y984pln7cwxkf";
   setupHaskellDepends = [ base Cabal cabal-doctest ];
   libraryHaskellDepends = [
     aeson aeson-pretty base base-compat bytestring hspec http-media
