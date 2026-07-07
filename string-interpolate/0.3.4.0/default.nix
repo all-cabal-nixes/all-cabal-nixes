@@ -9,8 +9,8 @@ mkDerivation {
   pname = "string-interpolate";
   version = "0.3.4.0";
   sha256 = "88838540b080308174d4fa51f20f15f46ed928bf1cf664f533f9bda5ae1e0b8e";
-  revision = "6";
-  editedCabalFile = "03zvlwn83nkjkwn0dzsbidwr5rf8cfzghn9cksh996ya9i0f19j2";
+  revision = "7";
+  editedCabalFile = "062sp1bplr1awji88r2y5zkl2baq22r3dp1jwsrph62r5m7qv3xm";
   libraryHaskellDepends = [
     base bytestring haskell-src-exts haskell-src-meta split
     template-haskell text text-conversions utf8-string
