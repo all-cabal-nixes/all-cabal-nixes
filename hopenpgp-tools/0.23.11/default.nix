@@ -11,6 +11,8 @@ mkDerivation {
   pname = "hopenpgp-tools";
   version = "0.23.11";
   sha256 = "2a056bd320caafe0f7ac3c95d56819f9fef02ddafe11b59802ea5a678d88a54f";
+  revision = "1";
+  editedCabalFile = "17725baw56qilpa76i49fdv7l8kqijj3gyfpm4n7cmwx725ngdb1";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

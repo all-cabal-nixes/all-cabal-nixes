@@ -12,6 +12,8 @@ mkDerivation {
   pname = "hOpenPGP";
   version = "2.10.1";
   sha256 = "df0cf73798ddefd91f1f8538006dfe959ee5ca8f1dd0906802847e0c85b948f2";
+  revision = "1";
+  editedCabalFile = "0w6cbg6nv96k2h77lp7wb0sr91r6lgjm1971226v0yz2b10wfgf0";
   libraryHaskellDepends = [
     aeson asn1-encoding attoparsec base base16-bytestring bifunctors
     binary binary-conduit bytestring bz2 conduit conduit-extra
