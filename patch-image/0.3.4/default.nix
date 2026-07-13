@@ -9,6 +9,8 @@ mkDerivation {
   pname = "patch-image";
   version = "0.3.4";
   sha256 = "5d10320678c2f310ccc145bd18ccde961a15dca80b6efa816c4eb1b26a009d63";
+  revision = "1";
+  editedCabalFile = "0xa6z8py0rms0kh2w759lwaxzmdass6fcry5dalfvpn8nhm1m9xz";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

@@ -10,6 +10,8 @@ mkDerivation {
   pname = "mighttpd2";
   version = "4.0.10";
   sha256 = "7512f967748517537f526cb1ff6c6bd4e896d432691dd14c613530071e8357db";
+  revision = "1";
+  editedCabalFile = "1hkav9ajplbd9zmh68q7kwy2010mi1jxpzh6rnhhasj33rmz7mf7";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
