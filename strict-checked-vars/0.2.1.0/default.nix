@@ -5,8 +5,8 @@ mkDerivation {
   pname = "strict-checked-vars";
   version = "0.2.1.0";
   sha256 = "9532b13ddf376a37ebabe45ee43adc55ae6ded4063e5a745cc8df54a33918489";
-  revision = "2";
-  editedCabalFile = "1b900zijda9r9k3n9zp0hibqkwi7wrhz4gzrc8al9c9a32xlpdrf";
+  revision = "3";
+  editedCabalFile = "09fqhvx080wg12ma06w82vccq7l6ismq1v9fdk2xvxivs6w3n5ws";
   libraryHaskellDepends = [ base io-classes ];
   testHaskellDepends = [
     base io-classes io-sim nothunks QuickCheck tasty tasty-quickcheck
