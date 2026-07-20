@@ -7,8 +7,8 @@ mkDerivation {
   pname = "reactive-banana";
   version = "1.3.2.0";
   sha256 = "d38cacbf976e5d05d792d6dcf400d29ac645f4a7a112af16e34f033ae1e03a57";
-  revision = "6";
-  editedCabalFile = "1kjxyjwq8lzxyz42plb8i3d5awwr3vbk27dlqia9s0j1vp3skyw1";
+  revision = "7";
+  editedCabalFile = "1k6wshcy2wd31rs4f61mpiix8n498ng6rnvzg1pl2ig4aziagwkd";
   libraryHaskellDepends = [
     base containers deepseq hashable pqueue semigroups stm these
     transformers unordered-containers vault
