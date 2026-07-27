@@ -7,6 +7,8 @@ mkDerivation {
   pname = "jose-jwt";
   version = "0.10.0";
   sha256 = "e84caf97eb70bf21a4cf9933be23a5336163276c895e44f854d73947988d4b52";
+  revision = "1";
+  editedCabalFile = "1gmi1pm8s8zxmzv506fgaj3vnl2yqanlfi5wggp12d9yylr2wg8r";
   libraryHaskellDepends = [
     aeson attoparsec base bytestring cereal containers crypton memory
     mtl text time transformers transformers-compat unordered-containers
