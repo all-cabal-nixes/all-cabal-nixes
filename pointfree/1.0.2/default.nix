@@ -3,6 +3,8 @@ mkDerivation {
   pname = "pointfree";
   version = "1.0.2";
   sha256 = "d1a3ec9d1b9c69d5ced925afed70e04c4b6f04540a9e38482023d4f8ef7c7a4e";
+  revision = "1";
+  editedCabalFile = "0cx1bfrbzf6x4jh21rdfidmy24xdv857cl20qfh3kw5ll6i0hacn";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [ array base containers mtl parsec ];
