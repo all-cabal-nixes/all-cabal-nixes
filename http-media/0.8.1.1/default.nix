@@ -5,8 +5,8 @@ mkDerivation {
   pname = "http-media";
   version = "0.8.1.1";
   sha256 = "1920adf31b15d167f60374fbfd0a53a1fbe7820fd7fd459beacf6eb00d03f183";
-  revision = "2";
-  editedCabalFile = "12bj8xqpvaxvrnif4qzkjamdxdrlg2hsfqa7q5n2irzr2hpkjni0";
+  revision = "3";
+  editedCabalFile = "1qayc0swffnkjp89fcig0s5n16vn80020q02m3nyqcq6bj5988z8";
   libraryHaskellDepends = [
     base bytestring case-insensitive containers utf8-string
   ];
