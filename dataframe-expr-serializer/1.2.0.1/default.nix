@@ -5,6 +5,8 @@ mkDerivation {
   pname = "dataframe-expr-serializer";
   version = "1.2.0.1";
   sha256 = "ebc19437ba9b9b5a22f7507df09093f32ca48886241f96a15d2b560f7a754c62";
+  revision = "2";
+  editedCabalFile = "03kq8mravv4rf91k1sdzdrckrx5h1wc694hiq3iykyf7wm97cav7";
   libraryHaskellDepends = [
     aeson base bytestring dataframe-core dataframe-operations text
     vector

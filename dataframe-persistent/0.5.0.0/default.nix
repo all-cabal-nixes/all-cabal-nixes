@@ -7,6 +7,8 @@ mkDerivation {
   pname = "dataframe-persistent";
   version = "0.5.0.0";
   sha256 = "e99cbaf788b6d827a76ebbf466ded8977d4e1783350b57faaffe4c34990f227a";
+  revision = "2";
+  editedCabalFile = "0xq0sa4iy13zjhm91i3jar949vg8ncvdi3353rr225jzw1xcr5jn";
   libraryHaskellDepends = [
     base bytestring conduit containers dataframe-core
     dataframe-operations persistent persistent-sqlite resourcet

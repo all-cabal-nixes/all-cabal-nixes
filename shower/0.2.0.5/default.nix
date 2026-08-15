@@ -6,6 +6,8 @@ mkDerivation {
   pname = "shower";
   version = "0.2.0.5";
   sha256 = "2265126b135a1bd2ba88d07684a197eb1e56106fe24e676efc34d1e4d0348e5c";
+  revision = "1";
+  editedCabalFile = "1j7zzvsfb7rc521gyn4vri3km0m69ryj2pr3ywcw2npsbvv7sqdm";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [ base megaparsec pretty ];

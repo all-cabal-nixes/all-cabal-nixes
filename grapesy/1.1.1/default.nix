@@ -13,6 +13,8 @@ mkDerivation {
   pname = "grapesy";
   version = "1.1.1";
   sha256 = "54a0591cacf2d1aca0572a2df0552cec5e5a405fd68b97b7119675778df09d69";
+  revision = "1";
+  editedCabalFile = "13ijvww2jdxbj7kb3yw41w1ard2f8a9l5ngyqvgpcgxibqi7xx5p";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     aeson async base binary bytestring conduit containers crypton-x509

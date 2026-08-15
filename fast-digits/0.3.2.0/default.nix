@@ -5,8 +5,8 @@ mkDerivation {
   pname = "fast-digits";
   version = "0.3.2.0";
   sha256 = "085f300d04ee0732c3110cbfe92108db4c979ae7eb7f921972c793aa5dc78fcf";
-  revision = "2";
-  editedCabalFile = "0nmg3jb70xsis90hkxx77za2ws81sqdyapdxh5903hk1pd8jvlcj";
+  revision = "3";
+  editedCabalFile = "0di9775d9j00r63blvijf06lzs5d5hr99sbcdm5xcy1gbx9khk9d";
   libraryHaskellDepends = [ base ghc-bignum ];
   testHaskellDepends = [
     base QuickCheck smallcheck tasty tasty-quickcheck tasty-smallcheck

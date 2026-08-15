@@ -5,6 +5,8 @@ mkDerivation {
   pname = "dataframe-hasktorch";
   version = "0.4.0.1";
   sha256 = "fb249c0dfd8218f81c43e650da95bee0fab569c997a5833f5c17b8da93fa047d";
+  revision = "2";
+  editedCabalFile = "1v7x3idgipwvi3gvfk7dzrkjh0qww39bxa3di31yrznbr8qv0zr4";
   libraryHaskellDepends = [
     base dataframe-core dataframe-operations hasktorch vector
   ];
