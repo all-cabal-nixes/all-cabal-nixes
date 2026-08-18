@@ -6,8 +6,8 @@ mkDerivation {
   pname = "lukko";
   version = "0.1.2";
   sha256 = "72d86f8aa625b461f4397f737346f78a1700a7ffbff55cf6375c5e18916e986d";
-  revision = "1";
-  editedCabalFile = "0a6ah941w8d3y4km53h5palz38dabna05p132kff31g323cahd43";
+  revision = "2";
+  editedCabalFile = "078y651vw5w11dzj55csg6gkzl5764mg4ji26p9hq1fwrh11ragc";
   libraryHaskellDepends = [ base ];
   testHaskellDepends = [
     async base bytestring filepath singleton-bool tasty
