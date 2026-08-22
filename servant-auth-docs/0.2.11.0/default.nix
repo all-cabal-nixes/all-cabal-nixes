@@ -6,8 +6,8 @@ mkDerivation {
   pname = "servant-auth-docs";
   version = "0.2.11.0";
   sha256 = "52cd29d11673fa484d09b17907eba9b667ff15c9b134cb80d1788b18df13fc88";
-  revision = "3";
-  editedCabalFile = "0hcr6p65kv68bsqjmra3lac50fwj67cbl9n469sqy7hmnjnnyjrj";
+  revision = "4";
+  editedCabalFile = "0lc0ldg5n91r35wy2nv5mfqjhqh2zbf4gsd22k76yiffqgk68n74";
   setupHaskellDepends = [ base Cabal cabal-doctest ];
   libraryHaskellDepends = [
     base lens servant servant-auth servant-docs

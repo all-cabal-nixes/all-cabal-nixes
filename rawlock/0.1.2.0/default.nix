@@ -5,8 +5,8 @@ mkDerivation {
   pname = "rawlock";
   version = "0.1.2.0";
   sha256 = "d1694d3cd83b750c8b0efcf2b34d35a8314f192f6c81c4dfcb0f1d0797163c5f";
-  revision = "2";
-  editedCabalFile = "075iazi2ml4bxqsqy29sljpnlq7vr90v373fgwx0niq49kgjax3w";
+  revision = "3";
+  editedCabalFile = "0qwhwq3zp0i9j42jwx8hs62482rbb0x5nhr59f8mdf18rgygdx78";
   libraryHaskellDepends = [ base io-classes nothunks ];
   testHaskellDepends = [
     base io-classes io-sim mtl QuickCheck tasty tasty-quickcheck

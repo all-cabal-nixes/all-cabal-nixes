@@ -8,8 +8,8 @@ mkDerivation {
   pname = "servant";
   version = "0.20.3.0";
   sha256 = "f273e65c8f6cc6ddfa204c8d1d0bc5b7e258cec288ca5b2a2e57fadb31bf6602";
-  revision = "4";
-  editedCabalFile = "02sakxh73k1l6dj2jfnsqs748z6cc0zvkmk9x8ap5bsw60j1dy40";
+  revision = "7";
+  editedCabalFile = "0vrashcr646avvik7bbml9jm7bp0xpc3qzzqn260374knbr7xr2g";
   libraryHaskellDepends = [
     aeson attoparsec base bifunctors bytestring case-insensitive
     constraints containers deepseq generics-sop http-api-data

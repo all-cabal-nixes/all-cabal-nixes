@@ -11,8 +11,8 @@ mkDerivation {
   pname = "servant-http-streams";
   version = "0.20.2";
   sha256 = "f583fb2e3ad022c233b3295456686160b9c7b348b9c62d8675051b5971363109";
-  revision = "2";
-  editedCabalFile = "0790nxwl0wiv8qvfl6pv7aqcqivx7yhjyfld9xvpkwkg8ny6z86d";
+  revision = "3";
+  editedCabalFile = "1lvnsfz9sw6anv27g693s00n1jjlys1p9a9dp7qmliw6fyxhdai1";
   libraryHaskellDepends = [
     base base-compat bytestring case-insensitive containers deepseq
     exceptions http-common http-media http-streams http-types

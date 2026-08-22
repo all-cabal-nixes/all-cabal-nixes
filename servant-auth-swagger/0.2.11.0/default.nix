@@ -5,8 +5,8 @@ mkDerivation {
   pname = "servant-auth-swagger";
   version = "0.2.11.0";
   sha256 = "484c9cfacbce7d51cc23fa7b4e832c5f21adc1a6820aa3044bbf6312d59cacc0";
-  revision = "2";
-  editedCabalFile = "171xyzbay3x6bp5zvx9jcn6hi4sh13hh1ydp6z528xh70lr4krrn";
+  revision = "3";
+  editedCabalFile = "16kcwafrv84m1gxkjv9rrp042a301d0id4f7c3p434pww76v177j";
   libraryHaskellDepends = [
     base lens servant servant-auth servant-swagger swagger2 text
   ];
