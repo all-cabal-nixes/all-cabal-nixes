@@ -6,8 +6,8 @@ mkDerivation {
   pname = "servant-js";
   version = "0.9.4.2";
   sha256 = "bea36aa98c8f13c3b42794006d083ee4ab1b2ff448717064979d8544e2d0c596";
-  revision = "7";
-  editedCabalFile = "042z84li3qw8zh8x1x4mgdv5iqaz72nk7cz2q315i6lgs30c3460";
+  revision = "8";
+  editedCabalFile = "17z6h3l7dxx8lk3hwmkl0k0j0si1pvwb5dql6rbpinyq994ffpzm";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

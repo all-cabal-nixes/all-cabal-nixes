@@ -8,8 +8,8 @@ mkDerivation {
   pname = "servant-client-core";
   version = "0.20.3.0";
   sha256 = "d653580e988407386cf6042da6a617fd2c7d5dff6149b33730d3434086eb66ef";
-  revision = "4";
-  editedCabalFile = "0wnrvpkz2knhlxf656rmjw9xgk69v21q90ldplf89h340dhxxd64";
+  revision = "5";
+  editedCabalFile = "0z7gihqycjy1fa20swggvkzga50frmm9zzrh7r46hv32fjgzf4b6";
   libraryHaskellDepends = [
     aeson attoparsec base base-compat base64-bytestring bytestring
     constraints containers deepseq exceptions free http-media

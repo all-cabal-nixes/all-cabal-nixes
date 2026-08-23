@@ -7,8 +7,8 @@ mkDerivation {
   pname = "servant-docs";
   version = "0.13.1";
   sha256 = "9efc327605bfc831d834d7e2c528d7363842df912ed98caa224b3bdcb22fbbbd";
-  revision = "2";
-  editedCabalFile = "01pdxmlc1ipvbrsv9dljsnsnf8qvka03gqgx7l77f717rn58ng49";
+  revision = "3";
+  editedCabalFile = "0j2h4xhyhpvzdpmx6l0136z5pb4dynx4kr6640gf67k4xfq2sh39";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
