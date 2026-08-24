@@ -19,6 +19,8 @@ mkDerivation {
   pname = "dhall";
   version = "1.42.3";
   sha256 = "cbb5612d9c55b9b3fa07ab73b72e6445875a6f53283f29979f164a9b3b067a00";
+  revision = "1";
+  editedCabalFile = "07wxxwva5mqxq6vkzsbcb1ini9ydjcxdrmsxh7kpdvhanzrsbkic";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;

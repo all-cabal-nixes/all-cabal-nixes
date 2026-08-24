@@ -6,6 +6,8 @@ mkDerivation {
   pname = "moonlight-triangulation";
   version = "1.3.0.3";
   sha256 = "f5d57212ce76b4dff465927656ab1269728f61646120682e02d5ce8c2090389f";
+  revision = "1";
+  editedCabalFile = "08mxa3lf6ppl5zg2c5czhybi4c42zrx5r0xdn525qcind32zzrdp";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
