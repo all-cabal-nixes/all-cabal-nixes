@@ -8,8 +8,8 @@ mkDerivation {
   pname = "binary-instances";
   version = "1.0.6";
   sha256 = "eb75c5c3fe65e3f51fc160baef549226408b8454ea7d0abbf5c952ea21779222";
-  revision = "1";
-  editedCabalFile = "1rc7s8nkkz28rivhrs22ha75xpywzdha73prhw7qd55cdrr49qqj";
+  revision = "2";
+  editedCabalFile = "1l920knb8hng6bvzz0izgbzzbnjzwv5ywgb5j1gkrbzafsma8rk1";
   libraryHaskellDepends = [
     aeson base binary binary-orphans case-insensitive hashable
     primitive scientific tagged text time-compat unordered-containers
