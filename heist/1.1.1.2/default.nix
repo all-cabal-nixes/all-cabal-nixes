@@ -11,8 +11,8 @@ mkDerivation {
   pname = "heist";
   version = "1.1.1.2";
   sha256 = "3f8f954f25032624631f3a45c48d12d105d981ef8a98fb35902198a80139e78c";
-  revision = "5";
-  editedCabalFile = "0rx4cx09zlg9kdl2sn5fn2ka7a7c26xrvbhkp60pzdnj1hdnsbqi";
+  revision = "6";
+  editedCabalFile = "145bs3kqn82jsl1i04rss7i32wh985x3k8ca9p4v79zxrgvrd9a6";
   libraryHaskellDepends = [
     aeson attoparsec base blaze-builder blaze-html bytestring
     containers directory directory-tree dlist filepath hashable

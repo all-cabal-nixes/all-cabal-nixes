@@ -9,6 +9,8 @@ mkDerivation {
   pname = "github";
   version = "0.30.0.2";
   sha256 = "fe0b41b458dc6ad60dff24efe84d4b59acb4ce1b70e8b489f5f330d351deb544";
+  revision = "1";
+  editedCabalFile = "10zbswdk2y3x77lmjns64wc9z47xbdp5bqvr9101hvh6z10lphs6";
   libraryHaskellDepends = [
     aeson base base-compat base16-bytestring binary binary-instances
     bytestring containers cryptohash-sha1 deepseq exceptions hashable

@@ -8,8 +8,8 @@ mkDerivation {
   pname = "threepenny-gui";
   version = "0.9.4.2";
   sha256 = "5154b411d2a9051f7e519a972fabcacbbd48e89e2fe4e0c19616362658fbea5e";
-  revision = "1";
-  editedCabalFile = "11ywbqqh2r48zn9mah6rwmihizajn870jcpz0yymmzrg0h2mjwif";
+  revision = "2";
+  editedCabalFile = "0m2q7i9629cgz3z7c413b34c0y3wd6rv04ib0pw7ykyslmrvakg4";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
