@@ -4,10 +4,8 @@
 }:
 mkDerivation {
   pname = "dataframe-parquet";
-  version = "1.5.0.0";
-  sha256 = "6c6648683725d3c808ae0615baf0f7d398808a5c36b8e10e95b3d9350dde1f60";
-  revision = "4";
-  editedCabalFile = "11hd2xbbdnimb2v31cqjp4fyj9419qim10k1jsirbi3x2jl88g6l";
+  version = "1.5.0.1";
+  sha256 = "14a80b0f1386224555fe173e576ba236ba002505535c4b77d9b9e63b04c52ab5";
   libraryHaskellDepends = [
     base bytestring containers dataframe-core dataframe-operations
     dataframe-parsing directory filepath Glob pinch snappy-hs text time
