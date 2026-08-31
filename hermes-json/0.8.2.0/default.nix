@@ -5,10 +5,8 @@
 }:
 mkDerivation {
   pname = "hermes-json";
-  version = "0.8.0.0";
-  sha256 = "7f53493a9498b77b656d10821dc6ce758d3d0ff76de6b6d9db6c282575169451";
-  revision = "1";
-  editedCabalFile = "18zp2vmrqhvgjsjhkjq7dkfz8p6gqirckx6i7binasya4jr3j09s";
+  version = "0.8.2.0";
+  sha256 = "3b40da6c9b22eefecd8bc2a7acc8764b6ee9319a99a0657702469fac002fb476";
   libraryHaskellDepends = [
     base bytestring containers deepseq dlist integer-conversion
     primitive scientific system-cxx-std-lib text text-iso8601 time
