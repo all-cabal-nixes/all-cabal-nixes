@@ -6,8 +6,8 @@ mkDerivation {
   pname = "equivalence";
   version = "0.3.3";
   sha256 = "ee8dd8ce12298e6252f331e3844f684cfe7f32b70e529fe7b8dd63153eb2500a";
-  revision = "1";
-  editedCabalFile = "17i0fvn31r4nln8zym20ji7q47rb2gwjmvkpsmylpgsm53w139p2";
+  revision = "2";
+  editedCabalFile = "04qg1fbqi8d7faabahl8k8aq6c9jgym5mxixc9za8l0mywc51pn9";
   libraryHaskellDepends = [
     base containers mtl STMonadTrans transformers transformers-compat
   ];

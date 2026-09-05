@@ -6,8 +6,8 @@ mkDerivation {
   pname = "equivalence";
   version = "0.2.6";
   sha256 = "2f34170bce3931b00b494c22b142a32efafe32d62ec3d06eadabaa3811b3a0e6";
-  revision = "2";
-  editedCabalFile = "1lvssyqwv7dig4k3l3kdrf8yk97gaw5nybhx71rvpiw2qadaq874";
+  revision = "3";
+  editedCabalFile = "0w0fy71lyybbpspi5js8gwlbys5yxads6mi97f7lqjz0fkfwjb3d";
   libraryHaskellDepends = [ base containers mtl STMonadTrans ];
   testHaskellDepends = [
     base containers mtl QuickCheck STMonadTrans template-haskell
