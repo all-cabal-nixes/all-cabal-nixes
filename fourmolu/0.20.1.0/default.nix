@@ -10,6 +10,8 @@ mkDerivation {
   pname = "fourmolu";
   version = "0.20.1.0";
   sha256 = "345e420b6871852b6148caa26a23991f7646786377276716dd36ae5a6cd842c9";
+  revision = "1";
+  editedCabalFile = "02v4rnbpbi2bp24kl5ffq9nzz0xzn9f4ldgbx3lvvjg16jdsx6p0";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

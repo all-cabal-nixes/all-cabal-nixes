@@ -12,6 +12,8 @@ mkDerivation {
   pname = "hledger-lib";
   version = "1.52.3";
   sha256 = "8b0d0b7acca46e6c615dae2c9c01124ccc9358f8ca4cb5d34e94faf8db9e5873";
+  revision = "1";
+  editedCabalFile = "012qw1mv3s32jaz5v1hv0f97hcdrpya95r7h7wrl0vw64xwvzcrp";
   libraryHaskellDepends = [
     aeson aeson-pretty ansi-terminal array base blaze-html blaze-markup
     bytestring call-stack cassava cassava-megaparsec cmdargs colour

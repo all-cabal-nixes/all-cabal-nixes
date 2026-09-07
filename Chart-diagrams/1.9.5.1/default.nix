@@ -7,8 +7,8 @@ mkDerivation {
   pname = "Chart-diagrams";
   version = "1.9.5.1";
   sha256 = "f8dcd91926e6f46b47a21a131650f1dc026e410a63f276ff52ba092aab7662de";
-  revision = "6";
-  editedCabalFile = "1sjfjd3y48fq1y7wphcrx08y1bjh7s58ssasg2d31ywh2yc7vi7x";
+  revision = "7";
+  editedCabalFile = "13h94ap5vmbpmna294jykjg5lmhfvdw4kr5rqmkzghdxd9w7np7d";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base blaze-markup bytestring Chart colour containers

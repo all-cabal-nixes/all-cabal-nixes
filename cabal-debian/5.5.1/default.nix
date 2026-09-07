@@ -8,6 +8,8 @@ mkDerivation {
   pname = "cabal-debian";
   version = "5.5.1";
   sha256 = "eda432007fc04e2baf5be784ed402e372fcb0e883b2bdf192d05ca0c33aa9930";
+  revision = "1";
+  editedCabalFile = "1hq6xk4l7jzpygxrsg1av0g8hdlfvgwr42jhhp4rdx6cy4kw24pz";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
