@@ -5,6 +5,8 @@ mkDerivation {
   pname = "wai-effectful";
   version = "1.0.0";
   sha256 = "7be783dd46d37229ea34624f5130b1e7d066f12416df69511a35d5a1ecb42af7";
+  revision = "1";
+  editedCabalFile = "1h0m3qgip72rz2f64vqlrz11lri477nc8x3f4amlfp91swghra9f";
   libraryHaskellDepends = [
     base bytestring effectful http-types network text vault wai
   ];

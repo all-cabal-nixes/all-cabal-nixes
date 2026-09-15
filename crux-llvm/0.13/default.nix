@@ -12,6 +12,8 @@ mkDerivation {
   pname = "crux-llvm";
   version = "0.13";
   sha256 = "40d97b33ef6a789418254136e7a5c21ceb059f6557048597f3fad7f43f1ef75c";
+  revision = "1";
+  editedCabalFile = "12akh7v0a98iw0p1s5pr62syaaihv7q35h3j23rjchim528d8ykf";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;

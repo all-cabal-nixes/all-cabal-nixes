@@ -5,6 +5,8 @@ mkDerivation {
   pname = "http2-client-grpc-effectful";
   version = "1.0.1";
   sha256 = "1e318ac34e482efbdf90a74312269d1a69e2fbc50b3f73491b9847d056d58279";
+  revision = "1";
+  editedCabalFile = "1nkzscrkm441dm8j23f2ry8sskqdcxz3d652fjvxga6qfc0nhja4";
   libraryHaskellDepends = [
     base binary bytestring effectful http-types http2
     http2-client-effectful http2-grpc-types

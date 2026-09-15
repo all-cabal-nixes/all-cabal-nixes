@@ -5,6 +5,8 @@ mkDerivation {
   pname = "haxl-effectful";
   version = "1.1.0";
   sha256 = "c43805be05e034b241e2677c33ce32ac9213ce4aa81829eeebdafb7daf8d123a";
+  revision = "1";
+  editedCabalFile = "0div40rrg82jgxwdzwizdjs103xpnd6x2km9ajjijnnapahyfmz2";
   libraryHaskellDepends = [ base effectful hashable haxl ];
   testHaskellDepends = [
     base effectful filepath hashable hspec-effectful text

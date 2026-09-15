@@ -6,6 +6,8 @@ mkDerivation {
   pname = "mmark-ext";
   version = "0.3.0.0";
   sha256 = "2f7508f65a13c2ad7249fe4c9410bb0d094b6e0f7162dbeb3e0cb0304e3f34de";
+  revision = "1";
+  editedCabalFile = "18smdmqcvi7fdka7gswsk3m6qbbj54mgknjmq1cpp1mdggxlrb8i";
   enableSeparateDataOutput = true;
   libraryHaskellDepends = [
     base bytestring containers directory filepath foldl

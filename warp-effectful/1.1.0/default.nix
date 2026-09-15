@@ -6,6 +6,8 @@ mkDerivation {
   pname = "warp-effectful";
   version = "1.1.0";
   sha256 = "64519fcd8fce96cdfdcb5b963a8153f6947ef100e51da9b82a59d246e1b8abc8";
+  revision = "1";
+  editedCabalFile = "1wg68z89j6j9vslzx52jcfj59062fpnjwmmhqn9w65n2gy8x5p6g";
   libraryHaskellDepends = [
     base bytestring crypton-x509 effectful http-types network
     time-manager wai-effectful warp

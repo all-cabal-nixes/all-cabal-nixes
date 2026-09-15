@@ -6,6 +6,8 @@ mkDerivation {
   pname = "marionette-effectful";
   version = "1.0.0";
   sha256 = "51202f91781835a085eef500380f298f543bd80b9682f1d31969f267b2a44272";
+  revision = "1";
+  editedCabalFile = "0m1i1jqm4a2gh44i4in9hgk6hnk8i6a6pm89cd6fsfiy8prq0f9s";
   libraryHaskellDepends = [ base effectful marionette mtl unliftio ];
   testHaskellDepends = [
     aeson base bytestring effectful hspec-effectful http-types lucid2
