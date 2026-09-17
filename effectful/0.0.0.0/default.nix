@@ -7,6 +7,8 @@ mkDerivation {
   pname = "effectful";
   version = "0.0.0.0";
   sha256 = "adabd4b406add3f6a306408a5a7bb1877d83972056dde374a3f8b5a97d760ccc";
+  revision = "1";
+  editedCabalFile = "1s5av5jqv4skhhwjgqgrl23gfiy10jcd847nijyya9vpb8xghf69";
   libraryHaskellDepends = [
     base containers exceptions ghc-prim monad-control primitive
     resourcet transformers transformers-base unliftio-core
