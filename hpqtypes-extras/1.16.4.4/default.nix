@@ -7,6 +7,8 @@ mkDerivation {
   pname = "hpqtypes-extras";
   version = "1.16.4.4";
   sha256 = "e5cd51dd64882740fce8d50337a0811bad3ee6b4c141180319cba9c8b43e21e2";
+  revision = "1";
+  editedCabalFile = "01x17k072vgp8qx731b625zsgiyfayhc6pdhqqgpggkalb7fv8qd";
   libraryHaskellDepends = [
     base base16-bytestring bytestring containers crypton exceptions
     extra hpqtypes log-base memory mtl text text-show

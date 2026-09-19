@@ -5,10 +5,8 @@
 }:
 mkDerivation {
   pname = "hpqtypes-extras";
-  version = "1.20.0.0";
-  sha256 = "866dfb0fce6d61f78d1d5c48032acfad8ca0fcf907bffd304893a161c403aeff";
-  revision = "1";
-  editedCabalFile = "1f9s9qncxmfrb4vhpg90527jlffm0amdy9lqsg7766aq5b5if60w";
+  version = "1.21.0.0";
+  sha256 = "e08b38e2a537552427adb6d5d1236c7ac3b9edc8dc1c9cf29b5ed68fc08efa16";
   libraryHaskellDepends = [
     attoparsec base base16-bytestring bytestring containers exceptions
     extra hpqtypes log-base mtl ppad-ripemd160 text text-show
