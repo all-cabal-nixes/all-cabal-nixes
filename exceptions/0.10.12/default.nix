@@ -5,8 +5,8 @@ mkDerivation {
   pname = "exceptions";
   version = "0.10.12";
   sha256 = "5336243b09bf961520d39a587292f5e3f62b6eb0ef450de336fe073a8634bf23";
-  revision = "1";
-  editedCabalFile = "1694v2d1c8bn6hayk659irc5ljdwv50j3wz3fxswfbxqqj3my3ql";
+  revision = "2";
+  editedCabalFile = "0nivhzs31kaq4kzf040xkflwdaj8cc04f8dccc3za997zb4d7shh";
   libraryHaskellDepends = [
     base mtl stm template-haskell transformers
   ];

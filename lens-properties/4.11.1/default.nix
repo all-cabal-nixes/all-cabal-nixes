@@ -3,8 +3,8 @@ mkDerivation {
   pname = "lens-properties";
   version = "4.11.1";
   sha256 = "4f7c5b75a7204c151dbe62160a6917a22ab9e2a1b2e3848b7043d972ac8f4cb1";
-  revision = "10";
-  editedCabalFile = "0m1hds617w5nmnfrkcr9nd0isc1k2qnhjimqccfah8blm4jy17g7";
+  revision = "11";
+  editedCabalFile = "0hlqwg1gkj196vbzxhxzsgrj1d9lw3vv7zhnd1z0gihgn3nq8sdf";
   libraryHaskellDepends = [ base lens QuickCheck transformers ];
   homepage = "http://github.com/ekmett/lens/";
   description = "QuickCheck properties for lens";
