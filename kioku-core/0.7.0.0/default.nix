@@ -12,6 +12,8 @@ mkDerivation {
   pname = "kioku-core";
   version = "0.7.0.0";
   sha256 = "2c1b9ed99a69a065894cd46c49312a1df3446de9c9455fc84af1981da3ef6904";
+  revision = "1";
+  editedCabalFile = "0vygzwg8sval8l1an9npmdzi3y6v136j9j0j5xi4zmqf28sm2j0b";
   libraryHaskellDepends = [
     aeson baikai baikai-claude baikai-effectful baikai-openai base
     bytestring containers contravariant contravariant-extras crypton
