@@ -6,6 +6,8 @@ mkDerivation {
   pname = "ods2csv";
   version = "0.1.0.2";
   sha256 = "01520856916e74fab9a44506ecfc1d686c98dbe98a1de81a0d1a4e72ac5fab6a";
+  revision = "1";
+  editedCabalFile = "1xwvkzwx1xy8a03af7y1jg915pmq93v61hll59j802in5bi0xp4i";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

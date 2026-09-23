@@ -10,10 +10,10 @@
 }:
 mkDerivation {
   pname = "tricorder";
-  version = "0.4.1.0";
-  sha256 = "c6e2fec6f031ca9f89693e3ee92eb8423d4289ba440cfc2a267cdd81e133ab1e";
+  version = "0.4.1.1";
+  sha256 = "f7ff5b04559ab62c50997874e8927b3fee9c8ecaa07de1a6b2323ffde68bdfa8";
   revision = "1";
-  editedCabalFile = "1zd816wb6wc5ba096nfbcvja5wgcnp2s0rbly9lcs3dgfn2j8xxr";
+  editedCabalFile = "01pa9xhqdzxp9rz6y2xffnqwhyvwwxv5327jlm7banwrma4j0mah";
   isLibrary = false;
   isExecutable = true;
   libraryHaskellDepends = [
