@@ -1,0 +1,23 @@
+{ mkDerivation, aeson, array, base, bytestring, cassava, containers
+, directory, erf, filepath, lib, mtl, ordered-containers, parsec
+, pretty, pretty-show, regex-tdfa, scientific, tasty, tasty-golden
+, text, time, toml-parser, typst-symbols, vector, xml-conduit, yaml
+}:
+mkDerivation {
+  pname = "typst";
+  version = "0.12";
+  sha256 = "d1508da8e4ff08d8736c314666134afb969d2bdb212ba68b36db2a95d3b524b9";
+  isLibrary = true;
+  isExecutable = true;
+  libraryHaskellDepends = [
+    aeson array base bytestring cassava containers directory erf
+    filepath mtl ordered-containers parsec pretty regex-tdfa scientific
+    text time toml-parser typst-symbols vector xml-conduit yaml
+  ];
+  testHaskellDepends = [
+    base bytestring directory filepath pretty-show tasty tasty-golden
+    text time
+  ];
+  description = "Parsing and evaluating typst syntax";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+}

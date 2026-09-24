@@ -7,6 +7,8 @@ mkDerivation {
   pname = "crypton-x509-util";
   version = "1.9.0";
   sha256 = "b9ee3c8a075c1b8eb13953d39f5af0fcd046f1de3fc5168d935aae349aee86fe";
+  revision = "1";
+  editedCabalFile = "0sqvvh5rr8lkb8mcx800wik9cb3jmvygkjn6ald6fw8ynv053gyq";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [

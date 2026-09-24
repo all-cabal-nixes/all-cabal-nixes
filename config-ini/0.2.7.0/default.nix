@@ -5,8 +5,8 @@ mkDerivation {
   pname = "config-ini";
   version = "0.2.7.0";
   sha256 = "3a171c45baa6ed066dd62a4bfd7fb60d99030e9e320c2b73cfd0980252596901";
-  revision = "1";
-  editedCabalFile = "1cjpz7q0lsxac1r011ik34fcsi4lsy634ayxyblzyszigvks7r9a";
+  revision = "2";
+  editedCabalFile = "0djfq7v7b0fhxyzap9m4jrsii3z56fznsx8b3nv28bvp2gajvv6a";
   libraryHaskellDepends = [
     base containers megaparsec text transformers unordered-containers
   ];
