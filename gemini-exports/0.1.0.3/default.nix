@@ -5,10 +5,8 @@
 }:
 mkDerivation {
   pname = "gemini-exports";
-  version = "0.1.0.2";
-  sha256 = "f9349d2e220858c996d260bac027465203a0bd819b3734350be4190b210e8360";
-  revision = "1";
-  editedCabalFile = "179zkyz30f1hy7mxvnj9inazcc8bycl95wwhikwb233yli14z1qf";
+  version = "0.1.0.3";
+  sha256 = "2f00769151e98d1eb8b2e324dc3569f209e0d048b478d26cedb49732c681e7e9";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

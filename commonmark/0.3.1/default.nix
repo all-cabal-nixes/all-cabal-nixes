@@ -1,0 +1,21 @@
+{ mkDerivation, base, bytestring, containers, lib, parsec, tasty
+, tasty-bench, tasty-hunit, tasty-quickcheck, text, transformers
+, unicode-data, unicode-transforms
+}:
+mkDerivation {
+  pname = "commonmark";
+  version = "0.3.1";
+  sha256 = "72ea2f2f678a5ed0cc7ab20e7eebf161f4a03d4a5e73eda3255c82ebc64dbc53";
+  libraryHaskellDepends = [
+    base bytestring containers parsec text transformers unicode-data
+    unicode-transforms
+  ];
+  testHaskellDepends = [
+    base parsec tasty tasty-hunit tasty-quickcheck text
+    unicode-transforms
+  ];
+  benchmarkHaskellDepends = [ base tasty-bench text ];
+  homepage = "https://github.com/jgm/commonmark-hs";
+  description = "Pure Haskell commonmark parser";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+}
