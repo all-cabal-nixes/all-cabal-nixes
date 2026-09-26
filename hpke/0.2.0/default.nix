@@ -5,6 +5,8 @@ mkDerivation {
   pname = "hpke";
   version = "0.2.0";
   sha256 = "7720e7402e5b83abbfc22ec98aa3e3ab008264e32cc06b4bcdb9de95012692dd";
+  revision = "1";
+  editedCabalFile = "1mzr24w88rvqihggz3253mw9d8737kr24pvyamms3arfl030i9ch";
   libraryHaskellDepends = [
     base base16-bytestring bytestring crypton ram
   ];

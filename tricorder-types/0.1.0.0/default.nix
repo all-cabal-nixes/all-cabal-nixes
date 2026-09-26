@@ -5,6 +5,8 @@ mkDerivation {
   pname = "tricorder-types";
   version = "0.1.0.0";
   sha256 = "ef7f9263e3a63178f66eb04c9a7181215513c71fe80f5ad694f8bd07dd49ffa4";
+  revision = "1";
+  editedCabalFile = "0i2wqndyx12b5v3kzdb7v3p0rx2g8xgf37q7b5p62v9rk6vzlvas";
   libraryHaskellDepends = [
     aeson atelier-prelude base effectful-core effectful-plugin text
   ];

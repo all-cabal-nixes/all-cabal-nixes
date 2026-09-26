@@ -13,6 +13,8 @@ mkDerivation {
   pname = "atelier-monitoring";
   version = "0.1.0.0";
   sha256 = "290d42614f60e24f03aae7fdc4663c278f9a192a55ee9f108dba60d1f66d25f2";
+  revision = "1";
+  editedCabalFile = "015f392mrb5pdd2zyi27j76idpp0pc8wxfnzjvxsd0qx3ansibv1";
   libraryHaskellDepends = [
     aeson atelier-core atelier-prelude base base64-bytestring
     bytestring casing containers daemons data-default directory

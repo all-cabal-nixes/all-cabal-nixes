@@ -7,6 +7,8 @@ mkDerivation {
   pname = "tricorder-mcp";
   version = "0.1.3.0";
   sha256 = "56773e6d011099c6bc54731ed214e73b33c72e5c749f296cef41ca202360e64f";
+  revision = "1";
+  editedCabalFile = "1q9x0gkizn7mpkd28my9ajji153zgdizzcfz0fp5mzc17nbjkz5w";
   isLibrary = false;
   isExecutable = true;
   libraryHaskellDepends = [

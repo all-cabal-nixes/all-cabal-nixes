@@ -12,8 +12,8 @@ mkDerivation {
   pname = "tricorder";
   version = "0.4.1.0";
   sha256 = "c6e2fec6f031ca9f89693e3ee92eb8423d4289ba440cfc2a267cdd81e133ab1e";
-  revision = "1";
-  editedCabalFile = "1zd816wb6wc5ba096nfbcvja5wgcnp2s0rbly9lcs3dgfn2j8xxr";
+  revision = "2";
+  editedCabalFile = "1m2x17h9af0xizmsbi0sp7v4rcs7cr3y9x76j7n8jxcz3cz500mk";
   isLibrary = false;
   isExecutable = true;
   libraryHaskellDepends = [

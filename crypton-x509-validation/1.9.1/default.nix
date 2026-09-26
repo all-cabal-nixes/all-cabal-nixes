@@ -7,8 +7,8 @@ mkDerivation {
   pname = "crypton-x509-validation";
   version = "1.9.1";
   sha256 = "8fcb83401114c7f694d84c543e8f7f96cea60c543a30a770903741d336eece3d";
-  revision = "2";
-  editedCabalFile = "03pwrpjp68mnpr8jhzcvxc8y7wgrs0h3ams7jfj12xbwx30i673r";
+  revision = "3";
+  editedCabalFile = "1l6ds52d8xhqiryf84vjpnpvzmyjmx05zg3h1x7k3picfmhj2gad";
   libraryHaskellDepends = [
     base bytestring containers crypton crypton-asn1-encoding
     crypton-asn1-types crypton-pem crypton-x509 crypton-x509-store

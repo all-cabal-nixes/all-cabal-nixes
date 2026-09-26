@@ -12,6 +12,8 @@ mkDerivation {
   pname = "atelier-core";
   version = "0.6.1.0";
   sha256 = "81b5b64a2ba856de9a1b0d8332b92d1b6df7b132d2e34d46899938ea90186cf9";
+  revision = "1";
+  editedCabalFile = "1pzybxm6ll5l4sj8gkdykyay0pa447g5hq6b9sjf0bdarzsb2h23";
   libraryHaskellDepends = [
     aeson atelier-prelude base base64-bytestring bytestring casing
     containers daemons data-default directory effectful effectful-core
