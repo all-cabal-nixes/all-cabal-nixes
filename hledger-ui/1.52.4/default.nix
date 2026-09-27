@@ -9,6 +9,8 @@ mkDerivation {
   pname = "hledger-ui";
   version = "1.52.4";
   sha256 = "3cb3a7ffb3370a9e66a9fb585aaa561dc83eae07fff1a3d4e837c69be7f4eb23";
+  revision = "1";
+  editedCabalFile = "0a8vznx8naid1r8bxwkb2qbwmg7kp6qw0s8xg1sx590kzf8wb0xw";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
