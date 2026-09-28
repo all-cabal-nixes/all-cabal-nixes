@@ -6,6 +6,8 @@ mkDerivation {
   pname = "commonmark-extensions";
   version = "0.2.7.2";
   sha256 = "1ec4fb0244d6aae7ca93a68f3e9f4548c4bebaba1657543645dd6f4e2f754292";
+  revision = "1";
+  editedCabalFile = "15s2jm4djdbzbybq2a80c88d4ixbmvjv35y9hjfz2h2p5zpna70l";
   libraryHaskellDepends = [
     base commonmark containers emojis filepath network-uri parsec text
     transformers
