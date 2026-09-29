@@ -5,8 +5,8 @@ mkDerivation {
   pname = "tasty-rerun";
   version = "1.1.20";
   sha256 = "7e8a2d0be2df0e1c864bc8b5f4e7ecb261d112981e68e1b0186f611faa44a55f";
-  revision = "3";
-  editedCabalFile = "1y09xgqn6wcsqqavdb9gs175pvf6jmjva2nnw3bshm5sf46bqiix";
+  revision = "4";
+  editedCabalFile = "0c2fb9qhfwlkhcq43sfpmapxjnjrlf9kqjgqcifz97irqk5j9kzl";
   libraryHaskellDepends = [
     base containers filepath mtl optparse-applicative split stm tagged
     tasty transformers

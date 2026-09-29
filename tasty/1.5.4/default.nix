@@ -5,6 +5,8 @@ mkDerivation {
   pname = "tasty";
   version = "1.5.4";
   sha256 = "c76120141bd61c4418b3ed5efc5fe3094186d47cfe12d7be552320139f52c6c7";
+  revision = "1";
+  editedCabalFile = "0xfk9hprixy805zigiiwapqdns0vmi74lz4r79z1qmb1w0wfyr90";
   libraryHaskellDepends = [
     ansi-terminal base containers optparse-applicative stm tagged
     transformers unix

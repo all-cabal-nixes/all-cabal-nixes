@@ -7,6 +7,8 @@ mkDerivation {
   pname = "wai-handler-hal";
   version = "0.4.0.2";
   sha256 = "deae5c789f2bd3e190fd0fd7a3f3bf380a631d3750578b2bb05b6176e83ac6ad";
+  revision = "1";
+  editedCabalFile = "0gs7bvp6vnhcyqcbcz35sz7s9igjf9dyhxajmpca0ygmikrghh0p";
   libraryHaskellDepends = [
     base base64-bytestring bytestring case-insensitive hal http-media
     http-types network text unordered-containers vault wai

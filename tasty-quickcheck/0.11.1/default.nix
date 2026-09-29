@@ -5,8 +5,8 @@ mkDerivation {
   pname = "tasty-quickcheck";
   version = "0.11.1";
   sha256 = "e3d4de7455ed342f8874d84686def897b8a316ce198461da18106d8a1f63246a";
-  revision = "6";
-  editedCabalFile = "1cw3jqzr3cx2qvpnfwx092qd8knghf2hlyw4dk5c80d42kyl1yfs";
+  revision = "7";
+  editedCabalFile = "0wihnc56h8qmr4swxbc22svinn1f5k8l6i6w3wvh3lisfkbif1av";
   libraryHaskellDepends = [
     base optparse-applicative QuickCheck random tagged tasty
   ];

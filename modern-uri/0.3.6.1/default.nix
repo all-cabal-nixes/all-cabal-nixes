@@ -7,8 +7,8 @@ mkDerivation {
   pname = "modern-uri";
   version = "0.3.6.1";
   sha256 = "0246f9cfced1227abe3a6403eeacc6b5f79f7e3319759a4dd1fd341c12454fe9";
-  revision = "5";
-  editedCabalFile = "19p7ys7s79nyp5ckspyyqbxn47z70sn8p8q4fgd3y9r6fk8jbwxk";
+  revision = "6";
+  editedCabalFile = "0qf4gbd09gn47a4lbgrhgikpm814m0qxi2i02a01p49klgv72r4w";
   libraryHaskellDepends = [
     base bytestring containers deepseq exceptions hashable megaparsec
     mtl profunctors QuickCheck reflection tagged template-haskell text
