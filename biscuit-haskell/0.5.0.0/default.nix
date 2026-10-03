@@ -8,6 +8,8 @@ mkDerivation {
   pname = "biscuit-haskell";
   version = "0.5.0.0";
   sha256 = "dcddc0caa93575088f68e9d33efe2a945d73a2bebe303ba41d231f30a2738795";
+  revision = "1";
+  editedCabalFile = "0gf5b3y2pdzpgx69a31qbxdzmlpww981dxygvwhw84nl4443r1hl";
   libraryHaskellDepends = [
     async base base16 base64 bytestring cereal containers crypton
     megaparsec memory mtl parser-combinators protobuf random regex-tdfa
