@@ -7,8 +7,8 @@ mkDerivation {
   pname = "beam-duckdb";
   version = "0.3.1.0";
   sha256 = "3ac374135d3e8e2cd202530856127c2ad0e04c5d4c50e04bc89e5923e2b92c35";
-  revision = "2";
-  editedCabalFile = "1qz9adcxcmzrhljaiwbd7nx15syha6y2w5sh4j4v0nrj4gsykzgm";
+  revision = "3";
+  editedCabalFile = "0f1aa6b2zy3nmnlbkkbm9vf3gipwg45yxw7b48qi9byi3j27rzfv";
   libraryHaskellDepends = [
     aeson base beam-core beam-migrate bytestring dlist duckdb-simple
     free hashable scientific text time transformers uuid-types

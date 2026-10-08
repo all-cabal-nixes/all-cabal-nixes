@@ -8,6 +8,8 @@ mkDerivation {
   pname = "mime-mail-ses";
   version = "0.4.5";
   sha256 = "9d5d223d1dd920cc5ee8e7b93cd7a59c7aa8e745dab21145a005a4439290d94d";
+  revision = "1";
+  editedCabalFile = "0agvhsd79dbaka83vql36jm3m5qq45izpq27b5bjg61s8iv3blxf";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
