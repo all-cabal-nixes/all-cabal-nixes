@@ -7,8 +7,8 @@ mkDerivation {
   pname = "polysemy";
   version = "1.9.2.0";
   sha256 = "204f37308ffd69c5e4c9a2deb59ebe3ab5cde9f6421077bc609f36998a329ee3";
-  revision = "5";
-  editedCabalFile = "1llv3i7dmkrgnxqlxg8154x61vkiq1frsjkwp1qm0hnc3gmfm1pa";
+  revision = "6";
+  editedCabalFile = "10139fxy3z9qm7zrkxfbbjp4xjr74jwsi5n5pyfcxp4hi1m384ir";
   setupHaskellDepends = [ base Cabal cabal-doctest ];
   libraryHaskellDepends = [
     async base containers first-class-families mtl stm syb
