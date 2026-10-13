@@ -5,8 +5,8 @@ mkDerivation {
   pname = "matchable";
   version = "0.2";
   sha256 = "aa269068b883f9f2d94cb42027df73cbe50fd61bc8cf1e4294371337195f641a";
-  revision = "1";
-  editedCabalFile = "1g33lanj3sk5037db582pnva3yaqlr72fgd049l3y82ksw51ps1r";
+  revision = "2";
+  editedCabalFile = "09ly8mk41pd671y698nz1sp6ysw80q7jasymvd8j34apnm6ph529";
   libraryHaskellDepends = [
     base base-orphans containers generically hashable tagged
     unordered-containers vector

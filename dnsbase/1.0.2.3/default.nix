@@ -8,6 +8,8 @@ mkDerivation {
   pname = "dnsbase";
   version = "1.0.2.3";
   sha256 = "cbab094ebd3c64153be59b28ac86674ac857a34795616d5530cf893e6b76c2f8";
+  revision = "1";
+  editedCabalFile = "0hw1s6rdlxp3zs5b8zrw5pj9i8w6cqdww6w45k77xyxyiqmq3xjv";
   libraryHaskellDepends = [
     base base16 base32 base64 bytestring containers crypton deepseq
     hashable hashtables hourglass iproute monad-ste mtl network

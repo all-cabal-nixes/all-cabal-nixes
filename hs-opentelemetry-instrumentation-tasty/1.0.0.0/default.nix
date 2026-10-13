@@ -6,6 +6,8 @@ mkDerivation {
   pname = "hs-opentelemetry-instrumentation-tasty";
   version = "1.0.0.0";
   sha256 = "f17ff3781d985d735060317c953be3cacfc316bf7aeaadcb7d11906fc1b2540a";
+  revision = "1";
+  editedCabalFile = "08wakb14b7hjq0drkkq2fy7fx3pkz81cbkb9wixga4rrnf087lcp";
   libraryHaskellDepends = [
     base hs-opentelemetry-api hs-opentelemetry-semantic-conventions
     tagged tasty text
