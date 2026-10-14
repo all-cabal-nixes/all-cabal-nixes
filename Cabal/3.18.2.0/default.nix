@@ -1,0 +1,18 @@
+{ mkDerivation, array, base, bytestring, Cabal-syntax, containers
+, deepseq, directory, filepath, lib, mtl, parsec, pretty, process
+, time, transformers, unix
+}:
+mkDerivation {
+  pname = "Cabal";
+  version = "3.18.2.0";
+  sha256 = "0da948608f6bd6b37a1cd35990068ac390e3b192841677413757244cc3ff79ff";
+  setupHaskellDepends = [ mtl parsec ];
+  libraryHaskellDepends = [
+    array base bytestring Cabal-syntax containers deepseq directory
+    filepath mtl parsec pretty process time transformers unix
+  ];
+  doCheck = false;
+  homepage = "http://www.haskell.org/cabal/";
+  description = "A framework for packaging Haskell software";
+  license = lib.meta.getLicenseFromSpdxId "BSD-3-Clause";
+}
