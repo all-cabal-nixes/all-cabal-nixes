@@ -9,6 +9,8 @@ mkDerivation {
   pname = "quic";
   version = "0.3.16";
   sha256 = "0a6d75f8401dc1cd7efbf296cf598ef4a4b2190cacb83c7ac198eee9cc248709";
+  revision = "1";
+  editedCabalFile = "0whbz39bdsvgd14x34jfsrg1l304f8z4j8651vsjp6iwchpwjhvl";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
