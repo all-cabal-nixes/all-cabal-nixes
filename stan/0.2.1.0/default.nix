@@ -10,8 +10,8 @@ mkDerivation {
   pname = "stan";
   version = "0.2.1.0";
   sha256 = "5ac59c0836cc484476d849648e258ac83a0936d5cc11ea64182124e1ef0ac0d5";
-  revision = "5";
-  editedCabalFile = "1jv50zl2xjgrmpsr2dwb9cxa6x5izzb4xc1k3r8mrallg7lykf8n";
+  revision = "6";
+  editedCabalFile = "1i5h7rjmgh4r7677z6i5nzy3gx32daxkxq6ykxd96svi5g3apmcm";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

@@ -8,8 +8,8 @@ mkDerivation {
   pname = "streamly";
   version = "0.11.0";
   sha256 = "ccf7e3abe70921b204726ab1179c4f0b59c522884b3ce8668461a2014cce47c1";
-  revision = "2";
-  editedCabalFile = "0b7yp4ha7h2zgjhm36allq8s0a67mbk73ckx2al5d7vn1qcdm236";
+  revision = "3";
+  editedCabalFile = "0ngkcs7gzrmh1p24y2430jlgqb4z5fyd3069mp30zlbzhg0qvjkv";
   libraryHaskellDepends = [
     atomic-primops base containers deepseq directory exceptions
     fusion-plugin-types hashable heaps lockfree-queue monad-control mtl
