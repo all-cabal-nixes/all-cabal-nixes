@@ -13,6 +13,8 @@ mkDerivation {
   pname = "hs-bindgen";
   version = "1.0.0.0";
   sha256 = "daecb25e3ba7a5ba127f910f0c61a5557ff2a317c165a529e5cf3cdc3340f359";
+  revision = "1";
+  editedCabalFile = "1ncr85j7q2g1gr63cdxn5jjxfm913j9nizf22sa1i418afdhaxal";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
