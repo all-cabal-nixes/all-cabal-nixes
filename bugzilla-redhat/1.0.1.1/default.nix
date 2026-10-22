@@ -6,8 +6,8 @@ mkDerivation {
   pname = "bugzilla-redhat";
   version = "1.0.1.1";
   sha256 = "79df31cfc46a934796489eddd2b8ad332b4fad9f54e1a18fb7bc46fc0a6c434d";
-  revision = "8";
-  editedCabalFile = "0r008bj82nc2fq3ckp5j4gbhicbw954bh0wjpc9qq7c5f85p0cdq";
+  revision = "9";
+  editedCabalFile = "02ix3ygn65yg3zara5zhac2641cpfll9430bwavr0dz654slwc5f";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
