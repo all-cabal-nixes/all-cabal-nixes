@@ -7,6 +7,8 @@ mkDerivation {
   pname = "distributed-process";
   version = "0.7.10";
   sha256 = "8a15100cf83ecd7c5968423bfb47283cd8320b9d9f82845451d1b3623ca62157";
+  revision = "1";
+  editedCabalFile = "1jpnarnwvq2s21avr8pxaz603hanwd69m85ir418xqn25rbs5x3v";
   libraryHaskellDepends = [
     base binary bytestring containers data-accessor deepseq
     distributed-static exceptions hashable mtl network-transport random
