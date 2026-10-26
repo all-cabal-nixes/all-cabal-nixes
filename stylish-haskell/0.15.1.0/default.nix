@@ -8,6 +8,8 @@ mkDerivation {
   pname = "stylish-haskell";
   version = "0.15.1.0";
   sha256 = "2940d3bc75770d7402a6234604cf66b8d6c5b04c9ba410103eb3c8b2d771c61b";
+  revision = "1";
+  editedCabalFile = "09mzsl5i96wsisxk7xiirsg9ra6yzb1cwhsyy8znr2s02kbd2n32";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
