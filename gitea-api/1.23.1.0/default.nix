@@ -9,6 +9,8 @@ mkDerivation {
   pname = "gitea-api";
   version = "1.23.1.0";
   sha256 = "06f1a49e060537c433fcbd804e1242c0d9050ef8d2141917557f0348acd2d110";
+  revision = "1";
+  editedCabalFile = "1y2zxx62jcbgwch0w93bw60kn1xr876aw9ifcki87zk1glrcgk6c";
   libraryHaskellDepends = [
     aeson base base64-bytestring bytestring case-insensitive containers
     deepseq exceptions http-api-data http-client http-client-tls

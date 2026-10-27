@@ -5,6 +5,8 @@ mkDerivation {
   pname = "LPFP";
   version = "1.2.1";
   sha256 = "aee69d4e6edd49186f4c134b22c69fd092198c38438976a302276e12f8cc30b5";
+  revision = "1";
+  editedCabalFile = "1i4wsf30lhl95r2z6z25lzp99y8whgasimc4fpa5lj2rmpkqsyn3";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [
