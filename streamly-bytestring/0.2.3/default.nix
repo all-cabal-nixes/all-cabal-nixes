@@ -6,8 +6,8 @@ mkDerivation {
   pname = "streamly-bytestring";
   version = "0.2.3";
   sha256 = "36537b290aaedf217e82e0c0162c8417aabc6adebda35252989df7e310938bc8";
-  revision = "2";
-  editedCabalFile = "1d8ym3kf9fwaybl9ax0yhgncsmv691jrz3a8ln76ks3x1f9f9y0c";
+  revision = "3";
+  editedCabalFile = "0ciq3zj3jqj482xhgz2rwyin9hiwci8cm852s8yv254yv6dzhkdn";
   libraryHaskellDepends = [ base bytestring streamly-core ];
   testHaskellDepends = [
     base bytestring directory filepath hspec hspec-discover QuickCheck

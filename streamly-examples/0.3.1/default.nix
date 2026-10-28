@@ -7,8 +7,8 @@ mkDerivation {
   pname = "streamly-examples";
   version = "0.3.1";
   sha256 = "6da323f9da82f780eca5ea9eb08b750076c3226473a51b517e6efe563d9ccc79";
-  revision = "2";
-  editedCabalFile = "058g22caxdfk8jid8vj943f63i75y97ngkxi44429hfpl4h290dl";
+  revision = "3";
+  editedCabalFile = "1m9ciifsnzp84ah4l0jw3q7wcp6sxhicli0cgd2jny8fpf8rk7g8";
   isLibrary = false;
   isExecutable = true;
   executableHaskellDepends = [
