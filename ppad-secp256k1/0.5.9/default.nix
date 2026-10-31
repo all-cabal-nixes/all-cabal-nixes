@@ -1,0 +1,21 @@
+{ mkDerivation, aeson, attoparsec, base, bytestring, criterion
+, deepseq, lib, ppad-base16, ppad-fixed, ppad-hmac-drbg
+, ppad-sha256, primitive, tasty, tasty-hunit, text, weigh
+}:
+mkDerivation {
+  pname = "ppad-secp256k1";
+  version = "0.5.9";
+  sha256 = "d9c702dc3b4a930faecc523d9846900d4cedc65348068becb8ee2b93bd5ab192";
+  libraryHaskellDepends = [
+    base bytestring ppad-fixed ppad-hmac-drbg ppad-sha256 primitive
+  ];
+  testHaskellDepends = [
+    aeson attoparsec base bytestring ppad-base16 ppad-fixed ppad-sha256
+    tasty tasty-hunit text
+  ];
+  benchmarkHaskellDepends = [
+    base bytestring criterion deepseq ppad-base16 ppad-fixed weigh
+  ];
+  description = "Schnorr signatures, ECDSA, and ECDH on the elliptic curve secp256k1";
+  license = lib.meta.getLicenseFromSpdxId "MIT";
+}
