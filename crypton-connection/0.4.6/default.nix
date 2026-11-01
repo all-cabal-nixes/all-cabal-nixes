@@ -6,8 +6,8 @@ mkDerivation {
   pname = "crypton-connection";
   version = "0.4.6";
   sha256 = "d686b7855817ea8c4bc8def79b78bc24aef725973e82a8afd109d528c9c54034";
-  revision = "2";
-  editedCabalFile = "1mqxcxrzp7d9ilxhjff37dsxy2kvsakwv25mlrbv9wqqhvl8bfgq";
+  revision = "3";
+  editedCabalFile = "11kbbwhf5rlp4an70c00922fpmv6p79fxag9xix0ln3dlw0dqpwa";
   libraryHaskellDepends = [
     base bytestring containers crypton-socks crypton-x509-store
     crypton-x509-system data-default network tls
