@@ -6,6 +6,8 @@ mkDerivation {
   pname = "crypton";
   version = "2.2.4";
   sha256 = "6b3707a8a1207ab0ca747423027caf581aee858d691054cb3dc1e7e7f4dd3524";
+  revision = "1";
+  editedCabalFile = "08gvrgffbj4vhh5v4yr9fcx6y4xmiajm3bh00b48h6yav3igddbl";
   libraryHaskellDepends = [
     base base16 bytestring deepseq integer-gmp primitive ram text
   ];

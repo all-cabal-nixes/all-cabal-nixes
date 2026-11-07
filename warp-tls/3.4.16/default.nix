@@ -5,8 +5,8 @@ mkDerivation {
   pname = "warp-tls";
   version = "3.4.16";
   sha256 = "40c178d5148b80613b9997c06465bb4ea09d609307caf9a6ea3e8017040f3a86";
-  revision = "2";
-  editedCabalFile = "1936jzdxb8apvfgx8ycy220zl02s5raz83gvln6gickcnjdlc5lh";
+  revision = "3";
+  editedCabalFile = "15ia411i0qkpnrg3ily244dd73inyd0ha1s6j1frznj01iysxzf4";
   libraryHaskellDepends = [
     base bytestring network recv stm streaming-commons tls
     tls-session-manager wai warp

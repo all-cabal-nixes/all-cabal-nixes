@@ -7,6 +7,8 @@ mkDerivation {
   pname = "knead";
   version = "1.0.2";
   sha256 = "c0e1b1f185ecf5c13395d741f0698c2d17e3820188ef413f27247a1a0abfad98";
+  revision = "1";
+  editedCabalFile = "0dqriqnr9ngbmchz0j038crnh8idwyaghscipzqwcjwivi7v8xsi";
   libraryHaskellDepends = [
     base bool8 comfort-array fixed-length llvm-dsl llvm-extra llvm-tf
     prelude-compat storable-enum storable-record tagged tfp
