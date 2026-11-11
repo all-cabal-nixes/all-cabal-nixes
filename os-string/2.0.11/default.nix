@@ -6,6 +6,8 @@ mkDerivation {
   pname = "os-string";
   version = "2.0.11";
   sha256 = "54807410e65e0e97c71ee37eaa89ade9a656b5e27f435c214f1dd6eaad18d714";
+  revision = "1";
+  editedCabalFile = "0mkn91b6qikqr9xdq2a2087034im1y4cbzq8jxwxrqy4ayfsypql";
   libraryHaskellDepends = [
     base bytestring deepseq exceptions template-haskell
   ];

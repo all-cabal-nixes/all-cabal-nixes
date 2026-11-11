@@ -5,6 +5,8 @@ mkDerivation {
   pname = "apecs-roaring";
   version = "1.0";
   sha256 = "2c688680f2fd1ab09fc21846b4b0e539ce9e04cfb6bc4eb7123e93d4b564acb7";
+  revision = "1";
+  editedCabalFile = "0min5i6zxr0g8mm10bm43fr859k8gmkx2yw52p09sjsf6x5dyk1i";
   libraryHaskellDepends = [
     apecs base croaring-ffi primitive vector
   ];
