@@ -3,6 +3,8 @@ mkDerivation {
   pname = "ghc-trace-events";
   version = "0.1.2.10";
   sha256 = "f0823e1f86797e31703d965abf49af3a72021c4f01d10f11870734f2c2d47438";
+  revision = "1";
+  editedCabalFile = "0qq7j8vczvlxqid5cdnrjhr02vwzs12x7y5yfmj2bjbzjf82l3p4";
   libraryHaskellDepends = [ base bytestring text ];
   benchmarkHaskellDepends = [ base bytestring tasty-bench ];
   homepage = "https://github.com/maoe/ghc-trace-events";
