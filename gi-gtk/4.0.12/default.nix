@@ -3,8 +3,8 @@ mkDerivation {
   pname = "gi-gtk";
   version = "4.0.12";
   sha256 = "4abd375bf2f68092563cb5102ac18151df82fe367d16ba5e2d5d9857421fb418";
-  revision = "1";
-  editedCabalFile = "1hx1g5id63vfsmwlcw60fc2ngc11arpxkpcwpik6scaxybykqzhs";
+  revision = "2";
+  editedCabalFile = "0yiv59865b54xmi9h183wwkr0xcggr2zyspzld9fi7givg6qq60k";
   setupHaskellDepends = [ base Cabal gi-gtk4 haskell-gi ];
   libraryHaskellDepends = [ base gi-gtk4 ];
   homepage = "https://github.com/haskell-gi/haskell-gi";

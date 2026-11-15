@@ -12,6 +12,8 @@ mkDerivation {
   pname = "gitit";
   version = "0.16.1";
   sha256 = "0be36f263cd94e47fc01c3dfa4a5cbcb0634b1a171e2f7f4e2f039be7418fc52";
+  revision = "1";
+  editedCabalFile = "1ndw08g9yl8ip3c269w1a1x4bl9xdaylqwj81bvl69wlwrj0pg0l";
   isLibrary = true;
   isExecutable = true;
   enableSeparateDataOutput = true;
