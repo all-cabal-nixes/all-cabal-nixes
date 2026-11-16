@@ -8,6 +8,8 @@ mkDerivation {
   pname = "password";
   version = "3.1.1.0";
   sha256 = "06634913d4496be7fce8aa093451837a89ed1758e59cffa98bb893dc9f82fbd3";
+  revision = "1";
+  editedCabalFile = "0xachm1gxcrcmyv6ckigmws31d7cxny4wli6kmibdrwpqgmfxx1y";
   setupHaskellDepends = [ base Cabal cabal-doctest ];
   libraryHaskellDepends = [
     base base64 bytestring crypton password-types ram template-haskell
