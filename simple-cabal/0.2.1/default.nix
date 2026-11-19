@@ -4,6 +4,8 @@ mkDerivation {
   pname = "simple-cabal";
   version = "0.2.1";
   sha256 = "acbb1e74bd52ea6ae4af165363dc88e3e774d8fc1fc30ac167e63bbaca9c6aab";
+  revision = "1";
+  editedCabalFile = "0mk2l5rw3nkwygv0zm8bd7k9fbb37sahz83jss6b9mkhijfsb830";
   libraryHaskellDepends = [
     base bytestring Cabal directory filepath
   ];
