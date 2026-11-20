@@ -5,6 +5,8 @@ mkDerivation {
   pname = "tls-session-manager";
   version = "0.0.2.1";
   sha256 = "a410835ddc296613f0c4b9be57293a00a8a325b6d15e6dc0f56541e1a07afea6";
+  revision = "1";
+  editedCabalFile = "11wa5lhi9shyg9dqc9snywn5ww21vz2x9ddm19ypchbz0jn24si7";
   libraryHaskellDepends = [
     auto-update base basement bytestring clock memory psqueues tls
   ];
