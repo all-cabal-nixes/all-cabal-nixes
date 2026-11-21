@@ -8,6 +8,8 @@ mkDerivation {
   pname = "reflex-vty";
   version = "0.6.1.0";
   sha256 = "fc17065666f6b831d3b723b5a43bab59a38d7f34c9b294bac28abdf467c41d69";
+  revision = "1";
+  editedCabalFile = "1s69vagfkpfwmw0hvgvp2hwf6acy5xxzinqgs16hlilys0jazagb";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

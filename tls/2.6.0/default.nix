@@ -9,6 +9,8 @@ mkDerivation {
   pname = "tls";
   version = "2.6.0";
   sha256 = "9ff714010e707f46eb9eab7d9053a3b9d6b591a818bdaf6fe2d9936a04324995";
+  revision = "1";
+  editedCabalFile = "1s3igkx60fli21fixp0idkp1aqakbqymnqs3m9y6kg6yxr3kgrga";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

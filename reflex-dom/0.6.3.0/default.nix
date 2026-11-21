@@ -5,6 +5,8 @@ mkDerivation {
   pname = "reflex-dom";
   version = "0.6.3.0";
   sha256 = "cba36efa1d7528dea1b62c9dbe45bf3178db0016dc4f07e897c66b30755d95c8";
+  revision = "1";
+  editedCabalFile = "0i4aaywhksd0nslypr1pz75wdf9bxgxg8sagcg5di9nkbbvimc2c";
   isLibrary = true;
   isExecutable = true;
   libraryHaskellDepends = [

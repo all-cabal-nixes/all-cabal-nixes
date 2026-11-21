@@ -15,8 +15,8 @@ mkDerivation {
   pname = "reflex-dom-core";
   version = "0.8.0.0";
   sha256 = "12b405b79ae326982862cde310d8aa782d6fc95aa99af55200c4adca8f42f29f";
-  revision = "1";
-  editedCabalFile = "0ysr37d3paqjgbri8xk98w1a98pdq8ak1p1ddn2dayvk1w2s8q9c";
+  revision = "2";
+  editedCabalFile = "0gsyrjbdv82ac3j9lp5m2avcspqiwfr2kwd6k5xp8rccsqda1sxn";
   libraryHaskellDepends = [
     aeson base bifunctors bimap blaze-builder bytestring
     case-insensitive commutative-semigroups constraints containers
